@@ -1,1 +1,1 @@
-# LeetCode
+# LeetCode exercises by Michael Ming
