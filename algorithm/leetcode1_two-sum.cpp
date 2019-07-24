@@ -1,3 +1,4 @@
+//暴力查找
 class Solution 
 {
 public:
