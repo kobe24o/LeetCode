@@ -24,7 +24,7 @@ public:
             return;
         if(n == 1)
             maxSum = nums[0];
-        for(int i = i0+1; i < n; ++i)
+        for(int i = i0; i < n; ++i)
         {
             if(nums[i] >= 0 && curSum >= 0)
             {
