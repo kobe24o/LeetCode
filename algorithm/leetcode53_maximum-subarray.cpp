@@ -6,6 +6,7 @@
  */
 #include <vector>
 #include <iostream>
+#include <memory.h>
 
 using namespace std;
 class Solution
@@ -13,35 +14,39 @@ class Solution
 public:
     int maxSubArray(vector<int>& nums)
     {
-        int i, n = nums.size();
-        int states[n];
-        states[0] = nums[0];
-        for(i = 1; i < nums.size(); ++i)
+        int maxSum = INT_MIN, n = nums.size();
+        maxSubsum(nums,n,0,nums[0],maxSum);
+        return maxSum;
+    }
+    void maxSubsum(vector<int>& nums, int &n, int i0, int curSum, int &maxSum)
+    {
+        if(i0 == n)
+            return;
+        if(n == 1)
+            maxSum = nums[0];
+        for(int i = i0+1; i < n; ++i)
         {
-            if(states[i-1] + nums[i] >= states[i-1])
+            if(nums[i] >= 0 && curSum >= 0)
             {
-                if(states[i-1]+nums[i] > nums[i])
-                    states[i] = states[i-1]+nums[i];
-                else
-                    states[i] = nums[i];
+                curSum += nums[i];
+                if(curSum > maxSum)
+                    maxSum = curSum;
             }
             else
-                states[i] = nums[i];
+            {
+                curSum = nums[i];
+                if(curSum > maxSum)
+                    maxSum = curSum;
+                maxSubsum(nums,n,i,nums[i],maxSum);
+            }
         }
-        int maxlen = 0;
-        for(i = 0; i < nums.size(); ++i)
-        {
-            if(states[i] > maxlen)
-                maxlen = states[i];
-        }
-        return maxlen;
     }
 };
 
 int main()
 {
-    int arr[9] = {-2,1,-3,4,-1,2,1,-5,4};
-    vector<int> nums(arr,arr+9);
+    int arr[2] = {-2,1};
+    vector<int> nums(arr,arr+2);
     Solution s;
     cout << s.maxSubArray(nums);
 }
