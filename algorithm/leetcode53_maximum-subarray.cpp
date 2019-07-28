@@ -14,39 +14,20 @@ class Solution
 public:
     int maxSubArray(vector<int>& nums)
     {
-        int maxSum = INT_MIN, n = nums.size();
-        maxSubsum(nums,n,0,nums[0],maxSum);
-        return maxSum;
-    }
-    void maxSubsum(vector<int>& nums, int &n, int i0, int curSum, int &maxSum)
-    {
-        if(i0 == n)
-            return;
-        if(n == 1)
-            maxSum = nums[0];
-        for(int i = i0; i < n; ++i)
+        int maxSumOfArr = INT_MIN, maxsum = 0;
+        for(int i = 0; i < nums.size(); ++i)
         {
-            if(nums[i] >= 0 && curSum >= 0)
-            {
-                curSum += nums[i];
-                if(curSum > maxSum)
-                    maxSum = curSum;
-            }
-            else
-            {
-                curSum = nums[i];
-                if(curSum > maxSum)
-                    maxSum = curSum;
-                maxSubsum(nums,n,i,nums[i],maxSum);
-            }
+            maxsum = max(nums[i],maxsum+nums[i]);
+            maxSumOfArr = max(maxSumOfArr, maxsum);
         }
+        return maxSumOfArr;
     }
 };
 
 int main()
 {
-    int arr[2] = {-2,1};
-    vector<int> nums(arr,arr+2);
+    int arr[9] = {-2,1,-3,4,-1,2,1,-5,4};
+    vector<int> nums(arr,arr+9);
     Solution s;
     cout << s.maxSubArray(nums);
 }
