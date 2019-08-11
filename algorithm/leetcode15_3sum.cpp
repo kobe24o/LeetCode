@@ -1,4 +1,7 @@
-class Solution 
+#include <vector>
+#include <algorithm>
+using namespace std;
+class Solution
 {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) 
@@ -13,6 +16,8 @@ public:
     	{
     		if(nums[i] > 0)
     			break;
+    		if(i > 0 && nums[i-1] == nums[i])
+                continue;
     		left = i+1, right = n-1;
     		while(left < right)
     		{
@@ -26,13 +31,13 @@ public:
     				ans.push_back(vector<int> {nums[i], nums[left], nums[right]});
     				templeft = nums[left];
     				tempright = nums[right];
-    				while(left+1 < right && templeft == nums[++left])
+    				while(left < right && templeft == nums[++left])
     				{
-    					templeft = nums[left];
+
     				}
-    				while(left < right-1 && tempright == nums[--right])
+    				while(left < right && tempright == nums[--right])
     				{
-    					tempright = nums[right];
+
     				}
     			}
     		}
@@ -40,3 +45,11 @@ public:
     	return ans;
     }
 };
+int main()
+{
+    int nums[] = {-1, 0, 1, 2, -1, -4};
+    vector<int> vec(nums,nums+6);
+    Solution s;
+    s.threeSum(vec);
+    return 0;
+}
