@@ -6,9 +6,12 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
-class Solution {
+class Solution 
+{
 public:
-    ListNode* mergeKLists(vector<ListNode*>& lists) {
+    ListNode* mergeKLists(vector<ListNode*>& lists) 
+    {
+        int k = lists.size();
         
     }
 };
