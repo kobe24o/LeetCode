@@ -20,13 +20,13 @@ public:
     };
     ListNode* mergeKLists(vector<ListNode*>& lists)
     {
-        int k = lists.size();
         priority_queue<ListNode*, vector<ListNode*>, cmp> queue;
         ListNode *head = new ListNode(0);
         ListNode *temp = head, *topNext;
-        for(int i = 0; i < k; ++i)
+        for(int i = 0; i < lists.size(); ++i)
         {
-            queue.push(lists[i]);
+            if(lists[i])
+                queue.push(lists[i]);
         }
         while(!queue.empty())
         {
