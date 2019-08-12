@@ -8,28 +8,35 @@ struct ListNode
     ListNode *next;
     ListNode(int x) : val(x), next(NULL) {}
 };
-class Solution 
+class Solution
 {
 public:
-	struct cmp
+    struct cmp
     {
-    	bool operator()(ListNode *a, ListNode *b)
-    	{
-    		return a->val > b->val;
-    	}
+        bool operator()(ListNode *a, ListNode *b)
+        {
+            return a->val > b->val;
+        }
     };
-    ListNode* mergeKLists(vector<ListNode*>& lists) 
+    ListNode* mergeKLists(vector<ListNode*>& lists)
     {
         int k = lists.size();
         priority_queue<ListNode*, vector<ListNode*>, cmp> queue;
         ListNode *head = new ListNode(0);
+        ListNode *temp = head, *topNext;
         for(int i = 0; i < k; ++i)
         {
-        	queue.push(lists[i]);
+            queue.push(lists[i]);
         }
         while(!queue.empty())
         {
-        	queue.
+            temp->next = new ListNode(queue.top()->val);
+            temp = temp->next;
+            topNext = queue.top()->next;
+            queue.pop();
+            if(topNext)
+                queue.push(topNext);
         }
+        return head->next;
     }
 };
