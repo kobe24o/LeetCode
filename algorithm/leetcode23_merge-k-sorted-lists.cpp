@@ -9,16 +9,24 @@
 class Solution 
 {
 public:
+	struct cmp
+    {
+    	bool operator()(ListNode *a, ListNode *b)
+    	{
+    		return a->val > b->val;
+    	}
+    }
     ListNode* mergeKLists(vector<ListNode*>& lists) 
     {
         int k = lists.size();
-        struct cmp
+        priority_queue<ListNode*, vector<ListNode*>, cmp> queue;
+        for(int i = 0; i < k; ++i)
         {
-        	bool operator()(ListNode *a, ListNode *b)
-        	{
-        		return a->val > b->val;
-        	}
+        	queue.push_back(lists[i]);
         }
-        
+        while(!queue.empty())
+        {
+        	
+        }
     }
 };
