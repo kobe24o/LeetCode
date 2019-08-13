@@ -16,6 +16,7 @@ public:
     {
         int count = 0, maxlen = 0;
         stack<int> stk;
+        stk.push(-1);
         for(int i = 0; i < s.size(); ++i)
         {
             if(s[i] == '(')
@@ -24,15 +25,15 @@ public:
             }
             else    // s[i] == ')'
             {
+                stk.pop();
                 if(!stk.empty())
                 {
-                    count = (i-stk.top()+1);
-                    stk.pop();
+                    count = i-stk.top();
                     if(count > maxlen)
                         maxlen = count;
                 }
                 else
-                    count = 0;
+                    stk.push(i);
             }
         }
         return maxlen;
@@ -41,7 +42,7 @@ public:
 int main()
 {
     Solution slo;
-    string str = "()(())";
+    string str = "())(())";
     cout << slo.longestValidParentheses(str);
     return 0;
 }
