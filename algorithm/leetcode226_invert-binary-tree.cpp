@@ -35,8 +35,8 @@ public:
             {
                 q.push(temp->left);
                 q.push(temp->right);
+                swap(temp->left, temp->right);
             }
-            swap(temp->left, temp->right);
             q.pop();
         }
         return root;
