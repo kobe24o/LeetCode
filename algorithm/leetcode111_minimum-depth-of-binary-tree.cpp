@@ -12,9 +12,9 @@ public:
     	{
     		height++;
     		if(root->left)
-            	calcTreeDepth(root->left, height, mincount);
+            	calMinDepth(root->left, height, mincount);
            	if(root->right)
-               	calcTreeDepth(root->right, height, mincount);
+               	calMinDepth(root->right, height, mincount);
     	}
     	else
     	{
