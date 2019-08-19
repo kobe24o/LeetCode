@@ -41,6 +41,8 @@ class Solution//BFS
 public:
     int numIslands(vector<vector<char>>& grid)
     {
+        if(grid.empty())
+            return 0;
         int i, j, r, c, numofislands = 0;
         int x = grid.size(), y = grid[0].size();
         queue<pair<int,int> > q;
@@ -51,21 +53,34 @@ public:
                 if(grid[i][j] == '1')
                 {
                     numofislands++;
+                    grid[i][j] = '0';
                     q.push({i,j});
                     while(!q.empty())
                     {
                         r = q.front().first;
                         c = q.front().second;
-                        grid[r][c] = '0';//标记走过了，修改了地图（不影响解题）
+                        //grid[r][c] = '0';//标记走过了(不要写在这里，否则，会重复检查很多遍)
                         q.pop();
                         if(r-1 >= 0 && grid[r-1][c] == '1')
+                        {
                             q.push({r-1,c});
+                            grid[r-1][c] = '0';//写在这里，找到了就马上第一时间标记
+                        }
                         if(c-1 >= 0 && grid[r][c-1] == '1')
+                        {
                             q.push({r,c-1});
+                            grid[r][c-1] = '0';
+                        }
                         if(r+1 < x && grid[r+1][c] == '1')
+                        {
                             q.push({r+1,c});
+                            grid[r+1][c] = '0';
+                        }
                         if(c+1 < y && grid[r][c+1] == '1')
+                        {
                             q.push({r,c+1});
+                            grid[r][c+1] = '0';
+                        }
                     }
                 }
             }
