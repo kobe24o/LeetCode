@@ -36,33 +36,27 @@ using namespace std;
 //    }
 //};
 
-class Solution
-{
+class Solution {
 public:
-    int coinChange(vector<int>& coins, int amount)
-    {
+    int coinChange(vector<int>& coins, int amount) {
         if(amount < 1)
             return 0;
-        int *states = new int [amount+1];
-        int n = amount/coins[0]+1, i, j, k;
-        memset(states, INT_MAX, sizeof(states)*(amount+1));
-//        for(i = 0; i < coins.size(); ++i)
-//            states[coins[i]] = 1;
-        for(i = 0; i < n; ++i)
+        int states[amount+1];
+        int i, j;
+        for(i = 0; i <= amount; ++i)
+            states[i] = amount+1;//找i元钱，不可能需要amount+1张
+        states[0] = 0;
+        for(i = 0; i <= amount; ++i)
         {
-            for(j = amount; j >= 0; --j)
+            for(j = 0; j < coins.size(); ++j)
             {
-                if(states[j] != INT_MAX)
+                if(i-coins[j] >= 0 && states[i] > states[i-coins[j]]+1)
                 {
-                    for(k = 0; k < coins.size(); ++k)
-                    {
-                        if(j+coins[k] <= amount && states[j+coins[k]] > states[j]+1)
-                            states[j+coins[k]] = states[j]+1;
-                    }
+                    states[i] = states[i-coins[j]]+1;
                 }
             }
         }
-        if(states[amount] != INT_MAX)
+        if(states[amount] != amount+1)
             return states[amount];
         else
             return -1;
@@ -70,8 +64,8 @@ public:
 };
 int main()
 {
-    vector<int> coins = {1,2,3};
+    vector<int> coins = {2};
     Solution s;
-    cout << s.coinChange(coins,6);
+    cout << s.coinChange(coins,3);
     return 0;
 }
