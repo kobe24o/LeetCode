@@ -1,33 +1,43 @@
 #include <vector>
 #include <algorithm>
+#include <queue>
 using namespace std;
 class Solution {
 public:
-	static bool comp(vector<int> &a, vector<int> &b)
-	{
-		return a[0] <= b[0];
-	}
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
-    	if(intervals.empty())
-    		return {};
-        sort(intervals.begin(), intervals.end(), comp);
-        vector<vector<int>> ans(intervals.size());
-        int left = intervals[0][0], right = intervals[0][1];
-        int n = intervals.size();
-        for(int i=1; i < n; ++i)
-        {   
-        	if(intervals[i][0] <= right)
-        		right = max(right, intervals[i][1]);
-        	else
-        	{
-        		ans.push_back({left,right});
-        		left = intervals[i][0];
-        		right = intervals[i][1];
-        	}
+        if(intervals.empty())
+            return {};
+        priority_queue<vector<int>,vector<vector<int> >, cmp> q;
+        for(auto it = intervals.begin(); it != intervals.end(); ++it)
+        {
+            q.push(*it);
+        }
+        vector<vector<int>> ans;
+        int left = q.top()[0], right = q.top()[1];
+        q.pop();
+        while(!q.empty())
+        {
+
+            if(q.top()[0] <= right)
+                right = max(right, q.top()[1]);
+            else
+            {
+                ans.push_back({left,right});
+                left = q.top()[0];
+                right = q.top()[1];
+            }
+            q.pop();
         }
         ans.push_back({left,right});
         return ans;
     }
+    struct cmp
+    {
+        bool operator()(vector<int> &a, vector<int> &b)
+        {
+            return a[0] > b[0];
+        }
+    };
 };
 int main()
 {
