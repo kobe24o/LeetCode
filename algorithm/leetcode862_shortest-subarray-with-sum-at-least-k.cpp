@@ -3,7 +3,7 @@
 #include <iostream>
 
 using namespace std;
-class Solution {
+class Solution {//未作答
 public:
     int shortestSubarray(vector<int>& A, int K) {
     	if(A.empty())
