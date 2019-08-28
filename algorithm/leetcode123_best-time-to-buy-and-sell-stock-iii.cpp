@@ -1,3 +1,7 @@
+#include <vector>
+#include <iostream>
+
+using namespace std;
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -43,6 +47,6 @@ int main()
 {
 	vector<int> prices = {1,2,4,2,5,7,2,4,9,0};
 	Solution s;
-	std::cout << s.maxProfit(prices);
+	cout << s.maxProfit(prices);
 	return 0;
 }
