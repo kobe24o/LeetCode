@@ -14,9 +14,17 @@ public:
         {
             fast = fast->next->next;
             slow = slow->next;
-            if(fast && fast == slow)
-                return true;
+            if(fast == slow)
+                break;
         }
-        return false;
+        if(!fast)//fast == NULL
+            return NULL;
+        fast = head;
+        while(fast != slow)
+        {
+            fast = fast->next;
+            slow = slow->next;
+        }
+        return fast;
     }
 };
