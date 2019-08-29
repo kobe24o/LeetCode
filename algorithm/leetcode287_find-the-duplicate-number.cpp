@@ -20,6 +20,29 @@ public:
 class Solution {//set solution
 public:
     int findDuplicate(vector<int>& nums) {
-        
+    	set<int> s;
+        for(int i = 0; i < nums.size(); ++i)
+        {
+            if(s.find(nums[i]) == s.end())
+                s.insert(nums[i]);
+            else
+                return nums[i];
+        }
+        return -1;
+    }
+};
+
+class Solution {//O(1)复杂度
+public:
+    int findDuplicate(vector<int>& nums) {
+    	int a = nums[0], b;
+        for(int i = 0; i < nums.size(); ++i)
+        {
+            b = nums[a];
+            if(a == b)
+            	return a;
+            a = nums[b];
+        }
+        return -1;
     }
 };
