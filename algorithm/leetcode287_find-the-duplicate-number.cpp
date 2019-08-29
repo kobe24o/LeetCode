@@ -35,14 +35,19 @@ public:
 class Solution {//O(1)复杂度
 public:
     int findDuplicate(vector<int>& nums) {
-    	int a = nums[0], b;
-        for(int i = 0; i < nums.size(); ++i)
+    	int fast = nums[0], slow = nums[0];
+        do
         {
-            b = nums[a];
-            if(a == b)
-            	return a;
-            a = nums[b];
+            fast = nums[nums[fast]];
+            slow = nums[slow];
         }
-        return -1;
+        while(fast != slow);
+        fast = nums[0];
+        while(fast != slow)
+        {
+            fast = nums[fast];
+            slow = nums[slow];
+        }
+        return fast;
     }
 };
