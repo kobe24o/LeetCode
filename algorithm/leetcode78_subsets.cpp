@@ -19,3 +19,24 @@ public:
     	bt(nums, sub, ans, i+1);//加入nums[i]
     }
 };
+
+class Solution {
+public:
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<int> sub;
+        vector<vector<int>> ans;
+        ans.push_back({});
+        int n, i, j;
+        for(i = 0; i < nums.size(); ++i)
+        {
+        	n = ans.size();
+        	for(j = 0; j < n; ++j)
+        	{
+        		sub = ans[j];
+        		sub.push_back(nums[i]);
+        		ans.push_back(sub);
+        	}
+        }
+        return ans;
+    }
+};
