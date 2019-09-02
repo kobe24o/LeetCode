@@ -25,7 +25,16 @@ public:
         int count = len-k-1;
         while(count--)
         {
-            
+            tmp = tmp->next;
         }
+        ListNode *newHead = tmp->next;
+        tmp->next = NULL;
+        tmp = newHead;
+        while(tmp->next)
+        {
+            tmp = tmp->next;
+        }
+        tmp->next = head;
+        return newHead;
     }
 };
