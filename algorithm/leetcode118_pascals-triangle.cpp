@@ -22,7 +22,7 @@ public:
         {
         	row.clear();
         	row.push_back(1);
-        	for(j = 1; j < ans[i-1].size()-1; ++j)
+        	for(j = 1; j < ans[i-1].size(); ++j)
         	{
         		sum = ans[i-1][j-1] + ans[i-1][j];
         		row.push_back(sum);
