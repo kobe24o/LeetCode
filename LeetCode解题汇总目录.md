@@ -60,6 +60,8 @@
 | [LeetCode 173. 二叉搜索树迭代器（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100549417) |      |
 | [LeetCode 200. 岛屿数量（图的遍历）](https://blog.csdn.net/qq_21201267/article/details/99775387) |      |
 | [LeetCode 206. 反转链表](https://blog.csdn.net/qq_21201267/article/details/100171825) |      |
+| [LeetCode 217. 存在重复元素（哈希）](https://blog.csdn.net/qq_21201267/article/details/100587491) |      |
+| [LeetCode 219. 存在重复元素 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/100587915) |      |
 | [LeetCode 221. 最大正方形（DP）](https://blog.csdn.net/qq_21201267/article/details/100027699) |      |
 | [LeetCode 226. 翻转二叉树（DFS & BFS）](https://blog.csdn.net/qq_21201267/article/details/99675950) |      |
 | [LeetCode 230. 二叉搜索树中第K小的元素（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100530272) |      |
@@ -79,6 +81,7 @@
 | [LeetCode 617. 合并二叉树](https://blog.csdn.net/qq_21201267/article/details/100569367) |      |
 | [LeetCode 641. 设计循环双端队列](https://blog.csdn.net/qq_21201267/article/details/99496486) |      |
 | [LeetCode 645. 错误的集合](https://blog.csdn.net/qq_21201267/article/details/100148227) |      |
+| [LeetCode 654. 最大二叉树（递归）](https://blog.csdn.net/qq_21201267/article/details/100586036) |      |
 | [LeetCode 671. 二叉树中第二小的节点](https://blog.csdn.net/qq_21201267/article/details/100550016) |      |
 | [LeetCode 674. 最长连续递增序列](https://blog.csdn.net/qq_21201267/article/details/98262871) |      |
 | [LeetCode 771. 宝石与石头（哈希）](https://blog.csdn.net/qq_21201267/article/details/100563578) |      |
