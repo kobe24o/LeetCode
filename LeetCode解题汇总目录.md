@@ -27,6 +27,7 @@
 | [LeetCode 61. 旋转链表](https://blog.csdn.net/qq_21201267/article/details/100355678) |      |
 | [LeetCode 62. 不同路径（DP）](https://blog.csdn.net/qq_21201267/article/details/100148537) |      |
 | [LeetCode 64. 最小路径和（DP）](https://blog.csdn.net/qq_21201267/article/details/100025545) |      |
+| [LeetCode 69. x 的平方根（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100585531) |      |
 | [LeetCode 70. 爬楼梯（动态规划）](https://blog.csdn.net/qq_21201267/article/details/98478956) |      |
 | [LeetCode 78. 子集（回溯）](https://blog.csdn.net/qq_21201267/article/details/100148996) |      |
 | [LeetCode 88. 合并两个有序数组](https://blog.csdn.net/qq_21201267/article/details/100056086) |      |
@@ -72,6 +73,7 @@
 | [LeetCode 292. Nim 游戏](https://blog.csdn.net/qq_21201267/article/details/100178975) |      |
 | [LeetCode 300. 最长上升子序列](https://blog.csdn.net/qq_21201267/article/details/97308533) |      |
 | [LeetCode 322. 零钱兑换（DP）](https://blog.csdn.net/qq_21201267/article/details/99894804) |      |
+| [LeetCode 344. 反转字符串](https://blog.csdn.net/qq_21201267/article/details/100585634) | easy |
 | [LeetCode 535. TinyURL 的加密与解密（哈希）](https://blog.csdn.net/qq_21201267/article/details/100565409) |      |
 | [LeetCode 557. 反转字符串中的单词 III（栈）](https://blog.csdn.net/qq_21201267/article/details/100436745) |      |
 | [LeetCode 617. 合并二叉树](https://blog.csdn.net/qq_21201267/article/details/100569367) |      |
@@ -80,8 +82,11 @@
 | [LeetCode 671. 二叉树中第二小的节点](https://blog.csdn.net/qq_21201267/article/details/100550016) |      |
 | [LeetCode 674. 最长连续递增序列](https://blog.csdn.net/qq_21201267/article/details/98262871) |      |
 | [LeetCode 771. 宝石与石头（哈希）](https://blog.csdn.net/qq_21201267/article/details/100563578) |      |
+| [LeetCode 807. 保持城市天际线](https://blog.csdn.net/qq_21201267/article/details/100585707) |      |
 | [LeetCode 814. 二叉树剪枝（递归）](https://blog.csdn.net/qq_21201267/article/details/100566646) |      |
+| [LeetCode 832. 翻转图像（异或^）](https://blog.csdn.net/qq_21201267/article/details/100585771) |      |
 | [LeetCode 977. 有序数组的平方](https://blog.csdn.net/qq_21201267/article/details/100057616) |      |
 | [LeetCode 986. 区间列表的交集](https://blog.csdn.net/qq_21201267/article/details/100058783) |      |
 | [LeetCode 1008. 先序遍历构造二叉树（已知先序，求二叉搜索树）](https://blog.csdn.net/qq_21201267/article/details/100568701) |      |
+| [LeetCode 1108. IP 地址无效化](https://blog.csdn.net/qq_21201267/article/details/100585842) |      |
 
