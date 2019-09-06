@@ -1,9 +1,9 @@
-此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找，一起刷题，一起PK交流！
+此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找，一起刷题，一起PK交流！Updated on 2019.9.6
 
 
 
 | 已解题目                                                     | 考点 |
-| ------------------------------------------------------------ | ---- |
+| :------------------------------------------------------------ | ---- |
 | [LeetCode 1. 两数之和（哈希）](https://blog.csdn.net/qq_21201267/article/details/97125420) |      |
 | [LeetCode 2. 两数相加（单链表反转）](https://blog.csdn.net/qq_21201267/article/details/97191786) |      |
 | [LeetCode 9. 回文数](https://blog.csdn.net/qq_21201267/article/details/100168231) |      |
