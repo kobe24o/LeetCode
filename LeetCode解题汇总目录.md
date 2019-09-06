@@ -6,8 +6,8 @@
 | :----------------------------------------------------------- | ---- |
 | [LeetCode 1. 两数之和（哈希）](https://blog.csdn.net/qq_21201267/article/details/97125420) |      |
 | [LeetCode 2. 两数相加（单链表反转）](https://blog.csdn.net/qq_21201267/article/details/97191786) |      |
-| [LeetCode 7. 整数反转](https://mp.csdn.net/postedit/100583336) |      |
-| [LeetCode 8. 字符串转换整数 (atoi)](https://mp.csdn.net/postedit/100583821) |      |
+| [LeetCode 7. 整数反转](https://blog.csdn.net/qq_21201267/article/details/100583336) |      |
+| [LeetCode 8. 字符串转换整数 (atoi)](https://blog.csdn.net/qq_21201267/article/details/100583821) |      |
 | [LeetCode 9. 回文数](https://blog.csdn.net/qq_21201267/article/details/100168231) |      |
 | [LeetCode 11. 盛最多水的容器（双指针）](https://blog.csdn.net/qq_21201267/article/details/100545403) |      |
 | [LeetCode 15. 三数之和](https://blog.csdn.net/qq_21201267/article/details/99241741) |      |
@@ -23,7 +23,7 @@
 | [LeetCode 47. 全排列 II（回溯+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100110853) |      |
 | [LeetCode 53. 最大子序和（动态规划）](https://blog.csdn.net/qq_21201267/article/details/97559470) |      |
 | [LeetCode 56. 合并区间（优先队列）](https://blog.csdn.net/qq_21201267/article/details/100082338) |      |
-| [LeetCode 59. 螺旋矩阵 II](https://blog.csdn.net/qq_21201267/article/details/100395555) |      |
+| [LeetCode 59. 螺旋矩阵 II && LeetCode 54. 螺旋矩阵](https://blog.csdn.net/qq_21201267/article/details/100395555) |      |
 | [LeetCode 61. 旋转链表](https://blog.csdn.net/qq_21201267/article/details/100355678) |      |
 | [LeetCode 62. 不同路径（DP）](https://blog.csdn.net/qq_21201267/article/details/100148537) |      |
 | [LeetCode 64. 最小路径和（DP）](https://blog.csdn.net/qq_21201267/article/details/100025545) |      |
