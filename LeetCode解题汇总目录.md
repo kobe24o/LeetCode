@@ -62,6 +62,7 @@
 | [LeetCode 206. 反转链表](https://blog.csdn.net/qq_21201267/article/details/100171825) |      |
 | [LeetCode 217. 存在重复元素（哈希）](https://blog.csdn.net/qq_21201267/article/details/100587491) |      |
 | [LeetCode 219. 存在重复元素 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/100587915) |      |
+| [LeetCode 220. 存在重复元素 III（lower_bound）](https://blog.csdn.net/qq_21201267/article/details/100601000) |      |
 | [LeetCode 221. 最大正方形（DP）](https://blog.csdn.net/qq_21201267/article/details/100027699) |      |
 | [LeetCode 226. 翻转二叉树（DFS & BFS）](https://blog.csdn.net/qq_21201267/article/details/99675950) |      |
 | [LeetCode 230. 二叉搜索树中第K小的元素（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100530272) |      |
