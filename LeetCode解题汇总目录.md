@@ -1,6 +1,6 @@
-此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.6
+此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.7
 
-**已解决 87/1162** - **简单 38** **中等 43** **困难 6**
+**已解决 94/1162** - **简单 41** **中等 47** **困难 6**
 
 | 已解题目                                                     | 考点 |
 | :----------------------------------------------------------- | ---- |
@@ -89,6 +89,8 @@
 | [LeetCode 807. 保持城市天际线](https://blog.csdn.net/qq_21201267/article/details/100585707) |      |
 | [LeetCode 814. 二叉树剪枝（递归）](https://blog.csdn.net/qq_21201267/article/details/100566646) |      |
 | [LeetCode 832. 翻转图像（异或^）](https://blog.csdn.net/qq_21201267/article/details/100585771) |      |
+| [LeetCode 938. 二叉搜索树的范围和（二叉树遍历+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100609270) |      |
+| [LeetCode 950. 按递增顺序显示卡牌（deque）](https://blog.csdn.net/qq_21201267/article/details/100608442) |      |
 | [LeetCode 977. 有序数组的平方](https://blog.csdn.net/qq_21201267/article/details/100057616) |      |
 | [LeetCode 986. 区间列表的交集](https://blog.csdn.net/qq_21201267/article/details/100058783) |      |
 | [LeetCode 1008. 先序遍历构造二叉树（已知先序，求二叉搜索树）](https://blog.csdn.net/qq_21201267/article/details/100568701) |      |
