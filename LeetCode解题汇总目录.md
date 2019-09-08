@@ -1,6 +1,6 @@
 此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.7
 
-**已解决 94/1162** - **简单 41** **中等 47** **困难 6**
+**已解决 101/1162** - **简单 47** **中等 48** **困难 6**
 
 | 已解题目                                                     | 考点 |
 | :----------------------------------------------------------- | ---- |
@@ -98,6 +98,8 @@
 | [LeetCode 986. 区间列表的交集](https://blog.csdn.net/qq_21201267/article/details/100058783) |      |
 | [LeetCode 1008. 先序遍历构造二叉树（已知先序，求二叉搜索树）](https://blog.csdn.net/qq_21201267/article/details/100568701) |      |
 | [LeetCode 1021. 删除最外层的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/100611450) |      |
+| [LeetCode 1051. 高度检查器](https://blog.csdn.net/qq_21201267/article/details/100635273) |      |
+| [LeetCode 1079. 活字印刷（回溯）](https://blog.csdn.net/qq_21201267/article/details/100644009) |      |
 | [LeetCode 1094. 拼车](https://blog.csdn.net/qq_21201267/article/details/100604925) |      |
 | [LeetCode 1108. IP 地址无效化](https://blog.csdn.net/qq_21201267/article/details/100585842) |      |
 | [LeetCode 1175. 质数排列](https://blog.csdn.net/qq_21201267/article/details/100612707) |      |
