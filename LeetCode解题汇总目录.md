@@ -1,6 +1,6 @@
-此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.7
+此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.9
 
-**已解决 101/1162** - **简单 47** **中等 48** **困难 6**
+**已解决 108/1170** - **简单 51** **中等 51** **困难 6**
 
 | 已解题目                                                     | 考点 |
 | :----------------------------------------------------------- | ---- |
@@ -18,6 +18,7 @@
 | [LeetCode 32. 最长有效括号（栈&DP）](https://blog.csdn.net/qq_21201267/article/details/99479252) |      |
 | [LeetCode 35. 搜索插入位置（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100419471) |      |
 | [LeetCode 36. 有效的数独（哈希）](https://blog.csdn.net/qq_21201267/article/details/99888173) |      |
+| [LeetCode 39. 组合总和（回溯）](https://blog.csdn.net/qq_21201267/article/details/100678859) |      |
 | [LeetCode 41. 缺失的第一个正数](https://blog.csdn.net/qq_21201267/article/details/99253353) |      |
 | [LeetCode 46. 全排列（回溯）](https://blog.csdn.net/qq_21201267/article/details/100110156) |      |
 | [LeetCode 47. 全排列 II（回溯+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100110853) |      |
@@ -79,6 +80,7 @@
 | [LeetCode 344. 反转字符串](https://blog.csdn.net/qq_21201267/article/details/100585634) | easy |
 | [LeetCode 461. 汉明距离（异或^ 与&）](https://blog.csdn.net/qq_21201267/article/details/100632232) |      |
 | [LeetCode 500. 键盘行](https://blog.csdn.net/qq_21201267/article/details/100674362) |      |
+| [LeetCode 513. 找树左下角的值（按层遍历 queue）](https://blog.csdn.net/qq_21201267/article/details/100677982) |      |
 | [LeetCode 535. TinyURL 的加密与解密（哈希）](https://blog.csdn.net/qq_21201267/article/details/100565409) |      |
 | [LeetCode 557. 反转字符串中的单词 III（栈）](https://blog.csdn.net/qq_21201267/article/details/100436745) |      |
 | [LeetCode 617. 合并二叉树](https://blog.csdn.net/qq_21201267/article/details/100569367) |      |
@@ -88,12 +90,14 @@
 | [LeetCode 657. 机器人能否返回原点](https://blog.csdn.net/qq_21201267/article/details/100632672) |      |
 | [LeetCode 671. 二叉树中第二小的节点](https://blog.csdn.net/qq_21201267/article/details/100550016) |      |
 | [LeetCode 674. 最长连续递增序列](https://blog.csdn.net/qq_21201267/article/details/98262871) |      |
+| [LeetCode 763. 划分字母区间](https://blog.csdn.net/qq_21201267/article/details/100677335) |      |
 | [LeetCode 771. 宝石与石头（哈希）](https://blog.csdn.net/qq_21201267/article/details/100563578) |      |
 | [LeetCode 804. 唯一摩尔斯密码词（哈希+set）](https://blog.csdn.net/qq_21201267/article/details/100630347) |      |
 | [LeetCode 807. 保持城市天际线](https://blog.csdn.net/qq_21201267/article/details/100585707) |      |
 | [LeetCode 814. 二叉树剪枝（递归）](https://blog.csdn.net/qq_21201267/article/details/100566646) |      |
 | [LeetCode 832. 翻转图像（异或^）](https://blog.csdn.net/qq_21201267/article/details/100585771) |      |
 | [LeetCode 938. 二叉搜索树的范围和（二叉树遍历+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100609270) |      |
+| [LeetCode 944. 删列造序](https://blog.csdn.net/qq_21201267/article/details/100675384) |      |
 | [LeetCode 950. 按递增顺序显示卡牌（deque）](https://blog.csdn.net/qq_21201267/article/details/100608442) |      |
 | [LeetCode 977. 有序数组的平方](https://blog.csdn.net/qq_21201267/article/details/100057616) |      |
 | [LeetCode 986. 区间列表的交集](https://blog.csdn.net/qq_21201267/article/details/100058783) |      |
