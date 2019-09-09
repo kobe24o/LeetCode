@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+#include <vector>
 using namespace std;
 class Solution {
 public:
@@ -21,7 +22,7 @@ public:
         	}
         	for(j = 0; j < 26; ++j)
         	{
-        		if(wordcount[i] > count[i])
+        		if(wordcount[j] > count[j])
         		{
         			hasthisword = false;
         			break;
