@@ -99,7 +99,7 @@
 | [LeetCode 1008. 先序遍历构造二叉树（已知先序，求二叉搜索树）](https://blog.csdn.net/qq_21201267/article/details/100568701) |      |
 | [LeetCode 1021. 删除最外层的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/100611450) |      |
 | [LeetCode 1051. 高度检查器](https://blog.csdn.net/qq_21201267/article/details/100635273) |      |
-| [LeetCode 1079. 活字印刷（回溯）](https://blog.csdn.net/qq_21201267/article/details/100644009) |      |
+| [LeetCode 1079. 活字印刷（全排列回溯）](https://blog.csdn.net/qq_21201267/article/details/100644009) |      |
 | [LeetCode 1094. 拼车](https://blog.csdn.net/qq_21201267/article/details/100604925) |      |
 | [LeetCode 1108. IP 地址无效化](https://blog.csdn.net/qq_21201267/article/details/100585842) |      |
 | [LeetCode 1175. 质数排列](https://blog.csdn.net/qq_21201267/article/details/100612707) |      |
