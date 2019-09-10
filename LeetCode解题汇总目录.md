@@ -1,6 +1,6 @@
-此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.9
+此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.11
 
-**已解决 108/1170** - **简单 51** **中等 51** **困难 6**
+**已解决 115/1170** - **简单 56** **中等 53** **困难 6**
 
 | 已解题目                                                     | 考点 |
 | :----------------------------------------------------------- | ---- |
@@ -65,6 +65,7 @@
 | [LeetCode 219. 存在重复元素 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/100587915) |      |
 | [LeetCode 220. 存在重复元素 III（lower_bound）](https://blog.csdn.net/qq_21201267/article/details/100601000) |      |
 | [LeetCode 221. 最大正方形（DP）](https://blog.csdn.net/qq_21201267/article/details/100027699) |      |
+| [LeetCode 225. 用队列实现栈](https://blog.csdn.net/qq_21201267/article/details/100718103) |      |
 | [LeetCode 226. 翻转二叉树（DFS & BFS）](https://blog.csdn.net/qq_21201267/article/details/99675950) |      |
 | [LeetCode 230. 二叉搜索树中第K小的元素（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100530272) |      |
 | [LeetCode 231. 2的幂 && LeetCode 338. 比特位计数（2进制1的个数）](https://blog.csdn.net/qq_21201267/article/details/100084705) |      |
@@ -85,11 +86,13 @@
 | [LeetCode 535. TinyURL 的加密与解密（哈希）](https://blog.csdn.net/qq_21201267/article/details/100565409) |      |
 | [LeetCode 557. 反转字符串中的单词 III（栈）](https://blog.csdn.net/qq_21201267/article/details/100436745) |      |
 | [LeetCode 617. 合并二叉树](https://blog.csdn.net/qq_21201267/article/details/100569367) |      |
+| [LeetCode 637. 二叉树的层平均值（层次遍历queue）](https://blog.csdn.net/qq_21201267/article/details/100717726) |      |
 | [LeetCode 641. 设计循环双端队列](https://blog.csdn.net/qq_21201267/article/details/99496486) |      |
 | [LeetCode 645. 错误的集合](https://blog.csdn.net/qq_21201267/article/details/100148227) |      |
 | [LeetCode 654. 最大二叉树（递归）](https://blog.csdn.net/qq_21201267/article/details/100586036) |      |
 | [LeetCode 657. 机器人能否返回原点](https://blog.csdn.net/qq_21201267/article/details/100632672) |      |
 | [LeetCode 658. 找到 K 个最接近的元素](https://blog.csdn.net/qq_21201267/article/details/100697216) |      |
+| [LeetCode 669. 修剪二叉搜索树](https://blog.csdn.net/qq_21201267/article/details/100716292) |      |
 | [LeetCode 671. 二叉树中第二小的节点](https://blog.csdn.net/qq_21201267/article/details/100550016) |      |
 | [LeetCode 674. 最长连续递增序列](https://blog.csdn.net/qq_21201267/article/details/98262871) |      |
 | [LeetCode 701. 二叉搜索树中的插入操作（二叉查找树/插入）](https://blog.csdn.net/qq_21201267/article/details/100696071) |      |
