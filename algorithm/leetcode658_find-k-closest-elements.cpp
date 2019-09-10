@@ -57,3 +57,9 @@ public:
         return ans;
     }
 };
+int main()
+{
+	vector<int> arr = {0,0,1,2,3,3,4,7,7,8};
+	Solution s;
+	s.findClosestElements(arr,3,5);
+}
