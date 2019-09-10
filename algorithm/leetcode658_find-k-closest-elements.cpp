@@ -1,3 +1,6 @@
+#include <vector>
+#include <algorithm>
+using namespace std;
 class Solution {
 public:
     vector<int> findClosestElements(vector<int>& arr, int k, int x) {
@@ -16,10 +19,10 @@ public:
         		right = i+1;
         		break;
         	}
-        	if(x > arr[i])
+        	if(x < arr[i])
         	{
-        		left = i;
-        		right = i+1;
+        		left = i-1;
+        		right = i;
         		break;
         	}
         }
