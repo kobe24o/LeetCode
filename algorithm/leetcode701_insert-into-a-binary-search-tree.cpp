@@ -3,26 +3,20 @@ public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
         if(root == NULL)
         	return new TreeNode(val);
-        TreeNode *node = new TreeNode(val);
-        TreeNode *child, *oringinalRoot = root;
+        // TreeNode *node = new TreeNode(val);
+        TreeNode *prev, *oringinalRoot = root;
         while(root)
         {
+        	prev = root;
         	if(val > root->val)
-    		{
-	        	child = root->right;
-	        	if(child == NULL)
-	        		root->right = node;
-	        	root = child;
-	        }
+	        	root = root->right;
 	        else // val < root->val
-	        {
-	        	child = root->left;
-	        	if(child == NULL)
-	        		root->left = node;
-	        	root = child;
-	        }
-	        return oringinalRoot;
+	        	root = root->left;
         }
-        return NULL;
+        if(val < prev->val)
+        	prev->left = new TreeNode(val);
+        else
+        	prev->right = new TreeNode(val);
+        return oringinalRoot;
     }
 };
