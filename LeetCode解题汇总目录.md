@@ -1,6 +1,6 @@
 此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.11
 
-**已解决 115/1170** - **简单 56** **中等 53** **困难 6**
+**已解决 123/1170** - **简单 62** **中等 55** **困难 6**
 
 | 已解题目                                                     | 考点 |
 | :----------------------------------------------------------- | ---- |
@@ -38,6 +38,8 @@
 | [LeetCode 98. 验证二叉搜索树（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/99699540) |      |
 | [LeetCode 102. 二叉树的层次遍历](https://blog.csdn.net/qq_21201267/article/details/99699445) |      |
 | [LeetCode 104. 二叉树的最大深度](https://blog.csdn.net/qq_21201267/article/details/99690644) |      |
+| [LeetCode 105. 已知前序&中序 求二叉树](https://blog.csdn.net/qq_21201267/article/details/100752155) |      |
+| [LeetCode 106. 已知中序&后序 求二叉树](https://blog.csdn.net/qq_21201267/article/details/100753691) |      |
 | [LeetCode 111. 二叉树的最小深度](https://blog.csdn.net/qq_21201267/article/details/99699211) |      |
 | [LeetCode 112. 路径总和](https://blog.csdn.net/qq_21201267/article/details/99710888) |      |
 | [LeetCode 113. 路径总和 II（回溯）](https://blog.csdn.net/qq_21201267/article/details/100550154) |      |
@@ -120,6 +122,7 @@
 | [LeetCode 1094. 拼车](https://blog.csdn.net/qq_21201267/article/details/100604925) |      |
 | [LeetCode 1108. IP 地址无效化](https://blog.csdn.net/qq_21201267/article/details/100585842) |      |
 | [LeetCode 1137. 第 N 个泰波那契数](https://blog.csdn.net/qq_21201267/article/details/100671814) |      |
+| [LeetCode 1154. 一年中的第几天](https://blog.csdn.net/qq_21201267/article/details/100754099) |      |
 | [LeetCode 1160. 拼写单词](https://blog.csdn.net/qq_21201267/article/details/100673250) |      |
 | [LeetCode 1175. 质数排列](https://blog.csdn.net/qq_21201267/article/details/100612707) |      |
 
