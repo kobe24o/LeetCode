@@ -86,6 +86,7 @@
 | [LeetCode 513. 找树左下角的值（按层遍历 queue）](https://blog.csdn.net/qq_21201267/article/details/100677982) |      |
 | [LeetCode 535. TinyURL 的加密与解密（哈希）](https://blog.csdn.net/qq_21201267/article/details/100565409) |      |
 | [LeetCode 557. 反转字符串中的单词 III（栈）](https://blog.csdn.net/qq_21201267/article/details/100436745) |      |
+| [LeetCode 589. N叉树的前序遍历（前序遍历）](https://blog.csdn.net/qq_21201267/article/details/100747568) |      |
 | [LeetCode 617. 合并二叉树](https://blog.csdn.net/qq_21201267/article/details/100569367) |      |
 | [LeetCode 637. 二叉树的层平均值（层次遍历queue）](https://blog.csdn.net/qq_21201267/article/details/100717726) |      |
 | [LeetCode 641. 设计循环双端队列](https://blog.csdn.net/qq_21201267/article/details/99496486) |      |
@@ -105,6 +106,7 @@
 | [LeetCode 814. 二叉树剪枝（递归）](https://blog.csdn.net/qq_21201267/article/details/100566646) |      |
 | [LeetCode 832. 翻转图像（异或^）](https://blog.csdn.net/qq_21201267/article/details/100585771) |      |
 | [LeetCode 852. 山脉数组的峰顶索引（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100743518) |      |
+| [LeetCode 933. 最近的请求次数（queue）](https://blog.csdn.net/qq_21201267/article/details/100746524) |      |
 | [LeetCode 938. 二叉搜索树的范围和（二叉树遍历+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100609270) |      |
 | [LeetCode 944. 删列造序](https://blog.csdn.net/qq_21201267/article/details/100675384) |      |
 | [LeetCode 950. 按递增顺序显示卡牌（deque）](https://blog.csdn.net/qq_21201267/article/details/100608442) |      |
