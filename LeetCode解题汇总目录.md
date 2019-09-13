@@ -114,6 +114,7 @@
 | [LeetCode 814. 二叉树剪枝（递归）](https://blog.csdn.net/qq_21201267/article/details/100566646) |      |
 | [LeetCode 832. 翻转图像（异或^）](https://blog.csdn.net/qq_21201267/article/details/100585771) |      |
 | [LeetCode 852. 山脉数组的峰顶索引（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100743518) |      |
+| [LeetCode 889. 已知前序&后序 求二叉树（不唯一）](https://blog.csdn.net/qq_21201267/article/details/100802843) |      |
 | [LeetCode 896. 单调数列](https://blog.csdn.net/qq_21201267/article/details/100782385) |      |
 | [LeetCode 933. 最近的请求次数（queue）](https://blog.csdn.net/qq_21201267/article/details/100746524) |      |
 | [LeetCode 938. 二叉搜索树的范围和（二叉树遍历+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100609270) |      |
