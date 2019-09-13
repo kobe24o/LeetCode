@@ -73,6 +73,7 @@
 | [LeetCode 226. 翻转二叉树（DFS & BFS）](https://blog.csdn.net/qq_21201267/article/details/99675950) |      |
 | [LeetCode 230. 二叉搜索树中第K小的元素（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100530272) |      |
 | [LeetCode 231. 2的幂 && LeetCode 338. 比特位计数（2进制1的个数）](https://blog.csdn.net/qq_21201267/article/details/100084705) |      |
+| [LeetCode 232. 用栈实现队列（双栈法->队列）](https://blog.csdn.net/qq_21201267/article/details/100800928) |      |
 | [LeetCode 237. 删除链表中的节点](https://blog.csdn.net/qq_21201267/article/details/100171651) |      |
 | [LeetCode 238. 除自身以外数组的乘积](https://blog.csdn.net/qq_21201267/article/details/100530702) |      |
 | [LeetCode 239. 滑动窗口最大值（双端队列）](https://blog.csdn.net/qq_21201267/article/details/99613437) |      |
@@ -84,6 +85,7 @@
 | [LeetCode 322. 零钱兑换（DP）](https://blog.csdn.net/qq_21201267/article/details/99894804) |      |
 | [LeetCode 344. 反转字符串](https://blog.csdn.net/qq_21201267/article/details/100585634) | easy |
 | [LeetCode 429. N叉树的层序遍历（queue）](https://blog.csdn.net/qq_21201267/article/details/100714179) |      |
+| [LeetCode 442. 数组中重复的数据](https://blog.csdn.net/qq_21201267/article/details/100798552) |      |
 | [LeetCode 461. 汉明距离（异或^ 与&）](https://blog.csdn.net/qq_21201267/article/details/100632232) |      |
 | [LeetCode 500. 键盘行](https://blog.csdn.net/qq_21201267/article/details/100674362) |      |
 | [LeetCode 513. 找树左下角的值（按层遍历 queue）](https://blog.csdn.net/qq_21201267/article/details/100677982) |      |
@@ -116,11 +118,13 @@
 | [LeetCode 938. 二叉搜索树的范围和（二叉树遍历+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100609270) |      |
 | [LeetCode 944. 删列造序](https://blog.csdn.net/qq_21201267/article/details/100675384) |      |
 | [LeetCode 950. 按递增顺序显示卡牌（deque）](https://blog.csdn.net/qq_21201267/article/details/100608442) |      |
+| [LeetCode 969. 煎饼排序](https://blog.csdn.net/qq_21201267/article/details/100797632) |      |
 | [LeetCode 977. 有序数组的平方](https://blog.csdn.net/qq_21201267/article/details/100057616) |      |
 | [LeetCode 986. 区间列表的交集](https://blog.csdn.net/qq_21201267/article/details/100058783) |      |
 | [LeetCode 998. 最大二叉树 II](https://blog.csdn.net/qq_21201267/article/details/100785910) |      |
 | [LeetCode 1008. 先序遍历构造二叉树（已知先序，求二叉搜索树）](https://blog.csdn.net/qq_21201267/article/details/100568701) |      |
 | [LeetCode 1021. 删除最外层的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/100611450) |      |
+| [LeetCode 1038. 从二叉搜索树到更大和树（逆中序-右根左-降序）](https://blog.csdn.net/qq_21201267/article/details/100798009) |      |
 | [LeetCode 1051. 高度检查器](https://blog.csdn.net/qq_21201267/article/details/100635273) |      |
 | [LeetCode 1079. 活字印刷（全排列回溯）](https://blog.csdn.net/qq_21201267/article/details/100644009) |      |
 | [LeetCode 1094. 拼车](https://blog.csdn.net/qq_21201267/article/details/100604925) |      |

@@ -1,3 +1,6 @@
+#include <vector>
+#include <algorithm>
+using namespace std;
 class Solution {
 public:
     vector<int> pancakeSort(vector<int>& A) {
@@ -20,7 +23,7 @@ public:
     int findmax(vector<int>& A, int &j)
     {
     	int m = INT_MIN, idx;
-    	for(int i=0; i<=j; ++j)
+    	for(int i=0; i<=j; ++i)
     		if(A[i] > m)
     		{
     			m = A[i];
@@ -29,3 +32,10 @@ public:
 		return idx;
     }
 };
+
+int main()
+{
+	vector<int> v ={3,2,4,1};
+	Solution s;
+	s.pancakeSort(v);
+}
