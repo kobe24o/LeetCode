@@ -1,6 +1,6 @@
-此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.13
+此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.15
 
-**已解决 137/1170** - **简单 69** **中等 61** **困难 7**
+**已解决 145/1170** - **简单 73** **中等 63** **困难 9**
 
 | 已解题目                                                     |
 | :----------------------------------------------------------- |
@@ -86,6 +86,7 @@
 | [LeetCode 287. 寻找重复数（BitMap）](https://blog.csdn.net/qq_21201267/article/details/100135972) |
 | [LeetCode 292. Nim 游戏](https://blog.csdn.net/qq_21201267/article/details/100178975) |
 | [LeetCode 300. 最长上升子序列](https://blog.csdn.net/qq_21201267/article/details/97308533) |
+| [LeetCode 312. 戳气球（DP，难）](https://blog.csdn.net/qq_21201267/article/details/100838793) |
 | [LeetCode 322. 零钱兑换（DP）](https://blog.csdn.net/qq_21201267/article/details/99894804) |
 | [LeetCode 344. 反转字符串](https://blog.csdn.net/qq_21201267/article/details/100585634) |
 | [LeetCode 413. 等差数列划分（DP）](https://blog.csdn.net/qq_21201267/article/details/100831735) |
@@ -113,6 +114,7 @@
 | [LeetCode 701. 二叉搜索树中的插入操作（二叉查找树/插入）](https://blog.csdn.net/qq_21201267/article/details/100696071) |
 | [LeetCode 704. 二分查找](https://blog.csdn.net/qq_21201267/article/details/100715644) |
 | [LeetCode 763. 划分字母区间](https://blog.csdn.net/qq_21201267/article/details/100677335) |
+| [LeetCode 765. 情侣牵手（贪心）](https://blog.csdn.net/qq_21201267/article/details/100839491) |
 | [LeetCode 771. 宝石与石头（哈希）](https://blog.csdn.net/qq_21201267/article/details/100563578) |
 | [LeetCode 783. 二叉搜索树结点最小距离（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100784063) |
 | [LeetCode 804. 唯一摩尔斯密码词（哈希+set）](https://blog.csdn.net/qq_21201267/article/details/100630347) |
