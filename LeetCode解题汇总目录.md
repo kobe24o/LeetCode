@@ -134,6 +134,7 @@
 | [LeetCode 977. 有序数组的平方](https://blog.csdn.net/qq_21201267/article/details/100057616) |
 | [LeetCode 986. 区间列表的交集](https://blog.csdn.net/qq_21201267/article/details/100058783) |
 | [LeetCode 998. 最大二叉树 II](https://blog.csdn.net/qq_21201267/article/details/100785910) |
+| [LeetCode 1004. 最大连续1的个数 III（滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/100855871) |
 | [LeetCode 1008. 先序遍历构造二叉树（已知先序，求二叉搜索树）](https://blog.csdn.net/qq_21201267/article/details/100568701) |
 | [LeetCode 1021. 删除最外层的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/100611450) |
 | [LeetCode 1038. 从二叉搜索树到更大和树（逆中序-右根左-降序）](https://blog.csdn.net/qq_21201267/article/details/100798009) |
