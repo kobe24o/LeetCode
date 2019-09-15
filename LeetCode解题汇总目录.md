@@ -38,6 +38,7 @@
 | [LeetCode 94. 二叉树的中序遍历（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100545729) |
 | [LeetCode 98. 验证二叉搜索树（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/99699540) |
 | [LeetCode 99. 恢复二叉搜索树（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100811472) |
+| [LeetCode 100. 相同的树（二叉树遍历）](https://blog.csdn.net/qq_21201267/article/details/100851442) |
 | [LeetCode 102. 二叉树的层次遍历](https://blog.csdn.net/qq_21201267/article/details/99699445) |
 | [LeetCode 104. 二叉树的最大深度](https://blog.csdn.net/qq_21201267/article/details/99690644) |
 | [LeetCode 105. 已知前序&中序 求二叉树](https://blog.csdn.net/qq_21201267/article/details/100752155) |
@@ -93,6 +94,7 @@
 | [LeetCode 429. N叉树的层序遍历（queue）](https://blog.csdn.net/qq_21201267/article/details/100714179) |
 | [LeetCode 442. 数组中重复的数据](https://blog.csdn.net/qq_21201267/article/details/100798552) |
 | [LeetCode 461. 汉明距离（异或^ 与&）](https://blog.csdn.net/qq_21201267/article/details/100632232) |
+| [LeetCode 485. 最大连续1的个数](https://blog.csdn.net/qq_21201267/article/details/100855102) |
 | [LeetCode 500. 键盘行](https://blog.csdn.net/qq_21201267/article/details/100674362) |
 | [LeetCode 513. 找树左下角的值（按层遍历 queue）](https://blog.csdn.net/qq_21201267/article/details/100677982) |
 | [LeetCode 535. TinyURL 的加密与解密（哈希）](https://blog.csdn.net/qq_21201267/article/details/100565409) |
