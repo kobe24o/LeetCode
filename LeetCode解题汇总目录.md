@@ -1,6 +1,6 @@
 此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.15
 
-**已解决 145/1170** - **简单 73** **中等 63** **困难 9**
+**已解决 153/1170** - **简单 78** **中等 66** **困难 9**
 
 | 已解题目                                                     |
 | :----------------------------------------------------------- |
@@ -10,11 +10,14 @@
 | [LeetCode 8. 字符串转换整数 (atoi)](https://blog.csdn.net/qq_21201267/article/details/100583821) |
 | [LeetCode 9. 回文数](https://blog.csdn.net/qq_21201267/article/details/100168231) |
 | [LeetCode 11. 盛最多水的容器（双指针）](https://blog.csdn.net/qq_21201267/article/details/100545403) |
+| [LeetCode 14. 最长公共前缀](https://blog.csdn.net/qq_21201267/article/details/100866922) |
 | [LeetCode 15. 三数之和](https://blog.csdn.net/qq_21201267/article/details/99241741) |
+| [LeetCode 16. 最接近的三数之和（固定左端+滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/100863583) |
 | [LeetCode 17. 电话号码的字母组合（回溯）](https://blog.csdn.net/qq_21201267/article/details/100436281) |
 | [LeetCode 20. 有效的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/99353358) |
 | [LeetCode 21. 合并两个有序链表（单链表）](https://blog.csdn.net/qq_21201267/article/details/100056931) |
 | [LeetCode 23. 合并K个排序链表（优先队列）](https://blog.csdn.net/qq_21201267/article/details/99344922) |
+| [LeetCode 26. 删除排序数组中的重复项](https://blog.csdn.net/qq_21201267/article/details/100864296) |
 | [LeetCode 27. 移除元素](https://blog.csdn.net/qq_21201267/article/details/100826960) |
 | [LeetCode 32. 最长有效括号（栈&DP）](https://blog.csdn.net/qq_21201267/article/details/99479252) |
 | [LeetCode 35. 搜索插入位置（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100419471) |
@@ -78,6 +81,8 @@
 | [LeetCode 230. 二叉搜索树中第K小的元素（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100530272) |
 | [LeetCode 231. 2的幂 && LeetCode 338. 比特位计数（2进制1的个数）](https://blog.csdn.net/qq_21201267/article/details/100084705) |
 | [LeetCode 232. 用栈实现队列（双栈法->队列）](https://blog.csdn.net/qq_21201267/article/details/100800928) |
+| [LeetCode 235. 二叉搜索树的最近公共祖先](https://blog.csdn.net/qq_21201267/article/details/100868602) |
+| [LeetCode 236. 二叉树的最近公共祖先](https://blog.csdn.net/qq_21201267/article/details/100869188) |
 | [LeetCode 237. 删除链表中的节点](https://blog.csdn.net/qq_21201267/article/details/100171651) |
 | [LeetCode 238. 除自身以外数组的乘积](https://blog.csdn.net/qq_21201267/article/details/100530702) |
 | [LeetCode 239. 滑动窗口最大值（双端队列）](https://blog.csdn.net/qq_21201267/article/details/99613437) |
