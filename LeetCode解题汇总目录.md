@@ -24,9 +24,11 @@
 | [LeetCode 36. 有效的数独（哈希）](https://blog.csdn.net/qq_21201267/article/details/99888173) |
 | [LeetCode 39. 组合总和（回溯）](https://blog.csdn.net/qq_21201267/article/details/100678859) |
 | [LeetCode 41. 缺失的第一个正数](https://blog.csdn.net/qq_21201267/article/details/99253353) |
+| [LeetCode 45. 跳跃游戏 II（贪心, 难）](https://blog.csdn.net/qq_21201267/article/details/100904721) |
 | [LeetCode 46. 全排列（回溯）](https://blog.csdn.net/qq_21201267/article/details/100110156) |
 | [LeetCode 47. 全排列 II（回溯+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100110853) |
 | [LeetCode 53. 最大子序和（动态规划）](https://blog.csdn.net/qq_21201267/article/details/97559470) |
+| [LeetCode 55. 跳跃游戏（贪心）](https://blog.csdn.net/qq_21201267/article/details/100899698) |
 | [LeetCode 56. 合并区间（优先队列）](https://blog.csdn.net/qq_21201267/article/details/100082338) |
 | [LeetCode 59. 螺旋矩阵 II && LeetCode 54. 螺旋矩阵](https://blog.csdn.net/qq_21201267/article/details/100395555) |
 | [LeetCode 61. 旋转链表](https://blog.csdn.net/qq_21201267/article/details/100355678) |
