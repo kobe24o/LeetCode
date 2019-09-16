@@ -1,6 +1,6 @@
-此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.15
+此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.17
 
-**已解决 153/1170** - **简单 78** **中等 66** **困难 9**
+**已解决 160/1174** - **简单 83** **中等 67** **困难 10**
 
 | 已解题目                                                     |
 | :----------------------------------------------------------- |
@@ -99,6 +99,7 @@
 | [LeetCode 344. 反转字符串](https://blog.csdn.net/qq_21201267/article/details/100585634) |
 | [LeetCode 413. 等差数列划分（DP）](https://blog.csdn.net/qq_21201267/article/details/100831735) |
 | [LeetCode 429. N叉树的层序遍历（queue）](https://blog.csdn.net/qq_21201267/article/details/100714179) |
+| [LeetCode 437. 路径总和 III（双重递归）](https://blog.csdn.net/qq_21201267/article/details/100906264) |
 | [LeetCode 442. 数组中重复的数据](https://blog.csdn.net/qq_21201267/article/details/100798552) |
 | [LeetCode 461. 汉明距离（异或^ 与&）](https://blog.csdn.net/qq_21201267/article/details/100632232) |
 | [LeetCode 485. 最大连续1的个数](https://blog.csdn.net/qq_21201267/article/details/100855102) |
@@ -120,8 +121,11 @@
 | [LeetCode 669. 修剪二叉搜索树](https://blog.csdn.net/qq_21201267/article/details/100716292) |
 | [LeetCode 671. 二叉树中第二小的节点](https://blog.csdn.net/qq_21201267/article/details/100550016) |
 | [LeetCode 674. 最长连续递增序列](https://blog.csdn.net/qq_21201267/article/details/98262871) |
+| [LeetCode 700. 二叉搜索树中的搜索](https://blog.csdn.net/qq_21201267/article/details/100906799) |
 | [LeetCode 701. 二叉搜索树中的插入操作（二叉查找树/插入）](https://blog.csdn.net/qq_21201267/article/details/100696071) |
 | [LeetCode 704. 二分查找](https://blog.csdn.net/qq_21201267/article/details/100715644) |
+| [LeetCode 709. 转换成小写字母](https://blog.csdn.net/qq_21201267/article/details/100907747) |
+| [LeetCode 728. 自除数](https://blog.csdn.net/qq_21201267/article/details/100907175) |
 | [LeetCode 763. 划分字母区间](https://blog.csdn.net/qq_21201267/article/details/100677335) |
 | [LeetCode 765. 情侣牵手（贪心）](https://blog.csdn.net/qq_21201267/article/details/100839491) |
 | [LeetCode 771. 宝石与石头（哈希）](https://blog.csdn.net/qq_21201267/article/details/100563578) |
@@ -135,6 +139,7 @@
 | [LeetCode 896. 单调数列](https://blog.csdn.net/qq_21201267/article/details/100782385) |
 | [LeetCode 933. 最近的请求次数（queue）](https://blog.csdn.net/qq_21201267/article/details/100746524) |
 | [LeetCode 938. 二叉搜索树的范围和（二叉树遍历+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100609270) |
+| [LeetCode 942. 增减字符串匹配](https://blog.csdn.net/qq_21201267/article/details/100907468) |
 | [LeetCode 944. 删列造序](https://blog.csdn.net/qq_21201267/article/details/100675384) |
 | [LeetCode 950. 按递增顺序显示卡牌（deque）](https://blog.csdn.net/qq_21201267/article/details/100608442) |
 | [LeetCode 969. 煎饼排序](https://blog.csdn.net/qq_21201267/article/details/100797632) |
