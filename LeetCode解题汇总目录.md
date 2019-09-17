@@ -1,6 +1,6 @@
-此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.17
+此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.18
 
-**已解决 160/1174** - **简单 83** **中等 67** **困难 10**
+**已解决 169/1174** - **简单 91** **中等 68** **困难 10**
 
 | 已解题目                                                     |
 | :----------------------------------------------------------- |
@@ -48,6 +48,8 @@
 | [LeetCode 104. 二叉树的最大深度](https://blog.csdn.net/qq_21201267/article/details/99690644) |
 | [LeetCode 105. 已知前序&中序 求二叉树](https://blog.csdn.net/qq_21201267/article/details/100752155) |
 | [LeetCode 106. 已知中序&后序 求二叉树](https://blog.csdn.net/qq_21201267/article/details/100753691) |
+| [LeetCode 108. 将有序数组转换为二叉搜索树](https://blog.csdn.net/qq_21201267/article/details/100941767) |
+| [LeetCode 109. 有序链表转换二叉搜索树（快慢指针+递归）](https://blog.csdn.net/qq_21201267/article/details/100943280) |
 | [LeetCode 110. 平衡二叉树（二叉树高度）](https://blog.csdn.net/qq_21201267/article/details/100783394) |
 | [LeetCode 111. 二叉树的最小深度](https://blog.csdn.net/qq_21201267/article/details/99699211) |
 | [LeetCode 112. 路径总和](https://blog.csdn.net/qq_21201267/article/details/99710888) |
@@ -97,6 +99,7 @@
 | [LeetCode 312. 戳气球（DP，难）](https://blog.csdn.net/qq_21201267/article/details/100838793) |
 | [LeetCode 322. 零钱兑换（DP）](https://blog.csdn.net/qq_21201267/article/details/99894804) |
 | [LeetCode 344. 反转字符串](https://blog.csdn.net/qq_21201267/article/details/100585634) |
+| [LeetCode 349. 两个数组的交集（哈希）](https://blog.csdn.net/qq_21201267/article/details/100945076) |
 | [LeetCode 413. 等差数列划分（DP）](https://blog.csdn.net/qq_21201267/article/details/100831735) |
 | [LeetCode 429. N叉树的层序遍历（queue）](https://blog.csdn.net/qq_21201267/article/details/100714179) |
 | [LeetCode 437. 路径总和 III（双重递归）](https://blog.csdn.net/qq_21201267/article/details/100906264) |
@@ -110,6 +113,8 @@
 | [LeetCode 538. 把二叉搜索树转换为累加树（逆中序 根右左）](https://blog.csdn.net/qq_21201267/article/details/100826415) |
 | [LeetCode 547. 朋友圈（图的遍历BFS & DFS）](https://blog.csdn.net/qq_21201267/article/details/100813067) |
 | [LeetCode 557. 反转字符串中的单词 III（栈）](https://blog.csdn.net/qq_21201267/article/details/100436745) |
+| [LeetCode 559. N叉树的最大深度](https://blog.csdn.net/qq_21201267/article/details/100943751) |
+| [LeetCode 561. 数组拆分 I](https://blog.csdn.net/qq_21201267/article/details/100940866) |
 | [LeetCode 589. N叉树的前序遍历（前序遍历）](https://blog.csdn.net/qq_21201267/article/details/100747568) |
 | [LeetCode 590. N叉树的后序遍历（后序遍历）](https://blog.csdn.net/qq_21201267/article/details/100749955) |
 | [LeetCode 617. 合并二叉树](https://blog.csdn.net/qq_21201267/article/details/100569367) |
@@ -139,6 +144,7 @@
 | [LeetCode 889. 已知前序&后序 求二叉树（不唯一）](https://blog.csdn.net/qq_21201267/article/details/100802843) |
 | [LeetCode 896. 单调数列](https://blog.csdn.net/qq_21201267/article/details/100782385) |
 | [LeetCode 905. 按奇偶排序数组](https://blog.csdn.net/qq_21201267/article/details/100940305) |
+| [LeetCode 908. 最小差值 I](https://blog.csdn.net/qq_21201267/article/details/100944337) |
 | [LeetCode 933. 最近的请求次数（queue）](https://blog.csdn.net/qq_21201267/article/details/100746524) |
 | [LeetCode 938. 二叉搜索树的范围和（二叉树遍历+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100609270) |
 | [LeetCode 942. 增减字符串匹配](https://blog.csdn.net/qq_21201267/article/details/100907468) |
