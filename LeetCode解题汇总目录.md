@@ -72,6 +72,7 @@
 | [LeetCode 155. 最小栈](https://blog.csdn.net/qq_21201267/article/details/100188954) |
 | [LeetCode 160. 相交链表](https://blog.csdn.net/qq_21201267/article/details/100168364) |
 | [LeetCode 169. 求众数](https://blog.csdn.net/qq_21201267/article/details/99249031) |
+| [LeetCode 171. Excel表列序号（26进制转10进制）](https://blog.csdn.net/qq_21201267/article/details/100998473) |
 | [LeetCode 173. 二叉搜索树迭代器（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100549417) |
 | [LeetCode 199. 二叉树的右视图（DFS & 按层queue）](https://blog.csdn.net/qq_21201267/article/details/100801826) |
 | [LeetCode 200. 岛屿数量（图的遍历）](https://blog.csdn.net/qq_21201267/article/details/99775387) |
