@@ -100,6 +100,7 @@
 | [LeetCode 322. 零钱兑换（DP）](https://blog.csdn.net/qq_21201267/article/details/99894804) |
 | [LeetCode 344. 反转字符串](https://blog.csdn.net/qq_21201267/article/details/100585634) |
 | [LeetCode 349. 两个数组的交集（哈希）](https://blog.csdn.net/qq_21201267/article/details/100945076) |
+| [LeetCode 350. 两个数组的交集 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/100995174) |
 | [LeetCode 413. 等差数列划分（DP）](https://blog.csdn.net/qq_21201267/article/details/100831735) |
 | [LeetCode 429. N叉树的层序遍历（queue）](https://blog.csdn.net/qq_21201267/article/details/100714179) |
 | [LeetCode 437. 路径总和 III（双重递归）](https://blog.csdn.net/qq_21201267/article/details/100906264) |
@@ -145,6 +146,7 @@
 | [LeetCode 896. 单调数列](https://blog.csdn.net/qq_21201267/article/details/100782385) |
 | [LeetCode 905. 按奇偶排序数组](https://blog.csdn.net/qq_21201267/article/details/100940305) |
 | [LeetCode 908. 最小差值 I](https://blog.csdn.net/qq_21201267/article/details/100944337) |
+| [LeetCode 922. 按奇偶排序数组 II（双指针）](https://blog.csdn.net/qq_21201267/article/details/100998177) |
 | [LeetCode 933. 最近的请求次数（queue）](https://blog.csdn.net/qq_21201267/article/details/100746524) |
 | [LeetCode 938. 二叉搜索树的范围和（二叉树遍历+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100609270) |
 | [LeetCode 942. 增减字符串匹配](https://blog.csdn.net/qq_21201267/article/details/100907468) |
@@ -155,6 +157,7 @@
 | [LeetCode 977. 有序数组的平方](https://blog.csdn.net/qq_21201267/article/details/100057616) |
 | [LeetCode 986. 区间列表的交集](https://blog.csdn.net/qq_21201267/article/details/100058783) |
 | [LeetCode 998. 最大二叉树 II](https://blog.csdn.net/qq_21201267/article/details/100785910) |
+| [LeetCode 1002. 查找常用字符（哈希）](https://blog.csdn.net/qq_21201267/article/details/100997357) |
 | [LeetCode 1004. 最大连续1的个数 III（滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/100855871) |
 | [LeetCode 1008. 先序遍历构造二叉树（已知先序，求二叉搜索树）](https://blog.csdn.net/qq_21201267/article/details/100568701) |
 | [LeetCode 1021. 删除最外层的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/100611450) |
