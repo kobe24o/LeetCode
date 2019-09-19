@@ -112,12 +112,14 @@
 | [LeetCode 485. 最大连续1的个数](https://blog.csdn.net/qq_21201267/article/details/100855102) |
 | [LeetCode 500. 键盘行](https://blog.csdn.net/qq_21201267/article/details/100674362) |
 | [LeetCode 513. 找树左下角的值（按层遍历 queue）](https://blog.csdn.net/qq_21201267/article/details/100677982) |
+| [LeetCode 522. 最长特殊序列 II](https://blog.csdn.net/qq_21201267/article/details/101036485) |
 | [LeetCode 535. TinyURL 的加密与解密（哈希）](https://blog.csdn.net/qq_21201267/article/details/100565409) |
 | [LeetCode 538. 把二叉搜索树转换为累加树（逆中序 根右左）](https://blog.csdn.net/qq_21201267/article/details/100826415) |
 | [LeetCode 547. 朋友圈（图的遍历BFS & DFS）](https://blog.csdn.net/qq_21201267/article/details/100813067) |
 | [LeetCode 557. 反转字符串中的单词 III（栈）](https://blog.csdn.net/qq_21201267/article/details/100436745) |
 | [LeetCode 559. N叉树的最大深度](https://blog.csdn.net/qq_21201267/article/details/100943751) |
 | [LeetCode 561. 数组拆分 I](https://blog.csdn.net/qq_21201267/article/details/100940866) |
+| [LeetCode 575. 分糖果（set集合去重）](https://blog.csdn.net/qq_21201267/article/details/101039768) |
 | [LeetCode 589. N叉树的前序遍历（前序遍历）](https://blog.csdn.net/qq_21201267/article/details/100747568) |
 | [LeetCode 590. N叉树的后序遍历（后序遍历）](https://blog.csdn.net/qq_21201267/article/details/100749955) |
 | [LeetCode 617. 合并二叉树](https://blog.csdn.net/qq_21201267/article/details/100569367) |
@@ -135,6 +137,7 @@
 | [LeetCode 704. 二分查找](https://blog.csdn.net/qq_21201267/article/details/100715644) |
 | [LeetCode 709. 转换成小写字母](https://blog.csdn.net/qq_21201267/article/details/100907747) |
 | [LeetCode 728. 自除数](https://blog.csdn.net/qq_21201267/article/details/100907175) |
+| [LeetCode 762. 二进制表示中质数个计算置位](https://blog.csdn.net/qq_21201267/article/details/101039460) |
 | [LeetCode 763. 划分字母区间](https://blog.csdn.net/qq_21201267/article/details/100677335) |
 | [LeetCode 765. 情侣牵手（贪心）](https://blog.csdn.net/qq_21201267/article/details/100839491) |
 | [LeetCode 771. 宝石与石头（哈希）](https://blog.csdn.net/qq_21201267/article/details/100563578) |
