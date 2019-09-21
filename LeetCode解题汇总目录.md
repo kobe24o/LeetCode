@@ -16,6 +16,7 @@
 | [LeetCode 17. 电话号码的字母组合（回溯）](https://blog.csdn.net/qq_21201267/article/details/100436281) |
 | [LeetCode 20. 有效的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/99353358) |
 | [LeetCode 21. 合并两个有序链表（单链表）](https://blog.csdn.net/qq_21201267/article/details/100056931) |
+| [LeetCode 22. 括号生成（回溯）](https://blog.csdn.net/qq_21201267/article/details/101078481) |
 | [LeetCode 23. 合并K个排序链表（优先队列）](https://blog.csdn.net/qq_21201267/article/details/99344922) |
 | [LeetCode 26. 删除排序数组中的重复项](https://blog.csdn.net/qq_21201267/article/details/100864296) |
 | [LeetCode 27. 移除元素](https://blog.csdn.net/qq_21201267/article/details/100826960) |
@@ -61,6 +62,7 @@
 | [LeetCode 122. 买卖股票的最佳时机 II](https://blog.csdn.net/qq_21201267/article/details/100127238) |
 | [LeetCode 124. 二叉树中的最大路径和（DFS）](https://blog.csdn.net/qq_21201267/article/details/100171375) |
 | [LeetCode 136. 只出现一次的数字（异或^）](https://blog.csdn.net/qq_21201267/article/details/100147375) |
+| [LeetCode 137. 只出现一次的数字 II（位运算）](https://blog.csdn.net/qq_21201267/article/details/101102832) |
 | [LeetCode 141. 环形链表](https://blog.csdn.net/qq_21201267/article/details/99296511) |
 | [LeetCode 142. 环形链表 II（链表环的检测）](https://blog.csdn.net/qq_21201267/article/details/100135575) |
 | [LeetCode 144. 二叉树的前序遍历（前序遍历）](https://blog.csdn.net/qq_21201267/article/details/100546064) |
@@ -133,6 +135,7 @@
 | [LeetCode 669. 修剪二叉搜索树](https://blog.csdn.net/qq_21201267/article/details/100716292) |
 | [LeetCode 671. 二叉树中第二小的节点](https://blog.csdn.net/qq_21201267/article/details/100550016) |
 | [LeetCode 674. 最长连续递增序列](https://blog.csdn.net/qq_21201267/article/details/98262871) |
+| [LeetCode 693. 交替位二进制数（位运算）](https://blog.csdn.net/qq_21201267/article/details/101096121) |
 | [LeetCode 700. 二叉搜索树中的搜索](https://blog.csdn.net/qq_21201267/article/details/100906799) |
 | [LeetCode 701. 二叉搜索树中的插入操作（二叉查找树/插入）](https://blog.csdn.net/qq_21201267/article/details/100696071) |
 | [LeetCode 704. 二分查找](https://blog.csdn.net/qq_21201267/article/details/100715644) |
@@ -149,8 +152,10 @@
 | [LeetCode 821. 字符的最短距离](https://blog.csdn.net/qq_21201267/article/details/101001770) |
 | [LeetCode 832. 翻转图像（异或^）](https://blog.csdn.net/qq_21201267/article/details/100585771) |
 | [LeetCode 852. 山脉数组的峰顶索引（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100743518) |
+| [LeetCode 876. 链表的中间结点（快慢指针）](https://blog.csdn.net/qq_21201267/article/details/101082616) |
 | [LeetCode 889. 已知前序&后序 求二叉树（不唯一）](https://blog.csdn.net/qq_21201267/article/details/100802843) |
 | [LeetCode 896. 单调数列](https://blog.csdn.net/qq_21201267/article/details/100782385) |
+| [LeetCode 897. 递增顺序查找树（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/101083541) |
 | [LeetCode 905. 按奇偶排序数组](https://blog.csdn.net/qq_21201267/article/details/100940305) |
 | [LeetCode 908. 最小差值 I](https://blog.csdn.net/qq_21201267/article/details/100944337) |
 | [LeetCode 922. 按奇偶排序数组 II（双指针）](https://blog.csdn.net/qq_21201267/article/details/100998177) |
@@ -169,6 +174,7 @@
 | [LeetCode 1008. 先序遍历构造二叉树（已知先序，求二叉搜索树）](https://blog.csdn.net/qq_21201267/article/details/100568701) |
 | [LeetCode 1021. 删除最外层的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/100611450) |
 | [LeetCode 1038. 从二叉搜索树到更大和树（逆中序-右根左-降序）](https://blog.csdn.net/qq_21201267/article/details/100798009) |
+| [LeetCode 1047. 删除字符串中的所有相邻重复项（栈）](https://blog.csdn.net/qq_21201267/article/details/101083067) |
 | [LeetCode 1051. 高度检查器](https://blog.csdn.net/qq_21201267/article/details/100635273) |
 | [LeetCode 1079. 活字印刷（全排列回溯）](https://blog.csdn.net/qq_21201267/article/details/100644009) |
 | [LeetCode 1089. 复写零](https://blog.csdn.net/qq_21201267/article/details/100809393) |
