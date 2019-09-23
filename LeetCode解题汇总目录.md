@@ -134,6 +134,7 @@
 | [LeetCode 637. 二叉树的层平均值（层次遍历queue）](https://blog.csdn.net/qq_21201267/article/details/100717726) |
 | [LeetCode 641. 设计循环双端队列](https://blog.csdn.net/qq_21201267/article/details/99496486) |
 | [LeetCode 645. 错误的集合](https://blog.csdn.net/qq_21201267/article/details/100148227) |
+| [LeetCode 646. 最长数对链（区间 贪心）](https://blog.csdn.net/qq_21201267/article/details/101239559) |
 | [LeetCode 654. 最大二叉树（递归）](https://blog.csdn.net/qq_21201267/article/details/100586036) |
 | [LeetCode 657. 机器人能否返回原点](https://blog.csdn.net/qq_21201267/article/details/100632672) |
 | [LeetCode 658. 找到 K 个最接近的元素](https://blog.csdn.net/qq_21201267/article/details/100697216) |
