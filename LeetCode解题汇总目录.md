@@ -102,6 +102,7 @@
 | [LeetCode 287. 寻找重复数（BitMap）](https://blog.csdn.net/qq_21201267/article/details/100135972) |
 | [LeetCode 292. Nim 游戏](https://blog.csdn.net/qq_21201267/article/details/100178975) |
 | [LeetCode 300. 最长上升子序列](https://blog.csdn.net/qq_21201267/article/details/97308533) |
+| [LeetCode 304. 二维区域和检索 - 矩阵不可变（DP）](https://blog.csdn.net/qq_21201267/article/details/101219854) |
 | [LeetCode 312. 戳气球（DP，难）](https://blog.csdn.net/qq_21201267/article/details/100838793) |
 | [LeetCode 322. 零钱兑换（DP）](https://blog.csdn.net/qq_21201267/article/details/99894804) |
 | [LeetCode 344. 反转字符串](https://blog.csdn.net/qq_21201267/article/details/100585634) |
@@ -180,6 +181,7 @@
 | [LeetCode 1009. 十进制整数的反码（位运算）](https://blog.csdn.net/qq_21201267/article/details/101197758) |
 | [LeetCode 1021. 删除最外层的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/100611450) |
 | [LeetCode 1038. 从二叉搜索树到更大和树（逆中序-右根左-降序）](https://blog.csdn.net/qq_21201267/article/details/100798009) |
+| [LeetCode 1046. 最后一块石头的重量（priority_queue 堆）](https://blog.csdn.net/qq_21201267/article/details/101215370) |
 | [LeetCode 1047. 删除字符串中的所有相邻重复项（栈）](https://blog.csdn.net/qq_21201267/article/details/101083067) |
 | [LeetCode 1051. 高度检查器](https://blog.csdn.net/qq_21201267/article/details/100635273) |
 | [LeetCode 1078. Bigram 分词](https://blog.csdn.net/qq_21201267/article/details/101173096) |

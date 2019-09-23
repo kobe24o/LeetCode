@@ -103,4 +103,3 @@ int main()
 	Solution s;
 	s.addBinary("11","1");
 }
-
