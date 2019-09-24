@@ -105,6 +105,7 @@
 | [LeetCode 304. 二维区域和检索 - 矩阵不可变（DP）](https://blog.csdn.net/qq_21201267/article/details/101219854) |
 | [LeetCode 312. 戳气球（DP，难）](https://blog.csdn.net/qq_21201267/article/details/100838793) |
 | [LeetCode 322. 零钱兑换（DP）](https://blog.csdn.net/qq_21201267/article/details/99894804) |
+| [LeetCode 334. 递增的三元子序列](https://blog.csdn.net/qq_21201267/article/details/101275950) |
 | [LeetCode 344. 反转字符串](https://blog.csdn.net/qq_21201267/article/details/100585634) |
 | [LeetCode 349. 两个数组的交集（哈希）](https://blog.csdn.net/qq_21201267/article/details/100945076) |
 | [LeetCode 350. 两个数组的交集 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/100995174) |
