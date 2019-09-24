@@ -69,6 +69,7 @@
 | [LeetCode 144. 二叉树的前序遍历（前序遍历）](https://blog.csdn.net/qq_21201267/article/details/100546064) |
 | [LeetCode 145. 二叉树的后序遍历（后序遍历&总结）](https://blog.csdn.net/qq_21201267/article/details/100546489) |
 | [LeetCode 146. LRU缓存机制（哈希链表）](https://blog.csdn.net/qq_21201267/article/details/100178189) |
+| [LeetCode 148. 排序链表（归并排序）](https://blog.csdn.net/qq_21201267/article/details/101313065) |
 | [LeetCode 150. 逆波兰表达式求值（栈）](https://blog.csdn.net/qq_21201267/article/details/99495282) |
 | [LeetCode 151. 翻转字符串里的单词（栈）](https://blog.csdn.net/qq_21201267/article/details/99663417) |
 | [LeetCode 152. 乘积最大子序列（DP）](https://blog.csdn.net/qq_21201267/article/details/100006586) |
