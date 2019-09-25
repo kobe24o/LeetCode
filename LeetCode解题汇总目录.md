@@ -3,10 +3,10 @@
 
 
 | 参赛记录                                                     |
-| ------------------------------------------------------------ |
+| :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-**已解决 232/1177** - **简单 143** **中等 78** **困难 11**
+**已解决 239/1108** - **简单 145** **中等 83** **困难 11**
 
 | 已解题目，部分太简单的没有写                                 |
 | :----------------------------------------------------------- |
@@ -130,7 +130,9 @@
 | [LeetCode 476. 数字的补数（移位 异或^）](https://blog.csdn.net/qq_21201267/article/details/100938652) |
 | [LeetCode 485. 最大连续1的个数](https://blog.csdn.net/qq_21201267/article/details/100855102) |
 | [LeetCode 493. 翻转对（归并排序）](https://blog.csdn.net/qq_21201267/article/details/101236925) |
+| [LeetCode496. 下一个更大元素 I（哈希）](https://blog.csdn.net/qq_21201267/article/details/101391976) |
 | [LeetCode 500. 键盘行](https://blog.csdn.net/qq_21201267/article/details/100674362) |
+| [LeetCode 503. 下一个更大元素 II（栈）](https://blog.csdn.net/qq_21201267/article/details/101394230) |
 | [LeetCode 513. 找树左下角的值（按层遍历 queue）](https://blog.csdn.net/qq_21201267/article/details/100677982) |
 | [LeetCode 522. 最长特殊序列 II](https://blog.csdn.net/qq_21201267/article/details/101036485) |
 | [LeetCode 535. TinyURL 的加密与解密（哈希）](https://blog.csdn.net/qq_21201267/article/details/100565409) |
