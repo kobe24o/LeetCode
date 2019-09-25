@@ -45,6 +45,7 @@
 | [LeetCode 67. 二进制求和](https://blog.csdn.net/qq_21201267/article/details/101211346) |
 | [LeetCode 69. x 的平方根（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100585531) |
 | [LeetCode 70. 爬楼梯（动态规划）](https://blog.csdn.net/qq_21201267/article/details/98478956) |
+| [LeetCode 77. 组合（回溯）](https://blog.csdn.net/qq_21201267/article/details/101383914) |
 | [LeetCode 78. 子集（回溯）](https://blog.csdn.net/qq_21201267/article/details/100148996) |
 | [LeetCode 88. 合并两个有序数组](https://blog.csdn.net/qq_21201267/article/details/100056086) |
 | [LeetCode 89. 格雷编码](https://blog.csdn.net/qq_21201267/article/details/100170042) |
@@ -118,6 +119,7 @@
 | [LeetCode 344. 反转字符串](https://blog.csdn.net/qq_21201267/article/details/100585634) |
 | [LeetCode 349. 两个数组的交集（哈希）](https://blog.csdn.net/qq_21201267/article/details/100945076) |
 | [LeetCode 350. 两个数组的交集 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/100995174) |
+| [LeetCode 377. 组合总和 Ⅳ（DP）](https://blog.csdn.net/qq_21201267/article/details/101388583) |
 | [LeetCode 389. 找不同（位运算）](https://blog.csdn.net/qq_21201267/article/details/101165255) |
 | [LeetCode 413. 等差数列划分（DP）](https://blog.csdn.net/qq_21201267/article/details/100831735) |
 | [LeetCode 429. N叉树的层序遍历（queue）](https://blog.csdn.net/qq_21201267/article/details/100714179) |

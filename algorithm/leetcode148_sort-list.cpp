@@ -49,19 +49,26 @@ public:
     }
     void quicksort(ListNode *head, ListNode *tail) 
     {
-    	if(head == NULL || head->next == NULL)
+    	if(head == tail || head->next == NULL)
         	return;
-    	ListNode *left = head, *pivot = head, *cur = head->next;
-    	while(cur != tail)
-    	{
-    		if(cur->val < pivot->val)
-    		{
-    			swap(cur->val, pivot->val);
-    			pivot = cur;
-    		}
-    		cur = cur->next;
-    	}
-    	quicksort(head, pivot);
-    	quicksort(pivot->next, tail);
+        ListNode *mid = partition(head,tail);
+    	quicksort(head, mid);
+    	quicksort(mid->next, tail);
+    }
+    ListNode* partition(ListNode *head, ListNode *tail)
+    {
+        int pivot = head->val;
+        ListNode *left = head, *cur = head->next;
+        while(cur != NULL && cur != tail)
+        {
+            if(cur->val < pivot)
+            {
+                left = left->next;
+                swap(cur->val, left->val);
+            }
+            cur = cur->next;
+        }
+        swap(left->val, head->val);
+        return left;
     }
 };
