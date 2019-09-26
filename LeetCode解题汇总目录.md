@@ -125,6 +125,7 @@
 | [LeetCode 429. N叉树的层序遍历（queue）](https://blog.csdn.net/qq_21201267/article/details/100714179) |
 | [LeetCode 437. 路径总和 III（双重递归）](https://blog.csdn.net/qq_21201267/article/details/100906264) |
 | [LeetCode 442. 数组中重复的数据](https://blog.csdn.net/qq_21201267/article/details/100798552) |
+| [LeetCode 448. 找到所有数组中消失的数字](https://blog.csdn.net/qq_21201267/article/details/101475950) |
 | [LeetCode 461. 汉明距离（异或^ 与&）](https://blog.csdn.net/qq_21201267/article/details/100632232) |
 | [LeetCode 463. 岛屿的周长](https://blog.csdn.net/qq_21201267/article/details/101063020) |
 | [LeetCode 476. 数字的补数（移位 异或^）](https://blog.csdn.net/qq_21201267/article/details/100938652) |
@@ -162,6 +163,7 @@
 | [LeetCode 704. 二分查找](https://blog.csdn.net/qq_21201267/article/details/100715644) |
 | [LeetCode 709. 转换成小写字母](https://blog.csdn.net/qq_21201267/article/details/100907747) |
 | [LeetCode 728. 自除数](https://blog.csdn.net/qq_21201267/article/details/100907175) |
+| [LeetCode 739. 每日温度（单调栈）](https://blog.csdn.net/qq_21201267/article/details/101479101) |
 | [LeetCode 762. 二进制表示中质数个计算置位](https://blog.csdn.net/qq_21201267/article/details/101039460) |
 | [LeetCode 763. 划分字母区间](https://blog.csdn.net/qq_21201267/article/details/100677335) |
 | [LeetCode 765. 情侣牵手（贪心）](https://blog.csdn.net/qq_21201267/article/details/100839491) |
