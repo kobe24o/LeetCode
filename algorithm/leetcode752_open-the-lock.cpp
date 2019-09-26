@@ -11,8 +11,8 @@ public:
             return -1;
         unordered_set<string> visited;
         queue<string> q;
-        string tp;
-        int step = 0, n, i, j;
+        string tp, tp_1, tp_2;
+        int step = 0, n, i;
         vector<int> dir = {1,-1};
         q.push("0000");
         visited.insert("0000");
@@ -27,18 +27,19 @@ public:
         			return step;
         		for(i = 0; i < 4; ++i)
         		{
-        			for(j = 0; j < 2; ++j)
-        			{
-        				if(j == 0)
-        					tp[i] = tp[i] == '9' ? '0' : tp[i]+1;
-        				else
-        					tp[i] = tp[i] == '0' ? '9' : tp[i]-1;
-        				if(visited.find(tp) == visited.end() && dead.find(tp) == dead.end())
-        				{
-        					visited.insert(tp);
-        					q.push(tp);
-        				}
-        			}
+                    tp_1 = tp_2 = tp;
+	                tp_1[i] = tp_1[i] == '9' ? '0' : tp_1[i]+1;
+    				tp_2[i] = tp_2[i] == '0' ? '9' : tp_2[i]-1;
+    				if(visited.find(tp_1) == visited.end() && dead.find(tp_1) == dead.end())
+    				{
+    					visited.insert(tp_1);
+    					q.push(tp_1);
+    				}
+                    if(visited.find(tp_2) == visited.end() && dead.find(tp_2) == dead.end())
+                    {
+                        visited.insert(tp_2);
+                        q.push(tp_2);
+                    }
         		}
         	}
         	++step;
