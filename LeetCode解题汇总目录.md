@@ -70,8 +70,10 @@
 | [LeetCode 121. 买卖股票的最佳时机](https://blog.csdn.net/qq_21201267/article/details/100026086) |
 | [LeetCode 122. 买卖股票的最佳时机 II](https://blog.csdn.net/qq_21201267/article/details/100127238) |
 | [LeetCode 124. 二叉树中的最大路径和（DFS）](https://blog.csdn.net/qq_21201267/article/details/100171375) |
+| [LeetCode 133. 克隆图（图的BFS/DFS）](https://blog.csdn.net/qq_21201267/article/details/101568649) |
 | [LeetCode 136. 只出现一次的数字（异或^）](https://blog.csdn.net/qq_21201267/article/details/100147375) |
 | [LeetCode 137. 只出现一次的数字 II（位运算）](https://blog.csdn.net/qq_21201267/article/details/101102832) |
+| [LeetCode 138. 复制带随机指针的链表（哈希 / 深拷贝）](https://blog.csdn.net/qq_21201267/article/details/101570854) |
 | [LeetCode 141. 环形链表](https://blog.csdn.net/qq_21201267/article/details/99296511) |
 | [LeetCode 142. 环形链表 II（链表环的检测）](https://blog.csdn.net/qq_21201267/article/details/100135575) |
 | [LeetCode 144. 二叉树的前序遍历（前序遍历）](https://blog.csdn.net/qq_21201267/article/details/100546064) |
@@ -132,6 +134,7 @@
 | [LeetCode 476. 数字的补数（移位 异或^）](https://blog.csdn.net/qq_21201267/article/details/100938652) |
 | [LeetCode 485. 最大连续1的个数](https://blog.csdn.net/qq_21201267/article/details/100855102) |
 | [LeetCode 493. 翻转对（归并排序）](https://blog.csdn.net/qq_21201267/article/details/101236925) |
+| [LeetCode 494. 目标和（DFS+DP）](https://blog.csdn.net/qq_21201267/article/details/101556163) |
 | [LeetCode 496. 下一个更大元素 I（哈希）](https://blog.csdn.net/qq_21201267/article/details/101391976) |
 | [LeetCode 500. 键盘行](https://blog.csdn.net/qq_21201267/article/details/100674362) |
 | [LeetCode 503. 下一个更大元素 II（栈）](https://blog.csdn.net/qq_21201267/article/details/101394230) |
@@ -172,6 +175,7 @@
 | [LeetCode 771. 宝石与石头（哈希）](https://blog.csdn.net/qq_21201267/article/details/100563578) |
 | [LeetCode 783. 二叉搜索树结点最小距离（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100784063) |
 | [LeetCode 784. 字母大小写全排列（位运算&回溯）](https://blog.csdn.net/qq_21201267/article/details/101179369) |
+| [LeetCode 797. 所有可能的路径（DFS）](https://blog.csdn.net/qq_21201267/article/details/101574194) |
 | [LeetCode 804. 唯一摩尔斯密码词（哈希+set）](https://blog.csdn.net/qq_21201267/article/details/100630347) |
 | [LeetCode 807. 保持城市天际线](https://blog.csdn.net/qq_21201267/article/details/100585707) |
 | [LeetCode 814. 二叉树剪枝（递归）](https://blog.csdn.net/qq_21201267/article/details/100566646) |
