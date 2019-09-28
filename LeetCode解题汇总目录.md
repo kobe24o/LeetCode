@@ -124,6 +124,7 @@
 | [LeetCode 350. 两个数组的交集 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/100995174) |
 | [LeetCode 377. 组合总和 Ⅳ（DP）](https://blog.csdn.net/qq_21201267/article/details/101388583) |
 | [LeetCode 389. 找不同（位运算）](https://blog.csdn.net/qq_21201267/article/details/101165255) |
+| [LeetCode 394. 字符串解码（栈）](https://blog.csdn.net/qq_21201267/article/details/101607649) |
 | [LeetCode 413. 等差数列划分（DP）](https://blog.csdn.net/qq_21201267/article/details/100831735) |
 | [LeetCode 429. N叉树的层序遍历（queue）](https://blog.csdn.net/qq_21201267/article/details/100714179) |
 | [LeetCode 437. 路径总和 III（双重递归）](https://blog.csdn.net/qq_21201267/article/details/100906264) |
@@ -142,6 +143,7 @@
 | [LeetCode 522. 最长特殊序列 II](https://blog.csdn.net/qq_21201267/article/details/101036485) |
 | [LeetCode 535. TinyURL 的加密与解密（哈希）](https://blog.csdn.net/qq_21201267/article/details/100565409) |
 | [LeetCode 538. 把二叉搜索树转换为累加树（逆中序 根右左）](https://blog.csdn.net/qq_21201267/article/details/100826415) |
+| [LeetCode 542. 01 矩阵（BFS && DP）](https://blog.csdn.net/qq_21201267/article/details/101618467) |
 | [LeetCode 547. 朋友圈（图的遍历BFS & DFS）](https://blog.csdn.net/qq_21201267/article/details/100813067) |
 | [LeetCode 557. 反转字符串中的单词 III（栈）](https://blog.csdn.net/qq_21201267/article/details/100436745) |
 | [LeetCode 559. N叉树的最大深度](https://blog.csdn.net/qq_21201267/article/details/100943751) |
@@ -167,6 +169,7 @@
 | [LeetCode 704. 二分查找](https://blog.csdn.net/qq_21201267/article/details/100715644) |
 | [LeetCode 709. 转换成小写字母](https://blog.csdn.net/qq_21201267/article/details/100907747) |
 | [LeetCode 728. 自除数](https://blog.csdn.net/qq_21201267/article/details/100907175) |
+| [LeetCode 733. 图像渲染（DFS/BFS）](https://blog.csdn.net/qq_21201267/article/details/101611121) |
 | [LeetCode 739. 每日温度（单调栈）](https://blog.csdn.net/qq_21201267/article/details/101479101) |
 | [LeetCode 752. 打开转盘锁（图的BFS最短路径）](https://blog.csdn.net/qq_21201267/article/details/101485240) |
 | [LeetCode 762. 二进制表示中质数个计算置位](https://blog.csdn.net/qq_21201267/article/details/101039460) |
