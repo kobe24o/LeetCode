@@ -20,6 +20,7 @@
 | [LeetCode 15. 三数之和](https://blog.csdn.net/qq_21201267/article/details/99241741) |
 | [LeetCode 16. 最接近的三数之和（固定左端+滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/100863583) |
 | [LeetCode 17. 电话号码的字母组合（回溯）](https://blog.csdn.net/qq_21201267/article/details/100436281) |
+| [LeetCode 19. 删除链表的倒数第N个节点（双指针）](https://blog.csdn.net/qq_21201267/article/details/101640339) |
 | [LeetCode 20. 有效的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/99353358) |
 | [LeetCode 21. 合并两个有序链表（单链表）](https://blog.csdn.net/qq_21201267/article/details/100056931) |
 | [LeetCode 22. 括号生成（回溯）](https://blog.csdn.net/qq_21201267/article/details/101078481) |
@@ -167,6 +168,7 @@
 | [LeetCode 700. 二叉搜索树中的搜索](https://blog.csdn.net/qq_21201267/article/details/100906799) |
 | [LeetCode 701. 二叉搜索树中的插入操作（二叉查找树/插入）](https://blog.csdn.net/qq_21201267/article/details/100696071) |
 | [LeetCode 704. 二分查找](https://blog.csdn.net/qq_21201267/article/details/100715644) |
+| [LeetCode 707. 设计链表（List）](https://blog.csdn.net/qq_21201267/article/details/101638997) |
 | [LeetCode 709. 转换成小写字母](https://blog.csdn.net/qq_21201267/article/details/100907747) |
 | [LeetCode 728. 自除数](https://blog.csdn.net/qq_21201267/article/details/100907175) |
 | [LeetCode 733. 图像渲染（DFS/BFS）](https://blog.csdn.net/qq_21201267/article/details/101611121) |

@@ -1,4 +1,3 @@
-#include<string>
 class node
 {
 public:
@@ -18,7 +17,7 @@ public:
     
     /** Get the value of the index-th node in the linked list. If the index is invalid, return -1. */
     int get(int index) {
-        if(index > len || index < 0)
+        if(index >= len || index < 0)
             return -1;
         node *cur = head;
         while(index--)
@@ -53,7 +52,7 @@ public:
     
     /** Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted. */
     void addAtIndex(int index, int val) {
-        if(index = len)
+        if(index == len)
             addAtTail(val);
         else if(index <= 0)
             addAtHead(val);
@@ -103,14 +102,3 @@ public:
  * obj->addAtIndex(index,val);
  * obj->deleteAtIndex(index);
  */
-int main()
-{
-    MyLinkedList list;
-    list.addAtHead(1);
-    list.addAtTail(3);
-    list.addAtIndex(1,2);   //链表变为1-> 2-> 3
-    list.get(1);            //返回2
-    list.deleteAtIndex(1);  //现在链表是1-> 3
-    list.get(1);            //返回3
-
-}
