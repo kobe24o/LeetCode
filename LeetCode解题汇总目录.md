@@ -1,4 +1,4 @@
-此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.27
+此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.29
 
 
 
@@ -6,7 +6,7 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-**已解决 248/1113** - **简单 149** **中等 88** **困难 11**
+**已解决 262/1113** - **简单 153** **中等 98** **困难 11**
 
 | 已解题目，部分太简单的没有写                                 |
 | :----------------------------------------------------------- |
@@ -104,6 +104,7 @@
 | [LeetCode 230. 二叉搜索树中第K小的元素（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100530272) |
 | [LeetCode 231. 2的幂 && LeetCode 338. 比特位计数（2进制1的个数）](https://blog.csdn.net/qq_21201267/article/details/100084705) |
 | [LeetCode 232. 用栈实现队列（双栈法->队列）](https://blog.csdn.net/qq_21201267/article/details/100800928) |
+| [LeetCode 234. 回文链表（快慢指针+链表反转）](https://blog.csdn.net/qq_21201267/article/details/101678435) |
 | [LeetCode 235. 二叉搜索树的最近公共祖先](https://blog.csdn.net/qq_21201267/article/details/100868602) |
 | [LeetCode 236. 二叉树的最近公共祖先](https://blog.csdn.net/qq_21201267/article/details/100869188) |
 | [LeetCode 237. 删除链表中的节点](https://blog.csdn.net/qq_21201267/article/details/100171651) |
