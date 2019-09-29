@@ -20,15 +20,28 @@ public:
 class Solution {
 public:
     Node* flatten(Node* head) {
-        Node *tempHead = head;
-        Node *cur = head;
-        while(cur->child != NULL && cur->next != NULL) 
-            cur = cur->next;
-        Node *nextNode = cur->next;
-        Node *child = flatten(cur->child);
-        child->next = nextNode;
-        child->prev = cur;
-        cur->next = child;
-        nextNode->prev = 
+        
+        Node *cur = head, *nextNode = NULL, *prevN = head;
+        while(prevN)
+        {
+            if(cur && cur->child) 
+            {
+                nextNode = cur->next;
+                cur->next = flatten(cur->child);
+                cur->child->prev = cur;
+                cur->child = NULL;
+            }
+            prevN = cur;
+            if(cur)
+                cur = cur->next;
+            if(!cur && nextNode)
+            {
+                prevN->next = nextNode;
+                nextNode->prev = prevN;
+                cur = prevN->next;
+                nextNode = NULL;
+            }
+        }
+        return head;
     }
 };
