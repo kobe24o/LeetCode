@@ -1,4 +1,4 @@
-此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.9.29
+此篇为[LeetCode](https://leetcode-cn.com)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.10.7
 
 
 
@@ -6,7 +6,7 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-**已解决 262/1113** - **简单 153** **中等 98** **困难 11**
+**已解决 275/1126** - **简单 162** **中等 102** **困难 11**
 
 | 已解题目，部分太简单的没有列出                               |
 | :----------------------------------------------------------- |
@@ -94,6 +94,7 @@
 | [LeetCode 200. 岛屿数量（图的遍历）](https://blog.csdn.net/qq_21201267/article/details/99775387) |
 | [LeetCode 202. 快乐数（快慢指针）](https://blog.csdn.net/qq_21201267/article/details/101003351) |
 | [LeetCode 206. 反转链表](https://blog.csdn.net/qq_21201267/article/details/100171825) |
+| [LeetCode 209. 长度最小的子数组（滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/102266837) |
 | [LeetCode 216. 组合总和 III（排列组合 回溯）](https://blog.csdn.net/qq_21201267/article/details/101369537) |
 | [LeetCode 217. 存在重复元素（哈希）](https://blog.csdn.net/qq_21201267/article/details/100587491) |
 | [LeetCode 219. 存在重复元素 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/100587915) |
@@ -142,10 +143,12 @@
 | [LeetCode 493. 翻转对（归并排序）](https://blog.csdn.net/qq_21201267/article/details/101236925) |
 | [LeetCode 494. 目标和（DFS+DP）](https://blog.csdn.net/qq_21201267/article/details/101556163) |
 | [LeetCode 496. 下一个更大元素 I（哈希）](https://blog.csdn.net/qq_21201267/article/details/101391976) |
+| [LeetCode 498. 对角线遍历](https://blog.csdn.net/qq_21201267/article/details/102264166) |
 | [LeetCode 500. 键盘行](https://blog.csdn.net/qq_21201267/article/details/100674362) |
 | [LeetCode 503. 下一个更大元素 II（栈）](https://blog.csdn.net/qq_21201267/article/details/101394230) |
 | [LeetCode 513. 找树左下角的值（按层遍历 queue）](https://blog.csdn.net/qq_21201267/article/details/100677982) |
 | [LeetCode 522. 最长特殊序列 II](https://blog.csdn.net/qq_21201267/article/details/101036485) |
+| [LeetCode 523. 连续的子数组和（求余 哈希）](https://blog.csdn.net/qq_21201267/article/details/102253351) |
 | [LeetCode 535. TinyURL 的加密与解密（哈希）](https://blog.csdn.net/qq_21201267/article/details/100565409) |
 | [LeetCode 538. 把二叉搜索树转换为累加树（逆中序 根右左）](https://blog.csdn.net/qq_21201267/article/details/100826415) |
 | [LeetCode 542. 01 矩阵（BFS && DP）](https://blog.csdn.net/qq_21201267/article/details/101618467) |

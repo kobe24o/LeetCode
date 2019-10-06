@@ -5,15 +5,16 @@ public:
         	return NULL;
         vector<TreeNode*> ans;
         TreeNode *root = new TreeNode(0);
-        root->left = bt(N-3,ans);
-        root->right = bt(N-3,ans);
+        ans.push_back(root);
+        bt(N-1,ans,root)
         return ans;
     }
-    TreeNode* bt(int N,vector<TreeNode*> &ans)
+    TreeNode* bt(int N,vector<TreeNode*> &ans, TreeNode *root)
     {
-    	if(N == 0)
+    	if(N <= 0)
 		{
-			ans.push_back()
+            if(N == 0)
+			 ans.push_back()
 			return NULL;
 		}
     }
