@@ -1,4 +1,4 @@
-此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.10.7
+此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.10.8
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -8,12 +8,13 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-**已解决 275/1126** - **简单 162** **中等 102** **困难 11**
+**已解决 286/1126** - **简单 169** **中等 106** **困难 11**
 
 | 已解题目，部分太简单的没有列出                               |
 | :----------------------------------------------------------- |
 | [LeetCode 1. 两数之和（哈希）](https://blog.csdn.net/qq_21201267/article/details/97125420) |
 | [LeetCode 2. 两数相加（单链表反转）](https://blog.csdn.net/qq_21201267/article/details/97191786) |
+| [LeetCode 3. 无重复字符的最长子串（滑动窗口+哈希）](https://blog.csdn.net/qq_21201267/article/details/102333616) |
 | [LeetCode 7. 整数反转](https://blog.csdn.net/qq_21201267/article/details/100583336) |
 | [LeetCode 8. 字符串转换整数 (atoi)](https://blog.csdn.net/qq_21201267/article/details/100583821) |
 | [LeetCode 9. 回文数](https://blog.csdn.net/qq_21201267/article/details/100168231) |
@@ -129,6 +130,7 @@
 | [LeetCode 328. 奇偶链表（双指针）](https://blog.csdn.net/qq_21201267/article/details/101649623) |
 | [LeetCode 334. 递增的三元子序列](https://blog.csdn.net/qq_21201267/article/details/101275950) |
 | [LeetCode 344. 反转字符串](https://blog.csdn.net/qq_21201267/article/details/100585634) |
+| [LeetCode 347. 前 K 个高频元素（哈希/优先队列）](https://blog.csdn.net/qq_21201267/article/details/102338389) |
 | [LeetCode 349. 两个数组的交集（哈希）](https://blog.csdn.net/qq_21201267/article/details/100945076) |
 | [LeetCode 350. 两个数组的交集 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/100995174) |
 | [LeetCode 377. 组合总和 Ⅳ（DP）](https://blog.csdn.net/qq_21201267/article/details/101388583) |
@@ -140,6 +142,7 @@
 | [LeetCode 437. 路径总和 III（双重递归）](https://blog.csdn.net/qq_21201267/article/details/100906264) |
 | [LeetCode 442. 数组中重复的数据](https://blog.csdn.net/qq_21201267/article/details/100798552) |
 | [LeetCode 448. 找到所有数组中消失的数字](https://blog.csdn.net/qq_21201267/article/details/101475950) |
+| [LeetCode 454. 四数相加 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/102336145) |
 | [LeetCode 461. 汉明距离（异或^ 与&）](https://blog.csdn.net/qq_21201267/article/details/100632232) |
 | [LeetCode 463. 岛屿的周长](https://blog.csdn.net/qq_21201267/article/details/101063020) |
 | [LeetCode 476. 数字的补数（移位 异或^）](https://blog.csdn.net/qq_21201267/article/details/100938652) |
