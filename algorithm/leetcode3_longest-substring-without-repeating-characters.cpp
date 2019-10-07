@@ -3,7 +3,7 @@ using namespace std;
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        int i, j, start = 0, end = 0, maxlen = 0;
+        int i, j, k, start = 0, end = 0, maxlen = 0;
         unordered_map<char,int> m;
         unordered_map<char,int>::iterator it;
         for(i = 0; i < s.size(); ++i)
@@ -15,7 +15,8 @@ public:
         	}
         	else
         	{
-        		for(j = start; j <= it->second; ++j)
+        	    k = it->second;
+        		for(j = start; j <= k; ++j)
         			m.erase(s[j]);
         		m[s[i]] = i;
         		start = j;
