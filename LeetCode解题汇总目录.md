@@ -31,6 +31,7 @@
 | [LeetCode 26. 删除排序数组中的重复项](https://blog.csdn.net/qq_21201267/article/details/100864296) |
 | [LeetCode 27. 移除元素](https://blog.csdn.net/qq_21201267/article/details/100826960) |
 | [LeetCode 32. 最长有效括号（栈&DP）](https://blog.csdn.net/qq_21201267/article/details/99479252) |
+| [LeetCode 33. 搜索旋转排序数组（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102415062) |
 | [LeetCode 35. 搜索插入位置（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100419471) |
 | [LeetCode 36. 有效的数独（哈希）](https://blog.csdn.net/qq_21201267/article/details/99888173) |
 | [LeetCode 39. 组合总和（回溯）](https://blog.csdn.net/qq_21201267/article/details/100678859) |
