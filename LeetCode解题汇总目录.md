@@ -8,7 +8,7 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-**已解决 286/1126** - **简单 169** **中等 106** **困难 11**
+**已解决 293/1126** - **简单 170** **中等 112** **困难 11**
 
 | 已解题目，部分太简单的没有列出                               |
 | :----------------------------------------------------------- |
@@ -53,6 +53,7 @@
 | [LeetCode 70. 爬楼梯（动态规划）](https://blog.csdn.net/qq_21201267/article/details/98478956) |
 | [LeetCode 77. 组合（回溯）](https://blog.csdn.net/qq_21201267/article/details/101383914) |
 | [LeetCode 78. 子集（回溯）](https://blog.csdn.net/qq_21201267/article/details/100148996) |
+| [LeetCode 81. 搜索旋转排序数组 II（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102416534) |
 | [LeetCode 88. 合并两个有序数组](https://blog.csdn.net/qq_21201267/article/details/100056086) |
 | [LeetCode 89. 格雷编码](https://blog.csdn.net/qq_21201267/article/details/100170042) |
 | [LeetCode 90. 子集 II（回溯+剪枝）](https://blog.csdn.net/qq_21201267/article/details/100167394) |
@@ -90,8 +91,10 @@
 | [LeetCode 150. 逆波兰表达式求值（栈）](https://blog.csdn.net/qq_21201267/article/details/99495282) |
 | [LeetCode 151. 翻转字符串里的单词（栈）](https://blog.csdn.net/qq_21201267/article/details/99663417) |
 | [LeetCode 152. 乘积最大子序列（DP）](https://blog.csdn.net/qq_21201267/article/details/100006586) |
+| [LeetCode 153. 寻找旋转排序数组中的最小值（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102423232) |
 | [LeetCode 155. 最小栈](https://blog.csdn.net/qq_21201267/article/details/100188954) |
 | [LeetCode 160. 相交链表](https://blog.csdn.net/qq_21201267/article/details/100168364) |
+| [LeetCode 162. 寻找峰值（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102418806) |
 | [LeetCode 169. 求众数](https://blog.csdn.net/qq_21201267/article/details/99249031) |
 | [LeetCode 171. Excel表列序号（26进制转10进制）](https://blog.csdn.net/qq_21201267/article/details/100998473) |
 | [LeetCode 173. 二叉搜索树迭代器（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100549417) |
