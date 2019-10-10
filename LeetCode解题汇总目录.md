@@ -32,6 +32,7 @@
 | [LeetCode 27. 移除元素](https://blog.csdn.net/qq_21201267/article/details/100826960) |
 | [LeetCode 32. 最长有效括号（栈&DP）](https://blog.csdn.net/qq_21201267/article/details/99479252) |
 | [LeetCode 33. 搜索旋转排序数组（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102415062) |
+| [LeetCode 34. 在排序数组中查找元素的第一个和最后一个位置（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102470512) |
 | [LeetCode 35. 搜索插入位置（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100419471) |
 | [LeetCode 36. 有效的数独（哈希）](https://blog.csdn.net/qq_21201267/article/details/99888173) |
 | [LeetCode 39. 组合总和（回溯）](https://blog.csdn.net/qq_21201267/article/details/100678859) |
@@ -179,7 +180,7 @@
 | [LeetCode 652. 寻找重复的子树（DFS）](https://blog.csdn.net/qq_21201267/article/details/101284456) |
 | [LeetCode 654. 最大二叉树（递归）](https://blog.csdn.net/qq_21201267/article/details/100586036) |
 | [LeetCode 657. 机器人能否返回原点](https://blog.csdn.net/qq_21201267/article/details/100632672) |
-| [LeetCode 658. 找到 K 个最接近的元素](https://blog.csdn.net/qq_21201267/article/details/100697216) |
+| [LeetCode 658. 找到 K 个最接近的元素（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100697216) |
 | [LeetCode 669. 修剪二叉搜索树](https://blog.csdn.net/qq_21201267/article/details/100716292) |
 | [LeetCode 671. 二叉树中第二小的节点](https://blog.csdn.net/qq_21201267/article/details/100550016) |
 | [LeetCode 674. 最长连续递增序列](https://blog.csdn.net/qq_21201267/article/details/98262871) |
