@@ -8,7 +8,7 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-**已解决 293/1126** - **简单 170** **中等 112** **困难 11**
+**已解决 302/1126** - **简单 174** **中等 115** **困难 13**
 
 | 已解题目，部分太简单的没有列出                               |
 | :----------------------------------------------------------- |
@@ -76,6 +76,7 @@
 | [LeetCode 112. 路径总和](https://blog.csdn.net/qq_21201267/article/details/99710888) |
 | [LeetCode 113. 路径总和 II（回溯）](https://blog.csdn.net/qq_21201267/article/details/100550154) |
 | [LeetCode 116. 填充每个节点的下一个右侧节点指针（递归&循环）](https://blog.csdn.net/qq_21201267/article/details/102508857) |
+| [LeetCode 117. 填充每个节点的下一个右侧节点指针 II（递归&循环）](https://blog.csdn.net/qq_21201267/article/details/102510857) |
 | [LeetCode 118. 杨辉三角](https://blog.csdn.net/qq_21201267/article/details/100562763) |
 | [LeetCode 119. 杨辉三角 II](https://blog.csdn.net/qq_21201267/article/details/100719218) |
 | [LeetCode 120. 三角形最小路径和](https://blog.csdn.net/qq_21201267/article/details/96380128) |
@@ -132,6 +133,7 @@
 | [LeetCode 283. 移动零](https://blog.csdn.net/qq_21201267/article/details/100832987) |
 | [LeetCode 287. 寻找重复数（BitMap）](https://blog.csdn.net/qq_21201267/article/details/100135972) |
 | [LeetCode 292. Nim 游戏](https://blog.csdn.net/qq_21201267/article/details/100178975) |
+| [LeetCode 297. 二叉树的序列化与反序列化（前序遍历&层序遍历）](https://blog.csdn.net/qq_21201267/article/details/102513143) |
 | [LeetCode 300. 最长上升子序列](https://blog.csdn.net/qq_21201267/article/details/97308533) |
 | [LeetCode 304. 二维区域和检索 - 矩阵不可变（DP）](https://blog.csdn.net/qq_21201267/article/details/101219854) |
 | [LeetCode 312. 戳气球（DP，难）](https://blog.csdn.net/qq_21201267/article/details/100838793) |
