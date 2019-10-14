@@ -3,6 +3,7 @@ using namespace std;
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
+		k = nums.size()-k;
         return findKthL(nums,k,0,nums.size()-1);
     }
 private:
@@ -31,10 +32,9 @@ private:
     			i++;
     		swap(nums[i], nums[j]);
     	}
-    	pIndex = i;//哨兵下标
-    	if(i+1 == k)
+    	if(i == k)
     		return nums[i];
-    	else if(i+1 < k)
+    	else if(i < k)
     		return findKthL(nums,k,i+1,right);
     	else
     		return findKthL(nums,k,left,i-1);
