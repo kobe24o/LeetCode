@@ -3,9 +3,9 @@ using namespace std;
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
-        return findKthLargest(nums,k,0,nums.size()-1);
+        return findKthL(nums,k,0,nums.size()-1);
     }
-
+private:
     void selectMid(vector<int>& nums, int left, int right)
     {
     	int mid = left+((right-left)>>1);
@@ -17,7 +17,7 @@ public:
         	swap(nums[mid], nums[left]);
     }
 
-    int findKthLargest(vector<int>& nums, int &k, int left, int right)
+    int findKthL(vector<int>& nums, int &k, int left, int right)
     {
     	selectMid(nums,left,right);
     	int p = nums[left];
@@ -35,14 +35,14 @@ public:
     	if(i+1 == k)
     		return nums[i];
     	else if(i+1 < k)
-    		return findKthLargest(nums,k,i+1,right);
+    		return findKthL(nums,k,i+1,right);
     	else
-    		return findKthLargest(nums,k,left,i-1);
+    		return findKthL(nums,k,left,i-1);
     }
 };
 int main()
 {
 	Solution s;
-	int arr[] = {3,2,1,5,6,4};
+	vector<int> arr = {3,2,1,5,6,4};
 	s.findKthLargest(arr,2);
 }
