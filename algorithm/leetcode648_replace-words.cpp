@@ -1,3 +1,8 @@
+#include<vector>
+#include<string.h>
+#include<iostream>
+#include<sstream>
+using namespace std;
 class TrieNode
 {
 public:
@@ -86,6 +91,7 @@ public:
 int main()
 {
 	Solution s;
-	s.replaceWords({"cat", "bat", "rat"},"the cattle was rattled by the battery");
+	vector<string> vec = {"cat", "bat", "rat"};
+	s.replaceWords(vec,"the cattle was rattled by the battery");
 	return 0;
 }
