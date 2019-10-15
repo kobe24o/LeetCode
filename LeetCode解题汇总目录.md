@@ -153,6 +153,7 @@
 | [LeetCode 389. 找不同（位运算）](https://blog.csdn.net/qq_21201267/article/details/101165255) |
 | [LeetCode 394. 字符串解码（栈）](https://blog.csdn.net/qq_21201267/article/details/101607649) |
 | [LeetCode 413. 等差数列划分（DP）](https://blog.csdn.net/qq_21201267/article/details/100831735) |
+| [LeetCode 421. 数组中两个数的最大异或值（Trie树）](https://blog.csdn.net/qq_21201267/article/details/102577639) |
 | [LeetCode 429. N叉树的层序遍历（queue）](https://blog.csdn.net/qq_21201267/article/details/100714179) |
 | [LeetCode 430. 扁平化多级双向链表（DFS）](https://blog.csdn.net/qq_21201267/article/details/101723144) |
 | [LeetCode 437. 路径总和 III（双重递归）](https://blog.csdn.net/qq_21201267/article/details/100906264) |
