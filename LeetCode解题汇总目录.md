@@ -1,4 +1,4 @@
-此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.10.14
+此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.10.17
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -8,7 +8,7 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-**已解决 304/1138** - **简单 175** **中等 116** **困难 13**
+ **已解决 314/1138** - **简单 175** **中等 125** **困难 14** 
 
 | 已解题目，部分太简单的没有列出                               |
 | :----------------------------------------------------------- |
@@ -28,6 +28,7 @@
 | [LeetCode 21. 合并两个有序链表（单链表）](https://blog.csdn.net/qq_21201267/article/details/100056931) |
 | [LeetCode 22. 括号生成（回溯）](https://blog.csdn.net/qq_21201267/article/details/101078481) |
 | [LeetCode 23. 合并K个排序链表（优先队列）](https://blog.csdn.net/qq_21201267/article/details/99344922) |
+| [LeetCode 24. 两两交换链表中的节点（递归+循环）](https://blog.csdn.net/qq_21201267/article/details/102597533) |
 | [LeetCode 26. 删除排序数组中的重复项](https://blog.csdn.net/qq_21201267/article/details/100864296) |
 | [LeetCode 27. 移除元素](https://blog.csdn.net/qq_21201267/article/details/100826960) |
 | [LeetCode 32. 最长有效括号（栈&DP）](https://blog.csdn.net/qq_21201267/article/details/99479252) |
