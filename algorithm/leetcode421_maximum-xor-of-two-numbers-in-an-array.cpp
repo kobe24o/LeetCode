@@ -111,38 +111,44 @@ public:
 			cur = cur->next[bit];
 		}
 	}
-	int MaxXor(Node *zero, Node *one, int j, int ans)
+	void MaxXor(Node *p2, Node *p1, int j, int &ans)
 	{
 		if(j == -1)
-			return 0;
-		if(zero && one)
-			ans += (1<<j);
-		if(one->next[0] == NULL)
+			return;
+		int ans1 = 0, ans2 = 0, ans3 = 0, init = ans;
+		if((p2->next[0] && p1->next[1])||(p2->next[1] && p1->next[0]))
 		{
-			if(zero->next[0] != NULL)
-				return ans+MaxXor(one->next[1],zero->next[0],j-1,ans);
-			return ans+MaxXor(one->next[1],zero->next[1],j-1,ans);
+			if(p2->next[0] && p1->next[1])
+			{
+				ans += (1<<j);
+				MaxXor(p2->next[0], p1->next[1],j-1,ans);
+				ans1 = ans;
+			}
+			if(p2->next[1] && p1->next[0])
+			{
+				ans = init;
+				ans += (1<<j);
+				MaxXor(p2->next[1], p1->next[0],j-1,ans);
+				ans2 = ans;
+			}
 		}
-		if(one->next[1] == NULL)
+		else
 		{
-			if(zero->next[1] != NULL)
-				return ans+MaxXor(one->next[0],zero->next[1],j-1,ans);
-			return ans+MaxXor(one->next[0],zero->next[0],j-1,ans);
+			if(p2->next[0] && p1->next[0])
+			{
+				ans = init;
+				MaxXor(p2->next[0], p1->next[0],j-1,ans);
+				ans3 = ans;
+			}
+			if(p2->next[1] && p1->next[1])
+			{
+				ans = init;
+				MaxXor(p2->next[1], p1->next[1],j-1,ans);
+			}
 		}
-		if(zero->next[0] == NULL)
-		{
-			if(one->next[0] != NULL)
-				return ans+MaxXor(one->next[0],zero->next[1],j-1,ans);
-			return ans+MaxXor(one->next[1],zero->next[1],j-1,ans);
-		}
-		if(zero->next[1] == NULL)
-		{
-			if(one->next[1] != NULL)
-				return ans+MaxXor(one->next[1],zero->next[0],j-1,ans);
-			return ans+MaxXor(one->next[0],zero->next[0],j-1,ans);
-		}
-        int a = ans+MaxXor(one->next[1],zero->next[0],j-1,ans), b = ans+MaxXor(one->next[0],zero->next[1],j-1,ans);
-		return max(a,b);
+		if(ans1>ans)	ans = ans1;
+		if(ans2>ans)	ans = ans2;
+		if(ans3>ans)	ans = ans3;
 	}
 };
 class Solution {
@@ -153,7 +159,7 @@ public:
         	tree.insert(n);
         Node *cur = tree.root;
         int j = 31, ans = 0;
-        while(!cur->next[0] || !cur->next[1])
+        while(j >= 0 && (!cur->next[0] || !cur->next[1]))
         {
         	if(cur->next[0])
         		cur = cur->next[0];
@@ -161,14 +167,57 @@ public:
         		cur = cur->next[1];
         	j--;
         }//找到cur是左右都有的
-        tree.MaxXor(cur->next[0],cur->next[1],j,ans);
+        if(j >= 0)
+        {
+		    ans += (1<<j);
+            tree.MaxXor(cur->next[0],cur->next[1],j-1,ans);
+        }
         return ans;
     }
 };
 int main()
 {
-	vector<int> vec = {3,10,5,25,2,8};
+	vector<int> vec = {0};
 	Solution s;
 	cout << s.findMaximumXOR(vec);
 	return 0;
 }
+
+struct Node
+{
+    Node* next[2] = {NULL};
+};
+class Solution 
+{
+public:
+    void insert(int n, Node* root)
+    {
+    	int bit;
+        for (int i = 31; i >= 0; --i) 
+        {
+            bit = (n >> i) & 1;
+            if (!root->next[bit])
+                root->next[bit] = new Node();
+            root = root->next[t];
+        }
+    }
+    int findMaximumXOR(vector<int>& nums) {
+        Node* root = new Node();
+        for (int n : nums)
+            insert(n, root);
+        int ans = 0, tmp = 0;
+        Node* p = root;
+        for (auto val : nums) {
+            p = root; tmp = 0;
+            for (int i = 30; i >= 0; --i) {
+                int t = (val >> i) & 1;
+                if (p->next[!t]) {
+                    p = p->next[!t];
+                    tmp += (1 << i);
+                }else p = p->next[t];
+            }
+            ans = max(ans, tmp);
+        }
+        return ans;
+    }
+};
