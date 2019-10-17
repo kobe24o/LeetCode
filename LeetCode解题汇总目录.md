@@ -63,6 +63,7 @@
 | [LeetCode 90. 子集 II（回溯+剪枝）](https://blog.csdn.net/qq_21201267/article/details/100167394) |
 | [LeetCode 92. 反转链表 II（双指针）](https://blog.csdn.net/qq_21201267/article/details/101646666) |
 | [LeetCode 94. 二叉树的中序遍历（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100545729) |
+| [LeetCode 96. 不同的二叉搜索树（DP）](https://blog.csdn.net/qq_21201267/article/details/102616858) |
 | [LeetCode 98. 验证二叉搜索树（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/99699540) |
 | [LeetCode 99. 恢复二叉搜索树（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100811472) |
 | [LeetCode 100. 相同的树（二叉树遍历）](https://blog.csdn.net/qq_21201267/article/details/100851442) |
