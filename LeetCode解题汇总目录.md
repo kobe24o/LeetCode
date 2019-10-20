@@ -1,4 +1,4 @@
-此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.10.17
+此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.10.20
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -8,7 +8,7 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
- **已解决 314/1138** - **简单 175** **中等 125** **困难 14** 
+  **已解决 323/1146** - **简单 179** **中等 130** **困难 14** 
 
 | 已解题目，部分太简单的没有列出                               |
 | :----------------------------------------------------------- |
@@ -58,6 +58,7 @@
 | [LeetCode 77. 组合（回溯）](https://blog.csdn.net/qq_21201267/article/details/101383914) |
 | [LeetCode 78. 子集（回溯）](https://blog.csdn.net/qq_21201267/article/details/100148996) |
 | [LeetCode 79. 单词搜索（回溯DFS）](https://blog.csdn.net/qq_21201267/article/details/102596927) |
+| [LeetCode 80. 删除排序数组中的重复项 II](https://blog.csdn.net/qq_21201267/article/details/102655782) |
 | [LeetCode 81. 搜索旋转排序数组 II（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102416534) |
 | [LeetCode 88. 合并两个有序数组](https://blog.csdn.net/qq_21201267/article/details/100056086) |
 | [LeetCode 89. 格雷编码](https://blog.csdn.net/qq_21201267/article/details/100170042) |
