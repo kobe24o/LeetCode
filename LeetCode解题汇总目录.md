@@ -1,4 +1,4 @@
-此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.10.20
+此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.10.22
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -8,7 +8,7 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-  **已解决 323/1146** - **简单 179** **中等 130** **困难 14** 
+   **已解决 328/1147** - **简单 181** **中等 132** **困难 15** 
 
 | 已解题目，部分太简单的没有列出                               |
 | :----------------------------------------------------------- |
@@ -98,6 +98,7 @@
 | [LeetCode 145. 二叉树的后序遍历（后序遍历&总结）](https://blog.csdn.net/qq_21201267/article/details/100546489) |
 | [LeetCode 146. LRU缓存机制（哈希链表）](https://blog.csdn.net/qq_21201267/article/details/100178189) |
 | [LeetCode 148. 排序链表（归并排序）](https://blog.csdn.net/qq_21201267/article/details/101313065) |
+| [LeetCode 149. 直线上最多的点数](https://blog.csdn.net/qq_21201267/article/details/102674893) |
 | [LeetCode 150. 逆波兰表达式求值（栈）](https://blog.csdn.net/qq_21201267/article/details/99495282) |
 | [LeetCode 151. 翻转字符串里的单词（栈）](https://blog.csdn.net/qq_21201267/article/details/99663417) |
 | [LeetCode 152. 乘积最大子序列（DP）](https://blog.csdn.net/qq_21201267/article/details/100006586) |
