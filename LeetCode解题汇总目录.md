@@ -115,6 +115,7 @@
 | [LeetCode 199. 二叉树的右视图（DFS & 按层queue）](https://blog.csdn.net/qq_21201267/article/details/100801826) |
 | [LeetCode 200. 岛屿数量（图的遍历）](https://blog.csdn.net/qq_21201267/article/details/99775387) |
 | [LeetCode 202. 快乐数（快慢指针）](https://blog.csdn.net/qq_21201267/article/details/101003351) |
+| [LeetCode 204. 计数质数（质数的倍数不是质数）](https://blog.csdn.net/qq_21201267/article/details/102693327) |
 | [LeetCode 206. 反转链表](https://blog.csdn.net/qq_21201267/article/details/100171825) |
 | [LeetCode 208. 实现 Trie (前缀树)](https://blog.csdn.net/qq_21201267/article/details/102558647) |
 | [LeetCode 209. 长度最小的子数组（滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/102266837) |
@@ -160,6 +161,7 @@
 | [LeetCode 367. 有效的完全平方数（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489562) |
 | [LeetCode 377. 组合总和 Ⅳ（DP）](https://blog.csdn.net/qq_21201267/article/details/101388583) |
 | [LeetCode 380. 常数时间插入、删除和获取随机元素（哈希+vector）](https://blog.csdn.net/qq_21201267/article/details/102407866) |
+| [LeetCode 384. 打乱数组（rand）](https://blog.csdn.net/qq_21201267/article/details/102692973) |
 | [LeetCode 389. 找不同（位运算）](https://blog.csdn.net/qq_21201267/article/details/101165255) |
 | [LeetCode 394. 字符串解码（栈）](https://blog.csdn.net/qq_21201267/article/details/101607649) |
 | [LeetCode 413. 等差数列划分（DP）](https://blog.csdn.net/qq_21201267/article/details/100831735) |
