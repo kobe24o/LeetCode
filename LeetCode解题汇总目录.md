@@ -2,6 +2,8 @@
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
+[我的LeetCode主页](https://leetcode-cn.com/u/kobe24o/)
+
 
 
 | 参赛记录                                                     |
