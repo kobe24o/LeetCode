@@ -25,15 +25,15 @@ public:
     		return true;
     	if(matrix[mx][my] < target)
     	{
-    		return search(matrix,target,x1,y1,mx,y2,ans) 
+    		return search(matrix,target,x1,my+1,mx,y2,ans)
     				|| search(matrix,target,mx+1,y1,x2,my,ans)
     				|| search(matrix,target,mx+1,my+1,x2,y2,ans);
     	}
     	else
     	{
-    		return search(matrix,target,x1,y1,mx,y2,ans) 
-    				|| search(matrix,target,mx+1,y1,x2,my,ans)
-    				|| search(matrix,target,x1,y1,mx,my,ans);
+    		return search(matrix,target,x1,my,mx-1,y2,ans)
+    				|| search(matrix,target,mx,y1,x2,my-1,ans)
+    				|| search(matrix,target,x1,y1,mx-1,my-1,ans);
     	}
     }
 };
@@ -48,7 +48,7 @@ int main()
 							  {18, 21, 23, 26, 30}
 							};
 	Solution s;
-	s.searchMatrix(m,12);
+	s.searchMatrix(m,5);
 }
 
 // class Solution {
