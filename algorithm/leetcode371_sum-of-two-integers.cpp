@@ -6,13 +6,13 @@ public:
         for(int i = 0; i <= 31; ++i)
         {
         	bitA = a&(1<<i), bitB = b&(1<<i);
-        	if(bitA^bitB == 1)
+        	if((bitA^bitB))
         	{
         		curBit = 1;
         		if(one)
         		{
         			curBit = 0;
-        			one = 1;
+        			// one = 1;
         		}
         	}
         	else
