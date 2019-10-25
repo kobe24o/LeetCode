@@ -12,7 +12,7 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-​     **已解决 341/1147** - **简单 187** **中等 139** **困难 15** 
+​      **已解决 345/1148** - **简单 189** **中等 141** **困难 15** 
 
 | 已解题目，部分太简单的没有列出                               |
 | :----------------------------------------------------------- |
@@ -35,6 +35,7 @@
 | [LeetCode 24. 两两交换链表中的节点（递归+循环）](https://blog.csdn.net/qq_21201267/article/details/102597533) |
 | [LeetCode 26. 删除排序数组中的重复项](https://blog.csdn.net/qq_21201267/article/details/100864296) |
 | [LeetCode 27. 移除元素](https://blog.csdn.net/qq_21201267/article/details/100826960) |
+| [LeetCode 29. 两数相除（位运算）](https://blog.csdn.net/qq_21201267/article/details/102751716) |
 | [LeetCode 32. 最长有效括号（栈&DP）](https://blog.csdn.net/qq_21201267/article/details/99479252) |
 | [LeetCode 33. 搜索旋转排序数组（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102415062) |
 | [LeetCode 34. 在排序数组中查找元素的第一个和最后一个位置（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102470512) |
