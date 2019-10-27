@@ -96,6 +96,7 @@
 | [LeetCode 121. 买卖股票的最佳时机](https://blog.csdn.net/qq_21201267/article/details/100026086) |
 | [LeetCode 122. 买卖股票的最佳时机 II](https://blog.csdn.net/qq_21201267/article/details/100127238) |
 | [LeetCode 124. 二叉树中的最大路径和（DFS）](https://blog.csdn.net/qq_21201267/article/details/100171375) |
+| [LeetCode 128. 最长连续序列（哈希set）](https://blog.csdn.net/qq_21201267/article/details/102769670) |
 | [LeetCode 133. 克隆图（图的BFS/DFS）](https://blog.csdn.net/qq_21201267/article/details/101568649) |
 | [LeetCode 136. 只出现一次的数字（异或^）](https://blog.csdn.net/qq_21201267/article/details/100147375) |
 | [LeetCode 137. 只出现一次的数字 II（位运算）](https://blog.csdn.net/qq_21201267/article/details/101102832) |
