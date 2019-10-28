@@ -4,15 +4,13 @@ public:
         stack<int> stk;
         char op = '+';
         int prev = 0, num = 0, ans = 0;
-        for(int i = 0; i < s.length(); i++) 
+        for(int i = 0; i < s.size(); i++) 
         {
-            if(s[i] == ' ')
-                continue;
             if(isdigit(s[i]))
             {
                 num = num * 10 + (s[i] - '0');
             }
-            if(s[i] < '0' || i == s.size()-1)
+            if(s[i] < '0' && s[i] != ' ' || i == s.size()-1)
             {
                 if(op == '+')
                     stk.push(num);
@@ -34,7 +32,7 @@ public:
                 num = 0;
             }
         }
-        while(!stk.empty());
+        while(!stk.empty())
         {
             ans += stk.top();
             stk.pop();
@@ -42,3 +40,9 @@ public:
         return ans;
     }
 };
+
+int main()
+{
+    Solution s;
+    s.calculate("3+2*2");
+}
