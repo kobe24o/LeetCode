@@ -62,6 +62,7 @@
 | [LeetCode 73. 矩阵置零](https://blog.csdn.net/qq_21201267/article/details/102709330) |
 | [LeetCode 74. 搜索二维矩阵（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102713721) |
 | [LeetCode 75. 颜色分类（双指针）](https://blog.csdn.net/qq_21201267/article/details/102654682) |
+| [LeetCode 76. 最小覆盖子串（滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/102785212) |
 | [LeetCode 77. 组合（回溯）](https://blog.csdn.net/qq_21201267/article/details/101383914) |
 | [LeetCode 78. 子集（回溯）](https://blog.csdn.net/qq_21201267/article/details/100148996) |
 | [LeetCode 79. 单词搜索（回溯DFS）](https://blog.csdn.net/qq_21201267/article/details/102596927) |
