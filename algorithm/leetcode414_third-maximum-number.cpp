@@ -1,8 +1,8 @@
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
-        int M1, M2, M3;
-        M1 = M2 = M3 = INT_MIN;
+        long M1, M2, M3;
+        M1 = M2 = M3 = LONG_MIN;
         for(int i = 0; i < nums.size(); ++i)
         {
         	if(nums[i] > M1)
@@ -12,7 +12,7 @@ public:
         	else if(nums[i] > M3 && nums[i] < M2)
         		M3 = nums[i];
         }
-        if(M3 == INT_MIN)
+        if(M3 == LONG_MIN)
         	return M1;
         return M3;
     }
