@@ -158,6 +158,7 @@
 | [LeetCode 279. 完全平方数（DP）](https://blog.csdn.net/qq_21201267/article/details/101487022) |
 | [LeetCode 283. 移动零](https://blog.csdn.net/qq_21201267/article/details/100832987) |
 | [LeetCode 287. 寻找重复数（BitMap）](https://blog.csdn.net/qq_21201267/article/details/100135972) |
+| [LeetCode 289. 生命游戏（位运算）](https://blog.csdn.net/qq_21201267/article/details/102787583) |
 | [LeetCode 292. Nim 游戏](https://blog.csdn.net/qq_21201267/article/details/100178975) |
 | [LeetCode 297. 二叉树的序列化与反序列化（前序遍历&层序遍历）](https://blog.csdn.net/qq_21201267/article/details/102513143) |
 | [LeetCode 300. 最长上升子序列](https://blog.csdn.net/qq_21201267/article/details/97308533) |
