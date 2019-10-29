@@ -51,7 +51,10 @@ public:
     int ladderLength(string &beginWord, string &endWord, vector<string>& wordList) {
         for(auto it = wordList.begin(); it != wordList.end(); ++it)
             if(*it == beginWord)
-                wordList.erase(it);
+            {
+                swap(*it,wordList.back());
+                wordList.pop_back();
+            }
         int len = wordList.size(), i, k, n, lv = 0;
         bool visited[len] = {false};
         for(i = 0; i < len; ++i)
