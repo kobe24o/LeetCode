@@ -1,4 +1,4 @@
-此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.10.24
+此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.10.30
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -12,7 +12,7 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-​      **已解决 345/1148** - **简单 189** **中等 141** **困难 15** 
+​       **已解决 356/1152** - **简单 191** **中等 147** **困难 18** 
 
 | 已解题目，部分太简单的没有列出                               |
 | :----------------------------------------------------------- |
@@ -100,6 +100,7 @@
 | [LeetCode 126. 单词接龙 II（图的BFS）](https://blog.csdn.net/qq_21201267/article/details/102808526) |
 | [LeetCode 127. 单词接龙（图的BFS/双向BFS）](https://blog.csdn.net/qq_21201267/article/details/102795986) |
 | [LeetCode 128. 最长连续序列（哈希set）](https://blog.csdn.net/qq_21201267/article/details/102769670) |
+| [LeetCode 130. 被围绕的区域（图的BFS/DFS）](https://blog.csdn.net/qq_21201267/article/details/102811035) |
 | [LeetCode 133. 克隆图（图的BFS/DFS）](https://blog.csdn.net/qq_21201267/article/details/101568649) |
 | [LeetCode 136. 只出现一次的数字（异或^）](https://blog.csdn.net/qq_21201267/article/details/100147375) |
 | [LeetCode 137. 只出现一次的数字 II（位运算）](https://blog.csdn.net/qq_21201267/article/details/101102832) |
@@ -225,6 +226,7 @@
 | [LeetCode 654. 最大二叉树（递归）](https://blog.csdn.net/qq_21201267/article/details/100586036) |
 | [LeetCode 657. 机器人能否返回原点](https://blog.csdn.net/qq_21201267/article/details/100632672) |
 | [LeetCode 658. 找到 K 个最接近的元素（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100697216) |
+| [LeetCode 665. 非递减数列（双指针）](https://blog.csdn.net/qq_21201267/article/details/102810529) |
 | [LeetCode 669. 修剪二叉搜索树](https://blog.csdn.net/qq_21201267/article/details/100716292) |
 | [LeetCode 671. 二叉树中第二小的节点](https://blog.csdn.net/qq_21201267/article/details/100550016) |
 | [LeetCode 674. 最长连续递增序列](https://blog.csdn.net/qq_21201267/article/details/98262871) |
