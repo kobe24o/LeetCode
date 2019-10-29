@@ -54,6 +54,7 @@ public:
             {
                 swap(*it,wordList.back());
                 wordList.pop_back();
+                break;
             }
         int len = wordList.size(), i, k, n, lv = 0;
         bool visited[len] = {false};
