@@ -12,13 +12,14 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-​       **已解决 356/1152** - **简单 191** **中等 147** **困难 18** 
+​        **已解决 361/1152** - **简单 193** **中等 149** **困难 19** 
 
 | 已解题目，部分太简单的没有列出                               |
 | :----------------------------------------------------------- |
 | [LeetCode 1. 两数之和（哈希）](https://blog.csdn.net/qq_21201267/article/details/97125420) |
 | [LeetCode 2. 两数相加（单链表反转）](https://blog.csdn.net/qq_21201267/article/details/97191786) |
 | [LeetCode 3. 无重复字符的最长子串（滑动窗口+哈希）](https://blog.csdn.net/qq_21201267/article/details/102333616) |
+| [LeetCode 4. 寻找两个有序数组的中位数（二分查找，难）](https://blog.csdn.net/qq_21201267/article/details/102828858) |
 | [LeetCode 7. 整数反转](https://blog.csdn.net/qq_21201267/article/details/100583336) |
 | [LeetCode 8. 字符串转换整数 (atoi)](https://blog.csdn.net/qq_21201267/article/details/100583821) |
 | [LeetCode 9. 回文数](https://blog.csdn.net/qq_21201267/article/details/100168231) |
@@ -125,6 +126,7 @@
 | [LeetCode 169. 求众数](https://blog.csdn.net/qq_21201267/article/details/99249031) |
 | [LeetCode 171. Excel表列序号（26进制转10进制）](https://blog.csdn.net/qq_21201267/article/details/100998473) |
 | [LeetCode 173. 二叉搜索树迭代器（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100549417) |
+| [LeetCode 179. 最大数（自定义谓词函数（Lambda表达式）排序）](https://blog.csdn.net/qq_21201267/article/details/102827816) |
 | [LeetCode 189. 旋转数组（环形替换）](https://blog.csdn.net/qq_21201267/article/details/102303036) |
 | [LeetCode 198. 打家劫舍（DP）](https://blog.csdn.net/qq_21201267/article/details/102688966) |
 | [LeetCode 199. 二叉树的右视图（DFS & 按层queue）](https://blog.csdn.net/qq_21201267/article/details/100801826) |
