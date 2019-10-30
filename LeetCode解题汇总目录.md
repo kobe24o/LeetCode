@@ -44,6 +44,7 @@
 | [LeetCode 39. 组合总和（回溯）](https://blog.csdn.net/qq_21201267/article/details/100678859) |
 | [LeetCode 40. 组合总和 II（排列组合 回溯）](https://blog.csdn.net/qq_21201267/article/details/101376680) |
 | [LeetCode 41. 缺失的第一个正数](https://blog.csdn.net/qq_21201267/article/details/99253353) |
+| [LeetCode 43. 字符串相乘（大数乘法）](https://blog.csdn.net/qq_21201267/article/details/102825578) |
 | [LeetCode 45. 跳跃游戏 II（贪心, 难）](https://blog.csdn.net/qq_21201267/article/details/100904721) |
 | [LeetCode 46. 全排列（回溯）](https://blog.csdn.net/qq_21201267/article/details/100110156) |
 | [LeetCode 47. 全排列 II（回溯+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100110853) |
