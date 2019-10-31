@@ -78,3 +78,43 @@ public:
     		return findKth(nums1,i+1,e1,nums2,s2,e2,kth-(i-s1+1));
     }
 };
+
+class Solution {
+public:
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+        int n1 = nums1.size(), n2 = nums2.size();
+        if(n1 > n2)//确保n1是较短的数组
+            return findMedianSortedArrays(nums2, nums1);
+        int left = 0, right = n1, allHalf = (n1+n2)/2, mid1, mid2;
+        int lmax1, rmin1, lmax2, rmin2;
+        while(left <= right)
+        {
+            mid1 = left+((right-left)>>1);
+            mid2 = allHalf - mid1;
+            lmax1 = (mid1-1 >= 0) ? nums1[mid1-1] : INT_MIN;
+            rmin1 = (mid1 < n1) ? nums1[mid1] : INT_MAX;
+            lmax2 = (mid2-1 >= 0) ? nums2[mid2-1] : INT_MIN;
+            rmin2 = (mid2 < n2) ? nums2[mid2] : INT_MAX;
+
+            if(lmax1 > rmin2)
+                right = mid1-1;
+            else if(lmax2 > rmin1)
+                left = mid1+1;
+            else
+            {
+                left = right = mid1;
+                break;
+            }
+        }
+        int i = left, j = allHalf-left;
+        int l = max(
+                    i-1 >= 0 ? nums1[i-1] : INT_MIN,
+                    j-1 >= 0 ? nums2[j-1] : INT_MIN);
+        int r = min(
+                    i < n1 ? nums1[i] : INT_MAX,
+                    j < n2 ? nums2[j] : INT_MAX);
+        if((n1+n2)%2 == 1)
+            return r;
+        return (l+r)/2.0;
+    }  
+};
