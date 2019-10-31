@@ -45,6 +45,7 @@
 | [LeetCode 39. 组合总和（回溯）](https://blog.csdn.net/qq_21201267/article/details/100678859) |
 | [LeetCode 40. 组合总和 II（排列组合 回溯）](https://blog.csdn.net/qq_21201267/article/details/101376680) |
 | [LeetCode 41. 缺失的第一个正数](https://blog.csdn.net/qq_21201267/article/details/99253353) |
+| [LeetCode 42. 接雨水（双指针）](https://blog.csdn.net/qq_21201267/article/details/102847881) |
 | [LeetCode 43. 字符串相乘（大数乘法）](https://blog.csdn.net/qq_21201267/article/details/102825578) |
 | [LeetCode 45. 跳跃游戏 II（贪心, 难）](https://blog.csdn.net/qq_21201267/article/details/100904721) |
 | [LeetCode 46. 全排列（回溯）](https://blog.csdn.net/qq_21201267/article/details/100110156) |
@@ -263,6 +264,7 @@
 | [LeetCode 852. 山脉数组的峰顶索引（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100743518) |
 | [LeetCode 868. 二进制间距（位运算）](https://blog.csdn.net/qq_21201267/article/details/101164748) |
 | [LeetCode 876. 链表的中间结点（快慢指针）](https://blog.csdn.net/qq_21201267/article/details/101082616) |
+| [LeetCode 887. 鸡蛋掉落（DP，难）](https://blog.csdn.net/qq_21201267/article/details/102844454) |
 | [LeetCode 889. 已知前序&后序 求二叉树（不唯一）](https://blog.csdn.net/qq_21201267/article/details/100802843) |
 | [LeetCode 896. 单调数列](https://blog.csdn.net/qq_21201267/article/details/100782385) |
 | [LeetCode 897. 递增顺序查找树（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/101083541) |
