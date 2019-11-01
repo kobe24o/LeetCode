@@ -1,4 +1,4 @@
-此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.10.30
+此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.11.2
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -12,7 +12,7 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-​        **已解决 361/1152** - **简单 193** **中等 149** **困难 19** 
+​         **已解决 367/1152** - **简单 193** **中等 152** **困难 22** 
 
 | 已解题目，部分太简单的没有列出                               |
 | :----------------------------------------------------------- |
@@ -183,6 +183,7 @@
 | [LeetCode 350. 两个数组的交集 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/100995174) |
 | [LeetCode 367. 有效的完全平方数（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489562) |
 | [LeetCode 377. 组合总和 Ⅳ（DP）](https://blog.csdn.net/qq_21201267/article/details/101388583) |
+| [LeetCode 378. 有序矩阵中第K小的元素（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102866438) |
 | [LeetCode 380. 常数时间插入、删除和获取随机元素（哈希+vector）](https://blog.csdn.net/qq_21201267/article/details/102407866) |
 | [LeetCode 384. 打乱数组（rand）](https://blog.csdn.net/qq_21201267/article/details/102692973) |
 | [LeetCode 389. 找不同（位运算）](https://blog.csdn.net/qq_21201267/article/details/101165255) |
