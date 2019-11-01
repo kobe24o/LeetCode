@@ -42,3 +42,37 @@ public:
         return s;
     }
 };
+
+#include <stack>
+#include <vector>
+using namespace std;
+class Solution {
+public:
+    int trap(vector<int>& h) {
+        if(h.empty())
+            return 0;
+        int s = 0, top, distance, height;
+        stack<int> stk;
+        for(int i = 0; i < h.size(); ++i)
+        {
+            while(!stk.empty() && h[i] > h[stk.top()])
+            {
+                top = stk.top();
+                stk.pop();
+                if(stk.empty())
+                    break;
+                distance = i-stk.top()-1;
+                height = min(h[i],h[stk.top()]) - h[top];
+                s += distance*height;
+            }
+            stk.push(i);
+        }
+        return s;
+    }
+};
+int main()
+{
+    Solution s;
+    vector<int> h = {0,1,0,2,1,0,1,3,2,1,2,1};
+    s.trap(h);
+}
