@@ -16,7 +16,7 @@ public:
     int kthSmallest(vector<vector<int>>& m, int k) {
     	int r = m.size(), c = m[0].size();
         int left = m[0][0], right = m[r-1][c-1], mid, count;
-        while(left <= right)
+        while(left < right)
         {
         	mid = left+((right-left)>>1);
         	count = findNotBigerThanMid(m,mid,r,c);
