@@ -126,7 +126,6 @@ public:
     		else
     		{
     			temp[k++] = idx[j++];
-    			// ans[idx[i]] += j-mid;
     		}
     	}
     	while(i <= mid)
@@ -136,8 +135,7 @@ public:
     	}
     	while(j <= r)
     	{
-    		temp[k++] = nums[j++];
-    		// ans[idx[i]] += j-mid;
+    		temp[k++] = idx[j++];
 		}
     	for(i = l; i <= r; ++i)
     		idx[i] = temp[i];
