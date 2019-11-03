@@ -173,7 +173,7 @@
 | [LeetCode 300. 最长上升子序列](https://blog.csdn.net/qq_21201267/article/details/97308533) |
 | [LeetCode 304. 二维区域和检索 - 矩阵不可变（DP）](https://blog.csdn.net/qq_21201267/article/details/101219854) |
 | [LeetCode 312. 戳气球（DP，难）](https://blog.csdn.net/qq_21201267/article/details/100838793) |
-| [LeetCode 315. 计算右侧小于当前元素的个数（二叉查找树&二分查找&归并排序）](https://blog.csdn.net/qq_21201267/article/details/102876496) |
+| [LeetCode 315. 计算右侧小于当前元素的个数（二叉查找树&二分查找&归并排序逆序数总结）](https://blog.csdn.net/qq_21201267/article/details/102876496) |
 | [LeetCode 322. 零钱兑换（DP）](https://blog.csdn.net/qq_21201267/article/details/99894804) |
 | [LeetCode 324. 摆动排序 II](https://blog.csdn.net/qq_21201267/article/details/102871040) |
 | [LeetCode 328. 奇偶链表（双指针）](https://blog.csdn.net/qq_21201267/article/details/101649623) |
@@ -229,6 +229,7 @@
 | [LeetCode 590. N叉树的后序遍历（后序遍历）](https://blog.csdn.net/qq_21201267/article/details/100749955) |
 | [LeetCode 617. 合并二叉树](https://blog.csdn.net/qq_21201267/article/details/100569367) |
 | [LeetCode 621. 任务调度器（贪心）](https://blog.csdn.net/qq_21201267/article/details/102760180) |
+| [LeetCode 629. K个逆序对数组（DP）](https://blog.csdn.net/qq_21201267/article/details/102886587) |
 | [LeetCode 637. 二叉树的层平均值（层次遍历queue）](https://blog.csdn.net/qq_21201267/article/details/100717726) |
 | [LeetCode 641. 设计循环双端队列](https://blog.csdn.net/qq_21201267/article/details/99496486) |
 | [LeetCode 645. 错误的集合](https://blog.csdn.net/qq_21201267/article/details/100148227) |
@@ -254,6 +255,7 @@
 | [LeetCode 739. 每日温度（单调栈）](https://blog.csdn.net/qq_21201267/article/details/101479101) |
 | [LeetCode 744. 寻找比目标字母大的最小字母（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489881) |
 | [LeetCode 752. 打开转盘锁（图的BFS最短路径）](https://blog.csdn.net/qq_21201267/article/details/101485240) |
+| [LeetCode 754. 到达终点数字（数学推理）](https://blog.csdn.net/qq_21201267/article/details/102888341) |
 | [LeetCode 762. 二进制表示中质数个计算置位](https://blog.csdn.net/qq_21201267/article/details/101039460) |
 | [LeetCode 763. 划分字母区间](https://blog.csdn.net/qq_21201267/article/details/100677335) |
 | [LeetCode 765. 情侣牵手（贪心）](https://blog.csdn.net/qq_21201267/article/details/100839491) |
