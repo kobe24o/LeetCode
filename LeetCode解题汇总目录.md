@@ -225,9 +225,11 @@
 | [LeetCode 557. 反转字符串中的单词 III（栈）](https://blog.csdn.net/qq_21201267/article/details/100436745) |
 | [LeetCode 559. N叉树的最大深度](https://blog.csdn.net/qq_21201267/article/details/100943751) |
 | [LeetCode 561. 数组拆分 I](https://blog.csdn.net/qq_21201267/article/details/100940866) |
+| [LeetCode 563. 二叉树的坡度（DFS）](https://blog.csdn.net/qq_21201267/article/details/102904432) |
 | [LeetCode 575. 分糖果（set集合去重）](https://blog.csdn.net/qq_21201267/article/details/101039768) |
 | [LeetCode 589. N叉树的前序遍历（前序遍历）](https://blog.csdn.net/qq_21201267/article/details/100747568) |
 | [LeetCode 590. N叉树的后序遍历（后序遍历）](https://blog.csdn.net/qq_21201267/article/details/100749955) |
+| [LeetCode 605. 种花问题](https://blog.csdn.net/qq_21201267/article/details/102904001) |
 | [LeetCode 617. 合并二叉树](https://blog.csdn.net/qq_21201267/article/details/100569367) |
 | [LeetCode 621. 任务调度器（贪心）](https://blog.csdn.net/qq_21201267/article/details/102760180) |
 | [LeetCode 629. K个逆序对数组（DP）](https://blog.csdn.net/qq_21201267/article/details/102886587) |
