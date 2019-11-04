@@ -8,7 +8,7 @@ public:
         	{
         		mid = (prev+i)/2;
         		if(seats[prev])
-        			maxDis = max(maxDis,min(mid-prev,i-prev));
+        			maxDis = max(maxDis,min(mid-prev,i-mid));
         		else//i是第一个人
         			maxDis = i;
         		prev = i;
