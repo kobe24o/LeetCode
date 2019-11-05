@@ -230,6 +230,7 @@
 | [LeetCode 575. 分糖果（set集合去重）](https://blog.csdn.net/qq_21201267/article/details/101039768) |
 | [LeetCode 589. N叉树的前序遍历（前序遍历）](https://blog.csdn.net/qq_21201267/article/details/100747568) |
 | [LeetCode 590. N叉树的后序遍历（后序遍历）](https://blog.csdn.net/qq_21201267/article/details/100749955) |
+| [LeetCode 594. 最长和谐子序列（map）](https://michael.blog.csdn.net/article/details/102924359) |
 | [LeetCode 605. 种花问题](https://blog.csdn.net/qq_21201267/article/details/102904001) |
 | [LeetCode 617. 合并二叉树](https://blog.csdn.net/qq_21201267/article/details/100569367) |
 | [LeetCode 621. 任务调度器（贪心）](https://blog.csdn.net/qq_21201267/article/details/102760180) |
