@@ -109,6 +109,7 @@
 | [LeetCode 136. 只出现一次的数字（异或^）](https://blog.csdn.net/qq_21201267/article/details/100147375) |
 | [LeetCode 137. 只出现一次的数字 II（位运算）](https://blog.csdn.net/qq_21201267/article/details/101102832) |
 | [LeetCode 138. 复制带随机指针的链表（哈希 / 深拷贝）](https://blog.csdn.net/qq_21201267/article/details/101570854) |
+| [LeetCode 139. 单词拆分（DP）](https://michael.blog.csdn.net/article/details/102944920) |
 | [LeetCode 141. 环形链表](https://blog.csdn.net/qq_21201267/article/details/99296511) |
 | [LeetCode 142. 环形链表 II（链表环的检测）](https://blog.csdn.net/qq_21201267/article/details/100135575) |
 | [LeetCode 144. 二叉树的前序遍历（前序遍历）](https://blog.csdn.net/qq_21201267/article/details/100546064) |
