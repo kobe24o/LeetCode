@@ -180,6 +180,7 @@
 | [LeetCode 334. 递增的三元子序列](https://blog.csdn.net/qq_21201267/article/details/101275950) |
 | [LeetCode 337. 打家劫舍 III（记忆化+递归）](https://blog.csdn.net/qq_21201267/article/details/102691125) |
 | [LeetCode 341. 扁平化嵌套列表迭代器（双栈）](https://blog.csdn.net/qq_21201267/article/details/102869784) |
+| [LeetCode 343. 整数拆分（DP）](https://michael.blog.csdn.net/article/details/102942661) |
 | [LeetCode 344. 反转字符串](https://blog.csdn.net/qq_21201267/article/details/100585634) |
 | [LeetCode 347. 前 K 个高频元素（哈希/优先队列）](https://blog.csdn.net/qq_21201267/article/details/102338389) |
 | [LeetCode 349. 两个数组的交集（哈希）](https://blog.csdn.net/qq_21201267/article/details/100945076) |
