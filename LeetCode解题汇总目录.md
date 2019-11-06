@@ -1,4 +1,4 @@
-此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.11.4
+此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.11.7
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -12,7 +12,7 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-​           **已解决 380/1160** - **简单 201** **中等 155** **困难 24** 
+​            **已解决 386/1160** - **简单 203** **中等 158** **困难 25** 
 
 | 已解题目，部分太简单的没有列出                               |
 | :----------------------------------------------------------- |
@@ -110,6 +110,7 @@
 | [LeetCode 137. 只出现一次的数字 II（位运算）](https://blog.csdn.net/qq_21201267/article/details/101102832) |
 | [LeetCode 138. 复制带随机指针的链表（哈希 / 深拷贝）](https://blog.csdn.net/qq_21201267/article/details/101570854) |
 | [LeetCode 139. 单词拆分（DP）](https://michael.blog.csdn.net/article/details/102944920) |
+| [LeetCode 140. 单词拆分 II（DP+回溯）](https://michael.blog.csdn.net/article/details/102945974) |
 | [LeetCode 141. 环形链表](https://blog.csdn.net/qq_21201267/article/details/99296511) |
 | [LeetCode 142. 环形链表 II（链表环的检测）](https://blog.csdn.net/qq_21201267/article/details/100135575) |
 | [LeetCode 144. 二叉树的前序遍历（前序遍历）](https://blog.csdn.net/qq_21201267/article/details/100546064) |
