@@ -12,7 +12,7 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-​             **已解决 390/1160** - **简单 205** **中等 159** **困难 26** 
+​              **已解决 395/1160** - **简单 206** **中等 162** **困难 27**  
 
 | 已解题目，部分太简单的没有列出                               |
 | :----------------------------------------------------------- |
@@ -189,6 +189,7 @@
 | [LeetCode 347. 前 K 个高频元素（哈希/优先队列）](https://blog.csdn.net/qq_21201267/article/details/102338389) |
 | [LeetCode 349. 两个数组的交集（哈希）](https://blog.csdn.net/qq_21201267/article/details/100945076) |
 | [LeetCode 350. 两个数组的交集 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/100995174) |
+| [LeetCode 365. 水壶问题（最大公约数）](https://michael.blog.csdn.net/article/details/102980961) |
 | [LeetCode 367. 有效的完全平方数（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489562) |
 | [LeetCode 377. 组合总和 Ⅳ（DP）](https://blog.csdn.net/qq_21201267/article/details/101388583) |
 | [LeetCode 378. 有序矩阵中第K小的元素（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102866438) |
@@ -226,6 +227,7 @@
 | [LeetCode 523. 连续的子数组和（求余 哈希）](https://blog.csdn.net/qq_21201267/article/details/102253351) |
 | [LeetCode 530. 二叉搜索树的最小绝对差（中序遍历）](https://michael.blog.csdn.net/article/details/102964835) |
 | [LeetCode 535. TinyURL 的加密与解密（哈希）](https://blog.csdn.net/qq_21201267/article/details/100565409) |
+| [LeetCode 537. 复数乘法](https://michael.blog.csdn.net/article/details/102981551) |
 | [LeetCode 538. 把二叉搜索树转换为累加树（逆中序 根右左）](https://blog.csdn.net/qq_21201267/article/details/100826415) |
 | [LeetCode 542. 01 矩阵（BFS && DP）](https://blog.csdn.net/qq_21201267/article/details/101618467) |
 | [LeetCode 543. 二叉树的直径（DFS）](https://blog.csdn.net/qq_21201267/article/details/102818983) |
