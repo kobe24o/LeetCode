@@ -33,3 +33,27 @@ public:
         return dp[n-1].size()>0;//有方案可以到达最后一个石头
     }
 };
+
+class Solution {
+public:
+    bool canCross(vector<int>& stones) {
+        bool dp[1101][1101];//[位置][步长]
+        memset(dp, false, sizeof(dp));
+        dp[0][0] = true;
+        int gap, i;
+        for(i = 1; i < stones.size(); i++) 
+        {
+            for(int j = 0; j < i; j++) 
+            {
+                gap = stones[i] - stones[j];
+                if(gap >= 1100) continue;
+                if(dp[j][gap] || dp[j][gap + 1] || (gap > 0 && dp[j][gap - 1]))
+                    dp[i][gap] = true;
+            }
+        }
+        for(i = 0; i < stones.size(); i++)
+            if(dp[stones.size() - 1][i])
+                return true;
+        return false;
+    }
+};
