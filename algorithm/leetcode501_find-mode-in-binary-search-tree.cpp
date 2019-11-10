@@ -20,7 +20,8 @@ public:
         	{
         		prev = tp->val;
         		flag = false;
-        		curlen++;
+        		curlen = 1;
+        		maxlen = 1;
         		ans.push_back(tp->val);
         		continue;
         	}
@@ -40,6 +41,8 @@ public:
         	{
         		prev = tp->val;
         		curlen = 1;
+        		if(curlen == maxlen)
+        			ans.push_back(tp->val);
         	}
         }
         return ans;
