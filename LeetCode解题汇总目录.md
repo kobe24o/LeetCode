@@ -221,6 +221,7 @@
 | [LeetCode 496. 下一个更大元素 I（哈希）](https://blog.csdn.net/qq_21201267/article/details/101391976) |
 | [LeetCode 498. 对角线遍历](https://blog.csdn.net/qq_21201267/article/details/102264166) |
 | [LeetCode 500. 键盘行](https://blog.csdn.net/qq_21201267/article/details/100674362) |
+| [LeetCode 501. 二叉搜索树中的众数（中序遍历）](https://michael.blog.csdn.net/article/details/102997543) |
 | [LeetCode 503. 下一个更大元素 II（栈）](https://blog.csdn.net/qq_21201267/article/details/101394230) |
 | [LeetCode 504. 七进制数（进制转换）](https://blog.csdn.net/qq_21201267/article/details/102904814) |
 | [LeetCode 513. 找树左下角的值（按层遍历 queue）](https://blog.csdn.net/qq_21201267/article/details/100677982) |
