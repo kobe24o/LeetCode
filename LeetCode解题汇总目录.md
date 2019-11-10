@@ -336,4 +336,5 @@
 | [LeetCode 1175. 质数排列](https://blog.csdn.net/qq_21201267/article/details/100612707) |
 | [LeetCode 1184. 公交站间的距离](https://blog.csdn.net/qq_21201267/article/details/100814178) |
 | [LeetCode 1185. 一周中的第几天](https://blog.csdn.net/qq_21201267/article/details/100808636) |
+| [LeetCode 1219. 黄金矿工（回溯）](https://michael.blog.csdn.net/article/details/102999022) |
 
