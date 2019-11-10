@@ -12,7 +12,7 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-​               **已解决 400/1160** - **简单 211** **中等 162** **困难 27** 
+**已解决 405/1164** - **简单 213** **中等 164** **困难 28** 
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 
@@ -318,6 +318,8 @@
 | [LeetCode 1008. 先序遍历构造二叉树（已知先序，求二叉搜索树）](https://blog.csdn.net/qq_21201267/article/details/100568701) |
 | [LeetCode 1009. 十进制整数的反码（位运算）](https://blog.csdn.net/qq_21201267/article/details/101197758) |
 | [LeetCode 1021. 删除最外层的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/100611450) |
+| [LeetCode 1028. 从先序遍历还原二叉树（栈）](https://michael.blog.csdn.net/article/details/103002761) |
+| [LeetCode 1029. 两地调度（贪心）](https://michael.blog.csdn.net/article/details/103003479) |
 | [LeetCode 1038. 从二叉搜索树到更大和树（逆中序-右根左-降序）](https://blog.csdn.net/qq_21201267/article/details/100798009) |
 | [LeetCode 1046. 最后一块石头的重量（priority_queue 堆）](https://blog.csdn.net/qq_21201267/article/details/101215370) |
 | [LeetCode 1047. 删除字符串中的所有相邻重复项（栈）](https://blog.csdn.net/qq_21201267/article/details/101083067) |
