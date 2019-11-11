@@ -312,6 +312,7 @@
 | [LeetCode 977. 有序数组的平方](https://blog.csdn.net/qq_21201267/article/details/100057616) |
 | [LeetCode 980. 不同路径 III（DFS+回溯）](https://michael.blog.csdn.net/article/details/102961910) |
 | [LeetCode 986. 区间列表的交集](https://blog.csdn.net/qq_21201267/article/details/100058783) |
+| [LeetCode 989. 数组形式的整数加法](https://michael.blog.csdn.net/article/details/103020342) |
 | [LeetCode 994. 腐烂的橘子（图的BFS）](https://blog.csdn.net/qq_21201267/article/details/102906778) |
 | [LeetCode 998. 最大二叉树 II](https://blog.csdn.net/qq_21201267/article/details/100785910) |
 | [LeetCode 1002. 查找常用字符（哈希）](https://blog.csdn.net/qq_21201267/article/details/100997357) |
