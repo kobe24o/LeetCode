@@ -1,4 +1,4 @@
-此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.11.10
+此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.11.12
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -12,7 +12,7 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-**已解决 405/1164** - **简单 213** **中等 164** **困难 28** 
+ **已解决 409/1164** - **简单 217** **中等 164** **困难 28** 
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 
@@ -245,6 +245,7 @@
 | [LeetCode 590. N叉树的后序遍历（后序遍历）](https://blog.csdn.net/qq_21201267/article/details/100749955) |
 | [LeetCode 594. 最长和谐子序列（map）](https://michael.blog.csdn.net/article/details/102924359) |
 | [LeetCode 605. 种花问题](https://blog.csdn.net/qq_21201267/article/details/102904001) |
+| [LeetCode 606. 根据二叉树创建字符串（递归）](https://michael.blog.csdn.net/article/details/103021068) |
 | [LeetCode 617. 合并二叉树](https://blog.csdn.net/qq_21201267/article/details/100569367) |
 | [LeetCode 621. 任务调度器（贪心）](https://blog.csdn.net/qq_21201267/article/details/102760180) |
 | [LeetCode 629. K个逆序对数组（DP）](https://blog.csdn.net/qq_21201267/article/details/102886587) |
