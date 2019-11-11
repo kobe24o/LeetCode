@@ -11,19 +11,27 @@ public:
     	if(root == NULL)
     		return "";
     	string sub(to_string(root->val));
-    	sub.push_back('(');
-    	if(root->left)
+    	if(!root->left && !root->right)
+    		return sub;
+    	
+    	else if(root->left)
     	{
+    		sub.push_back('(');
     		sub += treeToStr(root->left);
+    		sub.push_back(')');
     		if(root->right)
+    		{
+    			sub.push_back('(');
     			sub += treeToStr(root->right);
+    			sub.push_back(')');
+    		}	
     	}
-    	else if(root->right)
+    	else
     	{
-    		sub += treeToStr(root->left);
+    		sub.push_back('(');
     		sub += treeToStr(root->right);
-    	}
-    	sub.push_back(')');
+    		sub.push_back(')');
+    	}    	
     	return sub;
     }
 };
