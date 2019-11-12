@@ -1,4 +1,4 @@
-此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.11.12
+此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.11.13
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -12,7 +12,7 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
- **已解决 409/1164** - **简单 217** **中等 164** **困难 28** 
+  **已解决 415/1164** - **简单 221** **中等 166** **困难 28**  
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 
@@ -200,6 +200,7 @@
 | [LeetCode 389. 找不同（位运算）](https://blog.csdn.net/qq_21201267/article/details/101165255) |
 | [LeetCode 394. 字符串解码（栈）](https://blog.csdn.net/qq_21201267/article/details/101607649) |
 | [LeetCode 403. 青蛙过河（DP）](https://michael.blog.csdn.net/article/details/102969736) |
+| [LeetCode 404. 左叶子之和（递归）](https://michael.blog.csdn.net/article/details/103041375) |
 | [LeetCode 413. 等差数列划分（DP）](https://blog.csdn.net/qq_21201267/article/details/100831735) |
 | [LeetCode 414. 第三大的数](https://blog.csdn.net/qq_21201267/article/details/102789337) |
 | [LeetCode 415. 字符串相加（大数加法）](https://blog.csdn.net/qq_21201267/article/details/102821516) |
@@ -234,6 +235,7 @@
 | [LeetCode 535. TinyURL 的加密与解密（哈希）](https://blog.csdn.net/qq_21201267/article/details/100565409) |
 | [LeetCode 537. 复数乘法](https://michael.blog.csdn.net/article/details/102981551) |
 | [LeetCode 538. 把二叉搜索树转换为累加树（逆中序 根右左）](https://blog.csdn.net/qq_21201267/article/details/100826415) |
+| [LeetCode 541. 反转字符串 II](https://michael.blog.csdn.net/article/details/103041243) |
 | [LeetCode 542. 01 矩阵（BFS && DP）](https://blog.csdn.net/qq_21201267/article/details/101618467) |
 | [LeetCode 543. 二叉树的直径（DFS）](https://blog.csdn.net/qq_21201267/article/details/102818983) |
 | [LeetCode 547. 朋友圈（图的遍历BFS & DFS）](https://blog.csdn.net/qq_21201267/article/details/100813067) |
