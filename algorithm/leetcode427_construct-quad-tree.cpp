@@ -23,53 +23,78 @@ public:
 };
 
 class Solution {
-    Node* root;
+    Node* r;
 public:
     Node* construct(vector<vector<int>>& grid) {
         int m = grid.size();
-        root = build(grid,0,0,m-1,m-1);
-        return root;
+        r = build(grid,0,0,m-1,m-1);
+        return r;
     }
 
     Node* build(vector<vector<int>>& grid, int sx, int sy, int ex, int ey) {
         if(sx == ex || sy == ey)//只有1个单元了，不能划分了
-            return NULL;
+            return new Node(grid[sx][sy],true,0,0,0,0);
         int mx = (sx+ex)/2, my = (sy+ey)/2;
-        root = new Node(false,false,0,0,0,0);
-        bool b1, b2, b3, b4;//都是1吗？
+        Node *root = new Node(true,true,0,0,0,0);
+        int b1, b2, b3, b4;//是全1？全0？两种都有？
         b1 = judge(grid,sx,sy,mx,my);
         b2 = judge(grid,sx,my+1,mx,ey);
         b3 = judge(grid,mx+1,sy,ex,my);
         b4 = judge(grid,mx+1,my+1,ex,ey);
-        if(b1 && b2 && b3 && b4)
+        if(b1==1 && b2==1 && b3==1 && b4==1)
         {
-            root->isLeaf = true;
-            root->val = true;
+            return root;
+        }
+        else if(b1==0 && b2==0 && b3==0 && b4==0)
+        {
+            root->val = false;
+            return root;
         }
         else
         {
             root->isLeaf = false;
-            root->topLeft = build(grid,sx,sy,mx-1,my-1);
-            root->topRight = build(grid,sx,my,mx-1,ey);
-            root->bottomLeft = build(grid,mx,sy,ex,my-1);
-            root->bottomRight = build(grid,mx,my,ex,ey);
+            root->topLeft = build(grid,sx,sy,mx,my);
+            root->topRight = build(grid,sx,my+1,mx,ey);
+            root->bottomLeft = build(grid,mx+1,sy,ex,my);
+            root->bottomRight = build(grid,mx+1,my+1,ex,ey);
+            return root;
         }
-        return root;
     }
 
-    bool judge(vector<vector<int>>& grid, int sx, int sy, int ex, int ey)
+    int judge(vector<vector<int>>& grid, int sx, int sy, int ex, int ey)
     {
         int i, j;
+        bool allone = 1, allzero = 1;
         for(i = sx; i <= ex; ++i)
             for(j = sy; j <= ey; ++j)
                 if(grid[i][j] == 0)
-                    return false;
-        return true;
+                {
+                    allone = false;
+                }
+                else
+                {
+                    allzero = false;
+                }
+        if(allone^allzero)//全0或者全1
+        {
+            if(allone)
+                return 1;//全1
+            if(allzero)
+                return 0;//全0
+        }
+        return -1;//0,1都有
     }
 };
 int main()
 {
     Solution s;
-    vector<vector<int>> v = {{1,1,0,0},{1,1,0,1},{0,0,0,0},{0,0,0,0}};
+    vector<vector<int>> v = {{1,1,1,1,0,0,0,0},
+                             {1,1,1,1,0,0,0,0},
+                             {1,1,1,1,1,1,1,1},
+                             {1,1,1,1,1,1,1,1},
+                             {1,1,1,1,0,0,0,0},
+                             {1,1,1,1,0,0,0,0},
+                             {1,1,1,1,0,0,0,0},
+                             {1,1,1,1,0,0,0,0}};
     s.construct(v);
 }
