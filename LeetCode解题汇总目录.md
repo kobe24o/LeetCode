@@ -173,6 +173,7 @@
 | [LeetCode 283. 移动零](https://blog.csdn.net/qq_21201267/article/details/100832987) |
 | [LeetCode 287. 寻找重复数（BitMap）](https://blog.csdn.net/qq_21201267/article/details/100135972) |
 | [LeetCode 289. 生命游戏（位运算）](https://blog.csdn.net/qq_21201267/article/details/102787583) |
+| [LeetCode 290. 单词规律（哈希）](https://michael.blog.csdn.net/article/details/103053073) |
 | [LeetCode 292. Nim 游戏](https://blog.csdn.net/qq_21201267/article/details/100178975) |
 | [LeetCode 295. 数据流的中位数（大小堆）](https://blog.csdn.net/qq_21201267/article/details/102865997) |
 | [LeetCode 297. 二叉树的序列化与反序列化（前序遍历&层序遍历）](https://blog.csdn.net/qq_21201267/article/details/102513143) |
