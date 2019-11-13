@@ -22,7 +22,7 @@ public:
         			wc[c]++;
         	for(auto lpChar : m)
         	{
-        		if(wc.count(lpChar.first) < lpChar.second)
+        		if(wc.find(lpChar.first) == wc.end() || wc[lpChar.first] < lpChar.second)
         		{
         			flag = false;
         			break;
