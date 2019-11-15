@@ -169,6 +169,7 @@
 | [LeetCode 257. 二叉树的所有路径（DFS）](https://blog.csdn.net/qq_21201267/article/details/100565918) |
 | [LeetCode 260. 只出现一次的数字 III（位运算）](https://blog.csdn.net/qq_21201267/article/details/101104783) |
 | [LeetCode 268. 缺失数字](https://blog.csdn.net/qq_21201267/article/details/100146249) |
+| [LeetCode 273. 整数转换英文表示](https://michael.blog.csdn.net/article/details/103093410) |
 | [LeetCode 279. 完全平方数（DP）](https://blog.csdn.net/qq_21201267/article/details/101487022) |
 | [LeetCode 283. 移动零](https://blog.csdn.net/qq_21201267/article/details/100832987) |
 | [LeetCode 287. 寻找重复数（BitMap）](https://blog.csdn.net/qq_21201267/article/details/100135972) |
