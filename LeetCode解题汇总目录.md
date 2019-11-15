@@ -247,6 +247,7 @@
 | [LeetCode 559. N叉树的最大深度](https://blog.csdn.net/qq_21201267/article/details/100943751) |
 | [LeetCode 561. 数组拆分 I](https://blog.csdn.net/qq_21201267/article/details/100940866) |
 | [LeetCode 563. 二叉树的坡度（DFS）](https://blog.csdn.net/qq_21201267/article/details/102904432) |
+| [LeetCode 572. 另一个树的子树（二叉树迭代器）](https://michael.blog.csdn.net/article/details/103094146) |
 | [LeetCode 575. 分糖果（set集合去重）](https://blog.csdn.net/qq_21201267/article/details/101039768) |
 | [LeetCode 589. N叉树的前序遍历（前序遍历）](https://blog.csdn.net/qq_21201267/article/details/100747568) |
 | [LeetCode 590. N叉树的后序遍历（后序遍历）](https://blog.csdn.net/qq_21201267/article/details/100749955) |
