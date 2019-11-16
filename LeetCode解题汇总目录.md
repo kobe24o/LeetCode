@@ -1,4 +1,4 @@
-此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.11.13
+此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.11.16
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -12,7 +12,7 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-​    **已解决 429/1164** - **简单 235** **中等 166** **困难 28** 
+​     **已解决 436/1164** - **简单 237** **中等 170** **困难 29**  
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 
