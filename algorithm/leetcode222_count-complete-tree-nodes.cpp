@@ -53,15 +53,13 @@ public:
         hL = Height(root->left);
         hR = Height(root->right);
         if(hL == hR)
-        	return (1<<hL)-1;//或者 pow(2,hL)-1;
+        	return (1<<hL)+countNodes(root->right);
         else//hL > hR
-        	return 1+countNodes(root->left)+countNodes(root->right);
+        	return (1<<hR)+countNodes(root->left);
     }
 
     int Height(TreeNode* root)
     {
-    	if(root == NULL)
-    		return 0;
     	for(h = 0 ; root; root=root->left)
     		++h;
     	return h;
