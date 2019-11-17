@@ -45,6 +45,8 @@ public:
 		int depX = 0, depY = 0;//x,y节点的深度
 		bool found = false;
         findXY(root,x,0,found,pX,depX);
+        found = false;
+        findXY(root,y,0,found,pY,depY);
         if((pX != pY) && (depX == depY))
         	return true;
         return false;
