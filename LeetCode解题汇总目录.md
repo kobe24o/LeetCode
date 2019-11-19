@@ -278,6 +278,7 @@
 | [LeetCode 671. 二叉树中第二小的节点](https://blog.csdn.net/qq_21201267/article/details/100550016) |
 | [LeetCode 674. 最长连续递增序列](https://blog.csdn.net/qq_21201267/article/details/98262871) |
 | [LeetCode677. 键值映射（Trie树）](https://blog.csdn.net/qq_21201267/article/details/102559253) |
+| [LeetCode 690. 员工的重要性（图的DFS&BFS）](https://michael.blog.csdn.net/article/details/103153141) |
 | [LeetCode 693. 交替位二进制数（位运算）](https://blog.csdn.net/qq_21201267/article/details/101096121) |
 | [LeetCode 695. 岛屿的最大面积（图的BFS/DFS）](https://michael.blog.csdn.net/article/details/103036801) |
 | [LeetCode 696. 计数二进制子串](https://michael.blog.csdn.net/article/details/103074623) |
