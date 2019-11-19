@@ -346,6 +346,7 @@
 | [LeetCode 1022. 从根到叶的二进制数之和（递归）](https://michael.blog.csdn.net/article/details/103058521) |
 | [LeetCode 1028. 从先序遍历还原二叉树（栈）](https://michael.blog.csdn.net/article/details/103002761) |
 | [LeetCode 1029. 两地调度（贪心）](https://michael.blog.csdn.net/article/details/103003479) |
+| [LeetCode 1030. 距离顺序排列矩阵单元格（排序&Lambda表达式&BFS）](https://michael.blog.csdn.net/article/details/103151131) |
 | [LeetCode 1038. 从二叉搜索树到更大和树（逆中序-右根左-降序）](https://blog.csdn.net/qq_21201267/article/details/100798009) |
 | [LeetCode 1042. 不邻接植花（图的数据结构）](https://michael.blog.csdn.net/article/details/103076199) |
 | [LeetCode 1046. 最后一块石头的重量（priority_queue 堆）](https://blog.csdn.net/qq_21201267/article/details/101215370) |
