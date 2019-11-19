@@ -345,6 +345,7 @@
 | [LeetCode 1004. 最大连续1的个数 III（滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/100855871) |
 | [LeetCode 1008. 先序遍历构造二叉树（已知先序，求二叉搜索树）](https://blog.csdn.net/qq_21201267/article/details/100568701) |
 | [LeetCode 1009. 十进制整数的反码（位运算）](https://blog.csdn.net/qq_21201267/article/details/101197758) |
+| [LeetCode 1013. 将数组分成和相等的三个部分](https://michael.blog.csdn.net/article/details/103154010) |
 | [LeetCode 1021. 删除最外层的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/100611450) |
 | [LeetCode 1022. 从根到叶的二进制数之和（递归）](https://michael.blog.csdn.net/article/details/103058521) |
 | [LeetCode 1028. 从先序遍历还原二叉树（栈）](https://michael.blog.csdn.net/article/details/103002761) |
