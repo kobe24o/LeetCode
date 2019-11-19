@@ -315,6 +315,7 @@
 | [LeetCode 876. 链表的中间结点（快慢指针）](https://blog.csdn.net/qq_21201267/article/details/101082616) |
 | [LeetCode 887. 鸡蛋掉落（DP，难）](https://blog.csdn.net/qq_21201267/article/details/102844454) |
 | [LeetCode 889. 已知前序&后序 求二叉树（不唯一）](https://blog.csdn.net/qq_21201267/article/details/100802843) |
+| [LeetCode 892. 三维形体的表面积（数学）](https://michael.blog.csdn.net/article/details/103153550) |
 | [LeetCode 896. 单调数列](https://blog.csdn.net/qq_21201267/article/details/100782385) |
 | [LeetCode 897. 递增顺序查找树（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/101083541) |
 | [LeetCode 905. 按奇偶排序数组](https://blog.csdn.net/qq_21201267/article/details/100940305) |
