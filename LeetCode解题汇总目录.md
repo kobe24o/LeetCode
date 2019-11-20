@@ -343,6 +343,7 @@
 | [LeetCode 989. 数组形式的整数加法](https://michael.blog.csdn.net/article/details/103020342) |
 | [LeetCode 993. 二叉树的堂兄弟节点（层序遍历）](https://michael.blog.csdn.net/article/details/103113397) |
 | [LeetCode 994. 腐烂的橘子（图的BFS）](https://blog.csdn.net/qq_21201267/article/details/102906778) |
+| [LeetCode 997. 找到小镇的法官（图的出度和入度）](https://michael.blog.csdn.net/article/details/103174525) |
 | [LeetCode 998. 最大二叉树 II](https://blog.csdn.net/qq_21201267/article/details/100785910) |
 | [LeetCode 1002. 查找常用字符（哈希）](https://blog.csdn.net/qq_21201267/article/details/100997357) |
 | [LeetCode 1004. 最大连续1的个数 III（滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/100855871) |
