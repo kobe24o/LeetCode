@@ -280,6 +280,7 @@
 | [LeetCode 671. 二叉树中第二小的节点](https://blog.csdn.net/qq_21201267/article/details/100550016) |
 | [LeetCode 674. 最长连续递增序列](https://blog.csdn.net/qq_21201267/article/details/98262871) |
 | [LeetCode677. 键值映射（Trie树）](https://blog.csdn.net/qq_21201267/article/details/102559253) |
+| [LeetCode 687. 最长同值路径（二叉树，递归）](https://michael.blog.csdn.net/article/details/103191442) |
 | [LeetCode 690. 员工的重要性（图的DFS&BFS）](https://michael.blog.csdn.net/article/details/103153141) |
 | [LeetCode 693. 交替位二进制数（位运算）](https://blog.csdn.net/qq_21201267/article/details/101096121) |
 | [LeetCode 695. 岛屿的最大面积（图的BFS/DFS）](https://michael.blog.csdn.net/article/details/103036801) |
@@ -371,6 +372,7 @@
 | [LeetCode 1104. 二叉树寻路（数学&位运算）](https://michael.blog.csdn.net/article/details/103100853) |
 | [LeetCode 1108. IP 地址无效化](https://blog.csdn.net/qq_21201267/article/details/100585842) |
 | [LeetCode 1122. 数组的相对排序](https://blog.csdn.net/qq_21201267/article/details/101112047) |
+| [LeetCode 1128. 等价多米诺骨牌对的数量（哈希）](https://michael.blog.csdn.net/article/details/103190477) |
 | [LeetCode 1137. 第 N 个泰波那契数](https://blog.csdn.net/qq_21201267/article/details/100671814) |
 | [LeetCode 1145. 二叉树着色游戏（计算节点个数）](https://michael.blog.csdn.net/article/details/103115240) |
 | [LeetCode 1154. 一年中的第几天](https://blog.csdn.net/qq_21201267/article/details/100754099) |
