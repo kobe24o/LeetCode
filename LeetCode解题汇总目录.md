@@ -1,4 +1,4 @@
-此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.11.20
+此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.11.22
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -12,7 +12,7 @@
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 
-​         **已解决 466/1172** - **简单 264** **中等 173** **困难 29** 
+​          **已解决 476/1172** - **简单 274** **中等 173** **困难 29** 
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 
@@ -280,6 +280,7 @@
 | [LeetCode 671. 二叉树中第二小的节点](https://blog.csdn.net/qq_21201267/article/details/100550016) |
 | [LeetCode 674. 最长连续递增序列](https://blog.csdn.net/qq_21201267/article/details/98262871) |
 | [LeetCode677. 键值映射（Trie树）](https://blog.csdn.net/qq_21201267/article/details/102559253) |
+| [LeetCode 686. 重复叠加字符串匹配](https://michael.blog.csdn.net/article/details/103193202) |
 | [LeetCode 687. 最长同值路径（二叉树，递归）](https://michael.blog.csdn.net/article/details/103191442) |
 | [LeetCode 690. 员工的重要性（图的DFS&BFS）](https://michael.blog.csdn.net/article/details/103153141) |
 | [LeetCode 693. 交替位二进制数（位运算）](https://blog.csdn.net/qq_21201267/article/details/101096121) |
