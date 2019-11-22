@@ -1,52 +1,49 @@
 class Solution {
 public:
     string largestTimeFromDigits(vector<int>& A) {
-        int m=0, i, j, i0, j0, minRec = INT_MAX;
+        int ans = -1, i, j, k, l, hours, mins;
+        string h,m;
         for(i = 0; i < 4; i++)
+            for(j = 0; j < 4; j++)
+                if (j != i)
+                    for(k = 0; k < 4; k++)
+                        if (k != i && k != j)
+                        {
+                            l = 6 - i - j - k;
+                            hours = 10*A[i] + A[j];
+                            mins = 10*A[k] + A[l];
+                            if(hours < 24 && mins < 60 && (hours*60+mins > ans))
+                            {
+                                ans = hours*60 + mins;
+                                h = hours>=10 ? to_string(hours) : ("0"+to_string(hours));
+                                m = mins>=10 ? to_string(mins) : ("0"+to_string(mins));
+                            }
+                        }
+        if(ans >= 0) 
+            return h+":"+m;
+        return "";
+    }
+};
+
+class Solution {
+public:
+    string largestTimeFromDigits(vector<int>& A) {
+        sort(A.begin(), A.end(), greater<int>());
+        vector<string> ans;
+        string s;
+        int i;
+        do
         {
-        	for(j=i+1; j < 4; j++)
-        	{
-        		if(minRec > A[i]*10+A[j])
-        			minRec = A[i]*10+A[j];
-        		if(A[i]*10+A[j] <= 23 && A[i]*10+A[j] > m)
-        		{
-        			m = A[i]*10+A[j];
-        			i0 = i, j0 = j;
-        		}
-        		if(minRec > A[j]*10+A[i])
-        			minRec = A[j]*10+A[i];
-        		if(A[j]*10+A[i] <= 23 && A[j]*10+A[i] > m)
-        		{
-        			m = A[j]*10+A[i];
-        			i0 = i, j0 = j;
-        		}
-        	}
+            if( ( (A[0]==2 && A[1]<4) || A[0]<2) && A[2]<6 ) 
+            {
+                s = "";
+                for(i = 0; i < 4; i++)
+                    s += (A[i]+'0');
+                s.insert(2, ":");
+                return s;
+            }
         }
-        if(minRec > m)
-        	return "";
-        string time;
-        time = m>=10 ? to_string(m) : ("0"+to_string(m));
-        m = 0;
-        minRec = INT_MAX;
-        for(i = 0; i < 4; i++)
-        {
-        	for(j=i+1; j < 4; j++)
-        	{
-        		if(i==i0 || j==j0 || j==i0 || i==j0)
-        			continue;
-        		if(minRec > A[i]*10+A[j])
-        			minRec = A[i]*10+A[j];
-        		if(A[i]*10+A[j] <= 59 && A[i]*10+A[j] > m)
-        			m = A[i]*10+A[j];
-        		if(minRec > A[j]*10+A[i])
-        			minRec = A[j]*10+A[i];
-        		if(A[j]*10+A[i] <= 59 && A[j]*10+A[i] > m)
-        			m = A[j]*10+A[i];
-        	}
-        }
-        if(minRec > m)
-        	return "";
-        time += ":" + ((m>=10) ? to_string(m) : ("0"+to_string(m)));
-        return time;
+        while(prev_permutation(A.begin(), A.end()));
+        return "";
     }
 };
