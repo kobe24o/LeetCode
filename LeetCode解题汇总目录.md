@@ -391,4 +391,5 @@
 | [LeetCode 1219. 黄金矿工（回溯）](https://michael.blog.csdn.net/article/details/102999022) |
 | [LeetCode 1252. 奇数值单元格的数目](https://michael.blog.csdn.net/article/details/103133482) |
 | [LeetCode 1260. 二维网格迁移（二维转一维）](https://michael.blog.csdn.net/article/details/103152794) |
+| [LeetCode 1261. 在受污染的二叉树中查找元素（树&哈希）](https://michael.blog.csdn.net/article/details/103213501) |
 
