@@ -96,6 +96,7 @@
 | [LeetCode 111. 二叉树的最小深度](https://blog.csdn.net/qq_21201267/article/details/99699211) |
 | [LeetCode 112. 路径总和](https://blog.csdn.net/qq_21201267/article/details/99710888) |
 | [LeetCode 113. 路径总和 II（回溯）](https://blog.csdn.net/qq_21201267/article/details/100550154) |
+| [LeetCode 114. 二叉树展开为链表（递归）](https://michael.blog.csdn.net/article/details/103215728) |
 | [LeetCode 116. 填充每个节点的下一个右侧节点指针（递归&循环）](https://blog.csdn.net/qq_21201267/article/details/102508857) |
 | [LeetCode 117. 填充每个节点的下一个右侧节点指针 II（递归&循环）](https://blog.csdn.net/qq_21201267/article/details/102510857) |
 | [LeetCode 118. 杨辉三角](https://blog.csdn.net/qq_21201267/article/details/100562763) |
