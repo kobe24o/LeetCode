@@ -310,6 +310,7 @@
 | [LeetCode 771. 宝石与石头（哈希）](https://blog.csdn.net/qq_21201267/article/details/100563578) |
 | [LeetCode 783. 二叉搜索树结点最小距离（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100784063) |
 | [LeetCode 784. 字母大小写全排列（位运算&回溯）](https://blog.csdn.net/qq_21201267/article/details/101179369) |
+| [LeetCode 791. 自定义字符串排序（map）](https://michael.blog.csdn.net/article/details/103219936) |
 | [LeetCode 797. 所有可能的路径（DFS）](https://blog.csdn.net/qq_21201267/article/details/101574194) |
 | [LeetCode 804. 唯一摩尔斯密码词（哈希+set）](https://blog.csdn.net/qq_21201267/article/details/100630347) |
 | [LeetCode 807. 保持城市天际线](https://blog.csdn.net/qq_21201267/article/details/100585707) |
