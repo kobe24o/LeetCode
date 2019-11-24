@@ -1,4 +1,4 @@
-此篇为[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.11.24
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.11.25
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -6,10 +6,10 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
- **已解决 500/1176** - **简单 278** **中等 193** **困难 29** 
+  **已解决 502/1176** - **简单 278** **中等 195** **困难 29** 
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
-- 2019.11.9 - 2019.11.24   AC+100道，4个月共计500道题
+- 2019.11.9 - 2019.11.24，   AC+100道，4个月共计500道题
 
 | 参赛记录                                                     |
 | :----------------------------------------------------------- |
@@ -188,6 +188,7 @@
 | [LeetCode 304. 二维区域和检索 - 矩阵不可变（DP）](https://blog.csdn.net/qq_21201267/article/details/101219854) |
 | [LeetCode 312. 戳气球（DP，难）](https://blog.csdn.net/qq_21201267/article/details/100838793) |
 | [LeetCode 315. 计算右侧小于当前元素的个数（二叉查找树&二分查找&归并排序逆序数总结）](https://blog.csdn.net/qq_21201267/article/details/102876496) |
+| [LeetCode 318. 最大单词长度乘积（位运算）](https://michael.blog.csdn.net/article/details/103231137) |
 | [LeetCode 322. 零钱兑换（DP）](https://blog.csdn.net/qq_21201267/article/details/99894804) |
 | [LeetCode 324. 摆动排序 II](https://blog.csdn.net/qq_21201267/article/details/102871040) |
 | [LeetCode 328. 奇偶链表（双指针）](https://blog.csdn.net/qq_21201267/article/details/101649623) |
@@ -401,6 +402,7 @@
 | [LeetCode 1185. 一周中的第几天](https://blog.csdn.net/qq_21201267/article/details/100808636) |
 | [LeetCode 1219. 黄金矿工（回溯）](https://michael.blog.csdn.net/article/details/102999022) |
 | [LeetCode 1252. 奇数值单元格的数目](https://michael.blog.csdn.net/article/details/103133482) |
+| [LeetCode 1254. 统计封闭岛屿的数目（图的BFS & DFS）](https://michael.blog.csdn.net/article/details/103231347) |
 | [LeetCode 1260. 二维网格迁移（二维转一维）](https://michael.blog.csdn.net/article/details/103152794) |
 | [LeetCode 1261. 在受污染的二叉树中查找元素（树&哈希）](https://michael.blog.csdn.net/article/details/103213501) |
 
