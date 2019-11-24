@@ -109,6 +109,7 @@
 | [LeetCode 126. 单词接龙 II（图的BFS）](https://blog.csdn.net/qq_21201267/article/details/102808526) |
 | [LeetCode 127. 单词接龙（图的BFS/双向BFS）](https://blog.csdn.net/qq_21201267/article/details/102795986) |
 | [LeetCode 128. 最长连续序列（哈希set）](https://blog.csdn.net/qq_21201267/article/details/102769670) |
+| [LeetCode 129. 求根到叶子节点数字之和（DFS）](https://michael.blog.csdn.net/article/details/103229606) |
 | [LeetCode 130. 被围绕的区域（图的BFS/DFS）](https://blog.csdn.net/qq_21201267/article/details/102811035) |
 | [LeetCode 131. 分割回文串（回溯）](https://michael.blog.csdn.net/article/details/102979356) |
 | [LeetCode 133. 克隆图（图的BFS/DFS）](https://blog.csdn.net/qq_21201267/article/details/101568649) |
