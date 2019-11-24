@@ -2,7 +2,7 @@ class Solution {
 	unordered_map<int,int> m;
 	vector<int> ans;
 	int maxCount = 0;
-	int l, r, s;
+	int s;
 public:
     vector<int> findFrequentTreeSum(TreeNode* root) {
         sumof(root);
@@ -16,8 +16,8 @@ public:
     {
     	if(root == NULL)
     		return 0;
-    	l = sumof(root->left);
-    	r = sumof(root->right);
+    	int l = sumof(root->left);
+    	int r = sumof(root->right);
     	s = l+r+root->val;
     	if(++m[s] > maxCount)
     		maxCount = m[s];
