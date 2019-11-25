@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-  **已解决 502/1176** - **简单 278** **中等 195** **困难 29** 
+   **已解决 503/1176** - **简单 278** **中等 196** **困难 29**  
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC+100道，4个月共计500道题
@@ -186,6 +186,7 @@
 | [LeetCode 297. 二叉树的序列化与反序列化（前序遍历&层序遍历）](https://blog.csdn.net/qq_21201267/article/details/102513143) |
 | [LeetCode 300. 最长上升子序列](https://blog.csdn.net/qq_21201267/article/details/97308533) |
 | [LeetCode 304. 二维区域和检索 - 矩阵不可变（DP）](https://blog.csdn.net/qq_21201267/article/details/101219854) |
+| [LeetCode 310. 最小高度树（图 聪明的BFS，从外向内包围）](https://michael.blog.csdn.net/article/details/103244463) |
 | [LeetCode 312. 戳气球（DP，难）](https://blog.csdn.net/qq_21201267/article/details/100838793) |
 | [LeetCode 315. 计算右侧小于当前元素的个数（二叉查找树&二分查找&归并排序逆序数总结）](https://blog.csdn.net/qq_21201267/article/details/102876496) |
 | [LeetCode 318. 最大单词长度乘积（位运算）](https://michael.blog.csdn.net/article/details/103231137) |
