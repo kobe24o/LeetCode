@@ -7,9 +7,13 @@ public:
         dp[0][nums[0]%3] = nums[0];
         for(i = 1; i < n; ++i)
         {
-        	idx = nums[i]%3;
         	for(j = 0; j < 3; ++j)
-        		dp[i][(idx+j)%3] = dp[i-1][j]+nums[i];
+        		dp[i][j] = dp[i-1][j];
+        	for(j = 0; j < 3; ++j)
+        	{
+        		idx = (dp[i-1][j]+nums[i])%3;
+        		dp[i][idx] = max(dp[i][idx], dp[i-1][j]+nums[i]);
+        	}
         }
         return dp[n-1][0];
     }
