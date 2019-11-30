@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-   **已解决 511/1177** - **简单 279** **中等 202** **困难 30**  
+​    **已解决 512/1177** - **简单 279** **中等 203** **困难 30**   
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC+100道，4个月共计500道题
@@ -384,6 +384,7 @@
 | [LeetCode 1046. 最后一块石头的重量（priority_queue 堆）](https://blog.csdn.net/qq_21201267/article/details/101215370) |
 | [LeetCode 1047. 删除字符串中的所有相邻重复项（栈）](https://blog.csdn.net/qq_21201267/article/details/101083067) |
 | [LeetCode 1051. 高度检查器](https://blog.csdn.net/qq_21201267/article/details/100635273) |
+| [LeetCode 1052. 爱生气的书店老板（滑动窗口）](https://michael.blog.csdn.net/article/details/103328664) |
 | [LeetCode 1071. 字符串的最大公因子（字符串的最大公约数）](https://michael.blog.csdn.net/article/details/103174953) |
 | [LeetCode 1078. Bigram 分词](https://blog.csdn.net/qq_21201267/article/details/101173096) |
 | [LeetCode 1079. 活字印刷（全排列回溯）](https://blog.csdn.net/qq_21201267/article/details/100644009) |
