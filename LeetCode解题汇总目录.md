@@ -123,6 +123,7 @@
 | [LeetCode 140. 单词拆分 II（DP+回溯）](https://michael.blog.csdn.net/article/details/102945974) |
 | [LeetCode 141. 环形链表](https://blog.csdn.net/qq_21201267/article/details/99296511) |
 | [LeetCode 142. 环形链表 II（链表环的检测）](https://blog.csdn.net/qq_21201267/article/details/100135575) |
+| [LeetCode 143. 重排链表（链表反转+快慢指针）](https://michael.blog.csdn.net/article/details/103341844) |
 | [LeetCode 144. 二叉树的前序遍历（前序遍历）](https://blog.csdn.net/qq_21201267/article/details/100546064) |
 | [LeetCode 145. 二叉树的后序遍历（后序遍历&总结）](https://blog.csdn.net/qq_21201267/article/details/100546489) |
 | [LeetCode 146. LRU缓存机制（哈希链表）](https://blog.csdn.net/qq_21201267/article/details/100178189) |
