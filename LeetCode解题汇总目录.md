@@ -127,6 +127,7 @@
 | [LeetCode 144. 二叉树的前序遍历（前序遍历）](https://blog.csdn.net/qq_21201267/article/details/100546064) |
 | [LeetCode 145. 二叉树的后序遍历（后序遍历&总结）](https://blog.csdn.net/qq_21201267/article/details/100546489) |
 | [LeetCode 146. LRU缓存机制（哈希链表）](https://blog.csdn.net/qq_21201267/article/details/100178189) |
+| [LeetCode 147. 对链表进行插入排序（链表）](https://michael.blog.csdn.net/article/details/103346625) |
 | [LeetCode 148. 排序链表（归并排序）](https://blog.csdn.net/qq_21201267/article/details/101313065) |
 | [LeetCode 149. 直线上最多的点数](https://blog.csdn.net/qq_21201267/article/details/102674893) |
 | [LeetCode 150. 逆波兰表达式求值（栈）](https://blog.csdn.net/qq_21201267/article/details/99495282) |
@@ -420,4 +421,6 @@
 | [LeetCode 1261. 在受污染的二叉树中查找元素（树&哈希）](https://michael.blog.csdn.net/article/details/103213501) |
 | [LeetCode 1262. 可被三整除的最大和（DP）](https://michael.blog.csdn.net/article/details/103319572) |
 | [LeetCode 1266. 访问所有点的最小时间（数学）](https://michael.blog.csdn.net/article/details/103280533) |
+| [LeetCode 1275. 找出井字棋的获胜者（位运算）](https://michael.blog.csdn.net/article/details/103345978) |
+| [LeetCode 5112. 十六进制魔术数字（进制转换）](https://michael.blog.csdn.net/article/details/103346339) |
 
