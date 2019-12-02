@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-  **已解决 519/1185** - **简单 281** **中等 208** **困难 30**   
+  **已解决 521/1185** - **简单 281** **中等 210** **困难 30**   
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC+100道，4个月共计500道题
@@ -381,6 +381,7 @@
 | [LeetCode 1014. 最佳观光组合](https://michael.blog.csdn.net/article/details/103316755) |
 | [LeetCode 1021. 删除最外层的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/100611450) |
 | [LeetCode 1022. 从根到叶的二进制数之和（递归）](https://michael.blog.csdn.net/article/details/103058521) |
+| [LeetCode 1026. 节点与其祖先之间的最大差值（二叉树DFS）](https://michael.blog.csdn.net/article/details/103357890) |
 | [LeetCode 1028. 从先序遍历还原二叉树（栈）](https://michael.blog.csdn.net/article/details/103002761) |
 | [LeetCode 1029. 两地调度（贪心）](https://michael.blog.csdn.net/article/details/103003479) |
 | [LeetCode 1030. 距离顺序排列矩阵单元格（排序&Lambda表达式&BFS）](https://michael.blog.csdn.net/article/details/103151131) |
