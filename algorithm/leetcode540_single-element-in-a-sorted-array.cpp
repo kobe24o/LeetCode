@@ -9,13 +9,34 @@ public:
 };
 
 class Solution {
+	bool found = false;
+	int ans;
 public:
     int singleNonDuplicate(vector<int>& nums) {
-    	int i=0, j=nums.size()-1, mid;
-    	while(i <= j)
+    	find(nums,0,nums.size()-1);
+    	return ans;
+    }
+
+    void find(vector<int>& nums, int l, int r)
+    {
+    	if(found || l > r)
+    		return;
+    	int mid = l+((r-l)>>1);
+    	if((mid == 0 && nums[mid] != nums[mid+1])
+    		|| (mid == nums.size()-1 && nums[mid-1] != nums[mid]))
     	{
-    		mid = i+((j-i)>>1);
+    		found = true;
+    		ans = nums[mid];
     	}
-        
+    	else if(nums[mid] != nums[mid+1] && nums[mid] != nums[mid-1])
+    	{
+    		found = true;
+    		ans = nums[mid];
+    	}
+    	else
+    	{
+    		find(nums,l,mid-1);
+    		find(nums,mid+1,r);
+    	}
     }
 };

@@ -260,6 +260,7 @@
 | [LeetCode 535. TinyURL 的加密与解密（哈希）](https://blog.csdn.net/qq_21201267/article/details/100565409) |
 | [LeetCode 537. 复数乘法](https://michael.blog.csdn.net/article/details/102981551) |
 | [LeetCode 538. 把二叉搜索树转换为累加树（逆中序 根右左）](https://blog.csdn.net/qq_21201267/article/details/100826415) |
+| [LeetCode 540. 有序数组中的单一元素（位运算&二分查找）](https://michael.blog.csdn.net/article/details/103377708) |
 | [LeetCode 541. 反转字符串 II](https://michael.blog.csdn.net/article/details/103041243) |
 | [LeetCode 542. 01 矩阵（BFS && DP）](https://blog.csdn.net/qq_21201267/article/details/101618467) |
 | [LeetCode 543. 二叉树的直径（DFS）](https://blog.csdn.net/qq_21201267/article/details/102818983) |
