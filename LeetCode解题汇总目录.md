@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.12.2
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！Updated on 2019.12.4
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-  **已解决 521/1185** - **简单 281** **中等 210** **困难 30**   
+   **已解决 525/1185** - **简单 281** **中等 214** **困难 30**    
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC+100道，4个月共计500道题
@@ -216,6 +216,7 @@
 | [LeetCode 389. 找不同（位运算）](https://blog.csdn.net/qq_21201267/article/details/101165255) |
 | [LeetCode 392. 判断子序列（双指针&二分查找）](https://michael.blog.csdn.net/article/details/103206471) |
 | [LeetCode 394. 字符串解码（栈）](https://blog.csdn.net/qq_21201267/article/details/101607649) |
+| [LeetCode 398. 随机数索引（概率）](https://michael.blog.csdn.net/article/details/103382205) |
 | [LeetCode 401. 二进制手表](https://michael.blog.csdn.net/article/details/103134538) |
 | [LeetCode 403. 青蛙过河（DP）](https://michael.blog.csdn.net/article/details/102969736) |
 | [LeetCode 404. 左叶子之和（递归）](https://michael.blog.csdn.net/article/details/103041375) |
@@ -256,6 +257,7 @@
 | [LeetCode 515. 在每个树行中找最大值（层序遍历）](https://michael.blog.csdn.net/article/details/103341623) |
 | [LeetCode 522. 最长特殊序列 II](https://blog.csdn.net/qq_21201267/article/details/101036485) |
 | [LeetCode 523. 连续的子数组和（求余 哈希）](https://blog.csdn.net/qq_21201267/article/details/102253351) |
+| [LeetCode 526. 优美的排列（回溯）](https://michael.blog.csdn.net/article/details/103383968) |
 | [LeetCode 530. 二叉搜索树的最小绝对差（中序遍历）](https://michael.blog.csdn.net/article/details/102964835) |
 | [LeetCode 535. TinyURL 的加密与解密（哈希）](https://blog.csdn.net/qq_21201267/article/details/100565409) |
 | [LeetCode 537. 复数乘法](https://michael.blog.csdn.net/article/details/102981551) |
@@ -309,6 +311,7 @@
 | [LeetCode 704. 二分查找](https://blog.csdn.net/qq_21201267/article/details/100715644) |
 | [LeetCode 707. 设计链表（List）](https://blog.csdn.net/qq_21201267/article/details/101638997) |
 | [LeetCode 709. 转换成小写字母](https://blog.csdn.net/qq_21201267/article/details/100907747) |
+| [LeetCode 714. 买卖股票的最佳时机含手续费（DP）](https://michael.blog.csdn.net/article/details/103381475) |
 | [LeetCode 720. 词典中最长的单词（Trie树）](https://michael.blog.csdn.net/article/details/103077004) |
 | [LeetCode 728. 自除数](https://blog.csdn.net/qq_21201267/article/details/100907175) |
 | [LeetCode 733. 图像渲染（DFS/BFS）](https://blog.csdn.net/qq_21201267/article/details/101611121) |
