@@ -297,6 +297,7 @@
 | [LeetCode 657. 机器人能否返回原点](https://blog.csdn.net/qq_21201267/article/details/100632672) |
 | [LeetCode 658. 找到 K 个最接近的元素（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100697216) |
 | [LeetCode 665. 非递减数列（双指针）](https://blog.csdn.net/qq_21201267/article/details/102810529) |
+| [LeetCode 667. 优美的排列 II（找规律）](https://blog.csdn.net/qq_21201267/article/details/103411623) |
 | [LeetCode 669. 修剪二叉搜索树](https://blog.csdn.net/qq_21201267/article/details/100716292) |
 | [LeetCode 671. 二叉树中第二小的节点](https://blog.csdn.net/qq_21201267/article/details/100550016) |
 | [LeetCode 674. 最长连续递增序列](https://blog.csdn.net/qq_21201267/article/details/98262871) |
