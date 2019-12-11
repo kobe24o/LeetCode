@@ -4,11 +4,15 @@ public:
         if(X >= Y)
             return X-Y;
         int n = 0;
-		while((X<<1) < Y)
+		while(X != Y)
 		{
-			X <<= 1;   
+			if((X <<= 1)>Y)
+			{
+				X--;
+				++n;
+			}
 			++n;
 		}
-		return n+1+Y-(X<<1);
+		return n;
     }
 };
