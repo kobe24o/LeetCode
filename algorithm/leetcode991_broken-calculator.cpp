@@ -4,15 +4,19 @@ public:
         if(X >= Y)
             return X-Y;
         int n = 0;
-		while(X != Y)
+		while(X < Y)
 		{
-			if((X <<= 1)>Y)
+			if(Y%2 == 1)
 			{
-				X--;
-				++n;
+				Y = (Y+1)>>1;
+				n += 2;
 			}
-			++n;
+			else
+			{
+				Y >>= 1;
+				n++;
+			}
 		}
-		return n;
+		return X-Y+n;
     }
 };
