@@ -264,6 +264,7 @@
 | [LeetCode 535. TinyURL 的加密与解密（哈希）](https://blog.csdn.net/qq_21201267/article/details/100565409) |
 | [LeetCode 537. 复数乘法](https://michael.blog.csdn.net/article/details/102981551) |
 | [LeetCode 538. 把二叉搜索树转换为累加树（逆中序 根右左）](https://blog.csdn.net/qq_21201267/article/details/100826415) |
+| [LeetCode 539. 最小时间差（哈希）](https://michael.blog.csdn.net/article/details/103498922) |
 | [LeetCode 540. 有序数组中的单一元素（位运算&二分查找）](https://michael.blog.csdn.net/article/details/103377708) |
 | [LeetCode 541. 反转字符串 II](https://michael.blog.csdn.net/article/details/103041243) |
 | [LeetCode 542. 01 矩阵（BFS && DP）](https://blog.csdn.net/qq_21201267/article/details/101618467) |
@@ -374,6 +375,7 @@
 | [LeetCode 980. 不同路径 III（DFS+回溯）](https://michael.blog.csdn.net/article/details/102961910) |
 | [LeetCode 986. 区间列表的交集](https://blog.csdn.net/qq_21201267/article/details/100058783) |
 | [LeetCode 989. 数组形式的整数加法](https://michael.blog.csdn.net/article/details/103020342) |
+| [LeetCode 991. 坏了的计算器（逆向思考）](https://michael.blog.csdn.net/article/details/103498206) |
 | [LeetCode 993. 二叉树的堂兄弟节点（层序遍历）](https://michael.blog.csdn.net/article/details/103113397) |
 | [LeetCode 994. 腐烂的橘子（图的BFS）](https://blog.csdn.net/qq_21201267/article/details/102906778) |
 | [LeetCode 997. 找到小镇的法官（图的出度和入度）](https://michael.blog.csdn.net/article/details/103174525) |
