@@ -27,6 +27,7 @@
 | [LeetCode 8. 字符串转换整数 (atoi)](https://blog.csdn.net/qq_21201267/article/details/100583821) |
 | [LeetCode 9. 回文数](https://blog.csdn.net/qq_21201267/article/details/100168231) |
 | [LeetCode 11. 盛最多水的容器（双指针）](https://blog.csdn.net/qq_21201267/article/details/100545403) |
+| [LeetCode 12/13 罗马数字与整型互转（哈希，贪心）](https://michael.blog.csdn.net/article/details/103507056) |
 | [LeetCode 14. 最长公共前缀](https://blog.csdn.net/qq_21201267/article/details/100866922) |
 | [LeetCode 15. 三数之和](https://blog.csdn.net/qq_21201267/article/details/99241741) |
 | [LeetCode 16. 最接近的三数之和（固定左端+滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/100863583) |
