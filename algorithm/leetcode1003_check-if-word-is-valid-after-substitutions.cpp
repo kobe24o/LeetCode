@@ -8,12 +8,12 @@ public:
         {
         	if(S[i] == 'c')
         	{
-        		if(stk.top() != 'b')
+        		if(stk.empty() || (!stk.empty() && stk.top() != 'b'))
         			return false;
         		else
         		{
         			stk.pop();
-        			if(stk.top() != 'a')
+        			if(stk.empty() || (!stk.empty() && stk.top() != 'a'))
         				return false;
         			else
         				stk.pop();
