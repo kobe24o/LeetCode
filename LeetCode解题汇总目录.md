@@ -347,6 +347,7 @@
 | [LeetCode 841. 钥匙和房间（DFS/BFS）](https://blog.csdn.net/qq_21201267/article/details/101628381) |
 | [LeetCode 849. 到最近的人的最大距离](https://blog.csdn.net/qq_21201267/article/details/102903358) |
 | [LeetCode 852. 山脉数组的峰顶索引（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100743518) |
+| [LeetCode 856. 括号的分数](https://michael.blog.csdn.net/article/details/103527028) |
 | [LeetCode 860. 柠檬水找零（贪心）](https://michael.blog.csdn.net/article/details/103153887) |
 | [LeetCode 861. 翻转矩阵后的得分（贪心）](https://michael.blog.csdn.net/article/details/103209591) |
 | [LeetCode 868. 二进制间距（位运算）](https://blog.csdn.net/qq_21201267/article/details/101164748) |
