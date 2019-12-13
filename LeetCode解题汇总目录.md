@@ -353,6 +353,7 @@
 | [LeetCode 869. 重新排序得到 2 的幂（排序 & 全排列）](https://blog.csdn.net/qq_21201267/article/details/103096151) |
 | [LeetCode 874. 模拟行走机器人（set）](https://michael.blog.csdn.net/article/details/103192991) |
 | [LeetCode 876. 链表的中间结点（快慢指针）](https://blog.csdn.net/qq_21201267/article/details/101082616) |
+| [LeetCode 881. 救生艇（贪心，双指针）](https://michael.blog.csdn.net/article/details/103520322) |
 | [LeetCode 887. 鸡蛋掉落（DP，难）](https://blog.csdn.net/qq_21201267/article/details/102844454) |
 | [LeetCode 888. 公平的糖果交换（哈希set）](https://michael.blog.csdn.net/article/details/103168073) |
 | [LeetCode 889. 已知前序&后序 求二叉树（不唯一）](https://blog.csdn.net/qq_21201267/article/details/100802843) |
@@ -396,6 +397,7 @@
 | [LeetCode 1013. 将数组分成和相等的三个部分](https://michael.blog.csdn.net/article/details/103154010) |
 | [LeetCode 1014. 最佳观光组合](https://michael.blog.csdn.net/article/details/103316755) |
 | [LeetCode 1017. 负二进制转换（负数进制转换）](https://michael.blog.csdn.net/article/details/103430094) |
+| [LeetCode 1020. 飞地的数量（图的BFS/DFS）](https://michael.blog.csdn.net/article/details/103523525) |
 | [LeetCode 1021. 删除最外层的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/100611450) |
 | [LeetCode 1022. 从根到叶的二进制数之和（递归）](https://michael.blog.csdn.net/article/details/103058521) |
 | [LeetCode 1023. 驼峰式匹配（暴力匹配）](https://michael.blog.csdn.net/article/details/103517033) |
