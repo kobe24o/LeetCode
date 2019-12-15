@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2019.12.12
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2019.12.13
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-   **已解决 540/1189** - **简单 281** **中等 228** **困难 31**    
+   **已解决 544/1189** - **简单 281** **中等 232** **困难 31**    
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC+100道，4个月共计500道题
@@ -347,12 +347,14 @@
 | [LeetCode 841. 钥匙和房间（DFS/BFS）](https://blog.csdn.net/qq_21201267/article/details/101628381) |
 | [LeetCode 849. 到最近的人的最大距离](https://blog.csdn.net/qq_21201267/article/details/102903358) |
 | [LeetCode 852. 山脉数组的峰顶索引（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100743518) |
+| [LeetCode 856. 括号的分数](https://michael.blog.csdn.net/article/details/103527028) |
 | [LeetCode 860. 柠檬水找零（贪心）](https://michael.blog.csdn.net/article/details/103153887) |
 | [LeetCode 861. 翻转矩阵后的得分（贪心）](https://michael.blog.csdn.net/article/details/103209591) |
 | [LeetCode 868. 二进制间距（位运算）](https://blog.csdn.net/qq_21201267/article/details/101164748) |
 | [LeetCode 869. 重新排序得到 2 的幂（排序 & 全排列）](https://blog.csdn.net/qq_21201267/article/details/103096151) |
 | [LeetCode 874. 模拟行走机器人（set）](https://michael.blog.csdn.net/article/details/103192991) |
 | [LeetCode 876. 链表的中间结点（快慢指针）](https://blog.csdn.net/qq_21201267/article/details/101082616) |
+| [LeetCode 881. 救生艇（贪心，双指针）](https://michael.blog.csdn.net/article/details/103520322) |
 | [LeetCode 887. 鸡蛋掉落（DP，难）](https://blog.csdn.net/qq_21201267/article/details/102844454) |
 | [LeetCode 888. 公平的糖果交换（哈希set）](https://michael.blog.csdn.net/article/details/103168073) |
 | [LeetCode 889. 已知前序&后序 求二叉树（不唯一）](https://blog.csdn.net/qq_21201267/article/details/100802843) |
@@ -395,7 +397,9 @@
 | [LeetCode 1010. 总持续时间可被 60 整除的歌曲（哈希）](https://michael.blog.csdn.net/article/details/103190028) |
 | [LeetCode 1013. 将数组分成和相等的三个部分](https://michael.blog.csdn.net/article/details/103154010) |
 | [LeetCode 1014. 最佳观光组合](https://michael.blog.csdn.net/article/details/103316755) |
+| [LeetCode 1016. 子串能表示从 1 到 N 数字的二进制串（bitset）](https://michael.blog.csdn.net/article/details/103530223) |
 | [LeetCode 1017. 负二进制转换（负数进制转换）](https://michael.blog.csdn.net/article/details/103430094) |
+| [LeetCode 1020. 飞地的数量（图的BFS/DFS）](https://michael.blog.csdn.net/article/details/103523525) |
 | [LeetCode 1021. 删除最外层的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/100611450) |
 | [LeetCode 1022. 从根到叶的二进制数之和（递归）](https://michael.blog.csdn.net/article/details/103058521) |
 | [LeetCode 1023. 驼峰式匹配（暴力匹配）](https://michael.blog.csdn.net/article/details/103517033) |
