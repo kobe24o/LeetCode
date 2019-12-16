@@ -219,6 +219,7 @@
 | [LeetCode 392. 判断子序列（双指针&二分查找）](https://michael.blog.csdn.net/article/details/103206471) |
 | [LeetCode 394. 字符串解码（栈）](https://blog.csdn.net/qq_21201267/article/details/101607649) |
 | [LeetCode 398. 随机数索引（概率）](https://michael.blog.csdn.net/article/details/103382205) |
+| [LeetCode 400. 第N个数字（数学）](https://michael.blog.csdn.net/article/details/103571864) |
 | [LeetCode 401. 二进制手表](https://michael.blog.csdn.net/article/details/103134538) |
 | [LeetCode 402. 移掉K位数字（贪心，单调栈）](https://michael.blog.csdn.net/article/details/103555712) |
 | [LeetCode 403. 青蛙过河（DP）](https://michael.blog.csdn.net/article/details/102969736) |
