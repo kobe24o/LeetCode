@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2019.12.16
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2019.12.19
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-   **已解决 552/1298** - **简单 283** **中等 238** **困难 31**    
+   **已解决 554/1197** - **简单 283** **中等 240** **困难 31**    
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC+100道，4个月共计500道题
@@ -195,6 +195,7 @@
 | [LeetCode 312. 戳气球（DP，难）](https://blog.csdn.net/qq_21201267/article/details/100838793) |
 | [LeetCode 315. 计算右侧小于当前元素的个数（二叉查找树&二分查找&归并排序逆序数总结）](https://blog.csdn.net/qq_21201267/article/details/102876496) |
 | [LeetCode 318. 最大单词长度乘积（位运算）](https://michael.blog.csdn.net/article/details/103231137) |
+| [LeetCode 319. 灯泡开关（找规律）](https://michael.blog.csdn.net/article/details/103607028) |
 | [LeetCode 322. 零钱兑换（DP）](https://blog.csdn.net/qq_21201267/article/details/99894804) |
 | [LeetCode 324. 摆动排序 II](https://blog.csdn.net/qq_21201267/article/details/102871040) |
 | [LeetCode 328. 奇偶链表（双指针）](https://blog.csdn.net/qq_21201267/article/details/101649623) |
@@ -251,6 +252,7 @@
 | [LeetCode 476. 数字的补数（移位 异或^）](https://blog.csdn.net/qq_21201267/article/details/100938652) |
 | [LeetCode 477. 汉明距离总和（位运算）](https://blog.csdn.net/qq_21201267/article/details/103410908) |
 | [LeetCode 478. 在圆内随机生成点（概率）](https://michael.blog.csdn.net/article/details/103341534) |
+| [LeetCode 481. 神奇字符串（找规律）](https://michael.blog.csdn.net/article/details/103606978) |
 | [LeetCode 482. 密钥格式化](https://blog.csdn.net/qq_21201267/article/details/102888974) |
 | [LeetCode 485. 最大连续1的个数](https://blog.csdn.net/qq_21201267/article/details/100855102) |
 | [LeetCode 493. 翻转对（归并排序）](https://blog.csdn.net/qq_21201267/article/details/101236925) |
