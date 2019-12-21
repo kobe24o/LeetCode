@@ -292,8 +292,10 @@
 | [LeetCode 594. 最长和谐子序列（map）](https://michael.blog.csdn.net/article/details/102924359) |
 | [LeetCode 605. 种花问题](https://blog.csdn.net/qq_21201267/article/details/102904001) |
 | [LeetCode 606. 根据二叉树创建字符串（递归）](https://michael.blog.csdn.net/article/details/103021068) |
+| [LeetCode 611. 有效三角形的个数（双指针）](https://michael.blog.csdn.net/article/details/103649865) |
 | [LeetCode 617. 合并二叉树](https://blog.csdn.net/qq_21201267/article/details/100569367) |
 | [LeetCode 621. 任务调度器（贪心）](https://blog.csdn.net/qq_21201267/article/details/102760180) |
+| [LeetCode 623. 在二叉树中增加一行（BFS/DFS）](https://michael.blog.csdn.net/article/details/103649398) |
 | [LeetCode 628. 三个数的最大乘积](https://michael.blog.csdn.net/article/details/103172263) |
 | [LeetCode 629. K个逆序对数组（DP）](https://blog.csdn.net/qq_21201267/article/details/102886587) |
 | [LeetCode 637. 二叉树的层平均值（层次遍历queue）](https://blog.csdn.net/qq_21201267/article/details/100717726) |
