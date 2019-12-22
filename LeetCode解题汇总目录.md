@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-   **已解决 554/1197** - **简单 283** **中等 240** **困难 31**    
+   **已解决 558/1201** - **简单 284** **中等 243** **困难 31**    
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC+100道，4个月共计500道题
@@ -303,6 +303,7 @@
 | [LeetCode 645. 错误的集合](https://blog.csdn.net/qq_21201267/article/details/100148227) |
 | [LeetCode 646. 最长数对链（区间 贪心）](https://blog.csdn.net/qq_21201267/article/details/101239559) |
 | [LeetCode 648. 单词替换（Trie树）](https://blog.csdn.net/qq_21201267/article/details/102574082) |
+| [LeetCode 650. 只有两个键的键盘（DP）](https://michael.blog.csdn.net/article/details/103657566) |
 | [LeetCode 652. 寻找重复的子树（DFS）](https://blog.csdn.net/qq_21201267/article/details/101284456) |
 | [LeetCode 653. 两数之和 IV - 输入 BST（二叉搜索树迭代器&双指针）](https://michael.blog.csdn.net/article/details/103019314) |
 | [LeetCode 654. 最大二叉树（递归）](https://blog.csdn.net/qq_21201267/article/details/100586036) |
