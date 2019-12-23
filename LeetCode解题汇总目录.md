@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2019.12.19
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2019.12.23
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-   **已解决 558/1201** - **简单 284** **中等 243** **困难 31**    
+   **已解决 561/1201** - **简单 284** **中等 246** **困难 31**    
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC+100道，4个月共计500道题
@@ -84,6 +84,7 @@
 | [LeetCode 89. 格雷编码](https://blog.csdn.net/qq_21201267/article/details/100170042) |
 | [LeetCode 90. 子集 II（回溯+剪枝）](https://blog.csdn.net/qq_21201267/article/details/100167394) |
 | [LeetCode 92. 反转链表 II（双指针）](https://blog.csdn.net/qq_21201267/article/details/101646666) |
+| [LeetCode 93. 复原IP地址（回溯）](https://michael.blog.csdn.net/article/details/103673911) |
 | [LeetCode 94. 二叉树的中序遍历（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100545729) |
 | [LeetCode 96. 不同的二叉搜索树（DP）](https://blog.csdn.net/qq_21201267/article/details/102616858) |
 | [LeetCode 98. 验证二叉搜索树（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/99699540) |
@@ -140,6 +141,7 @@
 | [LeetCode 155. 最小栈](https://blog.csdn.net/qq_21201267/article/details/100188954) |
 | [LeetCode 160. 相交链表](https://blog.csdn.net/qq_21201267/article/details/100168364) |
 | [LeetCode 162. 寻找峰值（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102418806) |
+| [LeetCode 165. 比较版本号](https://michael.blog.csdn.net/article/details/103674332) |
 | [LeetCode 166. 分数到小数（小数除法）](https://blog.csdn.net/qq_21201267/article/details/102757990) |
 | [LeetCode 169. 求众数](https://blog.csdn.net/qq_21201267/article/details/99249031) |
 | [LeetCode 171. Excel表列序号（26进制转10进制）](https://blog.csdn.net/qq_21201267/article/details/100998473) |
