@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-   **已解决 561/1201** - **简单 284** **中等 246** **困难 31**    
+   **已解决 562/1201** - **简单 284** **中等 247** **困难 31**   
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC+100道，4个月共计500道题
@@ -430,6 +430,7 @@
 | [LeetCode 1071. 字符串的最大公因子（字符串的最大公约数）](https://michael.blog.csdn.net/article/details/103174953) |
 | [LeetCode 1078. Bigram 分词](https://blog.csdn.net/qq_21201267/article/details/101173096) |
 | [LeetCode 1079. 活字印刷（全排列回溯）](https://blog.csdn.net/qq_21201267/article/details/100644009) |
+| [LeetCode 1080. 根到叶路径上的不足节点（递归）](https://michael.blog.csdn.net/article/details/103690245) |
 | [LeetCode 1089. 复写零](https://blog.csdn.net/qq_21201267/article/details/100809393) |
 | [LeetCode 1094. 拼车](https://blog.csdn.net/qq_21201267/article/details/100604925) |
 | [LeetCode 1103. 分糖果 II](https://blog.csdn.net/qq_21201267/article/details/100802416) |
