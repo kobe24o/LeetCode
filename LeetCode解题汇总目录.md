@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-   **已解决 562/1201** - **简单 284** **中等 247** **困难 31**   
+   **已解决 564/1201** - **简单 284** **中等 249** **困难 31**   
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC+100道，4个月共计500道题
@@ -183,6 +183,8 @@
 | [LeetCode 260. 只出现一次的数字 III（位运算）](https://blog.csdn.net/qq_21201267/article/details/101104783) |
 | [LeetCode 268. 缺失数字](https://blog.csdn.net/qq_21201267/article/details/100146249) |
 | [LeetCode 273. 整数转换英文表示](https://michael.blog.csdn.net/article/details/103093410) |
+| [LeetCode 274. H指数（排序，哈希）](https://michael.blog.csdn.net/article/details/103691047) |
+| [LeetCode 275. H指数 II（二分查找）](https://michael.blog.csdn.net/article/details/103691399) |
 | [LeetCode 279. 完全平方数（DP）](https://blog.csdn.net/qq_21201267/article/details/101487022) |
 | [LeetCode 283. 移动零](https://blog.csdn.net/qq_21201267/article/details/100832987) |
 | [LeetCode 287. 寻找重复数（BitMap）](https://blog.csdn.net/qq_21201267/article/details/100135972) |
