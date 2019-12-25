@@ -12,6 +12,28 @@ public:
 class Solution {
 public:
     int hIndex(vector<int>& citations) {
+        sort(citations.begin(), citations.end(), [](int &a, int &b){return a > b;});
+        //找最后一个citations[i] >= i+1
+        int l = 0, r = citations.size()-1, mid;
+        while(l <= r)
+        {
+        	mid = l + ((r-l)>>1);
+        	if(citations[mid] < mid+1)
+        		r = mid-1;
+        	else
+        	{
+        		if(mid == citations.size()-1 || citations[mid+1] < mid+2)
+        			return mid+1;
+        		l = mid+1;
+        	}
+        }
+        return l;
+    }
+};
+
+class Solution {
+public:
+    int hIndex(vector<int>& citations) {
         int n = citations.size(), i;
         int paper[n+1] = {0};
         for(i = 0; i < n; ++i)
