@@ -8,29 +8,25 @@ public:
         string file;
         for(int i = 0; i < path.size(); ++i)
         {
-            if(path[i] == '/' || i == path.size()-1)
+            if(path[i] == '/')
             {
-                if(file != "")
-                    stk.push(file);
-                file = "";
-            }
-            else if(path[i] == '.')
-            {
-                if(i+1 < path.size() && path[i+1] == '.' && (i+2 == path.size() || path[i+2] == '/'))
-                {
+                if(file == "..")
                     if(!stk.empty())
                         stk.pop();
-                    i++;
-                }
-                else if(i+1 < path.size() && path[i+1] == '.' && i+2 < path.size() && path[i+2] != '/')
-                {
-                    file = ".."+path[i+2];
-                    i += 2;
-                }
+                else if(file != "")
+                    stk.push(file);
+                file = "";
             }
             else
             {
                 file += path[i];
+                if(i == path.size()-1)
+                {
+                    if(file == ".." && !stk.empty())
+                        stk.pop();
+                    else if(file != "")
+                        stk.push(file);
+                }
             }
         }
         stack<string> temp;
@@ -54,5 +50,5 @@ public:
 int main()
 {
     Solution s;
-    s.simplifyPath("/..hidden");
+    s.simplifyPath("/.../");
 }
