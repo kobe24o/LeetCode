@@ -68,6 +68,7 @@
 | [LeetCode 67. 二进制求和](https://blog.csdn.net/qq_21201267/article/details/101211346) |
 | [LeetCode 69. x 的平方根（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100585531) |
 | [LeetCode 70. 爬楼梯（动态规划）](https://blog.csdn.net/qq_21201267/article/details/98478956) |
+| [LeetCode 71. 简化路径（栈）](https://michael.blog.csdn.net/article/details/103737562) |
 | [LeetCode 73. 矩阵置零](https://blog.csdn.net/qq_21201267/article/details/102709330) |
 | [LeetCode 74. 搜索二维矩阵（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102713721) |
 | [LeetCode 75. 颜色分类（双指针）](https://blog.csdn.net/qq_21201267/article/details/102654682) |
