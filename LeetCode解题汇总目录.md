@@ -14,6 +14,7 @@
 | 参赛记录                                                     |
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
+| [LeetCode 第 16 场双周赛](https://michael.blog.csdn.net/article/details/103757611) |
 
 ​          
 
