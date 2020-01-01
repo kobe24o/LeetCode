@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2019.12.30
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.1.1
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-   **已解决 572/1209** - **简单 286** **中等 254** **困难 32** 
+   **已解决 575/1209** - **简单 286** **中等 257** **困难 32** 
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC+100道，4个月共计500道题
@@ -419,6 +419,7 @@
 | [LeetCode 1014. 最佳观光组合](https://michael.blog.csdn.net/article/details/103316755) |
 | [LeetCode 1016. 子串能表示从 1 到 N 数字的二进制串（bitset）](https://michael.blog.csdn.net/article/details/103530223) |
 | [LeetCode 1017. 负二进制转换（负数进制转换）](https://michael.blog.csdn.net/article/details/103430094) |
+| [LeetCode 1019. 链表中的下一个更大节点（单调栈）](https://michael.blog.csdn.net/article/details/103796861) |
 | [LeetCode 1020. 飞地的数量（图的BFS/DFS）](https://michael.blog.csdn.net/article/details/103523525) |
 | [LeetCode 1021. 删除最外层的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/100611450) |
 | [LeetCode 1022. 从根到叶的二进制数之和（递归）](https://michael.blog.csdn.net/article/details/103058521) |
