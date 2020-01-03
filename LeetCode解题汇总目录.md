@@ -366,6 +366,7 @@
 | [LeetCode 832. 翻转图像（异或^）](https://blog.csdn.net/qq_21201267/article/details/100585771) |
 | [LeetCode 840. 矩阵中的幻方（数学）](https://michael.blog.csdn.net/article/details/103192644) |
 | [LeetCode 841. 钥匙和房间（DFS/BFS）](https://blog.csdn.net/qq_21201267/article/details/101628381) |
+| [LeetCode 842. 将数组拆分成斐波那契序列（暴力查找）](https://michael.blog.csdn.net/article/details/103828495) |
 | [LeetCode 849. 到最近的人的最大距离](https://blog.csdn.net/qq_21201267/article/details/102903358) |
 | [LeetCode 852. 山脉数组的峰顶索引（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100743518) |
 | [LeetCode 856. 括号的分数](https://michael.blog.csdn.net/article/details/103527028) |
