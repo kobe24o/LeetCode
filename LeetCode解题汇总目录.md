@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-   **已解决 578/1209** - **简单 286** **中等 260** **困难 32** 
+   **已解决 580/1209** - **简单 286** **中等 262** **困难 32** 
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -230,6 +230,7 @@
 | [LeetCode 389. 找不同（位运算）](https://blog.csdn.net/qq_21201267/article/details/101165255) |
 | [LeetCode 392. 判断子序列（双指针&二分查找）](https://michael.blog.csdn.net/article/details/103206471) |
 | [LeetCode 394. 字符串解码（栈）](https://blog.csdn.net/qq_21201267/article/details/101607649) |
+| [LeetCode 397. 整数替换（递归 & 贪心）](https://michael.blog.csdn.net/article/details/103838630) |
 | [LeetCode 398. 随机数索引（概率）](https://michael.blog.csdn.net/article/details/103382205) |
 | [LeetCode 400. 第N个数字（数学）](https://michael.blog.csdn.net/article/details/103571864) |
 | [LeetCode 401. 二进制手表](https://michael.blog.csdn.net/article/details/103134538) |
@@ -269,6 +270,7 @@
 | [LeetCode 485. 最大连续1的个数](https://blog.csdn.net/qq_21201267/article/details/100855102) |
 | [LeetCode 493. 翻转对（归并排序）](https://blog.csdn.net/qq_21201267/article/details/101236925) |
 | [LeetCode 494. 目标和（DFS+DP）](https://blog.csdn.net/qq_21201267/article/details/101556163) |
+| [LeetCode 495. 提莫攻击](https://michael.blog.csdn.net/article/details/103838976) |
 | [LeetCode 496. 下一个更大元素 I（哈希）](https://blog.csdn.net/qq_21201267/article/details/101391976) |
 | [LeetCode 498. 对角线遍历](https://blog.csdn.net/qq_21201267/article/details/102264166) |
 | [LeetCode 500. 键盘行](https://blog.csdn.net/qq_21201267/article/details/100674362) |
