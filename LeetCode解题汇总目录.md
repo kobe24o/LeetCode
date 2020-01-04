@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.1.1
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.1.4
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-   **已解决 575/1209** - **简单 286** **中等 257** **困难 32** 
+   **已解决 578/1209** - **简单 286** **中等 260** **困难 32** 
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -63,6 +63,7 @@
 | [LeetCode 55. 跳跃游戏（贪心）](https://blog.csdn.net/qq_21201267/article/details/100899698) |
 | [LeetCode 56. 合并区间（优先队列）](https://blog.csdn.net/qq_21201267/article/details/100082338) |
 | [LeetCode 59. 螺旋矩阵 II && LeetCode 54. 螺旋矩阵](https://blog.csdn.net/qq_21201267/article/details/100395555) |
+| [LeetCode 60. 第k个排列（回溯 & 康托展开）](https://michael.blog.csdn.net/article/details/103837916) |
 | [LeetCode 61. 旋转链表](https://blog.csdn.net/qq_21201267/article/details/100355678) |
 | [LeetCode 62. 不同路径（DP）](https://blog.csdn.net/qq_21201267/article/details/100148537) |
 | [LeetCode 63. 不同路径 II（DP）](https://michael.blog.csdn.net/article/details/102961510) |
