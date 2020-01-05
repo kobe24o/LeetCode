@@ -8,8 +8,7 @@
 using namespace std;
 int main()
 {
-    string a = "abc", b = "cdef";
-    char x('a'), y('r'), z('b'), w('e');
-    int c = x^y^z^w;
-    cout << c << endl;
+    vector<int> v = {1,1,2,3,3,4,5,5,6,1};
+    v.erase(unique(v.begin(), v.end()),v.end());
+    cout << "";
 }

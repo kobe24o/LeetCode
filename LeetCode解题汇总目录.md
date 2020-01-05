@@ -219,8 +219,10 @@
 | [LeetCode 347. 前 K 个高频元素（哈希/优先队列）](https://blog.csdn.net/qq_21201267/article/details/102338389) |
 | [LeetCode 349. 两个数组的交集（哈希）](https://blog.csdn.net/qq_21201267/article/details/100945076) |
 | [LeetCode 350. 两个数组的交集 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/100995174) |
+| [LeetCode 357. 计算各个位数不同的数字个数（DP）](https://michael.blog.csdn.net/article/details/103844098) |
 | [LeetCode 365. 水壶问题（最大公约数）](https://michael.blog.csdn.net/article/details/102980961) |
 | [LeetCode 367. 有效的完全平方数（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489562) |
+| [LeetCode 376. 摆动序列（贪心 & 动态规划）](https://michael.blog.csdn.net/article/details/103848407) |
 | [LeetCode 377. 组合总和 Ⅳ（DP）](https://blog.csdn.net/qq_21201267/article/details/101388583) |
 | [LeetCode 378. 有序矩阵中第K小的元素（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102866438) |
 | [LeetCode 380. 常数时间插入、删除和获取随机元素（哈希+vector）](https://blog.csdn.net/qq_21201267/article/details/102407866) |
