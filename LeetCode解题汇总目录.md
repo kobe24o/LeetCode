@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.1.4
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.1.7
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-   **已解决 583/1213** - **简单 287** **中等 264** **困难 32**
+   **已解决 586/1213** - **简单 287** **中等 267** **困难 32**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -333,6 +333,7 @@
 | [LeetCode 674. 最长连续递增序列](https://blog.csdn.net/qq_21201267/article/details/98262871) |
 | [LeetCode 676. 实现一个魔法字典（哈希）](https://michael.blog.csdn.net/article/details/103511709) |
 | [LeetCode677. 键值映射（Trie树）](https://blog.csdn.net/qq_21201267/article/details/102559253) |
+| [LeetCode 678. 有效的括号字符串（栈）](https://michael.blog.csdn.net/article/details/103865442) |
 | [LeetCode 686. 重复叠加字符串匹配](https://michael.blog.csdn.net/article/details/103193202) |
 | [LeetCode 687. 最长同值路径（二叉树，递归）](https://michael.blog.csdn.net/article/details/103191442) |
 | [LeetCode 690. 员工的重要性（图的DFS&BFS）](https://michael.blog.csdn.net/article/details/103153141) |
@@ -359,6 +360,7 @@
 | [LeetCode 763. 划分字母区间](https://blog.csdn.net/qq_21201267/article/details/100677335) |
 | [LeetCode 765. 情侣牵手（贪心）](https://blog.csdn.net/qq_21201267/article/details/100839491) |
 | [LeetCode 771. 宝石与石头（哈希）](https://blog.csdn.net/qq_21201267/article/details/100563578) |
+| [LeetCode 777. 在LR字符串中交换相邻字符（双指针）](https://michael.blog.csdn.net/article/details/103866042) |
 | [LeetCode 783. 二叉搜索树结点最小距离（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100784063) |
 | [LeetCode 784. 字母大小写全排列（位运算&回溯）](https://blog.csdn.net/qq_21201267/article/details/101179369) |
 | [LeetCode 791. 自定义字符串排序（map）](https://michael.blog.csdn.net/article/details/103219936) |
@@ -379,6 +381,7 @@
 | [LeetCode 861. 翻转矩阵后的得分（贪心）](https://michael.blog.csdn.net/article/details/103209591) |
 | [LeetCode 868. 二进制间距（位运算）](https://blog.csdn.net/qq_21201267/article/details/101164748) |
 | [LeetCode 869. 重新排序得到 2 的幂（排序 & 全排列）](https://blog.csdn.net/qq_21201267/article/details/103096151) |
+| [LeetCode 870. 优势洗牌（贪心 & 二分查找）](https://michael.blog.csdn.net/article/details/103866966) |
 | [LeetCode 874. 模拟行走机器人（set）](https://michael.blog.csdn.net/article/details/103192991) |
 | [LeetCode 876. 链表的中间结点（快慢指针）](https://blog.csdn.net/qq_21201267/article/details/101082616) |
 | [LeetCode 881. 救生艇（贪心，双指针）](https://michael.blog.csdn.net/article/details/103520322) |
