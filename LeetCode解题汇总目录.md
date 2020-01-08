@@ -449,6 +449,7 @@
 | [LeetCode 1051. 高度检查器](https://blog.csdn.net/qq_21201267/article/details/100635273) |
 | [LeetCode 1052. 爱生气的书店老板（滑动窗口）](https://michael.blog.csdn.net/article/details/103328664) |
 | [LeetCode 1071. 字符串的最大公因子（字符串的最大公约数）](https://michael.blog.csdn.net/article/details/103174953) |
+| [LeetCode 1073. 负二进制数相加（负数进制）](https://michael.blog.csdn.net/article/details/103899481) |
 | [LeetCode 1078. Bigram 分词](https://blog.csdn.net/qq_21201267/article/details/101173096) |
 | [LeetCode 1079. 活字印刷（全排列回溯）](https://blog.csdn.net/qq_21201267/article/details/100644009) |
 | [LeetCode 1080. 根到叶路径上的不足节点（递归）](https://michael.blog.csdn.net/article/details/103690245) |
@@ -460,6 +461,7 @@
 | [LeetCode 1122. 数组的相对排序](https://blog.csdn.net/qq_21201267/article/details/101112047) |
 | [LeetCode 1128. 等价多米诺骨牌对的数量（哈希）](https://michael.blog.csdn.net/article/details/103190477) |
 | [LeetCode 1137. 第 N 个泰波那契数](https://blog.csdn.net/qq_21201267/article/details/100671814) |
+| [LeetCode 1138. 字母板上的路径](https://michael.blog.csdn.net/article/details/103899893) |
 | [LeetCode 1145. 二叉树着色游戏（计算节点个数）](https://michael.blog.csdn.net/article/details/103115240) |
 | [LeetCode 1154. 一年中的第几天](https://blog.csdn.net/qq_21201267/article/details/100754099) |
 | [LeetCode 1160. 拼写单词](https://blog.csdn.net/qq_21201267/article/details/100673250) |
