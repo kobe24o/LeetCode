@@ -1,10 +1,9 @@
 class Solution {
 public:
     vector<string> ambiguousCoordinates(string S) {
-        string S = S.substr(1,S.size()-2);
+        S = S.substr(1,S.size()-2);
         string a, b;
-        int i, j, k, na, nb;
-        bool flag
+        int i, j, k, na, nb, n = S.size();
         vector<string> ans;
         for(i = 1; i < n; ++i)
         {
@@ -29,10 +28,19 @@ public:
         			a.erase(j,1);
         	}
         }
+        return ans;
     }
 
     bool isok(const string& s)
     {
-    	
+    	bool hasdot = false;
+    	for(auto& ch : s)
+    		if(ch == '.')
+    			hasdot = true;
+		if(hasdot && (s.back()=='0' || (s[0]=='0'&&s[1] != '.')))
+			return false;
+		else if(!hasdot && s.size()>1 && s[0] == '0')
+			return false;
+		return true;
     }
 };
