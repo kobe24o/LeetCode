@@ -7,13 +7,26 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+class Solution {
+public:
+    int distinctEchoSubstrings(string text) {
+        int i, len, n = text.size(), count = 0;
+        string s, doubS;
+        for(len = 1; len <= n/2+1; len++)
+        {
+            for(i = 0; i <= n-len; ++i)
+            {
+                s = text.substr(i, len);
+                doubS = s+s;
+                if(text.find(doubS) != text.npos)
+                    count++;
+            }
+        }
+        return count;
+    }
+};
 int main()
 {
-    int i = 0;
-    for(i = 0; i <= 5; i++)
-    {
-        if(i == 3)
-            break;
-    }
-    cout << i;
+    Solution s;
+    s.distinctEchoSubstrings("abcabcabc");
 }
