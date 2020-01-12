@@ -6,17 +6,18 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-  **已解决 602/1320** - **简单 288** **中等 282** **困难 32**
+  **已解决 604/1221** - **简单 289* * *中等 282** **困难 33**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
 - 2019.11.24 - 2019.12.31，AC +72道，共计572道
+- 2020.1.1 - 2020.1.12，AC + 32道，共计604道，先暂停刷题，双周赛会积极参加
 
 | 参赛记录                                                     |
 | :----------------------------------------------------------- |
-| [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174) |
-| [LeetCode 第 16 场双周赛](https://michael.blog.csdn.net/article/details/103757611) |
-| [LeetCode 第 17 场双周赛](https://michael.blog.csdn.net/article/details/103942178) |
+| [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174)（582/1541，前37.7%） |
+| [LeetCode 第 16 场双周赛](https://michael.blog.csdn.net/article/details/103757611)（402/822，前48.9%） |
+| [LeetCode 第 17 场双周赛](https://michael.blog.csdn.net/article/details/103942178)（469/897，前52.3%） |
 
 ​          
 
@@ -496,4 +497,5 @@
 | [LeetCode 1288. 删除被覆盖区间（lambda排序）](https://michael.blog.csdn.net/article/details/103916976) |
 | [LeetCode 1305. 两棵二叉搜索树中的所有元素（二叉树迭代器）](https://michael.blog.csdn.net/article/details/103773511) |
 | [LeetCode 5112. 十六进制魔术数字（进制转换）](https://michael.blog.csdn.net/article/details/103346339) |
+| [LeetCode 5307. 将整数转换为两个无零整数的和](https://michael.blog.csdn.net/article/details/103949611) |
 
