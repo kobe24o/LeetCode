@@ -493,11 +493,12 @@
 | [LeetCode 1261. 在受污染的二叉树中查找元素（树&哈希）](https://michael.blog.csdn.net/article/details/103213501) |
 | [LeetCode 1262. 可被三整除的最大和（DP）](https://michael.blog.csdn.net/article/details/103319572) |
 | [LeetCode 1266. 访问所有点的最小时间（数学）](https://michael.blog.csdn.net/article/details/103280533) |
+| [LeetCode 1271. 十六进制魔术数字（进制转换）](https://michael.blog.csdn.net/article/details/103346339) |
 | [LeetCode 1275. 找出井字棋的获胜者（位运算）](https://michael.blog.csdn.net/article/details/103345978) |
 | [LeetCode 1282. 用户分组（桶排序思想）](https://michael.blog.csdn.net/article/details/103483462) |
 | [LeetCode 1288. 删除被覆盖区间（lambda排序）](https://michael.blog.csdn.net/article/details/103916976) |
 | [LeetCode 1305. 两棵二叉搜索树中的所有元素（二叉树迭代器）](https://michael.blog.csdn.net/article/details/103773511) |
+| [LeetCode 1317. 将整数转换为两个无零整数的和](https://michael.blog.csdn.net/article/details/103949611) |
 | [LeetCode 1323. 6 和 9 组成的最大数字](https://michael.blog.csdn.net/article/details/104057397) |
-| [LeetCode 5112. 十六进制魔术数字（进制转换）](https://michael.blog.csdn.net/article/details/103346339) |
-| [LeetCode 5307. 将整数转换为两个无零整数的和](https://michael.blog.csdn.net/article/details/103949611) |
+| [LeetCode 1332. 删除回文子序列](https://michael.blog.csdn.net/article/details/104103665) |
 
