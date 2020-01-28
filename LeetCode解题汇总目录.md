@@ -501,4 +501,5 @@
 | [LeetCode 1317. 将整数转换为两个无零整数的和](https://michael.blog.csdn.net/article/details/103949611) |
 | [LeetCode 1323. 6 和 9 组成的最大数字](https://michael.blog.csdn.net/article/details/104057397) |
 | [LeetCode 1332. 删除回文子序列](https://michael.blog.csdn.net/article/details/104103665) |
+| [LeetCode 1333. 餐厅过滤器（Lambda排序）](https://michael.blog.csdn.net/article/details/104103801) |
 
