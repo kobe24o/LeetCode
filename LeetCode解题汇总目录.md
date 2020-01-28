@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.1.12
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.1.28
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-  **已解决 604/1221** - **简单 289* * *中等 282** **困难 33**
+  **已解决 608/1233** - **简单 291** **中等 284** **困难 33**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -16,8 +16,9 @@
 | 参赛记录                                                     |
 | :----------------------------------------------------------- |
 | [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174)（582/1541，前37.7%） |
-| [LeetCode 第 16 场双周赛](https://michael.blog.csdn.net/article/details/103757611)（402/822，前48.9%） |
-| [LeetCode 第 17 场双周赛](https://michael.blog.csdn.net/article/details/103942178)（469/897，前52.3%） |
+| [LeetCode 第 16 场双周赛（402/822，前48.9%）](https://michael.blog.csdn.net/article/details/103757611) |
+| [LeetCode 第 17 场双周赛（469/897，前52.3%）](https://michael.blog.csdn.net/article/details/103942178) |
+| [LeetCode 第 18 场双周赛（188/587，前32%）](https://michael.blog.csdn.net/article/details/104087738) |
 
 ​          
 
