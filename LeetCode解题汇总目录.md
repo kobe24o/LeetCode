@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.1.28
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.1.29
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。
 
@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-  **已解决 612/1233** - **简单 292** **中等 286** **困难 34**
+  **已解决 613/1233** - **简单 292** **中等 286** **困难 35**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -503,4 +503,5 @@
 | [LeetCode 1332. 删除回文子序列](https://michael.blog.csdn.net/article/details/104103665) |
 | [LeetCode 1333. 餐厅过滤器（Lambda排序）](https://michael.blog.csdn.net/article/details/104103801) |
 | [LeetCode 1334. 阈值距离内邻居最少的城市（最短路径Dijkstra）](https://michael.blog.csdn.net/article/details/104108422) |
+| [LeetCode 1335. 工作计划的最低难度（DP）](https://michael.blog.csdn.net/article/details/104111153) |
 

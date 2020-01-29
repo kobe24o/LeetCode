@@ -13,7 +13,7 @@ public:
         int n = jobDifficulty.size(), i, j, k, MAX = 0;
         if(n < d)
             return -1;
-        vector<vector<int>> dp(d,vector<int>(n, INT_MAX));
+        vector<vector<int>> dp(d,vector<int>(n, 1000));
         for(i = 0; i <= n-d; ++i)
         {
             MAX = max(MAX, jobDifficulty[i]);
