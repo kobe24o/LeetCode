@@ -1,12 +1,3 @@
-/**
- * @description: 调试使用
- * @author: michael ming
- * @date: 2019/11/24 22:55
- * @modified by: 
- */
-#include <bits/stdc++.h>
-using namespace std;
-
 class Solution {
 public:
     int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
@@ -31,7 +22,6 @@ public:
                         if(dis[i][from]+distance < dis[i][to])
                         {
                             dis[i][to] = dis[i][from]+distance;
-                            cout << i << " " << to << " " << dis[i][to] << endl;
                             q.push({dis[i][to], to});
                         }
                     }
@@ -41,7 +31,6 @@ public:
                         if(dis[i][from]+distance < dis[i][to])
                         {
                             dis[i][to] = dis[i][from]+distance;
-                            cout << i << " " << to << " " << dis[i][to] << endl;
                             q.push({dis[i][to], to});
                         }
                     }
@@ -67,11 +56,3 @@ public:
         return idx;
     }
 };
-
-int main()
-{
-    Solution s;
-    vector<vector<int>> m =
-            {{0,1,3},{1,2,1},{1,3,4},{2,3,1}};
-    s.findTheCity(4,m,4);
-}
