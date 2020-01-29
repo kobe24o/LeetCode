@@ -9,69 +9,53 @@ using namespace std;
 
 class Solution {
 public:
-    int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
-        vector<vector<int>> dis(n,vector<int>(n,INT_MAX));
-        for(int i = 0; i < n; ++i)
-            dis[i][i] = 0;
-
-        for(int i = 0; i < n; ++i)
+    int minDifficulty(vector<int>& jobDifficulty, int d) {
+        int n = jobDifficulty.size(), i, j, k, MAX = 0;
+        if(n < d)
+            return -1;
+        vector<vector<int>> dp(d,vector<int>(n, INT_MAX));
+        for(i = 0; i <= n-d; ++i)
         {
-            priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> q;
-            q.push({0,i});//第一个是距离，第二个是点的序号
-            int from, to, distance;
-            while(!q.empty())
+            MAX = max(MAX, jobDifficulty[i]);
+            dp[0][i] = MAX;
+        }
+        for(i = 1; i < d; ++i)
+        {
+            for(j = i; j <= n-d+i; ++j)
             {
-                from = q.top().second;
-                q.pop();
-                for(const auto& e : edges)
+                MAX = 0;
+                for(k = j; k <= n-d+i; ++k)
                 {
-                    if(from == e[0]){
-                        to = e[1];
-                        distance = e[2];
-                        if(dis[i][from]+distance < dis[i][to])
-                        {
-                            dis[i][to] = dis[i][from]+distance;
-                            cout << i << " " << to << " " << dis[i][to] << endl;
-                            q.push({dis[i][to], to});
-                        }
-                    }
-                    else if(from == e[1]){
-                        to = e[0];
-                        distance = e[2];
-                        if(dis[i][from]+distance < dis[i][to])
-                        {
-                            dis[i][to] = dis[i][from]+distance;
-                            cout << i << " " << to << " " << dis[i][to] << endl;
-                            q.push({dis[i][to], to});
-                        }
-                    }
+                    MAX = max(MAX, jobDifficulty[k]);
+                    dp[i][k] = min(dp[i][k], MAX+dp[i-1][j-1]);
                 }
+
             }
         }
-
-        int count[n]={0};
-        for(int i = 0; i < n; ++i)
-            for(auto& d : dis[i])
-                if(d <= distanceThreshold)
-                    count[i]++;
-
-        int minVal = INT_MAX, idx;
-        for(int i = 0; i < n; ++i)
+        int MIN = INT_MAX;
+        for(i = 0; i < n; ++i)
         {
-            if(count[i] <= minVal)
-            {
-                minVal = count[i];
-                idx = i;
-            }
+            if(dp[d-1][i] < MIN)
+                MIN = dp[d-1][i];
         }
-        return idx;
+
+        for(i = 0; i < d; ++i)
+        {
+            for(j = 0; j < n; ++j)
+                cout << dp[i][j] << " ";
+            cout << endl;
+        }
+        return MIN;
+
+
     }
 };
 
 int main()
 {
     Solution s;
-    vector<vector<int>> m =
-            {{0,1,3},{1,2,1},{1,3,4},{2,3,1}};
-    s.findTheCity(4,m,4);
+    vector<int> m =
+            {11,111,22,222,33,333,44,444};
+    s.minDifficulty(m,6);
+
 }
