@@ -8,54 +8,82 @@
 using namespace std;
 
 class Solution {
+    vector<vector<int>> dir = {{1,0},{0,1},{0,-1},{-1,0}};
+    int m, n, i, j, k, step = 0, size, x, y;
 public:
-    int minDifficulty(vector<int>& jobDifficulty, int d) {
-        int n = jobDifficulty.size(), i, j, k, MAX = 0;
-        if(n < d)
-            return -1;
-        vector<vector<int>> dp(d,vector<int>(n, 1000));
-        for(i = 0; i <= n-d; ++i)
+    int slidingPuzzle(vector<vector<int>>& board) {
+        m = board.size(), n = board[0].size();
+        string ans = "123450", state;
+        int x0, y0, xi, yi;
+        pair<int,int> xy0;
+        queue<string> q;
+        unordered_set<string> visited;
+        state = boardToString(board);
+        if(state == ans)
+            return step;
+        q.push(state);
+        visited.insert(state);
+        while(!q.empty())
         {
-            MAX = max(MAX, jobDifficulty[i]);
-            dp[0][i] = MAX;
-        }
-        for(i = 1; i < d; ++i)
-        {
-            for(j = i; j <= n-d+i; ++j)
+            step++;
+            size = q.size();
+            while(size--)
             {
-                MAX = 0;
-                for(k = j; k <= n-d+i; ++k)
+                xy0 = stringToBoard(q.front(), board);
+                q.pop();
+                x0 = xy0.first;
+                y0 = xy0.second;
+                for(k = 0; k < 4; ++k)
                 {
-                    MAX = max(MAX, jobDifficulty[k]);
-                    dp[i][k] = min(dp[i][k], MAX+dp[i-1][j-1]);
-                }
+                    xi = x0+dir[k][0];
+                    yi = y0+dir[k][1];
+                    if(xi>=0 && xi<m && yi>=0 && yi<n)
+                    {
+                        swap(board[xi][yi], board[x0][y0]);
+                        state = boardToString(board);
+                        if(state == ans)
+                            return step;
+                        if(!visited.count(state))
+                        {
+                            visited.insert(state);
+                            q.push(state);
+                        }
+                        swap(board[xi][yi], board[x0][y0]);
+                    }
 
+                }
             }
         }
-        int MIN = INT_MAX;
-        for(i = 0; i < n; ++i)
-        {
-            if(dp[d-1][i] < MIN)
-                MIN = dp[d-1][i];
-        }
+        return -1;
+    }
 
-        for(i = 0; i < d; ++i)
-        {
-            for(j = 0; j < n; ++j)
-                cout << dp[i][j] << " ";
-            cout << endl;
-        }
-        return MIN;
+    string boardToString(vector<vector<int>>& board)
+    {
+        string s;
+        for (i = 0; i < m; i++)
+            for(j = 0; j < n; j++)
+                s.push_back(board[i][j]+'0');
+        return s;
+    }
 
-
+    pair<int,int> stringToBoard(string &s, vector<vector<int>>& board)
+    {
+        for (i = m-1; i >= 0; i--)
+            for(j = n-1; j >= 0; j--)
+            {
+                board[i][j] = s.back()-'0';
+                s.pop_back();
+                if(board[i][j] == 0)
+                    x = i, y = j;
+            }
+        return make_pair(x, y);
     }
 };
 
 int main()
 {
     Solution s;
-    vector<int> m =
-            {11,111,22,222,33,333,44,444};
-    s.minDifficulty(m,6);
-
+    vector<vector<int>> m =
+            {{1,2,3},{4,0,5}};
+    s.slidingPuzzle(m);
 }
