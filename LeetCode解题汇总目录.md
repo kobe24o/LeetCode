@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
- **已解决 619/1237** - **简单 293** **中等 288** **困难 38**
+ **已解决 620/1237** - **简单 293** **中等 288** **困难 39**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -510,4 +510,5 @@
 | [LeetCode 5328. 方阵中战斗力最弱的 K 行（优先队列）](https://blog.csdn.net/qq_21201267/article/details/104144327) |
 | [LeetCode 5329. 数组大小减半](https://blog.csdn.net/qq_21201267/article/details/104144925) |
 | [LeetCode 5330. 分裂二叉树的最大乘积（DP）](https://michael.blog.csdn.net/article/details/104145762) |
+| [LeetCode 5331. 跳跃游戏 V（DP）](https://michael.blog.csdn.net/article/details/104149099) |
 
