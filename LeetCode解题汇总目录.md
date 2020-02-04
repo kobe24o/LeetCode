@@ -500,15 +500,26 @@
 | [LeetCode 1284. 转化为全零矩阵的最少反转次数（BFS & 矩阵状态编码解码）](https://michael.blog.csdn.net/article/details/104116933) |
 | [LeetCode 1288. 删除被覆盖区间（lambda排序）](https://michael.blog.csdn.net/article/details/103916976) |
 | [LeetCode 1289. 下降路径最小和 II（DP）](https://michael.blog.csdn.net/article/details/104114823) |
+| [LeetCode 1299. 将每个元素替换为右侧最大元素](https://michael.blog.csdn.net/article/details/103757611#LeetCode_1299__easy_7) |
+| [LeetCode 1301. 最大得分的路径数目](https://michael.blog.csdn.net/article/details/103757611#LeetCode_1301__hard_76) |
+| [LeetCode 1302. 层数最深叶子节点的和](https://michael.blog.csdn.net/article/details/103757611#LeetCode_1302__medium_38) |
 | [LeetCode 1305. 两棵二叉搜索树中的所有元素（二叉树迭代器）](https://michael.blog.csdn.net/article/details/103773511) |
+| [LeetCode 1313. 解压缩编码列表](https://michael.blog.csdn.net/article/details/103942178#LeetCode_5143__easy_7) |
+| [LeetCode 1314. 矩阵区域和](https://michael.blog.csdn.net/article/details/103942178#LeetCode_5144__medium_44) |
+| [LeetCode 1315. 祖父节点值为偶数的节点和](https://michael.blog.csdn.net/article/details/103942178#LeetCode_5145__medium_118) |
+| [LeetCode 1316. 不同的循环子字符串](https://michael.blog.csdn.net/article/details/103942178#LeetCode_5146__hard_177) |
 | [LeetCode 1317. 将整数转换为两个无零整数的和](https://michael.blog.csdn.net/article/details/103949611) |
 | [LeetCode 1323. 6 和 9 组成的最大数字](https://michael.blog.csdn.net/article/details/104057397) |
+| [LeetCode 1328. 破坏回文串](https://michael.blog.csdn.net/article/details/104087738#LeetCode_1328__medium_65) |
+| [LeetCode 1329. 将矩阵按对角线排序](https://michael.blog.csdn.net/article/details/104087738#LeetCode_1329__medium_122) |
+| [LeetCode 1330. 翻转子数组得到最大的数组值](https://michael.blog.csdn.net/article/details/104087738#LeetCode_1330__hard_193) |
+| [LeetCode 1331. 数组序号转换](https://michael.blog.csdn.net/article/details/104087738#LeetCode_1331__easy_8) |
 | [LeetCode 1332. 删除回文子序列](https://michael.blog.csdn.net/article/details/104103665) |
 | [LeetCode 1333. 餐厅过滤器（Lambda排序）](https://michael.blog.csdn.net/article/details/104103801) |
 | [LeetCode 1334. 阈值距离内邻居最少的城市（最短路径Dijkstra）](https://michael.blog.csdn.net/article/details/104108422) |
 | [LeetCode 1335. 工作计划的最低难度（DP）](https://michael.blog.csdn.net/article/details/104111153) |
-| [LeetCode 5328. 方阵中战斗力最弱的 K 行（优先队列）](https://blog.csdn.net/qq_21201267/article/details/104144327) |
-| [LeetCode 5329. 数组大小减半](https://blog.csdn.net/qq_21201267/article/details/104144925) |
-| [LeetCode 5330. 分裂二叉树的最大乘积（DP）](https://michael.blog.csdn.net/article/details/104145762) |
-| [LeetCode 5331. 跳跃游戏 V（DP）](https://michael.blog.csdn.net/article/details/104149099) |
+| [LeetCode 1341. 方阵中战斗力最弱的 K 行（优先队列）](https://blog.csdn.net/qq_21201267/article/details/104144327) |
+| [LeetCode 1342. 数组大小减半](https://blog.csdn.net/qq_21201267/article/details/104144925) |
+| [LeetCode 1343. 分裂二叉树的最大乘积（DP）](https://michael.blog.csdn.net/article/details/104145762) |
+| [LeetCode 1344. 跳跃游戏 V（DP）](https://michael.blog.csdn.net/article/details/104149099) |
 
