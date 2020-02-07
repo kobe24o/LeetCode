@@ -1,55 +1,80 @@
 class Solution {
 public:
-    int maximalRectangle(vector<vector<char>>& matrix) {
+    int maximalRectangle(vector<vector<char>>& mat) {
         if(matrix.empty())
             return 0;
-        int i, j, maxwidth, maxheight, temp = 0, maxarea = 0;
-        int r = matrix.size(), c = matrix[0].size();
-        pair<int, int> dp[r][c];//以右下角为结束的最大正方形边长
-        for(i = 0; i < r; ++i)
-            for(j = 0; j < c; ++j)
-            {
-                dp[i][j].first = 0;//初始化为0
-                dp[i][j].second = 0;
-            }
-        for(i = 0; i < c; ++i)//第一行填表
+        int i, j, minL, maxR, maxarea = 0;
+        int r = mat.size(), c = mat[0].size();
+        vector<vector<int>> left(r,vector<int>(c,0));
+        vector<vector<int>> right(r,vector<int>(c,c));
+        vector<vector<int>> height(r,vector<int>(c,0));
+        for(i = 0; i < r; i++) 
         {
-            if(matrix[0][i] == '1')
+            //填写left，相连的1,先到最高，然后最左侧的下标
+            minL = 0;
+            for(j = 1; j < c; j++)
             {
-                dp[0][i].first = ++temp;
-                dp[0][i].second = 1;
-            }
-            else
-                temp = 0;
-        }
-        temp = 0;
-        for(i = 1; i < r; ++i)//第一列填表
-        {
-            if(matrix[i][0] == '1')
-            {   
-                dp[i][0].first = 1;
-                dp[i][0].second = ++temp;
-            }
-            else
-                temp = 0;
-        }
-        for(i = 1; i < r; ++i)
-            for(j = 1; j < c; ++j)
-            {
-                if(matrix[i][j] == '1')
+                if(i == 0)
                 {
-                    dp[i][j].first = min(dp[i][j-1].first, dp[i-1][j-1].first)+1;
-                    dp[i][j].second = min(dp[i-1][j].second, dp[i-1][j-1].second)+1;
+                    if(mat[i][j] == 1)
+                    {
+                        if(mat[i][j-1]==0)
+                            minL = j;
+                        left[i][j] = minL;
+                    }
+                }
+                else
+                {
+                    if(mat[i][j] == 1)
+                    {
+                        if(mat[i][j-1]==0)
+                            minL = j;
+                        left[i][j] = max(minL,left[i-1][j]);
+                    }
                 }
             }
 
-        for(i = 0; i < r; ++i)
-            for(j = 0; j < c; ++j)
+            maxR = c;
+            for(j = c-2; j >= 0; j--)
             {
-                if(dp[i][j].first*dp[i][j].second > maxarea)//寻找最大边长
-                    maxarea = dp[i][j].first*dp[i][j].second;
+                if(i == 0)
+                {
+                    if(mat[i][j] == 1)
+                    {
+                        if(mat[i][j+1]==0)
+                            maxR = j;
+                        right[i][j] = maxR;
+                    }
+                }
+                else
+                {
+                    if(mat[i][j] == 1)
+                    {
+                        if(mat[i][j+1]==0)
+                            maxR = j;
+                        right[i][j] = min(maxR,right[i-1][j]);
+                    }
+                }
             }
 
+            for(j = 0; j < c; j++)
+            {
+                if(i == 0)
+                {
+                    if(mat[i][j] == 1)
+                        height[i][j] = 1;
+                }
+                else
+                {
+                    if(mat[i][j] == 1)
+                        height[i][j] = 1+height[i-1][j];
+                }
+            }
+        }
+
+        for(i = 0; i < r; i++)
+            for(j = 0; j < c; j++)
+                maxarea = max(maxarea, (right[i][j]-left[i][j])*height[i][j]);
         return maxarea;//返回最大面积
     }
 };
