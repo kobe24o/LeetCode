@@ -86,6 +86,7 @@
 | [LeetCode 81. 搜索旋转排序数组 II（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102416534) |
 | [LeetCode 82. 删除排序链表中的重复元素 II（链表）](https://michael.blog.csdn.net/article/details/103340950) |
 | [LeetCode 83. 删除排序链表中的重复元素（链表）](https://michael.blog.csdn.net/article/details/103174661) |
+| [LeetCode 85. 最大矩形（DP，难）](https://michael.blog.csdn.net/article/details/104217829) |
 | [LeetCode 86. 分隔链表](https://michael.blog.csdn.net/article/details/103227124) |
 | [LeetCode 88. 合并两个有序数组](https://blog.csdn.net/qq_21201267/article/details/100056086) |
 | [LeetCode 89. 格雷编码](https://blog.csdn.net/qq_21201267/article/details/100170042) |
