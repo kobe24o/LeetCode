@@ -7,90 +7,83 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+struct ListNode {
+ 	int val;
+	ListNode *next;
+ 	ListNode(int x) : val(x), next(NULL) {}
+ };
 class Solution {
 public:
-    int maximalRectangle(vector<vector<char>>& mat) {
-        if(mat.empty())
-            return 0;
-        int i, j, minL, maxR, maxarea = 0;
-        int r = mat.size(), c = mat[0].size();
-        vector<vector<int>> left(r,vector<int>(c,0));
-        vector<vector<int>> right(r,vector<int>(c,c));
-        vector<vector<int>> height(r,vector<int>(c,0));
-        for(i = 0; i < r; i++)
-        {
-            //填写left，相连的1,先到最高，然后最左侧的下标
-            minL = 0;
-            for(j = 1; j < c; j++)
-            {
-                if(i == 0)
-                {
-                    if(mat[i][j] == 1)
-                    {
-                        if(mat[i][j-1] == 0)
-                            minL = j;
-                        left[i][j] = minL;
-                    }
-                }
-                else
-                {
-                    if(mat[i][j] == 1)
-                    {
-                        if(mat[i][j-1] == 0)
-                            minL = j;
-                        left[i][j] = max(minL,left[i-1][j]);
-                    }
-                }
-            }
+    ListNode* reverseKGroup(ListNode* head, int k) {
+		if(k == 1 || !head)
+			return head;
+		int len = 1, count;
+		ListNode *prev = NULL, *cur = head, *nt = head->next;
+		cur = reverseList(prev,cur,nt,len);
+		count = len/k;
+		len = len%k;//反转后，前几个(原末尾)不用反转的
+		prev = NULL, nt = cur->next;
+		while(len--)
+		{
+			prev = cur;
+			cur = cur->next;
+			nt = cur->next;
+		}
+		if(prev)
+			prev->next = NULL;
+		ListNode *newhead;
+		while(count--)
+		{
+			newhead = reverseKNode(cur,nt,k);//反转k个, cur是引用
+			prev->next = newhead;
+			prev = cur;
+			cur = nt;
+		}
+		cur = prev, prev = NULL;
+		return reverseList(prev,cur,nt,len);
+    }
 
-            maxR = c;
-            for(j = c-2; j >= 0; j--)
-            {
-                if(i == 0)
-                {
-                    if(mat[i][j] == 1)
-                    {
-                        if(mat[i][j+1] == 0)
-                            maxR = j+1;
-                        right[i][j] = maxR;
-                    }
-                }
-                else
-                {
-                    if(mat[i][j] == 1)
-                    {
-                        if(mat[i][j+1] == 0)
-                            maxR = j+1;
-                        right[i][j] = min(maxR,right[i-1][j]);
-                    }
-                }
-            }
+    ListNode* reverseList(ListNode *prev, ListNode *head, ListNode *nt, int& len)
+    {
+    	while(head && head->next)
+		{
+			len++;
+			head->next = prev;
+			prev = head;
+			head = nt;
+			nt = nt->next;
+		}
+		head->next = prev;
+		return head;
+    }
 
-            for(j = 0; j < c; j++)
-            {
-                if(i == 0)
-                {
-                    if(mat[i][j] == 1)
-                        height[i][j] = 1;
-                }
-                else
-                {
-                    if(mat[i][j] == 1)
-                        height[i][j] = 1+height[i-1][j];
-                }
-            }
-        }
-
-        for(i = 0; i < r; i++)
-        {
-            for(j = 0; j < c; j++)
-                maxarea = max(maxarea, (right[i][j]-left[i][j])*height[i][j]);
-        }
-        return maxarea;//返回最大面积
+    ListNode* reverseKNode(ListNode* &head, ListNode* &nt, int k)
+    {
+    	ListNode *prev = NULL, *tail = head;
+    	while(k--)
+    	{
+    		head->next = prev;
+			prev = head;
+			head = nt;
+            if(nt)
+			    nt = nt->next;
+    	}
+    	prev->next = NULL;
+    	head = tail;
+    	return prev;
     }
 };
 int main()
 {
     Solution s;
-    vector<vector<int>> v = {};
+    ListNode *n1 = new ListNode(1);
+    ListNode *n2 = new ListNode(2);
+    ListNode *n3 = new ListNode(3);
+    ListNode *n4 = new ListNode(4);
+    ListNode *n5 = new ListNode(5);
+    n1->next = n2;
+    n2->next = n3;
+    n3->next = n4;
+    n4->next = n5;
+    s.reverseKGroup(n1,2);
 }

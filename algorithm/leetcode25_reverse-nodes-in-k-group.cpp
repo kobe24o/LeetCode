@@ -1,3 +1,8 @@
+struct ListNode {
+ 	int val;
+	ListNode *next;
+ 	ListNode(int x) : val(x), next(NULL) {}
+ };
 class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
@@ -43,7 +48,7 @@ public:
 		return head;
     }
 
-    void reverseKNode(ListNode& *head, ListNode& *nt, int k)
+    ListNode* reverseKNode(ListNode* &head, ListNode* &nt, int k)
     {
     	ListNode *prev = NULL, *tail = head;
     	while(k--)
@@ -51,7 +56,8 @@ public:
     		head->next = prev;
 			prev = head;
 			head = nt;
-			nt = nt->next;
+            if(nt)
+			    nt = nt->next;
     	}
     	prev->next = NULL;
     	head = tail;
