@@ -15,13 +15,18 @@ public:
 			cur = cur->next;
 			nt = cur->next;
 		}
-		ListNode *tail;
+		if(prev)
+			prev->next = NULL;
+		ListNode *newhead;
 		while(count--)
 		{
-			prev->next = NULL;
-			tail = reverseKNode(cur,k);//反转k个, cur是引用
-			
+			newhead = reverseKNode(cur,nt,k);//反转k个, cur是引用
+			prev->next = newhead;
+			prev = cur;
+			cur = nt;
 		}
+		cur = prev, prev = NULL;
+		return reverseList(prev,cur,nt,len);
     }
 
     ListNode* reverseList(ListNode *prev, ListNode *head, ListNode *nt, int& len)
@@ -38,5 +43,18 @@ public:
 		return head;
     }
 
-    void reverseKNode(ListNode)
+    void reverseKNode(ListNode& *head, ListNode& *nt, int k)
+    {
+    	ListNode *prev = NULL, *tail = head;
+    	while(k--)
+    	{
+    		head->next = prev;
+			prev = head;
+			head = nt;
+			nt = nt->next;
+    	}
+    	prev->next = NULL;
+    	head = tail;
+    	return prev;
+    }
 };
