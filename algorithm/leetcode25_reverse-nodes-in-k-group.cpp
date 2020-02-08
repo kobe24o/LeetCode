@@ -73,3 +73,52 @@ public:
         return prev;
     }
 };
+
+class Solution {
+public:
+    ListNode* reverseKGroup(ListNode* head, int k) {
+        ListNode *emptyHead = new ListNode(-1);
+        emptyHead->next = head;
+        ListNode *prev = emptyHead, *start = emptyHead->next, *end = emptyHead, *temp=NULL;
+        bool flag = false;
+        int count;
+        while(end)
+        {
+        	count = k;
+        	start = prev->next;
+        	while(end && count--)
+        	{
+        		end = end->next;
+        	}
+        	if(count)
+        		flag = true;
+        	else
+        	{
+        		temp = end->next;
+        		end->next = NULL;
+        	}
+        	if(!flag)
+        	{
+	        	prev->next = reverseList(start);
+	        	start->next = temp;
+	        	prev = start;
+	        }	        
+        }
+        return emptyHead->next;
+    }
+
+    ListNode* reverseList(ListNode *head)
+    {
+        ListNode *prev = NULL, *nt = head->next;
+        while(head && head->next)
+        {
+            head->next = prev;
+            prev = head;
+            head = nt;
+            if(nt)
+                nt = nt->next;
+        }
+        head->next = prev;
+        return head;
+    }
+}
