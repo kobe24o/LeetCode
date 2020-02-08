@@ -24,7 +24,7 @@ public:
         ListNode *newhead;
         while(count--)
         {
-            newhead = reverseKNode(cur,k);//反转k个, cur是引用
+            newhead = reverseKNode(cur,nt,k);//反转k个, cur是引用
             if(flag)
             {
                 H = newhead;
@@ -57,9 +57,9 @@ public:
         return head;
     }
 
-    ListNode* reverseKNode(ListNode* &head, int k)
+    ListNode* reverseKNode(ListNode* &head, ListNode* &nt, int k)
     {
-        ListNode *prev = NULL, *nt = head->next, *tail = head;
+        ListNode *prev = NULL, *tail = head;
         while(k--)
         {
             head->next = prev;
@@ -68,6 +68,7 @@ public:
             if(nt)
                 nt = nt->next;
         }
+        nt = head;
         head = tail;
         return prev;
     }
