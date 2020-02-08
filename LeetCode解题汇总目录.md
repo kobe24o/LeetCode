@@ -43,6 +43,7 @@
 | [LeetCode 22. 括号生成（回溯）](https://blog.csdn.net/qq_21201267/article/details/101078481) |
 | [LeetCode 23. 合并K个排序链表（优先队列）](https://blog.csdn.net/qq_21201267/article/details/99344922) |
 | [LeetCode 24. 两两交换链表中的节点（递归+循环）](https://blog.csdn.net/qq_21201267/article/details/102597533) |
+| [LeetCode 25. K 个一组翻转链表](https://michael.blog.csdn.net/article/details/104229000) |
 | [LeetCode 26. 删除排序数组中的重复项](https://blog.csdn.net/qq_21201267/article/details/100864296) |
 | [LeetCode 27. 移除元素](https://blog.csdn.net/qq_21201267/article/details/100826960) |
 | [LeetCode 29. 两数相除（位运算）](https://blog.csdn.net/qq_21201267/article/details/102751716) |
