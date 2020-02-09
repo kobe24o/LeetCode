@@ -79,30 +79,33 @@ public:
     ListNode* reverseKGroup(ListNode* head, int k) {
         ListNode *emptyHead = new ListNode(-1);
         emptyHead->next = head;
-        ListNode *prev = emptyHead, *start = emptyHead->next, *end = emptyHead, *temp=NULL;
+        ListNode *prev = emptyHead, *start = emptyHead->next, *end = emptyHead;
+        ListNode *temp=NULL;
         bool flag = false;
         int count;
         while(end)
         {
-        	count = k;
-        	start = prev->next;
-        	while(end && count--)
-        	{
-        		end = end->next;
-        	}
-        	if(count)
-        		flag = true;
-        	else
-        	{
-        		temp = end->next;
-        		end->next = NULL;
-        	}
-        	if(!flag)
-        	{
-	        	prev->next = reverseList(start);
-	        	start->next = temp;
-	        	prev = start;
-	        }	        
+            count = k;
+            start = prev->next;
+            while(end && count)
+            {
+                end = end->next;
+                count--;
+            }
+            if(!end)//
+                flag = true;//这一段不足k个，提前结束了,allEnd是结尾
+            else
+            {
+                temp = end->next;
+                end->next = NULL;
+            }
+            if(!flag)
+            {
+                prev->next = reverseList(start);
+                start->next = temp;
+                prev = start;
+                end = start;
+            }
         }
         return emptyHead->next;
     }
@@ -121,4 +124,4 @@ public:
         head->next = prev;
         return head;
     }
-}
+};
