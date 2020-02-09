@@ -525,6 +525,7 @@
 | [LeetCode 1342. 数组大小减半](https://blog.csdn.net/qq_21201267/article/details/104144925) |
 | [LeetCode 1343. 分裂二叉树的最大乘积（DP）](https://michael.blog.csdn.net/article/details/104145762) |
 | [LeetCode 1344. 跳跃游戏 V（DP）](https://michael.blog.csdn.net/article/details/104149099) |
+| [LeetCode 1348. 推文计数（哈希map+set）](https://michael.blog.csdn.net/article/details/104242072) |
 | [LeetCode 5311. 将数字变成 0 的操作次数](https://michael.blog.csdn.net/article/details/104230340#LeetCode_5311__0__easy_9) |
 | [LeetCode 5312. 大小为 K 且平均值大于等于阈值的子数组数目（双指针）](https://michael.blog.csdn.net/article/details/104230340#LeetCode_5312__K__medium_69) |
 | [LeetCode 5313. 时钟指针的夹角](https://michael.blog.csdn.net/article/details/104230340#LeetCode_5313__medium_139) |
