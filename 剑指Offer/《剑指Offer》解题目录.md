@@ -1,6 +1,6 @@
-题目来源于LeetCode上的[《剑指Offer》](https://leetcode-cn.com/problemset/lcof/)，这里做一个目录方便大家查找。另外有本人的[LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)可点击链接查看。updated on 2020.2.11
+题目来源于LeetCode上的[《剑指Offer》](https://leetcode-cn.com/problemset/lcof/)，这里做一个目录方便大家查找。另外有本人的[LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)可点击链接查看。updated on 2020.2.13
 
-**已解决 6/75** - **简单 6** **中等 0** **困难 0**
+**已解决 9/75** - **简单 9** **中等 0** **困难 0**
 
 | 已解题目                                                     |
 | :----------------------------------------------------------- |
@@ -10,4 +10,7 @@
 | [剑指Offer - 面试题6. 从尾到头打印链表（栈，递归，反转链表）](https://michael.blog.csdn.net/article/details/104272440) |
 | [剑指Offer - 面试题9. 用两个栈实现队列](https://michael.blog.csdn.net/article/details/104272589) |
 | [剑指Offer - 面试题10- I. 斐波那契数列](https://michael.blog.csdn.net/article/details/104272616) |
+| [剑指Offer - 面试题10- II. 青蛙跳台阶问题](https://michael.blog.csdn.net/article/details/104289407) |
+| [剑指Offer - 面试题15. 二进制中1的个数（位运算）](https://michael.blog.csdn.net/article/details/104289467) |
+| [剑指Offer - 面试题17. 打印从1到最大的n位数](https://michael.blog.csdn.net/article/details/104289534) |
 
