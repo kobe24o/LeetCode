@@ -8,6 +8,7 @@
 | [剑指Offer - 面试题4. 二维数组中的查找（双指针）](https://michael.blog.csdn.net/article/details/104271597) |
 | [剑指Offer - 面试题5. 替换空格（字符串）](https://michael.blog.csdn.net/article/details/104271779) |
 | [剑指Offer - 面试题6. 从尾到头打印链表（栈，递归，反转链表）](https://michael.blog.csdn.net/article/details/104272440) |
+| [剑指Offer - 面试题7. 重建二叉树（递归）](https://blog.csdn.net/qq_21201267/article/details/104294946) |
 | [剑指Offer - 面试题9. 用两个栈实现队列](https://michael.blog.csdn.net/article/details/104272589) |
 | [剑指Offer - 面试题10- I. 斐波那契数列](https://michael.blog.csdn.net/article/details/104272616) |
 | [剑指Offer - 面试题10- II. 青蛙跳台阶问题](https://michael.blog.csdn.net/article/details/104289407) |
