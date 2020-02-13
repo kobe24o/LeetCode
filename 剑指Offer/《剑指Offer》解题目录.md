@@ -16,4 +16,5 @@
 | [剑指Offer - 面试题12. 矩阵中的路径（DFS回溯）](https://blog.csdn.net/qq_21201267/article/details/104299657) |
 | [剑指Offer - 面试题15. 二进制中1的个数（位运算）](https://michael.blog.csdn.net/article/details/104289467) |
 | [剑指Offer - 面试题17. 打印从1到最大的n位数](https://michael.blog.csdn.net/article/details/104289534) |
+| [剑指Offer - 面试题18. 删除链表的节点](https://blog.csdn.net/qq_21201267/article/details/104300064) |
 
