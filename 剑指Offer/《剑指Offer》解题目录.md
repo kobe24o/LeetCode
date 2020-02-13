@@ -1,6 +1,6 @@
 题目来源于LeetCode上的[《剑指Offer》](https://leetcode-cn.com/problemset/lcof/)，这里做一个目录方便大家查找。另外有本人的[LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)可点击链接查看。updated on 2020.2.13
 
-**已解决 9/75** - **简单 9** **中等 0** **困难 0**
+**已解决 15/75** - **简单 12** **中等 3** **困难 0**
 
 | 已解题目                                                     |
 | :----------------------------------------------------------- |
@@ -19,4 +19,5 @@
 | [剑指Offer - 面试题18. 删除链表的节点](https://blog.csdn.net/qq_21201267/article/details/104300064) |
 | [剑指Offer - 面试题24. 反转链表](https://blog.csdn.net/qq_21201267/article/details/104301888) |
 | [剑指Offer - 面试题64. 求1+2+…+n（递归）](https://blog.csdn.net/qq_21201267/article/details/104303145) |
+| [剑指Offer - 面试题65. 不用加减乘除做加法（位运算，要看哦）](https://michael.blog.csdn.net/article/details/104303944) |
 
