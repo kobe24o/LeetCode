@@ -12,6 +12,8 @@
 | [剑指Offer - 面试题9. 用两个栈实现队列](https://michael.blog.csdn.net/article/details/104272589) |
 | [剑指Offer - 面试题10- I. 斐波那契数列](https://michael.blog.csdn.net/article/details/104272616) |
 | [剑指Offer - 面试题10- II. 青蛙跳台阶问题](https://michael.blog.csdn.net/article/details/104289407) |
+| [剑指Offer - 面试题11. 旋转数组的最小数字（二分查找，难）](https://blog.csdn.net/qq_21201267/article/details/104295164) |
+| [剑指Offer - 面试题12. 矩阵中的路径（DFS回溯）](https://blog.csdn.net/qq_21201267/article/details/104299657) |
 | [剑指Offer - 面试题15. 二进制中1的个数（位运算）](https://michael.blog.csdn.net/article/details/104289467) |
 | [剑指Offer - 面试题17. 打印从1到最大的n位数](https://michael.blog.csdn.net/article/details/104289534) |
 
