@@ -1,4 +1,4 @@
-题目来源于LeetCode上的[《剑指Offer》](https://leetcode-cn.com/problemset/lcof/)，这里做一个目录方便大家查找。另外有本人的[LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)、[《程序员面试金典》](https://blog.csdn.net/qq_21201267/article/details/104306869)可点击链接查看。updated on 2020.2.13
+题目来源于LeetCode上的[《剑指Offer》](https://leetcode-cn.com/problemset/lcof/)，这里做一个目录方便大家查找。另外有本人的[LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)、[《程序员面试金典》解题目录](https://blog.csdn.net/qq_21201267/article/details/104306869)可点击链接查看。updated on 2020.2.13
 
 **已解决 15/75** - **简单 12** **中等 3** **困难 0**
 
