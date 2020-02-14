@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.2.12
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.2.14
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题](https://blog.csdn.net/qq_21201267/article/details/104306869)。
 
@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
- **已解决 629/1245** - **简单 295** **中等 292** **困难 42**
+ **已解决 631/1245** - **简单 295** **中等 293** **困难 43**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -461,6 +461,7 @@
 | [LeetCode 1047. 删除字符串中的所有相邻重复项（栈）](https://blog.csdn.net/qq_21201267/article/details/101083067) |
 | [LeetCode 1051. 高度检查器](https://blog.csdn.net/qq_21201267/article/details/100635273) |
 | [LeetCode 1052. 爱生气的书店老板（滑动窗口）](https://michael.blog.csdn.net/article/details/103328664) |
+| [LeetCode 1054. 距离相等的条形码（优先队列）](https://blog.csdn.net/qq_21201267/article/details/104317529) |
 | [LeetCode 1071. 字符串的最大公因子（字符串的最大公约数）](https://michael.blog.csdn.net/article/details/103174953) |
 | [LeetCode 1073. 负二进制数相加（负数进制）](https://michael.blog.csdn.net/article/details/103899481) |
 | [LeetCode 1078. Bigram 分词](https://blog.csdn.net/qq_21201267/article/details/101173096) |
@@ -522,15 +523,15 @@
 | [LeetCode 1333. 餐厅过滤器（Lambda排序）](https://michael.blog.csdn.net/article/details/104103801) |
 | [LeetCode 1334. 阈值距离内邻居最少的城市（最短路径Dijkstra）](https://michael.blog.csdn.net/article/details/104108422) |
 | [LeetCode 1335. 工作计划的最低难度（DP）](https://michael.blog.csdn.net/article/details/104111153) |
-| [LeetCode 1341. 方阵中战斗力最弱的 K 行（优先队列）](https://blog.csdn.net/qq_21201267/article/details/104144327) |
-| [LeetCode 1342. 数组大小减半](https://blog.csdn.net/qq_21201267/article/details/104144925) |
-| [LeetCode 1343. 分裂二叉树的最大乘积（DP）](https://michael.blog.csdn.net/article/details/104145762) |
-| [LeetCode 1344. 跳跃游戏 V（DP）](https://michael.blog.csdn.net/article/details/104149099) |
+| [LeetCode 1337. 方阵中战斗力最弱的 K 行（优先队列）](https://blog.csdn.net/qq_21201267/article/details/104144327) |
+| [LeetCode 1338. 数组大小减半](https://blog.csdn.net/qq_21201267/article/details/104144925) |
+| [LeetCode 1339. 分裂二叉树的最大乘积（DP）](https://michael.blog.csdn.net/article/details/104145762) |
+| [LeetCode 1340. 跳跃游戏 V（DP）](https://michael.blog.csdn.net/article/details/104149099) |
+| [LeetCode 1342. 将数字变成 0 的操作次数](https://michael.blog.csdn.net/article/details/104230340#LeetCode_5311__0__easy_9) |
+| [LeetCode 1343. 大小为 K 且平均值大于等于阈值的子数组数目（双指针）](https://michael.blog.csdn.net/article/details/104230340#LeetCode_5312__K__medium_69) |
+| [LeetCode 1344. 时钟指针的夹角](https://michael.blog.csdn.net/article/details/104230340#LeetCode_5313__medium_139) |
+| [LeetCode 1345. 跳跃游戏 IV （BFS 最短路径）](https://michael.blog.csdn.net/article/details/104230340#LeetCode_5314__IV_hard_168) |
+| [LeetCode 1346. 检查整数及其两倍数是否存在（哈希）](https://michael.blog.csdn.net/article/details/104234658) |
+| [LeetCode 1347. 制造字母异位词的最小步骤数](https://michael.blog.csdn.net/article/details/104239038) |
 | [LeetCode 1348. 推文计数（哈希map+set）](https://michael.blog.csdn.net/article/details/104242072) |
-| [LeetCode 5311. 将数字变成 0 的操作次数](https://michael.blog.csdn.net/article/details/104230340#LeetCode_5311__0__easy_9) |
-| [LeetCode 5312. 大小为 K 且平均值大于等于阈值的子数组数目（双指针）](https://michael.blog.csdn.net/article/details/104230340#LeetCode_5312__K__medium_69) |
-| [LeetCode 5313. 时钟指针的夹角](https://michael.blog.csdn.net/article/details/104230340#LeetCode_5313__medium_139) |
-| [LeetCode 5314. 跳跃游戏 IV （BFS 最短路径）](https://michael.blog.csdn.net/article/details/104230340#LeetCode_5314__IV_hard_168) |
-| [LeetCode 5332. 检查整数及其两倍数是否存在（哈希）](https://michael.blog.csdn.net/article/details/104234658) |
-| [LeetCode 5333. 制造字母异位词的最小步骤数](https://michael.blog.csdn.net/article/details/104239038) |
 
