@@ -1,11 +1,3 @@
-/**
- * @description: 调试使用
- * @author: michael ming
- * @date: 2019/11/24 22:55
- * @modified by: 
- */
-#include <bits/stdc++.h>
-using namespace std;
 class Solution {
 public:
     bool oneEditAway(string a, string b) {
@@ -51,8 +43,3 @@ public:
         return m;
     }
 };
-int main()
-{
-    Solution s;
-    cout << s.oneEditAway("","");
-}
