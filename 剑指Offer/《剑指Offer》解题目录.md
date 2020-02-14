@@ -1,6 +1,6 @@
 题目来源于LeetCode上的[《剑指Offer》](https://leetcode-cn.com/problemset/lcof/)，这里做一个目录方便大家查找。另外有本人的[LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)、[《程序员面试金典》解题目录](https://blog.csdn.net/qq_21201267/article/details/104306869)可点击链接查看。updated on 2020.2.14
 
-**已解决 22/75** - **简单 17** **中等 5** **困难 0**
+**已解决 28/75** - **简单 23** **中等 5** **困难 0**
 
 | 已解题目                                                     |
 | :----------------------------------------------------------- |
