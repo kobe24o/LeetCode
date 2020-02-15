@@ -1,6 +1,6 @@
-题目来源于LeetCode上的[《剑指Offer》](https://leetcode-cn.com/problemset/lcof/)，这里做一个目录方便大家查找。另外有本人的[LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)、[《程序员面试金典》解题目录](https://blog.csdn.net/qq_21201267/article/details/104306869)可点击链接查看。updated on 2020.2.14
+题目来源于LeetCode上的[《剑指Offer》](https://leetcode-cn.com/problemset/lcof/)，这里做一个目录方便大家查找。另外有本人的[LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)、[《程序员面试金典》解题目录](https://blog.csdn.net/qq_21201267/article/details/104306869)可点击链接查看。updated on 2020.2.15
 
-**已解决 28/75** - **简单 23** **中等 5** **困难 0**
+**已解决 36/75** - **简单 30** **中等 6** **困难 0**
 
 | 已解题目                                                     |
 | :----------------------------------------------------------- |
@@ -28,6 +28,8 @@
 | [剑指Offer - 面试题28. 对称的二叉树（递归/循环）](https://michael.blog.csdn.net/article/details/102493073) |
 | [剑指Offer - 面试题40. 最小的k个数（排序/大顶堆）](https://michael.blog.csdn.net/article/details/104327350) |
 | [剑指Offer - 面试题50. 第一个只出现一次的字符（unordered_map）](https://michael.blog.csdn.net/article/details/104322216) |
+| [剑指Offer - 面试题53 - I. 在排序数组中查找数字 I（二分查找的变形版本）](https://michael.blog.csdn.net/article/details/104335429) |
+| [剑指Offer - 面试题53 - II. 0～n-1中缺失的数字（二分、位运算）**](https://michael.blog.csdn.net/article/details/104333385) |
 | [剑指Offer - 面试题54. 二叉搜索树的第k大节点（二叉树循环遍历）](https://michael.blog.csdn.net/article/details/104332968) |
 | [剑指Offer - 面试题55 - I. 二叉树的深度（递归/循环）](https://michael.blog.csdn.net/article/details/99690644) |
 | [剑指Offer - 面试题55 - II. 平衡二叉树（递归）](https://michael.blog.csdn.net/article/details/100783394) |
