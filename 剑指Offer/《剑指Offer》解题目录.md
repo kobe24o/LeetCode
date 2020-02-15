@@ -28,6 +28,7 @@
 | [剑指Offer - 面试题28. 对称的二叉树（递归/循环）](https://michael.blog.csdn.net/article/details/102493073) |
 | [剑指Offer - 面试题40. 最小的k个数（排序/大顶堆）](https://michael.blog.csdn.net/article/details/104327350) |
 | [剑指Offer - 面试题50. 第一个只出现一次的字符（unordered_map）](https://michael.blog.csdn.net/article/details/104322216) |
+| [剑指Offer - 面试题54. 二叉搜索树的第k大节点（二叉树循环遍历）](https://michael.blog.csdn.net/article/details/104332968) |
 | [剑指Offer - 面试题55 - I. 二叉树的深度（递归/循环）](https://michael.blog.csdn.net/article/details/99690644) |
 | [剑指Offer - 面试题55 - II. 平衡二叉树（递归）](https://michael.blog.csdn.net/article/details/100783394) |
 | [剑指Offer - 面试题57. 和为s的两个数字（双指针）](https://michael.blog.csdn.net/article/details/104321160) |

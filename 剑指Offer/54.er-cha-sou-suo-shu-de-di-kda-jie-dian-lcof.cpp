@@ -20,3 +20,27 @@ public:
         return -1;
     }
 };
+
+class Solution {
+	bool found = false;
+	int ans;
+public:
+    int kthLargest(TreeNode* root, int k) {
+        dfs(root,k);
+        return ans;
+    }
+
+    void dfs(TreeNode* root, int& k)
+    {
+    	if(!root || found)
+        	return;
+        dfs(root->right,k);
+        k--;
+        if(k == 0)
+        {
+        	found = true;
+        	ans = root->val;
+        }
+        dfs(root->left,k);
+    }
+};
