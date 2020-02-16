@@ -537,4 +537,5 @@
 | [LeetCode 5340. 统计有序矩阵中的负数](https://michael.blog.csdn.net/article/details/104342220) |
 | [LeetCode 5341. 最后 K 个数的乘积](https://michael.blog.csdn.net/article/details/104342755) |
 | [LeetCode 5342. 最多可以参加的会议数目（排序+贪心，优先队列，难）](https://michael.blog.csdn.net/article/details/104344969) |
+| [LeetCode 5343. 多次求和构造目标数组（优先队列+逆向思考）](https://michael.blog.csdn.net/article/details/104351025) |
 
