@@ -535,4 +535,6 @@
 | [LeetCode 1347. 制造字母异位词的最小步骤数](https://michael.blog.csdn.net/article/details/104239038) |
 | [LeetCode 1348. 推文计数（哈希map+set）](https://michael.blog.csdn.net/article/details/104242072) |
 | [LeetCode 5340. 统计有序矩阵中的负数](https://michael.blog.csdn.net/article/details/104342220) |
+| [LeetCode 5341. 最后 K 个数的乘积](https://michael.blog.csdn.net/article/details/104342755) |
+| [LeetCode 5342. 最多可以参加的会议数目（排序+贪心，优先队列，难）](https://michael.blog.csdn.net/article/details/104344969) |
 
