@@ -534,4 +534,5 @@
 | [LeetCode 1346. 检查整数及其两倍数是否存在（哈希）](https://michael.blog.csdn.net/article/details/104234658) |
 | [LeetCode 1347. 制造字母异位词的最小步骤数](https://michael.blog.csdn.net/article/details/104239038) |
 | [LeetCode 1348. 推文计数（哈希map+set）](https://michael.blog.csdn.net/article/details/104242072) |
+| [LeetCode 5340. 统计有序矩阵中的负数](https://michael.blog.csdn.net/article/details/104342220) |
 
