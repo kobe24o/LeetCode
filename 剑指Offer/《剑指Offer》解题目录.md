@@ -27,6 +27,7 @@
 | [剑指Offer - 面试题27. 二叉树的镜像（DFS/BFS）](https://michael.blog.csdn.net/article/details/99675950) |
 | [剑指Offer - 面试题28. 对称的二叉树（递归/循环）](https://michael.blog.csdn.net/article/details/102493073) |
 | [剑指Offer - 面试题32 - I. 从上到下打印二叉树（按层BFS遍历，queue）](https://michael.blog.csdn.net/article/details/104356010) |
+| [剑指Offer - 面试题32 - II. 从上到下打印二叉树 II（BFS）](https://michael.blog.csdn.net/article/details/99699445) |
 | [剑指Offer - 面试题40. 最小的k个数（排序/大顶堆）](https://michael.blog.csdn.net/article/details/104327350) |
 | [剑指Offer - 面试题50. 第一个只出现一次的字符（unordered_map）](https://michael.blog.csdn.net/article/details/104322216) |
 | [剑指Offer - 面试题53 - I. 在排序数组中查找数字 I（二分查找的变形版本）](https://michael.blog.csdn.net/article/details/104335429) |
