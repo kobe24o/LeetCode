@@ -33,6 +33,7 @@
 | [剑指Offer - 面试题34. 二叉树中和为某一值的路径](https://michael.blog.csdn.net/article/details/100550154) |
 | [剑指Offer - 面试题39. 数组中出现次数超过一半的数字（摩尔投票）](https://michael.blog.csdn.net/article/details/99249031) |
 | [剑指Offer - 面试题40. 最小的k个数（排序/大顶堆）](https://michael.blog.csdn.net/article/details/104327350) |
+| [剑指Offer - 面试题41. 数据流中的中位数（大小堆）](https://michael.blog.csdn.net/article/details/102865997) |
 | [剑指Offer - 面试题42. 连续子数组的最大和（动态规划）](https://michael.blog.csdn.net/article/details/97559470) |
 | [剑指Offer - 面试题50. 第一个只出现一次的字符（unordered_map）](https://michael.blog.csdn.net/article/details/104322216) |
 | [剑指Offer - 面试题53 - I. 在排序数组中查找数字 I（二分查找的变形版本）](https://michael.blog.csdn.net/article/details/104335429) |
