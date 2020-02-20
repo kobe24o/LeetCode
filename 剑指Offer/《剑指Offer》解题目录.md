@@ -45,6 +45,7 @@
 | [剑指Offer - 面试题55 - II. 平衡二叉树（递归）](https://michael.blog.csdn.net/article/details/100783394) |
 | [剑指Offer - 面试题57. 和为s的两个数字（双指针）](https://michael.blog.csdn.net/article/details/104321160) |
 | [剑指Offer - 面试题57 - II. 和为s的连续正数序列（滑动窗口）](https://michael.blog.csdn.net/article/details/104321869) |
+| [剑指Offer - 面试题61. 扑克牌中的顺子](https://michael.blog.csdn.net/article/details/104409360) |
 | [剑指Offer - 面试题64. 求1+2+…+n（递归）](https://blog.csdn.net/qq_21201267/article/details/104303145) |
 | [剑指Offer - 面试题65. 不用加减乘除做加法（位运算，要看哦）**](https://michael.blog.csdn.net/article/details/104303944) |
 | [剑指Offer - 面试题66. 构建乘积数组（正反遍历）](https://michael.blog.csdn.net/article/details/104322129) |
