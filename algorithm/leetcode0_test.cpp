@@ -8,32 +8,45 @@
 using namespace std;
 class Solution {
 public:
-    bool isPossible(vector<int>& target) {
-        long sum = 0, s, i, num, tp, scale;
-        priority_queue<long> q;//默认大顶堆
-        for(i = 0; i < target.size(); ++i)
-        {
-            sum += target[i];//总和
-            q.push(target[i]);
-        }
-        while(q.top() != 1)
-        {
-            tp = q.top();
-            q.pop();
-            s = sum-tp;//剩余的和
-            scale = (tp-q.top()-1)/s;
-            num = tp-scale*s;//栈顶-s，应该为1或者比1大的数
-            if(num < 1)//小于1则false
-                return false;
-            q.push(num);
-            sum -= scale*s;//和减少了s
-        }
-        return true;
+	int n;
+	vector<string> ans;
+	string str;
+	int num = 0;
+public:
+    vector<string> permutation(string s) {
+        sort(s.begin(), s.end());
+        n = s.size();
+    	vector<bool> visited(n,false);
+        bt(s,0,visited);
+        return ans;
+    }
+
+    void bt(string& s, int count, vector<bool>& visited)
+    {
+        num++;
+    	if(count == n)
+    	{
+    		ans.push_back(str);
+    		return;
+    	}
+    	for(int i = 0; i < n; ++i)
+    	{
+    		if(!visited[i])
+    		{
+    			if(i != 0 && s[i-1] == s[i] && visited[i-1])
+    				continue;
+    			visited[i] = true;
+    			str.push_back(s[i]);
+    			bt(s,count+1,visited);
+    			str.pop_back();
+    			visited[i] = false;
+    		}
+    	}
     }
 };
 int main()
 {
     Solution s;
-    vector<int> v = {10000000,1};
-    cout << s.isPossible(v);
+    s.permutation("iaaa");
+    cout << s.num;
 }
