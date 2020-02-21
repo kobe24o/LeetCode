@@ -27,6 +27,7 @@
 | [剑指Offer - 面试题27. 二叉树的镜像（DFS/BFS）](https://michael.blog.csdn.net/article/details/99675950) |
 | [剑指Offer - 面试题28. 对称的二叉树（递归/循环）](https://michael.blog.csdn.net/article/details/102493073) |
 | [剑指Offer - 面试题30. 包含min函数的栈](https://michael.blog.csdn.net/article/details/100188954) |
+| [剑指Offer - 面试题31. 栈的压入、弹出序列（栈）](https://michael.blog.csdn.net/article/details/103566492) |
 | [剑指Offer - 面试题32 - I. 从上到下打印二叉树（按层BFS遍历，queue）](https://michael.blog.csdn.net/article/details/104356010) |
 | [剑指Offer - 面试题32 - II. 从上到下打印二叉树 II（BFS）](https://michael.blog.csdn.net/article/details/99699445) |
 | [剑指Offer - 面试题32 - III. 从上到下打印二叉树 III（BFS，queue+stack）](https://michael.blog.csdn.net/article/details/104357304) |
