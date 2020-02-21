@@ -8,36 +8,40 @@
 using namespace std;
 class Solution {
 public:
-    string reverseWords(string s) {
-        s.push_back(' ');//处理边界方便
-        int i, n = s.size();
-        string ans;
-        stack<string> stk;
-        for(i = 0; i < n; ++i)
+    vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+        if(nums.empty())
+            return {};
+        int l = 1, r = 0;
+        vector<int> ans;
+        deque<int> q;
+        while(k--)
         {
-            if(s[i] != ' ')
-                ans += s[i];
-            else// (s[i]==' ')
+            while(!q.empty() && nums[q.back()] <= nums[r])
             {
-                if(ans.size())
-                {
-                    stk.push(ans);
-                    ans.clear();
-                }
+                q.pop_back();
             }
+            q.push_back(r++);
         }
-        while(!stk.empty())
+        ans.push_back(nums[q.front()]);
+        while(r < nums.size())
         {
-            ans += stk.top()+' ';
-            stk.pop();
+            if(q.front() < l)
+                q.pop_front();
+            while(!q.empty() && nums[q.back()] <= nums[r])
+            {
+                q.pop_back();
+            }
+            q.push_back(r++);
+            l++;
+            ans.push_back(nums[q.front()]);
         }
-        ans.pop_back();
         return ans;
     }
 };
 int main()
 {
     Solution s;
-    s.reverseWords("the sky is blue");
+    vector<int> v = {1,3,1,2,0,5};
+    s.maxSlidingWindow(v,3);
 
 }
