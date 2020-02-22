@@ -51,6 +51,7 @@
 | [剑指Offer - 面试题58 - I. 翻转单词顺序（栈）](https://michael.blog.csdn.net/article/details/99663417) |
 | [剑指Offer - 面试题58 - II. 左旋转字符串](https://michael.blog.csdn.net/article/details/104411021) |
 | [剑指Offer - 面试题59 - I. 滑动窗口的最大值（双端队列deque）](https://michael.blog.csdn.net/article/details/99613437) |
+| [剑指Offer - 面试题60. n个骰子的点数（动态规划）](https://michael.blog.csdn.net/article/details/104439480) |
 | [剑指Offer - 面试题61. 扑克牌中的顺子](https://michael.blog.csdn.net/article/details/104409360) |
 | [剑指Offer - 面试题64. 求1+2+…+n（递归）](https://blog.csdn.net/qq_21201267/article/details/104303145) |
 | [剑指Offer - 面试题65. 不用加减乘除做加法（位运算，要看哦）**](https://michael.blog.csdn.net/article/details/104303944) |
