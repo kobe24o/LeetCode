@@ -1,11 +1,3 @@
-/**
- * @description: 调试使用
- * @author: michael ming
- * @date: 2019/11/24 22:55
- * @modified by: 
- */
-#include <bits/stdc++.h>
-using namespace std;
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
@@ -43,15 +35,8 @@ public:
         		ans[k++] = matrix[i--][left];
         		count--;
         	}
-            left--;
+            left++;
         }
         return ans;
     }
 };
-int main()
-{
-    Solution s;
-    vector<vector<int>> v = {{1,2,3},{4,5,6},{7,8,9}};
-    s.spiralOrder(v);
-
-}
