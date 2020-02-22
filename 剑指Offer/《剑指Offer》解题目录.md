@@ -39,6 +39,7 @@
 | [剑指Offer - 面试题40. 最小的k个数（排序/大顶堆）](https://michael.blog.csdn.net/article/details/104327350) |
 | [剑指Offer - 面试题41. 数据流中的中位数（大小堆）](https://michael.blog.csdn.net/article/details/102865997) |
 | [剑指Offer - 面试题42. 连续子数组的最大和（动态规划）](https://michael.blog.csdn.net/article/details/97559470) |
+| [剑指Offer - 面试题45. 把数组排成最小的数（字符串排序）](https://michael.blog.csdn.net/article/details/104451645) |
 | [剑指Offer - 面试题50. 第一个只出现一次的字符（unordered_map）](https://michael.blog.csdn.net/article/details/104322216) |
 | [剑指Offer - 面试题52. 两个链表的第一个公共节点](https://michael.blog.csdn.net/article/details/100168364) |
 | [剑指Offer - 面试题53 - I. 在排序数组中查找数字 I（二分查找的变形版本）](https://michael.blog.csdn.net/article/details/104335429) |

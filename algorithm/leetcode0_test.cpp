@@ -7,26 +7,75 @@
 #include <bits/stdc++.h>
 using namespace std;
 class Solution {
+    vector<int> pa;
+    vector<int> pb;
+    vector<int> pc;
 public:
-    int lastRemaining(int n, int m) {
-        vector<int> num(n);
-        int i;
-        for(i = 0; i < n; i++)
-            num[i] = i;
-        i = 0;
-        while(num.size() != 1)
+    int numberOfSubstrings(string s) {
+        int i,x,y;
+        for(i = 0; i < s.size(); i++)
         {
-            i = (i+m-1)%num.size();
-            num.erase(num.begin()+i);
-            i--;
+            if(s[i] == 'a')
+                pa.push_back(i);
+            else if(s[i] == 'b')
+                pb.push_back(i);
+            else
+                pc.push_back(i);
         }
-        return num[0];
+        if(pa.empty() || pb.empty() || pc.empty())
+            return 0;
+        int count = 0;
+        for(auto& idxa : pa)
+        {
+            x = bsfirst(idxa,pb);
+            y = bsfirst(idxa,pc);
+            if(x==-1 || y==-1)
+                continue;
+            count += s.size()-max(x,y);
+        }
+        for(auto& idxb : pb)
+        {
+            x = bsfirst(idxb,pa);
+            y = bsfirst(idxb,pc);
+            if(x==-1 || y==-1)
+                continue;
+            count += s.size()-max(x,y);
+        }
+        for(auto& idxc : pc)
+        {
+            x = bsfirst(idxc,pb);
+            y = bsfirst(idxc,pa);
+            if(x==-1 || y==-1)
+                continue;
+            count += s.size()-max(x,y);
+        }
+        return count;
+    }
+
+    int bsfirst(int idx, vector<int>& v)
+    {
+        int l = 0, r = v.size()-1, mid;
+        while(l <= r)
+        {
+            mid = l+((r-l)>>1);
+            if(v[mid] < idx)
+                l = mid+1;
+            else if(v[mid] > idx)
+            {
+                if(mid == 0 || v[mid-1] < idx)
+                    return mid;
+                else
+                    r = mid-1;
+            }
+        }
+        return -1;
     }
 };
+
 int main()
 {
     Solution s;
-    vector<vector<int>> v = {{1,2,3},{4,5,6},{7,8,9}};
-    s.lastRemaining(5,3);
+    s.numberOfSubstrings("abcabc");
+
 
 }
