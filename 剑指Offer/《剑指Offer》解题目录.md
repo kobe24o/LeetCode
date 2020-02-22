@@ -1,6 +1,6 @@
 题目来源于LeetCode上的[《剑指Offer》](https://leetcode-cn.com/problemset/lcof/)，这里做一个目录方便大家查找。另外有本人的[LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)、[《程序员面试金典》解题目录](https://blog.csdn.net/qq_21201267/article/details/104306869)可点击链接查看。updated on 2020.2.21
 
-**已解决 52/75** - **简单 39** **中等 12** **困难 1**
+**已解决 55/75** - **简单 42** **中等 12** **困难 1**
 
 | 已解题目                                                     |
 | :----------------------------------------------------------- |
@@ -53,6 +53,7 @@
 | [剑指Offer - 面试题59 - I. 滑动窗口的最大值（双端队列deque）](https://michael.blog.csdn.net/article/details/99613437) |
 | [剑指Offer - 面试题60. n个骰子的点数（动态规划）](https://michael.blog.csdn.net/article/details/104439480) |
 | [剑指Offer - 面试题61. 扑克牌中的顺子](https://michael.blog.csdn.net/article/details/104409360) |
+| [剑指Offer - 面试题62. 圆圈中最后剩下的数字（约瑟夫环 递推公式）](https://michael.blog.csdn.net/article/details/104442971) |
 | [剑指Offer - 面试题64. 求1+2+…+n（递归）](https://blog.csdn.net/qq_21201267/article/details/104303145) |
 | [剑指Offer - 面试题65. 不用加减乘除做加法（位运算，要看哦）**](https://michael.blog.csdn.net/article/details/104303944) |
 | [剑指Offer - 面试题66. 构建乘积数组（正反遍历）](https://michael.blog.csdn.net/article/details/104322129) |
