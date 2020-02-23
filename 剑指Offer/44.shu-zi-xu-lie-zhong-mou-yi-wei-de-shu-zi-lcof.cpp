@@ -13,5 +13,11 @@ public:
     	n -= count;
     	num += n/i;
     	n %= i;
+    	return fd(num,n);
+    }
+
+    int fd(int num, int n)
+    {
+    	
     }
 };
