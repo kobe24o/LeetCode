@@ -10,6 +10,8 @@ public:
     		num += 9*pow(10,i-1);
     		i++;
     	}
-    	
+    	n -= count;
+    	num += n/i;
+    	n %= i;
     }
 };
