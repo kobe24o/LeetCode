@@ -542,6 +542,7 @@
 | [LeetCode 5169. 日期之间隔几天（闰年判断）](https://michael.blog.csdn.net/article/details/104462662) |
 | [LeetCode 5170. 验证二叉树（图的出入度）](https://michael.blog.csdn.net/article/details/104465277) |
 | [LeetCode 5171. 最接近的因数](https://michael.blog.csdn.net/article/details/104466518) |
+| [LeetCode 5172. 形成三的最大倍数（贪心，难）](https://michael.blog.csdn.net/article/details/104468904) |
 | [LeetCode 5323. 根据数字二进制下 1 的数目排序（自定义lambda排序）](https://michael.blog.csdn.net/article/details/104453219#LeetCode_5323__1__easy_18) |
 | [LeetCode 5324. 每隔 n 个顾客打折（哈希）](https://michael.blog.csdn.net/article/details/104453219#LeetCode_5324__n__medium_90) |
 | [LeetCode 5325. 包含所有三种字符的子字符串数目（二分查找）](https://michael.blog.csdn.net/article/details/104453219#LeetCode_5325__medium_195) |
