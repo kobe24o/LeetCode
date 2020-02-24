@@ -8,40 +8,41 @@
 using namespace std;
 class Solution {
 public:
-    bool validateBinaryTreeNodes(int n, vector<int>& leftChild, vector<int>& rightChild) {
-        int indegree[n]  = {0};
-        int outdegree[n] = {0};
-        bool findroot = false;
-        int i, sum;
-        for(i = 0; i < n; ++i)
+    int findNthDigit(int n) {
+        if(n < 10)
+            return n;
+        int count = 9, i = 2, num = 9;
+        while(count+9*pow(10,i-1)*i <= n)
         {
-            if(leftChild[i] != -1)
-                indegree[leftChild[i]]++;
-            if(rightChild[i] != -1)
-                indegree[rightChild[i]]++;
+            count += 9*pow(10,i-1)*i;
+            num += 9*pow(10,i-1);
+            i++;
         }
-        for(i = 0; i < n; ++i)
+        n -= count;
+        if(n%i != 0)
+            return fd(num+n/i+1,n%i);
+        return fd(num+n/i,i);
+    }
+
+    int fd(int num, int n)
+    {
+        int i = int(1e9);
+        int bit;
+        while(num/i == 0)
+            i /= 10;
+        while(n--)
         {
-            if(!findroot && indegree[i]==0)
-                findroot = true;
-            else if(findroot && indegree[i]==0)
-                return false;
-            else if(indegree[i] > 1)
-                return false;
-            sum += indegree[i];
+            bit = num/i;
+            num -= bit*i;
+            i /= 10;
         }
-        if(sum != n-1)
-            return false;
-        return true;
+        return bit;
     }
 };
 int main()
 {
     Solution s;
-
-    vector<int> l = {1,3,-1,-1,-1};
-    vector<int> r ={-1,2,4,-1,-1};
-    s.validateBinaryTreeNodes(5,l,r);
+    cout << s.findNthDigit(11);
 
 
 }

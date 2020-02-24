@@ -1,6 +1,6 @@
-题目来源于LeetCode上的[《剑指Offer》](https://leetcode-cn.com/problemset/lcof/)，这里做一个目录方便大家查找。另外有本人的[LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)、[《程序员面试金典》解题目录](https://blog.csdn.net/qq_21201267/article/details/104306869)可点击链接查看。updated on 2020.2.21
+题目来源于LeetCode上的[《剑指Offer》](https://leetcode-cn.com/problemset/lcof/)，这里做一个目录方便大家查找。另外有本人的[LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)、[《程序员面试金典》解题目录](https://blog.csdn.net/qq_21201267/article/details/104306869)可点击链接查看。updated on 2020.2.24
 
-**已解决 55/75** - **简单 42** **中等 12** **困难 1**
+**已解决 57/75** - **简单 42** **中等 14** **困难 1**
 
 | 已解题目                                                     |
 | :----------------------------------------------------------- |
@@ -39,6 +39,7 @@
 | [剑指Offer - 面试题40. 最小的k个数（排序/大顶堆）](https://michael.blog.csdn.net/article/details/104327350) |
 | [剑指Offer - 面试题41. 数据流中的中位数（大小堆）](https://michael.blog.csdn.net/article/details/102865997) |
 | [剑指Offer - 面试题42. 连续子数组的最大和（动态规划）](https://michael.blog.csdn.net/article/details/97559470) |
+| [剑指Offer - 面试题44. 数字序列中某一位的数字（数学）](https://michael.blog.csdn.net/article/details/103571864) |
 | [剑指Offer - 面试题45. 把数组排成最小的数（字符串排序）](https://michael.blog.csdn.net/article/details/104451645) |
 | [剑指Offer - 面试题50. 第一个只出现一次的字符（unordered_map）](https://michael.blog.csdn.net/article/details/104322216) |
 | [剑指Offer - 面试题52. 两个链表的第一个公共节点](https://michael.blog.csdn.net/article/details/100168364) |
