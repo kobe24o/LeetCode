@@ -39,35 +39,57 @@ public:
         return bit;
     }
 };
-struct jiegou
+class People
 {
+public:
     string name;
     int id;
+    People(string n, int i):name(n),id(i){}
+    bool operator==(const People& a)
+    {
+        return id == a.id && name==a.name;
+    }
+    bool operator<( const People& a)
+    {
+        if(id == a.id)
+            return name < a.name;
+        return id < a.id;
+    }
+} ;
 
-} jiegoustu;
+bool operator==(const People& a, const People& b)
+{
+    return a.id == b.id && a.name==b.name;
+}
+
+bool operator<(const People &a, const People& b)
+{
+    if(a.id == b.id)
+        return a.name < b.name;
+    return a.id < b.id;
+}
 int main()
 {
-    vector<jiegou> vec;
+    vector<People> vec;
+    vec.push_back(People("Michael",23));
+    vec.push_back(People("James",23));
+    vec.push_back(People("Kobe",24));
+    vec.push_back(People("James",23));
 
-    jiegoustu.id = 1;
-    jiegoustu.name="aa";
-    vec.push_back(jiegoustu);
-
-    jiegoustu.id = 2;
-    jiegoustu.name, "aa";
-    vec.push_back(jiegoustu);
-
-    jiegoustu.id = 1;
-    jiegoustu.name, "aa";
-    vec.push_back(jiegoustu);
-
-    jiegoustu.id = 2;
-    jiegoustu.name, "bb";
-    vec.push_back(jiegoustu);
-
-    for(int i=0; i<vec.size(); ++i)
-        if(vec[i].id==1 && vec[i].name=="aa")
-            cout << "found!";
-//    sort(vec.begin(), vec.end());
-//    vec.erase(unique(vec.begin(), vec.end()));
+    cout << "-----按id, then name排序----" << endl;
+    sort(vec.begin(), vec.end());
+    for(auto& v : vec)
+        cout << v.id << " " << v.name << endl;
+    cout << "------去重------------------" << endl;
+    vec.erase(unique(vec.begin(), vec.end()),vec.end());
+    for(auto& v : vec)
+        cout << v.id << " " << v.name << endl;
+    cout << "-----按名称排序-------------" << endl;
+    sort(vec.begin(), vec.end(),[](People& a, People& b)
+    {
+        return a.name < b.name;
+    });
+    for(auto& v : vec)
+        cout << v.id << " " << v.name << endl;
+    return 0;
 }
