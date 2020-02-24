@@ -39,10 +39,35 @@ public:
         return bit;
     }
 };
+struct jiegou
+{
+    string name;
+    int id;
+
+} jiegoustu;
 int main()
 {
-    Solution s;
-    cout << s.findNthDigit(11);
+    vector<jiegou> vec;
 
+    jiegoustu.id = 1;
+    jiegoustu.name="aa";
+    vec.push_back(jiegoustu);
 
+    jiegoustu.id = 2;
+    jiegoustu.name, "aa";
+    vec.push_back(jiegoustu);
+
+    jiegoustu.id = 1;
+    jiegoustu.name, "aa";
+    vec.push_back(jiegoustu);
+
+    jiegoustu.id = 2;
+    jiegoustu.name, "bb";
+    vec.push_back(jiegoustu);
+
+    for(int i=0; i<vec.size(); ++i)
+        if(vec[i].id==1 && vec[i].name=="aa")
+            cout << "found!";
+//    sort(vec.begin(), vec.end());
+//    vec.erase(unique(vec.begin(), vec.end()));
 }
