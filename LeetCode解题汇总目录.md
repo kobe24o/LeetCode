@@ -539,12 +539,12 @@
 | [LeetCode 1352. 最后 K 个数的乘积](https://michael.blog.csdn.net/article/details/104342755) |
 | [LeetCode 1353. 最多可以参加的会议数目（排序+贪心，优先队列，难）](https://michael.blog.csdn.net/article/details/104344969) |
 | [LeetCode 1354. 多次求和构造目标数组（优先队列+逆向思考）](https://michael.blog.csdn.net/article/details/104351025) |
-| [LeetCode 5169. 日期之间隔几天（闰年判断）](https://michael.blog.csdn.net/article/details/104462662) |
-| [LeetCode 5170. 验证二叉树（图的出入度）](https://michael.blog.csdn.net/article/details/104465277) |
-| [LeetCode 5171. 最接近的因数](https://michael.blog.csdn.net/article/details/104466518) |
-| [LeetCode 5172. 形成三的最大倍数（贪心，难）](https://michael.blog.csdn.net/article/details/104468904) |
-| [LeetCode 5323. 根据数字二进制下 1 的数目排序（自定义lambda排序）](https://michael.blog.csdn.net/article/details/104453219#LeetCode_5323__1__easy_18) |
-| [LeetCode 5324. 每隔 n 个顾客打折（哈希）](https://michael.blog.csdn.net/article/details/104453219#LeetCode_5324__n__medium_90) |
-| [LeetCode 5325. 包含所有三种字符的子字符串数目（二分查找）](https://michael.blog.csdn.net/article/details/104453219#LeetCode_5325__medium_195) |
-| [LeetCode 5326. 有效的快递序列数目（动态规划）](https://michael.blog.csdn.net/article/details/104453219#LeetCode_5326__hard_307) |
+| [LeetCode 1356. 根据数字二进制下 1 的数目排序（自定义lambda排序）](https://michael.blog.csdn.net/article/details/104453219#LeetCode_5323__1__easy_18) |
+| [LeetCode 1357. 每隔 n 个顾客打折（哈希）](https://michael.blog.csdn.net/article/details/104453219#LeetCode_5324__n__medium_90) |
+| [LeetCode 1358. 包含所有三种字符的子字符串数目（二分查找）](https://michael.blog.csdn.net/article/details/104453219#LeetCode_5325__medium_195) |
+| [LeetCode 1359. 有效的快递序列数目（动态规划）](https://michael.blog.csdn.net/article/details/104453219#LeetCode_5326__hard_307) |
+| [LeetCode 1360. 日期之间隔几天（闰年判断）](https://michael.blog.csdn.net/article/details/104462662) |
+| [LeetCode 1361. 验证二叉树（图的出入度）](https://michael.blog.csdn.net/article/details/104465277) |
+| [LeetCode 1362. 最接近的因数](https://michael.blog.csdn.net/article/details/104466518) |
+| [LeetCode 1363. 形成三的最大倍数（贪心，难）](https://michael.blog.csdn.net/article/details/104468904) |
 
