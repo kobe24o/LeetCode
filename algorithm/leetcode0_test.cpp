@@ -68,28 +68,10 @@ bool operator<(const People &a, const People& b)
         return a.name < b.name;
     return a.id < b.id;
 }
+
 int main()
 {
-    vector<People> vec;
-    vec.push_back(People("Michael",23));
-    vec.push_back(People("James",23));
-    vec.push_back(People("Kobe",24));
-    vec.push_back(People("James",23));
-
-    cout << "-----按id, then name排序----" << endl;
-    sort(vec.begin(), vec.end());
-    for(auto& v : vec)
-        cout << v.id << " " << v.name << endl;
-    cout << "------去重------------------" << endl;
-    vec.erase(unique(vec.begin(), vec.end()),vec.end());
-    for(auto& v : vec)
-        cout << v.id << " " << v.name << endl;
-    cout << "-----按名称排序-------------" << endl;
-    sort(vec.begin(), vec.end(),[](People& a, People& b)
-    {
-        return a.name < b.name;
-    });
-    for(auto& v : vec)
-        cout << v.id << " " << v.name << endl;
-    return 0;
+     Student s(001,"Michael","man","19XX-XX-XX");
+     s.show();
+     return 0;
 }
