@@ -39,7 +39,7 @@ public:
     	int count[101] = {0}, sum = 0, lesscur = 0;
     	for(int i = 0; i < nums.size(); ++i)
     		count[nums[i]]++;
-    	for(int i = 0; i < nums.size(); ++i)
+    	for(int i = 0; i < 101; ++i)
     	{
     		sum += count[i];
     		count[i] = lesscur;

@@ -6,31 +6,39 @@
  */
 #include <bits/stdc++.h>
 using namespace std;
+vector<vector<int>> c;
+bool cmp(char& a, char& b)
+{
+    for(int j = 0; j < 26; j++)
+    {
+        if(c[a-'A'][j] == c[b-'A'][j])
+            continue;
+        return c[a-'A'][j] > c[b-'A'][j];
+    }
+    return a < b;
+}
 class Solution {
 public:
-    vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
-    	vector<int> ans(nums.size());
-    	int count[9] = {0}, sum = 0, lesscur = 0;
-    	for(int i = 0; i < nums.size(); ++i)
-    		count[nums[i]]++;
-    	for(int i = 0; i < ; ++i)
-    	{
-    		sum += count[i];
-    		count[i] = lesscur;
-    		lesscur = sum;
-    	}
-    	for(int i = 0; i < nums.size(); ++i)
-    	{
-    		ans[i] = count[nums[i]];
-    	}
-    	return ans;
+    string rankTeams(vector<string>& votes) {
+        int i, j;
+        vector<int> t(26,0);
+        for(i = 0; i < 26; ++i)
+            c.push_back(t);
+        for(i = 0; i < votes.size(); i++)
+        {
+            for(j = 0; j < votes[i].size(); j++)
+                c[votes[i][j]-'A'][j]++;
+        }
+        sort(votes[0].begin(), votes[0].end(), cmp);
+        cout <<  votes[0];
+        return votes[0];
     }
 };
 
 int main()
 {
      Solution s;
-     vector<int> nums = {8,1,2,2,3};
-     s.smallerNumbersThanCurrent(nums);
+     vector<string> nums = {"BCA","CAB","CBA","ABC","ACB","BAC"};
+     s.rankTeams(nums);
      return 0;
 }
