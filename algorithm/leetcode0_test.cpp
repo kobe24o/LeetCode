@@ -6,39 +6,60 @@
  */
 #include <bits/stdc++.h>
 using namespace std;
-vector<vector<int>> c;
-bool cmp(char& a, char& b)
-{
-    for(int j = 0; j < 26; j++)
-    {
-        if(c[a-'A'][j] == c[b-'A'][j])
-            continue;
-        return c[a-'A'][j] > c[b-'A'][j];
-    }
-    return a < b;
-}
 class Solution {
 public:
-    string rankTeams(vector<string>& votes) {
-        int i, j;
-        vector<int> t(26,0);
-        for(i = 0; i < 26; ++i)
-            c.push_back(t);
-        for(i = 0; i < votes.size(); i++)
+    int minCost(vector<vector<int>>& grid) {
+        int m = grid.size(), n= grid[0].size(), i, j, x = 0, y = 0, k, flip = 0, size;
+        vector<vector<int>> dir = {{0,0},{0,1},{0,-1},{1,0},{-1,0}};
+        vector<vector<bool>> visited(m,vector<bool>(n,false));
+        queue<pair<int,int>> q;
+        while(x>=0 && x<m && y>=0 && y<n && !visited[x][y])
         {
-            for(j = 0; j < votes[i].size(); j++)
-                c[votes[i][j]-'A'][j]++;
+            q.push({x,y});
+            visited[x][y] = true;
+            i = x + dir[grid[x][y]][0];
+            j = y + dir[grid[x][y]][1];
+            x = i, y = j;
         }
-        sort(votes[0].begin(), votes[0].end(), cmp);
-        cout <<  votes[0];
-        return votes[0];
+        if(visited[m-1][n-1])
+            return 0;
+        while(!q.empty())
+        {
+            size = q.size();
+            flip++;
+            while(size--)
+            {
+                i = q.front().first;
+                j = q.front().second;
+                q.pop();
+                for(k = 1; k <= 4; k++)
+                {
+                    x = i + dir[k][0];
+                    y = j + dir[k][1];
+                    if(x>=0 && x<m && y>=0 && y<n && !visited[x][y])
+                    {
+                        while(x>=0 && x<m && y>=0 && y<n && !visited[x][y])
+                        {
+                            q.push({x,y});
+                            visited[x][y] = true;
+                            x += dir[grid[x][y]][0];
+                            y += dir[grid[x][y]][1];
+                        }
+                    }
+                }
+            }
+            if(visited[m-1][n-1])
+                return flip;
+        }
+        cout << flip;
+        return flip;
     }
 };
 
 int main()
 {
      Solution s;
-     vector<string> nums = {"BCA","CAB","CBA","ABC","ACB","BAC"};
-     s.rankTeams(nums);
+     vector<vector<int>> v = {{4}};
+     s.minCost(v);
      return 0;
 }
