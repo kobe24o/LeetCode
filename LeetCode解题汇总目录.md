@@ -549,4 +549,5 @@
 | [LeetCode 1363. 形成三的最大倍数（贪心，难）](https://michael.blog.csdn.net/article/details/104468904) |
 | [LeetCode 5344. 有多少小于当前数字的数字（排序）](https://michael.blog.csdn.net/article/details/104590855) |
 | [LeetCode 5345. 通过投票对团队排名（自定义排序）](https://michael.blog.csdn.net/article/details/104593866) |
+| [LeetCode 5346. 二叉树中的列表（双重递归）](https://michael.blog.csdn.net/article/details/104596571) |
 
