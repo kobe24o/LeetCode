@@ -8,70 +8,29 @@
 using namespace std;
 class Solution {
 public:
-    int findNthDigit(int n) {
-        if(n < 10)
-            return n;
-        int count = 9, i = 2, num = 9;
-        while(count+9*pow(10,i-1)*i <= n)
-        {
-            count += 9*pow(10,i-1)*i;
-            num += 9*pow(10,i-1);
-            i++;
-        }
-        n -= count;
-        if(n%i != 0)
-            return fd(num+n/i+1,n%i);
-        return fd(num+n/i,i);
-    }
-
-    int fd(int num, int n)
-    {
-        int i = int(1e9);
-        int bit;
-        while(num/i == 0)
-            i /= 10;
-        while(n--)
-        {
-            bit = num/i;
-            num -= bit*i;
-            i /= 10;
-        }
-        return bit;
+    vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
+    	vector<int> ans(nums.size());
+    	int count[9] = {0}, sum = 0, lesscur = 0;
+    	for(int i = 0; i < nums.size(); ++i)
+    		count[nums[i]]++;
+    	for(int i = 0; i < ; ++i)
+    	{
+    		sum += count[i];
+    		count[i] = lesscur;
+    		lesscur = sum;
+    	}
+    	for(int i = 0; i < nums.size(); ++i)
+    	{
+    		ans[i] = count[nums[i]];
+    	}
+    	return ans;
     }
 };
-class People
-{
-public:
-    string name;
-    int id;
-    People(string n, int i):name(n),id(i){}
-    bool operator==(const People& a)
-    {
-        return id == a.id && name==a.name;
-    }
-    bool operator<( const People& a)
-    {
-        if(id == a.id)
-            return name < a.name;
-        return id < a.id;
-    }
-} ;
-
-bool operator==(const People& a, const People& b)
-{
-    return a.id == b.id && a.name==b.name;
-}
-
-bool operator<(const People &a, const People& b)
-{
-    if(a.id == b.id)
-        return a.name < b.name;
-    return a.id < b.id;
-}
 
 int main()
 {
-     Student s(001,"Michael","man","19XX-XX-XX");
-     s.show();
+     Solution s;
+     vector<int> nums = {8,1,2,2,3};
+     s.smallerNumbersThanCurrent(nums);
      return 0;
 }

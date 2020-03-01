@@ -547,4 +547,5 @@
 | [LeetCode 1361. 验证二叉树（图的出入度）](https://michael.blog.csdn.net/article/details/104465277) |
 | [LeetCode 1362. 最接近的因数](https://michael.blog.csdn.net/article/details/104466518) |
 | [LeetCode 1363. 形成三的最大倍数（贪心，难）](https://michael.blog.csdn.net/article/details/104468904) |
+| [LeetCode 5344. 有多少小于当前数字的数字（排序）](https://michael.blog.csdn.net/article/details/104590855) |
 
