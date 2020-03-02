@@ -547,8 +547,8 @@
 | [LeetCode 1361. 验证二叉树（图的出入度）](https://michael.blog.csdn.net/article/details/104465277) |
 | [LeetCode 1362. 最接近的因数](https://michael.blog.csdn.net/article/details/104466518) |
 | [LeetCode 1363. 形成三的最大倍数（贪心，难）](https://michael.blog.csdn.net/article/details/104468904) |
-| [LeetCode 5344. 有多少小于当前数字的数字（排序）](https://michael.blog.csdn.net/article/details/104590855) |
-| [LeetCode 5345. 通过投票对团队排名（自定义排序）](https://michael.blog.csdn.net/article/details/104593866) |
-| [LeetCode 5346. 二叉树中的列表（双重递归）](https://michael.blog.csdn.net/article/details/104596571) |
-| [LeetCode 5347. 使网格图至少有一条有效路径的最小代价（BFS最短路径，难）](https://michael.blog.csdn.net/article/details/104598714) |
+| [LeetCode 1365. 有多少小于当前数字的数字（排序）](https://michael.blog.csdn.net/article/details/104590855) |
+| [LeetCode 1366. 通过投票对团队排名（自定义排序）](https://michael.blog.csdn.net/article/details/104593866) |
+| [LeetCode 1367. 二叉树中的列表（双重递归）](https://michael.blog.csdn.net/article/details/104596571) |
+| [LeetCode 1368. 使网格图至少有一条有效路径的最小代价（BFS最短路径，难）](https://michael.blog.csdn.net/article/details/104598714) |
 
