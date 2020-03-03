@@ -5,61 +5,53 @@
  * @modified by: 
  */
 #include <bits/stdc++.h>
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL) {}
+};
 using namespace std;
 class Solution {
 public:
-    int minCost(vector<vector<int>>& grid) {
-        int m = grid.size(), n= grid[0].size(), i, j, x = 0, y = 0, k, flip = 0, size;
-        vector<vector<int>> dir = {{0,0},{0,1},{0,-1},{1,0},{-1,0}};
-        vector<vector<bool>> visited(m,vector<bool>(n,false));
-        queue<pair<int,int>> q;
-        while(x>=0 && x<m && y>=0 && y<n && !visited[x][y])
-        {
-            q.push({x,y});
-            visited[x][y] = true;
-            i = x + dir[grid[x][y]][0];
-            j = y + dir[grid[x][y]][1];
-            x = i, y = j;
-        }
-        if(visited[m-1][n-1])
-            return 0;
-        while(!q.empty())
-        {
-            size = q.size();
-            flip++;
-            while(size--)
-            {
-                i = q.front().first;
-                j = q.front().second;
-                q.pop();
-                for(k = 1; k <= 4; k++)
-                {
-                    x = i + dir[k][0];
-                    y = j + dir[k][1];
-                    if(x>=0 && x<m && y>=0 && y<n && !visited[x][y])
-                    {
-                        while(x>=0 && x<m && y>=0 && y<n && !visited[x][y])
-                        {
-                            q.push({x,y});
-                            visited[x][y] = true;
-                            x += dir[grid[x][y]][0];
-                            y += dir[grid[x][y]][1];
-                        }
-                    }
-                }
-            }
-            if(visited[m-1][n-1])
-                return flip;
-        }
-        cout << flip;
-        return flip;
+    ListNode* partition(ListNode* head, int x) {
+    	ListNode *emptyHead = new ListNode(-1), *prev, *partTail;
+    	emptyHead->next = head;
+    	partTail = prev = emptyHead;
+    	while(head)
+    	{
+    		if(head->val < x && partTail != prev)
+    		{
+    			prev->next = prev->next->next;
+    			head->next = partTail->next;
+    			partTail->next = head;
+    			head = prev->next;
+    		}
+    		else
+    		{
+    			prev = head;
+    			head = head->next;
+    		}
+    	}
+    	return emptyHead->next;
     }
 };
 
 int main()
 {
-     Solution s;
-     vector<vector<int>> v = {{4}};
-     s.minCost(v);
+    Solution s;
+    ListNode *h1 = new ListNode(3);
+    ListNode *h2 = new ListNode(5);
+    ListNode *h3 = new ListNode(8);
+    ListNode *h4 = new ListNode(5);
+    ListNode *h5 = new ListNode(10);
+    ListNode *h6 = new ListNode(2);
+    ListNode *h7 = new ListNode(1);
+    h1->next = h2;
+    h2->next = h3;
+    h3->next = h4;
+    h4->next = h5;
+    h5->next = h6;
+    h6->next = h7;
+    s.partition(h1,5);
      return 0;
 }
