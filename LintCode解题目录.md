@@ -2,11 +2,11 @@
 
 [我的 LintCode 主页](https://www.lintcode.com/user/kobe24o)
 
-46 / 1572
+52 / 1572
 
 算法问题
 
-已通过 2%
+已通过 3%
 
  
 
