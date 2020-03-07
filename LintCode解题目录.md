@@ -12,10 +12,10 @@
 
  
 
-| CAT（Coding Ability Test）                                   |                                                              |                                                              |
+| CAT（Coding Ability Test）证书                               |                                                              |                                                              |
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
 |                                                              | [白银 IV 级    2020.3.5](https://www.lintcode.com/cat/certificate/14954/230074) | [青铜 IV 级   2020.3.3](https://www.lintcode.com/cat/certificate/14915/230074) |
-|                                                              | [白银 III 级    2020.3.5](https://www.lintcode.com/cat/certificate/14952/230074) | [青铜 III 级     2020.3.3](https://www.lintcode.com/cat/certificate/14912/230074) |
+| [黄金 III 级    2020.3.7](https://www.lintcode.com/cat/certificate/14998/230074) | [白银 III 级    2020.3.5](https://www.lintcode.com/cat/certificate/14952/230074) | [青铜 III 级     2020.3.3](https://www.lintcode.com/cat/certificate/14912/230074) |
 | [黄金 II 级    2020.3.6](https://www.lintcode.com/cat/certificate/14972/230074) | [白银 II 级    2020.3.4](https://www.lintcode.com/cat/certificate/14918/230074) | [青铜 II 级    2020.3.2](https://www.lintcode.com/cat/certificate/14884/230074) |
 | [黄金 I 级    2020.3.5](https://www.lintcode.com/cat/certificate/14962/230074) | [白银 I 级   2020.3.3](https://www.lintcode.com/cat/certificate/14916/230074) | [青铜 I 级     2020.3.1](https://www.lintcode.com/cat/certificate/14856/230074) |
 
@@ -27,6 +27,8 @@
 | [LintCode 550. 最常使用的K个单词II（自定义set（可修改数据的优先队列） + map）](https://michael.blog.csdn.net/article/details/104707698) |
 | [LintCode 1652. 区间异或 II](https://michael.blog.csdn.net/article/details/104687019) |
 | [LintCode 1671. 玩游戏（贪心、难）](https://michael.blog.csdn.net/article/details/104679807) |
+| [LintCode 1677. 石头（自定义优先队列）](https://blog.csdn.net/qq_21201267/article/details/104719837) |
+| [LintCode 1683. 杀怪兽（队列）](https://blog.csdn.net/qq_21201267/article/details/104718641) |
 | [LintCode 1689. k求和III（递归）](https://michael.blog.csdn.net/article/details/104698470) |
 | [LintCode 1753. 写作业（二分查找）](https://michael.blog.csdn.net/article/details/104678269) |
 

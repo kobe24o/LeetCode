@@ -14,62 +14,63 @@ struct ListNode {
 };
 
 using namespace std;
-map<string, int> wc;
-
-struct cmp {
-    bool operator()(string &a, string &b) {
-        if (wc[a] == wc[b])
-            return a < b;
-        return wc[a] > wc[b];
+unordered_map<int,int> m;// idx，能扔的dis
+struct cmp
+{
+    bool operator()(const pair<int,int>& a, const pair<int,int>& b)
+    {
+        if(a.second == b.second)
+            return m[a.first] < m[b.first];
+        return a.second > b.second;
     }
 };
 
-class TopK {
-private:
-    set<string,cmp> q;
-    int K;
+class Solution {
 public:
-    /*
-    * @param k: An integer
-    */TopK(int k) {
-        // do intialization if necessary
-        K = k;
-    }
-
-    /*
-     * @param word: A string
-     * @return: nothing
+    /**
+     * @param p: the position of the i-th stone
+     * @param d: how far the stones can be stone
+     * @return: the distance from the start point to the farthest stone.
      */
-    void add(string word) {
-        // write your code here
-        if (q.count(word))
-            q.erase(word);
-        wc[word]++;
-        q.insert(word);
-        if (q.size() > K)
-            q.erase(--q.end());
-    }
+    int getDistance(vector<int> &p, vector<int> &d) {
+        // Write your code here.
+        if(p.size() == 0)
+            return 0;
+        bool flag = true;
 
-    /*
-     * @return: the current top k frequent words.
-     */
-    vector<string> topk() {
-        // write your code here
-        return vector<string>(q.begin(), q.end());
+        priority_queue<pair<int,int>,vector<pair<int,int>>,cmp> q;
+        // idx, D距离
+
+        for(int i = 0; i < p.size(); ++i)
+        {
+            m[i] = d[i];// idx，能扔的dis
+            q.push(make_pair(i, q[i]));
+        }
+
+        pair<int,int> tp;
+        while(!q.empty())
+        {
+            tp = q.top();
+            q.pop();
+            if(flag)
+            {
+                q.push(make_pair(tp.first, tp.second+m[tp.first]));
+            }
+            flag = !flag;
+        }
+        return tp.second;
     }
 };
+
+
 
 int main() {
-//    Solution s;
-    TopK t(2);
-    t.add("lint");
-    t.add("code");
-    t.add("code");
-    t.topk();
+    Solution s;
 
-    vector<string> v = {"a", "b"};
+    vector<int> v = {1,6};
+    vector<int> v1 = {5,6};
     string str = "eceeeefasdghjklqwertyuio";
-//    s.lengthOfLongestSubstringKDistinct(str,3);
+    s.getDistance(v,v1);
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
     ListNode *h3 = new ListNode(8);
