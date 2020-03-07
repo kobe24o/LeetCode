@@ -1,5 +1,7 @@
 看见 [LintCode](https://www.lintcode.com/) 的代码能力测试CAT挺好，有倒计时，挺有面试紧迫感。做个记录。
 
+另有本人  [LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)、[《程序员面试金典》解题目录](https://blog.csdn.net/qq_21201267/article/details/104306869)、[《剑指Offer》解题目录](https://blog.csdn.net/qq_21201267/article/details/104271963)
+
 [我的 LintCode 主页](https://www.lintcode.com/user/kobe24o)
 
 52 / 1572
