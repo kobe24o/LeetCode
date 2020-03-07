@@ -53,6 +53,7 @@
 | [剑指Offer - 面试题58 - I. 翻转单词顺序（栈）](https://michael.blog.csdn.net/article/details/99663417) |
 | [剑指Offer - 面试题58 - II. 左旋转字符串](https://michael.blog.csdn.net/article/details/104411021) |
 | [剑指Offer - 面试题59 - I. 滑动窗口的最大值（双端队列deque）](https://michael.blog.csdn.net/article/details/99613437) |
+| [剑指Offer - 面试题59 - II. 队列的最大值（deque模拟单调栈）](https://michael.blog.csdn.net/article/details/104710461) |
 | [剑指Offer - 面试题60. n个骰子的点数（动态规划）](https://michael.blog.csdn.net/article/details/104439480) |
 | [剑指Offer - 面试题61. 扑克牌中的顺子](https://michael.blog.csdn.net/article/details/104409360) |
 | [剑指Offer - 面试题62. 圆圈中最后剩下的数字（约瑟夫环 递推公式）](https://michael.blog.csdn.net/article/details/104442971) |
