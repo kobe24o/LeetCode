@@ -556,5 +556,7 @@
 | [LeetCode 5337. 每个元音包含偶数次的最长子字符串（异或前缀值）](https://michael.blog.csdn.net/article/details/104725634#LeetCode_5337__medium_99) |
 | [LeetCode 5338. 二叉树中的最长交错路径（递归，注意不要超时）](https://michael.blog.csdn.net/article/details/104725634#LeetCode_5338__medium_174) |
 | [LeetCode 5339. 二叉搜索子树的最大键值和（自底向上DP，返回vector多变量）](https://michael.blog.csdn.net/article/details/104725634#LeetCode_5339__hard_264) |
+| [LeetCode 5352. 生成每种字符都是奇数个的字符串](https://michael.blog.csdn.net/article/details/104738254) |
+| [LeetCode 5354. 通知所有员工所需的时间（DFS）](https://michael.blog.csdn.net/article/details/104737998) |
 | [LeetCode 5355. T 秒后青蛙的位置（BFS）](https://michael.blog.csdn.net/article/details/104737728) |
 
