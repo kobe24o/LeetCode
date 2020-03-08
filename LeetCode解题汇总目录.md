@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
- **已解决 732/1558** - **简单 356** **中等 328** **困难 48**
+ **已解决 740/1566** - **简单 358** **中等 332** **困难 50**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -557,6 +557,7 @@
 | [LeetCode 5338. 二叉树中的最长交错路径（递归，注意不要超时）](https://michael.blog.csdn.net/article/details/104725634#LeetCode_5338__medium_174) |
 | [LeetCode 5339. 二叉搜索子树的最大键值和（自底向上DP，返回vector多变量）](https://michael.blog.csdn.net/article/details/104725634#LeetCode_5339__hard_264) |
 | [LeetCode 5352. 生成每种字符都是奇数个的字符串](https://michael.blog.csdn.net/article/details/104738254) |
+| [LeetCode 5353. 灯泡开关 III](https://michael.blog.csdn.net/article/details/104740515) |
 | [LeetCode 5354. 通知所有员工所需的时间（DFS）](https://michael.blog.csdn.net/article/details/104737998) |
 | [LeetCode 5355. T 秒后青蛙的位置（BFS）](https://michael.blog.csdn.net/article/details/104737728) |
 
