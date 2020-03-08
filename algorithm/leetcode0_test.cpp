@@ -16,33 +16,29 @@ struct ListNode {
 using namespace std;
 class Solution {
 public:
-    int numTimesAllBlue(vector<int>& light) {
-        int n = light.size(), i, j, count = 0, rightLight = 0;
-        vector<bool> leftallok(n,false);
-        vector<bool> Lig(n,false);
-        for(i = 0; i < n; ++i)
+    int coinChange(vector<int>& coins, int amount) {
+        if(amount <= 0)
+            return 0;
+        int n = coins.size();
+//        sort(coins.begin(),coins.end());
+        int i, j, m, k = amount/coins[0];
+        vector<int> dp(amount+1, INT_MAX);
+        dp[0] = 0;
+
+        for(j = 0; j <= amount; ++j)
         {
-            Lig[light[i]-1] = true;
-            rightLight = max(rightLight, light[i]-1);
-            if(light[i]-1 == 0)
-                leftallok[0] = true;
-            else
+            if(dp[j] != INT_MAX)
             {
-                if(leftallok[light[i]-1-1])
-                    leftallok[light[i]-1] = true;
-            }
-            if(leftallok[light[i]-1])
-                for(j = light[i]; j <= rightLight; ++j)
+                for(m = 0; m < n; ++m)
                 {
-                    if(Lig[j])
-                        leftallok[j];
-                    else
-                        break;
+                    if(j <= amount-coins[m])
+                        dp[j+coins[m]] = min(dp[j]+1, dp[j+coins[m]]);
+                    if(dp[amount] != INT_MAX)
+                        return dp[amount];
                 }
-            if(leftallok[rightLight])
-                count++;
+            }
         }
-        return count;
+        return -1;
     }
 };
 
@@ -51,11 +47,11 @@ public:
 int main() {
     Solution s;
 
-    vector<int> v = {2,1,3,5,4};
+    vector<int> v = {456,117,5,145};
     vector<int> v1 = {5,6};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{2,1},{3,2}};//{4,2},{5,2},{6,5},{7,1},{8,3},{9,1},{10,1}};
-    s.numTimesAllBlue(v);
+    s.coinChange(v,1459);
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
     ListNode *h3 = new ListNode(8);
