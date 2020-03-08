@@ -21,6 +21,7 @@
 | [LeetCode 第 18 场双周赛（188/587，前32%）](https://michael.blog.csdn.net/article/details/104087738) |
 | [LeetCode 第 19 场双周赛（231/1120，前20.6%）](https://michael.blog.csdn.net/article/details/104230340) |
 | [LeetCode 第 20 场双周赛（294/1541，前19.1%，第1次全部通过）](https://michael.blog.csdn.net/article/details/104453219) |
+| [LeetCode 第 21 场双周赛（779/1913，前40.7%）](https://michael.blog.csdn.net/article/details/104725634) |
 
 ​          
 
@@ -551,4 +552,9 @@
 | [LeetCode 1366. 通过投票对团队排名（自定义排序）](https://michael.blog.csdn.net/article/details/104593866) |
 | [LeetCode 1367. 二叉树中的列表（双重递归）](https://michael.blog.csdn.net/article/details/104596571) |
 | [LeetCode 1368. 使网格图至少有一条有效路径的最小代价（BFS最短路径，难）](https://michael.blog.csdn.net/article/details/104598714) |
+| [LeetCode 5336. 上升下降字符串](https://michael.blog.csdn.net/article/details/104725634#LeetCode_5336__easy_8) |
+| [LeetCode 5337. 每个元音包含偶数次的最长子字符串（异或前缀值）](https://michael.blog.csdn.net/article/details/104725634#LeetCode_5337__medium_99) |
+| [LeetCode 5338. 二叉树中的最长交错路径（递归，注意不要超时）](https://michael.blog.csdn.net/article/details/104725634#LeetCode_5338__medium_174) |
+| [LeetCode 5339. 二叉搜索子树的最大键值和（自底向上DP，返回vector多变量）](https://michael.blog.csdn.net/article/details/104725634#LeetCode_5339__hard_264) |
+| [LeetCode 5355. T 秒后青蛙的位置（BFS）](https://michael.blog.csdn.net/article/details/104737728) |
 
