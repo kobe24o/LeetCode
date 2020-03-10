@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
- **已解决 740/1566** - **简单 358** **中等 332** **困难 50**
+ **已解决 744/1566** - **简单 358** **中等 336** **困难 50**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -31,6 +31,7 @@
 | [LeetCode 2. 两数相加（单链表反转）](https://blog.csdn.net/qq_21201267/article/details/97191786) |
 | [LeetCode 3. 无重复字符的最长子串（滑动窗口+哈希）](https://blog.csdn.net/qq_21201267/article/details/102333616) |
 | [LeetCode 4. 寻找两个有序数组的中位数（二分查找，难）](https://blog.csdn.net/qq_21201267/article/details/102828858) |
+| [LeetCode 6. Z 字形变换（找规律）](https://blog.csdn.net/qq_21201267/article/details/104782401) |
 | [LeetCode 7. 整数反转](https://blog.csdn.net/qq_21201267/article/details/100583336) |
 | [LeetCode 8. 字符串转换整数 (atoi)](https://blog.csdn.net/qq_21201267/article/details/100583821) |
 | [LeetCode 9. 回文数](https://blog.csdn.net/qq_21201267/article/details/100168231) |
@@ -552,12 +553,12 @@
 | [LeetCode 1366. 通过投票对团队排名（自定义排序）](https://michael.blog.csdn.net/article/details/104593866) |
 | [LeetCode 1367. 二叉树中的列表（双重递归）](https://michael.blog.csdn.net/article/details/104596571) |
 | [LeetCode 1368. 使网格图至少有一条有效路径的最小代价（BFS最短路径，难）](https://michael.blog.csdn.net/article/details/104598714) |
-| [LeetCode 5336. 上升下降字符串](https://michael.blog.csdn.net/article/details/104725634#LeetCode_5336__easy_8) |
-| [LeetCode 5337. 每个元音包含偶数次的最长子字符串（异或前缀值）](https://michael.blog.csdn.net/article/details/104725634#LeetCode_5337__medium_99) |
-| [LeetCode 5338. 二叉树中的最长交错路径（递归，注意不要超时）](https://michael.blog.csdn.net/article/details/104725634#LeetCode_5338__medium_174) |
-| [LeetCode 5339. 二叉搜索子树的最大键值和（自底向上DP，返回vector多变量）](https://michael.blog.csdn.net/article/details/104725634#LeetCode_5339__hard_264) |
-| [LeetCode 5352. 生成每种字符都是奇数个的字符串](https://michael.blog.csdn.net/article/details/104738254) |
-| [LeetCode 5353. 灯泡开关 III](https://michael.blog.csdn.net/article/details/104740515) |
-| [LeetCode 5354. 通知所有员工所需的时间（DFS）](https://michael.blog.csdn.net/article/details/104737998) |
-| [LeetCode 5355. T 秒后青蛙的位置（BFS）](https://michael.blog.csdn.net/article/details/104737728) |
+| [LeetCode 1370. 上升下降字符串](https://michael.blog.csdn.net/article/details/104725634#LeetCode_5336__easy_8) |
+| [LeetCode 1371. 每个元音包含偶数次的最长子字符串（异或前缀值）](https://michael.blog.csdn.net/article/details/104725634#LeetCode_5337__medium_99) |
+| [LeetCode 1372. 二叉树中的最长交错路径（递归，注意不要超时）](https://michael.blog.csdn.net/article/details/104725634#LeetCode_5338__medium_174) |
+| [LeetCode 1373. 二叉搜索子树的最大键值和（自底向上DP，返回vector多变量）](https://michael.blog.csdn.net/article/details/104725634#LeetCode_5339__hard_264) |
+| [LeetCode 1374. 生成每种字符都是奇数个的字符串](https://michael.blog.csdn.net/article/details/104738254) |
+| [LeetCode 1375. 灯泡开关 III](https://michael.blog.csdn.net/article/details/104740515) |
+| [LeetCode 1376. 通知所有员工所需的时间（DFS）](https://michael.blog.csdn.net/article/details/104737998) |
+| [LeetCode 1377. T 秒后青蛙的位置（BFS）](https://michael.blog.csdn.net/article/details/104737728) |
 
