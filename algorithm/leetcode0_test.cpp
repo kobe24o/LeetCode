@@ -16,31 +16,24 @@ struct ListNode {
 using namespace std;
 class Solution {
 public:
-    int coinChange(vector<int>& coins, int amount) {
-        if(amount <= 0)
-            return 0;
-        int n = coins.size();
-//        sort(coins.begin(),coins.end());
-        int i, j, m, k = amount/coins[0];
-        vector<int> dp(amount+1, INT_MAX);
-        dp[0] = 0;
-
-        for(j = 0; j <= amount; ++j)
+    int nthUglyNumber(int n) {
+        int dp[n+1] = {0};
+        dp[1] = 1;
+        int i2=1, i3=1, i5=1;
+        for(int i = 2; i <= n; i++)
         {
-            if(dp[j] != INT_MAX)
-            {
-                for(m = 0; m < n; ++m)
-                {
-                    if(j <= amount-coins[m])
-                        dp[j+coins[m]] = min(dp[j]+1, dp[j+coins[m]]);
-                    if(dp[amount] != INT_MAX)
-                        return dp[amount];
-                }
-            }
+            dp[i] = min(dp[i2]*2, min(dp[i3]*3, dp[i5]*5));
+            if(dp[i2]*2 == dp[i])
+                i2++;
+            if(dp[i3]*3 == dp[i])
+                i3++;
+            if(dp[i5]*5 == dp[i])
+                i5++;
         }
-        return -1;
+        return dp[n];
     }
 };
+
 
 
 
@@ -51,7 +44,7 @@ int main() {
     vector<int> v1 = {5,6};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{2,1},{3,2}};//{4,2},{5,2},{6,5},{7,1},{8,3},{9,1},{10,1}};
-    s.coinChange(v,1459);
+    s.nthUglyNumber(20);
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
     ListNode *h3 = new ListNode(8);
