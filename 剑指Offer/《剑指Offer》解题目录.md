@@ -43,6 +43,7 @@
 | [剑指Offer - 面试题44. 数字序列中某一位的数字（数学）](https://michael.blog.csdn.net/article/details/103571864) |
 | [剑指Offer - 面试题45. 把数组排成最小的数（字符串排序）](https://michael.blog.csdn.net/article/details/104451645) |
 | [剑指Offer - 面试题47. 礼物的最大价值（动态规划）](https://michael.blog.csdn.net/article/details/104711602) |
+| [剑指Offer - 面试题48. 最长不含重复字符的子字符串（滑动窗口）](https://michael.blog.csdn.net/article/details/102333616) |
 | [剑指Offer - 面试题49. 丑数（DP）](https://michael.blog.csdn.net/article/details/103738537) |
 | [剑指Offer - 面试题50. 第一个只出现一次的字符（unordered_map）](https://michael.blog.csdn.net/article/details/104322216) |
 | [剑指Offer - 面试题52. 两个链表的第一个公共节点](https://michael.blog.csdn.net/article/details/100168364) |
