@@ -35,6 +35,7 @@
 | [剑指Offer - 面试题32 - III. 从上到下打印二叉树 III（BFS，queue+stack）](https://michael.blog.csdn.net/article/details/104357304) |
 | [剑指Offer - 面试题33. 二叉搜索树的后序遍历序列（递归）](https://blog.csdn.net/qq_21201267/article/details/104380517) |
 | [剑指Offer - 面试题34. 二叉树中和为某一值的路径](https://michael.blog.csdn.net/article/details/100550154) |
+| [剑指Offer - 面试题35. 复杂链表的复制（原地算法值得学习）](https://michael.blog.csdn.net/article/details/101570854) |
 | [剑指Offer - 面试题38. 字符串的排列（全排列，排序，回溯+剪枝）](https://michael.blog.csdn.net/article/details/104407890) |
 | [剑指Offer - 面试题39. 数组中出现次数超过一半的数字（摩尔投票）](https://michael.blog.csdn.net/article/details/99249031) |
 | [剑指Offer - 面试题40. 最小的k个数（排序/大顶堆）](https://michael.blog.csdn.net/article/details/104327350) |
