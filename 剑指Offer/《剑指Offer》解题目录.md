@@ -1,6 +1,6 @@
 题目来源于LeetCode上的[《剑指Offer》](https://leetcode-cn.com/problemset/lcof/)，这里做一个目录方便大家查找。另外有本人的[LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)、[《程序员面试金典》解题目录](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode解题目录](https://blog.csdn.net/qq_21201267/article/details/104603021) 可点击链接查看。updated on 2020.3.7
 
-**已解决 63/75** - **简单 42** **中等 20** **困难 1**
+**已解决 67/75** - **简单 42** **中等 24** **困难 1**
 
 | 已解题目                                                     |
 | :----------------------------------------------------------- |
@@ -68,6 +68,7 @@
 | [剑指Offer - 面试题64. 求1+2+…+n（递归）](https://blog.csdn.net/qq_21201267/article/details/104303145) |
 | [剑指Offer - 面试题65. 不用加减乘除做加法（位运算，要看哦）**](https://michael.blog.csdn.net/article/details/104303944) |
 | [剑指Offer - 面试题66. 构建乘积数组（正反遍历）](https://michael.blog.csdn.net/article/details/104322129) |
+| [剑指Offer - 面试题67. 把字符串转换成整数](https://michael.blog.csdn.net/article/details/100583821) |
 | [剑指Offer - 面试题68 - I. 二叉搜索树的最近公共祖先 **](https://michael.blog.csdn.net/article/details/100868602) |
 | [剑指Offer - 面试题68 - II. 二叉树的最近公共祖先（要复习哦）**](https://michael.blog.csdn.net/article/details/100869188) |
 

@@ -15,51 +15,31 @@ struct ListNode {
 
 using namespace std;
 class Solution {
-    int M;
 public:
-    /**
-     * @param nums: a list of integers
-     * @param m: an integer
-     * @return: return a integer
-     */
-    int splitArray(vector<int> &nums, int m) {
-        int maxsum = INT_MAX;
-        int s = 0;
-        for(int i = 0; i < nums.size(); ++i)
-            s += nums[i];
-        if(m==1)
-            return min(maxsum,s);
-        M=m;
-        for(int i = 0; i <= nums.size()-m; i++)
+    int strToInt(string s) {
+        int i, n = s.size();
+        while(i < n && s[i] == ' ')
+            i++;
+        if(!isdigit(s[i]) && s[i] != '+' && s[i] != '-')
+            return 0;
+        long num = 0;
+        bool negative = false;
+        if(s[i] == '+')
+            i++;
+        else if(s[i] == '-')
         {
-            int part1 = cut(nums,0,i,1);
-            int part2 = cut(nums,i+1,nums.size()-1,m-1);
-
-            maxsum = min(maxsum, max(part1,part2));
+            negative = true;
+            i++;
         }
-        return maxsum;
-    }
-
-    int cut(vector<int> &nums,int l, int r, int m)
-    {
-        if(m == 1 || l==r)
+        while(i < n && isdigit(s[i]))
         {
-            return accumulate(nums.begin()+l, nums.begin()+r+1,0);
+            num = num*10 + (negative ? -(s[i]-'0') : (s[i]-'0'));
+            if(num >= INT_MAX)
+                return INT_MAX;
+            else if(num <= INT_MIN)
+                return INT_MIN;
         }
-        int partsum = INT_MAX, part1, part2;
-        for(int i = l; i <= r+1-m; i++)
-        {
-
-            part1 = cut(nums,l,i,1);
-            part2 = cut(nums,i+1,r,m-1);
-            if(m==M)
-                partsum = min(partsum,  max(part1,part2));
-            else
-                partsum = max(part1,part2);
-        }
-
-
-        return partsum;
+        return num;
     }
 };
 
@@ -72,7 +52,7 @@ int main() {
     vector<int> v1 = {5,6};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{2,1},{3,2}};//{4,2},{5,2},{6,5},{7,1},{8,3},{9,1},{10,1}};
-    cout << s.splitArray(v,8) << endl;
+    cout << s.strToInt("-2.1e+10") << endl;
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
     ListNode *h3 = new ListNode(8);

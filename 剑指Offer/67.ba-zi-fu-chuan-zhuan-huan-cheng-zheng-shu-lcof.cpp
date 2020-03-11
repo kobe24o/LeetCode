@@ -1,16 +1,16 @@
 class Solution {
 public:
     int strToInt(string s) {
-    	int i, n = s.size();
+    	int i = 0, n = s.size();
 		while(i < n && s[i] == ' ')
 			i++;
 		if(!isdigit(s[i]) && s[i] != '+' && s[i] != '-')
 			return 0;
-		long num = 0;
+		long long num = 0;
 		bool negative = false;
-		if(s[i] == '+')
+		if(i < n && s[i] == '+')
 			i++;
-		else if(s[i] == '-')
+		else if(i < n && s[i] == '-')
 		{
 			negative = true;
 			i++;
@@ -22,6 +22,7 @@ public:
 				return INT_MAX;
 			else if(num <= INT_MIN)
 				return INT_MIN;
+            i++;
 		}
 		return num;
     }
