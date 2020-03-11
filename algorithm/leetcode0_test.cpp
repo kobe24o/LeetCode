@@ -16,43 +16,40 @@ struct ListNode {
 using namespace std;
 class Solution {
 public:
-    int strToInt(string s) {
-        int i, n = s.size();
-        while(i < n && s[i] == ' ')
-            i++;
-        if(!isdigit(s[i]) && s[i] != '+' && s[i] != '-')
-            return 0;
-        long num = 0;
-        bool negative = false;
-        if(s[i] == '+')
-            i++;
-        else if(s[i] == '-')
+    /*
+     * @param A: An integer matrix
+     * @return: The index of the peak
+     */
+    vector<int> findPeakII(vector<vector<int>> &A) {
+        int n = A.size(), m = A[0].size();
+        int i = 1, j = 1;
+        vector<int> ans(2,1);
+        for( ; 1 ; ++i)
         {
-            negative = true;
-            i++;
+            while(A[i][j] < A[i][j+1])
+                j++;
+            while(A[i][j] < A[i][j-1])
+                j--;
+            if(A[i][j] > A[i+1][j] && A[i][j] > A[i-1][j])
+            {
+                ans[0] = i;
+                ans[1] = j;
+                return ans;
+            }
         }
-        while(i < n && isdigit(s[i]))
-        {
-            num = num*10 + (negative ? -(s[i]-'0') : (s[i]-'0'));
-            if(num >= INT_MAX)
-                return INT_MAX;
-            else if(num <= INT_MIN)
-                return INT_MIN;
-        }
-        return num;
+        return ans;
     }
 };
-
 
 
 int main() {
     Solution s;
 
-    vector<int> v = {10,5,13,4,8,4,5,11,14,9,16,10,20,8};
+    vector<vector<int>> v = {{1,3,2},{4,6,5},{7,9,8},{13,15,14},{10,12,11}};
     vector<int> v1 = {5,6};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{2,1},{3,2}};//{4,2},{5,2},{6,5},{7,1},{8,3},{9,1},{10,1}};
-    cout << s.strToInt("-2.1e+10") << endl;
+    s.findPeakII(v);
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
     ListNode *h3 = new ListNode(8);
