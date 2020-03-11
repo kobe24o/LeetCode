@@ -27,6 +27,7 @@
 | [LintCode 386. 最多有k个不同字符的最长子字符串（双指针）](https://michael.blog.csdn.net/article/details/104705588) |
 | [LintCode 550. 最常使用的K个单词II（自定义set（可修改数据的优先队列） + map）](https://michael.blog.csdn.net/article/details/104707698) |
 | [LintCode 563. 背包问题 V（DP）](https://michael.blog.csdn.net/article/details/104752590) |
+| [LintCode 633. 寻找重复的数（这个题要复习）](https://michael.blog.csdn.net/article/details/104785764) |
 | [LintCode 1652. 区间异或 II](https://michael.blog.csdn.net/article/details/104687019) |
 | [LintCode 1671. 玩游戏（贪心、难）](https://michael.blog.csdn.net/article/details/104679807) |
 | [LintCode 1677. 石头（自定义优先队列）](https://blog.csdn.net/qq_21201267/article/details/104719837) |
