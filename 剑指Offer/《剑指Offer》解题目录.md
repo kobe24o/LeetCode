@@ -1,6 +1,6 @@
-题目来源于LeetCode上的[《剑指Offer》](https://leetcode-cn.com/problemset/lcof/)，这里做一个目录方便大家查找。另外有本人的[LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)、[《程序员面试金典》解题目录](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode解题目录](https://blog.csdn.net/qq_21201267/article/details/104603021) 可点击链接查看。updated on 2020.3.7
+题目来源于LeetCode上的[《剑指Offer》](https://leetcode-cn.com/problemset/lcof/)，这里做一个目录方便大家查找。另外有本人的[LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)、[《程序员面试金典》解题目录](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode解题目录](https://blog.csdn.net/qq_21201267/article/details/104603021) 可点击链接查看。updated on 2020.3.12
 
-**已解决 67/75** - **简单 42** **中等 24** **困难 1**
+**已解决 69/75** - **简单 42** **中等 26** **困难 1**
 
 | 已解题目                                                     |
 | :----------------------------------------------------------- |
@@ -56,6 +56,8 @@
 | [剑指Offer - 面试题54. 二叉搜索树的第k大节点（二叉树循环遍历）](https://michael.blog.csdn.net/article/details/104332968) |
 | [剑指Offer - 面试题55 - I. 二叉树的深度（递归/循环）](https://michael.blog.csdn.net/article/details/99690644) |
 | [剑指Offer - 面试题55 - II. 平衡二叉树（递归）](https://michael.blog.csdn.net/article/details/100783394) |
+| [剑指Offer - 面试题56 - I. 数组中数字出现的次数（异或，分组）*](https://blog.csdn.net/qq_21201267/article/details/104827266) |
+| [剑指Offer - 面试题56 - II. 数组中数字出现的次数 II（位运算）](https://michael.blog.csdn.net/article/details/101102832) |
 | [剑指Offer - 面试题57. 和为s的两个数字（双指针）](https://michael.blog.csdn.net/article/details/104321160) |
 | [剑指Offer - 面试题57 - II. 和为s的连续正数序列（滑动窗口）](https://michael.blog.csdn.net/article/details/104321869) |
 | [剑指Offer - 面试题58 - I. 翻转单词顺序（栈）](https://michael.blog.csdn.net/article/details/99663417) |
