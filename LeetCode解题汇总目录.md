@@ -76,6 +76,7 @@
 | [LeetCode 62. 不同路径（DP）](https://blog.csdn.net/qq_21201267/article/details/100148537) |
 | [LeetCode 63. 不同路径 II（DP）](https://michael.blog.csdn.net/article/details/102961510) |
 | [LeetCode 64. 最小路径和（DP）](https://blog.csdn.net/qq_21201267/article/details/100025545) |
+| [LeetCode 65. 有效数字（逻辑题，难）](https://blog.csdn.net/qq_21201267/article/details/104825661) |
 | [LeetCode 67. 二进制求和](https://blog.csdn.net/qq_21201267/article/details/101211346) |
 | [LeetCode 69. x 的平方根（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100585531) |
 | [LeetCode 70. 爬楼梯（动态规划）](https://blog.csdn.net/qq_21201267/article/details/98478956) |

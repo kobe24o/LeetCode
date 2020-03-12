@@ -20,6 +20,7 @@
 | [剑指Offer - 面试题16. 数值的整数次方（递归/循环）](https://michael.blog.csdn.net/article/details/102489210) |
 | [剑指Offer - 面试题17. 打印从1到最大的n位数](https://michael.blog.csdn.net/article/details/104289534) |
 | [剑指Offer - 面试题18. 删除链表的节点](https://blog.csdn.net/qq_21201267/article/details/104300064) |
+| [剑指Offer - 面试题20. 表示数值的字符串](https://michael.blog.csdn.net/article/details/104825661) |
 | [剑指Offer - 面试题21. 调整数组顺序使奇数位于偶数前面（双指针，原地算法）](https://michael.blog.csdn.net/article/details/104304117) |
 | [剑指Offer - 面试题22. 链表中倒数第k个节点（快慢指针）](https://blog.csdn.net/qq_21201267/article/details/104318179) |
 | [剑指Offer - 面试题24. 反转链表](https://blog.csdn.net/qq_21201267/article/details/104301888) |
