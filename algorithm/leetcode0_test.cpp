@@ -14,84 +14,107 @@ struct ListNode {
 };
 
 using namespace std;
-class Solution {
+class node
+{
 public:
-    bool isNumber(string s) {
-        //去除尾部空格
-        while(!s.empty() && s.back() == ' ')
-            s.pop_back();
-        while(!s.empty() && s.front() == ' ')
-            s.erase(s.begin());//忽略头部空格
-        if(s.empty())
-            return false;
-        if(!isdigit(s[0]) && s[0] != '.' && s[0] != '+' && s[0] != '-')
-            return false;
-        int i, n = s.size();
-        multimap<char,int> m;
-        for(i = 0; i < n; ++i)
-        {
-            if(s[i]=='+' || s[i] =='-')
-                m.insert(make_pair('+',i));
-            else if(s[i]=='-')
-                m.insert(make_pair('-',i));
-            else if(s[i]=='e' || s[i]=='E')
-                m.insert(make_pair('E',i));
-            else if(s[i]=='.')
-                m.insert(make_pair('.',i));
-            else if(s[i] == ' ' || !isdigit(s[i]))
-                return false;
-        }
+    int sum;
+    int start, end;
+    node *left, *right;
+    node(int s, int e, int v):start(s),end(e),sum(v)
+    {
+        left = right = NULL;
+    }
 
-        auto s1 = m.lower_bound('E');
-        auto e1 = m.upper_bound('E');
-        auto pe = m.find('E');
-        auto pdot = m.find('.');
-        if(distance(s1,e1) > 1 || (m.count('E') && pe->second==n-1))
-            return false;
-        s1 = m.lower_bound('.');
-        e1 = m.upper_bound('.');
-        if(distance(s1,e1) > 1)
-            return false;
-        if(m.count('.') && ((m.count('E') && pe->second < pdot->second) ||(n==1)))
-            return false;
-        s1 = m.lower_bound('+');
-        e1 = m.upper_bound('+');
-        int d = distance(s1,e1);
-        if(d > 2)
-            return false;
-        else if(d == 1)
+    static node* build(vector<int>& A, int l, int r)
+    {
+        if(l > r)
+            return NULL;
+        node* head = new node(l,r,A[l]);
+        if(l == r)
+            return head;
+        int mid = l+((r-l)>>1);
+        head->left = build(A,l,mid);
+        head->right = build(A,mid+1,r);
+        head->sum = 0;
+        if(head->left)
+            head->sum += head->left->sum;
+        if(head->right)
+            head->sum += head->right->sum;
+        return head;
+    }
+
+    static long long query(node* head, int s, int e)
+    {
+        if(s > head->end || e < head->start)
+            return 0;
+        if(head->start >= s && head->end <= e)
+            return head->sum;
+        int vl = query(head->left, s, e);
+        int vr = query(head->right,s, e);
+        return vl+vr;
+    }
+
+    static void modify(node* head, int id, int val)
+    {
+        if(head->start == head->end)
         {
-            if(!m.count('E') && s1->second != 0)
-                return false;
-            else if(s1->second != 0 && (m.count('E') && s1->second != pe->second+1))
-                return false;
-            else if(s1->second == n-1)
-                return false;
+            head->sum = val;
+            return;
         }
-        else if (d == 2)
-        {
-            if(!m.count('E'))
-                return false;
-            if(s1->second != 0 || (++s1)->second != pe->second+1)
-                return false;
-            else if(s1->second == n-1)
-                return false;
-        }
-        if(s.find(".e") == 0 || s.find(".E") == 0  || s.find("+.") != string::npos || s.find("-.") != string::npos)
-            return false;
-        return true;
+        int mid = (head->start + head->end)/2;
+        if(id > mid)
+            modify(head->right, id, val);
+        else
+            modify(head->left, id, val);
+        head->sum = 0;
+        if(head->left)
+            head->sum += head->left->sum;
+        if(head->right)
+            head->sum += head->right->sum;
+    }
+};
+class Solution {
+    node *head;
+public:
+    /* you may need to use some attributes here */
+
+    /*
+    * @param A: An integer array
+    */
+    Solution(vector<int> A) {
+        head = node::build(A,0,A.size()-1);
+    }
+
+    /*
+     * @param start: An integer
+     * @param end: An integer
+     * @return: The sum from start to end
+     */
+    long long query(int start, int end) {
+        return node::query(head, start,end);
+    }
+
+    /*
+     * @param index: An integer
+     * @param value: An integer
+     * @return: nothing
+     */
+    void modify(int index, int value) {
+        node::modify(head, index,value);
     }
 };
 
 
 int main() {
-    Solution s;
-
     vector<vector<int>> v = {{1,3,2},{4,6,5},{7,9,8},{13,15,14},{10,12,11}};
-    vector<int> v1 = {5,6};
+    vector<int> v1 = {1,2,7,8,5};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{2,1},{3,2}};//{4,2},{5,2},{6,5},{7,1},{8,3},{9,1},{10,1}};
-    cout << s.isNumber("+.8") << endl;
+    Solution s(v1);
+    s.query(2,3);
+    s.modify(0,4);
+    s.query(0,1);
+    s.modify(2,1);
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
     ListNode *h3 = new ListNode(8);
