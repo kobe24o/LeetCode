@@ -14,107 +14,65 @@ struct ListNode {
 };
 
 using namespace std;
-class node
-{
-public:
-    int sum;
-    int start, end;
-    node *left, *right;
-    node(int s, int e, int v):start(s),end(e),sum(v)
-    {
-        left = right = NULL;
-    }
-
-    static node* build(vector<int>& A, int l, int r)
-    {
-        if(l > r)
-            return NULL;
-        node* head = new node(l,r,A[l]);
-        if(l == r)
-            return head;
-        int mid = l+((r-l)>>1);
-        head->left = build(A,l,mid);
-        head->right = build(A,mid+1,r);
-        head->sum = 0;
-        if(head->left)
-            head->sum += head->left->sum;
-        if(head->right)
-            head->sum += head->right->sum;
-        return head;
-    }
-
-    static long long query(node* head, int s, int e)
-    {
-        if(s > head->end || e < head->start)
-            return 0;
-        if(head->start >= s && head->end <= e)
-            return head->sum;
-        int vl = query(head->left, s, e);
-        int vr = query(head->right,s, e);
-        return vl+vr;
-    }
-
-    static void modify(node* head, int id, int val)
-    {
-        if(head->start == head->end)
-        {
-            head->sum = val;
-            return;
-        }
-        int mid = (head->start + head->end)/2;
-        if(id > mid)
-            modify(head->right, id, val);
-        else
-            modify(head->left, id, val);
-        head->sum = 0;
-        if(head->left)
-            head->sum += head->left->sum;
-        if(head->right)
-            head->sum += head->right->sum;
-    }
-};
 class Solution {
-    node *head;
 public:
-    /* you may need to use some attributes here */
-
-    /*
-    * @param A: An integer array
-    */
-    Solution(vector<int> A) {
-        head = node::build(A,0,A.size()-1);
+    /**
+     * @param atk1: the power of heros
+     * @param atk2: the power of monsters
+     * @return: how many monsters can you kill at most?
+     */
+    int getAns(vector<int> &atk1, vector<int> &atk2) {
+        sort(atk1.begin(),atk1.end());
+        sort(atk2.begin(),atk2.end());
+        int i = 0, j = 0, count = 0;
+        for(i = 0; i < atk1.size(); ++i)
+        {
+            cout << atk1[i] << " ";
+            j = bs(atk2,atk1[i],0,atk2.size()-1);
+            if(j == -1){
+                cout << atk2.back() << "fail " << endl;
+                atk2.pop_back();
+            }
+            else
+            {
+                count++;
+                cout << *(atk2.begin()+j) << " win" << endl;
+                atk2.erase(atk2.begin()+j);
+            }
+        }
+        return count;
     }
 
-    /*
-     * @param start: An integer
-     * @param end: An integer
-     * @return: The sum from start to end
-     */
-    long long query(int start, int end) {
-        return node::query(head, start,end);
-    }
-
-    /*
-     * @param index: An integer
-     * @param value: An integer
-     * @return: nothing
-     */
-    void modify(int index, int value) {
-        node::modify(head, index,value);
+    int bs(vector<int>& a, int &target, int l, int r)
+    {
+        int mid;
+        while(l <= r)
+        {
+            mid = l+((r-l)>>1);
+            if(a[mid] > target)
+                r = mid-1;
+            else
+            {
+                if((mid==a.size()-1) || a[mid+1] > target)
+                    return mid;
+                else
+                    l = mid+1;
+            }
+        }
+        return -1;
     }
 };
 
 
 int main() {
     vector<vector<int>> v = {{1,3,2},{4,6,5},{7,9,8},{13,15,14},{10,12,11}};
-    vector<int> v1 = {1,2,7,8,5};
+    vector<int> v1 = {17,17,37,20,35,21,33,16,3,45};
+    vector<int> v3 = {21,44,5,21,33,38,23,5,25,43};
     string str = "eceeeefasdghjklqwertyuio";
-    vector<vector<int>> v2 = {{2,1},{3,2}};//{4,2},{5,2},{6,5},{7,1},{8,3},{9,1},{10,1}};
-    Solution s(v1);
-    s.query(2,3);
-    s.modify(0,4);
-    s.query(0,1);
-    s.modify(2,1);
+    vector<vector<int>> v2 = {{2,1},{2,3}};//{4,2},{5,2},{6,5},{7,1},{8,3},{9,1},{10,1}};
+    Solution s;
+    s.getAns(v1,v3);
+
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
     ListNode *h3 = new ListNode(8);
