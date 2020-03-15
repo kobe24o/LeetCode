@@ -5,52 +5,80 @@
  * @modified by: 
  */
 #include <bits/stdc++.h>
-
 struct ListNode {
     int val;
     ListNode *next;
 
     ListNode(int x) : val(x), next(NULL) {}
 };
-
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
 using namespace std;
-class Solution {
+
+class CustomStack {
+    int s, v;
+    int count = 0;
+    deque<int> q;
+    deque<int> q1;
 public:
-    int lengthOfLIS(vector<int>& nums) {
-        if(nums.size() == 0)
-            return 0;
-        int i, l, r, n = nums.size(), maxlen = 0, idx;
-        vector<int> arr(nums);
-        for(i = 0; i < n; ++i)
-        {
-            l = 0, r = maxlen;
-            idx = bs(nums,arr,l,maxlen,nums[i],maxlen);
-            if(idx == maxlen)
-            {
-                arr[idx+1] = nums[i];
-                maxlen++;
-            }
-        }
-        return maxlen;
+    CustomStack(int maxSize) {
+        s = maxSize;
     }
 
-    int bs(vector<int>& nums, vector<int> &arr, int l, int r, int& target, int& maxlen)
-    {
-        int mid;
-        while(l <= r)
+    void push(int x) {
+        if(count < s)
         {
-            mid = l + ((r-l)>>1);
-            if(arr[mid] < target)
-                l = mid+1;
-            else
-            {
-                if(mid == maxlen || arr[mid+1] > target)
-                    break;
-                else
-                    r = mid-1;
-            }
+            q.push_back(x);
+            count++;
         }
-        return -1;
+    }
+
+    int pop() {
+        if(s==0)
+            return -1;
+        if(!q.empty())
+        {
+            v = q.back();
+            q.pop_back();
+            count--;
+        }
+        else
+        {
+            v = q1.back();
+            q1.pop_back();
+            count--;
+        }
+        return v;
+    }
+
+    void increment(int k, int val) {
+        int t = min(k, count);
+        k = t;
+        t = t - q1.size();
+        while(t>0)
+        {
+            v = q.front();
+            q.pop_front();
+            q1.push_back(v);
+            t--;
+        }
+        t = k;
+        while(t>0)
+        {
+            v = q1.front()+val;
+            q1.pop_front();
+            q1.push_back(v);
+            t--;
+        }
+        while(k--)
+        {
+            q1.push_front(q1.back());
+            q1.pop_back();
+        }
     }
 };
 
@@ -59,9 +87,30 @@ int main() {
     vector<int> v1 = {10,9,2,5,3,7,101,18};
     vector<int> v3 = {21,44,5,21,33,38,23,5,25,43};
     string str = "eceeeefasdghjklqwertyuio";
-    vector<vector<int>> v2 = {{2,1},{2,3}};//{4,2},{5,2},{6,5},{7,1},{8,3},{9,1},{10,1}};
-    Solution s;
-    s.lengthOfLIS(v1);
+    vector<vector<int>> v2 = {{3,7,8},{9,11,13},{15,16,17}};
+
+    CustomStack s(3);
+    s.push(1);
+    s.push(2);
+    s.pop();
+    s.push(2);
+    s.push(3);
+    s.push(4);
+    s.increment(5,100);
+    s.increment(2,100);
+    s.pop();
+    s.pop();
+    s.pop();
+    s.pop();
+
+    TreeNode *t1 = new TreeNode(1);
+    TreeNode *t2 = new TreeNode(2);
+    TreeNode *t3 = new TreeNode(3);
+    TreeNode *t4 = new TreeNode(4);
+    t2->left = t1;
+    t2->right = t3;
+    t3->right = t4;
+
 
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
