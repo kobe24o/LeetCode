@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
- **已解决 752/1568** - **简单 358** **中等 343** **困难 51**
+ **已解决 756/1572** - **简单 359** **中等 345** **困难 52**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -564,4 +564,6 @@
 | [LeetCode 1377. T 秒后青蛙的位置（BFS）](https://michael.blog.csdn.net/article/details/104737728) |
 | [LeetCode 5179. 将二叉搜索树变平衡（中序遍历+二分递归）](https://michael.blog.csdn.net/article/details/104879123) |
 | [LeetCode 5356. 矩阵中的幸运数（set）](https://michael.blog.csdn.net/article/details/104878993) |
+| [LeetCode 5357. 设计一个支持增量操作的栈（deque/数组）](https://michael.blog.csdn.net/article/details/104879528) |
+| [LeetCode 5359. 最大的团队表现值（贪心，优先队列，难）](https://michael.blog.csdn.net/article/details/104882484) |
 
