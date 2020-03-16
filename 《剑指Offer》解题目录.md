@@ -43,6 +43,7 @@
 | [剑指Offer - 面试题40. 最小的k个数（排序/大顶堆）](https://michael.blog.csdn.net/article/details/104327350) |
 | [剑指Offer - 面试题41. 数据流中的中位数（大小堆）](https://michael.blog.csdn.net/article/details/102865997) |
 | [剑指Offer - 面试题42. 连续子数组的最大和（动态规划）](https://michael.blog.csdn.net/article/details/97559470) |
+| [剑指Offer - 面试题43. 1～n整数中1出现的次数（找规律+公式）*](https://michael.blog.csdn.net/article/details/104911201) |
 | [剑指Offer - 面试题44. 数字序列中某一位的数字（数学）](https://michael.blog.csdn.net/article/details/103571864) |
 | [剑指Offer - 面试题45. 把数组排成最小的数（字符串排序）](https://michael.blog.csdn.net/article/details/104451645) |
 | [剑指Offer - 面试题46. 把数字翻译成字符串（DP）](https://blog.csdn.net/qq_21201267/article/details/104797475) |

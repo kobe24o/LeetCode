@@ -188,6 +188,7 @@
 | [LeetCode 230. 二叉搜索树中第K小的元素（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100530272) |
 | [LeetCode 231. 2的幂 && LeetCode 338. 比特位计数（2进制1的个数）](https://blog.csdn.net/qq_21201267/article/details/100084705) |
 | [LeetCode 232. 用栈实现队列（双栈法->队列）](https://blog.csdn.net/qq_21201267/article/details/100800928) |
+| [LeetCode 233. 数字 1 的个数（找规律）](https://michael.blog.csdn.net/article/details/104911201) |
 | [LeetCode 234. 回文链表（快慢指针+链表反转）](https://blog.csdn.net/qq_21201267/article/details/101678435) |
 | [LeetCode 235. 二叉搜索树的最近公共祖先](https://blog.csdn.net/qq_21201267/article/details/100868602) |
 | [LeetCode 236. 二叉树的最近公共祖先](https://blog.csdn.net/qq_21201267/article/details/100869188) |
