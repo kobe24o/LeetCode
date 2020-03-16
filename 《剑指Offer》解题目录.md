@@ -1,6 +1,6 @@
 题目来源于LeetCode上的[《剑指Offer》](https://leetcode-cn.com/problemset/lcof/)，这里做一个目录方便大家查找。另外有本人的[LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)、[《程序员面试金典》解题目录](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode解题目录](https://blog.csdn.net/qq_21201267/article/details/104603021) 可点击链接查看。updated on 2020.3.12
 
-**已解决 69/75** - **简单 42** **中等 26** **困难 1**
+**已解决 74/75** - **简单 42** **中等 29** **困难 3**
 
 | 已解题目                                                     |
 | :----------------------------------------------------------- |
@@ -15,7 +15,7 @@
 | [剑指Offer - 面试题11. 旋转数组的最小数字（二分查找，难）](https://blog.csdn.net/qq_21201267/article/details/104295164) |
 | [剑指Offer - 面试题12. 矩阵中的路径（DFS回溯）](https://blog.csdn.net/qq_21201267/article/details/104299657) |
 | [剑指Offer - 面试题13. 机器人的运动范围（BFS/DFS）](https://michael.blog.csdn.net/article/details/104304746) |
-| [剑指Offer - 面试题14- I. 剪绳子（DP）**](https://michael.blog.csdn.net/article/details/102942661) |
+| [剑指Offer - 面试题14- I. 剪绳子（DP）、剪绳子 II **](https://michael.blog.csdn.net/article/details/102942661) |
 | [剑指Offer - 面试题15. 二进制中1的个数（位运算）](https://michael.blog.csdn.net/article/details/104289467) |
 | [剑指Offer - 面试题16. 数值的整数次方（递归/循环）](https://michael.blog.csdn.net/article/details/102489210) |
 | [剑指Offer - 面试题17. 打印从1到最大的n位数](https://michael.blog.csdn.net/article/details/104289534) |
@@ -38,6 +38,7 @@
 | [剑指Offer - 面试题34. 二叉树中和为某一值的路径](https://michael.blog.csdn.net/article/details/100550154) |
 | [剑指Offer - 面试题35. 复杂链表的复制（原地算法值得学习）](https://michael.blog.csdn.net/article/details/101570854) |
 | [剑指Offer - 面试题36. 二叉搜索树与双向链表（中序循环/递归）](https://michael.blog.csdn.net/article/details/104795607) |
+| [剑指Offer - 面试题37. 序列化二叉树（前序/层序）](https://michael.blog.csdn.net/article/details/102513143) |
 | [剑指Offer - 面试题38. 字符串的排列（全排列，排序，回溯+剪枝）](https://michael.blog.csdn.net/article/details/104407890) |
 | [剑指Offer - 面试题39. 数组中出现次数超过一半的数字（摩尔投票）](https://michael.blog.csdn.net/article/details/99249031) |
 | [剑指Offer - 面试题40. 最小的k个数（排序/大顶堆）](https://michael.blog.csdn.net/article/details/104327350) |
