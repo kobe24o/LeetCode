@@ -19,89 +19,79 @@ struct TreeNode {
 };
 using namespace std;
 
-class CustomStack {
-    int s, v;
-    int count = 0;
-    deque<int> q;
-    deque<int> q1;
+class Solution {
+    int sum = 0;
+    vector<int> temp;
 public:
-    CustomStack(int maxSize) {
-        s = maxSize;
+    int reversePairs(vector<int>& nums) {
+        mergesort(nums,0,nums.size()-1);
+        temp.resize(nums.size());
+        return sum;
     }
 
-    void push(int x) {
-        if(count < s)
-        {
-            q.push_back(x);
-            count++;
-        }
+    void mergesort(vector<int>& arr, int l ,int r)
+    {
+        if(l >= r)
+            return;
+        int mid = l + ((r-l)>>1);
+        mergesort(arr,l,mid);
+        mergesort(arr,mid+1,r);
+        merge(arr,l,mid,r);
     }
 
-    int pop() {
-        if(s==0)
-            return -1;
-        if(!q.empty())
+    void merge(vector<int>& arr, int l, int mid, int r)
+    {
+        int i = l, j = mid+1, k = 0;
+        //方法1：后半部出队，sum+前半部 没有出来的个数(比后面大的)
+        while(i <= mid && j <= r)
         {
-            v = q.back();
-            q.pop_back();
-            count--;
+            if(arr[i] <= arr[j])
+                temp[k++] = arr[i++];
+            else
+            {
+                temp[k++] = arr[j++];
+                sum += mid-i+1;
+            }
         }
-        else
-        {
-            v = q1.back();
-            q1.pop_back();
-            count--;
-        }
-        return v;
-    }
+        while(i <= mid)//后面都出完了，前半部还剩一些
+            temp[k++] = arr[i++];
+        while(j <= r)
+            temp[k++] = arr[j++];
+        for(i = l,j = 0; j < k; )
+            arr[i++] = temp[j++];
 
-    void increment(int k, int val) {
-        int t = min(k, count);
-        k = t;
-        t = t - q1.size();
-        while(t>0)
-        {
-            v = q.front();
-            q.pop_front();
-            q1.push_back(v);
-            t--;
-        }
-        t = k;
-        while(t>0)
-        {
-            v = q1.front()+val;
-            q1.pop_front();
-            q1.push_back(v);
-            t--;
-        }
-        while(k--)
-        {
-            q1.push_front(q1.back());
-            q1.pop_back();
-        }
+        //方法2：前半部出队，sum+ 后半部 已经出队的数量(比前面的小)
+        // while(i <= mid && j <= r)
+        // {
+        // 	if(arr[i] <= arr[j])
+        // 	{
+        // 		temp[k++] = arr[i++];
+        // 		sum += j-(mid+1);
+        // 	}
+        // 	else
+        // 		temp[k++] = arr[j++];
+        // }
+        // while(i <= mid)//后面都出完了，前半部还剩一些，还需要操作
+        // {
+        // 	temp[k++] = arr[i++];
+        // 	sum += j-(mid+1);
+        // }
+        // while(j <= r)
+        // 	temp[k++] = arr[j++];
+        // for(i = l,j = 0; i < k; )
+        // 	arr[i++] = temp[j++];
     }
 };
 
 int main() {
     vector<vector<int>> v = {{1,3,2},{4,6,5},{7,9,8},{13,15,14},{10,12,11}};
-    vector<int> v1 = {10,9,2,5,3,7,101,18};
+    vector<int> v1 = {7,5,6,4};
     vector<int> v3 = {21,44,5,21,33,38,23,5,25,43};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{3,7,8},{9,11,13},{15,16,17}};
 
-    CustomStack s(3);
-    s.push(1);
-    s.push(2);
-    s.pop();
-    s.push(2);
-    s.push(3);
-    s.push(4);
-    s.increment(5,100);
-    s.increment(2,100);
-    s.pop();
-    s.pop();
-    s.pop();
-    s.pop();
+    Solution s;
+    s.reversePairs(v1);
 
     TreeNode *t1 = new TreeNode(1);
     TreeNode *t2 = new TreeNode(2);

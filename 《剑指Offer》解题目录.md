@@ -50,6 +50,7 @@
 | [剑指Offer - 面试题48. 最长不含重复字符的子字符串（滑动窗口）](https://michael.blog.csdn.net/article/details/102333616) |
 | [剑指Offer - 面试题49. 丑数（DP）](https://michael.blog.csdn.net/article/details/103738537) |
 | [剑指Offer - 面试题50. 第一个只出现一次的字符（unordered_map）](https://michael.blog.csdn.net/article/details/104322216) |
+| [剑指Offer - 面试题51. 数组中的逆序对（归并排序，求逆序对）](https://michael.blog.csdn.net/article/details/104899845) |
 | [剑指Offer - 面试题52. 两个链表的第一个公共节点](https://michael.blog.csdn.net/article/details/100168364) |
 | [剑指Offer - 面试题53 - I. 在排序数组中查找数字 I（二分查找的变形版本）](https://michael.blog.csdn.net/article/details/104335429) |
 | [剑指Offer - 面试题53 - II. 0～n-1中缺失的数字（二分、位运算）**](https://michael.blog.csdn.net/article/details/104333385) |
