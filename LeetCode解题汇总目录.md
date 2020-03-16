@@ -562,8 +562,8 @@
 | [LeetCode 1375. 灯泡开关 III](https://michael.blog.csdn.net/article/details/104740515) |
 | [LeetCode 1376. 通知所有员工所需的时间（DFS）](https://michael.blog.csdn.net/article/details/104737998) |
 | [LeetCode 1377. T 秒后青蛙的位置（BFS）](https://michael.blog.csdn.net/article/details/104737728) |
-| [LeetCode 5179. 将二叉搜索树变平衡（中序遍历+二分递归）](https://michael.blog.csdn.net/article/details/104879123) |
-| [LeetCode 5356. 矩阵中的幸运数（set）](https://michael.blog.csdn.net/article/details/104878993) |
-| [LeetCode 5357. 设计一个支持增量操作的栈（deque/数组）](https://michael.blog.csdn.net/article/details/104879528) |
-| [LeetCode 5359. 最大的团队表现值（贪心，优先队列，难）](https://michael.blog.csdn.net/article/details/104882484) |
+| [LeetCode 1380. 矩阵中的幸运数（set）](https://michael.blog.csdn.net/article/details/104878993) |
+| [LeetCode 1381. 设计一个支持增量操作的栈（deque/数组）](https://michael.blog.csdn.net/article/details/104879528) |
+| [LeetCode 1382. 将二叉搜索树变平衡（中序遍历+二分递归）](https://michael.blog.csdn.net/article/details/104879123) |
+| [LeetCode 1383. 最大的团队表现值（贪心，优先队列，难）](https://michael.blog.csdn.net/article/details/104882484) |
 
