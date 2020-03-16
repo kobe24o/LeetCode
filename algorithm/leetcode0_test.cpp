@@ -19,67 +19,44 @@ struct TreeNode {
 };
 using namespace std;
 
-class Solution {
-    int sum = 0;
-    vector<int> temp;
+class Codec {
 public:
-    int reversePairs(vector<int>& nums) {
-        mergesort(nums,0,nums.size()-1);
-        temp.resize(nums.size());
-        return sum;
+
+    // Encodes a tree to a single string.
+    string serialize(TreeNode* root) {
+        string s;
+        serialize(root, s);
+        return s;
     }
 
-    void mergesort(vector<int>& arr, int l ,int r)
-    {
-        if(l >= r)
-            return;
-        int mid = l + ((r-l)>>1);
-        mergesort(arr,l,mid);
-        mergesort(arr,mid+1,r);
-        merge(arr,l,mid,r);
+    // Decodes your encoded data to tree.
+    TreeNode* deserialize(string data) {
+        istringstream in(data);
+        return deserialize(in);
     }
-
-    void merge(vector<int>& arr, int l, int mid, int r)
+private:
+    void serialize(TreeNode* root, string& s)
     {
-        int i = l, j = mid+1, k = 0;
-        //方法1：后半部出队，sum+前半部 没有出来的个数(比后面大的)
-        while(i <= mid && j <= r)
+        if(!root)
         {
-            if(arr[i] <= arr[j])
-                temp[k++] = arr[i++];
-            else
-            {
-                temp[k++] = arr[j++];
-                sum += mid-i+1;
-            }
+            s += 'N ';
+            return;
         }
-        while(i <= mid)//后面都出完了，前半部还剩一些
-            temp[k++] = arr[i++];
-        while(j <= r)
-            temp[k++] = arr[j++];
-        for(i = l,j = 0; j < k; )
-            arr[i++] = temp[j++];
+        s += to_string(root->val)+' ';
+        serialize(root->left, s);
+        serialize(root->right, s);
+    }
 
-        //方法2：前半部出队，sum+ 后半部 已经出队的数量(比前面的小)
-        // while(i <= mid && j <= r)
-        // {
-        // 	if(arr[i] <= arr[j])
-        // 	{
-        // 		temp[k++] = arr[i++];
-        // 		sum += j-(mid+1);
-        // 	}
-        // 	else
-        // 		temp[k++] = arr[j++];
-        // }
-        // while(i <= mid)//后面都出完了，前半部还剩一些，还需要操作
-        // {
-        // 	temp[k++] = arr[i++];
-        // 	sum += j-(mid+1);
-        // }
-        // while(j <= r)
-        // 	temp[k++] = arr[j++];
-        // for(i = l,j = 0; i < k; )
-        // 	arr[i++] = temp[j++];
+    TreeNode* deserialize(istringstream& in)
+    {
+        string s;
+        in >> s;
+        if(s == "N")
+            return NULL;
+        TreeNode *root = new TreeNode(stoi(s));
+        root->left = deserialize(in);
+        root->right = deserialize(in);
+        return root;
     }
 };
 
@@ -90,17 +67,21 @@ int main() {
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{3,7,8},{9,11,13},{15,16,17}};
 
-    Solution s;
-    s.reversePairs(v1);
+//    Solution s;
+//    s.reversePairs(v1);
+
 
     TreeNode *t1 = new TreeNode(1);
     TreeNode *t2 = new TreeNode(2);
     TreeNode *t3 = new TreeNode(3);
     TreeNode *t4 = new TreeNode(4);
-    t2->left = t1;
+    TreeNode *t5 = new TreeNode(5);
+    t1->left = t2;
     t2->right = t3;
-    t3->right = t4;
-
+    t3->left = t4;
+    t3->right = t5;
+    Codec c;
+    c.serialize(t1);
 
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
