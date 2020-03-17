@@ -4,7 +4,7 @@
 
 [我的 LintCode 主页](https://www.lintcode.com/user/kobe24o)
 
-67 / 1575
+70 / 1495
 
 算法问题
 
