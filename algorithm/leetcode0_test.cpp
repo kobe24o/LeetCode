@@ -19,44 +19,45 @@ struct TreeNode {
 };
 using namespace std;
 
-class Codec {
+class Solution {
+	int sum = 0;
+	int r,c;
+	vector<vector<int>> dir = {{1,0},{-1,0},{0,1},{0,-1}};
 public:
-
-    // Encodes a tree to a single string.
-    string serialize(TreeNode* root) {
-        string s;
-        serialize(root, s);
-        return s;
+    /**
+     * @param m: the row
+     * @param n: the column
+     * @return: the possible unique paths
+     */
+    int uniquePaths(int m, int n) {
+        if(m==0 || n==0)
+        	return 0;
+        r= m, c= n;
+        vector<vector<int>> map(m,vector<int>(n,1));
+        map[0][0] = 0;
+        dfs(map,0,0);
+        return sum;
     }
 
-    // Decodes your encoded data to tree.
-    TreeNode* deserialize(string data) {
-        istringstream in(data);
-        return deserialize(in);
-    }
-private:
-    void serialize(TreeNode* root, string& s)
+    void dfs(vector<vector<int>>& map, int i, int j)
     {
-        if(!root)
-        {
-            s += 'N ';
-            return;
-        }
-        s += to_string(root->val)+' ';
-        serialize(root->left, s);
-        serialize(root->right, s);
-    }
-
-    TreeNode* deserialize(istringstream& in)
-    {
-        string s;
-        in >> s;
-        if(s == "N")
-            return NULL;
-        TreeNode *root = new TreeNode(stoi(s));
-        root->left = deserialize(in);
-        root->right = deserialize(in);
-        return root;
+    	if(i==r-1 && j==c-1)
+    	{
+    		sum++;
+    		return;
+    	}
+    	int x, y;
+    	for(int k = 0; k < 4; ++k)
+    	{
+    		x = i+dir[k][0];
+    		y = j+dir[k][1];
+    		if(x>=0&&x<r&&y>=0&&y<c&&map[x][y])
+    		{
+    			map[x][y]=0;
+    			dfs(map,x,y);
+    			map[x][y]=1;
+    		}
+    	}
     }
 };
 
@@ -67,8 +68,8 @@ int main() {
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{3,7,8},{9,11,13},{15,16,17}};
 
-//    Solution s;
-//    s.reversePairs(v1);
+    Solution s;
+    s.uniquePaths(3,3);
 
 
     TreeNode *t1 = new TreeNode(1);
@@ -80,8 +81,7 @@ int main() {
     t2->right = t3;
     t3->left = t4;
     t3->right = t5;
-    Codec c;
-    c.serialize(t1);
+
 
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);

@@ -32,6 +32,7 @@
 | [LintCode 563. 背包问题 V（DP）](https://michael.blog.csdn.net/article/details/104752590) |
 | [LintCode 600. 包裹黑色像素点的最小矩形（BFS）](https://michael.blog.csdn.net/article/details/104829039) |
 | [LintCode 633. 寻找重复的数（这个题要复习）](https://michael.blog.csdn.net/article/details/104785764) |
+| [LintCode 795. 4种独特的路径（DFS）](https://michael.blog.csdn.net/article/details/104920024) |
 | [LintCode 1652. 区间异或 II](https://michael.blog.csdn.net/article/details/104687019) |
 | [LintCode 1671. 玩游戏（贪心、难）](https://michael.blog.csdn.net/article/details/104679807) |
 | [LintCode 1677. 石头（自定义优先队列）](https://blog.csdn.net/qq_21201267/article/details/104719837) |
