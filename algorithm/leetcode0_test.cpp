@@ -19,59 +19,84 @@ struct TreeNode {
 };
 using namespace std;
 
-class Solution {
-    vector<vector<string>> ans;
+class trie
+{
 public:
-    /*
-     * @param n: The number of queens
-     * @return: All distinct solutions
-     */
-    vector<vector<string>> solveNQueens(int n) {
-        vector<string> map(n,string(n,'.'));
-        for(int i = 0; i < n; ++i)
-        {
-
-            map[0][i]='Q';
-            dfs(map,0,i,n);
-            map[0][i]='.';
-
-        }
-        return ans;
-    }
-
-    bool isok(vector<string>& map, int x, int y, int &n)
+    char ch;
+    trie* left;
+    trie* right;
+    bool isend;
+    trie(char c)
     {
-        int i = 1, j = y;
-        while(j >= 1)
-        {
-            if(map[x][j-1]=='Q')
-                return false;
-            if(x-i>=0 && map[x-i][j-1]=='Q')
-                return false;
-            if(x+i<n && map[x+i][j-1]=='Q')
-                return false;
-            i++;
-            j--;
-        }
-        return true;
+        left = right = NULL;
+        isend = false;
     }
+};
 
-    void dfs(vector<string>& map, int x, int y, int& n)
+class trieTree
+{
+public:
+    trie *root;
+    trieTree(){
+        root = new trie('*');
+    }
+    void insert(string s)
     {
-        if(x==n-1)
+        trie* cur = root;
+        for(int i = 0; i < s.size(); ++i)
         {
-            ans.push_back(map);
-            return;
-        }
-        for(int i = 0; i < n; ++i)
-        {
-            if(x+1 < n && isok(map,x+1,i,n))
+            if(s[i] == '0')
             {
-                map[x+1][i] = 'Q';
-                dfs(map, x+1, i, n);
-                map[x+1][i] = '.';
+                if(!cur->left)
+                    cur->left = new trie('0');
+                cur = cur->left;
+            }
+            else
+            {
+                if(!cur->right)
+                    cur->right = new trie('1');
+                cur = cur->right;
             }
         }
+        cur->isend = true;
+    }
+
+};
+
+class Solution {
+    int sum = 0;
+public:
+    /**
+     * @param s: the list of binary string
+     * @return: the max distance
+     */
+    int getAns(vector<string> &s) {
+        trieTree t;
+        for(string& si : s)
+            t.insert(si);
+
+        dfs(t.root);
+        return sum;
+    }
+
+    int dfs(trie* root)
+    {
+        if(!root)
+            return 0;
+        if(!root->left && !root->right)
+            return 1;
+        else if(root->left && !root->right)
+            return dfs(root->left);
+        else if(!root->left && root->right)
+            return dfs(root->right);
+        else if(root->left && root->right)
+        {
+            int l = dfs(root->left)+1;
+            int r = dfs(root->right)+1;
+            sum = max(sum, l+r);
+            return max(l,r);
+        }
+
     }
 };
 
@@ -81,9 +106,9 @@ int main() {
     vector<int> v3 = {21,44,5,21,33,38,23,5,25,43};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{3,7,8},{9,11,13},{15,16,17}};
-
+    vector<string> st  = {"011000","0111010","01101010"};
     Solution s;
-    s.solveNQueens(2);
+    s.getAns(st);
 
 
     TreeNode *t1 = new TreeNode(1);
