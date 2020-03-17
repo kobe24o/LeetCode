@@ -20,44 +20,58 @@ struct TreeNode {
 using namespace std;
 
 class Solution {
-	int sum = 0;
-	int r,c;
-	vector<vector<int>> dir = {{1,0},{-1,0},{0,1},{0,-1}};
+    vector<vector<string>> ans;
 public:
-    /**
-     * @param m: the row
-     * @param n: the column
-     * @return: the possible unique paths
+    /*
+     * @param n: The number of queens
+     * @return: All distinct solutions
      */
-    int uniquePaths(int m, int n) {
-        if(m==0 || n==0)
-        	return 0;
-        r= m, c= n;
-        vector<vector<int>> map(m,vector<int>(n,1));
-        map[0][0] = 0;
-        dfs(map,0,0);
-        return sum;
+    vector<vector<string>> solveNQueens(int n) {
+        vector<string> map(n,string(n,'.'));
+        for(int i = 0; i < n; ++i)
+        {
+
+            map[0][i]='Q';
+            dfs(map,0,i,n);
+            map[0][i]='.';
+
+        }
+        return ans;
     }
 
-    void dfs(vector<vector<int>>& map, int i, int j)
+    bool isok(vector<string>& map, int x, int y, int &n)
     {
-    	if(i==r-1 && j==c-1)
-    	{
-    		sum++;
-    		return;
-    	}
-    	int x, y;
-    	for(int k = 0; k < 4; ++k)
-    	{
-    		x = i+dir[k][0];
-    		y = j+dir[k][1];
-    		if(x>=0&&x<r&&y>=0&&y<c&&map[x][y])
-    		{
-    			map[x][y]=0;
-    			dfs(map,x,y);
-    			map[x][y]=1;
-    		}
-    	}
+        int i = 1, j = y;
+        while(j >= 1)
+        {
+            if(map[x][j-1]=='Q')
+                return false;
+            if(x-i>=0 && map[x-i][j-1]=='Q')
+                return false;
+            if(x+i<n && map[x+i][j-1]=='Q')
+                return false;
+            i++;
+            j--;
+        }
+        return true;
+    }
+
+    void dfs(vector<string>& map, int x, int y, int& n)
+    {
+        if(x==n-1)
+        {
+            ans.push_back(map);
+            return;
+        }
+        for(int i = 0; i < n; ++i)
+        {
+            if(x+1 < n && isok(map,x+1,i,n))
+            {
+                map[x+1][i] = 'Q';
+                dfs(map, x+1, i, n);
+                map[x+1][i] = '.';
+            }
+        }
     }
 };
 
@@ -69,7 +83,7 @@ int main() {
     vector<vector<int>> v2 = {{3,7,8},{9,11,13},{15,16,17}};
 
     Solution s;
-    s.uniquePaths(3,3);
+    s.solveNQueens(2);
 
 
     TreeNode *t1 = new TreeNode(1);
