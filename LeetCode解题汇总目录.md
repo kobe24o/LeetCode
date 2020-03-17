@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
- **已解决 756/1572** - **简单 359** **中等 345** **困难 52**
+ **已解决 765/1572** - **简单 360** **中等 347** **困难 58**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -67,6 +67,7 @@
 | [LeetCode 47. 全排列 II（回溯+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100110853) |
 | [LeetCode 49. 字母异位词分组（哈希）](https://blog.csdn.net/qq_21201267/article/details/102319498) |
 | [LeetCode 50. Pow(x, n)（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489210) |
+| [LeetCode 51. N皇后 / 52. N皇后 II（回溯）](https://michael.blog.csdn.net/article/details/104921660) |
 | [LeetCode 53. 最大子序和（动态规划）](https://blog.csdn.net/qq_21201267/article/details/97559470) |
 | [LeetCode 55. 跳跃游戏（贪心）](https://blog.csdn.net/qq_21201267/article/details/100899698) |
 | [LeetCode 56. 合并区间（优先队列）](https://blog.csdn.net/qq_21201267/article/details/100082338) |
