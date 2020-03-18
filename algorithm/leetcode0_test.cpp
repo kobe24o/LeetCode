@@ -65,7 +65,6 @@ public:
 };
 
 class Solution {
-    int sum = 0;
     bool found = false;
     trie *node = NULL;
 public:
@@ -74,10 +73,8 @@ public:
         for(string& si : s)
             t.insert(si);
 
-        dfs(t.root,0);
-        int l = findpath(node->left);
-        int r = findpath(node->right);
-        return l+r;
+        dfs(t.root, 0);
+
     }
 
     void dfs(trie* root, int count)
@@ -90,20 +87,16 @@ public:
             node = root;
             return;
         }
-//        if((root->isend && root->left) || (root->isend && root->right))
-//        {
-//            node = root;
-//        }
-        dfs(root->left,count+1);
-        dfs(root->right,count+1);
+        dfs(root->left);
+        dfs(root->right);
     }
 
-    int findpath(trie* root)
+    int height(trie* root)
     {
         if(!root)
             return 0;
-        int l = findpath(root->left);
-        int r = findpath(root->right);
+        int l = height(root->left);
+        int r = height(root->right);
         return max(l,r)+1;
     }
 };
@@ -112,6 +105,9 @@ public:
 //["01","0","0101010"]  6
 //["011000","0111010","01101010"] 9
 //["011000","0111011","01001010"] 11
+//["01","1000000","11111111"] 13
+则当前节点所构成的最大距离即左深度+右深度-2*当前节点深度。
+
 
 int main() {
     vector<vector<char>> v4 = {{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','1','9','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};
@@ -119,7 +115,7 @@ int main() {
     vector<int> v3 = {21,44,5,21,33,38,23,5,25,43};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{3,7,8},{9,11,13},{15,16,17}};
-    vector<string> st  = {"011000","0111011","01001010"};
+    vector<string> st  = {"01","1000000","11111111"};
     Solution s;
     cout << s.getAns(st) << endl;
 

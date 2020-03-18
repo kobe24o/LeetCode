@@ -44,7 +44,6 @@ public:
 };
 
 class Solution {
-    int sum = 0;
     bool found = false;
     trie *node = NULL;
 public:
@@ -53,13 +52,13 @@ public:
         for(string& si : s)
             t.insert(si);
 
-        dfs(t.root,0);
-        int l = findpath(node->left);
-        int r = findpath(node->right);
+        dfs(t.root);
+        int l = height(node->left);
+        int r = height(node->right);
         return l+r;
     }
 
-    void dfs(trie* root, int count)
+    void dfs(trie* root)
     {
         if(!root)
             return;
@@ -69,16 +68,16 @@ public:
             node = root;
             return;
         }
-        dfs(root->left,count+1);
-        dfs(root->right,count+1);
+        dfs(root->left);
+        dfs(root->right);
     }
 
-    int findpath(trie* root)
+    int height(trie* root)
     {
         if(!root)
             return 0;
-        int l = findpath(root->left);
-        int r = findpath(root->right);
+        int l = height(root->left);
+        int r = height(root->right);
         return max(l,r)+1;
     }
 };
