@@ -44,32 +44,28 @@ public:
 };
 
 class Solution {
-    bool found = false;
-    trie *node = NULL;
+    int maxlen = 0;
 public:
     int getAns(vector<string> &s) {
         trieTree t;
         for(string& si : s)
             t.insert(si);
-
-        dfs(t.root);
-        int l = height(node->left);
-        int r = height(node->right);
-        return l+r;
+        dfs(t.root, 0);
+        return maxlen;
     }
 
-    void dfs(trie* root)
+    int dfs(trie* root, int count)
     {
         if(!root)
-            return;
+            return 0;
         if((root->left && root->right) || root->isend)
         {
-            found = true;
-            node = root;
-            return;
+            int l = height(root->left);
+            int r = height(root->right);
+            maxlen = max(maxlen,r+l);
         }
-        dfs(root->left);
-        dfs(root->right);
+        dfs(root->left,count+1);
+        dfs(root->right,count+1);
     }
 
     int height(trie* root)

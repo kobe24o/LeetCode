@@ -65,30 +65,29 @@ public:
 };
 
 class Solution {
-    bool found = false;
-    trie *node = NULL;
+    int maxlen = 0;
 public:
     int getAns(vector<string> &s) {
         trieTree t;
         for(string& si : s)
             t.insert(si);
-
         dfs(t.root, 0);
-
+        return maxlen;
     }
 
-    void dfs(trie* root, int count)
+    int dfs(trie* root, int count)
     {
         if(!root)
-            return;
+            return 0;
         if((root->left && root->right) || root->isend)
+        if((root->left && root->right))
         {
-            found = true;
-            node = root;
-            return;
+            int l = height(root->left);
+            int r = height(root->right);
+            maxlen = max(maxlen,r+l);
         }
-        dfs(root->left);
-        dfs(root->right);
+        dfs(root->left,count+1);
+        dfs(root->right,count+1);
     }
 
     int height(trie* root)
@@ -106,7 +105,7 @@ public:
 //["011000","0111010","01101010"] 9
 //["011000","0111011","01001010"] 11
 //["01","1000000","11111111"] 13
-则当前节点所构成的最大距离即左深度+右深度-2*当前节点深度。
+//则当前节点所构成的最大距离即左深度+右深度-2*当前节点深度。
 
 
 int main() {
@@ -115,7 +114,7 @@ int main() {
     vector<int> v3 = {21,44,5,21,33,38,23,5,25,43};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{3,7,8},{9,11,13},{15,16,17}};
-    vector<string> st  = {"01","1000000","11111111"};
+    vector<string> st  = {"01","10","0","1","1001010"};
     Solution s;
     cout << s.getAns(st) << endl;
 
