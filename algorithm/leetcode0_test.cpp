@@ -66,7 +66,8 @@ public:
 
 class Solution {
     int sum = 0;
-    unordered_map<trie*,int> m;
+    bool found = false;
+    trie *node = NULL;
 public:
     int getAns(vector<string> &s) {
         trieTree t;
@@ -74,16 +75,6 @@ public:
             t.insert(si);
 
         dfs(t.root,0);
-        int maxprefixlen = 0;
-        trie* node = NULL;
-        for(auto& mi : m)
-        {
-            if(mi.second > maxprefixlen)
-            {
-                maxprefixlen = mi.second;
-                node = mi.first;
-            }
-        }
         int l = findpath(node->left);
         int r = findpath(node->right);
         return l+r;
@@ -93,10 +84,16 @@ public:
     {
         if(!root)
             return;
-        if(root->left && root->right)
+        if((root->left && root->right) || root->isend)
         {
-            m.insert(make_pair(root, count));
+            found = true;
+            node = root;
+            return;
         }
+//        if((root->isend && root->left) || (root->isend && root->right))
+//        {
+//            node = root;
+//        }
         dfs(root->left,count+1);
         dfs(root->right,count+1);
     }
@@ -111,15 +108,20 @@ public:
     }
 };
 
+//["01","10","0","1","1001010"] 9
+//["01","0","0101010"]  6
+//["011000","0111010","01101010"] 9
+//["011000","0111011","01001010"] 11
+
 int main() {
     vector<vector<char>> v4 = {{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','1','9','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};
     vector<int> v1 = {7,5,6,4};
     vector<int> v3 = {21,44,5,21,33,38,23,5,25,43};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{3,7,8},{9,11,13},{15,16,17}};
-    vector<string> st  = {"01","10","0","1","1001010"};
+    vector<string> st  = {"011000","0111011","01001010"};
     Solution s;
-    s.getAns(st);
+    cout << s.getAns(st) << endl;
 
 
     TreeNode *t1 = new TreeNode(1);

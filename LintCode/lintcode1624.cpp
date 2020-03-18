@@ -7,6 +7,7 @@ public:
     bool isend;
     trie(char c)
     {
+        ch = c;
         left = right = NULL;
         isend = false;
     }
@@ -62,15 +63,11 @@ public:
     {
         if(!root)
             return;
-        if((root->left && root->right) )
+        if((root->left && root->right) || root->isend)
         {
             found = true;
             node = root;
             return;
-        }
-        if((root->isend && root->left) || (root->isend && root->right))
-        {
-            node = root;
         }
         dfs(root->left,count+1);
         dfs(root->right,count+1);
@@ -85,8 +82,3 @@ public:
         return max(l,r)+1;
     }
 };
-
-["01","10","0","1","1001010"]
-["01","0","0101010"]  6
-["011000","0111010","01101010"] 9
-["011000","0111011","01001010"] 11
