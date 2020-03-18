@@ -56,6 +56,7 @@
 | [LeetCode 34. 在排序数组中查找元素的第一个和最后一个位置（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102470512) |
 | [LeetCode 35. 搜索插入位置（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100419471) |
 | [LeetCode 36. 有效的数独（哈希）](https://blog.csdn.net/qq_21201267/article/details/99888173) |
+| [LeetCode 37. 解数独（回溯）](https://michael.blog.csdn.net/article/details/104944124) |
 | [LeetCode 38. 报数](https://michael.blog.csdn.net/article/details/103457464) |
 | [LeetCode 39. 组合总和（回溯）](https://blog.csdn.net/qq_21201267/article/details/100678859) |
 | [LeetCode 40. 组合总和 II（排列组合 回溯）](https://blog.csdn.net/qq_21201267/article/details/101376680) |
