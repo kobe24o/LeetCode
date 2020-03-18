@@ -1,6 +1,6 @@
-题目来源于LeetCode上的[《剑指Offer》](https://leetcode-cn.com/problemset/lcof/)，这里做一个目录方便大家查找。另外有本人的[LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)、[《程序员面试金典》解题目录](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode解题目录](https://blog.csdn.net/qq_21201267/article/details/104603021) 可点击链接查看。updated on 2020.3.17
+题目来源于LeetCode上的[《剑指Offer》](https://leetcode-cn.com/problemset/lcof/)，这里做一个目录方便大家查找。另外有本人的[LeetCode解题目录](https://michael.blog.csdn.net/article/details/100577842)、[《程序员面试金典》解题目录](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode解题目录](https://blog.csdn.net/qq_21201267/article/details/104603021) 可点击链接查看。updated on 2020.3.18
 
-**已解决 74/75** - **简单 42** **中等 29** **困难 3**
+**已解决 75/75** - **简单 42** **中等 29** **困难 4** （更新完毕）
 
 | 已解题目                                                     |
 | :----------------------------------------------------------- |
@@ -20,6 +20,7 @@
 | [剑指Offer - 面试题16. 数值的整数次方（递归/循环）](https://michael.blog.csdn.net/article/details/102489210) |
 | [剑指Offer - 面试题17. 打印从1到最大的n位数](https://michael.blog.csdn.net/article/details/104289534) |
 | [剑指Offer - 面试题18. 删除链表的节点](https://blog.csdn.net/qq_21201267/article/details/104300064) |
+| [剑指Offer - 面试题19. 正则表达式匹配（递归）**](https://michael.blog.csdn.net/article/details/104951143) |
 | [剑指Offer - 面试题20. 表示数值的字符串](https://michael.blog.csdn.net/article/details/104825661) |
 | [剑指Offer - 面试题21. 调整数组顺序使奇数位于偶数前面（双指针，原地算法）](https://michael.blog.csdn.net/article/details/104304117) |
 | [剑指Offer - 面试题22. 链表中倒数第k个节点（快慢指针）](https://blog.csdn.net/qq_21201267/article/details/104318179) |
