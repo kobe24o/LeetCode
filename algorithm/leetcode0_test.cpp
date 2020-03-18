@@ -19,80 +19,95 @@ struct TreeNode {
 };
 using namespace std;
 
-class Solution {
-    unordered_set<char> h[9];
-    unordered_set<char> v[9];
-    unordered_set<char> box[9];
-
-    bool found = false;
+class trie
+{
 public:
-    /**
-     * @param board: the sudoku puzzle
-     * @return: nothing
-     * box_index = (row / 3) * 3 + columns / 3
-     */
-    void solveSudoku(vector<vector<char>> &board) {
-        int i, j, k, count = 0, b_idx;
-        vector<vector<bool>> visited (9, vector<bool>(9,false));
-        vector<vector<bool>> filled(9, vector<bool>(9,false));
-        for(i = 0; i < 9; ++i)
-        {
-            for(j = 0; j < 9; ++j)
-            {
-                if(board[i][j]!='.')
-                {
-                    b_idx = (i/3)*3+j/3;
-                    h[i].insert(board[i][j]);
-                    v[j].insert(board[i][j]);
-                    box[b_idx].insert(board[i][j]);
-                    visited[i][j] = true;
-                    count++;
-                }
-            }
-        }
-        count = 81-count;
-        dfs(board,0,0,visited,filled,count);
-    }
-    void dfs(vector<vector<char>> &board, int x, int y,vector<vector<bool>> &visited,vector<vector<bool>> &filled, int count)
+    char ch;
+    trie* left;
+    trie* right;
+    bool isend;
+    trie(char c)
     {
-        if(y==9)
+        ch = c;
+        left = right = NULL;
+        isend = false;
+    }
+};
+
+class trieTree
+{
+public:
+    trie *root;
+    trieTree(){
+        root = new trie('*');
+    }
+    void insert(string s)
+    {
+        trie* cur = root;
+        for(int i = 0; i < s.size(); ++i)
         {
-            x++;
-            y=0;
-        }
-        if(count==0 || found)
-        {
-            found = true;
-            return;
-        }
-        int j, k, b_idx;
-        for(j = y; j < 9; ++j)
-        {
-            if(visited[x][j])
-                continue;
-            b_idx = (x/3)*3+j/3;
-            for(k = 1; k <= 9; ++k)
+            if(s[i] == '0')
             {
-                if(!h[x].count(k+'0') && !v[j].count(k+'0') && !box[b_idx].count(k+'0') && !filled[x][j])
-                {
-                    filled[x][j] = true;
-                    h[x].insert(k+'0');
-                    v[j].insert(k+'0');
-                    box[b_idx].insert(k+'0');
-                    board[x][j] = k+'0';
-                    dfs(board, x, j+1,visited,filled,count-1);
-                    filled[x][j] = false;
-                    h[x].erase(k+'0');
-                    v[j].erase(k+'0');
-                    box[b_idx].erase(k+'0');
-                    board[x][j] = '0';
-                }
+                if(!cur->left)
+                    cur->left = new trie('0');
+                cur = cur->left;
+            }
+            else
+            {
+                if(!cur->right)
+                    cur->right = new trie('1');
+                cur = cur->right;
             }
         }
-        if(x==8 && j==9)
+        cur->isend = true;
+    }
+
+};
+
+class Solution {
+    int sum = 0;
+    unordered_map<trie*,int> m;
+public:
+    int getAns(vector<string> &s) {
+        trieTree t;
+        for(string& si : s)
+            t.insert(si);
+
+        dfs(t.root,0);
+        int maxprefixlen = 0;
+        trie* node = NULL;
+        for(auto& mi : m)
         {
-            found = true;
+            if(mi.second > maxprefixlen)
+            {
+                maxprefixlen = mi.second;
+                node = mi.first;
+            }
         }
+        int l = findpath(node->left);
+        int r = findpath(node->right);
+        return l+r;
+    }
+
+    void dfs(trie* root, int count)
+    {
+        if(!root)
+            return;
+        if(root->left && root->right)
+        {
+            m.insert(make_pair(root, count));
+        }
+        dfs(root->left,count+1);
+        dfs(root->right,count+1);
+    }
+
+    int findpath(trie* root)
+    {
+        if(!root)
+            return 0;
+        int l = findpath(root->left);
+        int r = findpath(root->right);
+        return max(l,r)+1;
     }
 };
 
@@ -102,9 +117,9 @@ int main() {
     vector<int> v3 = {21,44,5,21,33,38,23,5,25,43};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{3,7,8},{9,11,13},{15,16,17}};
-    vector<string> st  = {"011000","0111010","01101010"};
+    vector<string> st  = {"01","10","0","1","1001010"};
     Solution s;
-    s.solveSudoku(v4);
+    s.getAns(st);
 
 
     TreeNode *t1 = new TreeNode(1);
