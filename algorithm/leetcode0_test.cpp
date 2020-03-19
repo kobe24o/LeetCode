@@ -144,5 +144,11 @@ int main() {
     h4->next = h5;
     h5->next = h6;
     h6->next = h7;
+    vector<int> a = {1,2,3};
+    cout << a.size() << endl;
+    a.resize(a.size()+5);
+    cout << a.size() << endl;
+    for(int i = 0; i < 8; ++i)
+        cout << a[i] << endl;
     return 0;
 }
