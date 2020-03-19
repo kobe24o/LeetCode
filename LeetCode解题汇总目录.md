@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
- **已解决 765/1572** - **简单 360** **中等 347** **困难 58**
+**已解决 769/1572** - **简单 361** **中等 347** **困难 61**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -255,6 +255,7 @@
 | [LeetCode 402. 移掉K位数字（贪心，单调栈）](https://michael.blog.csdn.net/article/details/103555712) |
 | [LeetCode 403. 青蛙过河（DP）](https://michael.blog.csdn.net/article/details/102969736) |
 | [LeetCode 404. 左叶子之和（递归）](https://michael.blog.csdn.net/article/details/103041375) |
+| [LeetCode 409. 最长回文串（计数）](https://michael.blog.csdn.net/article/details/104959667) |
 | [LeetCode 413. 等差数列划分（DP）](https://blog.csdn.net/qq_21201267/article/details/100831735) |
 | [LeetCode 414. 第三大的数](https://blog.csdn.net/qq_21201267/article/details/102789337) |
 | [LeetCode 415. 字符串相加（大数加法）](https://blog.csdn.net/qq_21201267/article/details/102821516) |
