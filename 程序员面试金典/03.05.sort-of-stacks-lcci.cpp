@@ -1,86 +1,52 @@
 class SortedStack {
     stack<int> s;
     stack<int> temp;
-    int minVal = INT_MAX;
     int nextMin;
 public:
-    SortedStack() {
-
-    }
+    SortedStack() {}
     
     void push(int val) {
         if(isEmpty())
-        {
             s.push(val);
-            minVal = val;
-        }
         else if(temp.empty())
         {
-            if(s.top() >= val)
-            {
-                s.push(val);
-                minVal = val
-            }
-            else
-            {
-                minVal = s.top();
-                s.pop();
-                s.push(val);
-                s.push(minVal);
-            }
+            if(s.top() < val)//栈顶小
+                swap(val,s.top());//把栈顶变成大的
+            s.push(val);//在把原来的小栈顶放回
         }
         else //s.empty()
         {
-            if(temp.top() >= val)
-            {
-                temp.push(val);
-                minVal = val
-            }
-            else
-            {
-                minVal = s.top();
-                temp.pop();
-                temp.push(val);
-                temp.push(minVal);
-            }
+            if(temp.top() < val)
+                swap(val,temp.top());
+            temp.push(val);
         }
     }
     
     void pop() {
         if(isEmpty())
-            return -1;
+            return;
         if(temp.empty())
         {
-            minVal = s.top();
-            s.pop();
-            while(!s.empty())
+            s.pop();//最小值pop
+            while(!s.empty())//倒数据到temp
             {
                 nextMin = s.top();
-                s.pop()
-                if(temp.empty() || nextMin <= temp.top())
-                    temp.push(nextMin);
-                else
-                {
+                s.pop();
+                if(!temp.empty() && nextMin > temp.top())
                     swap(nextMin, temp.top());
-                    temp.push(nextMin);
-                }
+                temp.push(nextMin);
             }
         }
         else //s.empty()
         {
-            minVal = temp.top();
-            temp.pop();
-            while(!temp.empty())
+            temp.pop();//最小值
+            while(!temp.empty())//倒数据到s
             {
                 nextMin = temp.top();
-                temp.pop()
-                if(s.empty() || nextMin <= s.top())
-                    s.push(nextMin);
-                else
-                {
+                temp.pop();
+                if(!s.empty() && nextMin > s.top())
                     swap(nextMin, s.top());
-                    s.push(nextMin);
-                }
+                s.push(nextMin);
             }
         }
     }
@@ -89,41 +55,9 @@ public:
         if(isEmpty())
             return -1;
         if(temp.empty())
-        {
-            minVal = s.top();
-            s.pop();
-            while(!s.empty())
-            {
-                nextMin = s.top();
-                s.pop()
-                if(temp.empty() || nextMin <= temp.top())
-                    temp.push(nextMin);
-                else
-                {
-                    swap(nextMin, temp.top());
-                    temp.push(nextMin);
-                }
-            }
-            return minVal;
-        }
+            return s.top();
         else //s.empty()
-        {
-            minVal = temp.top();
-            temp.pop();
-            while(!temp.empty())
-            {
-                nextMin = temp.top();
-                temp.pop()
-                if(s.empty() || nextMin <= s.top())
-                    s.push(nextMin);
-                else
-                {
-                    swap(nextMin, s.top());
-                    s.push(nextMin);
-                }
-            }
-            return minVal;
-        }
+            return temp.top();
     }
     
     bool isEmpty() {
