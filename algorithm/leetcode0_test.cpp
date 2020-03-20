@@ -19,84 +19,98 @@ struct TreeNode {
 };
 using namespace std;
 
-class trie
-{
-public:
-    char ch;
-    trie* left;
-    trie* right;
-    bool isend;
-    trie(char c)
-    {
-        ch = c;
-        left = right = NULL;
-        isend = false;
-    }
-};
-
-class trieTree
-{
-public:
-    trie *root;
-    trieTree(){
-        root = new trie('*');
-    }
-    void insert(string s)
-    {
-        trie* cur = root;
-        for(int i = 0; i < s.size(); ++i)
-        {
-            if(s[i] == '0')
-            {
-                if(!cur->left)
-                    cur->left = new trie('0');
-                cur = cur->left;
-            }
-            else
-            {
-                if(!cur->right)
-                    cur->right = new trie('1');
-                cur = cur->right;
-            }
-        }
-        cur->isend = true;
-    }
-
-};
-
 class Solution {
-    int maxlen = 0;
+    int m, n, step = INT_MAX;
+    vector<int> start;
+    vector<int> end;
+    int bao = 0, count = 0;
+    vector<vector<int>> dir = {{1,0},{-1,0},{0,1},{0,-1}};
 public:
-    int getAns(vector<string> &s) {
-        trieTree t;
-        for(string& si : s)
-            t.insert(si);
-        dfs(t.root, 0);
-        return maxlen;
-    }
+    int minSteps(vector<string> &maze) {
+        int i, j, k, x, y, x0, y0;
+        m = maze.size(), n = maze[0].size();
+        queue<vector<int>> q;
+        vector<int> tp;
+        bool foundT = false;
 
-    int dfs(trie* root, int count)
-    {
-        if(!root)
-            return 0;
-        if((root->left && root->right) || root->isend)
-        if((root->left && root->right))
+        vector<vector<bool>> vis(m, vector<bool>(n,false));
+        for(i = 0; i < m; ++i)
         {
-            int l = height(root->left);
-            int r = height(root->right);
-            maxlen = max(maxlen,r+l);
+            for(j = 0; j < n; ++j)
+            {
+                if(maze[i][j] == 'S')
+                {
+                    start.push_back(i);
+                    start.push_back(j);
+                }
+                else if(maze[i][j] == 'T')
+                {
+                    end.push_back(i);
+                    end.push_back(j);
+                }
+                else if(isdigit(maze[i][j]))
+                {
+                    bao++;
+                }
+            }
         }
-        dfs(root->left,count+1);
-        dfs(root->right,count+1);
+        q.push(start);
+        vis[start[0]][start[1]] = true;
+        while(!q.empty())
+        {
+            tp = q.front();
+            q.pop();
+            x0 = tp[0], y0 = tp[1];
+            for(k = 0; k < 4; ++k)
+            {
+                x = x0+dir[k][0];
+                y = y0+dir[k][1];
+                if(x>=0&&x<m&&y>=0&&y<n&&maze[x][y]!='*'&&!vis[x][y])
+                {
+                    q.push({x,y});
+                    vis[x][y] = true;
+                    if(isdigit(maze[x][y]))
+                        count++;
+                    else if(maze[x][y]=='T')
+                        foundT = true;
+                }
+            }
+        }
+        if(count!=bao || !foundT)
+            return -1;
+        for(i = 0; i < m; ++i)
+        {
+            for(j = 0; j < n; ++j)
+                vis[i][j] = false;
+        }
+        vis[start[0]][start[1]] = true;
+        dfs(start[0],start[1],0,0,vis,maze);
+        return step;
     }
 
-    int height(trie* root)
+    void dfs(int x, int y, int count,int s, vector<vector<bool>> &vis,vector<string> &maze)
     {
-        if(!root)
-            return 0;
-        int l = height(root->left);
-        int r = height(root->right);
-        return max(l,r)+1;
+        if(count == bao && x==end[0] && y==end[1])
+        {
+            step = min(step, s);
+            return;
+        }
+        int xi, yi;
+        for(int k = 0; k < 4; ++k)
+        {
+            xi = x +dir[k][0];
+            yi = y + dir[k][1];
+            if(xi>=0&&xi<m&&yi>=0&&yi<n&&maze[xi][yi]!='*'&&!vis[xi][yi])
+            {
+                vis[xi][yi] = true;
+                if(isdigit(maze[xi][yi]))
+                    count++;
+                dfs(xi,yi,count,s+1,vis,maze);
+                vis[xi][yi] = false;
+                if(isdigit(maze[xi][yi]))
+                    count--;
+            }
+        }
     }
 };
 
@@ -107,6 +121,7 @@ public:
 //["01","1000000","11111111"] 13
 //则当前节点所构成的最大距离即左深度+右深度-2*当前节点深度。
 
+//["...1","..S.","..*.",".0.T"]   9
 
 int main() {
     vector<vector<char>> v4 = {{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','1','9','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};
@@ -114,9 +129,9 @@ int main() {
     vector<int> v3 = {21,44,5,21,33,38,23,5,25,43};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{3,7,8},{9,11,13},{15,16,17}};
-    vector<string> st  = {"01","10","0","1","1001010"};
+    vector<string> st  = {"T1S.",".*0*","....","..*."};
     Solution s;
-    cout << s.getAns(st) << endl;
+    cout << s.minSteps(st) << endl;
 
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
