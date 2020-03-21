@@ -21,24 +21,42 @@ using namespace std;
 
 class Solution {
 public:
-    /**
-     * @param A: a list of integer
-     * @return: Return the smallest amplitude
-     */
-    int MinimumAmplitude(vector<int> &A) {
-        if(A.size() <= 4)
-            return 0;
-        sort(A.begin(),A.end());
-        int count = 3;;
-        int i = 0, j = A.size()-1, mid;
-        while(count--)
+    int ratJump(vector<int> &arr) {
+        int i, n = arr.size();
+        long odd[n+3] = {0};
+        long even[n+3] = {0};
+        reverse(arr.begin(),arr.end());
+        arr.push_back(0);
+        arr.push_back(0);
+        arr.push_back(0);
+        // odd[0] = 1;
+        even[0] = 1;
+        if(arr[1]==0)
+            odd[1] = 1;
+        // if(arr[1]==0)
+        // {
+        // 	odd[1] = 1;
+        // 	if(arr[0]==0)
+        // 		even[1] = 1;
+        // }
+        for(i = 2; i < n+3; ++i)
         {
-            if(abs(A[i+1]-A[j]) < abs(A[j-1]-A[i]))
-                i++;
-            else
-                j--;
+            odd[i] =  (i-1>=0 && i-1 < n-1 && arr[i-1]==0 && even[i-1]) ? even[i-1] : 0
+                                                                                      + (i-2>=0 && i-2 < n-1 && arr[i-2]==0 && even[i-2]) ? even[i-2] : 0
+                                                                                                                                                        + (i-4>=0 && i-4 < n-1 && arr[i-4]==0 && even[i-4]) ? even[i-4] : 0;
+            odd[i] %= 1000000007;
+            even[i] = (i-1>=0 && i-1 < n-1 && arr[i-1]==0 && odd[i-1]) ? odd[i-1] : 0
+                                                                                    + (i-3>=0 && i-3 < n-1 && arr[i-3]==0 && odd[i-3]) ? odd[i-3] : 0
+                                                                                                                                                    + (i-4>=0 && i-4 < n-1 && arr[i-4]==0 && odd[i-4]) ? odd[i-4] : 0;
+            even[i] %= 1000000007;
         }
-        return A[j]-A[i];
+        long sum = 0;
+        for(i = n-1; i < n+3; ++i)
+        {
+            sum += odd[i]+even[i];
+            sum %= 1000000007;
+        }
+        return sum;
     }
 };
 
@@ -53,13 +71,13 @@ public:
 
 int main() {
     vector<vector<char>> v4 = {{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','1','9','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};
-    vector<int> v1 = {-4,20,-16,-48,-47,50,-18,-27,-14,-45,-33,-32,-19,-40,1,40,43,-29,16,-43,19,-49,36,-37,-14,-2,46,-19,45,-14,-26,8,-34,42,2,43,-18,-41,36,-7,38,37,43,-43,21,23,14,-19,12,10,5,-31,-20,-10,-18,44,45,0,9,-4,39,39,40,-39,48,-47,-20,-26,50,7,31,36,-18,29,24,30,-8,16,-39,-33,-41,-9,18,-9,30,19,-14,-16,3,-35,-10,31,-2,17,39,14,-17,42,-27,13};
+    vector<int> v1 = {0,0,1,0};
     vector<int> v3 = {21,44,5,21,33,38,23,5,25,43};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{3,7,8},{9,11,13},{15,16,17}};
     vector<string> st  = {"T1S.",".*0*","....","..*."};
     Solution s;
-    cout << s.MinimumAmplitude(v1) << endl;
+    cout << s.ratJump(v1) << endl;
 
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
