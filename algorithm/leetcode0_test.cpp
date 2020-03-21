@@ -20,97 +20,25 @@ struct TreeNode {
 using namespace std;
 
 class Solution {
-    int m, n, step = INT_MAX;
-    vector<int> start;
-    vector<int> end;
-    int bao = 0, count = 0;
-    vector<vector<int>> dir = {{1,0},{-1,0},{0,1},{0,-1}};
 public:
-    int minSteps(vector<string> &maze) {
-        int i, j, k, x, y, x0, y0;
-        m = maze.size(), n = maze[0].size();
-        queue<vector<int>> q;
-        vector<int> tp;
-        bool foundT = false;
-
-        vector<vector<bool>> vis(m, vector<bool>(n,false));
-        for(i = 0; i < m; ++i)
+    /**
+     * @param A: a list of integer
+     * @return: Return the smallest amplitude
+     */
+    int MinimumAmplitude(vector<int> &A) {
+        if(A.size() <= 4)
+            return 0;
+        sort(A.begin(),A.end());
+        int count = 3;;
+        int i = 0, j = A.size()-1, mid;
+        while(count--)
         {
-            for(j = 0; j < n; ++j)
-            {
-                if(maze[i][j] == 'S')
-                {
-                    start.push_back(i);
-                    start.push_back(j);
-                }
-                else if(maze[i][j] == 'T')
-                {
-                    end.push_back(i);
-                    end.push_back(j);
-                }
-                else if(isdigit(maze[i][j]))
-                {
-                    bao++;
-                }
-            }
+            if(abs(A[i+1]-A[j]) < abs(A[j-1]-A[i]))
+                i++;
+            else
+                j--;
         }
-        q.push(start);
-        vis[start[0]][start[1]] = true;
-        while(!q.empty())
-        {
-            tp = q.front();
-            q.pop();
-            x0 = tp[0], y0 = tp[1];
-            for(k = 0; k < 4; ++k)
-            {
-                x = x0+dir[k][0];
-                y = y0+dir[k][1];
-                if(x>=0&&x<m&&y>=0&&y<n&&maze[x][y]!='*'&&!vis[x][y])
-                {
-                    q.push({x,y});
-                    vis[x][y] = true;
-                    if(isdigit(maze[x][y]))
-                        count++;
-                    else if(maze[x][y]=='T')
-                        foundT = true;
-                }
-            }
-        }
-        if(count!=bao || !foundT)
-            return -1;
-        for(i = 0; i < m; ++i)
-        {
-            for(j = 0; j < n; ++j)
-                vis[i][j] = false;
-        }
-        vis[start[0]][start[1]] = true;
-        dfs(start[0],start[1],0,0,vis,maze);
-        return step;
-    }
-
-    void dfs(int x, int y, int count,int s, vector<vector<bool>> &vis,vector<string> &maze)
-    {
-        if(count == bao && x==end[0] && y==end[1])
-        {
-            step = min(step, s);
-            return;
-        }
-        int xi, yi;
-        for(int k = 0; k < 4; ++k)
-        {
-            xi = x +dir[k][0];
-            yi = y + dir[k][1];
-            if(xi>=0&&xi<m&&yi>=0&&yi<n&&maze[xi][yi]!='*'&&!vis[xi][yi])
-            {
-                vis[xi][yi] = true;
-                if(isdigit(maze[xi][yi]))
-                    count++;
-                dfs(xi,yi,count,s+1,vis,maze);
-                vis[xi][yi] = false;
-                if(isdigit(maze[xi][yi]))
-                    count--;
-            }
-        }
+        return A[j]-A[i];
     }
 };
 
@@ -125,13 +53,13 @@ public:
 
 int main() {
     vector<vector<char>> v4 = {{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','1','9','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};
-    vector<int> v1 = {7,5,6,4};
+    vector<int> v1 = {-4,20,-16,-48,-47,50,-18,-27,-14,-45,-33,-32,-19,-40,1,40,43,-29,16,-43,19,-49,36,-37,-14,-2,46,-19,45,-14,-26,8,-34,42,2,43,-18,-41,36,-7,38,37,43,-43,21,23,14,-19,12,10,5,-31,-20,-10,-18,44,45,0,9,-4,39,39,40,-39,48,-47,-20,-26,50,7,31,36,-18,29,24,30,-8,16,-39,-33,-41,-9,18,-9,30,19,-14,-16,3,-35,-10,31,-2,17,39,14,-17,42,-27,13};
     vector<int> v3 = {21,44,5,21,33,38,23,5,25,43};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{3,7,8},{9,11,13},{15,16,17}};
     vector<string> st  = {"T1S.",".*0*","....","..*."};
     Solution s;
-    cout << s.minSteps(st) << endl;
+    cout << s.MinimumAmplitude(v1) << endl;
 
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
