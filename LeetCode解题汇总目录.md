@@ -577,4 +577,5 @@
 | [LeetCode 5349. 安排电影院座位（map+bitset）](https://blog.csdn.net/qq_21201267/article/details/105022135#LeetCode_5349__medium_85) |
 | [LeetCode 5350. 将整数按权重排序（自定义排序）](https://blog.csdn.net/qq_21201267/article/details/105022135#LeetCode_5350__medium_192) |
 | [LeetCode 5351. 3n 块披萨 hard（动态规划）](https://blog.csdn.net/qq_21201267/article/details/105022135#LeetCode_5351_3n__hard_281) |
+| [LeetCode 5364. 按既定顺序创建目标数组](https://blog.csdn.net/qq_21201267/article/details/105033366) |
 
