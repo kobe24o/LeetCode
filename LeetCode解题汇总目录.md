@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-**已解决 769/1572** - **简单 361** **中等 347** **困难 61**
+**已解决 783/1577** - **简单 366** **中等 356** **困难 61**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -22,6 +22,7 @@
 | [LeetCode 第 19 场双周赛（231/1120，前20.6%）](https://michael.blog.csdn.net/article/details/104230340) |
 | [LeetCode 第 20 场双周赛（294/1541，前19.1%，第1次全部通过）](https://michael.blog.csdn.net/article/details/104453219) |
 | [LeetCode 第 21 场双周赛（779/1913，前40.7%）](https://michael.blog.csdn.net/article/details/104725634) |
+| [LeetCode 第 22 场双周赛（220/2041，前10.8%）](https://michael.blog.csdn.net/article/details/105022135) |
 
 ​          
 
