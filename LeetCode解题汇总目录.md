@@ -578,4 +578,7 @@
 | [LeetCode 5350. 将整数按权重排序（自定义排序）](https://blog.csdn.net/qq_21201267/article/details/105022135#LeetCode_5350__medium_192) |
 | [LeetCode 5351. 3n 块披萨 hard（动态规划）](https://blog.csdn.net/qq_21201267/article/details/105022135#LeetCode_5351_3n__hard_281) |
 | [LeetCode 5364. 按既定顺序创建目标数组](https://blog.csdn.net/qq_21201267/article/details/105033366) |
+| [LeetCode 5178. 四因数](https://blog.csdn.net/qq_21201267/article/details/105033772) |
+| [LeetCode 5366. 检查网格中是否存在有效路径（BFS）](https://michael.blog.csdn.net/article/details/105038964) |
+| [LeetCode 5367. 最长快乐前缀（KMP）](https://michael.blog.csdn.net/article/details/105039592) |
 

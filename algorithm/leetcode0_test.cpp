@@ -20,43 +20,64 @@ struct TreeNode {
 using namespace std;
 
 class Solution {
+    vector<vector<int>> d = {{0,1},{1,0},{-1,0},{0,-1}};//右0，下1，上2，左3
+    vector<vector<vector<int>>> dir = {{},{d[0],d[3]},{d[1],d[2]},{d[1],d[3]},{d[0],d[1]},{d[2],d[3]},{d[0],d[2]}};
+    bool found = false;
+    int m,n;
 public:
-    int ratJump(vector<int> &arr) {
-        int i, n = arr.size();
-        long odd[n+3] = {0};
-        long even[n+3] = {0};
-        reverse(arr.begin(),arr.end());
-        arr.push_back(0);
-        arr.push_back(0);
-        arr.push_back(0);
-        // odd[0] = 1;
-        even[0] = 1;
-        if(arr[1]==0)
-            odd[1] = 1;
-        // if(arr[1]==0)
-        // {
-        // 	odd[1] = 1;
-        // 	if(arr[0]==0)
-        // 		even[1] = 1;
-        // }
-        for(i = 2; i < n+3; ++i)
+    bool hasValidPath(vector<vector<int>>& grid) {
+        m = grid.size(), n = grid[0].size();
+        dfs(grid,0,0);
+        return found;
+    }
+
+    void dfs(vector<vector<int>>& grid, int i, int j)
+    {
+        if(found)
+            return;
+        if(i==m-1 && j==n-1)
         {
-            odd[i] =  (i-1>=0 && i-1 < n-1 && arr[i-1]==0 && even[i-1]) ? even[i-1] : 0
-                                                                                      + (i-2>=0 && i-2 < n-1 && arr[i-2]==0 && even[i-2]) ? even[i-2] : 0
-                                                                                                                                                        + (i-4>=0 && i-4 < n-1 && arr[i-4]==0 && even[i-4]) ? even[i-4] : 0;
-            odd[i] %= 1000000007;
-            even[i] = (i-1>=0 && i-1 < n-1 && arr[i-1]==0 && odd[i-1]) ? odd[i-1] : 0
-                                                                                    + (i-3>=0 && i-3 < n-1 && arr[i-3]==0 && odd[i-3]) ? odd[i-3] : 0
-                                                                                                                                                    + (i-4>=0 && i-4 < n-1 && arr[i-4]==0 && odd[i-4]) ? odd[i-4] : 0;
-            even[i] %= 1000000007;
+            found = true;
+            return;
         }
-        long sum = 0;
-        for(i = n-1; i < n+3; ++i)
+        int x, y, k, dx, dy;
+        for(k = 0; k < dir[grid[i][j]].size(); ++k)
         {
-            sum += odd[i]+even[i];
-            sum %= 1000000007;
+            dx = dir[grid[i][j]][k][0];
+            dy = dir[grid[i][j]][k][1];
+            x = i+dx;
+            y = j+dy;
+            if(x>=0 && x<m && y>=0 && y<n && grid[x][y] != -1 && isok(grid,dx,dy,x,y))
+            {
+                grid[x][y] = -1;//标记走过
+                return dfs(grid,x,y);
+            }
         }
-        return sum;
+    }
+
+    bool isok(vector<vector<int>>& grid, int &dx, int &dy, int &x, int &y)
+    {
+        if(dx == 1 && dy ==0)//往下走，对应x,y处 '上' 要开着
+        {
+            if(grid[x][y]==2 || grid[x][y]==5 || grid[x][y]==6)
+                return true;
+        }
+        else if(dx == 0 && dy == 1)//右   --左
+        {
+            if(grid[x][y]==1 || grid[x][y]==3 || grid[x][y]==5)
+                return true;
+        }
+        else if(dx == -1 && dy == 0)//上 ---下
+        {
+            if(grid[x][y]==2 || grid[x][y]==3 || grid[x][y]==4)
+                return true;
+        }
+        else if(dx == 0 && dy == -1)//左--- 右
+        {
+            if(grid[x][y]==1 || grid[x][y]==4 || grid[x][y]==6)
+                return true;
+        }
+        return false;
     }
 };
 
@@ -74,10 +95,10 @@ int main() {
     vector<int> v1 = {0,0,1,0};
     vector<int> v3 = {21,44,5,21,33,38,23,5,25,43};
     string str = "eceeeefasdghjklqwertyuio";
-    vector<vector<int>> v2 = {{3,7,8},{9,11,13},{15,16,17}};
+    vector<vector<int>> v2 = {{2,4,3},{6,5,2}};
     vector<string> st  = {"T1S.",".*0*","....","..*."};
     Solution s;
-    cout << s.ratJump(v1) << endl;
+    cout << s.hasValidPath(v2) << endl;
 
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
