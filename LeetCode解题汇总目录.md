@@ -572,4 +572,8 @@
 | [LeetCode 1381. 设计一个支持增量操作的栈（deque/数组）](https://michael.blog.csdn.net/article/details/104879528) |
 | [LeetCode 1382. 将二叉搜索树变平衡（中序遍历+二分递归）](https://michael.blog.csdn.net/article/details/104879123) |
 | [LeetCode 1383. 最大的团队表现值（贪心，优先队列，难）](https://michael.blog.csdn.net/article/details/104882484) |
+| [LeetCode 5348. 两个数组间的距离值](https://blog.csdn.net/qq_21201267/article/details/105022135#LeetCode_5348__easy_9) |
+| [LeetCode 5349. 安排电影院座位（map+bitset）](https://blog.csdn.net/qq_21201267/article/details/105022135#LeetCode_5349__medium_85) |
+| [LeetCode 5350. 将整数按权重排序（自定义排序）](https://blog.csdn.net/qq_21201267/article/details/105022135#LeetCode_5350__medium_192) |
+| [LeetCode 5351. 3n 块披萨 hard（动态规划）](https://blog.csdn.net/qq_21201267/article/details/105022135#LeetCode_5351_3n__hard_281) |
 
