@@ -426,6 +426,7 @@
 | [LeetCode 938. 二叉搜索树的范围和（二叉树遍历+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100609270) |
 | [LeetCode 942. 增减字符串匹配](https://blog.csdn.net/qq_21201267/article/details/100907468) |
 | [LeetCode 944. 删列造序](https://blog.csdn.net/qq_21201267/article/details/100675384) |
+| [LeetCode 945. 使数组唯一的最小增量（贪心）](https://blog.csdn.net/qq_21201267/article/details/105032960) |
 | [LeetCode 946. 验证栈序列（栈）](https://michael.blog.csdn.net/article/details/103566492) |
 | [LeetCode 950. 按递增顺序显示卡牌（deque）](https://blog.csdn.net/qq_21201267/article/details/100608442) |
 | [LeetCode 951. 翻转等价二叉树（递归）](https://michael.blog.csdn.net/article/details/102998305) |
