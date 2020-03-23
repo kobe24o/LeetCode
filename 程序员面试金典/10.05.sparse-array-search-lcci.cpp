@@ -30,6 +30,8 @@ public:
     		while(l <= r && words[r]=="")
     			r--;
     		mid = l+((r-l)>>1);
+    		while(l <= mid && words[mid]=="")
+    			mid--;
     		if(s < words[mid])
     			r = mid-1;
     		else if(s > words[mid])
