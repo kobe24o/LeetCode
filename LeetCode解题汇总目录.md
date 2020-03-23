@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-**已解决 783/1577** - **简单 366** **中等 356** **困难 61**
+**已解决 789/1581** - **简单 367** **中等 359** **困难 63**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -573,12 +573,12 @@
 | [LeetCode 1381. 设计一个支持增量操作的栈（deque/数组）](https://michael.blog.csdn.net/article/details/104879528) |
 | [LeetCode 1382. 将二叉搜索树变平衡（中序遍历+二分递归）](https://michael.blog.csdn.net/article/details/104879123) |
 | [LeetCode 1383. 最大的团队表现值（贪心，优先队列，难）](https://michael.blog.csdn.net/article/details/104882484) |
-| [LeetCode 5348. 两个数组间的距离值](https://blog.csdn.net/qq_21201267/article/details/105022135#LeetCode_5348__easy_9) |
-| [LeetCode 5349. 安排电影院座位（map+bitset）](https://blog.csdn.net/qq_21201267/article/details/105022135#LeetCode_5349__medium_85) |
-| [LeetCode 5350. 将整数按权重排序（自定义排序）](https://blog.csdn.net/qq_21201267/article/details/105022135#LeetCode_5350__medium_192) |
-| [LeetCode 5351. 3n 块披萨 hard（动态规划）](https://blog.csdn.net/qq_21201267/article/details/105022135#LeetCode_5351_3n__hard_281) |
-| [LeetCode 5364. 按既定顺序创建目标数组](https://blog.csdn.net/qq_21201267/article/details/105033366) |
-| [LeetCode 5178. 四因数](https://blog.csdn.net/qq_21201267/article/details/105033772) |
-| [LeetCode 5366. 检查网格中是否存在有效路径（BFS）](https://michael.blog.csdn.net/article/details/105038964) |
-| [LeetCode 5367. 最长快乐前缀（KMP）](https://michael.blog.csdn.net/article/details/105039592) |
+| [LeetCode 1385. 两个数组间的距离值](https://blog.csdn.net/qq_21201267/article/details/105022135#LeetCode_5348__easy_9) |
+| [LeetCode 1386. 安排电影院座位（map+bitset）](https://blog.csdn.net/qq_21201267/article/details/105022135#LeetCode_5349__medium_85) |
+| [LeetCode 1387. 将整数按权重排序（自定义排序）](https://blog.csdn.net/qq_21201267/article/details/105022135#LeetCode_5350__medium_192) |
+| [LeetCode 1388. 3n 块披萨 hard（动态规划）](https://blog.csdn.net/qq_21201267/article/details/105022135#LeetCode_5351_3n__hard_281) |
+| [LeetCode 1389. 按既定顺序创建目标数组](https://blog.csdn.net/qq_21201267/article/details/105033366) |
+| [LeetCode 1390. 四因数](https://blog.csdn.net/qq_21201267/article/details/105033772) |
+| [LeetCode 1391. 检查网格中是否存在有效路径（BFS）](https://michael.blog.csdn.net/article/details/105038964) |
+| [LeetCode 1392. 最长快乐前缀（KMP）](https://michael.blog.csdn.net/article/details/105039592) |
 
