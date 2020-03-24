@@ -51,7 +51,7 @@ void dfs(int &i) {
     dfs(i);
 }
 
-void dfs(double i, double j) {
+void dfs(double &i, double &j) {
     // 依次去掉d c b a z y x，观察一下：段错误的深度 && k变量每深入一层调用，其地址的相对偏移量
     int k = 0;
     cout << "&k = " << &k << endl;
