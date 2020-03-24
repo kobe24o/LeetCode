@@ -33,7 +33,7 @@ bool isok(int a, int b, int c, int d,int e)
         ;
     return true;
 }
-void dfs(memory1 &m1, int &i, int &j, int &a, int &b,int &c,int &d, int &e,int &f,int &g,int &h) {
+void dfs(memory1 &m1, int &i, int &j, int &a, int &b,int c,int d, int e,int f,int g,int h) {
     // 依次去掉d c b a z y x，观察一下：段错误的深度 && k变量每深入一层调用，其地址的相对偏移量
     int k = 0;
     cout << "&k = " << &k << endl;
@@ -51,13 +51,13 @@ void dfs(int &i) {
     dfs(i);
 }
 
-void dfs(int i, int j) {
+void dfs(int i, int j, int a, int b) {
     // 依次去掉d c b a z y x，观察一下：段错误的深度 && k变量每深入一层调用，其地址的相对偏移量
     int k = 0;
     cout << "&k = " << &k << endl;
     cout << "i = " << i << endl;
     i = i+1;
-    dfs(i,j);
+    dfs(i,j,a,b);
 }
 
 
@@ -76,7 +76,7 @@ int main() {
     cout << "size of memory3 " << sizeof(memory3) << endl;
 //    dfs(m1,i, j, a, b,c,d,e,f,g,h);
 //    dfs(i);
-    dfs(i,j);
+    dfs(i,j,a, b);
 //    int x = 1;
 //    int y = 2;
 //    int &a1 = x;
