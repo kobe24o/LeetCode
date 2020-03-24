@@ -68,6 +68,7 @@ int main() {
     memory1 m1;
     cout << "size of int& " << sizeof(int&) << endl;
     cout << "size of int " << sizeof(int) << endl;
+    cout << "size of double " << sizeof(double) << endl;
     cout << "size of char " << sizeof(char) << endl;
     cout << "size of memory1 " << sizeof(m1) << endl;
     cout << "size of memory1& " << sizeof(&m1) << endl;
