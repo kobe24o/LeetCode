@@ -68,6 +68,7 @@ int main() {
     memory1 m1;
     cout << "size of int& " << sizeof(int&) << endl;
     cout << "size of int " << sizeof(int) << endl;
+    cout << "size of int* " << sizeof(int*) << endl;
     cout << "size of char " << sizeof(char) << endl;
     cout << "size of memory1 " << sizeof(m1) << endl;
     cout << "size of memory1& " << sizeof(&m1) << endl;
@@ -76,7 +77,7 @@ int main() {
     cout << "size of memory3 " << sizeof(memory3) << endl;
 //    dfs(m1,i, j, a, b,c,d,e,f,g,h);
 //    dfs(i);
-    dfs(i,j);
+//    dfs(i,j);
 //    int x = 1;
 //    int y = 2;
 //    int &a1 = x;
