@@ -20,64 +20,45 @@ struct TreeNode {
 using namespace std;
 
 class Solution {
-    vector<vector<int>> d = {{0,1},{1,0},{-1,0},{0,-1}};//右0，下1，上2，左3
-    vector<vector<vector<int>>> dir = {{},{d[0],d[3]},{d[1],d[2]},{d[1],d[3]},{d[0],d[1]},{d[2],d[3]},{d[0],d[2]}};
-    bool found = false;
-    int m,n;
 public:
-    bool hasValidPath(vector<vector<int>>& grid) {
-        m = grid.size(), n = grid[0].size();
-        dfs(grid,0,0);
-        return found;
-    }
-
-    void dfs(vector<vector<int>>& grid, int i, int j)
-    {
-        if(found)
-            return;
-        if(i==m-1 && j==n-1)
+    int reverseBits(int num) {
+        if(num==0)
+            return 1;
+        int prevlen, prevEnd, maxlen = 0, count = 0, start=-1;
+        map<int,pair<int,int>> continOne;
+        for(int i = 0; i < 32; ++i)
         {
-            found = true;
-            return;
-        }
-        int x, y, k, dx, dy;
-        for(k = 0; k < dir[grid[i][j]].size(); ++k)
-        {
-            dx = dir[grid[i][j]][k][0];
-            dy = dir[grid[i][j]][k][1];
-            x = i+dx;
-            y = j+dy;
-            if(x>=0 && x<m && y>=0 && y<n && grid[x][y] != -1 && isok(grid,dx,dy,x,y))
+            if((num>>i)&1) //为1
             {
-                grid[x][y] = -1;//标记走过
-                return dfs(grid,x,y);
+                if(start==-1)
+                    start = i;
+                count++;
+                if(i == 31)
+                    continOne[i] = make_pair(start,count);
+            }
+            else
+            {
+                if(count)
+                    continOne[i-1] = make_pair(start,count);
+                count = 0;
+                start = -1;
             }
         }
-    }
-
-    bool isok(vector<vector<int>>& grid, int &dx, int &dy, int &x, int &y)
-    {
-        if(dx == 1 && dy ==0)//往下走，对应x,y处 '上' 要开着
+        auto it = continOne.begin();
+        prevlen = it->second.second;
+        prevEnd = it->first;
+        maxlen = prevlen+1;
+        it++;
+        for(; it != continOne.end(); ++it)
         {
-            if(grid[x][y]==2 || grid[x][y]==5 || grid[x][y]==6)
-                return true;
+            if(it->second.first - prevEnd == 1)
+            {
+                maxlen = max(maxlen, it->second.second+prevlen+1);
+            }
+            prevlen = it->second.second;
+            prevEnd = it->first;
         }
-        else if(dx == 0 && dy == 1)//右   --左
-        {
-            if(grid[x][y]==1 || grid[x][y]==3 || grid[x][y]==5)
-                return true;
-        }
-        else if(dx == -1 && dy == 0)//上 ---下
-        {
-            if(grid[x][y]==2 || grid[x][y]==3 || grid[x][y]==4)
-                return true;
-        }
-        else if(dx == 0 && dy == -1)//左--- 右
-        {
-            if(grid[x][y]==1 || grid[x][y]==4 || grid[x][y]==6)
-                return true;
-        }
-        return false;
+        return maxlen;
     }
 };
 
@@ -98,7 +79,7 @@ int main() {
     vector<vector<int>> v2 = {{2,4,3},{6,5,2}};
     vector<string> st  = {"T1S.",".*0*","....","..*."};
     Solution s;
-    cout << s.hasValidPath(v2) << endl;
+    cout << s.reverseBits(2147482622) << endl;
 
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
