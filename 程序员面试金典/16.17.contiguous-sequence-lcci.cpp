@@ -49,6 +49,6 @@ public:
     		Rs += nums[i];
     		maxR = max(maxR, Rs);
     	}
-    	return max(max(maxL, maxR), Ls+Rs);
+    	return max(maxL+maxR, max(Lsum,Rsum));
     }
 };
