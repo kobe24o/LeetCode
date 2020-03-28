@@ -392,6 +392,7 @@
 | [LeetCode 807. 保持城市天际线](https://blog.csdn.net/qq_21201267/article/details/100585707) |
 | [LeetCode 814. 二叉树剪枝（递归）](https://blog.csdn.net/qq_21201267/article/details/100566646) |
 | [LeetCode 816. 模糊坐标](https://michael.blog.csdn.net/article/details/103942445) |
+| [LeetCode 820. 单词的压缩编码（后缀树）](https://michael.blog.csdn.net/article/details/105158592) |
 | [LeetCode 821. 字符的最短距离](https://blog.csdn.net/qq_21201267/article/details/101001770) |
 | [LeetCode 829. 连续整数求和（数学）](https://michael.blog.csdn.net/article/details/103501644) |
 | [LeetCode 832. 翻转图像（异或^）](https://blog.csdn.net/qq_21201267/article/details/100585771) |
