@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-**已解决 815/1582** - **简单 382** **中等 369** **困难 64**
+**已解决 821/1586** - **简单 383** **中等 374** **困难 64**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -587,5 +587,5 @@
 | [LeetCode 1392. 最长快乐前缀（KMP）](https://michael.blog.csdn.net/article/details/105039592) |
 | [LeetCode 5368. 找出数组中的幸运数（map计数）](https://blog.csdn.net/qq_21201267/article/details/105176371) |
 | [LeetCode 5369. 统计作战单位数（蛮力法）](https://blog.csdn.net/qq_21201267/article/details/105176543) |
-| [LeetCode 5370. 设计地铁系统（map）](https://blog.csdn.net/qq_21201267/article/details/105178882) |
+| [LeetCode 5370. 设计地铁系统（map/unordered_map）](https://blog.csdn.net/qq_21201267/article/details/105178882) |
 
