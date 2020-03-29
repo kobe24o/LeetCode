@@ -43,3 +43,31 @@ public:
     	return mostP_year[1];
     }
 };
+
+class Solution {
+public:
+    int maxAliveYear(vector<int>& birth, vector<int>& death) {
+    	sort(birth.begin(), birth.end());
+    	sort(death.begin(), death.end());
+    	int i=0, j=0, count = 0, maxAlive = 0, year = 2020;
+    	while(i < birth.size())
+    	{
+    		if(birth[i] <= death[j])
+    		{
+    			count++;
+    			if(maxAlive < count)
+	    		{
+	    			maxAlive = count;
+	    			year = birth[i];
+	    		}
+	    		i++;
+	    	}
+    		else
+    		{
+    			count--;
+    			j++;
+    		}
+    	}
+    	return year;
+    }
+};
