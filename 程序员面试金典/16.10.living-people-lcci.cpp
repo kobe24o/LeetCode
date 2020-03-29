@@ -1,13 +1,13 @@
 struct cmp1
 {
-	operator()(vector<int>& a, vector<int> &b)
+	bool operator()(vector<int>& a, vector<int> &b)
 	{
 		return a[0] > b[0];
 	}
 };
 struct cmp2
 {
-	operator()(vector<int>& a, vector<int> &b)
+	bool operator()(vector<int>& a, vector<int> &b)
 	{
 		return a[1] > b[1];
 	}
@@ -36,8 +36,10 @@ public:
     			mostP_year[0] = people.size();
     			mostP_year[1] = time;
     		}
-    		
-
+    		while(!people.empty() && people.top()[1]==time)
+    			people.pop();
+    		time++;
     	}
+    	return mostP_year[1];
     }
 };
