@@ -586,4 +586,6 @@
 | [LeetCode 1391. 检查网格中是否存在有效路径（BFS）](https://michael.blog.csdn.net/article/details/105038964) |
 | [LeetCode 1392. 最长快乐前缀（KMP）](https://michael.blog.csdn.net/article/details/105039592) |
 | [LeetCode 5368. 找出数组中的幸运数（map计数）](https://blog.csdn.net/qq_21201267/article/details/105176371) |
+| [LeetCode 5369. 统计作战单位数（蛮力法）](https://blog.csdn.net/qq_21201267/article/details/105176543) |
+| [LeetCode 5370. 设计地铁系统（map）](https://blog.csdn.net/qq_21201267/article/details/105178882) |
 
