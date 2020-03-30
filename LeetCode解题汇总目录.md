@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-**已解决 821/1586** - **简单 383** **中等 374** **困难 64**
+**已解决 824/1586** - **简单 383** **中等 377** **困难 64**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -585,7 +585,7 @@
 | [LeetCode 1390. 四因数](https://blog.csdn.net/qq_21201267/article/details/105033772) |
 | [LeetCode 1391. 检查网格中是否存在有效路径（BFS）](https://michael.blog.csdn.net/article/details/105038964) |
 | [LeetCode 1392. 最长快乐前缀（KMP）](https://michael.blog.csdn.net/article/details/105039592) |
-| [LeetCode 5368. 找出数组中的幸运数（map计数）](https://blog.csdn.net/qq_21201267/article/details/105176371) |
-| [LeetCode 5369. 统计作战单位数（蛮力法）](https://blog.csdn.net/qq_21201267/article/details/105176543) |
-| [LeetCode 5370. 设计地铁系统（map/unordered_map）](https://blog.csdn.net/qq_21201267/article/details/105178882) |
+| [LeetCode 1394. 找出数组中的幸运数（map计数）](https://blog.csdn.net/qq_21201267/article/details/105176371) |
+| [LeetCode 1395. 统计作战单位数（蛮力法）](https://blog.csdn.net/qq_21201267/article/details/105176543) |
+| [LeetCode 1396. 设计地铁系统（map/unordered_map）](https://blog.csdn.net/qq_21201267/article/details/105178882) |
 
