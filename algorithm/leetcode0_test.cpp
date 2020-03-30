@@ -20,45 +20,21 @@ struct TreeNode {
 using namespace std;
 
 class Solution {
-    int sum = 0;
-    int n;
 public:
-    int countEval(string s, int result) {
-        n = s.size()/2; //运算次数
-        dfs(s,0,result);
-        return sum;
-    }
-
-    void dfs(string& s, int count, int result)
-    {
-        if(count==n)
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<vector<int>> ans;
+        int i, j, k = pow(2,nums.size());
+        for(i = 0; i < k; ++i)
         {
-            if(s[0]-'0' == result)
-                sum++;
-            return;
+            vector<int> sub;
+            for(j = 0; j < nums.size(); ++j)
+            {
+                if(i & (1<<j))
+                    sub.push_back(nums[j]);
+            }
+            ans.push_back(sub);
         }
-        string origin, b;
-        for(int i = 0; i < s.size()/2; ++i)
-        {
-            origin = s.substr(2*i,3);
-            b = operation(origin);
-            s.replace(2*i,3,b);
-            dfs(s,count+1,result);
-            s.replace(2*i,1,origin);
-        }
-    }
-
-    string operation(string str)
-    {
-        int a = str[0]-'0', b = str[2]-'0';
-        int ans;
-        if(str[1] == '&')
-            ans = a&b;
-        else if(str[1] == '|')
-            ans = a|b;
-        else
-            ans = a^b;
-        return ans==1 ? "1" : "0";
+        return ans;
     }
 };
 
@@ -73,13 +49,13 @@ public:
 
 int main() {
     vector<vector<char>> v4 = {{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','1','9','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};
-    vector<int> v1 = {0,0,1,0};
+    vector<int> v1 = {1,2,3};
     vector<int> v3 = {21,44,5,21,33,38,23,5,25,43};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{2,4,3},{6,5,2}};
     vector<string> st  = { };
     Solution s;
-    cout << s.countEval("0&1^1|0",1) << endl;
+     s.subsets(v1);
 
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
