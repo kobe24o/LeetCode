@@ -63,8 +63,8 @@ int main(){
     cout << query(4)-query(2) << endl;//获取A[3],A[4]的区间和
     cout << "区间修改，单点查询" << endl;
     for(int i = 1; i < 9; ++i)
-        update1(i,a[i]);//读取原数据差值，插入树状数组
-    cout << query_p(3) << endl;//获取前3个数的和
+        update1(i,a[i]-a[i-1]);//读取原数据差值，插入树状数组
+    cout << query_p(3)+ << endl;//获取前3个数的和
     cout << query_p(8) << endl;
     update_range(3,4,2);
     cout << query_p(3) << endl;
