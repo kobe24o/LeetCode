@@ -1,97 +1,74 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
-class Solution {	//桶排序
-public:
-    vector<int> sortArray(vector<int>& arr) {
-        if(arr.size() <= 1)
-            return arr;
-        int i, j = 0, min, max;
-        min = max = arr[0];
-        for(i = 1; i < arr.size(); ++i)
-        {
-            min = arr[i] < min ? arr[i] : min;
-            max = arr[i] > max ? arr[i] : max;
-        }
-        if(min == max)
-            return arr;
-        int div = 2;//桶个数
-        int space = (max-min)/div+1;
-        vector<int> temp(arr.size());
-        vector<int> bucketsize(div,0);
-        vector<int> bucketPos(div,0);
-        for(i = 0; i < arr.size(); ++i)
-            bucketsize[(arr[i]-min)/space]++;
-        bucketPos[0] = bucketsize[0];
-        for(i = 1; i < arr.size(); ++i)
-            bucketPos[i] += bucketPos[i-1] + bucketsize[i];//桶结束位置的下一个
-        for(i = 0; i < arr.size(); ++i)
-            temp[--bucketPos[(arr[i]-min)/space]] = arr[i];
-        for(i = 0; i < div; ++i)
-        {
-            if(bucketsize[i] > 1)
-            {
-                qsort(temp,bucketPos[i],bucketPos[i]+bucketsize[i]-1);
-            }
-        }
-        for(i = 0; i < arr.size(); ++i)
-            arr[i] = temp[i];
-        return arr;
+const int n = 8;
+int a[n+1]={0,1,2,3,4,5,6,7,8}, c[n+1] = {0}; //对应原数组和树状数组
+int sum1[n+1] = {0}, sum2[n+1] = {0};
+int lowbit(int x){
+    return x&(-x);
+}
+//-------单点修改----------
+void update(int i, int delta){    //在i位置加上delta（单点）
+    while(i <= n){
+        c[i] += delta;
+        i += lowbit(i);
     }
+}
 
-    void qsort(vector<int>& arr, int l, int r)
-    {
-        if(l >= r)
-            return;
-        int Pl = l, Pr = l;
-        partition(arr,l,r,Pl,Pr);
-        qsort(arr,l,Pl-1);
-        qsort(arr,Pr+1,r);
+int query(int i){    //求A[1],A[2],...A[i]的和
+    int res = 0;
+    while(i > 0){
+        res += c[i];
+        i -= lowbit(i);
     }
+    return res;
+}
 
-    void partition(vector<int>& arr, int l, int r, int& Pl, int& Pr)
-    {
-        selectMid(arr,l,r);
-        int P = arr[l];
-        int i = l, j = r;
-        while(i < j)
-        {
-            while(i < j && P < arr[j])//没有等于号，哨兵都在左侧
-                j--;
-            swap(arr[i], arr[j]);
-            while(i < j && arr[i] <= P)
-                i++;
-            swap(arr[i], arr[j]);
-        }
-        Pl = Pr = i;
-        for(i = i-1; i >= l; --i)
-        {
-            if(arr[i] == P)
-            {
-                Pl--;
-                swap(arr[i], arr[Pl]);
-            }
-        }
+//------区间修改-------
+void update1(int i, int delta){    //在i位置加上delta（区间修改）
+    while(i <= n){
+        sum1[i] += delta;
+        sum2[i] += delta*i;
+        i += lowbit(i);
     }
+}
+void update_range(int l, int r, int delta)    //给区间加上delta
+{
+    update1(l, delta);
+    update1(r+1, -delta);
+}
 
-    void selectMid(vector<int>& arr, int l, int r)
-    {
-        int mid = l+((r-l)>>1);
-        if(arr[mid] > arr[r])
-            swap(arr[mid],arr[r]);
-        if(arr[l] > arr[r])
-            swap(arr[l], arr[r]);
-        if(arr[mid] > arr[l])
-            swap(arr[mid], arr[l]);
+int query_p(int i){
+    int res = 0;
+    while(i > 0){
+        res += (i+1)*sum1[i] - sum2[i];
+        i -= lowbit(i);
     }
-};
-
-int main() {
-    Solution s;
-    vector<int> v = {2,3,1,4,2,3};
-
-    s.sortArray(v);
-    for(auto& vi : v)
-        cout << vi <<" ";
+    return res;
+}
+int query_range(int l, int r)
+{
+    return query_p(r)-query_p(l-1);
+}
+int main(){
+    //单点修改
+    cout << "单点修改，单点查询" << endl;
+    for(int i = 1; i < 9; ++i)
+        update(i,a[i]);//读取原数据，插入树状数组
+    cout << query(3) << endl;//获取前3个数的和
+    cout << query(8) << endl;
+    update(3,2);
+    cout << query(3) << endl;
+    cout << query(8) << endl;
+    cout << query(4)-query(2) << endl;//获取A[3],A[4]的区间和
+    cout << "区间修改，单点查询" << endl;
+    for(int i = 1; i < 9; ++i)
+        update1(i,a[i]);//读取原数据差值，插入树状数组
+    cout << query_p(3) << endl;//获取前3个数的和
+    cout << query_p(8) << endl;
+    update_range(3,4,2);
+    cout << query_p(3) << endl;
+    cout << query_p(8) << endl;
+    cout << query_range(3,4) << endl;//获取A[3],A[4]的区间和
+    return 0;
 }
