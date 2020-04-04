@@ -24,18 +24,21 @@ public:
     vector<string> findLongestSubarray(vector<string>& array) {
         if(array.size() < 2)
             return {};
-        unordered_map<int, vector<int>> m;
-        int sum = 0, i;
-        for(i = 0; i < array.size(); ++i)
+        map<int, pair<int,int>> m;
+        int sum = 0;
+        for(int i = 0; i < array.size(); ++i)
         {
             if(isdigit(array[i][0]))
                 sum++;
             else
                 sum--;
-            if(!m.count(sum) || m[sum].size() < 2)
-                m[sum].push_back(i);
-            else
-                m[sum][1] = i;
+            if(!m.count(sum))
+            {
+                m[sum].first = i;
+                m[sum].second = -1;
+            }
+            else if(m[sum].first != -1)
+                m[sum].second = i;
         }
         if(sum == 0)
             return array;
@@ -43,26 +46,28 @@ public:
         vector<int> key;
         for(auto& mi : m)
         {
-            if(mi.second[1]-mi.second[0] > maxlen)
+            if(mi.second.second == -1)
+                continue;
+            if(mi.second.second-mi.second.first > maxlen)
             {
-                maxlen = mi.second[1]-mi.second[0];
+                maxlen = mi.second.second-mi.second.first;
                 key.clear();
                 key.push_back(mi.first);
             }
-            else if(mi.second[1]-mi.second[0] == maxlen)
+            else if(mi.second.second-mi.second.first == maxlen)
                 key.push_back(mi.first);
         }
-        int minidx = INT_MAX;
+        string minidx = "zzzzzzzzzzzz";
         int ansKey;
         for(int k : key)
         {
-            if(m[k][0] < minidx)
+            if(array[m[k].first] < minidx)
             {
-                minidx = m[k][0];
+                minidx = array[m[k].first];
                 ansKey = k;
             }
         }
-        return vector<string> (array.begin()+m[ansKey][0], array.begin()+m[ansKey][1]);
+        return vector<string> (array.begin()+m[ansKey].first, array.begin()+m[ansKey].second);
     }
 };
 
@@ -86,7 +91,7 @@ int main() {
     vector<int> v3 = {21,44,5,21,33,38,23,5,25,43};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{2,4,3},{6,5,2}};
-    vector<string> st  = {"A","1","B","C","D","2","3","4","E","5","F","G","6","7","H","I","J","K","L","M"};
+    vector<string> st  = {"42","10","O","t","y","p","g","B","96","H","5","v","P","52","25","96","b","L","Y","z","d","52","3","v","71","J","A","0","v","51","E","k","H","96","21","W","59","I","V","s","59","w","X","33","29","H","32","51","f","i","58","56","66","90","F","10","93","53","85","28","78","d","67","81","T","K","S","l","L","Z","j","5","R","b","44","R","h","B","30","63","z","75","60","m","61","a","5","S","Z","D","2","A","W","k","84","44","96","96","y","M"};
     vector<string> st1 = {"(Uvt,Rqa)","(Qync,Kqjl)","(Fayxe,Upn)","(Maeb,Xaq)","(Pmbz,Vje)","(Hnc,Dma)","(Pwsuo,Gyhh)","(Gyhh,Aasipa)","(Fzoe,Lcp)","(Mgs,Vhdmab)","(Qync,Rgd)","(Gql,Liyd)","(Gyhh,Tkbn)","(Arrugl,Adlue)","(Wbcxi,Slfwyo)","(Yzwm,Vqnjg)","(Lnow,Vhdmab)","(Lvaaz,Rttg)","(Nfimij,Iggrg)","(Vje,Lqrmqh)","(Jylbla,Ljkzhs)","(Jnij,Mlo)","(Adlue,Zqiqe)","(Qync,Rttg)","(Gsiiyo,Vxs)","(Xxcl,Fzoe)","(Dbufek,Xaq)","(Ccqunq,Qszsny)","(Zmeop,Mork)","(Qync,Ngi)","(Zboes,Rmlbnj)","(Yldu,Jxv)","(Padz,Gsiiyo)","(Oip,Utc)","(Tal,Pxzfjg)","(Adlue,Zpm)","(Bbcpth,Mork)","(Qync,Lvaaz)","(Pmbz,Qync)","(Alqw,Ngi)","(Bcs,Maeb)","(Rgbu,Zmeop)"};
     Solution s;
     vector<string>ans = s.findLongestSubarray(st);
