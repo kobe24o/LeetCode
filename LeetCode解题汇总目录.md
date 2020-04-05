@@ -24,6 +24,7 @@
 | [LeetCode 第 20 场双周赛（294/1541，前19.1%，第1次全部通过）](https://michael.blog.csdn.net/article/details/104453219) |
 | [LeetCode 第 21 场双周赛（779/1913，前40.7%）](https://michael.blog.csdn.net/article/details/104725634) |
 | [LeetCode 第 22 场双周赛（220/2041，前10.8%）](https://michael.blog.csdn.net/article/details/105022135) |
+| [LeetCode 第 23 场双周赛（970/2044，前47.5%）](https://michael.blog.csdn.net/article/details/105323119) |
 
 ​          
 
@@ -591,4 +592,8 @@
 | [LeetCode 1394. 找出数组中的幸运数（map计数）](https://blog.csdn.net/qq_21201267/article/details/105176371) |
 | [LeetCode 1395. 统计作战单位数（蛮力法）](https://blog.csdn.net/qq_21201267/article/details/105176543) |
 | [LeetCode 1396. 设计地铁系统（map/unordered_map）](https://blog.csdn.net/qq_21201267/article/details/105178882) |
+| [LeetCode 5360. 统计最大组的数目](https://michael.blog.csdn.net/article/details/105323119#1_LeetCode_5360__easy_11) |
+| [LeetCode 5361. 圆和矩形是否有重叠（数学）](https://michael.blog.csdn.net/article/details/105323119#3_LeetCode_5361__medium_149) |
+| [LeetCode 5362. 构造 K 个回文字符串（脑洞题）](https://michael.blog.csdn.net/article/details/105323119#2_LeetCode_5362__K__medium_83) |
+| [LeetCode 5363. 做菜顺序（贪心+动态规划）](https://michael.blog.csdn.net/article/details/105323119#4_LeetCode_5363__hard_207) |
 
