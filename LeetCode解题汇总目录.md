@@ -597,4 +597,5 @@
 | [LeetCode 5362. 构造 K 个回文字符串（脑洞题）](https://michael.blog.csdn.net/article/details/105323119#2_LeetCode_5362__K__medium_83) |
 | [LeetCode 5363. 做菜顺序（贪心+动态规划）](https://michael.blog.csdn.net/article/details/105323119#4_LeetCode_5363__hard_207) |
 | [LeetCode 5376. 非递增顺序的最小子序列（排序）](https://michael.blog.csdn.net/article/details/105327168) |
+| [LeetCode 5377. 将二进制表示减到 1 的步骤数（字符串加法）](https://michael.blog.csdn.net/article/details/105327882) |
 
