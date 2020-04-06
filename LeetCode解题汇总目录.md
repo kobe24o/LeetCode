@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.3.31
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.4.5
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode代码能力测试CAT](https://blog.csdn.net/qq_21201267/article/details/104603021)。
 
@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-**已解决 850/1595** - **简单 385** **中等 396** **困难 69**
+**已解决 851/1595** - **简单 385** **中等 397** **困难 69**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -34,6 +34,7 @@
 | [LeetCode 2. 两数相加（单链表反转）](https://blog.csdn.net/qq_21201267/article/details/97191786) |
 | [LeetCode 3. 无重复字符的最长子串（滑动窗口+哈希）](https://blog.csdn.net/qq_21201267/article/details/102333616) |
 | [LeetCode 4. 寻找两个有序数组的中位数（二分查找，难）](https://blog.csdn.net/qq_21201267/article/details/102828858) |
+| [LeetCode 5. 最长回文子串（动态规划）](https://michael.blog.csdn.net/article/details/105348936) |
 | [LeetCode 6. Z 字形变换（找规律）](https://blog.csdn.net/qq_21201267/article/details/104782401) |
 | [LeetCode 7. 整数反转](https://blog.csdn.net/qq_21201267/article/details/100583336) |
 | [LeetCode 8. 字符串转换整数 (atoi)](https://blog.csdn.net/qq_21201267/article/details/100583821) |
@@ -594,12 +595,12 @@
 | [LeetCode 1394. 找出数组中的幸运数（map计数）](https://blog.csdn.net/qq_21201267/article/details/105176371) |
 | [LeetCode 1395. 统计作战单位数（蛮力法）](https://blog.csdn.net/qq_21201267/article/details/105176543) |
 | [LeetCode 1396. 设计地铁系统（map/unordered_map）](https://blog.csdn.net/qq_21201267/article/details/105178882) |
-| [LeetCode 5360. 统计最大组的数目](https://michael.blog.csdn.net/article/details/105323119#1_LeetCode_5360__easy_11) |
-| [LeetCode 5361. 圆和矩形是否有重叠（数学）](https://michael.blog.csdn.net/article/details/105323119#3_LeetCode_5361__medium_149) |
-| [LeetCode 5362. 构造 K 个回文字符串（脑洞题）](https://michael.blog.csdn.net/article/details/105323119#2_LeetCode_5362__K__medium_83) |
-| [LeetCode 5363. 做菜顺序（贪心+动态规划）](https://michael.blog.csdn.net/article/details/105323119#4_LeetCode_5363__hard_207) |
-| [LeetCode 5376. 非递增顺序的最小子序列（排序）](https://michael.blog.csdn.net/article/details/105327168) |
-| [LeetCode 5377. 将二进制表示减到 1 的步骤数（字符串加法）](https://michael.blog.csdn.net/article/details/105327882) |
-| [LeetCode 5195. 最长快乐字符串（贪心）](https://blog.csdn.net/qq_21201267/article/details/105330626) |
-| [LeetCode 5379. 石子游戏 III（DP）](https://blog.csdn.net/qq_21201267/article/details/105332878) |
+| [LeetCode 1399. 统计最大组的数目](https://michael.blog.csdn.net/article/details/105323119#1_LeetCode_5360__easy_11) |
+| [LeetCode 1400. 构造 K 个回文字符串（脑洞题）](https://michael.blog.csdn.net/article/details/105323119#2_LeetCode_5362__K__medium_83) |
+| [LeetCode 1401. 圆和矩形是否有重叠（数学）](https://michael.blog.csdn.net/article/details/105323119#3_LeetCode_5361__medium_149) |
+| [LeetCode 1402. 做菜顺序（贪心+动态规划）](https://michael.blog.csdn.net/article/details/105323119#4_LeetCode_5363__hard_207) |
+| [LeetCode 1403. 非递增顺序的最小子序列（排序）](https://michael.blog.csdn.net/article/details/105327168) |
+| [LeetCode 1404. 将二进制表示减到 1 的步骤数（字符串加法）](https://michael.blog.csdn.net/article/details/105327882) |
+| [LeetCode 1405. 最长快乐字符串（贪心）](https://blog.csdn.net/qq_21201267/article/details/105330626) |
+| [LeetCode 1406. 石子游戏 III（DP）](https://blog.csdn.net/qq_21201267/article/details/105332878) |
 
