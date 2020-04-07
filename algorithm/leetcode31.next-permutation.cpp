@@ -1,18 +1,24 @@
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
-        if(nums.empty() <= 1)
+        if(nums.size() <= 1)
             return;
-        int i = nums.size()-2, j = nums.size()-1, k, n = nums.size();
-        while(i >= 0 && nums[i] >= nums[j])
-            i--;j--;
+        int i = nums.size()-2, j, n = nums.size();
+        while(i >= 0 && nums[i] >= nums[i+1])
+            i--;//找下降点
         if(i>=0)
         {
-            k = i;
+            j = i+1;
             while(j < n && nums[i] < nums[j])
-                j++;
+                j++;//找比 i 点大的，最小点
             swap(nums[i], nums[j-1]);   
         }
-        sort(nums.begin()+i+1,nums.end());
+        reverse(nums,i+1,n-1);//反转 i+1, end
+    }
+
+    inline void reverse(vector<int>& a, int l, int r)
+    {
+        while(l < r)
+            swap(a[l++],a[r--]);
     }
 };
