@@ -79,7 +79,7 @@ public:
 //则当前节点所构成的最大距离即左深度+右深度-2*当前节点深度。
 
 //["...1","..S.","..*.",".0.T"]   9
-void printv(vector<string>& v)
+void printv(vector<int>& v)
 {
     for(auto& vi : v)
         cout << vi << " ";
@@ -94,12 +94,10 @@ int main() {
     vector<string> st  = {"42","10","O","t","y","p","g","B","96","H","5","v","P","52","25","96","b","L","Y","z","d","52","3","v","71","J","A","0","v","51","E","k","H","96","21","W","59","I","V","s","59","w","X","33","29","H","32","51","f","i","58","56","66","90","F","10","93","53","85","28","78","d","67","81","T","K","S","l","L","Z","j","5","R","b","44","R","h","B","30","63","z","75","60","m","61","a","5","S","Z","D","2","A","W","k","84","44","96","96","y","M"};
     vector<string> st1 = {"(Uvt,Rqa)","(Qync,Kqjl)","(Fayxe,Upn)","(Maeb,Xaq)","(Pmbz,Vje)","(Hnc,Dma)","(Pwsuo,Gyhh)","(Gyhh,Aasipa)","(Fzoe,Lcp)","(Mgs,Vhdmab)","(Qync,Rgd)","(Gql,Liyd)","(Gyhh,Tkbn)","(Arrugl,Adlue)","(Wbcxi,Slfwyo)","(Yzwm,Vqnjg)","(Lnow,Vhdmab)","(Lvaaz,Rttg)","(Nfimij,Iggrg)","(Vje,Lqrmqh)","(Jylbla,Ljkzhs)","(Jnij,Mlo)","(Adlue,Zqiqe)","(Qync,Rttg)","(Gsiiyo,Vxs)","(Xxcl,Fzoe)","(Dbufek,Xaq)","(Ccqunq,Qszsny)","(Zmeop,Mork)","(Qync,Ngi)","(Zboes,Rmlbnj)","(Yldu,Jxv)","(Padz,Gsiiyo)","(Oip,Utc)","(Tal,Pxzfjg)","(Adlue,Zpm)","(Bbcpth,Mork)","(Qync,Lvaaz)","(Pmbz,Qync)","(Alqw,Ngi)","(Bcs,Maeb)","(Rgbu,Zmeop)"};
     Solution s;
-    vector<string>ans = s.findLongestSubarray(st);
-//    sort(ans.begin(), ans.end());
-    vector<string> v5 = {"Prf(48)","Zvzm(31)","Jmqqsj(19)","Uwy(26)","Jylbla(100)","Xioal(11)","Npbu(62)","Jpftyg(96)","Pxzfjg(91)","Dma(170)","Jxv(152)","Kxjw(36)","Clplqf(8)","Slfwyo(82)","Xbesji(70)","Fzoe(130)","Alqw(424)","Oip(13)","Sqwejn(19)","Icsvku(1)","Vqnjg(142)","Vaakt(21)","Rqa(117)","Axaqkm(100)","Aasipa(262)","Gaoo(98)","Ghlj(35)","Umt(13)","Iggrg(99)","Fayxe(155)","Zhc(44)","Slh(66)","Orpqim(69)","Gsiiyo(215)","Sfjdjc(62)","Ccqunq(186)","Oyo(32)","Bvnkk(52)","Kaaht(28)","Fshi(62)","Phlto(41)","Mqgga(31)","Adlue(171)","Lnow(157)","Rmlbnj(98)","Jnij(75)","Ghk(14)","Mrqlne(39)","Wzt(41)","Xuzubb(90)","Kmrev(31)","Bbcpth(256)","Lwyfn(50)","Qlvglt(36)","Gql(67)","Bcs(262)","Ttj(28)","Ndc(62)","Bjfkzo(54)"};
-    sort(v5.begin(), v5.end());
-    printv(ans);
-    printv(v5);
+
+    printv(v1);
+    v1.resize(3);
+    printv(v1);
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
     TreeNode *t1 = new TreeNode(1);
