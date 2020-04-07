@@ -36,53 +36,46 @@ public:
     	return maxP;
     }
 };
-struct cmp1{
-	bool operator()(const& a, const& b)
-	{
-		if(a[0]==b[0])
-			return a[1] < b[1];
-		return a[0] < b[0];
-	}
-};
-struct cmp2{
-	bool operator()(const& a, const& b)
-	{
-		if(a[1]==b[1])
-			return a[0] < b[0];
-		return a[1] < b[1];
-	}
-};
 class Solution {
 public:
     int bestSeqAtIndex(vector<int>& height, vector<int>& weight) {
-    	int i, j, n = height.size(),maxP = 1;
-    	vector<vector<int>> p(n);
+    	int i, j, len=1, n = height.size();
+    	vector<pair<int,int>> p(n);
     	for(i = 0; i < n; ++i)
     		p[i] = {height[i], weight[i]};
- 		set<vector<int>,cmp1> dp1;
- 		set<vector<int>,cmp1> dp2;
-    	for(i = 0; i < n; ++i)
+    	sort(p.begin(),p.end(),[](auto a, auto b){
+            if(a.first==b.first)
+                return a.second > b.second;
+                //升高一样，降序，避免选择上升子序时把他们同时选上
+            return a.first < b.first;
+        });//按身高升序
+    	vector<int> dp(n);
+        dp[0] = p[0].second;
+    	for(i = 1; i < n; ++i)
     	{
-    		auto it = dp1.upper_bound(p[i]);
-    		if(it == dp1.end())
-    			dp1.insert(p[i]);
-    		else
-    		{	
-    			dp1.erase(it);
-    			dp1.insert(p[i]);
-    		}
+            j = bs(dp,0,len-1,len,p[i].second);//二分查找求体重的最长上升子序
+            dp[j] = p[i].second;
+            if(j == len)
+                len++;
     	}
-		for(i = 0; i < n; ++i)
-    	{
-    		auto it = dp2.upper_bound(p[i]);
-    		if(it == dp2.end())
-    			dp2.insert(p[i]);
-    		else
-    		{	
-    			dp2.erase(it);
-    			dp2.insert(p[i]);
-    		}
-    	}
-    	return max(dp1.size(),dp2.size());
+    	return len;
+    }
+    int bs(vector<int>& dp, int l, int r, int len, int target)
+    {   //第一个 大于等于 我的
+        int mid;
+        while(l <= r)
+        {
+            mid = l+((r-l)>>1);
+            if(dp[mid] >= target)
+            {
+                if(mid==0 || dp[mid-1] < target)
+                    return mid;
+                else
+                    r = mid-1;
+            }
+            else// if(dp[mid] < target)
+                l = mid+1;
+        }
+        return len;//没有找打，说明它是最大的
     }
 };
