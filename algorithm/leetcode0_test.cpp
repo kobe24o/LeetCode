@@ -20,21 +20,57 @@ struct TreeNode {
 using namespace std;
 
 class Solution {
+    vector<vector<int>> ans;
+    vector<int> temp;
+    deque<TreeNode*> q;
 public:
-    void nextPermutation(vector<int>& nums) {
-        if(nums.empty() <= 1)
-            return;
-        int i = nums.size()-2, j, n = nums.size();
-        while(i >= 0 && nums[i] >= nums[i+1])
-            i--;
-        if(i>=0)
+    vector<vector<int>> BSTSequences(TreeNode* root) {
+        if(!root)
+            return {{}};
+        q.push_back(root);
+        dfs();
+        return ans;
+    }
+
+    void dfs()
+    {
+        if(q.empty())
         {
-            j = i+1;
-            while(j < n && nums[i] < nums[j])
-                j++;
-            swap(nums[i], nums[j-1]);
+            ans.push_back(temp);
+            return;
         }
-        sort(nums.begin()+i+1,nums.end());
+        int size = q.size();
+        while(size--)
+        {
+            TreeNode *tp = q.front();
+            q.pop_front();	//现场，BFS队列里的节点
+            temp.push_back(tp->val);
+            int children = 0;
+            if(tp->left)
+            {
+                q.push_back(tp->left);
+                children++;
+            }
+            if(tp->right)
+            {
+                q.push_back(tp->right);
+                children++;
+            }
+            for(auto qi : q)
+                cout << qi->val << " ";
+            cout << endl;
+            dfs();
+            while(children--)
+                q.pop_back();
+            for(auto qi : q)
+                cout << qi->val << " ";
+            cout << endl;
+            q.push_back(tp);//恢复现场
+            for(auto qi : q)
+                cout << qi->val << " ";
+            cout << endl;
+            temp.pop_back();
+        }
     }
 };
 
@@ -61,22 +97,22 @@ int main() {
     vector<string> st  = {"42","10","O","t","y","p","g","B","96","H","5","v","P","52","25","96","b","L","Y","z","d","52","3","v","71","J","A","0","v","51","E","k","H","96","21","W","59","I","V","s","59","w","X","33","29","H","32","51","f","i","58","56","66","90","F","10","93","53","85","28","78","d","67","81","T","K","S","l","L","Z","j","5","R","b","44","R","h","B","30","63","z","75","60","m","61","a","5","S","Z","D","2","A","W","k","84","44","96","96","y","M"};
     vector<string> st1 = {"(Uvt,Rqa)","(Qync,Kqjl)","(Fayxe,Upn)","(Maeb,Xaq)","(Pmbz,Vje)","(Hnc,Dma)","(Pwsuo,Gyhh)","(Gyhh,Aasipa)","(Fzoe,Lcp)","(Mgs,Vhdmab)","(Qync,Rgd)","(Gql,Liyd)","(Gyhh,Tkbn)","(Arrugl,Adlue)","(Wbcxi,Slfwyo)","(Yzwm,Vqnjg)","(Lnow,Vhdmab)","(Lvaaz,Rttg)","(Nfimij,Iggrg)","(Vje,Lqrmqh)","(Jylbla,Ljkzhs)","(Jnij,Mlo)","(Adlue,Zqiqe)","(Qync,Rttg)","(Gsiiyo,Vxs)","(Xxcl,Fzoe)","(Dbufek,Xaq)","(Ccqunq,Qszsny)","(Zmeop,Mork)","(Qync,Ngi)","(Zboes,Rmlbnj)","(Yldu,Jxv)","(Padz,Gsiiyo)","(Oip,Utc)","(Tal,Pxzfjg)","(Adlue,Zpm)","(Bbcpth,Mork)","(Qync,Lvaaz)","(Pmbz,Qync)","(Alqw,Ngi)","(Bcs,Maeb)","(Rgbu,Zmeop)"};
     Solution s;
-    s.nextPermutation(v1);
+
     printv(v1);
     v1.resize(3);
     printv(v1);
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
-    TreeNode *t1 = new TreeNode(1);
-    TreeNode *t2 = new TreeNode(2);
-    TreeNode *t3 = new TreeNode(3);
-    TreeNode *t4 = new TreeNode(4);
-    TreeNode *t5 = new TreeNode(5);
+    TreeNode *t1 = new TreeNode(0);
+    TreeNode *t2 = new TreeNode(1);
+    TreeNode *t3 = new TreeNode(2);
+    TreeNode *t4 = new TreeNode(3);
+    TreeNode *t5 = new TreeNode(4);
     t1->left = t2;
-    t2->right = t3;
-    t3->left = t4;
-    t3->right = t5;
-
+    t1->right = t3;
+    t2->left = t4;
+    t2->right = t5;
+    s.BSTSequences(t1);
 
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
