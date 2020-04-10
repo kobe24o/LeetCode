@@ -1,7 +1,7 @@
 class Solution {
 public:
     string longestWord(vector<string>& words) {
-        if(words.size() < 3)
+        if(words.size() < 2)
             return "";
         sort(words.begin(), words.end(),[&](auto a, auto b){
         	if(a.size() == b.size())
@@ -25,16 +25,19 @@ public:
         return "";	
     }
 
-    bool ok(string s, unordered_set<string,int> &set)
+    bool ok(string s, unordered_set<string> &set)
     {
+        if(s=="")
+            return true;
     	bool good = false;
     	for(int len = 1; len <= s.size(); ++len)
     	{
     		string sub = s.substr(0,len);
     		if(set.count(sub) && ok(s.substr(len),set))
+    		{
     			good = true;
-    		if(good)
     			break;
+    		}
     	}
     	return good;
     }
