@@ -20,57 +20,47 @@ struct TreeNode {
 using namespace std;
 
 class Solution {
-    vector<vector<int>> ans;
-    vector<int> temp;
-    deque<TreeNode*> q;
 public:
-    vector<vector<int>> BSTSequences(TreeNode* root) {
-        if(!root)
-            return {{}};
-        q.push_back(root);
-        dfs();
-        return ans;
+    string longestWord(vector<string>& words) {
+        if(words.size() < 3)
+            return "";
+        sort(words.begin(), words.end(),[&](string a, string b){
+            if(a.size() == b.size())
+                return a < b;
+            return a.size() > b.size();
+        });
+        int i, len;
+        string ans, sub;
+        unordered_set<string> set;
+        for(i = 0; i < words.size(); ++i)
+            set.insert(words[i]);
+        for(i = 0; i < words.size()-1; ++i)
+        {
+            for(len = 1; len < words[i].size(); ++len)
+            {
+                sub = words[i].substr(0,len);
+                if(set.count(sub) && ok(words[i].substr(len), set))
+                    return words[i];
+            }
+        }
+        return "";
     }
 
-    void dfs()
+    bool ok(string s, unordered_set<string> &set)
     {
-        if(q.empty())
+        if(s=="")
+            return true;
+        bool good = false;
+        for(int len = 1; len <= s.size(); ++len)
         {
-            ans.push_back(temp);
-            return;
-        }
-        int size = q.size();
-        while(size--)
-        {
-            TreeNode *tp = q.front();
-            q.pop_front();	//现场，BFS队列里的节点
-            temp.push_back(tp->val);
-            int children = 0;
-            if(tp->left)
+            string sub = s.substr(0,len);
+            if(set.count(sub) && ok(s.substr(len),set))
             {
-                q.push_back(tp->left);
-                children++;
+                good = true;
+                break;
             }
-            if(tp->right)
-            {
-                q.push_back(tp->right);
-                children++;
-            }
-            for(auto qi : q)
-                cout << qi->val << " ";
-            cout << endl;
-            dfs();
-            while(children--)
-                q.pop_back();
-            for(auto qi : q)
-                cout << qi->val << " ";
-            cout << endl;
-            q.push_back(tp);//恢复现场
-            for(auto qi : q)
-                cout << qi->val << " ";
-            cout << endl;
-            temp.pop_back();
         }
+        return good;
     }
 };
 
@@ -94,10 +84,10 @@ int main() {
     vector<int> v3 = {100,150,90,190,95,110};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v2 = {{2,4,3},{6,5,2}};
-    vector<string> st  = {"42","10","O","t","y","p","g","B","96","H","5","v","P","52","25","96","b","L","Y","z","d","52","3","v","71","J","A","0","v","51","E","k","H","96","21","W","59","I","V","s","59","w","X","33","29","H","32","51","f","i","58","56","66","90","F","10","93","53","85","28","78","d","67","81","T","K","S","l","L","Z","j","5","R","b","44","R","h","B","30","63","z","75","60","m","61","a","5","S","Z","D","2","A","W","k","84","44","96","96","y","M"};
-    vector<string> st1 = {"(Uvt,Rqa)","(Qync,Kqjl)","(Fayxe,Upn)","(Maeb,Xaq)","(Pmbz,Vje)","(Hnc,Dma)","(Pwsuo,Gyhh)","(Gyhh,Aasipa)","(Fzoe,Lcp)","(Mgs,Vhdmab)","(Qync,Rgd)","(Gql,Liyd)","(Gyhh,Tkbn)","(Arrugl,Adlue)","(Wbcxi,Slfwyo)","(Yzwm,Vqnjg)","(Lnow,Vhdmab)","(Lvaaz,Rttg)","(Nfimij,Iggrg)","(Vje,Lqrmqh)","(Jylbla,Ljkzhs)","(Jnij,Mlo)","(Adlue,Zqiqe)","(Qync,Rttg)","(Gsiiyo,Vxs)","(Xxcl,Fzoe)","(Dbufek,Xaq)","(Ccqunq,Qszsny)","(Zmeop,Mork)","(Qync,Ngi)","(Zboes,Rmlbnj)","(Yldu,Jxv)","(Padz,Gsiiyo)","(Oip,Utc)","(Tal,Pxzfjg)","(Adlue,Zpm)","(Bbcpth,Mork)","(Qync,Lvaaz)","(Pmbz,Qync)","(Alqw,Ngi)","(Bcs,Maeb)","(Rgbu,Zmeop)"};
+    vector<string> st  = {"a","aa"};
+    vector<string> st1 = {};
     Solution s;
-
+    s.longestWord(st);
     printv(v1);
     v1.resize(3);
     printv(v1);
@@ -112,7 +102,7 @@ int main() {
     t1->right = t3;
     t2->left = t4;
     t2->right = t5;
-    s.BSTSequences(t1);
+
 
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
