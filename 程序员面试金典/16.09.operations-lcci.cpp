@@ -24,12 +24,12 @@ public:
     	while(temp <= INT_MAX)
     	{	
     		b_2.push_back(temp);
-    		count.push_back(plus);//b乘以几得到上面的数t
+    		count.push_back(plus);//b乘以几得到上面的数temp
     		temp += temp;
     		plus += plus;
     	}
     	int ans = 0;
-    	for(int i = b_2.size()-1; i >= 0; --i)
+    	for(int i = b_2.size()-1; i >= 0; i=minus(i,1))
     	{
     		while(a >= count[i])
     		{
@@ -43,6 +43,34 @@ public:
     }
     
     int divide(int a, int b) {
-        
+        if(a==0 || b==INT_MAX || b==INT_MIN) return 0;
+        if(b==1) return a;
+        if(b== -1) return -a;
+        int negative = 0;
+    	if(a < 0) negative += 1, a = -a;
+    	if(b < 0) negative += 1, b = -b;
+    	if(a < b) return 0;
+    	long temp = b;
+    	vector<int> b_2, count;
+    	int plus = 1;
+    	while(a >= temp)
+    	{	
+    		b_2.push_back(temp);
+    		count.push_back(plus);//b乘以几得到上面的数temp
+    		temp += temp;
+    		plus += plus;
+    	}
+    	int ans = 0;
+    	for(int i = b_2.size()-1; i >= 0; i=minus(i,1))
+    	{
+    		while(a >= b_2[i])
+    		{
+    			ans += count[i];//商+倍数
+    			a = minus(a,b_2[i]);//把a减去b的倍数
+    		}
+    	}
+    	if(negative==1)
+    		return -ans;
+    	return ans;
     }
 };
