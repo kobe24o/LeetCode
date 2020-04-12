@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-**已解决 859/1596** - **简单 384** **中等 404** **困难 71**
+**已解决 868/1600** - **简单 385** **中等 409** **困难 74**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -605,6 +605,8 @@
 | [LeetCode 1404. 将二进制表示减到 1 的步骤数（字符串加法）](https://michael.blog.csdn.net/article/details/105327882) |
 | [LeetCode 1405. 最长快乐字符串（贪心）](https://blog.csdn.net/qq_21201267/article/details/105330626) |
 | [LeetCode 1406. 石子游戏 III（DP）](https://blog.csdn.net/qq_21201267/article/details/105332878) |
+| [LeetCode 1410. HTML 实体解析器（哈希map）](https://michael.blog.csdn.net/article/details/105478099) |
 | [LeetCode 5380. 数组中的字符串匹配（暴力查找）](https://michael.blog.csdn.net/article/details/105474377) |
 | [LeetCode 5381. 查询带键的排列（map模拟）](https://michael.blog.csdn.net/article/details/105476278) |
+| [LeetCode 5383. 给 N x 3 网格图涂色的方案数（数学）](https://michael.blog.csdn.net/article/details/105478846) |
 
