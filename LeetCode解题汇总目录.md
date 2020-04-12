@@ -241,6 +241,7 @@
 | [LeetCode 349. 两个数组的交集（哈希）](https://blog.csdn.net/qq_21201267/article/details/100945076) |
 | [LeetCode 350. 两个数组的交集 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/100995174) |
 | [LeetCode 354. 俄罗斯套娃信封问题（最长上升子序 DP/二分查找）](https://michael.blog.csdn.net/article/details/105370146) |
+| [LeetCode 355. 设计推特（哈希map+set）](https://michael.blog.csdn.net/article/details/105480197) |
 | [LeetCode 357. 计算各个位数不同的数字个数（DP）](https://michael.blog.csdn.net/article/details/103844098) |
 | [LeetCode 365. 水壶问题（最大公约数）](https://michael.blog.csdn.net/article/details/102980961) |
 | [LeetCode 367. 有效的完全平方数（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489562) |
