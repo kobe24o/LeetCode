@@ -605,4 +605,6 @@
 | [LeetCode 1404. 将二进制表示减到 1 的步骤数（字符串加法）](https://michael.blog.csdn.net/article/details/105327882) |
 | [LeetCode 1405. 最长快乐字符串（贪心）](https://blog.csdn.net/qq_21201267/article/details/105330626) |
 | [LeetCode 1406. 石子游戏 III（DP）](https://blog.csdn.net/qq_21201267/article/details/105332878) |
+| [LeetCode 5380. 数组中的字符串匹配（暴力查找）](https://michael.blog.csdn.net/article/details/105474377) |
+| [LeetCode 5381. 查询带键的排列（map模拟）](https://michael.blog.csdn.net/article/details/105476278) |
 
