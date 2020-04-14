@@ -21,44 +21,66 @@ using namespace std;
 
 class Solution {
 public:
-    vector<double> cutSquares(vector<int>& square1, vector<int>& square2) {
-        if(square1[1] > square2[1])
-            swap(square1,square2);//第一个的左下角y坐标更小
-        double cx1, cy1, cx2, cy2, r1, r2;
-        r1 = square1[2]/2.0;
-        r2 = square2[2]/2.0;
-        cx1 = square1[0]+r1;//中心坐标
-        cy1 = square1[1]+r1;
-        cx2 = square2[0]+r2;
-        cy2 = square2[1]+r2;
-        if(cx1==cx2)//斜率无穷大
-            return {cx1,cy1-r1,cx1,max(cy1+r1,cy2+r2)};
-        else//斜率存在,分两种情况，与上下边相交，左右边相交
-        {
-            double k = (cy1-cy2)/(cx1-cx2);
-            double b = cy1-k*cx1;
-            if(abs(k)>=1)//交点在上下边
-            {
-                if(k>0)
-                    return {cx1-r1/k, cy1-r1, max(cx1+r1/k,cx2+r2/k),max(cy1+r1,cy2+r2)};
-                else
-                    return {min(cx1+r1/k,cx2+r2/k),max(cy1+r1,cy2+r2), cx1+r1/k, cy1-r1};
-            }
-            else//交点在左右边
-            {
-                if(square1[0] > square2[0])
+    vector<int> bestLine(vector<vector<int>>& points) {
+    	int i, j, g, dx, dy, maxCount = 0, n = points.size();
+    	double k, b;
+
+    	unordered_map<double,unordered_map<double,vector<int>>> m;
+    	unordered_map<double,vector<int>> v;
+    	vector<int> ansline;
+    	for(i = 0; i < n-1; ++i)
+    	{
+    		for(j = i+1; j < n; ++j)
+    		{
+    			dx = points[j][0]-points[i][0];
+    			dy = points[j][1]-points[i][1];
+    			if(dx==0)
+    			{
+    				if(v[double(points[i][0])].empty())
+    					v[double(points[i][0])].push_back(i);
+    				v[double(points[i][0])].push_back(j);
+    			}
+    			else if(dy==0)
+    			{
+    				if(m[0.0][double(points[i][1])].empty())
+    					m[0.0][double(points[i][1])].push_back(i);
+    				m[0.0][double(points[i][1])].push_back(j);
+    			}
+    			else
+    			{
+    				k = double(dy)/dx;
+    				b = points[i][0]-points[i][1]/k;
+    				if(m[k][b].empty())
+    					m[k][b].push_back(i);
+    				m[k][b].push_back(j);
+    			}
+    		}
+    	}
+    	int i1=0;
+    	for(auto& mi : m)
+    	{
+    		for(auto& mii : mi.second)
+    		{
+    		    i1++;
+                if(mii.second.size() > maxCount)
                 {
-                    swap(square1,square2);//第一个的左下角x坐标更小
-                    swap(r1,r2);
-                    swap(cx1,cx2);
-                    swap(cy1,cy2);
+                    maxCount = mii.second.size();
+                    ansline = mii.second;
+                    cout << i1 << endl;
                 }
-                if(k>0)
-                    return {cx1-r1,cy1-k*r1,max(cx1+r1,cx2+r2),max(cy1+k*r1,cy2+k*r2)};
-                else
-                    return {cx1-r1,cy1-k*r1,max(cx1+r1,cx2+r2),min(cy1-k*r1,cy2-k*r2)};
-            }
-        }
+    		}
+    	}
+    	for(auto& vi : v)
+    	{
+    	    i1++;
+    		if(vi.second.size() > maxCount)
+			{
+				maxCount = vi.second.size();
+				ansline = vi.second;
+                cout << i1 << endl;
+			}
+    	}
+    	return {ansline[0],ansline[1]};
     }
 };
 
@@ -77,7 +99,7 @@ void printv(vector<int>& v)
     cout << endl;
 }
 int main() {
-    vector<vector<char>> v6 = {{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','1','9','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};
+    vector<vector<int>> v6 = {{-13260,8589},{1350,8721},{-37222,-19547},{-54293,-29302},{-10489,-13241},{-19382,574},{5561,1033},{-22508,-13241},{-1542,20695},{9277,2820},{-32081,16145},{-50902,23701},{-8636,19504},{-17042,-28765},{-27132,-24156},{-48323,-4607},{30279,29922}};
     vector<int> v1 = {68,130,64};
     vector<int> v2 = {-230,194,7};
     vector<int> v3 = {-1,0};
@@ -87,7 +109,7 @@ int main() {
     vector<string> st  = {"a","aa"};
     vector<string> st1 = {};
     Solution s;
-    s.cutSquares(v1,v2);
+    s.bestLine(v6);
     printv(v1);
     v1.resize(3);
     printv(v1);
