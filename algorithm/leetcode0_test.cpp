@@ -21,75 +21,77 @@ using namespace std;
 
 class Solution {
 public:
-    vector<int> bestLine(vector<vector<int>>& points) {
-        int i, j, g, dx, dy, maxCount = 0, n = points.size();
-        double k, b;
-
-        unordered_map<double,unordered_map<double,set<int>>> m;
-        unordered_map<double,set<int>> v;
-        vector<set<int>> ans;
-        for(i = 0; i < n-1; ++i)
+    vector<int> findSquare(vector<vector<int>>& mat) {
+        if(mat.size()==0 || mat[0].size() == 0)
+            return {};
+        int m = mat.size(), n = mat[0].size(), i, j, k;
+        vector<vector<int>> sumof0Up(m, vector<int>(n,0));//向上连续0个数
+        vector<vector<int>> sumof0Left(m, vector<int>(n,0));//向左连续0个数
+        for(i = 0; i < m; i++)
         {
-            for(j = i+1; j < n; ++j)
+            for(j = 0; j < n; j++)
             {
-                dx = points[j][0]-points[i][0];
-                dy = points[j][1]-points[i][1];
-                if(dx==0)
+                if(mat[i][j] == 0)
                 {
-                    if(v[double(points[i][0])].empty())
-                        v[double(points[i][0])].insert(i);
-                    v[double(points[i][0])].insert(j);
-                }
-                else if(dy==0)
-                {
-                    if(m[0.0][double(points[i][1])].empty())
-                        m[0.0][double(points[i][1])].insert(i);
-                    m[0.0][double(points[i][1])].insert(j);
-                }
-                else
-                {
-                    k = double(dy)/dx;
-                    b = double(points[i][1])-points[i][0]*k;
-                    if(m[k][b].empty())
-                        m[k][b].insert(i);
-                    m[k][b].insert(j);
+                    if(i==0 && j==0)
+                        sumof0Left[i][j] = 1, sumof0Up[i][j] = 1;
+                    else if(i==0 && j>0)
+                    {
+                        sumof0Left[i][j] = sumof0Left[i][j-1]+1;
+                        sumof0Up[i][j] = 1;
+                    }
+                    else if(j==0 && i > 0)
+                    {
+                        sumof0Left[i][j] = 1;
+                        sumof0Up[i][j] = sumof0Up[i-1][j]+1;
+                    }
+                    else
+                    {
+                        sumof0Left[i][j] = sumof0Left[i][j-1]+1;
+                        sumof0Up[i][j] = sumof0Up[i-1][j]+1;
+                    }
                 }
             }
         }
-        for(auto& mi : m)
+        vector<int> ans(3,-1);
+        int edge, x, y;
+        for(i = m-1; i >= 0; i--)
         {
-            for(auto& mii : mi.second)
+            for(j = n-1; j >= 0; --j)
             {
-                if(mii.second.size() > maxCount)
+                edge = min(sumof0Up[i][j], sumof0Left[i][j]);
+                while(edge > 0)
                 {
-                    maxCount = mii.second.size();
-                    ans.clear();
-                    ans.push_back(mii.second);
+                    if(ans[2] > edge)//肯定小，不必检查了
+                        break;
+                    x = i-edge+1;
+                    y = j-edge+1;
+                    if(sumof0Up[x][j]>=edge && sumof0Left[i][y]>=edge)
+                    {
+                        if(edge > ans[2])
+                        {
+                            ans[2] = edge;
+                            ans[0] = x;
+                            ans[1] = y;
+                        }
+                        else if(edge == ans[2] && x <= ans[0])
+                        {
+                            if(x < ans[0])
+                            {
+                                ans[0] = x;
+                                ans[1] = y;
+                            }
+                            if(x == ans[0] && y < ans[1])
+                                ans[1] = y;
+                        }
+                    }
+                    edge--;
                 }
-                else if(mii.second.size() == maxCount)
-                    ans.push_back(mii.second);
             }
         }
-        for(auto& vi : v)
-        {
-            if(vi.second.size() > maxCount)
-            {
-                maxCount = vi.second.size();
-                ans.clear();
-                ans.push_back(vi.second);
-            }
-            else if(vi.second.size() == maxCount)
-                ans.push_back(vi.second);
-
-        }
-        sort(ans.begin(),ans.end(),[&](set<int> a, set<int> b){
-            auto it1 = a.begin(), it2 = b.begin();
-            if(*it1 == *it2)
-                return *(it1++) < *(it2++);
-            return *it1 < *it2;
-        });
-        auto it = ans[0].begin();
-        return {*it,*(it++)};
+        if(ans[0]==-1)
+            return {};
+        return ans;
     }
 };
 
@@ -109,7 +111,7 @@ void printv(vector<int>& v)
 }
 int main() {
 //    vector<vector<int>> v6 = {{-13260,8589},{1350,8721},{-37222,-19547},{-54293,-29302},{-10489,-13241},{-19382,574},{5561,1033},{-22508,-13241},{-1542,20695},{9277,2820},{-32081,16145},{-50902,23701},{-8636,19504},{-17042,-28765},{-27132,-24156},{-48323,-4607},{30279,29922}};
-    vector<vector<int>> v6 ={{0,0},{1,1},{1,0},{2,0}};
+    vector<vector<int>> v6 ={{1,0,1},{0,0,1},{0,0,1}};
     vector<int> v1 = {68,130,64};
     vector<int> v2 = {-230,194,7};
     vector<int> v3 = {-1,0};
@@ -119,7 +121,7 @@ int main() {
     vector<string> st  = {"a","aa"};
     vector<string> st1 = {};
     Solution s;
-    v4 = s.bestLine(v6);
+    v4 = s.findSquare(v6);
     printv(v4);
 
     string s1 = "1";
