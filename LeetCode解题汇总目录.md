@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-**已解决 877/1600** - **简单 385** **中等 418** **困难 74**
+**已解决 881/1600** - **简单 385** **中等 420** **困难 76**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
@@ -501,6 +501,7 @@
 | [LeetCode 1128. 等价多米诺骨牌对的数量（哈希）](https://michael.blog.csdn.net/article/details/103190477) |
 | [LeetCode 1137. 第 N 个泰波那契数](https://blog.csdn.net/qq_21201267/article/details/100671814) |
 | [LeetCode 1138. 字母板上的路径](https://michael.blog.csdn.net/article/details/103899893) |
+| [LeetCode 1139. 最大的以 1 为边界的正方形（DP）](https://michael.blog.csdn.net/article/details/105542359) |
 | [LeetCode 1145. 二叉树着色游戏（计算节点个数）](https://michael.blog.csdn.net/article/details/103115240) |
 | [LeetCode 1154. 一年中的第几天](https://blog.csdn.net/qq_21201267/article/details/100754099) |
 | [LeetCode 1160. 拼写单词](https://blog.csdn.net/qq_21201267/article/details/100673250) |
