@@ -543,6 +543,7 @@
 | [LeetCode 1316. 不同的循环子字符串](https://michael.blog.csdn.net/article/details/103942178#LeetCode_5146__hard_177) |
 | [LeetCode 1317. 将整数转换为两个无零整数的和](https://michael.blog.csdn.net/article/details/103949611) |
 | [LeetCode 1323. 6 和 9 组成的最大数字](https://michael.blog.csdn.net/article/details/104057397) |
+| [LeetCode 1325. 删除给定值的叶子节点（递归）](https://michael.blog.csdn.net/article/details/105546735) |
 | [LeetCode 1328. 破坏回文串](https://michael.blog.csdn.net/article/details/104087738#LeetCode_1328__medium_65) |
 | [LeetCode 1329. 将矩阵按对角线排序](https://michael.blog.csdn.net/article/details/104087738#LeetCode_1329__medium_122) |
 | [LeetCode 1330. 翻转子数组得到最大的数组值](https://michael.blog.csdn.net/article/details/104087738#LeetCode_1330__hard_193) |
