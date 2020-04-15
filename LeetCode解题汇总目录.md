@@ -498,6 +498,7 @@
 | [LeetCode 1108. IP 地址无效化](https://blog.csdn.net/qq_21201267/article/details/100585842) |
 | [LeetCode 1111. 有效括号的嵌套深度（奇偶分离）](https://michael.blog.csdn.net/article/details/105243722) |
 | [LeetCode 1122. 数组的相对排序](https://blog.csdn.net/qq_21201267/article/details/101112047) |
+| [LeetCode 1123. 最深叶节点的最近公共祖先（递归比较子树高度）](https://michael.blog.csdn.net/article/details/105547346) |
 | [LeetCode 1128. 等价多米诺骨牌对的数量（哈希）](https://michael.blog.csdn.net/article/details/103190477) |
 | [LeetCode 1137. 第 N 个泰波那契数](https://blog.csdn.net/qq_21201267/article/details/100671814) |
 | [LeetCode 1138. 字母板上的路径](https://michael.blog.csdn.net/article/details/103899893) |
