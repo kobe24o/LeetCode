@@ -19,60 +19,102 @@ struct TreeNode {
 };
 using namespace std;
 
-class Solution {
+class trie
+{
 public:
-    int largest1BorderedSquare(vector<vector<int>>& grid) {
-        int m = grid.size(), n = grid[0].size(), i, j;
-        vector<vector<int>> sumof0Up(m, vector<int>(n,0));//向上连续0个数
-        vector<vector<int>> sumof0Left(m, vector<int>(n,0));//向左连续0个数
-        for(i = 0; i < m; i++)
+    bool isEnd = false;
+    trie* next[26] = {NULL};
+    void insert(string& s)
+    {
+        trie *cur = this;
+        for(int i = 0; i < s.size(); ++i)
         {
-            for(j = 0; j < n; j++)
-            {
-                if(grid[i][j] == 0)
-                {
-                    if(i==0 && j==0)
-                        sumof0Left[i][j] = 1, sumof0Up[i][j] = 1;
-                    else if(i==0 && j>0)
-                    {
-                        sumof0Left[i][j] = sumof0Left[i][j-1]+1;
-                        sumof0Up[i][j] = 1;
-                    }
-                    else if(j==0 && i > 0)
-                    {
-                        sumof0Left[i][j] = 1;
-                        sumof0Up[i][j] = sumof0Up[i-1][j]+1;
-                    }
-                    else
-                    {
-                        sumof0Left[i][j] = sumof0Left[i][j-1]+1;
-                        sumof0Up[i][j] = sumof0Up[i-1][j]+1;
-                    }
-                }
-            }
+            if(!cur->next[s[i]-'a'])
+                cur->next[s[i]-'a'] = new trie();
+            cur = cur->next[s[i]-'a'];
         }
-        int maxEdge = 0, edge, x, y;
-        for(i = m-1; i >= 0; i--)
+        cur->isEnd = true;
+    }
+    bool find(string& s)
+    {
+        trie *cur = this;
+        for(int i = 0; i < s.size(); ++i)
         {
-            for(j = n-1; j >= 0; --j)
-            {
-                edge = min(sumof0Up[i][j], sumof0Left[i][j]);
-                //初始边长
-                while(edge > 0)
-                {
-                    if(maxEdge > edge)//肯定小，不必检查了
-                        break;
-                    x = i-edge+1;//上方边的x
-                    y = j-edge+1;//左侧边的y
-                    if(sumof0Up[i][y]>=edge && sumof0Left[x][j]>=edge)
-                    {	//左侧边  上侧边长都大于等 edge
-                        maxEdge = max(maxEdge, edge);
-                    }
-                    edge--;//遍历所有可能
-                }
-            }
+            if(!cur->next[s[i]-'a'])
+                return false;
+            cur = cur->next[s[i]-'a'];
         }
-        return maxEdge*maxEdge;
+        return cur->isEnd;
+    }
+};
+class Solution {
+    trie* t;
+    vector<string> ans;
+    vector<string> temp;
+public:
+    vector<string> maxRectangle(vector<string>& words) {
+        t = new trie();
+        vector<vector<string>> m(101);
+        int maxlen = 0, maxarea = 0, area;
+        for(auto w : words)
+        {
+            t->insert(w);
+            m[w.size()].push_back(w);
+            maxlen = max(maxlen, int(w.size()));
+        }
+
+        for(int i = 100; i >= 0; --i)
+        {
+            if(m[i].size()==0)
+                continue;
+            if(maxarea/(m[i][0].size()) >= maxlen)
+                break;//最长的单词都不够
+            temp.clear();
+            area = 0;
+            dfs(m[i],0,maxarea,area);
+        }
+        return ans;
+    }
+
+    void dfs(vector<string> &wd, int idx, int& maxarea, int area)
+    {
+        for(int i = 0; i < wd.size(); ++i)
+        {
+            temp.push_back(wd[i]);
+            vector<bool> res = isgood(temp);
+            if(res[0])//可以往下加单词
+            {
+                area = temp.size()*temp[0].size();
+                if(res[1] && area > maxarea)//都是结束单词
+                {
+                    maxarea = area;
+                    ans = temp;
+                }
+                dfs(wd, 0, maxarea, area);
+            }
+            else//不能加
+                temp.pop_back();
+        }
+    }
+
+
+    vector<bool> isgood(vector<string>& tp)
+    {
+        trie *cur;
+        bool allend = true;
+        int i, j, n = tp[0].size();
+        for(j = 0; j < n; ++j)//按列在trie中检查
+        {
+            cur = t;
+            for(i = 0; i < tp.size(); ++i)
+            {
+                if(!cur->next[tp[i][j]-'a'])
+                    return {false, false};
+                cur = cur->next[tp[i][j]-'a'];
+            }
+            allend &= cur->isEnd;
+        }
+        return {true, allend};
     }
 };
 
@@ -99,10 +141,10 @@ int main() {
     vector<int> v4 = {3,2};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<int>> v5 = {{2,4,3},{6,5,2}};
-    vector<string> st  = {"a","aa"};
+    vector<string> st  = {"hjhbr", "dixpgflm", "jjzgr", "gb", "ruzih", "zvthz", "rcadj", "agched", "jwvouurr", "hpmyrbq", "rdzfv", "pdffy", "ihsvg", "dihvb", "fhdwixmy", "cpvhj", "x", "aotsh", "qgahgz", "upoij"};
     vector<string> st1 = {};
     Solution s;
-    s.largest1BorderedSquare(v6);
+    s.maxRectangle(st);
     printv(v4);
 
     string s1 = "1";
