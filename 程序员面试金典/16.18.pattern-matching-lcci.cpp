@@ -15,16 +15,16 @@ public:
         }
         if(a==0 || b==0)
         {
-            if(value=="")
+            if(value=="")//只有一种字符，其代表空串即可满足
                 return true;
             a = max(a, b);
             return onlyAorB(value, a);
         }
         //a,b均有的情况
-        //a，b均可以表示空字符串
-        if(onlyAorB(value,a))//b表示空串
+        //a，b均可以表示空字符串, "ab",""
+        if(onlyAorB(value,a) && value.size()!=0)//b表示空串
             return true;
-        if(onlyAorB(value,b))//a表示空串
+        if(onlyAorB(value,b) && value.size()!=0)//a表示空串
             return true;
         //a，b均不表示空
         int la=1, lb=1;//a,b代表的长度
@@ -44,8 +44,7 @@ public:
     }
     bool onlyAorB(string& val, int a)
     {
-        if(val.size()==0 || val.size()%a)
-        //有一个代表空串，val为空，另一个也代表空串，则a=b=""
+        if(val.size()%a)//不能整除，不行
             return false;
         int n = val.size()/a;
         string sub = val.substr(0,n);
