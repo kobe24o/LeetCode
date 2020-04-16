@@ -19,102 +19,101 @@ struct TreeNode {
 };
 using namespace std;
 
-class trie
-{
-public:
-    bool isEnd = false;
-    trie* next[26] = {NULL};
-    void insert(string& s)
-    {
-        trie *cur = this;
-        for(int i = 0; i < s.size(); ++i)
-        {
-            if(!cur->next[s[i]-'a'])
-                cur->next[s[i]-'a'] = new trie();
-            cur = cur->next[s[i]-'a'];
-        }
-        cur->isEnd = true;
-    }
-    bool find(string& s)
-    {
-        trie *cur = this;
-        for(int i = 0; i < s.size(); ++i)
-        {
-            if(!cur->next[s[i]-'a'])
-                return false;
-            cur = cur->next[s[i]-'a'];
-        }
-        return cur->isEnd;
-    }
-};
 class Solution {
-    trie* t;
-    vector<string> ans;
-    vector<string> temp;
 public:
-    vector<string> maxRectangle(vector<string>& words) {
-        t = new trie();
-        vector<vector<string>> m(101);
-        int maxlen = 0, maxarea = 0, area;
-        for(auto w : words)
+    bool patternMatching(string pattern, string value) {
+        if(pattern==value)
+            return true;
+        else if(pattern=="" && value!="")
+            return false;
+        int i, a = 0, b = 0, vlen = value.size();
+        for(i = 0; i < pattern.size(); ++i)
         {
-            t->insert(w);
-            m[w.size()].push_back(w);
-            maxlen = max(maxlen, int(w.size()));
+            if(pattern[i]=='a')
+                a++;
+            else
+                b++;
         }
-
-        for(int i = 100; i >= 0; --i)
+        if(a==0 || b==0)
         {
-            if(m[i].size()==0)
+            if(value=="")
+                return true;
+            a = max(a, b);
+            return onlyAorB(value, a);
+        }
+        //a,b均有的情况
+        //a，b均可以表示空字符串
+        if(onlyAorB(value,a))//b表示空串
+            return true;
+        if(onlyAorB(value,b))//a表示空串
+            return true;
+        //a，b均不表示空
+        int la=1, lb=1;//a,b代表的长度
+        while(la*a < vlen)
+        {
+            if((vlen-la*a)%b)//不能整除
+            {
+                la++;
                 continue;
-            if(maxarea/(m[i][0].size()) >= maxlen)
-                break;//最长的单词都不够
-            temp.clear();
-            area = 0;
-            dfs(m[i],0,maxarea,area);
-        }
-        return ans;
-    }
-
-    void dfs(vector<string> &wd, int idx, int& maxarea, int area)
-    {
-        for(int i = 0; i < wd.size(); ++i)
-        {
-            temp.push_back(wd[i]);
-            vector<bool> res = isgood(temp);
-            if(res[0])//可以往下加单词
-            {
-                area = temp.size()*temp[0].size();
-                if(res[1] && area > maxarea)//都是结束单词
-                {
-                    maxarea = area;
-                    ans = temp;
-                }
-                dfs(wd, 0, maxarea, area);
             }
-            else//不能加
-                temp.pop_back();
+            lb = (vlen-la*a)/b;
+            if(good(la,lb,pattern,value))
+                return true;
+            la++;
         }
+        return false;
     }
-
-
-    vector<bool> isgood(vector<string>& tp)
+    bool onlyAorB(string& val, int a)
     {
-        trie *cur;
-        bool allend = true;
-        int i, j, n = tp[0].size();
-        for(j = 0; j < n; ++j)//按列在trie中检查
+        if(val.size()%a)
+            return false;
+        int n = val.size()/a;
+        string sub = val.substr(0,n);
+        for(int j = n; j < val.size(); j+=n)
         {
-            cur = t;
-            for(i = 0; i < tp.size(); ++i)
-            {
-                if(!cur->next[tp[i][j]-'a'])
-                    return {false, false};
-                cur = cur->next[tp[i][j]-'a'];
-            }
-            allend &= cur->isEnd;
+            if(val.substr(j,n) != sub)
+                return false;
         }
-        return {true, allend};
+        return true;
+    }
+    bool good(int la, int lb, string& pat, string& val)
+    {
+        int idxa = -1, idxb = -1, i = 0, idx = 0;
+        while(idxa==-1 || idxb==-1)
+        {
+            if(pat[i]=='a')
+            {
+                if(idxa == -1)
+                    idxa = idx;
+                idx += la;
+            }
+            else
+            {
+                if(idxb == -1)
+                    idxb = idx;
+                idx += lb;
+            }
+            i++;
+        }
+        string sa = val.substr(idxa, la);
+        string sb = val.substr(idxb, lb);
+        int j = 0, delta;
+        for(i = 0; i < pat.size(); ++i, j+=delta)
+        {
+            if(pat[i]=='a')
+            {
+                delta = la;
+                if(val.substr(j,la) != sa)
+                    return false;
+            }
+            else
+            {
+                delta = lb;
+                if(val.substr(j,lb) != sb)
+                    return false;
+            }
+        }
+        return true;
     }
 };
 
@@ -144,7 +143,8 @@ int main() {
     vector<string> st  = {"hjhbr", "dixpgflm", "jjzgr", "gb", "ruzih", "zvthz", "rcadj", "agched", "jwvouurr", "hpmyrbq", "rdzfv", "pdffy", "ihsvg", "dihvb", "fhdwixmy", "cpvhj", "x", "aotsh", "qgahgz", "upoij"};
     vector<string> st1 = {};
     Solution s;
-    s.maxRectangle(st);
+    s.patternMatching("ab"
+                   ,"");
     printv(v4);
 
     string s1 = "1";

@@ -1,9 +1,9 @@
 class Solution {
 public:
     bool patternMatching(string pattern, string value) {
-        if(value=="" || pattern==value)
+        if(pattern==value)
             return true;
-        else if(pattern=="" || pattern.size() > value.size())
+        else if(pattern=="" && value!="")
             return false;
         int i, a = 0, b = 0, vlen = value.size();
         for(i = 0; i < pattern.size(); ++i)
@@ -15,6 +15,8 @@ public:
         }
         if(a==0 || b==0)
         {
+            if(value=="")
+                return true;
             a = max(a, b);
             return onlyAorB(value, a);
         }
@@ -36,12 +38,14 @@ public:
             lb = (vlen-la*a)/b;
             if(good(la,lb,pattern,value))
                 return true;
+            la++;
         }
         return false;
     }
     bool onlyAorB(string& val, int a)
     {
-        if(val.size()%a)
+        if(val.size()==0 || val.size()%a)
+        //有一个代表空串，val为空，另一个也代表空串，则a=b=""
             return false;
         int n = val.size()/a;
         string sub = val.substr(0,n);
@@ -60,7 +64,7 @@ public:
             if(pat[i]=='a')
             {
                 if(idxa == -1)
-                    idxa = idx
+                    idxa = idx;
                 idx += la;
             }
             else
@@ -69,6 +73,26 @@ public:
                     idxb = idx;
                 idx += lb;
             }
+            i++;
         }
+        string sa = val.substr(idxa, la);
+        string sb = val.substr(idxb, lb);
+        int j = 0, delta;
+        for(i = 0; i < pat.size(); ++i, j+=delta)
+        {
+            if(pat[i]=='a')
+            {
+                delta = la;
+                if(val.substr(j,la) != sa)
+                    return false;
+            }
+            else
+            {
+                delta = lb;
+                if(val.substr(j,lb) != sb)
+                    return false;
+            }
+        }
+        return true;
     }
 };
