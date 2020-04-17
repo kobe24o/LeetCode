@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.4.10
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.4.17
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题（更新完毕）](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题（更新完毕）](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode代码能力测试CAT](https://blog.csdn.net/qq_21201267/article/details/104603021)。
 
@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-**已解决 891/1600** - **简单 385** **中等 428** **困难 78**
+**已解决 893/1600** - **简单 385** **中等 430** **困难 78**
 
 - 2019.7.24 - 2019.11.9，108天做了400道题
 - 2019.11.9 - 2019.11.24，   AC +100道，4个月共计500道题
