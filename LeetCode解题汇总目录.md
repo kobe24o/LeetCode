@@ -16,7 +16,7 @@
 
 | 参赛记录                                                     |
 | :----------------------------------------------------------- |
-| [LeetCode 2019 力扣杯全国秋季编程大赛](https://blog.csdn.net/qq_21201267/article/details/101345174)（582/1541，前37.7%） |
+| [LeetCode 2019 力扣杯全国秋季编程大赛（582/1541，前37.7%）](https://blog.csdn.net/qq_21201267/article/details/101345174) |
 | [LeetCode 第 16 场双周赛（402/822，前48.9%）](https://michael.blog.csdn.net/article/details/103757611) |
 | [LeetCode 第 17 场双周赛（469/897，前52.3%）](https://michael.blog.csdn.net/article/details/103942178) |
 | [LeetCode 第 18 场双周赛（188/587，前32%）](https://michael.blog.csdn.net/article/details/104087738) |
@@ -25,6 +25,7 @@
 | [LeetCode 第 21 场双周赛（779/1913，前40.7%）](https://michael.blog.csdn.net/article/details/104725634) |
 | [LeetCode 第 22 场双周赛（220/2041，前10.8%）](https://michael.blog.csdn.net/article/details/105022135) |
 | [LeetCode 第 23 场双周赛（970/2044，前47.5%）](https://michael.blog.csdn.net/article/details/105323119) |
+| [LeetCode 2020 力扣杯全国春季编程大赛（1644/4093，前40.2%）](https://michael.blog.csdn.net/article/details/105603426) |
 
 ​          
 
