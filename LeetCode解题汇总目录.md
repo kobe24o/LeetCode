@@ -183,10 +183,12 @@
 | [LeetCode 179. 最大数（自定义谓词函数（Lambda表达式）排序）](https://blog.csdn.net/qq_21201267/article/details/102827816) |
 | [LeetCode 189. 旋转数组（环形替换）](https://blog.csdn.net/qq_21201267/article/details/102303036) |
 | [LeetCode 190. 颠倒二进制位（位运算）](https://michael.blog.csdn.net/article/details/105597369) |
+| [LeetCode 191. 位1的个数（位运算）](https://michael.blog.csdn.net/article/details/104289467) |
 | [LeetCode 198. 打家劫舍（DP）](https://blog.csdn.net/qq_21201267/article/details/102688966) |
 | [LeetCode 199. 二叉树的右视图（DFS & 按层queue）](https://blog.csdn.net/qq_21201267/article/details/100801826) |
 | [LeetCode 200. 岛屿数量（图的遍历）](https://blog.csdn.net/qq_21201267/article/details/99775387) |
 | [LeetCode 202. 快乐数（快慢指针）](https://blog.csdn.net/qq_21201267/article/details/101003351) |
+| [LeetCode 203. 移除链表元素](https://michael.blog.csdn.net/article/details/105597582) |
 | [LeetCode 204. 计数质数（质数的倍数不是质数）](https://blog.csdn.net/qq_21201267/article/details/102693327) |
 | [LeetCode 206. 反转链表](https://blog.csdn.net/qq_21201267/article/details/100171825) |
 | [LeetCode 208. 实现 Trie (前缀树)](https://blog.csdn.net/qq_21201267/article/details/102558647) |
