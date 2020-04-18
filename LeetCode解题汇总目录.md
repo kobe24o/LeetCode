@@ -182,6 +182,7 @@
 | [LeetCode 173. 二叉搜索树迭代器（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100549417) |
 | [LeetCode 179. 最大数（自定义谓词函数（Lambda表达式）排序）](https://blog.csdn.net/qq_21201267/article/details/102827816) |
 | [LeetCode 189. 旋转数组（环形替换）](https://blog.csdn.net/qq_21201267/article/details/102303036) |
+| [LeetCode 190. 颠倒二进制位（位运算）](https://michael.blog.csdn.net/article/details/105597369) |
 | [LeetCode 198. 打家劫舍（DP）](https://blog.csdn.net/qq_21201267/article/details/102688966) |
 | [LeetCode 199. 二叉树的右视图（DFS & 按层queue）](https://blog.csdn.net/qq_21201267/article/details/100801826) |
 | [LeetCode 200. 岛屿数量（图的遍历）](https://blog.csdn.net/qq_21201267/article/details/99775387) |
