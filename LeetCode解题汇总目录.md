@@ -228,6 +228,7 @@
 | [LeetCode 273. 整数转换英文表示](https://michael.blog.csdn.net/article/details/103093410) |
 | [LeetCode 274. H指数（排序，哈希）](https://michael.blog.csdn.net/article/details/103691047) |
 | [LeetCode 275. H指数 II（二分查找）](https://michael.blog.csdn.net/article/details/103691399) |
+| [LeetCode 278. 第一个错误的版本（二分查找）](https://michael.blog.csdn.net/article/details/105598387) |
 | [LeetCode 279. 完全平方数（DP）](https://blog.csdn.net/qq_21201267/article/details/101487022) |
 | [LeetCode 283. 移动零](https://blog.csdn.net/qq_21201267/article/details/100832987) |
 | [LeetCode 287. 寻找重复数（BitMap）](https://blog.csdn.net/qq_21201267/article/details/100135972) |
