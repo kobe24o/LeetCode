@@ -533,6 +533,7 @@
 | [LeetCode 1271. 十六进制魔术数字（进制转换）](https://michael.blog.csdn.net/article/details/103346339) |
 | [LeetCode 1275. 找出井字棋的获胜者（位运算）](https://michael.blog.csdn.net/article/details/103345978) |
 | [LeetCode 1277. 统计全为 1 的正方形子矩阵（DP）](https://michael.blog.csdn.net/article/details/105588317) |
+| [LeetCode 1281. 整数的各位积和之差](https://michael.blog.csdn.net/article/details/105594317) |
 | [LeetCode 1282. 用户分组（桶排序思想）](https://michael.blog.csdn.net/article/details/103483462) |
 | [LeetCode 1284. 转化为全零矩阵的最少反转次数（BFS & 矩阵状态编码解码）](https://michael.blog.csdn.net/article/details/104116933) |
 | [LeetCode 1288. 删除被覆盖区间（lambda排序）](https://michael.blog.csdn.net/article/details/103916976) |
