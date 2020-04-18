@@ -35,56 +35,38 @@ struct cmp1
 };
 
 class Solution {
+    char ch[3] = {'a','b','c'};
+    vector<string> ans;
+    string s;
+    int N, K;
 public:
-    vector<int> getTriggerTime(vector<vector<int>>& inc, vector<vector<int>>& req) {
-        int t = 0, n = req.size(), a = 0, b = 0, c =0;
-        vector<int> ans(n,-1);
-        multimap<vector<int>, int, cmp1> m;
-        // multiset<vector<int>,cmp1> set1;
-        for(int i = 0; i < n; ++i)
+    string getHappyString(int n, int k) {
+        N = n;
+        K = k;
+        dfs(s);
+        if(k > ans.size())
+            return "";
+        return ans[k];
+    }
+
+    void dfs(string s)
+    {
+        if(ans.size()>=K)
+            return;
+        if(s.size()==N)
         {
-            m.insert(make_pair(req[i],i));
-            // set1.insert(req[i]);
+            ans.push_back(s);
+            return;
         }
-
-        vector<int> tp;
-        auto end1 = m.upper_bound({a,b,c});
-        for(auto it = m.begin(); it != end1; )
+        for(int i = 0; i < 3; ++i)
         {
-            tp = it->first;
-            if(a>=tp[0] && b>=tp[1] && c>=tp[2])
+            if(s.empty() || s.back()!=ch[i])
             {
-
-                ans[it->second] = t;
-                m.erase(it++);
-            }
-            else
-                ++it;
-        }
-        for(int i = 0; i < inc.size(); ++i)
-        {
-            t = i+1;
-            a += inc[i][0];
-            b += inc[i][1];
-            c += inc[i][2];
-            auto end = m.upper_bound({a,b,c});
-            for(auto it = m.begin(); it != end; )
-            {
-                tp = it->first;
-                if(a>=tp[0] && b>=tp[1] && c>=tp[2])
-                {
-
-                    ans[it->second] = t;
-                    m.erase(it++);
-                }
-                else
-                    ++it;
+                dfs(s+ch[i]);
             }
         }
-        return ans;
     }
 };
-
 //["01","10","0","1","1001010"] 9
 //["01","0","0101010"]  6
 //["011000","0111010","01101010"] 9
@@ -111,7 +93,7 @@ int main() {
     vector<string> st  = {"hjhbr", "dixpgflm", "jjzgr", "gb", "ruzih", "zvthz", "rcadj", "agched", "jwvouurr", "hpmyrbq", "rdzfv", "pdffy", "ihsvg", "dihvb", "fhdwixmy", "cpvhj", "x", "aotsh", "qgahgz", "upoij"};
     vector<string> st1 = {};
     Solution s;
-    v4 = s.getTriggerTime(v6,v5);
+    cout << s.getHappyString(3,9) << endl;
     printv(v4);
 
     string s1 = "1";

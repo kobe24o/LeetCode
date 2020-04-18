@@ -26,6 +26,7 @@
 | [LeetCode 第 22 场双周赛（220/2041，前10.8%）](https://michael.blog.csdn.net/article/details/105022135) |
 | [LeetCode 第 23 场双周赛（970/2044，前47.5%）](https://michael.blog.csdn.net/article/details/105323119) |
 | [LeetCode 2020 力扣杯全国春季编程大赛（1644/4093，前40.2%）](https://michael.blog.csdn.net/article/details/105603426) |
+| [LeetCode 第 24 场双周赛（326/1898，前17.2%）](https://michael.blog.csdn.net/article/details/105608345) |
 
 ​          
 
