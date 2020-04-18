@@ -141,6 +141,7 @@
 | [LeetCode 121. 买卖股票的最佳时机](https://blog.csdn.net/qq_21201267/article/details/100026086) |
 | [LeetCode 122. 买卖股票的最佳时机 II](https://blog.csdn.net/qq_21201267/article/details/100127238) |
 | [LeetCode 124. 二叉树中的最大路径和（DFS）](https://blog.csdn.net/qq_21201267/article/details/100171375) |
+| [LeetCode 125. 验证回文串](https://michael.blog.csdn.net/article/details/105596879) |
 | [LeetCode 126. 单词接龙 II（图的BFS）](https://blog.csdn.net/qq_21201267/article/details/102808526) |
 | [LeetCode 127. 单词接龙（图的BFS/双向BFS）](https://blog.csdn.net/qq_21201267/article/details/102795986) |
 | [LeetCode 128. 最长连续序列（哈希set）](https://blog.csdn.net/qq_21201267/article/details/102769670) |
@@ -173,6 +174,7 @@
 | [LeetCode 162. 寻找峰值（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102418806) |
 | [LeetCode 165. 比较版本号](https://michael.blog.csdn.net/article/details/103674332) |
 | [LeetCode 166. 分数到小数（小数除法）](https://blog.csdn.net/qq_21201267/article/details/102757990) |
+| [LeetCode 167. 两数之和 II - 输入有序数组（双指针）](https://michael.blog.csdn.net/article/details/105596937) |
 | [LeetCode 169. 求众数](https://blog.csdn.net/qq_21201267/article/details/99249031) |
 | [LeetCode 171. Excel表列序号（26进制转10进制）](https://blog.csdn.net/qq_21201267/article/details/100998473) |
 | [LeetCode 173. 二叉搜索树迭代器（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100549417) |
