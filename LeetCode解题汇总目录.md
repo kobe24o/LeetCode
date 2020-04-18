@@ -56,6 +56,7 @@
 | [LeetCode 25. K 个一组翻转链表](https://michael.blog.csdn.net/article/details/104229000) |
 | [LeetCode 26. 删除排序数组中的重复项](https://blog.csdn.net/qq_21201267/article/details/100864296) |
 | [LeetCode 27. 移除元素](https://blog.csdn.net/qq_21201267/article/details/100826960) |
+| [LeetCode 28. 实现 strStr()](https://michael.blog.csdn.net/article/details/105595931) |
 | [LeetCode 29. 两数相除（位运算）](https://blog.csdn.net/qq_21201267/article/details/102751716) |
 | [LeetCode 31. 下一个排列（线性扫描）](https://michael.blog.csdn.net/article/details/105371886) |
 | [LeetCode 32. 最长有效括号（栈&DP）](https://blog.csdn.net/qq_21201267/article/details/99479252) |
@@ -73,12 +74,14 @@
 | [LeetCode 45. 跳跃游戏 II（贪心, 难）](https://blog.csdn.net/qq_21201267/article/details/100904721) |
 | [LeetCode 46. 全排列（回溯）](https://blog.csdn.net/qq_21201267/article/details/100110156) |
 | [LeetCode 47. 全排列 II（回溯+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100110853) |
+| [LeetCode 48. 旋转图像（一次遍历+位运算）](https://michael.blog.csdn.net/article/details/104516295) |
 | [LeetCode 49. 字母异位词分组（哈希）](https://blog.csdn.net/qq_21201267/article/details/102319498) |
 | [LeetCode 50. Pow(x, n)（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489210) |
 | [LeetCode 51. N皇后 / 52. N皇后 II（回溯）](https://michael.blog.csdn.net/article/details/104921660) |
 | [LeetCode 53. 最大子序和（动态规划）](https://blog.csdn.net/qq_21201267/article/details/97559470) |
 | [LeetCode 55. 跳跃游戏（贪心）](https://blog.csdn.net/qq_21201267/article/details/100899698) |
 | [LeetCode 56. 合并区间（优先队列）](https://blog.csdn.net/qq_21201267/article/details/100082338) |
+| [LeetCode 58. 最后一个单词的长度](https://michael.blog.csdn.net/article/details/105596202) |
 | [LeetCode 59. 螺旋矩阵 II && LeetCode 54. 螺旋矩阵](https://blog.csdn.net/qq_21201267/article/details/100395555) |
 | [LeetCode 60. 第k个排列（回溯 & 康托展开）](https://michael.blog.csdn.net/article/details/103837916) |
 | [LeetCode 61. 旋转链表](https://blog.csdn.net/qq_21201267/article/details/100355678) |
@@ -86,6 +89,7 @@
 | [LeetCode 63. 不同路径 II（DP）](https://michael.blog.csdn.net/article/details/102961510) |
 | [LeetCode 64. 最小路径和（DP）](https://blog.csdn.net/qq_21201267/article/details/100025545) |
 | [LeetCode 65. 有效数字（逻辑题，难）](https://blog.csdn.net/qq_21201267/article/details/104825661) |
+| [LeetCode 66. 加一](https://michael.blog.csdn.net/article/details/105596325) |
 | [LeetCode 67. 二进制求和](https://blog.csdn.net/qq_21201267/article/details/101211346) |
 | [LeetCode 69. x 的平方根（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100585531) |
 | [LeetCode 70. 爬楼梯（动态规划）](https://blog.csdn.net/qq_21201267/article/details/98478956) |
