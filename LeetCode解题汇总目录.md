@@ -178,6 +178,7 @@
 | [LeetCode 168. Excel表列名称](https://michael.blog.csdn.net/article/details/105597232) |
 | [LeetCode 169. 求众数](https://blog.csdn.net/qq_21201267/article/details/99249031) |
 | [LeetCode 171. Excel表列序号（26进制转10进制）](https://blog.csdn.net/qq_21201267/article/details/100998473) |
+| [LeetCode 172. 阶乘后的零（5的因子）](https://michael.blog.csdn.net/article/details/105127249) |
 | [LeetCode 173. 二叉搜索树迭代器（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100549417) |
 | [LeetCode 179. 最大数（自定义谓词函数（Lambda表达式）排序）](https://blog.csdn.net/qq_21201267/article/details/102827816) |
 | [LeetCode 189. 旋转数组（环形替换）](https://blog.csdn.net/qq_21201267/article/details/102303036) |
