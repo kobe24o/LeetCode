@@ -19,104 +19,45 @@ struct TreeNode {
 };
 using namespace std;
 
+
 class Solution {
 public:
-    bool patternMatching(string pattern, string value) {
-        if(pattern==value)
-            return true;
-        else if(pattern=="" && value!="")
-            return false;
-        int i, a = 0, b = 0, vlen = value.size();
-        for(i = 0; i < pattern.size(); ++i)
+    int minJump(vector<int>& jump) {
+        int i, j, n = jump.size(), t = 0, size,tp;
+        vector<bool> vis(n,false);
+        vis[0] = true;
+        set<int> set;
+        for(i = 0; i < n; ++i)
+            set.insert(i);
+        queue<int> q;
+        q.push(0);
+        set.erase(0);
+        while(!q.empty())
         {
-            if(pattern[i]=='a')
-                a++;
-            else
-                b++;
-        }
-        if(a==0 || b==0)
-        {
-            if(value=="")
-                return true;
-            a = max(a, b);
-            return onlyAorB(value, a);
-        }
-        //a,b均有的情况
-        //a，b均可以表示空字符串
-        if(onlyAorB(value,a))//b表示空串
-            return true;
-        if(onlyAorB(value,b))//a表示空串
-            return true;
-        //a，b均不表示空
-        int la=1, lb=1;//a,b代表的长度
-        while(la*a < vlen)
-        {
-            if((vlen-la*a)%b)//不能整除
+            size = q.size();
+            t++;
+            while(size--)
             {
-                la++;
-                continue;
-            }
-            lb = (vlen-la*a)/b;
-            if(good(la,lb,pattern,value))
-                return true;
-            la++;
-        }
-        return false;
-    }
-    bool onlyAorB(string& val, int a)
-    {
-        if(val.size()%a)
-            return false;
-        int n = val.size()/a;
-        string sub = val.substr(0,n);
-        for(int j = n; j < val.size(); j+=n)
-        {
-            if(val.substr(j,n) != sub)
-                return false;
-        }
-        return true;
-    }
-    bool good(int la, int lb, string& pat, string& val)
-    {
-        int idxa = -1, idxb = -1, i = 0, idx = 0;
-        while(idxa==-1 || idxb==-1)
-        {
-            if(pat[i]=='a')
-            {
-                if(idxa == -1)
-                    idxa = idx;
-                idx += la;
-            }
-            else
-            {
-                if(idxb == -1)
-                    idxb = idx;
-                idx += lb;
-            }
-            i++;
-        }
-        string sa = val.substr(idxa, la);
-        string sb = val.substr(idxb, lb);
-        int j = 0, delta;
-        for(i = 0; i < pat.size(); ++i, j+=delta)
-        {
-            if(pat[i]=='a')
-            {
-                delta = la;
-                if(val.substr(j,la) != sa)
-                    return false;
-            }
-            else
-            {
-                delta = lb;
-                if(val.substr(j,lb) != sb)
-                    return false;
+                tp = q.front();
+                q.pop();
+                if(tp+jump[i] >= n)
+                    return t;
+                if(set.count(tp+jump[tp]))
+                {
+                    q.push(tp+jump[tp]);
+                    set.erase(tp+jump[tp]);
+                }
+                auto end = set.upper_bound(tp);
+                for(auto it = set.begin(); it != end; ++it)
+                {
+                    q.push(*it);
+                    set.erase(*it);
+                }
             }
         }
-        return true;
+        return t;
     }
 };
-
 //["01","10","0","1","1001010"] 9
 //["01","0","0101010"]  6
 //["011000","0111010","01101010"] 9
@@ -134,7 +75,7 @@ void printv(vector<int>& v)
 int main() {
 //    vector<vector<int>> v6 = {{-13260,8589},{1350,8721},{-37222,-19547},{-54293,-29302},{-10489,-13241},{-19382,574},{5561,1033},{-22508,-13241},{-1542,20695},{9277,2820},{-32081,16145},{-50902,23701},{-8636,19504},{-17042,-28765},{-27132,-24156},{-48323,-4607},{30279,29922}};
     vector<vector<int>> v6 ={{1,1,1},{1,0,1},{1,1,1}};
-    vector<int> v1 = {68,130,64};
+    vector<int> v1 = {2,5,1,1,1,1};
     vector<int> v2 = {-230,194,7};
     vector<int> v3 = {-1,0};
     vector<int> v4 = {3,2};
@@ -143,8 +84,7 @@ int main() {
     vector<string> st  = {"hjhbr", "dixpgflm", "jjzgr", "gb", "ruzih", "zvthz", "rcadj", "agched", "jwvouurr", "hpmyrbq", "rdzfv", "pdffy", "ihsvg", "dihvb", "fhdwixmy", "cpvhj", "x", "aotsh", "qgahgz", "upoij"};
     vector<string> st1 = {};
     Solution s;
-    s.patternMatching("ab"
-                   ,"");
+    cout << s.minJump(v1) << endl;
     printv(v4);
 
     string s1 = "1";
