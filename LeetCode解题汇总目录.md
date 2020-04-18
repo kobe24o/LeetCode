@@ -46,6 +46,7 @@
 | [LeetCode 15. 三数之和](https://blog.csdn.net/qq_21201267/article/details/99241741) |
 | [LeetCode 16. 最接近的三数之和（固定左端+滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/100863583) |
 | [LeetCode 17. 电话号码的字母组合（回溯）](https://blog.csdn.net/qq_21201267/article/details/100436281) |
+| [LeetCode 18. 四数之和（双指针）](https://blog.csdn.net/qq_21201267/article/details/102672839) |
 | [LeetCode 19. 删除链表的倒数第N个节点（双指针）](https://blog.csdn.net/qq_21201267/article/details/101640339) |
 | [LeetCode 20. 有效的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/99353358) |
 | [LeetCode 21. 合并两个有序链表（单链表）](https://blog.csdn.net/qq_21201267/article/details/100056931) |
