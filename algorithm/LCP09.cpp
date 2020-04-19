@@ -1,38 +1,37 @@
 class Solution {
 public:
     int minJump(vector<int>& jump) {
-    	int i, j, n = jump.size(), t = 0, size,tp;
-    	vector<bool> vis(n,false);
-    	vis[0] = true;
-    	set<int> set;
-    	for(i = 0; i < n; ++i)
-    		set.insert(i);
-    	queue<int> q;
-    	q.push(0);
-    	set.erase(0);
-    	while(!q.empty())
-    	{
-    		size = q.size();
-    		t++;
-    		while(size--)
-    		{
-    			tp = q.front();
-    			q.pop();
-    			if(tp+jump[tp] >= n)
-    				return t;
-    			if(set.count(tp+jump[tp]))
-    			{
-    				q.push(tp+jump[tp]);
-    				set.erase(tp+jump[tp]);
-    			}
-    			auto end = set.upper_bound(tp);
-    			for(auto it = set.begin(); it != end; ++it)
-    			{
-    				q.push(*it);
-    				set.erase(it);
-    			}
-    		}
-    	}
-    	return t;
+        int i, n = jump.size(), t = 0, size, tp, prevPos = 0;
+        vector<bool> vis(n,false);
+        vis[0] = true;
+        queue<int> q;
+        q.push(0);
+        while(!q.empty())
+        {
+            size = q.size();
+            t++;
+            while(size--)
+            {
+                tp = q.front();
+                q.pop();
+                if(tp+jump[tp] >= n)
+                    return t;
+                if(!vis[tp+jump[tp]])
+                {   //向右跳过来
+                    q.push(tp+jump[tp]);
+                    vis[tp+jump[tp]] = true;
+                }
+                for(i = prevPos+1; tp >0 && i < tp; ++i)
+                {   //向左位置跳
+                    if(!vis[i])
+                    {
+                        q.push(i);
+                        vis[i] = true;
+                    }
+                }
+                prevPos = max(prevPos,tp);//没有这句会超时
+            }
+        }
+        return t;
     }
 };

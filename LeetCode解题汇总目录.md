@@ -644,9 +644,9 @@
 | [LeetCode 1409. 查询带键的排列（map模拟）](https://michael.blog.csdn.net/article/details/105476278) |
 | [LeetCode 1410. HTML 实体解析器（哈希map）](https://michael.blog.csdn.net/article/details/105478099) |
 | [LeetCode 1411. 给 N x 3 网格图涂色的方案数（数学）](https://michael.blog.csdn.net/article/details/105478846) |
-| [LeetCode 5372. 逐步求和得到正数的最小值]()                  |
-| [LeetCode 5373. 和为 K 的最少斐波那契数字数目（set二分查找+贪心）]() |
-| [LeetCode 5374. 长度为 n 的开心字符串中字典序第 k 小的字符串（DFS）]() |
+| [LeetCode 5372. 逐步求和得到正数的最小值](https://michael.blog.csdn.net/article/details/105608345#1_LeetCode_5372__easy_10) |
+| [LeetCode 5373. 和为 K 的最少斐波那契数字数目（set二分查找+贪心）](https://michael.blog.csdn.net/article/details/105608345#2_LeetCode_5373__K__medium_69) |
+| [LeetCode 5374. 长度为 n 的开心字符串中字典序第 k 小的字符串（DFS）](https://michael.blog.csdn.net/article/details/105608345#3_LeetCode_5374__n__k__medium_135) |
 | [LeetCode 5388. 重新格式化字符串](https://michael.blog.csdn.net/article/details/105613930) |
 | [LeetCode 5389. 点菜展示表（哈希map）](https://michael.blog.csdn.net/article/details/105615677) |
 | [LeetCode 5390. 数青蛙（脑洞题）](https://michael.blog.csdn.net/article/details/105618418) |
