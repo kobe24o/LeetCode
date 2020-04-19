@@ -643,4 +643,5 @@
 | [LeetCode 1409. 查询带键的排列（map模拟）](https://michael.blog.csdn.net/article/details/105476278) |
 | [LeetCode 1410. HTML 实体解析器（哈希map）](https://michael.blog.csdn.net/article/details/105478099) |
 | [LeetCode 1411. 给 N x 3 网格图涂色的方案数（数学）](https://michael.blog.csdn.net/article/details/105478846) |
+| [LeetCode 5388. 重新格式化字符串](https://michael.blog.csdn.net/article/details/105613930) |
 

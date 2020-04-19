@@ -36,37 +36,58 @@ struct cmp1
 
 class Solution {
 public:
-    vector<int> getTriggerTime(vector<vector<int>>& inc, vector<vector<int>>& req) {
-        int t = 0, n = req.size(), a = 0, b = 0, c =0;
-        vector<int> ans(n,-1);
-        multimap<vector<int>, int, cmp1> m;
-        for(int i = 0; i < n; ++i)
+    string reformat(string s) {
+        int count[36] = {0}, i, j, k, a, n;
+        for(i = 0; i < s.size(); ++i)
         {
-            m.insert(make_pair(req[i],i));
+            if(isdigit(s[i]))
+                count[s[i]-'0'+26]++, n++;
+            else
+                count[s[i]-'a']++, a++;
         }
-
-        vector<int> tp;
-
-        for(int i = -1; i < intinc.size(); ++i)
+        if(abs(a-n) > 1)
+            return "";
+        string ans(s.size(),' ');
+        if(a >= n)
         {
-            t = i+1;
-            if(i >=0)
+            k = 0;
+            for(i = 0; i < 26; ++i)
             {
-                a += inc[i][0];
-                b += inc[i][1];
-                c += inc[i][2];
-            }
-            auto end = m.upper_bound({a,b,c});
-            for(auto it = m.begin(); it != end; )
-            {
-                tp = it->first;
-                if(a>=tp[0] && b>=tp[1] && c>=tp[2])
+                while(count[i]--)
                 {
-                    ans[it->second] = t;
-                    m.erase(it++);//这样做迭代器不会失效
+                    ans[k] = i+'a';
+                    k += 2;
                 }
-                else
-                    it++;
+            }
+            k = 1;
+            for(i = 26; i < 36; ++i)
+            {
+                while(count[i]--)
+                {
+                    ans[k] = i+'0'-26;
+                    k += 2;
+                }
+            }
+        }
+        else
+        {
+            k = 0;
+            for(i = 26; i < 36; ++i)
+            {
+                while(count[i]--)
+                {
+                    ans[k] = i+'0'-26;
+                    k += 2;
+                }
+            }
+            k = 1;
+            for(i = 0; i < 26; ++i)
+            {
+                while(count[i]--)
+                {
+                    ans[k] = i+'a';
+                    k += 2;
+                }
             }
         }
         return ans;
@@ -98,7 +119,7 @@ int main() {
     vector<string> st  = {"hjhbr", "dixpgflm", "jjzgr", "gb", "ruzih", "zvthz", "rcadj", "agched", "jwvouurr", "hpmyrbq", "rdzfv", "pdffy", "ihsvg", "dihvb", "fhdwixmy", "cpvhj", "x", "aotsh", "qgahgz", "upoij"};
     vector<string> st1 = {};
     Solution s;
-    s.getTriggerTime(v6,v5);
+    s.reformat("a0b11c");
     printv(v4);
 
     string s1 = "1";
