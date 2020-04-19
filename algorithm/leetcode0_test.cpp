@@ -36,61 +36,30 @@ struct cmp1
 
 class Solution {
 public:
-    string reformat(string s) {
-        int count[36] = {0}, i, j, k, a, n;
-        for(i = 0; i < s.size(); ++i)
+    vector<vector<string>> displayTable(vector<vector<string>>& orders) {
+        map<string,map<string,int>> m;//桌号，菜，数量
+        vector<vector<string>> food = {{"Table"}};
+        vector<string> tableId;
+        for(auto& od : orders)
         {
-            if(isdigit(s[i]))
-                count[s[i]-'0'+26]++, n++;
-            else
-                count[s[i]-'a']++, a++;
+            m[od[1]][od[2]]++;
+            tableId.push_back(od[1]);
+            food[0].push_back(od[2]);
         }
-        if(abs(a-n) > 1)
-            return "";
-        string ans(s.size(),' ');
-        if(a >= n)
+        sort(tableId.begin(), tableId.end());
+        tableId.erase(unique(tableId.begin(),tableId.end()), tableId.end());
+        sort(food[0].begin()+1, food[0].end());
+        food[0].erase(unique(food[0].begin()+1, food[0].end()), food[0].end());
+        food.resize(tableId.size()+1);
+        for(int i = 1; i <= food.size(); ++i)
         {
-            k = 0;
-            for(i = 0; i < 26; ++i)
+            food[i].push_back(tableId[i-1]);
+            for(int j = 1; j < food[0].size(); ++j)
             {
-                while(count[i]--)
-                {
-                    ans[k] = i+'a';
-                    k += 2;
-                }
-            }
-            k = 1;
-            for(i = 26; i < 36; ++i)
-            {
-                while(count[i]--)
-                {
-                    ans[k] = i+'0'-26;
-                    k += 2;
-                }
+                food[i].push_back(to_string(m[food[i][0]][food[0][j]]));
             }
         }
-        else
-        {
-            k = 0;
-            for(i = 26; i < 36; ++i)
-            {
-                while(count[i]--)
-                {
-                    ans[k] = i+'0'-26;
-                    k += 2;
-                }
-            }
-            k = 1;
-            for(i = 0; i < 26; ++i)
-            {
-                while(count[i]--)
-                {
-                    ans[k] = i+'a';
-                    k += 2;
-                }
-            }
-        }
-        return ans;
+        return food;
     }
 };
 //["01","10","0","1","1001010"] 9
@@ -116,10 +85,10 @@ int main() {
     vector<int> v3 = {-1,0};
     vector<int> v4 = {3,2};
     string str = "eceeeefasdghjklqwertyuio";
-    vector<string> st  = {"hjhbr", "dixpgflm", "jjzgr", "gb", "ruzih", "zvthz", "rcadj", "agched", "jwvouurr", "hpmyrbq", "rdzfv", "pdffy", "ihsvg", "dihvb", "fhdwixmy", "cpvhj", "x", "aotsh", "qgahgz", "upoij"};
+    vector<vector<string>> st  = {{"David","3","Ceviche"},{"Corina","10","Beef Burrito"},{"David","3","Fried Chicken"},{"Carla","5","Water"},{"Carla","5","Ceviche"},{"Rous","3","Ceviche"}};
     vector<string> st1 = {};
     Solution s;
-    s.reformat("a0b11c");
+    s.displayTable(st);
     printv(v4);
 
     string s1 = "1";
