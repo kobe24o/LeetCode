@@ -87,7 +87,7 @@ public:
         else
             while(j <= r)
                 temp[k++] = sum[j++];
-        for(i = 0, j = l; i < k; ++i)
+        for(i = 0; i < k; ++i)
             sum[l++] = temp[i];
         return count;
     }
