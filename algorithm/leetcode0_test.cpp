@@ -34,32 +34,45 @@ struct cmp1
     }
 };
 
-class Solution {
+class NumArray {
+    vector<int> v;
+    vector<int> copy;
+    int N;
 public:
-    vector<vector<string>> displayTable(vector<vector<string>>& orders) {
-        map<string,map<string,int>> m;//桌号，菜，数量
-        vector<vector<string>> food = {{"Table"}};
-        vector<string> tableId;
-        for(auto& od : orders)
-        {
-            m[od[1]][od[2]]++;
-            tableId.push_back(od[1]);
-            food[0].push_back(od[2]);
-        }
-        sort(tableId.begin(), tableId.end());
-        tableId.erase(unique(tableId.begin(),tableId.end()), tableId.end());
-        sort(food[0].begin()+1, food[0].end());
-        food[0].erase(unique(food[0].begin()+1, food[0].end()), food[0].end());
-        food.resize(tableId.size()+1);
-        for(int i = 1; i <= food.size(); ++i)
-        {
-            food[i].push_back(tableId[i-1]);
-            for(int j = 1; j < food[0].size(); ++j)
-            {
-                food[i].push_back(to_string(m[food[i][0]][food[0][j]]));
-            }
-        }
-        return food;
+    NumArray(vector<int>& nums) {
+        N = nums.size();
+        v.resize(N+1,0);//树状数组要求下标从1开始
+        copy = nums;
+        for(int i = 0; i < N; ++i)
+            update(i,nums[i]);
+    }
+
+    void update(int i, int val) {
+        int delta = val-copy[i];
+        i++;
+        for( ;i <= N; i+= lowbit(i))
+            v[i] += delta;
+    }
+
+    int sumRange(int i, int j) {
+        int ans = 0;
+        j++;
+        return getsum(j)-getsum(i);
+    }
+
+    int getsum(int i)
+    {
+        int ans = 0;
+        i++;
+        for(; i > 0; i-= lowbit(i))
+            ans += v[i];
+        return ans;
+    }
+
+    //树状数组
+    int lowbit(int m)
+    {
+        return m&(-m);
     }
 };
 //["01","10","0","1","1001010"] 9
@@ -81,15 +94,19 @@ int main() {
     vector<vector<int>> v6 ={{2,8,4},{2,5,0},{10,9,8}};
     vector<vector<int>> v5 ={{2,11,3},{15,10,7},{9,17,12},{8,1,14}};
     vector<int> v1 = {2,5,1,1,1,1};
-    vector<int> v2 = {-230,194,7};
+    vector<int> v2 = {1,3,5};
     vector<int> v3 = {-1,0};
     vector<int> v4 = {3,2};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"David","3","Ceviche"},{"Corina","10","Beef Burrito"},{"David","3","Fried Chicken"},{"Carla","5","Water"},{"Carla","5","Ceviche"},{"Rous","3","Ceviche"}};
     vector<string> st1 = {};
-    Solution s;
-    s.displayTable(st);
+//    Solution s;
+//    s.displayTable(st);
     printv(v4);
+    NumArray s(v2);
+    s.sumRange(0,2);
+    s.update(1,2);
+    s.sumRange(0,2);
 
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
