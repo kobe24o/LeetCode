@@ -272,6 +272,7 @@
 | [LeetCode 357. 计算各个位数不同的数字个数（DP）](https://michael.blog.csdn.net/article/details/103844098) |
 | [LeetCode 365. 水壶问题（最大公约数）](https://michael.blog.csdn.net/article/details/102980961) |
 | [LeetCode 367. 有效的完全平方数（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489562) |
+| [LeetCode 371. 两整数之和（位运算）](https://michael.blog.csdn.net/article/details/105645358) |
 | [LeetCode 376. 摆动序列（贪心 & 动态规划）](https://michael.blog.csdn.net/article/details/103848407) |
 | [LeetCode 377. 组合总和 Ⅳ（DP）](https://blog.csdn.net/qq_21201267/article/details/101388583) |
 | [LeetCode 378. 有序矩阵中第K小的元素（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102866438) |
