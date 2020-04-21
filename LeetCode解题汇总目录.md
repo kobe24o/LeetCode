@@ -308,6 +308,7 @@
 | [LeetCode 430. 扁平化多级双向链表（DFS）](https://blog.csdn.net/qq_21201267/article/details/101723144) |
 | [LeetCode 434. 字符串中的单词数](https://michael.blog.csdn.net/article/details/105665544) |
 | [LeetCode 437. 路径总和 III（双重递归）](https://blog.csdn.net/qq_21201267/article/details/100906264) |
+| [LeetCode 441. 排列硬币（数学解方程）](https://michael.blog.csdn.net/article/details/105665692) |
 | [LeetCode 442. 数组中重复的数据](https://blog.csdn.net/qq_21201267/article/details/100798552) |
 | [LeetCode 443. 压缩字符串（双指针）](https://michael.blog.csdn.net/article/details/103051059) |
 | [LeetCode 445. 两数相加 II（链表大数加法）](https://michael.blog.csdn.net/article/details/103500675) |
