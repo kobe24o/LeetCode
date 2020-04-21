@@ -296,6 +296,7 @@
 | [LeetCode 404. 左叶子之和（递归）](https://michael.blog.csdn.net/article/details/103041375) |
 | [LeetCode 405. 数字转换为十六进制数](https://michael.blog.csdn.net/article/details/105665100) |
 | [LeetCode 409. 最长回文串（计数）](https://michael.blog.csdn.net/article/details/104959667) |
+| [LeetCode 412. Fizz Buzz](https://michael.blog.csdn.net/article/details/105665256) |
 | [LeetCode 413. 等差数列划分（DP）](https://blog.csdn.net/qq_21201267/article/details/100831735) |
 | [LeetCode 414. 第三大的数](https://blog.csdn.net/qq_21201267/article/details/102789337) |
 | [LeetCode 415. 字符串相加（大数加法）](https://blog.csdn.net/qq_21201267/article/details/102821516) |
