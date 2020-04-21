@@ -553,6 +553,7 @@
 | [LeetCode 1233. 删除子文件夹](https://michael.blog.csdn.net/article/details/103916724) |
 | [LeetCode 1237. 找出给定方程的正整数解](https://michael.blog.csdn.net/article/details/103256534) |
 | [LeetCode 1247. 交换字符使得字符串相同](https://michael.blog.csdn.net/article/details/103561781) |
+| [LeetCode 1248. 统计「优美子数组」（要复习）](https://michael.blog.csdn.net/article/details/105648303) |
 | [LeetCode 1252. 奇数值单元格的数目](https://michael.blog.csdn.net/article/details/103133482) |
 | [LeetCode 1253. 重构 2 行二进制矩阵（贪心）](https://michael.blog.csdn.net/article/details/103319764) |
 | [LeetCode 1254. 统计封闭岛屿的数目（图的BFS & DFS）](https://michael.blog.csdn.net/article/details/103231347) |
