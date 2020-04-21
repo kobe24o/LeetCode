@@ -443,6 +443,7 @@
 | [LeetCode 856. 括号的分数](https://michael.blog.csdn.net/article/details/103527028) |
 | [LeetCode 860. 柠檬水找零（贪心）](https://michael.blog.csdn.net/article/details/103153887) |
 | [LeetCode 861. 翻转矩阵后的得分（贪心）](https://michael.blog.csdn.net/article/details/103209591) |
+| [LeetCode 862. 和至少为 K 的最短子数组（前缀和+deque单调栈）](https://michael.blog.csdn.net/article/details/105662545) |
 | [LeetCode 865. 具有所有最深结点的最小子树（递归）](https://michael.blog.csdn.net/article/details/105547677) |
 | [LeetCode 866. 回文素数（除11外，偶数位的回文数都不是质数）](https://michael.blog.csdn.net/article/details/105495449) |
 | [LeetCode 868. 二进制间距（位运算）](https://blog.csdn.net/qq_21201267/article/details/101164748) |
