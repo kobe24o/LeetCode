@@ -282,6 +282,7 @@
 | [LeetCode 383. 赎金信](https://michael.blog.csdn.net/article/details/105664299) |
 | [LeetCode 384. 打乱数组（rand）](https://blog.csdn.net/qq_21201267/article/details/102692973) |
 | [LeetCode 386. 字典序排数（DFS&循环）](https://michael.blog.csdn.net/article/details/103218150) |
+| [LeetCode 387. 字符串中的第一个唯一字符](https://michael.blog.csdn.net/article/details/105664799) |
 | [LeetCode 389. 找不同（位运算）](https://blog.csdn.net/qq_21201267/article/details/101165255) |
 | [LeetCode 392. 判断子序列（双指针&二分查找）](https://michael.blog.csdn.net/article/details/103206471) |
 | [LeetCode 394. 字符串解码（栈）](https://blog.csdn.net/qq_21201267/article/details/101607649) |
@@ -293,6 +294,7 @@
 | [LeetCode 402. 移掉K位数字（贪心，单调栈）](https://michael.blog.csdn.net/article/details/103555712) |
 | [LeetCode 403. 青蛙过河（DP）](https://michael.blog.csdn.net/article/details/102969736) |
 | [LeetCode 404. 左叶子之和（递归）](https://michael.blog.csdn.net/article/details/103041375) |
+| [LeetCode 405. 数字转换为十六进制数](https://michael.blog.csdn.net/article/details/105665100) |
 | [LeetCode 409. 最长回文串（计数）](https://michael.blog.csdn.net/article/details/104959667) |
 | [LeetCode 413. 等差数列划分（DP）](https://blog.csdn.net/qq_21201267/article/details/100831735) |
 | [LeetCode 414. 第三大的数](https://blog.csdn.net/qq_21201267/article/details/102789337) |
@@ -656,10 +658,10 @@
 | [LeetCode 1409. 查询带键的排列（map模拟）](https://michael.blog.csdn.net/article/details/105476278) |
 | [LeetCode 1410. HTML 实体解析器（哈希map）](https://michael.blog.csdn.net/article/details/105478099) |
 | [LeetCode 1411. 给 N x 3 网格图涂色的方案数（数学）](https://michael.blog.csdn.net/article/details/105478846) |
-| [LeetCode 5372. 逐步求和得到正数的最小值](https://michael.blog.csdn.net/article/details/105608345#1_LeetCode_5372__easy_10) |
-| [LeetCode 5373. 和为 K 的最少斐波那契数字数目（set二分查找+贪心）](https://michael.blog.csdn.net/article/details/105608345#2_LeetCode_5373__K__medium_69) |
-| [LeetCode 5374. 长度为 n 的开心字符串中字典序第 k 小的字符串（DFS）](https://michael.blog.csdn.net/article/details/105608345#3_LeetCode_5374__n__k__medium_135) |
-| [LeetCode 5388. 重新格式化字符串](https://michael.blog.csdn.net/article/details/105613930) |
-| [LeetCode 5389. 点菜展示表（哈希map）](https://michael.blog.csdn.net/article/details/105615677) |
-| [LeetCode 5390. 数青蛙（脑洞题）](https://michael.blog.csdn.net/article/details/105618418) |
+| [LeetCode 1413. 逐步求和得到正数的最小值](https://michael.blog.csdn.net/article/details/105608345#1_LeetCode_5372__easy_10) |
+| [LeetCode 1414. 和为 K 的最少斐波那契数字数目（set二分查找+贪心）](https://michael.blog.csdn.net/article/details/105608345#2_LeetCode_5373__K__medium_69) |
+| [LeetCode 1415. 长度为 n 的开心字符串中字典序第 k 小的字符串（DFS）](https://michael.blog.csdn.net/article/details/105608345#3_LeetCode_5374__n__k__medium_135) |
+| [LeetCode 1417. 重新格式化字符串](https://michael.blog.csdn.net/article/details/105613930) |
+| [LeetCode 1418. 点菜展示表（哈希map）](https://michael.blog.csdn.net/article/details/105615677) |
+| [LeetCode 1419. 数青蛙（脑洞题）](https://michael.blog.csdn.net/article/details/105618418) |
 
