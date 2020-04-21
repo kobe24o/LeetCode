@@ -279,6 +279,7 @@
 | [LeetCode 378. 有序矩阵中第K小的元素（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102866438) |
 | [LeetCode 380. 常数时间插入、删除和获取随机元素（哈希+vector）](https://blog.csdn.net/qq_21201267/article/details/102407866) |
 | [LeetCode 382. 链表随机节点（概率）](https://michael.blog.csdn.net/article/details/103228024) |
+| [LeetCode 383. 赎金信](https://michael.blog.csdn.net/article/details/105664299) |
 | [LeetCode 384. 打乱数组（rand）](https://blog.csdn.net/qq_21201267/article/details/102692973) |
 | [LeetCode 386. 字典序排数（DFS&循环）](https://michael.blog.csdn.net/article/details/103218150) |
 | [LeetCode 389. 找不同（位运算）](https://blog.csdn.net/qq_21201267/article/details/101165255) |
