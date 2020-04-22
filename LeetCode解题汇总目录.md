@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-**已解决 904/1613** - **简单 389** **中等 435** **困难 80**
+**已解决 911/1614** - **简单 389** **中等 440** **困难 82**
 
 - 2019.7.24 - 2019.11.9， AC + 400道（108天）
 - 2019.11.9 - 2019.11.24，   AC + 100道，共计500道（123天，4个月）
@@ -319,6 +319,7 @@
 | [LeetCode 453. 最小移动次数使数组元素相等（数学）](https://michael.blog.csdn.net/article/details/103128867) |
 | [LeetCode 454. 四数相加 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/102336145) |
 | [LeetCode 455. 分发饼干（贪心）](https://michael.blog.csdn.net/article/details/103073602) |
+| [LeetCode 456. 132模式（逆序遍历+单调栈）](https://michael.blog.csdn.net/article/details/105688840) |
 | [LeetCode 459. 重复的子字符串（数学）](https://michael.blog.csdn.net/article/details/103208056) |
 | [LeetCode 460. LFU缓存（哈希双链表）](https://michael.blog.csdn.net/article/details/105336389) |
 | [LeetCode 461. 汉明距离（异或^ 与&）](https://blog.csdn.net/qq_21201267/article/details/100632232) |
