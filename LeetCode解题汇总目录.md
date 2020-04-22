@@ -494,6 +494,7 @@
 | [LeetCode 980. 不同路径 III（DFS+回溯）](https://michael.blog.csdn.net/article/details/102961910) |
 | [LeetCode 984. 不含 AAA 或 BBB 的字符串（贪心）](https://michael.blog.csdn.net/article/details/103883367) |
 | [LeetCode 986. 区间列表的交集](https://blog.csdn.net/qq_21201267/article/details/100058783) |
+| [LeetCode 987. 二叉树的垂序遍历（递归/循环）](https://michael.blog.csdn.net/article/details/105681731) |
 | [LeetCode 989. 数组形式的整数加法](https://michael.blog.csdn.net/article/details/103020342) |
 | [LeetCode 991. 坏了的计算器（逆向思考）](https://michael.blog.csdn.net/article/details/103498206) |
 | [LeetCode 993. 二叉树的堂兄弟节点（层序遍历）](https://michael.blog.csdn.net/article/details/103113397) |
