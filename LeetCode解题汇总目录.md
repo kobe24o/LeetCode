@@ -257,6 +257,7 @@
 | [LeetCode 326. 3的幂](https://michael.blog.csdn.net/article/details/105644651) |
 | [LeetCode 327. 区间和的个数（multiset二分查找/归并排序）](https://michael.blog.csdn.net/article/details/105636619) |
 | [LeetCode 328. 奇偶链表（双指针）](https://blog.csdn.net/qq_21201267/article/details/101649623) |
+| [LeetCode 331. 验证二叉树的前序序列化](https://michael.blog.csdn.net/article/details/105679759) |
 | [LeetCode 334. 递增的三元子序列](https://blog.csdn.net/qq_21201267/article/details/101275950) |
 | [LeetCode 337. 打家劫舍 III（记忆化+递归）](https://blog.csdn.net/qq_21201267/article/details/102691125) |
 | [LeetCode 341. 扁平化嵌套列表迭代器（双栈）](https://blog.csdn.net/qq_21201267/article/details/102869784) |
