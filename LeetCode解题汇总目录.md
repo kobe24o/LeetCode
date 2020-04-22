@@ -347,6 +347,7 @@
 | [LeetCode 503. 下一个更大元素 II（栈）](https://blog.csdn.net/qq_21201267/article/details/101394230) |
 | [LeetCode 504. 七进制数（进制转换）](https://blog.csdn.net/qq_21201267/article/details/102904814) |
 | [LeetCode 506. 相对名次（map）](https://michael.blog.csdn.net/article/details/105690403) |
+| [LeetCode 507. 完美数](https://michael.blog.csdn.net/article/details/105690940) |
 | [LeetCode 513. 找树左下角的值（按层遍历 queue）](https://blog.csdn.net/qq_21201267/article/details/100677982) |
 | [LeetCode 515. 在每个树行中找最大值（层序遍历）](https://michael.blog.csdn.net/article/details/103341623) |
 | [LeetCode 522. 最长特殊序列 II](https://blog.csdn.net/qq_21201267/article/details/101036485) |
