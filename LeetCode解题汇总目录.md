@@ -391,6 +391,7 @@
 | [LeetCode 611. 有效三角形的个数（双指针）](https://michael.blog.csdn.net/article/details/103649865) |
 | [LeetCode 617. 合并二叉树](https://blog.csdn.net/qq_21201267/article/details/100569367) |
 | [LeetCode 621. 任务调度器（贪心）](https://blog.csdn.net/qq_21201267/article/details/102760180) |
+| [LeetCode 622. 设计循环队列](https://michael.blog.csdn.net/article/details/105719813) |
 | [LeetCode 623. 在二叉树中增加一行（BFS/DFS）](https://michael.blog.csdn.net/article/details/103649398) |
 | [LeetCode 628. 三个数的最大乘积](https://michael.blog.csdn.net/article/details/103172263) |
 | [LeetCode 629. K个逆序对数组（DP）](https://blog.csdn.net/qq_21201267/article/details/102886587) |
