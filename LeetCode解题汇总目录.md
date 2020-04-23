@@ -348,8 +348,12 @@
 | [LeetCode 504. 七进制数（进制转换）](https://blog.csdn.net/qq_21201267/article/details/102904814) |
 | [LeetCode 506. 相对名次（map）](https://michael.blog.csdn.net/article/details/105690403) |
 | [LeetCode 507. 完美数](https://michael.blog.csdn.net/article/details/105690940) |
+| [LeetCode 508. 出现次数最多的子树元素和（递归）](https://michael.blog.csdn.net/article/details/105715277) |
+| [LeetCode 509. 斐波那契数](https://michael.blog.csdn.net/article/details/104272616) |
 | [LeetCode 513. 找树左下角的值（按层遍历 queue）](https://blog.csdn.net/qq_21201267/article/details/100677982) |
 | [LeetCode 515. 在每个树行中找最大值（层序遍历）](https://michael.blog.csdn.net/article/details/103341623) |
+| [LeetCode 520. 检测大写字母](https://michael.blog.csdn.net/article/details/105715687) |
+| [LeetCode 521. 最长特殊序列 Ⅰ](https://michael.blog.csdn.net/article/details/105716003) |
 | [LeetCode 522. 最长特殊序列 II](https://blog.csdn.net/qq_21201267/article/details/101036485) |
 | [LeetCode 523. 连续的子数组和（求余 哈希）](https://blog.csdn.net/qq_21201267/article/details/102253351) |
 | [LeetCode 526. 优美的排列（回溯）](https://michael.blog.csdn.net/article/details/103383968) |

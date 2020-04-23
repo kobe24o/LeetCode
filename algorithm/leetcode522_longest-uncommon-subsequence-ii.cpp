@@ -5,68 +5,55 @@
 #include<map>
 using namespace std;
 
-bool cmp(string &a, string &b) 
-{
-	if(a.size() == b.size())
-	{
-		for(int i = 0; i < a.size(); ++i)
-		{
-			if(a[i] != b[i])
-				return a[i] > b[i];
-		}
-	}
-	return a.size() > b.size();
-}
 class Solution {
 public:
     int findLUSlength(vector<string>& strs) {
-        sort(strs.begin(), strs.end(),cmp);
+        sort(strs.begin(), strs.end(),[&](auto a, auto b){
+            return a.size() > b.size();//按长度排序
+        });
         map<string,int> m;
         for(auto it = strs.begin(); it != strs.end(); ++it)
-        {
-            if(m.find(*it) == m.end())
-                m[*it] = 1;
-            else
-                m[*it]++;
-        }
+            m[*it]++;
         vector<string> uniq;
         for(auto it = m.begin(); it != m.end(); ++it)
         {
-            if(it->second == 1)
+            if(it->second == 1)//次数一次的收集起来
                 uniq.push_back(it->first);
         }
-        sort(uniq.begin(), uniq.end(),cmp);
+        sort(uniq.begin(), uniq.end(),[&](auto a, auto b){
+            return a.size() > b.size();//按长度排序
+        });
         for(auto it = uniq.begin(); it != uniq.end(); ++it)
         {
-            if(!subSeq(strs,it))
-                    return it->size();
+            if(!subSeq(strs,*it))
+                return it->size();
         }
 		return -1;
     }
-    bool subSeq(vector<string> &strs, vector<string>::iterator it)
+    bool subSeq(vector<string> &strs, string& s)
     {
-    	int len = it->size(), i, j;
+    	int len = s.size(), i, j;
     	bool flag;
-    	for(auto idx = strs.begin(); *idx != *it; ++idx)
-    	{
+    	for(auto it = strs.begin(); *it != s; ++it)
+    	{  //str是从长到短的
     		flag = true;
     		for(i = 0,j = 0; i < len; ++i,++j)
     		{
-    		    while(j < idx->size() && (*idx)[j] != (*it)[i])
-    		        j++;
-    		    if(j == idx->size() && i < len)
+    		    while(j < it->size() && (*it)[j] != s[i])
+    		        j++;//长字符串中的字符不等
+    		    if(j == it->size() && i < len)
                 {
-    		        flag = false;
+    		        flag = false;//不是子序
     		        break;
                 }
-    		    else if(i == len-1 && j <= idx->size())
+    		    else if(i == len-1 && j <= it->size())
                 {
     		        flag = true;
     		        break;
                 }
     		}
-    		if(flag == true)
-    			return flag;
+    		if(flag)//是子序
+    			break;
     	}
     	return flag;
     }
