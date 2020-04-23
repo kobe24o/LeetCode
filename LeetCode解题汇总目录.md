@@ -377,6 +377,7 @@
 | [LeetCode 560. 和为K的子数组（前缀和差分）](https://michael.blog.csdn.net/article/details/105657944) |
 | [LeetCode 561. 数组拆分 I](https://blog.csdn.net/qq_21201267/article/details/100940866) |
 | [LeetCode 563. 二叉树的坡度（DFS）](https://blog.csdn.net/qq_21201267/article/details/102904432) |
+| [LeetCode 566. 重塑矩阵](https://michael.blog.csdn.net/article/details/105717990) |
 | [LeetCode 572. 另一个树的子树（二叉树迭代器）](https://michael.blog.csdn.net/article/details/103094146) |
 | [LeetCode 575. 分糖果（set集合去重）](https://blog.csdn.net/qq_21201267/article/details/101039768) |
 | [LeetCode 581. 最短无序连续子数组（排序&单调栈）](https://michael.blog.csdn.net/article/details/103208650) |
