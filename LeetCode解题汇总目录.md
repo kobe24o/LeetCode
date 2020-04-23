@@ -395,8 +395,10 @@
 | [LeetCode 623. 在二叉树中增加一行（BFS/DFS）](https://michael.blog.csdn.net/article/details/103649398) |
 | [LeetCode 628. 三个数的最大乘积](https://michael.blog.csdn.net/article/details/103172263) |
 | [LeetCode 629. K个逆序对数组（DP）](https://blog.csdn.net/qq_21201267/article/details/102886587) |
+| [LeetCode 633. 平方数之和（双指针）](https://michael.blog.csdn.net/article/details/105720281) |
 | [LeetCode 637. 二叉树的层平均值（层次遍历queue）](https://blog.csdn.net/qq_21201267/article/details/100717726) |
 | [LeetCode 641. 设计循环双端队列](https://blog.csdn.net/qq_21201267/article/details/99496486) |
+| [LeetCode 643. 子数组最大平均数 I](https://michael.blog.csdn.net/article/details/105720427) |
 | [LeetCode 645. 错误的集合](https://blog.csdn.net/qq_21201267/article/details/100148227) |
 | [LeetCode 646. 最长数对链（区间 贪心）](https://blog.csdn.net/qq_21201267/article/details/101239559) |
 | [LeetCode 647. 回文子串（DP）](https://michael.blog.csdn.net/article/details/105576327) |
@@ -408,6 +410,7 @@
 | [LeetCode 655. 输出二叉树（二叉树高度&二叉树遍历）](https://michael.blog.csdn.net/article/details/103099751) |
 | [LeetCode 657. 机器人能否返回原点](https://blog.csdn.net/qq_21201267/article/details/100632672) |
 | [LeetCode 658. 找到 K 个最接近的元素（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100697216) |
+| [LeetCode 661. 图片平滑器](https://michael.blog.csdn.net/article/details/105720542) |
 | [LeetCode 665. 非递减数列（双指针）](https://blog.csdn.net/qq_21201267/article/details/102810529) |
 | [LeetCode 667. 优美的排列 II（找规律）](https://blog.csdn.net/qq_21201267/article/details/103411623) |
 | [LeetCode 669. 修剪二叉搜索树](https://blog.csdn.net/qq_21201267/article/details/100716292) |
