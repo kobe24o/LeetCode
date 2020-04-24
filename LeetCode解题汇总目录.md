@@ -433,6 +433,7 @@
 | [LeetCode 701. 二叉搜索树中的插入操作（二叉查找树/插入）](https://blog.csdn.net/qq_21201267/article/details/100696071) |
 | [LeetCode 703. 数据流中的第K大元素（优先队列）](https://michael.blog.csdn.net/article/details/105739876) |
 | [LeetCode 704. 二分查找](https://blog.csdn.net/qq_21201267/article/details/100715644) |
+| [LeetCode 705. 设计哈希集合](https://michael.blog.csdn.net/article/details/105740141) |
 | [LeetCode 707. 设计链表（List）](https://blog.csdn.net/qq_21201267/article/details/101638997) |
 | [LeetCode 709. 转换成小写字母](https://blog.csdn.net/qq_21201267/article/details/100907747) |
 | [LeetCode 714. 买卖股票的最佳时机含手续费（DP）](https://michael.blog.csdn.net/article/details/103381475) |
