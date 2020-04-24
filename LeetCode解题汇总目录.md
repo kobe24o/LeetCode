@@ -484,6 +484,7 @@
 | [LeetCode 889. 已知前序&后序 求二叉树（不唯一）](https://blog.csdn.net/qq_21201267/article/details/100802843) |
 | [LeetCode 890. 查找和替换模式（哈希表）](https://michael.blog.csdn.net/article/details/103214178) |
 | [LeetCode 892. 三维形体的表面积（数学）](https://michael.blog.csdn.net/article/details/103153550) |
+| [LeetCode 894. 所有可能的满二叉树（递归）](https://michael.blog.csdn.net/article/details/105727867) |
 | [LeetCode 896. 单调数列](https://blog.csdn.net/qq_21201267/article/details/100782385) |
 | [LeetCode 897. 递增顺序查找树（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/101083541) |
 | [LeetCode 905. 按奇偶排序数组](https://blog.csdn.net/qq_21201267/article/details/100940305) |
