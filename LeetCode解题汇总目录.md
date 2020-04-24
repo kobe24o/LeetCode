@@ -222,6 +222,7 @@
 | [LeetCode 238. 除自身以外数组的乘积](https://blog.csdn.net/qq_21201267/article/details/100530702) |
 | [LeetCode 239. 滑动窗口最大值（双端队列）](https://blog.csdn.net/qq_21201267/article/details/99613437) |
 | [LeetCode 240. 搜索二维矩阵 II（二分查找 && 分治）](https://blog.csdn.net/qq_21201267/article/details/102734391) |
+| [LeetCode 241. 为运算表达式设计优先级（动态规划）](https://michael.blog.csdn.net/article/details/105731156) |
 | [LeetCode 242. 有效的字母异位词](https://michael.blog.csdn.net/article/details/105597880) |
 | [LeetCode 257. 二叉树的所有路径（DFS）](https://blog.csdn.net/qq_21201267/article/details/100565918) |
 | [LeetCode 258. 各位相加](https://michael.blog.csdn.net/article/details/105598080) |

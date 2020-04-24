@@ -34,45 +34,60 @@ struct cmp1
     }
 };
 
-class NumArray {
-    vector<int> v;
-    vector<int> copy;
-    int N;
+class Solution {
 public:
-    NumArray(vector<int>& nums) {
-        N = nums.size();
-        v.resize(N+1,0);//树状数组要求下标从1开始
-        copy = nums;
-        for(int i = 0; i < N; ++i)
-            update(i,nums[i]);
-    }
-
-    void update(int i, int val) {
-        int delta = val-copy[i];
-        i++;
-        for( ;i <= N; i+= lowbit(i))
-            v[i] += delta;
-    }
-
-    int sumRange(int i, int j) {
-        int ans = 0;
-        j++;
-        return getsum(j)-getsum(i);
-    }
-
-    int getsum(int i)
-    {
-        int ans = 0;
-        i++;
-        for(; i > 0; i-= lowbit(i))
-            ans += v[i];
-        return ans;
-    }
-
-    //树状数组
-    int lowbit(int m)
-    {
-        return m&(-m);
+    vector<int> diffWaysToCompute(string input) {
+        int i, num=0;
+        vector<int> arr;
+        vector<char> op;
+        for(i = 0; i < input.size(); ++i)
+        {
+            if(!isdigit(input[i]))
+            {
+                arr.push_back(num);
+                op.push_back(input[i]);
+                num = 0;
+            }
+            else
+                num = num*10+input[i]-'0';
+        }
+        arr.push_back(num);//最后一个数字
+        int n = arr.size(), j, k;
+        vector<vector<vector<int>>> dp(n,vector<vector<int>>(n));
+        for(i = 0; i < n-1; ++i)
+        {
+            if(op[i]=='+')
+                dp[i][i+1] = {arr[i]+arr[i+1]};
+            else if(op[i]=='-')
+                dp[i][i+1] = {arr[i]-arr[i+1]};
+            else if(op[i]=='*')
+                dp[i][i+1] = {arr[i]*arr[i+1]};
+        }
+        for(int len = 2; len < n; ++len)
+        {
+            for(i = 0; i <= n-len; ++i)
+            {
+                for(int d : dp[i][i+len-1])
+                {
+                    if(i+len < n)
+                        if(op[i+len-1]=='+')
+                            dp[i][i+len].push_back(d+arr[i+len]);
+                        else if(op[i+len-1]=='-')
+                            dp[i][i+len].push_back(d-arr[i+len]);
+                        else if(op[i+len-1]=='*')
+                            dp[i][i+len].push_back(d*arr[i+len]);
+                    if(i > 0)
+                        if(op[i-1]=='+')
+                            dp[i-1][i+len-1].push_back(arr[i-1]+d);
+                        else if(op[i-1]=='-')
+                            dp[i-1][i+len-1].push_back(arr[i-1]-d);
+                        else if(op[i-1]=='*')
+                            dp[i-1][i+len-1].push_back(arr[i-1]*d);
+                }
+            }
+        }
+        sort(dp[0][n-1].begin(),dp[0][n-1].end());
+        return dp[0][n-1];
     }
 };
 //["01","10","0","1","1001010"] 9
@@ -100,13 +115,9 @@ int main() {
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"David","3","Ceviche"},{"Corina","10","Beef Burrito"},{"David","3","Fried Chicken"},{"Carla","5","Water"},{"Carla","5","Ceviche"},{"Rous","3","Ceviche"}};
     vector<string> st1 = {};
-//    Solution s;
-//    s.displayTable(st);
+    Solution s;
+    s.diffWaysToCompute("2*3-4*5");
     printv(v4);
-    NumArray s(v2);
-    s.sumRange(0,2);
-    s.update(1,2);
-    s.sumRange(0,2);
 
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
