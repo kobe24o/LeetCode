@@ -420,6 +420,7 @@
 | [LeetCode 676. 实现一个魔法字典（哈希）](https://michael.blog.csdn.net/article/details/103511709) |
 | [LeetCode677. 键值映射（Trie树）](https://blog.csdn.net/qq_21201267/article/details/102559253) |
 | [LeetCode 678. 有效的括号字符串（栈）](https://michael.blog.csdn.net/article/details/103865442) |
+| [LeetCode 680. 验证回文字符串 Ⅱ](https://michael.blog.csdn.net/article/details/105739399) |
 | [LeetCode 686. 重复叠加字符串匹配](https://michael.blog.csdn.net/article/details/103193202) |
 | [LeetCode 687. 最长同值路径（二叉树，递归）](https://michael.blog.csdn.net/article/details/103191442) |
 | [LeetCode 690. 员工的重要性（图的DFS&BFS）](https://michael.blog.csdn.net/article/details/103153141) |
