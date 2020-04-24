@@ -434,11 +434,14 @@
 | [LeetCode 703. 数据流中的第K大元素（优先队列）](https://michael.blog.csdn.net/article/details/105739876) |
 | [LeetCode 704. 二分查找](https://blog.csdn.net/qq_21201267/article/details/100715644) |
 | [LeetCode 705. 设计哈希集合](https://michael.blog.csdn.net/article/details/105740141) |
+| [LeetCode 706. 设计哈希映射](https://michael.blog.csdn.net/article/details/105740273) |
 | [LeetCode 707. 设计链表（List）](https://blog.csdn.net/qq_21201267/article/details/101638997) |
 | [LeetCode 709. 转换成小写字母](https://blog.csdn.net/qq_21201267/article/details/100907747) |
 | [LeetCode 714. 买卖股票的最佳时机含手续费（DP）](https://michael.blog.csdn.net/article/details/103381475) |
+| [LeetCode 717. 1比特与2比特字符](https://michael.blog.csdn.net/article/details/105740439) |
 | [LeetCode 720. 词典中最长的单词（Trie树）](https://michael.blog.csdn.net/article/details/103077004) |
 | [LeetCode 722. 删除注释（逻辑题）](https://michael.blog.csdn.net/article/details/103917615) |
+| [LeetCode 724. 寻找数组的中心索引](https://michael.blog.csdn.net/article/details/105740610) |
 | [LeetCode 725. 分隔链表](https://michael.blog.csdn.net/article/details/103883892) |
 | [LeetCode 728. 自除数](https://blog.csdn.net/qq_21201267/article/details/100907175) |
 | [LeetCode 733. 图像渲染（DFS/BFS）](https://blog.csdn.net/qq_21201267/article/details/101611121) |
@@ -447,6 +450,7 @@
 | [LeetCode 739. 每日温度（单调栈）](https://blog.csdn.net/qq_21201267/article/details/101479101) |
 | [LeetCode 744. 寻找比目标字母大的最小字母（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489881) |
 | [LeetCode 746. 使用最小花费爬楼梯（DP）](https://blog.csdn.net/qq_21201267/article/details/102905456) |
+| [LeetCode 747. 至少是其他数字两倍的最大数](https://michael.blog.csdn.net/article/details/105740878) |
 | [LeetCode 752. 打开转盘锁（图的BFS最短路径）](https://blog.csdn.net/qq_21201267/article/details/101485240) |
 | [LeetCode 754. 到达终点数字（数学推理）](https://blog.csdn.net/qq_21201267/article/details/102888341) |
 | [LeetCode 762. 二进制表示中质数个计算置位](https://blog.csdn.net/qq_21201267/article/details/101039460) |
