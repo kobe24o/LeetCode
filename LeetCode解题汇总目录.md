@@ -428,6 +428,7 @@
 | [LeetCode 693. 交替位二进制数（位运算）](https://blog.csdn.net/qq_21201267/article/details/101096121) |
 | [LeetCode 695. 岛屿的最大面积（图的BFS/DFS）](https://michael.blog.csdn.net/article/details/103036801) |
 | [LeetCode 696. 计数二进制子串](https://michael.blog.csdn.net/article/details/103074623) |
+| [LeetCode 697. 数组的度](https://michael.blog.csdn.net/article/details/105739714) |
 | [LeetCode 700. 二叉搜索树中的搜索](https://blog.csdn.net/qq_21201267/article/details/100906799) |
 | [LeetCode 701. 二叉搜索树中的插入操作（二叉查找树/插入）](https://blog.csdn.net/qq_21201267/article/details/100696071) |
 | [LeetCode 704. 二分查找](https://blog.csdn.net/qq_21201267/article/details/100715644) |
