@@ -489,6 +489,7 @@
 | [LeetCode 876. 链表的中间结点（快慢指针）](https://blog.csdn.net/qq_21201267/article/details/101082616) |
 | [LeetCode 877. 石子游戏（DP）](https://michael.blog.csdn.net/article/details/105334918) |
 | [LeetCode 881. 救生艇（贪心，双指针）](https://michael.blog.csdn.net/article/details/103520322) |
+| [LeetCode 885. 螺旋矩阵 III](https://michael.blog.csdn.net/article/details/105747429) |
 | [LeetCode 887. 鸡蛋掉落（DP，难）](https://blog.csdn.net/qq_21201267/article/details/102844454) |
 | [LeetCode 888. 公平的糖果交换（哈希set）](https://michael.blog.csdn.net/article/details/103168073) |
 | [LeetCode 889. 已知前序&后序 求二叉树（不唯一）](https://blog.csdn.net/qq_21201267/article/details/100802843) |
