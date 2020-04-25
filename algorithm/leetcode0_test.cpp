@@ -36,50 +36,26 @@ struct cmp1
 
 class Solution {
 public:
-    int minTime(vector<int>& time, int m) {
-        int n = time.size(), i, j,k, len;
-        if(m >= n)
-            return 0;
-        vector<int> pretime(time.size(),0);
-        for(i = 0; i < n; ++i)
+    int minimumDeleteSum(string s1, string s2) {
+        int i, j, n1 = s1.size(), n2 = s2.size();
+        vector<vector<int>> dp(n1+1,vector<int>(n2+1,0));
+        for(i = 0; i < n2; i++)
+            dp[0][i+1] = dp[0][i] + int(s2[i]);
+        for(i = 0; i < n1; i++)
+            dp[i+1][0] = dp[i][0] + int(s1[i]);
+        for(i = 1; i < n1; i++)
         {
-            if(i==0)
-                pretime[i] = time[0];
-            else
-                pretime[i] = pretime[i-1]+time[i];
-        }
-        vector<vector<int>> dp(m,vector<int>(n,INT_MAX));
-        for(j = 0; j <= n-m; ++j)
-        {
-            if(j==0)
-                dp[0][j] = 0;
-            else
+            for(j = 1; j < n2; j++)
             {
-                dp[0][j] = pretime[j-1];
-            }
-        }
-
-        for(i = 1; i < m; ++i)
-        {
-            for(j = 0; j <= n-m+i; ++j)
-            {
-
-                if(dp[i-1][j] != INT_MAX)
+                if(s1[i-1] == s2[j-1])
+                    dp[i][j] = dp[i-1][j-1];
+                else
                 {
-                    for(k = j+1; k <= n-m+i; ++k)
-                    {
-                        if(k==j+1)
-                            dp[i][k] = 0;
-                        else
-                        {
-                            dp[i][k] = min(dp[i][k], max(pretime[k-1]-pretime[j],dp[i-1][j]));
-                        }
-                    }
-
+                    dp[i][j] = min(dp[i][j-1]+int(s2[j-1]),min(dp[i-1][j]+int(s1[i-1]), dp[i-1][j-1]+int(s1[i-1]+s2[j-1])));
                 }
             }
         }
-        return *min_element(dp[m-1].begin(),dp[m-1].end());
+        return dp[n1][n2];
     }
 };
 //["01","10","0","1","1001010"] 9
@@ -108,7 +84,7 @@ int main() {
     vector<vector<string>> st  = {{"David","3","Ceviche"},{"Corina","10","Beef Burrito"},{"David","3","Fried Chicken"},{"Carla","5","Water"},{"Carla","5","Ceviche"},{"Rous","3","Ceviche"}};
     vector<string> st1 = {};
     Solution s;
-    s.minTime(v4,2);
+    s.minimumDeleteSum("sea","eat");
     printv(v4);
 
     string s1 = "1";
