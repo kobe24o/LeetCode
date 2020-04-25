@@ -468,6 +468,7 @@
 | [LeetCode 804. 唯一摩尔斯密码词（哈希+set）](https://blog.csdn.net/qq_21201267/article/details/100630347) |
 | [LeetCode 807. 保持城市天际线](https://blog.csdn.net/qq_21201267/article/details/100585707) |
 | [LeetCode 811. 子域名访问计数](https://michael.blog.csdn.net/article/details/105758279) |
+| [LeetCode 812. 最大三角形面积（坐标面积公式）](https://michael.blog.csdn.net/article/details/105758490) |
 | [LeetCode 814. 二叉树剪枝（递归）](https://blog.csdn.net/qq_21201267/article/details/100566646) |
 | [LeetCode 816. 模糊坐标](https://michael.blog.csdn.net/article/details/103942445) |
 | [LeetCode 820. 单词的压缩编码（后缀树）](https://michael.blog.csdn.net/article/details/105158592) |
@@ -527,6 +528,7 @@
 | [LeetCode 979. 在二叉树中分配硬币（DFS）](https://michael.blog.csdn.net/article/details/103219540) |
 | [LeetCode 980. 不同路径 III（DFS+回溯）](https://michael.blog.csdn.net/article/details/102961910) |
 | [LeetCode 984. 不含 AAA 或 BBB 的字符串（贪心）](https://michael.blog.csdn.net/article/details/103883367) |
+| [LeetCode 985. 查询后的偶数和](https://michael.blog.csdn.net/article/details/105758689) |
 | [LeetCode 986. 区间列表的交集](https://blog.csdn.net/qq_21201267/article/details/100058783) |
 | [LeetCode 987. 二叉树的垂序遍历（递归/循环）](https://michael.blog.csdn.net/article/details/105681731) |
 | [LeetCode 989. 数组形式的整数加法](https://michael.blog.csdn.net/article/details/103020342) |
