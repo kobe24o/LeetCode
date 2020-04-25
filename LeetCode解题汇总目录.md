@@ -297,6 +297,7 @@
 | [LeetCode 403. 青蛙过河（DP）](https://michael.blog.csdn.net/article/details/102969736) |
 | [LeetCode 404. 左叶子之和（递归）](https://michael.blog.csdn.net/article/details/103041375) |
 | [LeetCode 405. 数字转换为十六进制数](https://michael.blog.csdn.net/article/details/105665100) |
+| [LeetCode 406. 根据身高重建队列（排序）](https://michael.blog.csdn.net/article/details/105749075) |
 | [LeetCode 409. 最长回文串（计数）](https://michael.blog.csdn.net/article/details/104959667) |
 | [LeetCode 412. Fizz Buzz](https://michael.blog.csdn.net/article/details/105665256) |
 | [LeetCode 413. 等差数列划分（DP）](https://blog.csdn.net/qq_21201267/article/details/100831735) |
