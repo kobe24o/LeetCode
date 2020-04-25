@@ -36,58 +36,50 @@ struct cmp1
 
 class Solution {
 public:
-    vector<int> diffWaysToCompute(string input) {
-        int i, num=0;
-        vector<int> arr;
-        vector<char> op;
-        for(i = 0; i < input.size(); ++i)
+    int minTime(vector<int>& time, int m) {
+        int n = time.size(), i, j,k, len;
+        if(m >= n)
+            return 0;
+        vector<int> pretime(time.size(),0);
+        for(i = 0; i < n; ++i)
         {
-            if(!isdigit(input[i]))
-            {
-                arr.push_back(num);
-                op.push_back(input[i]);
-                num = 0;
-            }
+            if(i==0)
+                pretime[i] = time[0];
             else
-                num = num*10+input[i]-'0';
+                pretime[i] = pretime[i-1]+time[i];
         }
-        arr.push_back(num);//最后一个数字
-        int n = arr.size(), j, k;
-        vector<vector<vector<int>>> dp(n,vector<vector<int>>(n));
-        for(i = 0; i < n-1; ++i)
+        vector<vector<int>> dp(m,vector<int>(n,INT_MAX));
+        for(j = 0; j <= n-m; ++j)
         {
-            if(op[i]=='+')
-                dp[i][i+1] = {arr[i]+arr[i+1]};
-            else if(op[i]=='-')
-                dp[i][i+1] = {arr[i]-arr[i+1]};
-            else if(op[i]=='*')
-                dp[i][i+1] = {arr[i]*arr[i+1]};
-        }
-        for(int len = 2; len < n; ++len)
-        {
-            for(i = 0; i <= n-len; ++i)
+            if(j==0)
+                dp[0][j] = 0;
+            else
             {
-                for(int d : dp[i][i+len-1])
+                dp[0][j] = pretime[j-1];
+            }
+        }
+
+        for(i = 1; i < m; ++i)
+        {
+            for(j = 0; j <= n-m+i; ++j)
+            {
+
+                if(dp[i-1][j] != INT_MAX)
                 {
-                    if(i+len < n)
-                        if(op[i+len-1]=='+')
-                            dp[i][i+len].push_back(d+arr[i+len]);
-                        else if(op[i+len-1]=='-')
-                            dp[i][i+len].push_back(d-arr[i+len]);
-                        else if(op[i+len-1]=='*')
-                            dp[i][i+len].push_back(d*arr[i+len]);
-                    if(i > 0)
-                        if(op[i-1]=='+')
-                            dp[i-1][i+len-1].push_back(arr[i-1]+d);
-                        else if(op[i-1]=='-')
-                            dp[i-1][i+len-1].push_back(arr[i-1]-d);
-                        else if(op[i-1]=='*')
-                            dp[i-1][i+len-1].push_back(arr[i-1]*d);
+                    for(k = j+1; k <= n-m+i; ++k)
+                    {
+                        if(k==j+1)
+                            dp[i][k] = 0;
+                        else
+                        {
+                            dp[i][k] = min(dp[i][k], max(pretime[k-1]-pretime[j],dp[i-1][j]));
+                        }
+                    }
+
                 }
             }
         }
-        sort(dp[0][n-1].begin(),dp[0][n-1].end());
-        return dp[0][n-1];
+        return *min_element(dp[m-1].begin(),dp[m-1].end());
     }
 };
 //["01","10","0","1","1001010"] 9
@@ -111,12 +103,12 @@ int main() {
     vector<int> v1 = {2,5,1,1,1,1};
     vector<int> v2 = {1,3,5};
     vector<int> v3 = {-1,0};
-    vector<int> v4 = {3,2};
+    vector<int> v4 = {1,2,3,3};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"David","3","Ceviche"},{"Corina","10","Beef Burrito"},{"David","3","Fried Chicken"},{"Carla","5","Water"},{"Carla","5","Ceviche"},{"Rous","3","Ceviche"}};
     vector<string> st1 = {};
     Solution s;
-    s.diffWaysToCompute("2*3-4*5");
+    s.minTime(v4,2);
     printv(v4);
 
     string s1 = "1";

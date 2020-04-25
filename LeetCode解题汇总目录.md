@@ -703,4 +703,5 @@
 | [LeetCode 1417. 重新格式化字符串](https://michael.blog.csdn.net/article/details/105613930) |
 | [LeetCode 1418. 点菜展示表（哈希map）](https://michael.blog.csdn.net/article/details/105615677) |
 | [LeetCode 1419. 数青蛙（脑洞题）](https://michael.blog.csdn.net/article/details/105618418) |
+| [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |
 
