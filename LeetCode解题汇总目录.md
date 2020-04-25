@@ -438,6 +438,7 @@
 | [LeetCode 706. 设计哈希映射](https://michael.blog.csdn.net/article/details/105740273) |
 | [LeetCode 707. 设计链表（List）](https://blog.csdn.net/qq_21201267/article/details/101638997) |
 | [LeetCode 709. 转换成小写字母](https://blog.csdn.net/qq_21201267/article/details/100907747) |
+| [LeetCode 712. 两个字符串的最小ASCII删除和（DP，类似编辑距离）](https://michael.blog.csdn.net/article/details/105757207) |
 | [LeetCode 714. 买卖股票的最佳时机含手续费（DP）](https://michael.blog.csdn.net/article/details/103381475) |
 | [LeetCode 717. 1比特与2比特字符](https://michael.blog.csdn.net/article/details/105740439) |
 | [LeetCode 720. 词典中最长的单词（Trie树）](https://michael.blog.csdn.net/article/details/103077004) |
