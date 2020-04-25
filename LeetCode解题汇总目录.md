@@ -541,6 +541,7 @@
 | [LeetCode 1002. 查找常用字符（哈希）](https://blog.csdn.net/qq_21201267/article/details/100997357) |
 | [LeetCode 1003. 检查替换后的词是否有效（栈）](https://michael.blog.csdn.net/article/details/103509100) |
 | [LeetCode 1004. 最大连续1的个数 III（滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/100855871) |
+| [LeetCode 1005. K 次取反后最大化的数组和](https://michael.blog.csdn.net/article/details/105758899) |
 | [LeetCode 1006. 笨阶乘](https://michael.blog.csdn.net/article/details/103220417) |
 | [LeetCode 1008. 先序遍历构造二叉树（已知先序，求二叉搜索树）](https://blog.csdn.net/qq_21201267/article/details/100568701) |
 | [LeetCode 1009. 十进制整数的反码（位运算）](https://blog.csdn.net/qq_21201267/article/details/101197758) |
