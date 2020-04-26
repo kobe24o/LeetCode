@@ -465,7 +465,9 @@
 | [LeetCode 779. 第K个语法符号（找规律）](https://michael.blog.csdn.net/article/details/105762582) |
 | [LeetCode 783. 二叉搜索树结点最小距离（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100784063) |
 | [LeetCode 784. 字母大小写全排列（位运算&回溯）](https://blog.csdn.net/qq_21201267/article/details/101179369) |
+| [LeetCode 788. 旋转数字](https://michael.blog.csdn.net/article/details/105775643) |
 | [LeetCode 791. 自定义字符串排序（map）](https://michael.blog.csdn.net/article/details/103219936) |
+| [LeetCode 796. 旋转字符串](https://michael.blog.csdn.net/article/details/105775449) |
 | [LeetCode 797. 所有可能的路径（DFS）](https://blog.csdn.net/qq_21201267/article/details/101574194) |
 | [LeetCode 804. 唯一摩尔斯密码词（哈希+set）](https://blog.csdn.net/qq_21201267/article/details/100630347) |
 | [LeetCode 807. 保持城市天际线](https://blog.csdn.net/qq_21201267/article/details/100585707) |
