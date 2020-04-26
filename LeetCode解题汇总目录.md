@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.4.22
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.4.26
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题（更新完毕）](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题（更新完毕）](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode代码能力测试CAT](https://blog.csdn.net/qq_21201267/article/details/104603021)。
 
@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-**已解决 912/1614** - **简单 389** **中等 441** **困难 82**
+**已解决 923/1625** - **简单 391** **中等 449** **困难 83**
 
 - 2019.7.24 - 2019.11.9， AC + 400道（108天）
 - 2019.11.9 - 2019.11.24，   AC + 100道，共计500道（123天，4个月）
@@ -712,5 +712,9 @@
 | [LeetCode 1417. 重新格式化字符串](https://michael.blog.csdn.net/article/details/105613930) |
 | [LeetCode 1418. 点菜展示表（哈希map）](https://michael.blog.csdn.net/article/details/105615677) |
 | [LeetCode 1419. 数青蛙（脑洞题）](https://michael.blog.csdn.net/article/details/105618418) |
+| [LeetCode 5392. 分割字符串的最大得分（前缀和）](https://michael.blog.csdn.net/article/details/105766947#1_LeetCode_5392__easy_9) |
+| [LeetCode 5393. 可获得的最大点数（前缀和）](https://michael.blog.csdn.net/article/details/105766947#2_LeetCode_5393__medium_98) |
+| [LeetCode 5394. 对角线遍历 II（哈希分组+排序）](https://michael.blog.csdn.net/article/details/105766947#3_LeetCode_5394__II_medium_169) |
+| [LeetCode 5180. 带限制的子序列和（DP+单调栈）](https://michael.blog.csdn.net/article/details/105766947#4_LeetCode_5180__hard_322) |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |
 
