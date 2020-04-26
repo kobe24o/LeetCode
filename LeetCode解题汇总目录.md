@@ -461,6 +461,7 @@
 | [LeetCode 771. 宝石与石头（哈希）](https://blog.csdn.net/qq_21201267/article/details/100563578) |
 | [LeetCode 773. 滑动谜题（BFS 地图状态转换的最短距离）](https://michael.blog.csdn.net/article/details/104118648) |
 | [LeetCode 777. 在LR字符串中交换相邻字符（双指针）](https://michael.blog.csdn.net/article/details/103866042) |
+| [LeetCode 779. 第K个语法符号（找规律）](https://michael.blog.csdn.net/article/details/105762582) |
 | [LeetCode 783. 二叉搜索树结点最小距离（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100784063) |
 | [LeetCode 784. 字母大小写全排列（位运算&回溯）](https://blog.csdn.net/qq_21201267/article/details/101179369) |
 | [LeetCode 791. 自定义字符串排序（map）](https://michael.blog.csdn.net/article/details/103219936) |
@@ -474,6 +475,7 @@
 | [LeetCode 819. 最常见的单词](https://michael.blog.csdn.net/article/details/105762230) |
 | [LeetCode 820. 单词的压缩编码（后缀树）](https://michael.blog.csdn.net/article/details/105158592) |
 | [LeetCode 821. 字符的最短距离](https://blog.csdn.net/qq_21201267/article/details/101001770) |
+| [LeetCode 824. 山羊拉丁文](https://michael.blog.csdn.net/article/details/105762430) |
 | [LeetCode 829. 连续整数求和（数学）](https://michael.blog.csdn.net/article/details/103501644) |
 | [LeetCode 832. 翻转图像（异或^）](https://blog.csdn.net/qq_21201267/article/details/100585771) |
 | [LeetCode 840. 矩阵中的幻方（数学）](https://michael.blog.csdn.net/article/details/103192644) |
