@@ -471,6 +471,7 @@
 | [LeetCode 812. 最大三角形面积（坐标面积公式）](https://michael.blog.csdn.net/article/details/105758490) |
 | [LeetCode 814. 二叉树剪枝（递归）](https://blog.csdn.net/qq_21201267/article/details/100566646) |
 | [LeetCode 816. 模糊坐标](https://michael.blog.csdn.net/article/details/103942445) |
+| [LeetCode 819. 最常见的单词](https://michael.blog.csdn.net/article/details/105762230) |
 | [LeetCode 820. 单词的压缩编码（后缀树）](https://michael.blog.csdn.net/article/details/105158592) |
 | [LeetCode 821. 字符的最短距离](https://blog.csdn.net/qq_21201267/article/details/101001770) |
 | [LeetCode 829. 连续整数求和（数学）](https://michael.blog.csdn.net/article/details/103501644) |
