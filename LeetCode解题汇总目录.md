@@ -650,7 +650,9 @@
 | [LeetCode 1299. 将每个元素替换为右侧最大元素](https://michael.blog.csdn.net/article/details/103757611#LeetCode_1299__easy_7) |                                                              |
 | [LeetCode 1301. 最大得分的路径数目](https://michael.blog.csdn.net/article/details/103757611#LeetCode_1301__hard_76) |                                                              |
 | [LeetCode 1302. 层数最深叶子节点的和](https://michael.blog.csdn.net/article/details/103757611#LeetCode_1302__medium_38) |                                                              |
+| [LeetCode 1304. 和为零的N个唯一整数](https://michael.blog.csdn.net/article/details/105801435) |                                                              |
 | [LeetCode 1305. 两棵二叉搜索树中的所有元素（二叉树迭代器）](https://michael.blog.csdn.net/article/details/103773511) |                                                              |
+| [LeetCode 1309. 解码字母到整数映射](https://michael.blog.csdn.net/article/details/105801288) |                                                              |
 | [LeetCode 1310. 子数组异或查询（前缀异或）](https://michael.blog.csdn.net/article/details/105589811) |                                                              |
 | [LeetCode 1313. 解压缩编码列表](https://michael.blog.csdn.net/article/details/103942178#LeetCode_5143__easy_7) |                                                              |
 | [LeetCode 1314. 矩阵区域和](https://michael.blog.csdn.net/article/details/103942178#LeetCode_5144__medium_44) |                                                              |
