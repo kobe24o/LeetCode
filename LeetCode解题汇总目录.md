@@ -644,6 +644,7 @@
 | [LeetCode 1281. 整数的各位积和之差](https://michael.blog.csdn.net/article/details/105594317) |                                                              |
 | [LeetCode 1282. 用户分组（桶排序思想）](https://michael.blog.csdn.net/article/details/103483462) |                                                              |
 | [LeetCode 1284. 转化为全零矩阵的最少反转次数（BFS & 矩阵状态编码解码）](https://michael.blog.csdn.net/article/details/104116933) |                                                              |
+| [LeetCode 1287. 有序数组中出现次数超过25%的元素](https://michael.blog.csdn.net/article/details/105801573) |                                                              |
 | [LeetCode 1288. 删除被覆盖区间（lambda排序）](https://michael.blog.csdn.net/article/details/103916976) |                                                              |
 | [LeetCode 1289. 下降路径最小和 II（DP）](https://michael.blog.csdn.net/article/details/104114823) |                                                              |
 | [LeetCode 1290. 二进制链表转整数](https://michael.blog.csdn.net/article/details/105594520) |                                                              |
