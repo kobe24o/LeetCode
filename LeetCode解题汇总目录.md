@@ -542,6 +542,7 @@
 | [LeetCode 944. 删列造序](https://blog.csdn.net/qq_21201267/article/details/100675384) |                                                              |
 | [LeetCode 945. 使数组唯一的最小增量（贪心）](https://blog.csdn.net/qq_21201267/article/details/105032960) |                                                              |
 | [LeetCode 946. 验证栈序列（栈）](https://michael.blog.csdn.net/article/details/103566492) |                                                              |
+| [LeetCode 949. 给定数字能组成的最大时间（暴力）](https://michael.blog.csdn.net/article/details/105804878) |                                                              |
 | [LeetCode 950. 按递增顺序显示卡牌（deque）](https://blog.csdn.net/qq_21201267/article/details/100608442) |                                                              |
 | [LeetCode 951. 翻转等价二叉树（递归）](https://michael.blog.csdn.net/article/details/102998305) |                                                              |
 | [LeetCode 958. 二叉树的完全性检验（层序遍历）](https://michael.blog.csdn.net/article/details/103101797) |                                                              |
