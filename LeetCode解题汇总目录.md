@@ -498,6 +498,7 @@
 | [LeetCode 862. 和至少为 K 的最短子数组（前缀和+deque单调栈）](https://michael.blog.csdn.net/article/details/105662545) |                                                              |
 | [LeetCode 865. 具有所有最深结点的最小子树（递归）](https://michael.blog.csdn.net/article/details/105547677) |                                                              |
 | [LeetCode 866. 回文素数（除11外，偶数位的回文数都不是质数）](https://michael.blog.csdn.net/article/details/105495449) |                                                              |
+| [LeetCode 867. 转置矩阵](https://michael.blog.csdn.net/article/details/105796920) |                                                              |
 | [LeetCode 868. 二进制间距（位运算）](https://blog.csdn.net/qq_21201267/article/details/101164748) |                                                              |
 | [LeetCode 869. 重新排序得到 2 的幂（排序 & 全排列）](https://blog.csdn.net/qq_21201267/article/details/103096151) |                                                              |
 | [LeetCode 870. 优势洗牌（贪心 & 二分查找）](https://michael.blog.csdn.net/article/details/103866966) |                                                              |
