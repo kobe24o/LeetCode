@@ -527,6 +527,7 @@
 | [LeetCode 912. 排序数组（10种排序）](https://blog.csdn.net/qq_21201267/article/details/105216430) |                                                              |
 | [LeetCode 914. 卡牌分组（最大公约数）](https://michael.blog.csdn.net/article/details/103044009) |                                                              |
 | [LeetCode 916. 单词子集（计数）](https://michael.blog.csdn.net/article/details/105681007) |                                                              |
+| [LeetCode 917. 仅仅反转字母](https://michael.blog.csdn.net/article/details/105799219) |                                                              |
 | [LeetCode 919. 完全二叉树插入器（层序遍历&队列）](https://michael.blog.csdn.net/article/details/103108605) |                                                              |
 | [LeetCode 922. 按奇偶排序数组 II（双指针）](https://blog.csdn.net/qq_21201267/article/details/100998177) |                                                              |
 | [LeetCode 933. 最近的请求次数（queue）](https://blog.csdn.net/qq_21201267/article/details/100746524) |                                                              |
