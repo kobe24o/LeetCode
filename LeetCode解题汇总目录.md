@@ -454,6 +454,7 @@
 | [LeetCode 744. 寻找比目标字母大的最小字母（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489881) |                                                              |
 | [LeetCode 746. 使用最小花费爬楼梯（DP）](https://blog.csdn.net/qq_21201267/article/details/102905456) |                                                              |
 | [LeetCode 747. 至少是其他数字两倍的最大数](https://michael.blog.csdn.net/article/details/105740878) |                                                              |
+| [LeetCode 748. 最短完整词](https://michael.blog.csdn.net/article/details/105798998) |                                                              |
 | [LeetCode 752. 打开转盘锁（图的BFS最短路径）](https://blog.csdn.net/qq_21201267/article/details/101485240) |                                                              |
 | [LeetCode 754. 到达终点数字（数学推理）](https://blog.csdn.net/qq_21201267/article/details/102888341) |                                                              |
 | [LeetCode 762. 二进制表示中质数个计算置位](https://blog.csdn.net/qq_21201267/article/details/101039460) |                                                              |
