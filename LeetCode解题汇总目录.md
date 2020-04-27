@@ -623,6 +623,7 @@
 | [LeetCode 1177. 构建回文串检测（前缀和）](https://michael.blog.csdn.net/article/details/105498437) |                                                              |
 | [LeetCode 1184. 公交站间的距离](https://blog.csdn.net/qq_21201267/article/details/100814178) |                                                              |
 | [LeetCode 1185. 一周中的第几天](https://blog.csdn.net/qq_21201267/article/details/100808636) |                                                              |
+| [LeetCode 1189. “气球” 的最大数量](https://michael.blog.csdn.net/article/details/105803005) |                                                              |
 | [LeetCode 1190. 反转每对括号间的子串（栈）](https://michael.blog.csdn.net/article/details/103796323) |                                                              |
 | [LeetCode 1200. 最小绝对差](https://michael.blog.csdn.net/article/details/105802282) |                                                              |
 | [LeetCode 1207. 独一无二的出现次数](https://michael.blog.csdn.net/article/details/105802661) |                                                              |
