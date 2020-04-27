@@ -502,6 +502,7 @@
 | [LeetCode 868. 二进制间距（位运算）](https://blog.csdn.net/qq_21201267/article/details/101164748) |                                                              |
 | [LeetCode 869. 重新排序得到 2 的幂（排序 & 全排列）](https://blog.csdn.net/qq_21201267/article/details/103096151) |                                                              |
 | [LeetCode 870. 优势洗牌（贪心 & 二分查找）](https://michael.blog.csdn.net/article/details/103866966) |                                                              |
+| [LeetCode 872. 叶子相似的树](https://michael.blog.csdn.net/article/details/105797294) |                                                              |
 | [LeetCode 874. 模拟行走机器人（set）](https://michael.blog.csdn.net/article/details/103192991) |                                                              |
 | [LeetCode 876. 链表的中间结点（快慢指针）](https://blog.csdn.net/qq_21201267/article/details/101082616) |                                                              |
 | [LeetCode 877. 石子游戏（DP）](https://michael.blog.csdn.net/article/details/105334918) |                                                              |
