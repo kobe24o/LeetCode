@@ -536,6 +536,7 @@
 | [LeetCode 934. 最短的桥（2次BFS）](https://michael.blog.csdn.net/article/details/103938366) |                                                              |
 | [LeetCode 937. 重新排列日志文件（自定义排序）](https://blog.csdn.net/qq_21201267/article/details/103171169) |                                                              |
 | [LeetCode 938. 二叉搜索树的范围和（二叉树遍历+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100609270) |                                                              |
+| [LeetCode 941. 有效的山脉数组](https://michael.blog.csdn.net/article/details/105804816) |                                                              |
 | [LeetCode 942. 增减字符串匹配](https://blog.csdn.net/qq_21201267/article/details/100907468) |                                                              |
 | [LeetCode 944. 删列造序](https://blog.csdn.net/qq_21201267/article/details/100675384) |                                                              |
 | [LeetCode 945. 使数组唯一的最小增量（贪心）](https://blog.csdn.net/qq_21201267/article/details/105032960) |                                                              |
