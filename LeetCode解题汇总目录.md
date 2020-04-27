@@ -459,6 +459,7 @@
 | [LeetCode 762. 二进制表示中质数个计算置位](https://blog.csdn.net/qq_21201267/article/details/101039460) |                                                              |
 | [LeetCode 763. 划分字母区间](https://blog.csdn.net/qq_21201267/article/details/100677335) |                                                              |
 | [LeetCode 765. 情侣牵手（贪心）](https://blog.csdn.net/qq_21201267/article/details/100839491) |                                                              |
+| [LeetCode 769. 最多能完成排序的块](https://michael.blog.csdn.net/article/details/105795329) |                                                              |
 | [LeetCode 771. 宝石与石头（哈希）](https://blog.csdn.net/qq_21201267/article/details/100563578) |                                                              |
 | [LeetCode 773. 滑动谜题（BFS 地图状态转换的最短距离）](https://michael.blog.csdn.net/article/details/104118648) |                                                              |
 | [LeetCode 777. 在LR字符串中交换相邻字符（双指针）](https://michael.blog.csdn.net/article/details/103866042) |                                                              |
