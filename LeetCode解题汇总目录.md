@@ -627,6 +627,7 @@
 | [LeetCode 1208. 尽可能使字符串相等（滑动窗口）](https://michael.blog.csdn.net/article/details/103324980) |                                                              |
 | [LeetCode 1209. 删除字符串中的所有相邻重复项 II（栈）](https://michael.blog.csdn.net/article/details/103325673) |                                                              |
 | [LeetCode 1219. 黄金矿工（回溯）](https://michael.blog.csdn.net/article/details/102999022) |                                                              |
+| [LeetCode 1221. 分割平衡字符串](https://michael.blog.csdn.net/article/details/105802345) |                                                              |
 | [LeetCode 1232. 缀点成线](https://michael.blog.csdn.net/article/details/105802054) |                                                              |
 | [LeetCode 1233. 删除子文件夹](https://michael.blog.csdn.net/article/details/103916724) |                                                              |
 | [LeetCode 1237. 找出给定方程的正整数解](https://michael.blog.csdn.net/article/details/103256534) |                                                              |
