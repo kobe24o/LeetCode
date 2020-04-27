@@ -529,6 +529,7 @@
 | [LeetCode 916. 单词子集（计数）](https://michael.blog.csdn.net/article/details/105681007) |                                                              |
 | [LeetCode 917. 仅仅反转字母](https://michael.blog.csdn.net/article/details/105799219) |                                                              |
 | [LeetCode 919. 完全二叉树插入器（层序遍历&队列）](https://michael.blog.csdn.net/article/details/103108605) |                                                              |
+| [LeetCode 921. 使括号有效的最少添加（栈）](https://michael.blog.csdn.net/article/details/105799322) |                                                              |
 | [LeetCode 922. 按奇偶排序数组 II（双指针）](https://blog.csdn.net/qq_21201267/article/details/100998177) |                                                              |
 | [LeetCode 933. 最近的请求次数（queue）](https://blog.csdn.net/qq_21201267/article/details/100746524) |                                                              |
 | [LeetCode 934. 最短的桥（2次BFS）](https://michael.blog.csdn.net/article/details/103938366) |                                                              |
