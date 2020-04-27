@@ -573,6 +573,7 @@
 | [LeetCode 1014. 最佳观光组合](https://michael.blog.csdn.net/article/details/103316755) |                                                              |
 | [LeetCode 1016. 子串能表示从 1 到 N 数字的二进制串（bitset）](https://michael.blog.csdn.net/article/details/103530223) |                                                              |
 | [LeetCode 1017. 负二进制转换（负数进制转换）](https://michael.blog.csdn.net/article/details/103430094) |                                                              |
+| [LeetCode 1018. 可被 5 整除的二进制前缀](https://michael.blog.csdn.net/article/details/105799833) |                                                              |
 | [LeetCode 1019. 链表中的下一个更大节点（单调栈）](https://michael.blog.csdn.net/article/details/103796861) |                                                              |
 | [LeetCode 1020. 飞地的数量（图的BFS/DFS）](https://michael.blog.csdn.net/article/details/103523525) |                                                              |
 | [LeetCode 1021. 删除最外层的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/100611450) |                                                              |
