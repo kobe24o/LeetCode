@@ -591,6 +591,7 @@
 | [LeetCode 1029. 两地调度（贪心）](https://michael.blog.csdn.net/article/details/103003479) |                                                              |
 | [LeetCode 1030. 距离顺序排列矩阵单元格（排序&Lambda表达式&BFS）](https://michael.blog.csdn.net/article/details/103151131) |                                                              |
 | [LeetCode 1033. 移动石子直到连续](https://michael.blog.csdn.net/article/details/105805226) |                                                              |
+| [LeetCode 1037. 有效的回旋镖](https://michael.blog.csdn.net/article/details/105805499) |                                                              |
 | [LeetCode 1038. 从二叉搜索树到更大和树（逆中序-右根左-降序）](https://blog.csdn.net/qq_21201267/article/details/100798009) |                                                              |
 | [LeetCode 1042. 不邻接植花（图的数据结构）](https://michael.blog.csdn.net/article/details/103076199) |                                                              |
 | [LeetCode 1043. 分隔数组以得到最大和（DP）](https://michael.blog.csdn.net/article/details/103285753) |                                                              |
