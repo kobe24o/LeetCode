@@ -473,6 +473,7 @@
 | [LeetCode 791. 自定义字符串排序（map）](https://michael.blog.csdn.net/article/details/103219936) |                                                              |
 | [LeetCode 796. 旋转字符串](https://michael.blog.csdn.net/article/details/105775449) |                                                              |
 | [LeetCode 797. 所有可能的路径（DFS）](https://blog.csdn.net/qq_21201267/article/details/101574194) |                                                              |
+| [LeetCode 801. 使序列递增的最小交换次数（动态规划）](https://michael.blog.csdn.net/article/details/105841553) |                                                              |
 | [LeetCode 804. 唯一摩尔斯密码词（哈希+set）](https://blog.csdn.net/qq_21201267/article/details/100630347) |                                                              |
 | [LeetCode 806. 写字符串需要的行数](https://michael.blog.csdn.net/article/details/105776513) |                                                              |
 | [LeetCode 807. 保持城市天际线](https://blog.csdn.net/qq_21201267/article/details/100585707) |                                                              |
@@ -611,6 +612,7 @@
 | [LeetCode 1089. 复写零](https://blog.csdn.net/qq_21201267/article/details/100809393) |                                                              |
 | [LeetCode 1093. 大样本统计](https://michael.blog.csdn.net/article/details/105802780) |                                                              |
 | [LeetCode 1094. 拼车](https://blog.csdn.net/qq_21201267/article/details/100604925) |                                                              |
+| [LeetCode 1095. 山脉数组中查找目标值（二分查找）](https://michael.blog.csdn.net/article/details/105837135) |                                                              |
 | [LeetCode 1103. 分糖果 II](https://blog.csdn.net/qq_21201267/article/details/100802416) |                                                              |
 | [LeetCode 1104. 二叉树寻路（数学&位运算）](https://michael.blog.csdn.net/article/details/103100853) |                                                              |
 | [LeetCode 1108. IP 地址无效化](https://blog.csdn.net/qq_21201267/article/details/100585842) |                                                              |
