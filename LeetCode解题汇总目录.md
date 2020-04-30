@@ -528,6 +528,7 @@
 | [LeetCode 894. 所有可能的满二叉树（递归）](https://michael.blog.csdn.net/article/details/105727867) |                                                              |
 | [LeetCode 896. 单调数列](https://blog.csdn.net/qq_21201267/article/details/100782385) |                                                              |
 | [LeetCode 897. 递增顺序查找树（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/101083541) |                                                              |
+| [LeetCode 901. 股票价格跨度（单调栈）](https://michael.blog.csdn.net/article/details/105860583) |                                                              |
 | [LeetCode 905. 按奇偶排序数组](https://blog.csdn.net/qq_21201267/article/details/100940305) |                                                              |
 | [LeetCode 908. 最小差值 I](https://blog.csdn.net/qq_21201267/article/details/100944337) |                                                              |
 | [LeetCode 912. 排序数组（10种排序）](https://blog.csdn.net/qq_21201267/article/details/105216430) |                                                              |
