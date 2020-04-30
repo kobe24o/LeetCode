@@ -36,26 +36,50 @@ struct cmp1
 
 class Solution {
 public:
-    int minimumDeleteSum(string s1, string s2) {
-        int i, j, n1 = s1.size(), n2 = s2.size();
-        vector<vector<int>> dp(n1+1,vector<int>(n2+1,0));
-        for(i = 0; i < n2; i++)
-            dp[0][i+1] = dp[0][i] + int(s2[i]);
-        for(i = 0; i < n1; i++)
-            dp[i+1][0] = dp[i][0] + int(s1[i]);
-        for(i = 1; i < n1; i++)
+    int findBestValue(vector<int>& arr, int target) {
+        int i, l, r, mid, idx, diff, mindiff = INT_MAX, n = arr.size(), ans;
+        sort(arr.begin(),arr.end());
+        vector<int> presum(arr);
+        for(i = 1; i < n; ++i)
+            presum[i] += presum[i-1];
+        l = 1, r = arr[n-1];
+        while(l <= r)
         {
-            for(j = 1; j < n2; j++)
+            mid = l+((r-l)>>1);
+            idx = binsearch(arr, mid);
+            diff = idx>0? presum[idx-1] : 0 +(n-idx)*mid-target;
+            if(abs(diff) < mindiff)
             {
-                if(s1[i-1] == s2[j-1])
-                    dp[i][j] = dp[i-1][j-1];
-                else
-                {
-                    dp[i][j] = min(dp[i][j-1]+int(s2[j-1]),min(dp[i-1][j]+int(s1[i-1]), dp[i-1][j-1]+int(s1[i-1]+s2[j-1])));
-                }
+                mindiff = abs(diff);
+                ans = mid;
             }
+            if(diff < 0)
+                l = mid+1;
+            else if(diff > 0)
+                r = mid-1;
+            else
+                return ans;
         }
-        return dp[n1][n2];
+        return ans;
+    }
+
+    int binsearch(vector<int>& arr, int val)
+    {	//找第一个大于val的数的下标
+        int l = 0, r = arr.size()-1, mid;
+        while(l <= r)
+        {
+            mid = l+((r-l)>>1);
+            if(arr[mid] > val)
+            {
+                if(mid==0 || arr[mid-1] <= val)
+                    return mid;
+                else
+                    r = mid-1;
+            }
+            else
+                l = mid+1;
+        }
+        return arr.size();//没找到，全部小于val
     }
 };
 //["01","10","0","1","1001010"] 9
@@ -79,12 +103,12 @@ int main() {
     vector<int> v1 = {2,5,1,1,1,1};
     vector<int> v2 = {1,3,5};
     vector<int> v3 = {-1,0};
-    vector<int> v4 = {1,2,3,3};
+    vector<int> v4 = {2,3,5};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"David","3","Ceviche"},{"Corina","10","Beef Burrito"},{"David","3","Fried Chicken"},{"Carla","5","Water"},{"Carla","5","Ceviche"},{"Rous","3","Ceviche"}};
     vector<string> st1 = {};
     Solution s;
-    s.minimumDeleteSum("sea","eat");
+    s.findBestValue(v4,10);
     printv(v4);
 
     string s1 = "1";
