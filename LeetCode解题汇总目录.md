@@ -115,6 +115,7 @@
 | [LeetCode 88. 合并两个有序数组](https://blog.csdn.net/qq_21201267/article/details/100056086) |                                                              |
 | [LeetCode 89. 格雷编码](https://blog.csdn.net/qq_21201267/article/details/100170042) |                                                              |
 | [LeetCode 90. 子集 II（回溯+剪枝）](https://blog.csdn.net/qq_21201267/article/details/100167394) |                                                              |
+| [LeetCode 91. 解码方法（动态规划）](https://michael.blog.csdn.net/article/details/105889570) |                                                              |
 | [LeetCode 92. 反转链表 II（双指针）](https://blog.csdn.net/qq_21201267/article/details/101646666) |                                                              |
 | [LeetCode 93. 复原IP地址（回溯）](https://michael.blog.csdn.net/article/details/103673911) |                                                              |
 | [LeetCode 94. 二叉树的中序遍历（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100545729) |                                                              |
