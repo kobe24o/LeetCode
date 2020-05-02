@@ -20,3 +20,15 @@ public:
         return ans;
     }
 };
+class Solution {
+public:
+    vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
+        int i, j=0, maxCandy = *max_element(candies.begin(),candies.end()), n = candies.size();
+        vector<bool> ans(n,false);
+        for(i = 0; i < n; ++i)
+        {
+            ans[j++] = (candies[i]+extraCandies >= maxCandy);
+        }
+        return ans;
+    }
+};
