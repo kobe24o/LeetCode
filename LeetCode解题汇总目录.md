@@ -655,6 +655,7 @@
 | [LeetCode 1232. 缀点成线](https://michael.blog.csdn.net/article/details/105802054) |                                                              |
 | [LeetCode 1233. 删除子文件夹](https://michael.blog.csdn.net/article/details/103916724) |                                                              |
 | [LeetCode 1237. 找出给定方程的正整数解](https://michael.blog.csdn.net/article/details/103256534) |                                                              |
+| [LeetCode 1238. 循环码排列（格雷编码+旋转数组）](https://michael.blog.csdn.net/article/details/105895929) |                                                              |
 | [LeetCode 1247. 交换字符使得字符串相同](https://michael.blog.csdn.net/article/details/103561781) |                                                              |
 | [LeetCode 1248. 统计「优美子数组」（要复习）](https://michael.blog.csdn.net/article/details/105648303) |                                                              |
 | [LeetCode 1249. 移除无效的括号（栈+set / deque）](https://michael.blog.csdn.net/article/details/105793246) |                                                              |
