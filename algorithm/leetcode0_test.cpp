@@ -36,50 +36,61 @@ struct cmp1
 
 class Solution {
 public:
-    int findBestValue(vector<int>& arr, int target) {
-        int i, l, r, mid, idx, diff, mindiff = INT_MAX, n = arr.size(), ans;
-        sort(arr.begin(),arr.end());
-        vector<int> presum(arr);
-        for(i = 1; i < n; ++i)
-            presum[i] += presum[i-1];
-        l = 1, r = arr[n-1];
-        while(l <= r)
+    vector<int> circularPermutation(int n, int start) {
+        int N = pow(2,n), i, j = 1, nextNum;
+        vector<int> ans(N);
+        ans[0] = start;
+        bool reduceOne = false, operation;
+        unordered_set<int> s;
+        s.insert(start);
+        while(j < N)
         {
-            mid = l+((r-l)>>1);
-            idx = binsearch(arr, mid);
-            diff = idx>0? presum[idx-1] : 0 +(n-idx)*mid-target;
-            if(abs(diff) < mindiff)
+        	if(countOne(ans[j-1]) == n)//二进制1个数满了
+                reduceOne = true;
+            else if(countOne(ans[j-1]) == 0)
+                reduceOne = false;
+            operation = false;
+            if(!reduceOne)//增加1
             {
-                mindiff = abs(diff);
-                ans = mid;
+                for(i = 0; i < n; ++i)
+                {
+                    nextNum = ans[j-1]|(1<<i);
+                    if(((ans[j-1]>>i)&1)==0 && !s.count(nextNum))
+                    {
+                        ans[j] = (nextNum);
+                        s.insert(nextNum);
+                        break;
+                    }
+                }
+
             }
-            if(diff < 0)
-                l = mid+1;
-            else if(diff > 0)
-                r = mid-1;
-            else
-                return ans;
+            else//减少1
+            {
+                for(i = 0; i < n; ++i)
+                {
+                    nextNum = ans[j-1]&~(1<<i);
+                    if(((ans[j-1]>>i)&1)==1 && !s.count(nextNum))
+                    {
+                        ans[j] = nextNum;
+                        s.insert(nextNum);
+                        break;
+                    }
+                }
+        	}
+        	j++;
         }
         return ans;
     }
 
-    int binsearch(vector<int>& arr, int val)
-    {	//找第一个大于val的数的下标
-        int l = 0, r = arr.size()-1, mid;
-        while(l <= r)
-        {
-            mid = l+((r-l)>>1);
-            if(arr[mid] > val)
-            {
-                if(mid==0 || arr[mid-1] <= val)
-                    return mid;
-                else
-                    r = mid-1;
-            }
-            else
-                l = mid+1;
-        }
-        return arr.size();//没找到，全部小于val
+    int countOne(int n)
+    {
+    	int count = 0;
+    	while(n)
+    	{
+    		count++;
+    		n = n&(n-1);
+    	}
+        return count;
     }
 };
 //["01","10","0","1","1001010"] 9
@@ -108,7 +119,7 @@ int main() {
     vector<vector<string>> st  = {{"David","3","Ceviche"},{"Corina","10","Beef Burrito"},{"David","3","Fried Chicken"},{"Carla","5","Water"},{"Carla","5","Ceviche"},{"Rous","3","Ceviche"}};
     vector<string> st1 = {};
     Solution s;
-    s.findBestValue(v4,10);
+    s.circularPermutation(3,0);
     printv(v4);
 
     string s1 = "1";
