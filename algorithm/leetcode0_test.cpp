@@ -36,61 +36,77 @@ struct cmp1
 
 class Solution {
 public:
-    vector<int> circularPermutation(int n, int start) {
-        int N = pow(2,n), i, j = 1, nextNum;
-        vector<int> ans(N);
-        ans[0] = start;
-        bool reduceOne = false, operation;
-        unordered_set<int> s;
-        s.insert(start);
-        while(j < N)
+    int maxDiff(int num) {
+        vector<int> big;
+        int n = num, i = 0, first, idx;
+        while(n)
         {
-        	if(countOne(ans[j-1]) == n)//二进制1个数满了
-                reduceOne = true;
-            else if(countOne(ans[j-1]) == 0)
-                reduceOne = false;
-            operation = false;
-            if(!reduceOne)//增加1
-            {
-                for(i = 0; i < n; ++i)
-                {
-                    nextNum = ans[j-1]|(1<<i);
-                    if(((ans[j-1]>>i)&1)==0 && !s.count(nextNum))
-                    {
-                        ans[j] = (nextNum);
-                        s.insert(nextNum);
-                        break;
-                    }
-                }
-
-            }
-            else//减少1
-            {
-                for(i = 0; i < n; ++i)
-                {
-                    nextNum = ans[j-1]&~(1<<i);
-                    if(((ans[j-1]>>i)&1)==1 && !s.count(nextNum))
-                    {
-                        ans[j] = nextNum;
-                        s.insert(nextNum);
-                        break;
-                    }
-                }
-        	}
-        	j++;
+            big.insert(big.begin(),n%10);
+            n /= 10;
         }
-        return ans;
-    }
+        vector<int> small(big);
+        while(i < big.size())
+        {
+            if(big[i]==9)
+                i++;
+            else
+                break;
+        }
+        if(i != big.size())
+        {
+            first = big[i];
+            for( ; i < big.size(); ++i)
+                if(big[i]==first)
+                    big[i] = 9;
+        }
+        if(small[0]==1)
+        {
+            i = 1;
+            while(i < big.size()) {
+                if(small[i]<2)
+                    i++;
+                else
+                    break;
+            }
+            if(i < big.size())
+            {
+                first = small[i];
+                for( ; i < small.size(); ++i)
+                    if(small[i]==first)
+                        small[i] = 0;
+            }
+        }
+        else
+        {
+            set<int> s;
+            i = 0;
+            int idx;
+            for(; i < big.size(); ++i)
+            {
+                s.insert(small[i]);
+            }
+            if(s.size()==1)
+            {
 
-    int countOne(int n)
-    {
-    	int count = 0;
-    	while(n)
-    	{
-    		count++;
-    		n = n&(n-1);
-    	}
-        return count;
+                for(i = 0 ; i < small.size(); ++i)
+                    small[i] = 1;
+            }
+            else
+            {
+                first = small[0];
+                for(i = 0 ; i < small.size(); ++i)
+                    if(small[i]==first)
+                        small[i] = 1;
+            }
+        }
+
+        int a =0, b = 0;
+        for(int i = 0; i < big.size(); ++i)
+            a = a*10+big[i];
+        for(int i = 0; i < big.size(); ++i)
+            b = b*10+small[i];
+
+        return a-b;
     }
 };
 //["01","10","0","1","1001010"] 9
@@ -119,7 +135,11 @@ int main() {
     vector<vector<string>> st  = {{"David","3","Ceviche"},{"Corina","10","Beef Burrito"},{"David","3","Fried Chicken"},{"Carla","5","Water"},{"Carla","5","Ceviche"},{"Rous","3","Ceviche"}};
     vector<string> st1 = {};
     Solution s;
-    s.circularPermutation(3,0);
+    cout << s.maxDiff(555) << endl;
+    cout << s.maxDiff(9) << endl;
+    cout << s.maxDiff(123456) << endl;
+    cout << s.maxDiff(10000) << endl;
+    cout << s.maxDiff(9288) << endl;
     printv(v4);
 
     string s1 = "1";
