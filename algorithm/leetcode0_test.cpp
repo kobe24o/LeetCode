@@ -36,77 +36,84 @@ struct cmp1
 
 class Solution {
 public:
-    int maxDiff(int num) {
-        vector<int> big;
-        int n = num, i = 0, first, idx;
-        while(n)
+    int longestSubarray(vector<int>& nums, int limit) {
+        int i, maxlen = 1, n = nums.size(), MAX, MIN;
+        vector<vector<int>> dp(n,vector<int>(5,0));
+        MAX = MIN = nums[0];
+        dp[0] = {1,MAX,MIN,0,0};
+        int mi, ma, L, R, idx, maxid, minid;
+        for(i = 1; i < n; ++i)
         {
-            big.insert(big.begin(),n%10);
-            n /= 10;
-        }
-        vector<int> small(big);
-        while(i < big.size())
-        {
-            if(big[i]==9)
-                i++;
-            else
-                break;
-        }
-        if(i != big.size())
-        {
-            first = big[i];
-            for( ; i < big.size(); ++i)
-                if(big[i]==first)
-                    big[i] = 9;
-        }
-        if(small[0]==1)
-        {
-            i = 1;
-            while(i < big.size()) {
-                if(small[i]<2)
-                    i++;
-                else
-                    break;
-            }
-            if(i < big.size())
+            mi = abs(nums[i]-dp[i-1][2]);
+            idx = -1;
+            if(mi > limit)
             {
-                first = small[i];
-                for( ; i < small.size(); ++i)
-                    if(small[i]==first)
-                        small[i] = 0;
+                idx = dp[i-1][4];
             }
-        }
-        else
-        {
-            set<int> s;
-            i = 0;
-            int idx;
-            for(; i < big.size(); ++i)
+            ma = abs(nums[i]-dp[i-1][1]);
+            if(ma > limit)
             {
-                s.insert(small[i]);
+                idx = max(idx, dp[i-1][3]);
             }
-            if(s.size()==1)
-            {
+            L = max(mi,ma);
+            R = min(mi,ma);
 
-                for(i = 0 ; i < small.size(); ++i)
-                    small[i] = 1;
+            if(L <= limit)
+            {
+                maxid = dp[i-1][3];
+                minid = dp[i-1][4];
+                if(nums[i] >= dp[i-1][1])
+                {
+                    MAX = nums[i];
+                    maxid = i;
+                }
+                if(nums[i] <= dp[i-1][2])
+                {
+                    MIN = nums[i];
+                    minid = i;
+                }
+                dp[i] = {dp[i-1][0]+1,MAX, MIN,maxid,minid};
+                maxlen = max(maxlen, dp[i][0]);
             }
             else
             {
-                first = small[0];
-                for(i = 0 ; i < small.size(); ++i)
-                    if(small[i]==first)
-                        small[i] = 1;
+                idx++;
+                MIN = MAX = nums[idx];
+                minid = maxid = idx;
+                int count = 1;
+                while(idx < i)
+                {
+                    mi = abs(nums[i]-nums[idx]);
+                    ma = abs(nums[i]-nums[idx]);
+                    L = max(mi,ma);
+                    R = min(mi,ma);
+                    if(nums[idx] >= MAX)
+                    {
+                        MAX = nums[idx];
+                        maxid = idx;
+                    }
+                    if(nums[i] <= MIN)
+                    {
+                        MIN = nums[idx];
+                        minid = idx;
+                    }
+                    if(L <= limit)
+                    {
+                        count++;
+                    }
+                    else
+                    {
+                        count = 0;
+                        MIN = MAX = nums[idx+1];
+                        minid = maxid = idx+1;
+                    }
+                    idx++;
+                }
+                dp[i] = {count,MAX,MIN,maxid, minid};
+                maxlen = max(maxlen, dp[i][0]);
             }
         }
-
-        int a =0, b = 0;
-        for(int i = 0; i < big.size(); ++i)
-            a = a*10+big[i];
-        for(int i = 0; i < big.size(); ++i)
-            b = b*10+small[i];
-
-        return a-b;
+        return maxlen;
     }
 };
 //["01","10","0","1","1001010"] 9
@@ -130,16 +137,12 @@ int main() {
     vector<int> v1 = {2,5,1,1,1,1};
     vector<int> v2 = {1,3,5};
     vector<int> v3 = {-1,0};
-    vector<int> v4 = {2,3,5};
+    vector<int> v4 = {4,8,5,1,7,9};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"David","3","Ceviche"},{"Corina","10","Beef Burrito"},{"David","3","Fried Chicken"},{"Carla","5","Water"},{"Carla","5","Ceviche"},{"Rous","3","Ceviche"}};
     vector<string> st1 = {};
     Solution s;
-    cout << s.maxDiff(555) << endl;
-    cout << s.maxDiff(9) << endl;
-    cout << s.maxDiff(123456) << endl;
-    cout << s.maxDiff(10000) << endl;
-    cout << s.maxDiff(9288) << endl;
+    s.longestSubarray(v4,6);
     printv(v4);
 
     string s1 = "1";
