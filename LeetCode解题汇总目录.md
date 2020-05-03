@@ -776,5 +776,12 @@
 | [LeetCode 1423. 可获得的最大点数（前缀和）](https://michael.blog.csdn.net/article/details/105766947#2_LeetCode_5393__medium_98) |                                                              |
 | [LeetCode 1424. 对角线遍历 II（哈希分组+排序）](https://michael.blog.csdn.net/article/details/105766947#3_LeetCode_5394__II_medium_169) |                                                              |
 | [LeetCode 1425. 带限制的子序列和（DP+单调栈）](https://michael.blog.csdn.net/article/details/105766947#4_LeetCode_5180__hard_322) |                                                              |
+| [LeetCode 5384. 拥有最多糖果的孩子](https://michael.blog.csdn.net/article/details/105897792#1_LeetCode_5384__easy_11) |                                                              |
+| [LeetCode 5385. 改变一个整数能得到的最大差值](https://michael.blog.csdn.net/article/details/105897792#2_LeetCode_5385__medium_91) |                                                              |
+| [LeetCode 5386. 检查一个字符串是否可以打破另一个字符串（排序）](https://michael.blog.csdn.net/article/details/105897792#3_LeetCode_5386__medium_201) |                                                              |
+| [LeetCode 5400. 旅行终点站（图的出入度）](https://michael.blog.csdn.net/article/details/105903207#1_LeetCode_5400__easy_11) |                                                              |
+| [LeetCode 5401. 是否所有 1 都至少相隔 k 个元素](https://michael.blog.csdn.net/article/details/105903207#2_LeetCode_5401__1__k__medium_99) |                                                              |
+| [LeetCode 5402. 绝对差不超过限制的最长连续子数组（滑动窗口+map）](https://michael.blog.csdn.net/article/details/105903207#3_LeetCode_5402__medium_187) |                                                              |
+| [LeetCode 5403. 有序矩阵中的第 k 个最小数组和（优先队列+DP）](https://michael.blog.csdn.net/article/details/105903207#4_LeetCode_5403__k__hard_295) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 
