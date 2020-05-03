@@ -36,8 +36,8 @@
 
 | 已解题目，部分太简单的没有列出                               | 分类系列                                                     |
 | :----------------------------------------------------------- | ------------------------------------------------------------ |
-| [LeetCode 1. 两数之和（哈希）](https://blog.csdn.net/qq_21201267/article/details/97125420) | [LeetCode 旋转数组 系列](https://michael.blog.csdn.net/article/details/105783301) |
-| [LeetCode 2. 两数相加（单链表反转）](https://blog.csdn.net/qq_21201267/article/details/97191786) |                                                              |
+| [LeetCode 1. 两数之和（哈希）](https://blog.csdn.net/qq_21201267/article/details/97125420) | [LeetCode 旋转数组 系列（二分查找）](https://michael.blog.csdn.net/article/details/105783301) |
+| [LeetCode 2. 两数相加（单链表反转）](https://blog.csdn.net/qq_21201267/article/details/97191786) | [LeetCode 股票买卖 系列（动态规划） ](https://blog.csdn.net/qq_21201267/article/details/100026086) |
 | [LeetCode 3. 无重复字符的最长子串（滑动窗口+哈希）](https://blog.csdn.net/qq_21201267/article/details/102333616) |                                                              |
 | [LeetCode 4. 寻找两个有序数组的中位数（二分查找，难）](https://blog.csdn.net/qq_21201267/article/details/102828858) |                                                              |
 | [LeetCode 5. 最长回文子串（动态规划）](https://michael.blog.csdn.net/article/details/105348936) |                                                              |
