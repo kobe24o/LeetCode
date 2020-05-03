@@ -19,3 +19,21 @@ public:
         return *dist.begin();
     }
 };
+class Solution {
+public:
+    string destCity(vector<vector<string>>& paths) {
+        unordered_map<string,int> in;
+        unordered_map<string,int> out;
+        for(auto p : paths)
+        {
+            out[p[0]]++;
+            in[p[1]]++;
+        }
+        for(auto in_ : in)
+        {
+            if(out[in_.first]==0)
+                return in_.first;
+        }
+        return "";
+    }
+};
