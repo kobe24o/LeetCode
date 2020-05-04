@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-**已解决 945/1639** - **简单 393** **中等 464** **困难 88**
+**已解决 947/1639** - **简单 393** **中等 466** **困难 88**
 
 - 2019.7.24 - 2019.11.9， AC + 400道（108天）
 - 2019.11.9 - 2019.11.24，   AC + 100道，共计500道（123天，4个月）
@@ -786,4 +786,5 @@
 | [LeetCode 1438. 绝对差不超过限制的最长连续子数组（滑动窗口+map）](https://michael.blog.csdn.net/article/details/105903207#3_LeetCode_5402__medium_187) |                                                              |
 | [LeetCode 1439. 有序矩阵中的第 k 个最小数组和（优先队列+DP）](https://michael.blog.csdn.net/article/details/105903207#4_LeetCode_5403__k__hard_295) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
+| [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
