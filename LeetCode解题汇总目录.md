@@ -779,6 +779,7 @@
 | [LeetCode 1431. 拥有最多糖果的孩子](https://michael.blog.csdn.net/article/details/105897792#1_LeetCode_5384__easy_11) |                                                              |
 | [LeetCode 1432. 改变一个整数能得到的最大差值](https://michael.blog.csdn.net/article/details/105897792#2_LeetCode_5385__medium_91) |                                                              |
 | [LeetCode 1433. 检查一个字符串是否可以打破另一个字符串（排序）](https://michael.blog.csdn.net/article/details/105897792#3_LeetCode_5386__medium_201) |                                                              |
+| [LeetCode 1434. 每个人戴不同帽子的方案数（状态压缩+DP）](https://michael.blog.csdn.net/article/details/105897792#4_LeetCode_5387__hard_265) |                                                              |
 | [LeetCode 1436. 旅行终点站（图的出入度）](https://michael.blog.csdn.net/article/details/105903207#1_LeetCode_5400__easy_11) |                                                              |
 | [LeetCode 1437. 是否所有 1 都至少相隔 k 个元素](https://michael.blog.csdn.net/article/details/105903207#2_LeetCode_5401__1__k__medium_99) |                                                              |
 | [LeetCode 1438. 绝对差不超过限制的最长连续子数组（滑动窗口+map）](https://michael.blog.csdn.net/article/details/105903207#3_LeetCode_5402__medium_187) |                                                              |
