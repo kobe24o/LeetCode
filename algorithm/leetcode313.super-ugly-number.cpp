@@ -1,19 +1,19 @@
 class Solution {
 public:
     int nthSuperUglyNumber(int n, vector<int>& primes) {
-    	int i, k = primes.size(), curnum = 1, temp;
-    	vector<int> factor(k,1);
-    	while(--n)
-    	{	temp = INT_MAX;
-	    	for(i = 0; i < k; ++i)
-	    	{
-	    		temp = min(temp, curnum*primes[i]);
-	    	}
-	    	for(i = 0; i < k; ++i)
-	    		if(temp = curnum*primes[i])
-	    			factor[i]++;
-	    	curnum = temp;
+    	int i, j, k = primes.size();
+    	vector<long> idx(k,1);
+        vector<long long> dp(n+1, LONG_LONG_MAX);
+        dp[1] = 1;
+    	for(i = 2; i <= n; ++i)
+    	{	
+	    	for(j = 0; j < k; ++j)
+                if(dp[idx[j]]*primes[j] < dp[i])
+                    dp[i] = dp[idx[j]]*primes[j];
+	    	for(j = 0; j < k; ++j)
+	    		if(dp[i] == dp[idx[j]]*primes[j])
+	    			idx[j]++;
 		}
-		return curnum;
+		return dp[n];
     }
 };
