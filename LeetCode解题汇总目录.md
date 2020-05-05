@@ -38,7 +38,7 @@
 | :----------------------------------------------------------- | ------------------------------------------------------------ |
 | [LeetCode 1. 两数之和（哈希）](https://blog.csdn.net/qq_21201267/article/details/97125420) | [LeetCode 旋转数组 系列（二分查找）](https://michael.blog.csdn.net/article/details/105783301) |
 | [LeetCode 2. 两数相加（单链表反转）](https://blog.csdn.net/qq_21201267/article/details/97191786) | [LeetCode 股票买卖 系列（动态规划） ](https://blog.csdn.net/qq_21201267/article/details/100026086) |
-| [LeetCode 3. 无重复字符的最长子串（滑动窗口+哈希）](https://blog.csdn.net/qq_21201267/article/details/102333616) |                                                              |
+| [LeetCode 3. 无重复字符的最长子串（滑动窗口+哈希）](https://blog.csdn.net/qq_21201267/article/details/102333616) | [LeetCode 丑数 系列（DP/二分）](https://blog.csdn.net/qq_21201267/article/details/103738537) |
 | [LeetCode 4. 寻找两个有序数组的中位数（二分查找，难）](https://blog.csdn.net/qq_21201267/article/details/102828858) |                                                              |
 | [LeetCode 5. 最长回文子串（动态规划）](https://michael.blog.csdn.net/article/details/105348936) |                                                              |
 | [LeetCode 6. Z 字形变换（找规律）](https://blog.csdn.net/qq_21201267/article/details/104782401) |                                                              |
@@ -257,6 +257,7 @@
 | [LeetCode 309. 最佳买卖股票时机含冷冻期（动态规划）](https://michael.blog.csdn.net/article/details/105858950) |                                                              |
 | [LeetCode 310. 最小高度树（图 聪明的BFS，从外向内包围）](https://michael.blog.csdn.net/article/details/103244463) |                                                              |
 | [LeetCode 312. 戳气球（DP，难）](https://blog.csdn.net/qq_21201267/article/details/100838793) |                                                              |
+| [LeetCode 313. 超级丑数（动态规划）](https://michael.blog.csdn.net/article/details/105932017) |                                                              |
 | [LeetCode 315. 计算右侧小于当前元素的个数（二叉查找树&二分查找&归并排序逆序数总结）](https://blog.csdn.net/qq_21201267/article/details/102876496) |                                                              |
 | [LeetCode 318. 最大单词长度乘积（位运算）](https://michael.blog.csdn.net/article/details/103231137) |                                                              |
 | [LeetCode 319. 灯泡开关（找规律）](https://michael.blog.csdn.net/article/details/103607028) |                                                              |
