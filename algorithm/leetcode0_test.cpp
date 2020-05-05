@@ -36,84 +36,46 @@ struct cmp1
 
 class Solution {
 public:
-    int longestSubarray(vector<int>& nums, int limit) {
-        int i, maxlen = 1, n = nums.size(), MAX, MIN;
-        vector<vector<int>> dp(n,vector<int>(5,0));
-        MAX = MIN = nums[0];
-        dp[0] = {1,MAX,MIN,0,0};
-        int mi, ma, L, R, idx, maxid, minid;
+    int stoneGameII(vector<int>& piles) {
+        int i, j, k, n = piles.size(), maxs = 0, l, r, M;
+        vector<int> presum(piles);
         for(i = 1; i < n; ++i)
+            presum[i] = presum[i-1]+piles[i];
+        if(piles.size() <= 2)
+            return piles[n-1];
+        vector<vector<vector<int>>> dp(n,vector<vector<int>>(n+1,vector<int>(2,0)));
+        //dp[i][j][0] 表示 拿走包含i结束的j个石头时得到的最多石头
+        //最后0表示alice，1表示lee
+        dp[0][1][0] = piles[0];dp[1][1][1] = piles[1];
+        dp[1][2][0] = presum[1];
+        maxs = presum[1];
+        for(i = 0; i < n; ++i)
         {
-            mi = abs(nums[i]-dp[i-1][2]);
-            idx = -1;
-            if(mi > limit)
+            for(j = 1; j <= i+1; ++j)
             {
-                idx = dp[i-1][4];
-            }
-            ma = abs(nums[i]-dp[i-1][1]);
-            if(ma > limit)
-            {
-                idx = max(idx, dp[i-1][3]);
-            }
-            L = max(mi,ma);
-            R = min(mi,ma);
+                if(dp[i][j][0])//Alice存在状态
+                {
+                    l = i+1, r = min(n-1, i+2*j);
+                    M = r-l+1;//个数
+                    if(l <= r)
+                    {
+                        dp[r][M][1] = max(dp[r][M][1],(i-j>=0? dp[i-j][j/2][1]+presum[r]-presum[l-1] : 0));
+                    }
+                }
+                if(dp[i][j][1])//lee状态存在
+                {
+                    l = i+1, r = min(n-1, i+2*j);
+                    M = r-l+1;//个数
+                    if(l <= r)
+                    {
 
-            if(L <= limit)
-            {
-                maxid = dp[i-1][3];
-                minid = dp[i-1][4];
-                if(nums[i] >= dp[i-1][1])
-                {
-                    MAX = nums[i];
-                    maxid = i;
+                        dp[r][M][0] = max(dp[r][M][0],(i-j>=0? dp[i-j][j/2][0]+presum[r]-presum[l-1] : 0));
+                    }
+                    maxs = max(maxs,dp[r][M][0]);
                 }
-                if(nums[i] <= dp[i-1][2])
-                {
-                    MIN = nums[i];
-                    minid = i;
-                }
-                dp[i] = {dp[i-1][0]+1,MAX, MIN,maxid,minid};
-                maxlen = max(maxlen, dp[i][0]);
-            }
-            else
-            {
-                idx++;
-                MIN = MAX = nums[idx];
-                minid = maxid = idx;
-                int count = 1;
-                while(idx < i)
-                {
-                    mi = abs(nums[i]-nums[idx]);
-                    ma = abs(nums[i]-nums[idx]);
-                    L = max(mi,ma);
-                    R = min(mi,ma);
-                    if(nums[idx] >= MAX)
-                    {
-                        MAX = nums[idx];
-                        maxid = idx;
-                    }
-                    if(nums[i] <= MIN)
-                    {
-                        MIN = nums[idx];
-                        minid = idx;
-                    }
-                    if(L <= limit)
-                    {
-                        count++;
-                    }
-                    else
-                    {
-                        count = 0;
-                        MIN = MAX = nums[idx+1];
-                        minid = maxid = idx+1;
-                    }
-                    idx++;
-                }
-                dp[i] = {count,MAX,MIN,maxid, minid};
-                maxlen = max(maxlen, dp[i][0]);
             }
         }
-        return maxlen;
+        return maxs;
     }
 };
 //["01","10","0","1","1001010"] 9
@@ -137,12 +99,12 @@ int main() {
     vector<int> v1 = {2,5,1,1,1,1};
     vector<int> v2 = {1,3,5};
     vector<int> v3 = {-1,0};
-    vector<int> v4 = {4,8,5,1,7,9};
+    vector<int> v4 = {2,7,9,4,4};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"David","3","Ceviche"},{"Corina","10","Beef Burrito"},{"David","3","Fried Chicken"},{"Carla","5","Water"},{"Carla","5","Ceviche"},{"Rous","3","Ceviche"}};
     vector<string> st1 = {};
     Solution s;
-    s.longestSubarray(v4,6);
+    s.stoneGameII(v4);
     printv(v4);
 
     string s1 = "1";
