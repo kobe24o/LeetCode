@@ -1,9 +1,9 @@
 class Solution {
 public:
     vector<vector<char>> updateBoard(vector<vector<char>>& board, vector<int>& click) {
-    	if(board[click[0][click[1]]] == 'M')
+    	if(board[click[0]][click[1]] == 'M')//点击的是地雷，直接标记X，结束
     	{
-    		board[click[0][click[1]]] = 'X';
+    		board[click[0]][click[1]] = 'X';
     		return board;
     	}
     	vector<vector<int>> dir = {{1,0},{0,1},{-1,0},{0,-1},{1,1},{-1,-1},{1,-1},{-1,1}};
@@ -11,6 +11,8 @@ public:
     	int i, j, x, y, k, count;
     	queue<vector<int>> q;
     	q.push(click);
+        vector<vector<bool>> visited(m,vector<bool>(n,false));//访问标记
+        visited[click[0]][click[1]] = true;
     	while(!q.empty())
     	{
     		i = q.front()[0];
@@ -21,17 +23,27 @@ public:
     		{
     			x = i + dir[k][0];
     			y = j + dir[k][1];
-    			if(x>=0 && x<m && y>=0 && y<n)
-    			{
-    				if(board[x][y]=='M')
-    					count++;
-    				else if(board[x][y]=='E')
-    				{
-    					q.push({x,y});
-    				}
-    			}
+    			if(x>=0 && x<m && y>=0 && y<n && board[x][y]=='M')
+                    count++;//8个方向有几颗地雷
     		}
-    		board[i][j] = count==0 ? 'B' : char('0'+count);
+            if(count == 0)//地雷为0，需要周围的都加入队列，去检查是否继续翻开
+            {
+                board[i][j] = 'B';//中间标记为B
+                for(k = 0; k < 8; ++k)
+                {
+                    x = i + dir[k][0];
+                    y = j + dir[k][1];
+                    if(x>=0 && x<m && y>=0 && y<n && !visited[x][y] && board[x][y]=='E')
+                    {
+                        q.push({x,y});
+                        visited[x][y] = true;
+                    }
+                }
+            }
+            else
+            {	//不为零，标记为数字
+    		    board[i][j] = char('0'+count);
+            }
     	}
     	return board;
     }
