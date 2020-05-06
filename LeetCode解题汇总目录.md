@@ -568,6 +568,7 @@
 | [LeetCode 977. 有序数组的平方](https://blog.csdn.net/qq_21201267/article/details/100057616) |                                                              |
 | [LeetCode 979. 在二叉树中分配硬币（DFS）](https://michael.blog.csdn.net/article/details/103219540) |                                                              |
 | [LeetCode 980. 不同路径 III（DFS+回溯）](https://michael.blog.csdn.net/article/details/102961910) |                                                              |
+| [LeetCode 983. 最低票价（动态规划）](https://michael.blog.csdn.net/article/details/105948343) |                                                              |
 | [LeetCode 984. 不含 AAA 或 BBB 的字符串（贪心）](https://michael.blog.csdn.net/article/details/103883367) |                                                              |
 | [LeetCode 985. 查询后的偶数和](https://michael.blog.csdn.net/article/details/105758689) |                                                              |
 | [LeetCode 986. 区间列表的交集](https://blog.csdn.net/qq_21201267/article/details/100058783) |                                                              |
@@ -687,6 +688,7 @@
 | [LeetCode 1302. 层数最深叶子节点的和](https://michael.blog.csdn.net/article/details/103757611#LeetCode_1302__medium_38) |                                                              |
 | [LeetCode 1304. 和为零的N个唯一整数](https://michael.blog.csdn.net/article/details/105801435) |                                                              |
 | [LeetCode 1305. 两棵二叉搜索树中的所有元素（二叉树迭代器）](https://michael.blog.csdn.net/article/details/103773511) |                                                              |
+| [LeetCode 1306. 跳跃游戏 III（广度优先搜索BFS）](https://michael.blog.csdn.net/article/details/105955995) |                                                              |
 | [LeetCode 1309. 解码字母到整数映射](https://michael.blog.csdn.net/article/details/105801288) |                                                              |
 | [LeetCode 1310. 子数组异或查询（前缀异或）](https://michael.blog.csdn.net/article/details/105589811) |                                                              |
 | [LeetCode 1313. 解压缩编码列表](https://michael.blog.csdn.net/article/details/103942178#LeetCode_5143__easy_7) |                                                              |
