@@ -367,6 +367,7 @@
 | [LeetCode 522. 最长特殊序列 II](https://blog.csdn.net/qq_21201267/article/details/101036485) |                                                              |
 | [LeetCode 523. 连续的子数组和（求余 哈希）](https://blog.csdn.net/qq_21201267/article/details/102253351) |                                                              |
 | [LeetCode 526. 优美的排列（回溯）](https://michael.blog.csdn.net/article/details/103383968) |                                                              |
+| [LeetCode 529. 扫雷游戏（广度优先搜索BFS）](https://michael.blog.csdn.net/article/details/105960312) |                                                              |
 | [LeetCode 530. 二叉搜索树的最小绝对差（中序遍历）](https://michael.blog.csdn.net/article/details/102964835) |                                                              |
 | [LeetCode 532. 数组中的K-diff数对](https://michael.blog.csdn.net/article/details/105717133) |                                                              |
 | [LeetCode 535. TinyURL 的加密与解密（哈希）](https://blog.csdn.net/qq_21201267/article/details/100565409) |                                                              |
