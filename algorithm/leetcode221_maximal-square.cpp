@@ -68,3 +68,37 @@ int main()
     cout << s.maximalSquare(matrix) << endl;
     return 0;
 }
+
+class Solution {
+public:
+    int maximalSquare(vector<vector<char>>& matrix) {
+        if(matrix.empty())
+            return 0;
+        int i, j, n, incr, maxlen = 0;
+        int r = matrix.size(), c = matrix[0].size();
+        int dp[r][c];//以右下角为结束的最大正方形边长
+        memset(dp,0,sizeof(dp));
+        for(i = 0; i < c; ++i)//第一行填表
+        {
+            if(matrix[0][i] == '1')
+                dp[0][i] = 1,maxlen = 1;
+        }
+        for(i = 1; i < r; ++i)//第一列填表
+        {
+            if(matrix[i][0] == '1')
+                dp[i][0] = 1,maxlen = 1;
+        }
+        for(i = 1; i < r; ++i)
+        {
+            for(j = 1; j < c; ++j)
+            {
+                if(matrix[i][j]=='1')
+                {
+                    dp[i][j] = 1+min(dp[i-1][j], min(dp[i][j-1], dp[i-1][j-1]));
+                    maxlen = max(maxlen, dp[i][j]);
+                }
+            }
+        }
+        return maxlen*maxlen;
+    }
+};
