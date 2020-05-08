@@ -392,6 +392,7 @@
 | [LeetCode 572. 另一个树的子树（二叉树迭代器）](https://michael.blog.csdn.net/article/details/103094146) |                                                              |
 | [LeetCode 575. 分糖果（set集合去重）](https://blog.csdn.net/qq_21201267/article/details/101039768) |                                                              |
 | [LeetCode 581. 最短无序连续子数组（排序&单调栈）](https://michael.blog.csdn.net/article/details/103208650) |                                                              |
+| [LeetCode 583. 两个字符串的删除操作（动态规划）](https://michael.blog.csdn.net/article/details/106009461) |                                                              |
 | [LeetCode 589. N叉树的前序遍历（前序遍历）](https://blog.csdn.net/qq_21201267/article/details/100747568) |                                                              |
 | [LeetCode 590. N叉树的后序遍历（后序遍历）](https://blog.csdn.net/qq_21201267/article/details/100749955) |                                                              |
 | [LeetCode 594. 最长和谐子序列（map）](https://michael.blog.csdn.net/article/details/102924359) |                                                              |
