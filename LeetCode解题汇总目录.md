@@ -594,6 +594,7 @@
 | [LeetCode 1010. 总持续时间可被 60 整除的歌曲（哈希）](https://michael.blog.csdn.net/article/details/103190028) |                                                              |
 | [LeetCode 1013. 将数组分成和相等的三个部分](https://michael.blog.csdn.net/article/details/103154010) |                                                              |
 | [LeetCode 1014. 最佳观光组合](https://michael.blog.csdn.net/article/details/103316755) |                                                              |
+| [LeetCode 1015. 可被 K 整除的最小整数（数学）](https://michael.blog.csdn.net/article/details/106029928) |                                                              |
 | [LeetCode 1016. 子串能表示从 1 到 N 数字的二进制串（bitset）](https://michael.blog.csdn.net/article/details/103530223) |                                                              |
 | [LeetCode 1017. 负二进制转换（负数进制转换）](https://michael.blog.csdn.net/article/details/103430094) |                                                              |
 | [LeetCode 1018. 可被 5 整除的二进制前缀](https://michael.blog.csdn.net/article/details/105799833) |                                                              |
