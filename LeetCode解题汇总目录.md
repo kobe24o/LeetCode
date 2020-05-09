@@ -623,6 +623,7 @@
 | [LeetCode 1079. 活字印刷（全排列回溯）](https://blog.csdn.net/qq_21201267/article/details/100644009) |                                                              |
 | [LeetCode 1080. 根到叶路径上的不足节点（递归）](https://michael.blog.csdn.net/article/details/103690245) |                                                              |
 | [LeetCode 1089. 复写零](https://blog.csdn.net/qq_21201267/article/details/100809393) |                                                              |
+| [LeetCode 1091. 二进制矩阵中的最短路径（BFS）](https://michael.blog.csdn.net/article/details/106029651) |                                                              |
 | [LeetCode 1093. 大样本统计](https://michael.blog.csdn.net/article/details/105802780) |                                                              |
 | [LeetCode 1094. 拼车](https://blog.csdn.net/qq_21201267/article/details/100604925) |                                                              |
 | [LeetCode 1095. 山脉数组中查找目标值（二分查找）](https://michael.blog.csdn.net/article/details/105837135) |                                                              |
