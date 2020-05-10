@@ -657,6 +657,7 @@
 | [LeetCode 1190. 反转每对括号间的子串（栈）](https://michael.blog.csdn.net/article/details/103796323) |                                                              |
 | [LeetCode 1200. 最小绝对差](https://michael.blog.csdn.net/article/details/105802282) |                                                              |
 | [LeetCode 1201. 丑数 III（最小公倍数+二分查找）](https://michael.blog.csdn.net/article/details/105920352) |                                                              |
+| [LeetCode 1202. 交换字符串中的元素（并查集）](https://michael.blog.csdn.net/article/details/106042356) |                                                              |
 | [LeetCode 1207. 独一无二的出现次数](https://michael.blog.csdn.net/article/details/105802661) |                                                              |
 | [LeetCode 1208. 尽可能使字符串相等（滑动窗口）](https://michael.blog.csdn.net/article/details/103324980) |                                                              |
 | [LeetCode 1209. 删除字符串中的所有相邻重复项 II（栈）](https://michael.blog.csdn.net/article/details/103325673) |                                                              |
