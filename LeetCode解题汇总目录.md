@@ -798,6 +798,7 @@
 | [LeetCode 1437. 是否所有 1 都至少相隔 k 个元素](https://michael.blog.csdn.net/article/details/105903207#2_LeetCode_5401__1__k__medium_99) |                                                              |
 | [LeetCode 1438. 绝对差不超过限制的最长连续子数组（滑动窗口+map）](https://michael.blog.csdn.net/article/details/105903207#3_LeetCode_5402__medium_187) |                                                              |
 | [LeetCode 1439. 有序矩阵中的第 k 个最小数组和（优先队列+DP）](https://michael.blog.csdn.net/article/details/105903207#4_LeetCode_5403__k__hard_295) |                                                              |
+| [LeetCode 5404. 用栈操作构建数组](https://michael.blog.csdn.net/article/details/106035352) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
