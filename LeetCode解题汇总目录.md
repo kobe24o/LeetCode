@@ -568,6 +568,7 @@
 | [LeetCode 958. 二叉树的完全性检验（层序遍历）](https://michael.blog.csdn.net/article/details/103101797) |                                                              |
 | [LeetCode 959. 由斜杠划分区域（并查集）](https://michael.blog.csdn.net/article/details/105739007) |                                                              |
 | [LeetCode 961. 重复 N 次的元素](https://michael.blog.csdn.net/article/details/105800069) |                                                              |
+| [LeetCode 962. 最大宽度坡（单调栈）](https://michael.blog.csdn.net/article/details/106057212) |                                                              |
 | [LeetCode 965. 单值二叉树](https://blog.csdn.net/qq_21201267/article/details/100993432) |                                                              |
 | [LeetCode 969. 煎饼排序](https://blog.csdn.net/qq_21201267/article/details/100797632) |                                                              |
 | [LeetCode 970. 强整数](https://blog.csdn.net/qq_21201267/article/details/102889287) |                                                              |
