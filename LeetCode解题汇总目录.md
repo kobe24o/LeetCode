@@ -706,6 +706,7 @@
 | [LeetCode 1306. 跳跃游戏 III（广度优先搜索BFS）](https://michael.blog.csdn.net/article/details/105955995) |                                                              |
 | [LeetCode 1309. 解码字母到整数映射](https://michael.blog.csdn.net/article/details/105801288) |                                                              |
 | [LeetCode 1310. 子数组异或查询（前缀异或）](https://michael.blog.csdn.net/article/details/105589811) |                                                              |
+| [LeetCode 1311. 获取你好友已观看的视频（BFS+哈希map+vector排序）](https://michael.blog.csdn.net/article/details/106086025) |                                                              |
 | [LeetCode 1313. 解压缩编码列表](https://michael.blog.csdn.net/article/details/103942178#LeetCode_5143__easy_7) |                                                              |
 | [LeetCode 1314. 矩阵区域和](https://michael.blog.csdn.net/article/details/103942178#LeetCode_5144__medium_44) |                                                              |
 | [LeetCode 1315. 祖父节点值为偶数的节点和](https://michael.blog.csdn.net/article/details/103942178#LeetCode_5145__medium_118) |                                                              |
