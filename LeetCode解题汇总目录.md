@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-**已解决 968/1644** - **简单 394** **中等 486** **困难 88**
+**已解决 971/1644** - **简单 394** **中等 489** **困难 88**
 
 - 2019.7.24 - 2019.11.9， AC + 400道（108天）
 - 2019.11.9 - 2019.11.24，   AC + 100道，共计500道（123天，4个月）
@@ -713,6 +713,7 @@
 | [LeetCode 1316. 不同的循环子字符串](https://michael.blog.csdn.net/article/details/103942178#LeetCode_5146__hard_177) |                                                              |
 | [LeetCode 1317. 将整数转换为两个无零整数的和](https://michael.blog.csdn.net/article/details/103949611) |                                                              |
 | [LeetCode 1318. 或运算的最小翻转次数（位运算）](https://michael.blog.csdn.net/article/details/105888872) |                                                              |
+| [LeetCode 1319. 连通网络的操作次数（BFS/DFS/并查集）](https://michael.blog.csdn.net/article/details/106087256) |                                                              |
 | [LeetCode 1323. 6 和 9 组成的最大数字](https://michael.blog.csdn.net/article/details/104057397) |                                                              |
 | [LeetCode 1324. 竖直打印单词](https://michael.blog.csdn.net/article/details/106007087) |                                                              |
 | [LeetCode 1325. 删除给定值的叶子节点（递归）](https://michael.blog.csdn.net/article/details/105546735) |                                                              |
