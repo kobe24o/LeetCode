@@ -20,74 +20,57 @@ struct TreeNode {
 using namespace std;
 
 
-struct cmp1
+struct cmp
 {
-    bool operator()(const vector<int>& a, const vector<int>& b)const
+    bool operator()(const pair<string,int> &a,const pair<string,int> &b) const
     {
-        if(a[0]==b[0])
-        {
-            if(a[1]==b[1])
-                return a[2] < b[2];
-            return a[1] < b[1];
-        }
-        return a[0] < b[0];
-    }
-};
-
-class dsu
-{
-public:
-    vector<int> f;
-    dsu(int n)
-    {
-        f.resize(n);
-        for(int i = 0; i < n; ++i)
-            f[i] = i;
-    }
-    int find(int x)
-    {
-        if(x == f[x])
-            return x;
-        return f[x] = find(f[x]);
-    }
-    void merge(int x, int y)
-    {
-        int fx = find(x), fy = find(y);
-        if(fx != fy)
-            f[fx] = fy;
+        if(a.second == b.second)
+            return a.first < b.first;
+        return a.second < b.second;
     }
 };
 class Solution {
 public:
-    string smallestStringWithSwaps(string s, vector<vector<int>>& pairs) {
-        int n = s.size(), i, fatherid;
-        dsu uni(n);
-        for(i = 0; i < pairs.size(); ++i)
+    vector<string> watchedVideosByFriends(vector<vector<string>>& watchedVideos, vector<vector<int>>& friends, int id, int level) {
+        queue<int> q;
+        int n = watchedVideos.size(), i, j, tp, size, lv = 0;
+        vector<bool> visited(n,false);
+        q.push(id);
+        visited[id] = true;
+        vector<int> lvfriend;
+        while(!q.empty())
         {
-            if(pairs[i][0] > pairs[i][1])
-                swap(pairs[i][0],pairs[i][1]);
-            uni.merge(pairs[i][0],pairs[i][1]);
+            size = q.size();
+            while(size--)
+            {
+                tp = q.front();
+                q.pop();
+                if(lv == level)
+                    lvfriend.push_back(tp);
+                for(i = 0; i < friends[tp].size(); ++i)
+                {
+                    if(!visited[friends[tp][i]])
+                    {
+                        q.push(friends[tp][i]);
+                        visited[friends[tp][i]] = true;
+                    }
+                }
+            }
+            lv++;
+            if(lv > level)
+                break;
         }
-        unordered_map<int,set<char>> m;
-        for(i = 0; i < n; ++i)
+        map<string,int,cmp> m;
+        for(i = 0; i < lvfriend.size(); ++i)
         {
-            // fatherid = uni.f[i];//错误解
-            uni.find(i);
+            for(j = 0; j < watchedVideos[lvfriend[i]].size(); ++j)
+                m[watchedVideos[lvfriend[i]][j]]++;
         }
-        for(i = 0; i < n; ++i)
-        {
-            // fatherid = uni.f[i];//错误解
-            fatherid = uni.find(i);
-            m[fatherid].insert(s[i]);
-        }
-        for(i = 0; i < n; ++i)
-        {
-            // fatherid = uni.f[i];
-            fatherid = uni.find(i);
-            s[i] = *m[fatherid].begin();
-            m[fatherid].erase(m[fatherid].begin());
-        }
-        return s;
+        vector<string> ans(m.size());
+        auto it = m.begin();
+        for(i = 0; i < ans.size(); ++i)
+            ans[i] = it++->first;
+        return ans;
     }
 };
 void printv(vector<int>& v)
@@ -99,16 +82,17 @@ void printv(vector<int>& v)
 int main() {
 //    vector<vector<int>> v6 = {{-13260,8589},{1350,8721},{-37222,-19547},{-54293,-29302},{-10489,-13241},{-19382,574},{5561,1033},{-22508,-13241},{-1542,20695},{9277,2820},{-32081,16145},{-50902,23701},{-8636,19504},{-17042,-28765},{-27132,-24156},{-48323,-4607},{30279,29922}};
     vector<vector<int>> v6 ={{5,3},{3,0},{5,1},{1,1},{1,5},{3,0},{0,2}};
-    vector<vector<int>> v5 ={{2,11,3},{15,10,7},{9,17,12},{8,1,14}};
+    vector<vector<int>> v5 ={{1,2},{0,3},{0,3},{1,2}};
     vector<int> v1 = {2,5,1,1,1,1};
     vector<int> v2 = {1,3,5};
     vector<int> v3 = {-1,0};
     vector<int> v4 = {2,7,9,4,4};
     string str = "eceeeefasdghjklqwertyuio";
-    vector<vector<string>> st  = {{"David","3","Ceviche"},{"Corina","10","Beef Burrito"},{"David","3","Fried Chicken"},{"Carla","5","Water"},{"Carla","5","Ceviche"},{"Rous","3","Ceviche"}};
+    vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
+
     vector<string> st1 = {};
     Solution s;
-    s.smallestStringWithSwaps("pwqlmqm",v6);
+    s.watchedVideosByFriends(st,v5,0,1);
     printv(v4);
 
     string s1 = "1";
