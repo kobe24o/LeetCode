@@ -189,6 +189,7 @@
 | [LeetCode 172. 阶乘后的零（5的因子）](https://michael.blog.csdn.net/article/details/105127249) |                                                              |
 | [LeetCode 173. 二叉搜索树迭代器（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100549417) |                                                              |
 | [LeetCode 179. 最大数（自定义谓词函数（Lambda表达式）排序）](https://blog.csdn.net/qq_21201267/article/details/102827816) |                                                              |
+| [LeetCode 187. 重复的DNA序列（哈希/位运算）](https://michael.blog.csdn.net/article/details/106093316) |                                                              |
 | [LeetCode 188. 买卖股票的最佳时机 IV（动态规划）](https://michael.blog.csdn.net/article/details/105855583) |                                                              |
 | [LeetCode 189. 旋转数组（环形替换）](https://blog.csdn.net/qq_21201267/article/details/102303036) |                                                              |
 | [LeetCode 190. 颠倒二进制位（位运算）](https://michael.blog.csdn.net/article/details/105597369) |                                                              |
