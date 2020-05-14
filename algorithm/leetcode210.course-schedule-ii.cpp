@@ -38,22 +38,28 @@ class Solution {
     vector<int> ans;
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-    	ans.resize(numCourses);
-    	for(auto& pre : prerequisites)
-    		m[pre[1]].insert(pre[0]);
+        vector<int> indegree(numCourses, 0);
+        for(auto& pre : prerequisites)
+        {
+            m[pre[1]].insert(pre[0]);
+            indegree[pre[0]]++;
+        }
         bool can = true;
         vector<int> visited(numCourses,0);
-        int order = 0;
-    	for(int i = 0; i < numCourses; ++i)
+        for(int i = 0; i < numCourses; ++i)
         {
-            dfs(i, order, visited, can);
+            if(indegree[i]==0)
+                dfs(i, visited, can);
             if(!can)
                 return {};
         }
+        if(ans.size() < numCourses)
+            return {};
+        reverse(ans.begin(),ans.end());
         return ans;
     }
 
-    void dfs(int i, int& order, vector<int> & visited, bool &can)
+    void dfs(int i, vector<int> & visited, bool &can)
     {
         if(!can) return;
         if(visited[i]==2) return;
@@ -63,9 +69,9 @@ public:
             return;
         }
         visited[i] = 1;
-        ans[order++] = i;
         for(auto id : m[i])
-            dfs(id, order, visited, can);
+            dfs(id, visited, can);
         visited[i] = 2;
+        ans.push_back(i);//出去的时候push进去，最终答案反序即可
     }
 };
