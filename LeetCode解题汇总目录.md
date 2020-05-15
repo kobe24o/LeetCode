@@ -339,6 +339,7 @@
 | [LeetCode 454. 四数相加 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/102336145) |                                                              |
 | [LeetCode 455. 分发饼干（贪心）](https://michael.blog.csdn.net/article/details/103073602) |                                                              |
 | [LeetCode 456. 132模式（逆序遍历+单调栈）](https://michael.blog.csdn.net/article/details/105688840) |                                                              |
+| [LeetCode 457. 环形数组循环（暴力+快慢指针）](https://michael.blog.csdn.net/article/details/106152551) |                                                              |
 | [LeetCode 459. 重复的子字符串（数学）](https://michael.blog.csdn.net/article/details/103208056) |                                                              |
 | [LeetCode 460. LFU缓存（哈希双链表）](https://michael.blog.csdn.net/article/details/105336389) |                                                              |
 | [LeetCode 461. 汉明距离（异或^ 与&）](https://blog.csdn.net/qq_21201267/article/details/100632232) |                                                              |

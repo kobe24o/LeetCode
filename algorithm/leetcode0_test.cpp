@@ -20,57 +20,51 @@ struct TreeNode {
 using namespace std;
 
 
-struct cmp
-{
-    bool operator()(const pair<string,int> &a,const pair<string,int> &b) const
-    {
-        if(a.second == b.second)
-            return a.first < b.first;
-        return a.second < b.second;
-    }
-};
 class Solution {
 public:
-    vector<string> watchedVideosByFriends(vector<vector<string>>& watchedVideos, vector<vector<int>>& friends, int id, int level) {
-        queue<int> q;
-        int n = watchedVideos.size(), i, j, tp, size, lv = 0;
-        vector<bool> visited(n,false);
-        q.push(id);
-        visited[id] = true;
-        vector<int> lvfriend;
-        while(!q.empty())
+    bool circularArrayLoop(vector<int>& nums) {
+        int i, idx, next, n = nums.size();
+        int dir0_flag = 1000, dir1_flag = -1000, count = 0;
+        for(i = 0; i < n; ++i)
         {
-            size = q.size();
-            while(size--)
+            if(nums[i] <= 1000 && nums[i] >= -1000)
             {
-                tp = q.front();
-                q.pop();
-                if(lv == level)
-                    lvfriend.push_back(tp);
-                for(i = 0; i < friends[tp].size(); ++i)
+                idx = i;
+                count = 1;
+                if(nums[idx] > 0)
                 {
-                    if(!visited[friends[tp][i]])
+                    dir0_flag++;
+                    next = (idx+nums[idx])%n;
+                    nums[idx] = dir0_flag;
+                    idx = next;
+                    while(nums[idx] > 0 && nums[idx] <= 1000)
                     {
-                        q.push(friends[tp][i]);
-                        visited[friends[tp][i]] = true;
+                        next = (idx+nums[idx])%n;
+                        nums[idx] = dir0_flag;
+                        count++;
+                        idx = next;
                     }
+                    if(nums[idx] == dir0_flag && count > 1)
+                        return true;
+                }
+                else// (nums[idx] < 0)
+                {
+                    dir1_flag--;
+                    next = (idx+nums[idx]+n)%n;
+                    nums[idx] = dir1_flag;
+                    idx = next;
+                    while(nums[idx] < 0 && nums[idx] >= -1000)
+                    {
+                        next = (idx+nums[idx]+n)%n;
+                        nums[idx] = dir1_flag;
+                        idx = next;
+                    }
+                    if(nums[idx] == dir1_flag && count > 1)
+                        return true;
                 }
             }
-            lv++;
-            if(lv > level)
-                break;
         }
-        map<string,int,cmp> m;
-        for(i = 0; i < lvfriend.size(); ++i)
-        {
-            for(j = 0; j < watchedVideos[lvfriend[i]].size(); ++j)
-                m[watchedVideos[lvfriend[i]][j]]++;
-        }
-        vector<string> ans(m.size());
-        auto it = m.begin();
-        for(i = 0; i < ans.size(); ++i)
-            ans[i] = it++->first;
-        return ans;
+        return false;
     }
 };
 void printv(vector<int>& v)
@@ -85,14 +79,14 @@ int main() {
     vector<vector<int>> v5 ={{1,2},{0,3},{0,3},{1,2}};
     vector<int> v1 = {2,5,1,1,1,1};
     vector<int> v2 = {1,3,5};
-    vector<int> v3 = {-1,0};
-    vector<int> v4 = {2,7,9,4,4};
+    vector<int> v3 = {-1,-2,-3,-4,-5};
+    vector<int> v4 = {2,-1,1,2,2};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
 
     vector<string> st1 = {};
     Solution s;
-    s.watchedVideosByFriends(st,v5,0,1);
+    s.circularArrayLoop(v3);
     printv(v4);
 
     string s1 = "1";
