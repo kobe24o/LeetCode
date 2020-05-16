@@ -359,7 +359,7 @@
 | [LeetCode 481. 神奇字符串（找规律）](https://michael.blog.csdn.net/article/details/103606978) |                                                              |
 | [LeetCode 482. 密钥格式化](https://blog.csdn.net/qq_21201267/article/details/102888974) |                                                              |
 | [LeetCode 485. 最大连续1的个数](https://blog.csdn.net/qq_21201267/article/details/100855102) |                                                              |
-| [LeetCode 491. 递增子序列（回溯+判重）](https://michael.blog.csdn.net/article/details/106157529) |                                                              |
+| [LeetCode 491. 递增子序列（回溯+判重剪枝）](https://michael.blog.csdn.net/article/details/106157529) |                                                              |
 | [LeetCode 492. 构造矩形](https://michael.blog.csdn.net/article/details/105689887) |                                                              |
 | [LeetCode 493. 翻转对（归并排序）](https://blog.csdn.net/qq_21201267/article/details/101236925) |                                                              |
 | [LeetCode 494. 目标和（DFS+DP）](https://blog.csdn.net/qq_21201267/article/details/101556163) |                                                              |
