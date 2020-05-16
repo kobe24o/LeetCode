@@ -324,6 +324,7 @@
 | [LeetCode 427. 建立四叉树（递归）](https://michael.blog.csdn.net/article/details/103038783) |                                                              |
 | [LeetCode 429. N叉树的层序遍历（queue）](https://blog.csdn.net/qq_21201267/article/details/100714179) |                                                              |
 | [LeetCode 430. 扁平化多级双向链表（DFS）](https://blog.csdn.net/qq_21201267/article/details/101723144) |                                                              |
+| [LeetCode 433. 最小基因变化（广度优先搜索）](https://michael.blog.csdn.net/article/details/106156216) |                                                              |
 | [LeetCode 434. 字符串中的单词数](https://michael.blog.csdn.net/article/details/105665544) |                                                              |
 | [LeetCode 435. 无重叠区间（贪心/动态规划）](https://michael.blog.csdn.net/article/details/106154262) |                                                              |
 | [LeetCode 437. 路径总和 III（双重递归）](https://blog.csdn.net/qq_21201267/article/details/100906264) |                                                              |
