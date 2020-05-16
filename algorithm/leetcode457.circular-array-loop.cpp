@@ -52,6 +52,8 @@ public:
     				else
     					return true;
     			}
+    			slow = next(nums,slow);
+    			fast = next(nums, next(nums,fast));
     		}
     		slow = i;
     		while(nums[slow]*nums[next(nums, slow)] > 0)
