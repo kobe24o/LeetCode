@@ -828,6 +828,7 @@
 | [LeetCode 5396. 连续字符](https://michael.blog.csdn.net/article/details/106167968#1_LeetCode_5396__easy_11) |                                                              |
 | [LeetCode 5397. 最简分数（公约数为1）](https://michael.blog.csdn.net/article/details/106167968#2_LeetCode_5397__medium_69) |                                                              |
 | [LeetCode 5398. 统计二叉树中好节点的数目（递归）](https://michael.blog.csdn.net/article/details/106167968#3_LeetCode_5398__medium_137) |                                                              |
+| [LeetCode 5412. 在既定时间做作业的学生人数](https://michael.blog.csdn.net/article/details/106172689) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
