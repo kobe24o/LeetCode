@@ -831,6 +831,7 @@
 | [LeetCode 5412. 在既定时间做作业的学生人数](https://michael.blog.csdn.net/article/details/106172689) |                                                              |
 | [LeetCode 5413. 重新排列句子中的单词（桶排序）](https://michael.blog.csdn.net/article/details/106172985) |                                                              |
 | [LeetCode 5414. 收藏清单（std::includes判断子集）](https://michael.blog.csdn.net/article/details/106174067) |                                                              |
+| [LeetCode 5415. 圆形靶内的最大飞镖数量（几何题）](https://michael.blog.csdn.net/article/details/106177445) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
