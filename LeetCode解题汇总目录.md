@@ -304,6 +304,7 @@
 | [LeetCode 387. 字符串中的第一个唯一字符](https://michael.blog.csdn.net/article/details/105664799) |                                                              |
 | [LeetCode 389. 找不同（位运算）](https://blog.csdn.net/qq_21201267/article/details/101165255) |                                                              |
 | [LeetCode 392. 判断子序列（双指针&二分查找）](https://michael.blog.csdn.net/article/details/103206471) |                                                              |
+| [LeetCode 393. UTF-8 编码验证（位运算）](https://blog.csdn.net/qq_21201267/article/details/106197435) |                                                              |
 | [LeetCode 394. 字符串解码（栈）](https://blog.csdn.net/qq_21201267/article/details/101607649) |                                                              |
 | [LeetCode 396. 旋转函数（数学）](https://michael.blog.csdn.net/article/details/103931570) |                                                              |
 | [LeetCode 397. 整数替换（递归 & 贪心）](https://michael.blog.csdn.net/article/details/103838630) |                                                              |
