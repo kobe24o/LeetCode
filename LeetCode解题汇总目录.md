@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-**已解决 993/1653** - **简单 396** **中等 508** **困难 89**
+**已解决 996/1653** - **简单 396** **中等 511** **困难 89**
 
 - 2019.7.24 - 2019.11.9， AC + 400道（108天）
 - 2019.11.9 - 2019.11.24，   AC + 100道，共计500道（123天，4个月）
@@ -292,6 +292,7 @@
 | [LeetCode 367. 有效的完全平方数（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489562) |                                                              |
 | [LeetCode 371. 两整数之和（位运算）](https://michael.blog.csdn.net/article/details/105645358) |                                                              |
 | [LeetCode 372. 超级次方（快速幂）](https://michael.blog.csdn.net/article/details/106189267) |                                                              |
+| [LeetCode 373. 查找和最小的K对数字（自定义优先队列BFS）](https://blog.csdn.net/qq_21201267/article/details/106199628) |                                                              |
 | [LeetCode 374. 猜数字大小（二分查找）](https://michael.blog.csdn.net/article/details/105647930) |                                                              |
 | [LeetCode 376. 摆动序列（贪心 & 动态规划）](https://michael.blog.csdn.net/article/details/103848407) |                                                              |
 | [LeetCode 377. 组合总和 Ⅳ（DP）](https://blog.csdn.net/qq_21201267/article/details/101388583) |                                                              |
@@ -827,13 +828,13 @@
 | [LeetCode 1441. 用栈操作构建数组](https://michael.blog.csdn.net/article/details/106035352) |                                                              |
 | [LeetCode 1442. 形成两个异或相等数组的三元组数目（前缀异或）](https://michael.blog.csdn.net/article/details/106035610) |                                                              |
 | [LeetCode 1443. 收集树上所有苹果的最少时间（自底向上DFS）](https://michael.blog.csdn.net/article/details/106037189) |                                                              |
-| [LeetCode 5396. 连续字符](https://michael.blog.csdn.net/article/details/106167968#1_LeetCode_5396__easy_11) |                                                              |
-| [LeetCode 5397. 最简分数（公约数为1）](https://michael.blog.csdn.net/article/details/106167968#2_LeetCode_5397__medium_69) |                                                              |
-| [LeetCode 5398. 统计二叉树中好节点的数目（递归）](https://michael.blog.csdn.net/article/details/106167968#3_LeetCode_5398__medium_137) |                                                              |
-| [LeetCode 5412. 在既定时间做作业的学生人数](https://michael.blog.csdn.net/article/details/106172689) |                                                              |
-| [LeetCode 5413. 重新排列句子中的单词（桶排序）](https://michael.blog.csdn.net/article/details/106172985) |                                                              |
-| [LeetCode 5414. 收藏清单（std::includes判断子集）](https://michael.blog.csdn.net/article/details/106174067) |                                                              |
-| [LeetCode 5415. 圆形靶内的最大飞镖数量（几何题）](https://michael.blog.csdn.net/article/details/106177445) |                                                              |
+| [LeetCode 1446. 连续字符](https://michael.blog.csdn.net/article/details/106167968#1_LeetCode_5396__easy_11) |                                                              |
+| [LeetCode 1447. 最简分数（公约数为1）](https://michael.blog.csdn.net/article/details/106167968#2_LeetCode_5397__medium_69) |                                                              |
+| [LeetCode 1448. 统计二叉树中好节点的数目（递归）](https://michael.blog.csdn.net/article/details/106167968#3_LeetCode_5398__medium_137) |                                                              |
+| [LeetCode 1450. 在既定时间做作业的学生人数](https://michael.blog.csdn.net/article/details/106172689) |                                                              |
+| [LeetCode 1451. 重新排列句子中的单词（桶排序）](https://michael.blog.csdn.net/article/details/106172985) |                                                              |
+| [LeetCode 1452. 收藏清单（std::includes判断子集）](https://michael.blog.csdn.net/article/details/106174067) |                                                              |
+| [LeetCode 1453. 圆形靶内的最大飞镖数量（几何题）](https://michael.blog.csdn.net/article/details/106177445) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
