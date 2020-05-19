@@ -327,6 +327,7 @@
 | [LeetCode 419. 甲板上的战舰](https://michael.blog.csdn.net/article/details/105665399) |                                                              |
 | [LeetCode 421. 数组中两个数的最大异或值（Trie树）](https://blog.csdn.net/qq_21201267/article/details/102577639) |                                                              |
 | [LeetCode 423. 从英文中重建数字（找规律）](https://michael.blog.csdn.net/article/details/103517719) |                                                              |
+| [LeetCode 424. 替换后的最长重复字符（滑动窗口）](https://michael.blog.csdn.net/article/details/106213574) |                                                              |
 | [LeetCode 427. 建立四叉树（递归）](https://michael.blog.csdn.net/article/details/103038783) |                                                              |
 | [LeetCode 429. N叉树的层序遍历（queue）](https://blog.csdn.net/qq_21201267/article/details/100714179) |                                                              |
 | [LeetCode 430. 扁平化多级双向链表（DFS）](https://blog.csdn.net/qq_21201267/article/details/101723144) |                                                              |
