@@ -20,32 +20,33 @@ struct TreeNode {
 using namespace std;
 class Solution {
 public:
-    bool validUtf8(vector<int>& data) {
-        int i = 0, j, one = 0, n = data.size();
-        while(i < n)
-        {
-            one = 0;
-            for(j = 7; j >= 0; --j)
-            {
-                if((data[i]&(1<<j)))//为1
-                    one++;
-                else
-                    break;
-            }
-            if(one==1 || one > 4)
-                return false;
-            i++;
-            if(one == 0)
-                continue;
-            if(n-i < one-1) return false;
-            for( ; i < n && (--one); ++i)
-            {
-                if((data[i]&(1<<7))!=1 || (data[i]&(1<<6))!=0)
-                    return false;
-            }
-            // i++;
-        }
-        return true;
+    int lengthLongestPath(string input) {
+    	int maxlen=0, i, lv = 0, count=0;
+    	vector<int> len(50,0);
+    	bool foundfile = false;
+    	for(i = 0; i < input.size(); ++i)
+    	{
+    		if(input[i]=='\n')
+    		{
+    			len[lv] = lv>0 ? len[lv-1]+count : count;
+    			if(foundfile)
+    			{
+    				maxlen = max(maxlen, len[lv]);
+    				foundfile = false;
+    			}
+    			lv = 0;
+    			count = 0;
+    		}
+    		else if(input[i]=='\t')
+    			lv++;
+    		else
+    		{
+    			if(i>0 && input[i-1]=='.' && isalpha(input[i]))
+    				foundfile = true;
+    			count++;
+    		}
+    	}
+    	return maxlen;
     }
 };
 void printv(vector<int>& v)
@@ -67,7 +68,7 @@ int main() {
 
     vector<string> st1 = {};
     Solution s;
-    s.validUtf8(v1);
+    s.lengthLongestPath("dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext");
     printv(v4);
 
     string s1 = "1";
