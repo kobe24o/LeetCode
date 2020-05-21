@@ -455,6 +455,7 @@
 | [LeetCode 665. 非递减数列（双指针）](https://blog.csdn.net/qq_21201267/article/details/102810529) |                                                              |
 | [LeetCode 667. 优美的排列 II（找规律）](https://blog.csdn.net/qq_21201267/article/details/103411623) |                                                              |
 | [LeetCode 669. 修剪二叉搜索树](https://blog.csdn.net/qq_21201267/article/details/100716292) |                                                              |
+| [LeetCode 670. 最大交换](https://michael.blog.csdn.net/article/details/106271125) |                                                              |
 | [LeetCode 671. 二叉树中第二小的节点](https://blog.csdn.net/qq_21201267/article/details/100550016) |                                                              |
 | [LeetCode 672. 灯泡开关 Ⅱ（枚举）](https://blog.csdn.net/qq_21201267/article/details/105811367) |                                                              |
 | [LeetCode 674. 最长连续递增序列](https://blog.csdn.net/qq_21201267/article/details/98262871) |                                                              |
