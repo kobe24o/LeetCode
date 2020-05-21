@@ -449,6 +449,7 @@
 | [LeetCode 657. 机器人能否返回原点](https://blog.csdn.net/qq_21201267/article/details/100632672) |                                                              |
 | [LeetCode 658. 找到 K 个最接近的元素（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100697216) |                                                              |
 | [LeetCode 661. 图片平滑器](https://michael.blog.csdn.net/article/details/105720542) |                                                              |
+| [LeetCode 662. 二叉树最大宽度（递归）](https://michael.blog.csdn.net/article/details/106249487) |                                                              |
 | [LeetCode 665. 非递减数列（双指针）](https://blog.csdn.net/qq_21201267/article/details/102810529) |                                                              |
 | [LeetCode 667. 优美的排列 II（找规律）](https://blog.csdn.net/qq_21201267/article/details/103411623) |                                                              |
 | [LeetCode 669. 修剪二叉搜索树](https://blog.csdn.net/qq_21201267/article/details/100716292) |                                                              |
