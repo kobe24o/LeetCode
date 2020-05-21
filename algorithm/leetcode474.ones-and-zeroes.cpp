@@ -6,7 +6,7 @@ struct state
         zero = x; one = y;
     }
 };
-class Solution {
+class Solution {    //超时解
 public:
     int findMaxForm(vector<string>& strs, int m, int n) {
         int i, j, k, l, one, zero, len = strs.size(), maxcount = 0;
@@ -58,6 +58,45 @@ public:
         }
         return maxcount;
         
+    }
+    int count01(string s)
+    {
+        int one = 0;
+        for(int i = 0; i < s.size(); ++i)
+        {
+            if(s[i]=='1') one++;
+        }
+        return one;
+    }
+};
+
+
+class Solution {
+public:
+    int findMaxForm(vector<string>& strs, int m, int n) {
+        int i, j, k, one, zero, len = strs.size(), maxcount = 0;
+        vector<int> onelen(len);
+        for(i = 0; i < len; ++i)
+            onelen[i] = count01(strs[i]);
+        vector<vector<int>> dp(m+1,vector<int>(n+1,-1));//m,n,时，对应的最大单词数
+        dp[0][0] = 0;
+        for(i = 0; i < len; ++i)//遍历每个单词
+        {
+            one = onelen[i];
+            zero = strs[i].size()-one;
+            for(j = m-zero; j >= 0; --j)
+            {
+                for(k = n-one; k >= 0; --k)
+                {
+                    if(dp[j][k] != -1)
+                    {
+                        dp[j+zero][k+one] = max(dp[j+zero][k+one], dp[j][k]+1);
+                        maxcount = max(maxcount, dp[j+zero][k+one]);
+                    }
+                }
+            }
+        }
+        return maxcount;    
     }
     int count01(string s)
     {
