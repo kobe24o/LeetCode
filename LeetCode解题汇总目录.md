@@ -581,6 +581,7 @@
 | [LeetCode 925. 长按键入（双指针）](https://michael.blog.csdn.net/article/details/105800254) |                                                              |
 | [LeetCode 929. 独特的电子邮件地址](https://michael.blog.csdn.net/article/details/105804981) |                                                              |
 | [LeetCode 931. 下降路径最小和（动态规划）](https://michael.blog.csdn.net/article/details/105804834) |                                                              |
+| [LeetCode 932. 漂亮数组（分治递归/循环）](https://michael.blog.csdn.net/article/details/106279389) |                                                              |
 | [LeetCode 933. 最近的请求次数（queue）](https://blog.csdn.net/qq_21201267/article/details/100746524) |                                                              |
 | [LeetCode 934. 最短的桥（2次BFS）](https://michael.blog.csdn.net/article/details/103938366) |                                                              |
 | [LeetCode 937. 重新排列日志文件（自定义排序）](https://blog.csdn.net/qq_21201267/article/details/103171169) |                                                              |
