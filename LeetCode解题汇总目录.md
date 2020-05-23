@@ -535,6 +535,7 @@
 | [LeetCode 841. 钥匙和房间（DFS/BFS）](https://blog.csdn.net/qq_21201267/article/details/101628381) |                                                              |
 | [LeetCode 842. 将数组拆分成斐波那契序列（暴力查找）](https://michael.blog.csdn.net/article/details/103828495) |                                                              |
 | [LeetCode 844. 比较含退格的字符串](https://michael.blog.csdn.net/article/details/105775248) |                                                              |
+| [LeetCode 845. 数组中的最长山脉（中心扩展）](https://michael.blog.csdn.net/article/details/106295734) |                                                              |
 | [LeetCode 846. 一手顺子（map）](https://michael.blog.csdn.net/article/details/106055016) |                                                              |
 | [LeetCode 849. 到最近的人的最大距离](https://blog.csdn.net/qq_21201267/article/details/102903358) |                                                              |
 | [LeetCode 852. 山脉数组的峰顶索引（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100743518) |                                                              |
