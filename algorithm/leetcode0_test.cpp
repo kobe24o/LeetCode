@@ -19,49 +19,30 @@ struct TreeNode {
 };
 using namespace std;
 class Solution {
+    int maxlen = 0;
 public:
-    int shoppingOffers(vector<int>& price, vector<vector<int>>& special, vector<int>& needs) {
-        int n = price.size();
-        int i,j,a,b,c,d,e,f, money;
-        for(i = 0; i < n; ++i)
+    int longestSubstring(string s, int k) {
+        if(s.size() <= maxlen)
+            return 0;
+        int count[26] = {0}, i, left = 0, right;
+        for(i = 0; i < s.size(); ++i)
+            count[s[i]-'a']++;
+        vector<int> split;
+        for(i = 0; i < s.size(); ++i)
         {
-            vector<int> bag(7,0);
-            bag[i] = 1;
-            bag[6] = price[i];
-            special.push_back(bag);
+            if(count[i] > 0 && count[i] < k)
+                split.push_back(i);
         }
-        int dp[7][7][7][7][7][7];
-        dp[0][0][0][0][0][0] = 0;
-        vector<int> t(6,0);
-        while(needs.size() < 6)
-            needs.push_back(0);
-        for(i = 0; i < needs.size(); ++i)
-            t[i] = needs[i];
-        memset(dp,0x7f,sizeof(dp));
-        for(vector<int> & s : special)
+        if(split.empty())
+            maxlen = max(maxlen, int(s.size()));
+        for(i = 0; i < split.size(); ++i)
         {
-            vector<int> nd(6,0);
-            money = s.back();
-            for(j = 0; j < s.size()-1; ++j)
-                nd[j] = s[j];
-            for(a = 0; a <= t[0]; ++a)
-                for(b = 0; b <= t[1]; ++b)
-                    for(c = 0; c <= t[2]; ++c)
-                        for(d = 0; d <= t[3]; ++d)
-                            for(e = 0; e <= t[4]; ++e)
-                                for(f = 0; f <= t[5]; ++f)
-                                {
-                                    if(dp[a][b][c][d][e][f] != 0x7fffffff && a+nd[0] <= needs[0]
-                                       && b+nd[1] <= needs[1] && c+nd[2] <= needs[2]
-                                       && d+nd[3] <= needs[3] && e+nd[4] <= needs[4]
-                                       && f+nd[5] <= needs[5])
-                                        // cout << dp[a][b][c][d][e][f] << " ";
-                                        dp[a+nd[0]][b+nd[1]][c+nd[2]][d+nd[3]][e+nd[4]][f+nd[5]]
-                                                = min(dp[a+nd[0]][b+nd[1]][c+nd[2]][d+nd[3]][e+nd[4]][f+nd[5]],
-                                                      dp[a][b][c][d][e][f]+money);
-                                }
+            longestSubstring(s.substr(left, split[i]-left), k);
+            left = split[i]+1;
+            if(i == split.size()-1 && left < s.size())
+                longestSubstring(s.substr(left, s.size()-left), k);
         }
-        return dp[t[0]][t[1]][t[2]][t[3]][t[4]][t[5]];
+        return maxlen;
     }
 };
 void printv(vector<int>& v)
@@ -81,9 +62,9 @@ int main() {
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
 
-    vector<string> st1 = {};
+    vector<string> st1 = {"cha","r","act"};
     Solution s;
-    s.shoppingOffers(v2,v5,v4);
+    s.longestSubstring("aaabb",3);
     printv(v4);
 
     string s1 = "1";

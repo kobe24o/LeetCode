@@ -309,6 +309,7 @@
 | [LeetCode 392. 判断子序列（双指针&二分查找）](https://michael.blog.csdn.net/article/details/103206471) |                                                              |
 | [LeetCode 393. UTF-8 编码验证（位运算）](https://blog.csdn.net/qq_21201267/article/details/106197435) |                                                              |
 | [LeetCode 394. 字符串解码（栈）](https://blog.csdn.net/qq_21201267/article/details/101607649) |                                                              |
+| [LeetCode 395. 至少有K个重复字符的最长子串（分治）](https://michael.blog.csdn.net/article/details/106299647) |                                                              |
 | [LeetCode 396. 旋转函数（数学）](https://michael.blog.csdn.net/article/details/103931570) |                                                              |
 | [LeetCode 397. 整数替换（递归 & 贪心）](https://michael.blog.csdn.net/article/details/103838630) |                                                              |
 | [LeetCode 398. 随机数索引（概率）](https://michael.blog.csdn.net/article/details/103382205) |                                                              |
@@ -706,6 +707,7 @@
 | [LeetCode 1233. 删除子文件夹](https://michael.blog.csdn.net/article/details/103916724) |                                                              |
 | [LeetCode 1237. 找出给定方程的正整数解](https://michael.blog.csdn.net/article/details/103256534) |                                                              |
 | [LeetCode 1238. 循环码排列（格雷编码+旋转数组）](https://michael.blog.csdn.net/article/details/105895929) |                                                              |
+| [LeetCode 1239. 串联字符串的最大长度（回溯/动态规划）](https://michael.blog.csdn.net/article/details/106297584) |                                                              |
 | [LeetCode 1247. 交换字符使得字符串相同](https://michael.blog.csdn.net/article/details/103561781) |                                                              |
 | [LeetCode 1248. 统计「优美子数组」（要复习）](https://michael.blog.csdn.net/article/details/105648303) |                                                              |
 | [LeetCode 1249. 移除无效的括号（栈+set / deque）](https://michael.blog.csdn.net/article/details/105793246) |                                                              |
