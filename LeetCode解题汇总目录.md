@@ -528,6 +528,7 @@
 | [LeetCode 820. 单词的压缩编码（后缀树）](https://michael.blog.csdn.net/article/details/105158592) |                                                              |
 | [LeetCode 821. 字符的最短距离](https://blog.csdn.net/qq_21201267/article/details/101001770) |                                                              |
 | [LeetCode 824. 山羊拉丁文](https://michael.blog.csdn.net/article/details/105762430) |                                                              |
+| [LeetCode 826. 安排工作以达到最大收益（map）](https://michael.blog.csdn.net/article/details/106320023) |                                                              |
 | [LeetCode 829. 连续整数求和（数学）](https://michael.blog.csdn.net/article/details/103501644) |                                                              |
 | [LeetCode 830. 较大分组的位置](https://michael.blog.csdn.net/article/details/105775988) |                                                              |
 | [LeetCode 832. 翻转图像（异或^）](https://blog.csdn.net/qq_21201267/article/details/100585771) |                                                              |
