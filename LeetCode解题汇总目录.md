@@ -854,6 +854,7 @@
 | [LeetCode 5416. 检查单词是否为句中其他单词的前缀](https://michael.blog.csdn.net/article/details/106313448) |                                                              |
 | [LeetCode 5417. 定长子串中元音的最大数目（滑动窗口）](https://michael.blog.csdn.net/article/details/106313584) |                                                              |
 | [LeetCode 5418. 二叉树中的伪回文路径（位运算+递归）](https://michael.blog.csdn.net/article/details/106314008) |                                                              |
+| [LeetCode 5419. 两个子序列的最大点积（动态规划，类似编辑距离）](https://michael.blog.csdn.net/article/details/106314729) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
