@@ -555,6 +555,7 @@
 | [LeetCode 872. 叶子相似的树](https://michael.blog.csdn.net/article/details/105797294) |                                                              |
 | [LeetCode 873. 最长的斐波那契子序列的长度（动态规划）](https://michael.blog.csdn.net/article/details/105821793) |                                                              |
 | [LeetCode 874. 模拟行走机器人（set）](https://michael.blog.csdn.net/article/details/103192991) |                                                              |
+| [LeetCode 875. 爱吃香蕉的珂珂（二分查找）](https://blog.csdn.net/qq_21201267/article/details/106313297) |                                                              |
 | [LeetCode 876. 链表的中间结点（快慢指针）](https://blog.csdn.net/qq_21201267/article/details/101082616) |                                                              |
 | [LeetCode 877. 石子游戏（DP）](https://michael.blog.csdn.net/article/details/105334918) |                                                              |
 | [LeetCode 881. 救生艇（贪心，双指针）](https://michael.blog.csdn.net/article/details/103520322) |                                                              |
