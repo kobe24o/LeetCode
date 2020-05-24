@@ -19,30 +19,37 @@ struct TreeNode {
 };
 using namespace std;
 class Solution {
-    int maxlen = 0;
 public:
-    int longestSubstring(string s, int k) {
-        if(s.size() <= maxlen)
-            return 0;
-        int count[26] = {0}, i, left = 0, right;
-        for(i = 0; i < s.size(); ++i)
-            count[s[i]-'a']++;
-        vector<int> split;
-        for(i = 0; i < s.size(); ++i)
-        {
-            if(count[i] > 0 && count[i] < k)
-                split.push_back(i);
-        }
-        if(split.empty())
-            maxlen = max(maxlen, int(s.size()));
-        for(i = 0; i < split.size(); ++i)
-        {
-            longestSubstring(s.substr(left, split[i]-left), k);
-            left = split[i]+1;
-            if(i == split.size()-1 && left < s.size())
-                longestSubstring(s.substr(left, s.size()-left), k);
-        }
-        return maxlen;
+    int minEatingSpeed(vector<int>& piles, int H) {
+        long sum = 0;
+        for(int i = 0; i < piles.size(); ++i)
+            sum += piles[i];
+    	int l = sum/H, r = 1e9, mid;
+    	while(l <= r)
+    	{
+    		mid = l+((r-l)>>1);
+    		if(canFinish(piles,mid,H))
+    			r = mid-1;
+    		else
+    			l = mid+1;
+    	}
+    	return l;
+    }
+    bool canFinish(vector<int> piles, int K, int H)
+    {
+    	int h = 0;
+    	for(int i = 0; i < piles.size(); ++i)
+    	{
+    		if(piles[i] > K)
+    		{
+                piles[i] -= K;
+                i--;
+            }
+    		h++;
+    		if(h > H)
+    			return false;
+    	}
+    	return true;
     }
 };
 void printv(vector<int>& v)
@@ -57,14 +64,14 @@ int main() {
     vector<vector<int>> v5 ={{1,1,0,4},{2,2,1,9}};
     vector<int> v1 = {197,130,1};
     vector<int> v2 = {2,3,4};
-    vector<int> v3 = {-1,-2,-3,-4,-5};
+    vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
     vector<int> v4 = {{1,2,1}};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
 
     vector<string> st1 = {"cha","r","act"};
     Solution s;
-    s.longestSubstring("aaabb",3);
+    s.minEatingSpeed(v3,823855818);
     printv(v4);
 
     string s1 = "1";
