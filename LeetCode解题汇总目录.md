@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-**已解决 1015/1658** - **简单 397** **中等 528** **困难 90**
+**已解决 1021/1658** - **简单 397** **中等 533** **困难 91**
 
 - 2019.7.24 - 2019.11.9， AC + 400道（108天）
 - 2019.11.9 - 2019.11.24，   AC + 100道，共计500道（123天，4个月）
@@ -313,6 +313,7 @@
 | [LeetCode 396. 旋转函数（数学）](https://michael.blog.csdn.net/article/details/103931570) |                                                              |
 | [LeetCode 397. 整数替换（递归 & 贪心）](https://michael.blog.csdn.net/article/details/103838630) |                                                              |
 | [LeetCode 398. 随机数索引（概率）](https://michael.blog.csdn.net/article/details/103382205) |                                                              |
+| [LeetCode 399. 除法求值（图的DFS搜索）](https://michael.blog.csdn.net/article/details/106353698) |                                                              |
 | [LeetCode 400. 第N个数字（数学）](https://michael.blog.csdn.net/article/details/103571864) |                                                              |
 | [LeetCode 401. 二进制手表](https://michael.blog.csdn.net/article/details/103134538) |                                                              |
 | [LeetCode 402. 移掉K位数字（贪心，单调栈）](https://michael.blog.csdn.net/article/details/103555712) |                                                              |
@@ -462,7 +463,7 @@
 | [LeetCode 672. 灯泡开关 Ⅱ（枚举）](https://blog.csdn.net/qq_21201267/article/details/105811367) |                                                              |
 | [LeetCode 674. 最长连续递增序列](https://blog.csdn.net/qq_21201267/article/details/98262871) |                                                              |
 | [LeetCode 676. 实现一个魔法字典（哈希）](https://michael.blog.csdn.net/article/details/103511709) |                                                              |
-| [LeetCode677. 键值映射（Trie树）](https://blog.csdn.net/qq_21201267/article/details/102559253) |                                                              |
+| [LeetCode 677. 键值映射（Trie树）](https://blog.csdn.net/qq_21201267/article/details/102559253) |                                                              |
 | [LeetCode 678. 有效的括号字符串（栈）](https://michael.blog.csdn.net/article/details/103865442) |                                                              |
 | [LeetCode 680. 验证回文字符串 Ⅱ](https://michael.blog.csdn.net/article/details/105739399) |                                                              |
 | [LeetCode 682. 棒球比赛](https://michael.blog.csdn.net/article/details/105739564) |                                                              |
@@ -620,6 +621,7 @@
 | [LeetCode 986. 区间列表的交集](https://blog.csdn.net/qq_21201267/article/details/100058783) |                                                              |
 | [LeetCode 987. 二叉树的垂序遍历（递归/循环）](https://michael.blog.csdn.net/article/details/105681731) |                                                              |
 | [LeetCode 989. 数组形式的整数加法](https://michael.blog.csdn.net/article/details/103020342) |                                                              |
+| [LeetCode 990. 等式方程的可满足性（并查集）](https://michael.blog.csdn.net/article/details/106354260) |                                                              |
 | [LeetCode 991. 坏了的计算器（逆向思考）](https://michael.blog.csdn.net/article/details/103498206) |                                                              |
 | [LeetCode 993. 二叉树的堂兄弟节点（层序遍历）](https://michael.blog.csdn.net/article/details/103113397) |                                                              |
 | [LeetCode 994. 腐烂的橘子（图的BFS）](https://blog.csdn.net/qq_21201267/article/details/102906778) |                                                              |
@@ -723,6 +725,7 @@
 | [LeetCode 1261. 在受污染的二叉树中查找元素（树&哈希）](https://michael.blog.csdn.net/article/details/103213501) |                                                              |
 | [LeetCode 1262. 可被三整除的最大和（DP）](https://michael.blog.csdn.net/article/details/103319572) |                                                              |
 | [LeetCode 1266. 访问所有点的最小时间（数学）](https://michael.blog.csdn.net/article/details/103280533) |                                                              |
+| [LeetCode 1267. 统计参与通信的服务器（计数）](https://michael.blog.csdn.net/article/details/106362033) |                                                              |
 | [LeetCode 1271. 十六进制魔术数字（进制转换）](https://michael.blog.csdn.net/article/details/103346339) |                                                              |
 | [LeetCode 1275. 找出井字棋的获胜者（位运算）](https://michael.blog.csdn.net/article/details/103345978) |                                                              |
 | [LeetCode 1277. 统计全为 1 的正方形子矩阵（DP）](https://michael.blog.csdn.net/article/details/105588317) |                                                              |
