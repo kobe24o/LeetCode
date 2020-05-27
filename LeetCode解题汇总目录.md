@@ -306,6 +306,7 @@
 | [LeetCode 387. 字符串中的第一个唯一字符](https://michael.blog.csdn.net/article/details/105664799) |                                                              |
 | [LeetCode 388. 文件的最长绝对路径（不用栈，前缀和）](https://michael.blog.csdn.net/article/details/106210795) |                                                              |
 | [LeetCode 389. 找不同（位运算）](https://blog.csdn.net/qq_21201267/article/details/101165255) |                                                              |
+| [LeetCode 390. 消除游戏（类似约瑟夫环，找映射规律）](https://michael.blog.csdn.net/article/details/106376201) |                                                              |
 | [LeetCode 392. 判断子序列（双指针&二分查找）](https://michael.blog.csdn.net/article/details/103206471) |                                                              |
 | [LeetCode 393. UTF-8 编码验证（位运算）](https://blog.csdn.net/qq_21201267/article/details/106197435) |                                                              |
 | [LeetCode 394. 字符串解码（栈）](https://blog.csdn.net/qq_21201267/article/details/101607649) |                                                              |
