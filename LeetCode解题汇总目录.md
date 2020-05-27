@@ -733,6 +733,7 @@
 | [LeetCode 1267. 统计参与通信的服务器（计数）](https://michael.blog.csdn.net/article/details/106362033) |                                                              |
 | [LeetCode 1271. 十六进制魔术数字（进制转换）](https://michael.blog.csdn.net/article/details/103346339) |                                                              |
 | [LeetCode 1275. 找出井字棋的获胜者（位运算）](https://michael.blog.csdn.net/article/details/103345978) |                                                              |
+| [LeetCode 1276. 不浪费原料的汉堡制作方案（解方程）](https://michael.blog.csdn.net/article/details/106388487) |                                                              |
 | [LeetCode 1277. 统计全为 1 的正方形子矩阵（DP）](https://michael.blog.csdn.net/article/details/105588317) |                                                              |
 | [LeetCode 1281. 整数的各位积和之差](https://michael.blog.csdn.net/article/details/105594317) |                                                              |
 | [LeetCode 1282. 用户分组（桶排序思想）](https://michael.blog.csdn.net/article/details/103483462) |                                                              |
