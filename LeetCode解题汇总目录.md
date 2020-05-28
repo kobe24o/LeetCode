@@ -571,6 +571,7 @@
 | [LeetCode 883. 三维形体投影面积](https://michael.blog.csdn.net/article/details/105797764) |                                                              |
 | [LeetCode 884. 两句话中的不常见单词](https://michael.blog.csdn.net/article/details/105798465) |                                                              |
 | [LeetCode 885. 螺旋矩阵 III](https://michael.blog.csdn.net/article/details/105747429) |                                                              |
+| [LeetCode 886. 可能的二分法（着色DFS/BFS/拓展并查集）](https://michael.blog.csdn.net/article/details/106401724) |                                                              |
 | [LeetCode 887. 鸡蛋掉落（DP，难）](https://blog.csdn.net/qq_21201267/article/details/102844454) |                                                              |
 | [LeetCode 888. 公平的糖果交换（哈希set）](https://michael.blog.csdn.net/article/details/103168073) |                                                              |
 | [LeetCode 889. 已知前序&后序 求二叉树（不唯一）](https://blog.csdn.net/qq_21201267/article/details/100802843) |                                                              |
