@@ -37,7 +37,7 @@
 
 ​          
 
-| 已解题目，部分太简单的没有列出                               | 分类系列                                                     |
+| 已解题目                                                     | 分类系列                                                     |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [LeetCode 1. 两数之和（哈希）](https://blog.csdn.net/qq_21201267/article/details/97125420) | [LeetCode 旋转数组 系列（二分查找）](https://michael.blog.csdn.net/article/details/105783301) |
 | [LeetCode 2. 两数相加（单链表反转）](https://blog.csdn.net/qq_21201267/article/details/97191786) | [LeetCode 股票买卖 系列（动态规划） ](https://blog.csdn.net/qq_21201267/article/details/100026086) |
