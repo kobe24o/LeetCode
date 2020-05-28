@@ -18,38 +18,64 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 using namespace std;
+class dsu
+{
+	vector<int> f;
+public:
+	dsu(int n)
+	{
+		f.resize(n+1);
+		for(int i = 0; i < n+1; ++i)
+			f[i] = i;
+	}
+	void merge(int a, int b)
+	{
+		int fa = find(a), fb = find(b);
+		f[fa] = fb;
+	}
+	int find(int a)//循环+路径压缩
+	{
+        int origin = a;
+		while(a != f[a])
+			a = f[a];
+		return f[origin] = a;//路径压缩
+	}
+};
 class Solution {
 public:
-    int minEatingSpeed(vector<int>& piles, int H) {
-        long sum = 0;
-        for(int i = 0; i < piles.size(); ++i)
-            sum += piles[i];
-    	int l = sum/H, r = 1e9, mid;
-    	while(l <= r)
-    	{
-    		mid = l+((r-l)>>1);
-    		if(canFinish(piles,mid,H))
-    			r = mid-1;
-    		else
-    			l = mid+1;
-    	}
-    	return l;
-    }
-    bool canFinish(vector<int> piles, int K, int H)
-    {
-    	int h = 0;
-    	for(int i = 0; i < piles.size(); ++i)
-    	{
-    		if(piles[i] > K)
-    		{
-                piles[i] -= K;
-                i--;
-            }
-    		h++;
-    		if(h > H)
-    			return false;
-    	}
-    	return true;
+    vector<int> findRedundantDirectedConnection(vector<vector<int>>& edges) {
+        int N = edges.size();
+        vector<int> indegree(N, 0);
+        int node = -1;
+        for(auto& e : edges)
+        {
+        	indegree[e[1]]++;
+        	if(indegree[e[1]] > 1)
+        		node = e[1];
+        }
+        dsu u(N);
+        int x, y;
+        vector<vector<int>> E;
+        for(auto& e : edges)
+        {
+        	if(node == e[1])//边指向node，先跳过
+        	{
+        		E.push_back(e);
+        		continue;
+        	}
+        	if(u.find(e[0]) != u.find(e[1]))//两个没有连接
+        		u.merge(e[0], e[1]);//把边连接起来
+        	else//已经连接了,有环
+        		x = e[0], y = e[1];//记录下来
+        }
+        for(auto& e : E)
+        {
+        	if(u.find(e[0]) != u.find(e[1]))//两个没有连接
+        		u.merge(e[0], e[1]);//把边连接起来
+        	else//已经连接了,有环
+        		x = e[0], y = e[1];//记录下来
+        }
+        return {x, y};
     }
 };
 void printv(vector<int>& v)
@@ -61,17 +87,17 @@ void printv(vector<int>& v)
 int main() {
 //    vector<vector<int>> v6 = {{-13260,8589},{1350,8721},{-37222,-19547},{-54293,-29302},{-10489,-13241},{-19382,574},{5561,1033},{-22508,-13241},{-1542,20695},{9277,2820},{-32081,16145},{-50902,23701},{-8636,19504},{-17042,-28765},{-27132,-24156},{-48323,-4607},{30279,29922}};
     vector<vector<int>> v6 ={{5,3},{3,0},{5,1},{1,1},{1,5},{3,0},{0,2}};
-    vector<vector<int>> v5 ={{1,1,0,4},{2,2,1,9}};
+    vector<vector<int>> v5 ={{2,1},{3,1},{4,2},{1,4}};
     vector<int> v1 = {197,130,1};
     vector<int> v2 = {2,3,4};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
-    vector<int> v4 = {{1,2,1}};
+    vector<int> v4 = {};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
 
     vector<string> st1 = {"cha","r","act"};
     Solution s;
-    s.minEatingSpeed(v3,823855818);
+    s.findRedundantDirectedConnection(v5);
     printv(v4);
 
     string s1 = "1";
