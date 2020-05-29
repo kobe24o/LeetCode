@@ -43,39 +43,78 @@ public:
 };
 class Solution {
 public:
-    vector<int> findRedundantDirectedConnection(vector<vector<int>>& edges) {
-        int N = edges.size();
-        vector<int> indegree(N, 0);
-        int node = -1;
-        for(auto& e : edges)
+    string solveEquation(string equation) {
+        int i, lnum = 0, rnum = 0, lcoe = 0, rcoe = 0, n=0;
+        char ch;
+        bool positive = true;
+        for(i = 0; equation[i] != '='; ++i)
         {
-        	indegree[e[1]]++;
-        	if(indegree[e[1]] > 1)
-        		node = e[1];
+            ch = equation[i];
+            if(ch == 'x')
+            {
+                lcoe += n==0 ? (positive ? 1 : -1) : (positive ? n : -n);
+                n=0;
+            }
+            else if(ch == '-')
+            {
+                lnum += (positive ? n : -n);
+                positive = false;
+                n=0;
+            }
+            else if(ch == '+')
+            {
+                lnum += (positive ? n : -n);
+                positive = true;
+                n=0;
+            }
+            else
+            {
+                n = 10*n+ch-'0';
+            }
         }
-        dsu u(N);
-        int x, y;
-        vector<vector<int>> E;
-        for(auto& e : edges)
+        if(equation[i-1] != 'x')
+            // 	lcoe += n==0 ? (positive ? 1 : -1) : (positive ? n : -n);
+            // else
+            lnum += (positive ? n : -n);
+        positive = true;
+        for(i++; i < equation.size(); ++i)
         {
-        	if(node == e[1])//边指向node，先跳过
-        	{
-        		E.push_back(e);
-        		continue;
-        	}
-        	if(u.find(e[0]) != u.find(e[1]))//两个没有连接
-        		u.merge(e[0], e[1]);//把边连接起来
-        	else//已经连接了,有环
-        		x = e[0], y = e[1];//记录下来
+            ch = equation[i];
+            if(ch == 'x')
+            {
+                rcoe += n==0 ? (positive ? 1 : -1) : (positive ? n : -n);
+                n=0;
+            }
+            else if(ch == '-')
+            {
+                rnum += (positive ? n : -n);
+                positive = false;
+                n=0;
+            }
+            else if(ch == '+')
+            {
+                rnum += (positive ? n : -n);
+                positive = true;
+                n=0;
+            }
+            else
+            {
+                n = 10*n+ch-'0';
+            }
         }
-        for(auto& e : E)
-        {
-        	if(u.find(e[0]) != u.find(e[1]))//两个没有连接
-        		u.merge(e[0], e[1]);//把边连接起来
-        	else//已经连接了,有环
-        		x = e[0], y = e[1];//记录下来
-        }
-        return {x, y};
+        if(equation[i-1] != 'x')
+            // rcoe += n==0 ? (positive ? 1 : -1) : (positive ? n : -n);
+            // else
+            rnum += (positive ? n : -n);
+
+        if(lcoe == rcoe && lnum == rnum)
+            return "Infinite solutions";
+        if(lcoe == rcoe && lnum != rnum)
+            return "No solution";
+        // if(((lnum-rnum)%(rcoe-lcoe)) != 0)
+        //     return "No solution";
+        int ans = (lnum-rnum)/(rcoe-lcoe);
+        return "x="+to_string(ans);
     }
 };
 void printv(vector<int>& v)
@@ -97,7 +136,7 @@ int main() {
 
     vector<string> st1 = {"cha","r","act"};
     Solution s;
-    s.findRedundantDirectedConnection(v5);
+    s.solveEquation("2=-x");
     printv(v4);
 
     string s1 = "1";
