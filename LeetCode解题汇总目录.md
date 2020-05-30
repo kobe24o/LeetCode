@@ -293,6 +293,7 @@
 | [LeetCode 354. 俄罗斯套娃信封问题（最长上升子序 DP/二分查找）](https://michael.blog.csdn.net/article/details/105370146) |                                                              |
 | [LeetCode 355. 设计推特（哈希map+set）](https://michael.blog.csdn.net/article/details/105480197) |                                                              |
 | [LeetCode 357. 计算各个位数不同的数字个数（DP）](https://michael.blog.csdn.net/article/details/103844098) |                                                              |
+| [LeetCode 363. 矩形区域不超过 K 的最大数值和（DP+set二分查找）](https://michael.blog.csdn.net/article/details/106447907) |                                                              |
 | [LeetCode 365. 水壶问题（最大公约数）](https://michael.blog.csdn.net/article/details/102980961) |                                                              |
 | [LeetCode 367. 有效的完全平方数（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489562) |                                                              |
 | [LeetCode 371. 两整数之和（位运算）](https://michael.blog.csdn.net/article/details/105645358) |                                                              |
