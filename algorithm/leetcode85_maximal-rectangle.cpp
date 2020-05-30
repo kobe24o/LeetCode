@@ -77,3 +77,31 @@ public:
         return maxarea;//返回最大面积
     }
 };
+
+class Solution {
+public:
+    int maximalRectangle(vector<vector<char>>& mat) {
+        if(mat.empty())
+            return 0;
+        int i, j, hi, width, maxarea = 0, m = mat.size(), n = mat[0].size();
+        vector<int> h(n+1, 0);
+        for(i = 0; i < m; ++i)
+        {
+            stack<int> s;
+            mat[i].push_back('0');//请看84题
+            for(j = 0; j <= n; ++j)
+            {
+                h[j] = mat[i][j]=='1' ? h[j]+1 : 0;
+                while(!s.empty() && h[s.top()] > h[j])
+                {
+                    hi = h[s.top()];
+                    s.pop();
+                    width = s.empty() ? j : j-s.top()-1;
+                    maxarea = max(maxarea, hi*width);
+                }
+                s.push(j);
+            }
+        }
+        return maxarea;
+    }
+};
