@@ -67,6 +67,7 @@
 | [LeetCode 27. 移除元素](https://blog.csdn.net/qq_21201267/article/details/100826960) |                                                              |
 | [LeetCode 28. 实现 strStr()](https://michael.blog.csdn.net/article/details/105595931) |                                                              |
 | [LeetCode 29. 两数相除（位运算）](https://blog.csdn.net/qq_21201267/article/details/102751716) |                                                              |
+| [LeetCode 30. 串联所有单词的子串（字符串哈希）](https://michael.blog.csdn.net/article/details/106442789) |                                                              |
 | [LeetCode 31. 下一个排列（线性扫描）](https://michael.blog.csdn.net/article/details/105371886) |                                                              |
 | [LeetCode 32. 最长有效括号（栈&DP）](https://blog.csdn.net/qq_21201267/article/details/99479252) |                                                              |
 | [LeetCode 33. 搜索旋转排序数组（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102415062) |                                                              |
