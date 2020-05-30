@@ -91,6 +91,7 @@
 | [LeetCode 53. 最大子序和（动态规划）](https://blog.csdn.net/qq_21201267/article/details/97559470) |                                                              |
 | [LeetCode 55. 跳跃游戏（贪心）](https://blog.csdn.net/qq_21201267/article/details/100899698) |                                                              |
 | [LeetCode 56. 合并区间（优先队列）](https://blog.csdn.net/qq_21201267/article/details/100082338) |                                                              |
+| [LeetCode 57. 插入区间（一次遍历）](https://michael.blog.csdn.net/article/details/106443497) |                                                              |
 | [LeetCode 58. 最后一个单词的长度](https://michael.blog.csdn.net/article/details/105596202) |                                                              |
 | [LeetCode 59. 螺旋矩阵 II && LeetCode 54. 螺旋矩阵](https://blog.csdn.net/qq_21201267/article/details/100395555) |                                                              |
 | [LeetCode 60. 第k个排列（回溯 & 康托展开）](https://michael.blog.csdn.net/article/details/103837916) |                                                              |
