@@ -885,6 +885,7 @@
 | [LeetCode 5410. 课程安排 IV（Floyd-Warshall弗洛伊德最短路径）](https://michael.blog.csdn.net/article/details/106453232#3_LeetCode_5410__IV_medium_FloydWarshall_171) |                                                              |
 | [LeetCode 5411. 摘樱桃 II （DP）](https://michael.blog.csdn.net/article/details/106453232#4_LeetCode_5411__II_hard_282) |                                                              |
 | [LeetCode 5424. 数组中两元素的最大乘积](https://michael.blog.csdn.net/article/details/106459471) |                                                              |
+| [LeetCode 5425. 切割后面积最大的蛋糕](https://michael.blog.csdn.net/article/details/106459741) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
