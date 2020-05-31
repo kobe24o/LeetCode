@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-**已解决 1033/1659** - **简单 397** **中等 543** **困难 93**
+**已解决 1045/1667** - **简单 399** **中等 548** **困难 98**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 - 2019.11.09 - 2019.11.24，AC + 100道，共计500道（123天，4个月）
@@ -886,6 +886,7 @@
 | [LeetCode 5411. 摘樱桃 II （DP）](https://michael.blog.csdn.net/article/details/106453232#4_LeetCode_5411__II_hard_282) |                                                              |
 | [LeetCode 5424. 数组中两元素的最大乘积](https://michael.blog.csdn.net/article/details/106459471) |                                                              |
 | [LeetCode 5425. 切割后面积最大的蛋糕](https://michael.blog.csdn.net/article/details/106459741) |                                                              |
+| [LeetCode 5426. 重新规划路线（DFS/BFS）](https://michael.blog.csdn.net/article/details/106461424) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
