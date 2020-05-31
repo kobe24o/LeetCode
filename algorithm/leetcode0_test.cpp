@@ -20,101 +20,46 @@ struct TreeNode {
 using namespace std;
 class dsu
 {
-	vector<int> f;
 public:
-	dsu(int n)
-	{
-		f.resize(n+1);
-		for(int i = 0; i < n+1; ++i)
-			f[i] = i;
-	}
-	void merge(int a, int b)
-	{
-		int fa = find(a), fb = find(b);
-		f[fa] = fb;
-	}
-	int find(int a)//循环+路径压缩
-	{
+    vector<int> f;
+
+    dsu(int n)
+    {
+        f.resize(n+1);
+        for(int i = 0; i < n+1; ++i)
+            f[i] = i;
+    }
+    void merge(int a, int b)
+    {
+        f[a] = b;
+    }
+    int find(int a)
+    {
         int origin = a;
-		while(a != f[a])
-			a = f[a];
-		return f[origin] = a;//路径压缩
-	}
+        while(a != f[a])
+            a = f[a];
+        return f[origin] = a;
+    }
 };
 class Solution {
 public:
-    string solveEquation(string equation) {
-        int i, lnum = 0, rnum = 0, lcoe = 0, rcoe = 0, n=0;
-        char ch;
-        bool positive = true;
-        for(i = 0; equation[i] != '='; ++i)
+    bool hasAllCodes(string s, int k) {
+        if(s.size() <= k)
+            return false;
+        int i, l = 0, r = 0, num;
+        set<int> st;
+        for( ; r < s.size(); ++r)
         {
-            ch = equation[i];
-            if(ch == 'x')
+            if(r-l+1 == k)
             {
-                lcoe += n==0 ? (positive ? 1 : -1) : (positive ? n : -n);
-                n=0;
-            }
-            else if(ch == '-')
-            {
-                lnum += (positive ? n : -n);
-                positive = false;
-                n=0;
-            }
-            else if(ch == '+')
-            {
-                lnum += (positive ? n : -n);
-                positive = true;
-                n=0;
-            }
-            else
-            {
-                n = 10*n+ch-'0';
+                num = 0;
+                for(i = l; i <= r; ++i)
+                    num = s[i]-'0' + (num<<1);
+                st.insert(num);
+                l++;
             }
         }
-        if(equation[i-1] != 'x')
-            // 	lcoe += n==0 ? (positive ? 1 : -1) : (positive ? n : -n);
-            // else
-            lnum += (positive ? n : -n);
-        positive = true;
-        for(i++; i < equation.size(); ++i)
-        {
-            ch = equation[i];
-            if(ch == 'x')
-            {
-                rcoe += n==0 ? (positive ? 1 : -1) : (positive ? n : -n);
-                n=0;
-            }
-            else if(ch == '-')
-            {
-                rnum += (positive ? n : -n);
-                positive = false;
-                n=0;
-            }
-            else if(ch == '+')
-            {
-                rnum += (positive ? n : -n);
-                positive = true;
-                n=0;
-            }
-            else
-            {
-                n = 10*n+ch-'0';
-            }
-        }
-        if(equation[i-1] != 'x')
-            // rcoe += n==0 ? (positive ? 1 : -1) : (positive ? n : -n);
-            // else
-            rnum += (positive ? n : -n);
-
-        if(lcoe == rcoe && lnum == rnum)
-            return "Infinite solutions";
-        if(lcoe == rcoe && lnum != rnum)
-            return "No solution";
-        // if(((lnum-rnum)%(rcoe-lcoe)) != 0)
-        //     return "No solution";
-        int ans = (lnum-rnum)/(rcoe-lcoe);
-        return "x="+to_string(ans);
+        return st.size()==k;
     }
 };
 void printv(vector<int>& v)
@@ -125,8 +70,8 @@ void printv(vector<int>& v)
 }
 int main() {
 //    vector<vector<int>> v6 = {{-13260,8589},{1350,8721},{-37222,-19547},{-54293,-29302},{-10489,-13241},{-19382,574},{5561,1033},{-22508,-13241},{-1542,20695},{9277,2820},{-32081,16145},{-50902,23701},{-8636,19504},{-17042,-28765},{-27132,-24156},{-48323,-4607},{30279,29922}};
-    vector<vector<int>> v6 ={{5,3},{3,0},{5,1},{1,1},{1,5},{3,0},{0,2}};
-    vector<vector<int>> v5 ={{2,1},{3,1},{4,2},{1,4}};
+    vector<vector<int>> v6 ={{1,0},{1,2}};
+    vector<vector<int>> v5 ={{1,2},{1,0},{2,0}};
     vector<int> v1 = {197,130,1};
     vector<int> v2 = {2,3,4};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
@@ -136,7 +81,7 @@ int main() {
 
     vector<string> st1 = {"cha","r","act"};
     Solution s;
-    s.solveEquation("2=-x");
+    s.hasAllCodes("00110",2);
     printv(v4);
 
     string s1 = "1";
