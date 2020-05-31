@@ -42,24 +42,50 @@ public:
     }
 };
 class Solution {
+    unordered_map<int,unordered_set<int>> m;
+    vector<bool> ans;
+    int idx = 0;
 public:
-    bool hasAllCodes(string s, int k) {
-        if(s.size() <= k)
-            return false;
-        int i, l = 0, r = 0, num;
-        set<int> st;
-        for( ; r < s.size(); ++r)
+    vector<bool> checkIfPrerequisite(int n, vector<vector<int>>& prerequisites, vector<vector<int>>& queries) {
+        for(auto& pre : prerequisites)
         {
-            if(r-l+1 == k)
+            m[pre[0]].insert(pre[1]);
+        }
+        ans.resize(queries.size());
+        int tp;
+        for(auto& que : queries)
+        {
+            if(m.count(que[0]) && m[que[0]].count(que[1]))
+                ans[idx++] = true;
+            else
             {
-                num = 0;
-                for(i = l; i <= r; ++i)
-                    num = s[i]-'0' + (num<<1);
-                st.insert(num);
-                l++;
+                vector<bool> vis(n,false);
+                vis[que[0]] = true;
+                queue<int> q;
+                q.push(que[0]);
+                while(!q.empty())
+                {
+                    tp = q.front();
+                    if(tp == que[1])
+                    {
+                        ans[idx++] = true;
+                        break;
+                    }
+                    m[que[0]].insert(tp);//加速后面查找
+                    q.pop();
+                    for(auto it = m[tp].begin(); it != m[tp].end(); ++it)
+                    {
+                        if(!vis[*it])
+                        {
+                            q.push(*it);
+                            vis[*it] = true;
+                        }
+                    }
+                }
+                ans[idx++] = false;
             }
         }
-        return st.size()==k;
+        return ans;
     }
 };
 void printv(vector<int>& v)
@@ -70,8 +96,8 @@ void printv(vector<int>& v)
 }
 int main() {
 //    vector<vector<int>> v6 = {{-13260,8589},{1350,8721},{-37222,-19547},{-54293,-29302},{-10489,-13241},{-19382,574},{5561,1033},{-22508,-13241},{-1542,20695},{9277,2820},{-32081,16145},{-50902,23701},{-8636,19504},{-17042,-28765},{-27132,-24156},{-48323,-4607},{30279,29922}};
-    vector<vector<int>> v6 ={{1,0},{1,2}};
-    vector<vector<int>> v5 ={{1,2},{1,0},{2,0}};
+    vector<vector<int>> v6 ={{0,1},{1,2},{2,3},{3,4}};
+    vector<vector<int>> v5 ={{0,4},{4,0},{1,3},{3,0}};
     vector<int> v1 = {197,130,1};
     vector<int> v2 = {2,3,4};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
@@ -81,7 +107,7 @@ int main() {
 
     vector<string> st1 = {"cha","r","act"};
     Solution s;
-    s.hasAllCodes("00110",2);
+    s.checkIfPrerequisite(5,v6,v5);
     printv(v4);
 
     string s1 = "1";
