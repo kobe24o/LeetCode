@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-**已解决 1045/1667** - **简单 399** **中等 548** **困难 98**
+**已解决 1056/1667** - **简单 408** **中等 550** **困难 98**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 - 2019.11.09 - 2019.11.24，AC + 100道，共计500道（123天，4个月）
@@ -714,6 +714,7 @@
 | [LeetCode 1177. 构建回文串检测（前缀和）](https://michael.blog.csdn.net/article/details/105498437) |                                                              |
 | [LeetCode 1184. 公交站间的距离](https://blog.csdn.net/qq_21201267/article/details/100814178) |                                                              |
 | [LeetCode 1185. 一周中的第几天](https://blog.csdn.net/qq_21201267/article/details/100808636) |                                                              |
+| [LeetCode 1186. 删除一次得到子数组最大和（DP）](https://michael.blog.csdn.net/article/details/106534231) |                                                              |
 | [LeetCode 1189. “气球” 的最大数量](https://michael.blog.csdn.net/article/details/105803005) |                                                              |
 | [LeetCode 1190. 反转每对括号间的子串（栈）](https://michael.blog.csdn.net/article/details/103796323) |                                                              |
 | [LeetCode 1200. 最小绝对差](https://michael.blog.csdn.net/article/details/105802282) |                                                              |
