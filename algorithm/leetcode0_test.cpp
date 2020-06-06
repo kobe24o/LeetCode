@@ -42,47 +42,72 @@ public:
     }
 };
 class Solution {
-    unordered_map<int,unordered_set<int>> m;
-    vector<bool> ans;
-    int idx = 0;
 public:
-    vector<bool> checkIfPrerequisite(int n, vector<vector<int>>& prerequisites, vector<vector<int>>& queries) {
-        for(auto& pre : prerequisites)
+    vector<string> invalidTransactions(vector<string>& transactions) {
+        map<string, map<pair<int,int>,string>> m;
+        string name, city, prevcity;
+        int time, amount, prevtime, prevamount, n, i;
+        for(string& tr : transactions)
         {
-            m[pre[0]].insert(pre[1]);
-        }
-        ans.resize(queries.size());
-        int tp;
-        for(auto& que : queries)
-        {
-            if(m.count(que[0]) && m[que[0]].count(que[1]))
-                ans[idx++] = true;
-            else
+            name = city = "";
+            time = amount = n = 0;
+            for(i = 0; i < tr.size(); i++)
             {
-                vector<bool> vis(n,false);
-                vis[que[0]] = true;
-                queue<int> q;
-                q.push(que[0]);
-                while(!q.empty())
+                if(tr[i] == ',')
                 {
-                    tp = q.front();
-                    if(tp == que[1])
+                    n++;
+                    continue;
+                }
+                if(n == 0)
+                    name += tr[i];
+                else if(n == 1)
+                    time = time*10+tr[i]-'0';
+                else if(n == 2)
+                    amount = amount*10+tr[i]-'0';
+                else
+                    city += tr[i];
+            }
+            m[name][make_pair(time, amount)] = city;
+        }
+        vector<string> ans;
+        bool processPrev;
+        string cur, prev;
+        for(auto it = m.begin(); it != m.end(); ++it)
+        {
+            name = it->first;
+            processPrev = false;
+            prevtime = -1;
+            for(auto it1 = m[name].begin(); it1 != m[name].end(); ++it1)
+            {
+                time = it1->first.first;
+                amount = it1->first.second;
+                city = it1->second;
+                if(prevtime != -1)
+                {
+                    if(amount>1000 || (time-prevtime <= 60 && prevcity != city))
                     {
-                        ans[idx++] = true;
-                        break;
+                        cur = name+","+to_string(time)+","+to_string(amount)+","+city;
+                        prev = name+","+to_string(prevtime)+","+to_string(prevamount)+","+prevcity;
+                        if(!processPrev && time-prevtime <= 60 && prevcity != city)
+                            ans.push_back(prev);
+                        ans.push_back(cur);
+                        processPrev = true;
                     }
-                    m[que[0]].insert(tp);//加速后面查找
-                    q.pop();
-                    for(auto it = m[tp].begin(); it != m[tp].end(); ++it)
+                    else
+                        processPrev = false;
+                }
+                else//第一个
+                {
+                    if(amount > 1000)
                     {
-                        if(!vis[*it])
-                        {
-                            q.push(*it);
-                            vis[*it] = true;
-                        }
+                        cur = name+","+to_string(time)+","+to_string(amount)+","+city;
+                        ans.push_back(cur);
+                        processPrev = true;
                     }
                 }
-                ans[idx++] = false;
+                prevtime = time;
+                prevamount = amount;
+                prevcity = city;
             }
         }
         return ans;
@@ -105,9 +130,9 @@ int main() {
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
 
-    vector<string> st1 = {"cha","r","act"};
+    vector<string> st1 = {"bob,649,842,prague","alex,175,1127,mexico","iris,164,119,paris","lee,991,1570,mexico","lee,895,1876,taipei","iris,716,754,moscow","chalicefy,19,592,singapore","chalicefy,820,71,newdelhi","maybe,231,1790,paris","lee,158,987,mexico","chalicefy,415,22,montreal","iris,803,691,milan","xnova,786,804,guangzhou","lee,734,1915,prague","bob,836,1904,dubai","iris,666,231,chicago","iris,677,1451,milan","maybe,860,517,toronto","iris,344,1452,bangkok","lee,664,463,frankfurt","chalicefy,95,1222,montreal","lee,293,1102,istanbul","maybe,874,36,hongkong","maybe,457,1802,montreal","xnova,535,270,munich","iris,39,264,istanbul","chalicefy,548,363,barcelona","lee,373,184,munich","xnova,405,957,mexico","chalicefy,517,266,luxembourg","iris,25,657,singapore","bob,688,451,beijing","bob,263,1258,tokyo","maybe,140,222,amsterdam","xnova,852,330,barcelona","xnova,589,837,budapest","lee,152,981,mexico","alex,893,1976,shenzhen","xnova,560,825,prague","chalicefy,283,399,zurich","iris,967,1119,guangzhou","alex,924,223,milan","chalicefy,212,1865,chicago","alex,443,537,taipei","maybe,390,5,shanghai","bob,510,1923,madrid","bob,798,343,hongkong","iris,643,1703,madrid","bob,478,928,barcelona","maybe,75,1980,shanghai","xnova,293,24,newdelhi","iris,176,268,milan","alex,783,81,moscow","maybe,560,587,milan","alex,406,776,istanbul","lee,558,727,paris","maybe,481,1504,munich","maybe,685,602,madrid","iris,678,788,madrid","xnova,704,274,newdelhi","chalicefy,36,1984,paris","iris,749,200,amsterdam","lee,21,119,taipei","iris,406,433,bangkok","bob,777,542,taipei","maybe,230,1434,barcelona","iris,420,1818,zurich","lee,622,194,amsterdam","maybe,545,608,shanghai","xnova,201,1375,madrid","lee,432,520,dubai","bob,150,1634,singapore","maybe,467,1178,munich","iris,45,904,beijing","maybe,607,1953,tokyo","bob,901,815,tokyo","maybe,636,558,milan","bob,568,1674,toronto","iris,825,484,madrid","iris,951,930,dubai","bob,465,1080,taipei","bob,337,593,chicago","chalicefy,16,176,rome","chalicefy,671,583,singapore","iris,268,391,chicago","xnova,836,153,jakarta","bob,436,530,warsaw","alex,354,1328,luxembourg","iris,928,1565,paris","xnova,627,834,budapest","xnova,640,513,jakarta","alex,119,16,toronto","xnova,443,1687,taipei","chalicefy,867,1520,montreal","alex,456,889,newdelhi","lee,166,3,madrid","bob,65,1559,zurich","alex,628,861,moscow","maybe,668,572,mexico","bob,402,922,montreal"};
     Solution s;
-    s.checkIfPrerequisite(5,v6,v5);
+    s.invalidTransactions(st1);
     printv(v4);
 
     string s1 = "1";

@@ -709,6 +709,7 @@
 | [LeetCode 1160. 拼写单词](https://blog.csdn.net/qq_21201267/article/details/100673250) |                                                              |
 | [LeetCode 1161. 最大层内元素和（层序遍历）](https://michael.blog.csdn.net/article/details/103216744) |                                                              |
 | [LeetCode 1162. 地图分析（BFS）](https://michael.blog.csdn.net/article/details/105172033) |                                                              |
+| [LeetCode 1169. 查询无效交易](https://michael.blog.csdn.net/article/details/106583761) |                                                              |
 | [LeetCode 1170. 比较字符串最小字母出现频次](https://michael.blog.csdn.net/article/details/105803059) |                                                              |
 | [LeetCode 1171. 从链表中删去总和值为零的连续节点（哈希表）](https://michael.blog.csdn.net/article/details/102925963) |                                                              |
 | [LeetCode 1172. 餐盘栈（栈 + set）](https://michael.blog.csdn.net/article/details/103328021) |                                                              |
