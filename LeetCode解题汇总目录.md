@@ -633,6 +633,7 @@
 | [LeetCode 974. 和可被 K 整除的子数组（哈希map）](https://michael.blog.csdn.net/article/details/106373050) |                                                              |
 | [LeetCode 976. 三角形的最大周长](https://michael.blog.csdn.net/article/details/105778251) |                                                              |
 | [LeetCode 977. 有序数组的平方](https://blog.csdn.net/qq_21201267/article/details/100057616) |                                                              |
+| [LeetCode 978. 最长湍流子数组（DP）](https://michael.blog.csdn.net/article/details/106590866) |                                                              |
 | [LeetCode 979. 在二叉树中分配硬币（DFS）](https://michael.blog.csdn.net/article/details/103219540) |                                                              |
 | [LeetCode 980. 不同路径 III（DFS+回溯）](https://michael.blog.csdn.net/article/details/102961910) |                                                              |
 | [LeetCode 983. 最低票价（动态规划）](https://michael.blog.csdn.net/article/details/105948343) |                                                              |
