@@ -758,6 +758,7 @@
 | [LeetCode 1277. 统计全为 1 的正方形子矩阵（DP）](https://michael.blog.csdn.net/article/details/105588317) |                                                              |
 | [LeetCode 1281. 整数的各位积和之差](https://michael.blog.csdn.net/article/details/105594317) |                                                              |
 | [LeetCode 1282. 用户分组（桶排序思想）](https://michael.blog.csdn.net/article/details/103483462) |                                                              |
+| [LeetCode 1283. 使结果不超过阈值的最小除数（二分查找）](https://michael.blog.csdn.net/article/details/106591523) |                                                              |
 | [LeetCode 1284. 转化为全零矩阵的最少反转次数（BFS & 矩阵状态编码解码）](https://michael.blog.csdn.net/article/details/104116933) |                                                              |
 | [LeetCode 1286. 字母组合迭代器（回溯/位运算）](https://michael.blog.csdn.net/article/details/105975552) |                                                              |
 | [LeetCode 1287. 有序数组中出现次数超过25%的元素](https://michael.blog.csdn.net/article/details/105801573) |                                                              |
