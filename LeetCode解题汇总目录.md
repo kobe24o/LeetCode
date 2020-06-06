@@ -498,6 +498,7 @@
 | [LeetCode 712. 两个字符串的最小ASCII删除和（DP，类似编辑距离）](https://michael.blog.csdn.net/article/details/105757207) |                                                              |
 | [LeetCode 714. 买卖股票的最佳时机含手续费（DP）](https://michael.blog.csdn.net/article/details/103381475) |                                                              |
 | [LeetCode 717. 1比特与2比特字符](https://michael.blog.csdn.net/article/details/105740439) |                                                              |
+| [LeetCode 718. 最长重复子数组（DP）](https://michael.blog.csdn.net/article/details/106584030) |                                                              |
 | [LeetCode 720. 词典中最长的单词（Trie树）](https://michael.blog.csdn.net/article/details/103077004) |                                                              |
 | [LeetCode 722. 删除注释（逻辑题）](https://michael.blog.csdn.net/article/details/103917615) |                                                              |
 | [LeetCode 724. 寻找数组的中心索引](https://michael.blog.csdn.net/article/details/105740610) |                                                              |
