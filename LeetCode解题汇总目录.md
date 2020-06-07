@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.6.5
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.6.7
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题（更新完毕）](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题（更新完毕）](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode代码能力测试CAT](https://blog.csdn.net/qq_21201267/article/details/104603021)。
 
@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
-**已解决 1064/1669** - **简单 408** **中等 558** **困难 98**
+**已解决 1072/1673** - **简单 409** **中等 564** **困难 99**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 - 2019.11.09 - 2019.11.24，AC + 100道，共计500道（123天，4个月）
@@ -902,6 +902,8 @@
 | [LeetCode 1466. 重新规划路线（DFS/BFS）](https://michael.blog.csdn.net/article/details/106461424) |                                                              |
 | [LeetCode 5428. 重新排列数组](https://michael.blog.csdn.net/article/details/106600292) |                                                              |
 | [LeetCode 5429. 数组中的 k 个最强值（排序）](https://michael.blog.csdn.net/article/details/106600636) |                                                              |
+| [LeetCode 5430. 设计浏览器历史记录（双栈）](https://michael.blog.csdn.net/article/details/106601089) |                                                              |
+| [LeetCode 5431. 给房子涂色 III（DP）](https://michael.blog.csdn.net/article/details/106606529) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
