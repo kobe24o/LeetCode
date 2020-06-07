@@ -901,6 +901,7 @@
 | [LeetCode 1465. 切割后面积最大的蛋糕](https://michael.blog.csdn.net/article/details/106459741) |                                                              |
 | [LeetCode 1466. 重新规划路线（DFS/BFS）](https://michael.blog.csdn.net/article/details/106461424) |                                                              |
 | [LeetCode 5428. 重新排列数组](https://michael.blog.csdn.net/article/details/106600292) |                                                              |
+| [LeetCode 5429. 数组中的 k 个最强值（排序）](https://michael.blog.csdn.net/article/details/106600636) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
