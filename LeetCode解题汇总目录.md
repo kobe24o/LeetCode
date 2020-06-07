@@ -707,6 +707,7 @@
 | [LeetCode 1138. 字母板上的路径](https://michael.blog.csdn.net/article/details/103899893) |                                                              |
 | [LeetCode 1139. 最大的以 1 为边界的正方形（DP）](https://michael.blog.csdn.net/article/details/105542359) |                                                              |
 | [LeetCode 1143. 最长公共子序列（动态规划）](https://michael.blog.csdn.net/article/details/105789592) |                                                              |
+| [LeetCode 1144. 递减元素使数组呈锯齿状（奇偶分别遍历）](https://michael.blog.csdn.net/article/details/106599943) |                                                              |
 | [LeetCode 1145. 二叉树着色游戏（计算节点个数）](https://michael.blog.csdn.net/article/details/103115240) |                                                              |
 | [LeetCode 1154. 一年中的第几天](https://blog.csdn.net/qq_21201267/article/details/100754099) |                                                              |
 | [LeetCode 1160. 拼写单词](https://blog.csdn.net/qq_21201267/article/details/100673250) |                                                              |
