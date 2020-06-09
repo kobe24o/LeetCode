@@ -165,6 +165,7 @@
 | [LeetCode 131. 分割回文串（回溯）](https://michael.blog.csdn.net/article/details/102979356) |                                                              |
 | [LeetCode 133. 克隆图（图的BFS/DFS）](https://blog.csdn.net/qq_21201267/article/details/101568649) |                                                              |
 | [LeetCode 134. 加油站（贪心）](https://blog.csdn.net/qq_21201267/article/details/102857089) |                                                              |
+| [LeetCode 135. 分发糖果（DP）](https://michael.blog.csdn.net/article/details/106649583) |                                                              |
 | [LeetCode 136. 只出现一次的数字（异或^）](https://blog.csdn.net/qq_21201267/article/details/100147375) |                                                              |
 | [LeetCode 137. 只出现一次的数字 II（位运算）](https://blog.csdn.net/qq_21201267/article/details/101102832) |                                                              |
 | [LeetCode 138. 复制带随机指针的链表（哈希 / 深拷贝）](https://blog.csdn.net/qq_21201267/article/details/101570854) |                                                              |
@@ -900,10 +901,10 @@
 | [LeetCode 1464. 数组中两元素的最大乘积](https://michael.blog.csdn.net/article/details/106459471) |                                                              |
 | [LeetCode 1465. 切割后面积最大的蛋糕](https://michael.blog.csdn.net/article/details/106459741) |                                                              |
 | [LeetCode 1466. 重新规划路线（DFS/BFS）](https://michael.blog.csdn.net/article/details/106461424) |                                                              |
-| [LeetCode 5428. 重新排列数组](https://michael.blog.csdn.net/article/details/106600292) |                                                              |
-| [LeetCode 5429. 数组中的 k 个最强值（排序）](https://michael.blog.csdn.net/article/details/106600636) |                                                              |
-| [LeetCode 5430. 设计浏览器历史记录（双栈）](https://michael.blog.csdn.net/article/details/106601089) |                                                              |
-| [LeetCode 5431. 给房子涂色 III（DP）](https://michael.blog.csdn.net/article/details/106606529) |                                                              |
+| [LeetCode 1470. 重新排列数组](https://michael.blog.csdn.net/article/details/106600292) |                                                              |
+| [LeetCode 1471. 数组中的 k 个最强值（排序）](https://michael.blog.csdn.net/article/details/106600636) |                                                              |
+| [LeetCode 1472. 设计浏览器历史记录（双栈）](https://michael.blog.csdn.net/article/details/106601089) |                                                              |
+| [LeetCode 1473. 给房子涂色 III（DP）](https://michael.blog.csdn.net/article/details/106606529) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
