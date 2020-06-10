@@ -736,6 +736,7 @@
 | [LeetCode 1219. 黄金矿工（回溯）](https://michael.blog.csdn.net/article/details/102999022) |                                                              |
 | [LeetCode 1221. 分割平衡字符串](https://michael.blog.csdn.net/article/details/105802345) |                                                              |
 | [LeetCode 1222. 可以攻击国王的皇后（set）](https://michael.blog.csdn.net/article/details/105802412) |                                                              |
+| [LeetCode 1223. 掷骰子模拟（DP）](https://michael.blog.csdn.net/article/details/106675048) |                                                              |
 | [LeetCode 1227. 飞机座位分配概率（DP+数学归纳法）](https://michael.blog.csdn.net/article/details/105805627) |                                                              |
 | [LeetCode 1232. 缀点成线](https://michael.blog.csdn.net/article/details/105802054) |                                                              |
 | [LeetCode 1233. 删除子文件夹](https://michael.blog.csdn.net/article/details/103916724) |                                                              |
