@@ -691,6 +691,7 @@
 | [LeetCode 1079. 活字印刷（全排列回溯）](https://blog.csdn.net/qq_21201267/article/details/100644009) |                                                              |
 | [LeetCode 1080. 根到叶路径上的不足节点（递归）](https://michael.blog.csdn.net/article/details/103690245) |                                                              |
 | [LeetCode 1089. 复写零](https://blog.csdn.net/qq_21201267/article/details/100809393) |                                                              |
+| [LeetCode 1090. 受标签影响的最大值（优先队列）](https://michael.blog.csdn.net/article/details/106679683) |                                                              |
 | [LeetCode 1091. 二进制矩阵中的最短路径（BFS）](https://michael.blog.csdn.net/article/details/106029651) |                                                              |
 | [LeetCode 1093. 大样本统计](https://michael.blog.csdn.net/article/details/105802780) |                                                              |
 | [LeetCode 1094. 拼车](https://blog.csdn.net/qq_21201267/article/details/100604925) |                                                              |
