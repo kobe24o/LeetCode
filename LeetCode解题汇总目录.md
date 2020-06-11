@@ -404,6 +404,7 @@
 | [LeetCode 521. 最长特殊序列 Ⅰ](https://michael.blog.csdn.net/article/details/105716003) |                                                              |
 | [LeetCode 522. 最长特殊序列 II](https://blog.csdn.net/qq_21201267/article/details/101036485) |                                                              |
 | [LeetCode 523. 连续的子数组和（求余 哈希）](https://blog.csdn.net/qq_21201267/article/details/102253351) |                                                              |
+| [LeetCode 524. 通过删除字母匹配到字典里最长单词（双指针）](https://michael.blog.csdn.net/article/details/106685806) |                                                              |
 | [LeetCode 525. 连续数组（前缀和+哈希）](https://michael.blog.csdn.net/article/details/106157791) |                                                              |
 | [LeetCode 526. 优美的排列（回溯）](https://michael.blog.csdn.net/article/details/103383968) |                                                              |
 | [LeetCode 529. 扫雷游戏（广度优先搜索BFS/深度优先搜索DFS）](https://michael.blog.csdn.net/article/details/105960312) |                                                              |
@@ -473,6 +474,7 @@
 | [LeetCode 670. 最大交换](https://michael.blog.csdn.net/article/details/106271125) |                                                              |
 | [LeetCode 671. 二叉树中第二小的节点](https://blog.csdn.net/qq_21201267/article/details/100550016) |                                                              |
 | [LeetCode 672. 灯泡开关 Ⅱ（枚举）](https://blog.csdn.net/qq_21201267/article/details/105811367) |                                                              |
+| [LeetCode 673. 最长递增子序列的个数（DP）](https://michael.blog.csdn.net/article/details/106677852) |                                                              |
 | [LeetCode 674. 最长连续递增序列](https://blog.csdn.net/qq_21201267/article/details/98262871) |                                                              |
 | [LeetCode 676. 实现一个魔法字典（哈希）](https://michael.blog.csdn.net/article/details/103511709) |                                                              |
 | [LeetCode 677. 键值映射（Trie树）](https://blog.csdn.net/qq_21201267/article/details/102559253) |                                                              |
