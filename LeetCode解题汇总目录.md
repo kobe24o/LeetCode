@@ -512,6 +512,7 @@
 | [LeetCode 735. 行星碰撞（栈）](https://michael.blog.csdn.net/article/details/103794858) |                                                              |
 | [LeetCode 738. 单调递增的数字（贪心）](https://michael.blog.csdn.net/article/details/103564931) |                                                              |
 | [LeetCode 739. 每日温度（单调栈）](https://blog.csdn.net/qq_21201267/article/details/101479101) |                                                              |
+| [LeetCode 743. 网络延迟时间（最短路径）](https://michael.blog.csdn.net/article/details/106686629) |                                                              |
 | [LeetCode 744. 寻找比目标字母大的最小字母（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489881) |                                                              |
 | [LeetCode 746. 使用最小花费爬楼梯（DP）](https://blog.csdn.net/qq_21201267/article/details/102905456) |                                                              |
 | [LeetCode 747. 至少是其他数字两倍的最大数](https://michael.blog.csdn.net/article/details/105740878) |                                                              |
