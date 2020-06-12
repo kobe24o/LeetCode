@@ -103,6 +103,7 @@
 | [LeetCode 65. 有效数字（逻辑题，难）](https://blog.csdn.net/qq_21201267/article/details/104825661) |                                                              |
 | [LeetCode 66. 加一](https://michael.blog.csdn.net/article/details/105596325) |                                                              |
 | [LeetCode 67. 二进制求和](https://blog.csdn.net/qq_21201267/article/details/101211346) |                                                              |
+| [LeetCode 68. 文本左右对齐（字符串逻辑题）](https://michael.blog.csdn.net/article/details/106723906) |                                                              |
 | [LeetCode 69. x 的平方根（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100585531) |                                                              |
 | [LeetCode 70. 爬楼梯（动态规划）](https://blog.csdn.net/qq_21201267/article/details/98478956) |                                                              |
 | [LeetCode 71. 简化路径（栈）](https://michael.blog.csdn.net/article/details/103737562) |                                                              |
