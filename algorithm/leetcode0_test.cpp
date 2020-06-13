@@ -62,65 +62,24 @@ public:
 };
 class Solution {
 public:
-    string fractionAddition(string expression) {
-        bool positive = true, founddown = false;
-        int up = 0, down = 0, a = 0, b = 0;
-        for(int i = 0; i < expression.size(); ++i)
+    int numSubarrayProductLessThanK(vector<int>& nums, int k) {
+        int i = 0, j = 0, count = 0, product = 1;
+        while(j < nums.size())
         {
-            if(expression[i] == '+')
-            {
-                add(up,down,a,b,positive);
-                positive = true;
-                founddown = false;//找到分母
-                a=b=0;
+            if(product*nums[j] < k)
+            {   //右端点一直乘
+                product *= nums[j];
+                count += j-i+1;//以j结尾的子数组个数
+                j++;
             }
-            else if(expression[i] == '-')
-            {
-                add(up,down,a,b,positive);
-                positive = false;
-                founddown = false;
-                a=b=0;
-            }
-            else if(expression[i] == '/')
-                founddown = true;
-            else
-            {
-                if(founddown)
-                    b = b*10+expression[i]-'0';
-                else
-                    a = a*10+expression[i]-'0';
+            else// (product*nums[j] >= k)
+            {   //乘积大了，左端点移走
+                product /= nums[i++];//有大于k的数的时候，product会变成0
+                if(product == 0)
+                    j++, product=1;//跳过该数字
             }
         }
-        add(up,down,a,b,positive);
-        return to_string(up)+"/"+to_string(down);
-    }
-
-    void add(int &up, int &down, int a, int b, bool positive)
-    {
-        if(down == 0 && b == 0)
-            return;
-        if(down == 0 && b != 0)
-        {
-            up = positive?a:-a, down = b;
-            return;
-        }
-        int t_up = 0, t_down = down*b;
-        t_up += up*b + (positive?a:-a)*down;
-        int g = gcd(t_up, t_down);
-        up = t_up/g;
-        down = t_down/g;
-    }
-
-    int gcd(int a, int b)
-    {
-        int r;
-        while(b)
-        {
-            r = a%b;
-            a = b;
-            b = r;
-        }
-        return a;
+        return count;
     }
 };
 void printv(vector<int>& v)
@@ -134,7 +93,7 @@ int main() {
     vector<vector<int>> v6 ={{0,1},{1,2},{2,3},{3,4}};
     vector<vector<int>> v5 ={{0,4},{4,0},{1,3},{3,0}};
     vector<int> v1 = {197,130,1};
-    vector<int> v2 = {2,3,4};
+    vector<int> v2 = {1,2,3};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
     vector<int> v4 = {};
     string str = "eceeeefasdghjklqwertyuio";
@@ -142,7 +101,7 @@ int main() {
 
     vector<string> st1 = {"havana"};
     Solution s;
-    s.fractionAddition("1/3-1/2");
+    s.numSubarrayProductLessThanK(v2,0);
     printv(v4);
 
     string s1 = "1";

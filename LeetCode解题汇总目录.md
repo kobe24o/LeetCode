@@ -502,6 +502,7 @@
 | [LeetCode 707. 设计链表（List）](https://blog.csdn.net/qq_21201267/article/details/101638997) |                                                              |
 | [LeetCode 709. 转换成小写字母](https://blog.csdn.net/qq_21201267/article/details/100907747) |                                                              |
 | [LeetCode 712. 两个字符串的最小ASCII删除和（DP，类似编辑距离）](https://michael.blog.csdn.net/article/details/105757207) |                                                              |
+| [LeetCode 713. 乘积小于K的子数组（滑动窗口）](https://michael.blog.csdn.net/article/details/106733134) |                                                              |
 | [LeetCode 714. 买卖股票的最佳时机含手续费（DP）](https://michael.blog.csdn.net/article/details/103381475) |                                                              |
 | [LeetCode 717. 1比特与2比特字符](https://michael.blog.csdn.net/article/details/105740439) |                                                              |
 | [LeetCode 718. 最长重复子数组（DP）](https://michael.blog.csdn.net/article/details/106584030) |                                                              |
