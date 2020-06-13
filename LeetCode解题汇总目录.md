@@ -891,6 +891,7 @@
 | [LeetCode 1441. 用栈操作构建数组](https://michael.blog.csdn.net/article/details/106035352) |                                                              |
 | [LeetCode 1442. 形成两个异或相等数组的三元组数目（前缀异或）](https://michael.blog.csdn.net/article/details/106035610) |                                                              |
 | [LeetCode 1443. 收集树上所有苹果的最少时间（自底向上DFS）](https://michael.blog.csdn.net/article/details/106037189) |                                                              |
+| [LeetCode 1444. 切披萨的方案数（DP）](https://michael.blog.csdn.net/article/details/106729347) |                                                              |
 | [LeetCode 1446. 连续字符](https://michael.blog.csdn.net/article/details/106167968#1_LeetCode_5396__easy_11) |                                                              |
 | [LeetCode 1447. 最简分数（公约数为1）](https://michael.blog.csdn.net/article/details/106167968#2_LeetCode_5397__medium_69) |                                                              |
 | [LeetCode 1448. 统计二叉树中好节点的数目（递归）](https://michael.blog.csdn.net/article/details/106167968#3_LeetCode_5398__medium_137) |                                                              |
