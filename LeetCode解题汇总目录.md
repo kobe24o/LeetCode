@@ -922,6 +922,7 @@
 | [LeetCode 5420. 商品折扣后的最终价格（单调栈）](https://michael.blog.csdn.net/article/details/106736232#1_LeetCode_5420__easy_13) |                                                              |
 | [LeetCode 5422. 子矩形查询](https://michael.blog.csdn.net/article/details/106736232#2_LeetCode_5422__medium_110) |                                                              |
 | [LeetCode 5423. 找两个和为目标值且不重叠的子数组（滑动窗口/正反前缀和）](https://michael.blog.csdn.net/article/details/106736232#3_LeetCode_5423__medium_248) |                                                              |
+| [LeetCode 5436. 一维数组的动态和（前缀和）](https://michael.blog.csdn.net/article/details/106748641) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
