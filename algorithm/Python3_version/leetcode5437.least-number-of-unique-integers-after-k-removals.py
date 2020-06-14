@@ -6,11 +6,14 @@ class Solution:
                 d[i] += 1
             else:
                 d[i] = 1
-        count = d.values()
-        count.sort()
+        count = list(d.values())
+        # count.sort()
+        count = sorted(count)
         i = 0
-        while k > 0:
-            k -= count[i]
+        for c in count:
+            k -= c
             if k >= 0:
                 i += 1
-        return len(count)-i
+            if k <= 0:
+                break
+        return len(count) - i

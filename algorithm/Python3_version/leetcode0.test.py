@@ -16,8 +16,8 @@ class Solution:
                 d[i] += 1
             else:
                 d[i] = 1
-        count = d.values()
-        sorted(count)
+        count = list(d.values())
+        count = sorted(count)
         i = 0
         for c in count:
             k -= c
