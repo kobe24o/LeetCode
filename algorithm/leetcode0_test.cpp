@@ -62,24 +62,53 @@ public:
 };
 class Solution {
 public:
-    int numSubarrayProductLessThanK(vector<int>& nums, int k) {
-        int i = 0, j = 0, count = 0, product = 1;
-        while(j < nums.size())
+    int minSumOfLengths(vector<int>& arr, int target) {
+        int i=0, j=0, n = arr.size(), sum = 0;
+        vector<pair<int,int>> v;
+        for(j = 0; j < n; )
         {
-            if(product*nums[j] < k)
-            {   //右端点一直乘
-                product *= nums[j];
-                count += j-i+1;//以j结尾的子数组个数
+
+            if(sum > target)
+            {
+                sum -= arr[i++];
+                if(sum==target)
+                    v.push_back({i,j-1});
+            }
+            else
+            {
+
+                if(sum==target)
+                    v.push_back({i,j-1});
+                sum += arr[j];
                 j++;
             }
-            else// (product*nums[j] >= k)
-            {   //乘积大了，左端点移走
-                product /= nums[i++];//有大于k的数的时候，product会变成0
-                if(product == 0)
-                    j++, product=1;//跳过该数字
+        }
+        while(i < n)
+        {
+            if(sum==target)
+                v.push_back({i,j-1});
+            sum -= arr[i++];
+        }
+        sort(v.begin(),v.end(),[&](pair<int,int> a, pair<int,int> b){
+            if ((a.second-a.first) == (b.second-b.first))
+                return a.first < b.first;
+            return (a.second-a.first) < (b.second-b.first);
+        });
+        int minlen = INT_MAX;
+        for(i = 0; i < v.size(); ++i)
+        {
+            for(j = 0; j < v.size(); ++j)
+            {
+                if(i==j)
+                    continue;
+                if(v[i].second < v[j].first || v[i].first > v[j].second)
+                {
+                    minlen = min(minlen, v[i].second-v[i].first+v[j].second-v[j].first+2);
+                    // break;
+                }
             }
         }
-        return count;
+        return minlen==INT_MAX? -1 : minlen;
     }
 };
 void printv(vector<int>& v)
@@ -93,7 +122,7 @@ int main() {
     vector<vector<int>> v6 ={{0,1},{1,2},{2,3},{3,4}};
     vector<vector<int>> v5 ={{0,4},{4,0},{1,3},{3,0}};
     vector<int> v1 = {197,130,1};
-    vector<int> v2 = {1,2,3};
+    vector<int> v2 = {1,2,2,3,2,6,7,2,1,4,8};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
     vector<int> v4 = {};
     string str = "eceeeefasdghjklqwertyuio";
@@ -101,7 +130,7 @@ int main() {
 
     vector<string> st1 = {"havana"};
     Solution s;
-    s.numSubarrayProductLessThanK(v2,0);
+    s.minSumOfLengths(v2,5);
     printv(v4);
 
     string s1 = "1";
