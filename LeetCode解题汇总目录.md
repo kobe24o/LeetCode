@@ -37,6 +37,7 @@
 | [LeetCode 第 187 场周赛（1336/3107，前43.0%）](https://michael.blog.csdn.net/article/details/105903207) |
 | [LeetCode 第 26 场双周赛（363/1971，前18.4%）](https://michael.blog.csdn.net/article/details/106167968) |
 | [LeetCode 第 27 场双周赛（1125/1966，前57.2%）](https://michael.blog.csdn.net/article/details/106453232) |
+| [LeetCode 第 28 场双周赛（505/2144，前23.6%）](https://michael.blog.csdn.net/article/details/106736232) |
 
 ​          
 
@@ -918,6 +919,9 @@
 | [LeetCode 1471. 数组中的 k 个最强值（排序）](https://michael.blog.csdn.net/article/details/106600636) |                                                              |
 | [LeetCode 1472. 设计浏览器历史记录（双栈）](https://michael.blog.csdn.net/article/details/106601089) |                                                              |
 | [LeetCode 1473. 给房子涂色 III（DP）](https://michael.blog.csdn.net/article/details/106606529) |                                                              |
+| [LeetCode 5420. 商品折扣后的最终价格（单调栈）](https://michael.blog.csdn.net/article/details/106736232#1_LeetCode_5420__easy_13) |                                                              |
+| [LeetCode 5422. 子矩形查询](https://michael.blog.csdn.net/article/details/106736232#2_LeetCode_5422__medium_110) |                                                              |
+| [LeetCode 5423. 找两个和为目标值且不重叠的子数组（滑动窗口/正反前缀和）](https://michael.blog.csdn.net/article/details/106736232#3_LeetCode_5423__medium_248) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
