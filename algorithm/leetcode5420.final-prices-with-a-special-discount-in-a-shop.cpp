@@ -16,3 +16,21 @@ public:
         return prices;
     }
 };
+
+class Solution {
+public:
+    vector<int> finalPrices(vector<int>& prices) {
+        int i, n = prices.size();
+        stack<int> stk;
+        vector<int> ans(prices);
+        for(i = n-1; i >= 0; --i)
+        {
+            while(!stk.empty() && prices[i] < prices[stk.top()])
+                stk.pop();
+            if(!stk.empty())
+                ans[i] -= prices[stk.top()];
+            stk.push(i);
+        }
+        return ans;
+    }
+};
