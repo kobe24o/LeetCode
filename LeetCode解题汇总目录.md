@@ -924,6 +924,7 @@
 | [LeetCode 5423. 找两个和为目标值且不重叠的子数组（滑动窗口/正反前缀和）](https://michael.blog.csdn.net/article/details/106736232#3_LeetCode_5423__medium_248) |                                                              |
 | [LeetCode 5436. 一维数组的动态和（前缀和）](https://michael.blog.csdn.net/article/details/106748641) |                                                              |
 | [LeetCode 5437. 不同整数的最少数目（计数+排序+贪心）](https://michael.blog.csdn.net/article/details/106748963) |                                                              |
+| [LeetCode 5438. 制作 m 束花所需的最少天数（二分查找）](https://michael.blog.csdn.net/article/details/106749930) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
