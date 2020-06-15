@@ -631,6 +631,7 @@
 | [LeetCode 950. 按递增顺序显示卡牌（deque）](https://blog.csdn.net/qq_21201267/article/details/100608442) |                                                              |
 | [LeetCode 951. 翻转等价二叉树（递归）](https://michael.blog.csdn.net/article/details/102998305) |                                                              |
 | [LeetCode 953. 验证外星语词典](https://michael.blog.csdn.net/article/details/105805098) |                                                              |
+| [LeetCode 957. N 天后的牢房（查找循环节）](https://michael.blog.csdn.net/article/details/106769878) |                                                              |
 | [LeetCode 958. 二叉树的完全性检验（层序遍历）](https://michael.blog.csdn.net/article/details/103101797) |                                                              |
 | [LeetCode 959. 由斜杠划分区域（并查集）](https://michael.blog.csdn.net/article/details/105739007) |                                                              |
 | [LeetCode 961. 重复 N 次的元素](https://michael.blog.csdn.net/article/details/105800069) |                                                              |
