@@ -300,6 +300,7 @@
 | [LeetCode 363. 矩形区域不超过 K 的最大数值和（DP+set二分查找）](https://michael.blog.csdn.net/article/details/106447907) |                                                              |
 | [LeetCode 365. 水壶问题（最大公约数）](https://michael.blog.csdn.net/article/details/102980961) |                                                              |
 | [LeetCode 367. 有效的完全平方数（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489562) |                                                              |
+| [LeetCode 368. 最大整除子集（DP）](https://michael.blog.csdn.net/article/details/106816075) |                                                              |
 | [LeetCode 371. 两整数之和（位运算）](https://michael.blog.csdn.net/article/details/105645358) |                                                              |
 | [LeetCode 372. 超级次方（快速幂）](https://michael.blog.csdn.net/article/details/106189267) |                                                              |
 | [LeetCode 373. 查找和最小的K对数字（自定义优先队列BFS）](https://blog.csdn.net/qq_21201267/article/details/106199628) |                                                              |
