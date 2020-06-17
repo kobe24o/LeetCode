@@ -745,6 +745,7 @@
 | [LeetCode 1208. 尽可能使字符串相等（滑动窗口）](https://michael.blog.csdn.net/article/details/103324980) |                                                              |
 | [LeetCode 1209. 删除字符串中的所有相邻重复项 II（栈）](https://michael.blog.csdn.net/article/details/103325673) |                                                              |
 | [LeetCode 1217. 玩筹码（脑筋急转弯）](https://michael.blog.csdn.net/article/details/105802562) |                                                              |
+| [LeetCode 1218. 最长定差子序列（哈希map）](https://michael.blog.csdn.net/article/details/106817938) |                                                              |
 | [LeetCode 1219. 黄金矿工（回溯）](https://michael.blog.csdn.net/article/details/102999022) |                                                              |
 | [LeetCode 1221. 分割平衡字符串](https://michael.blog.csdn.net/article/details/105802345) |                                                              |
 | [LeetCode 1222. 可以攻击国王的皇后（set）](https://michael.blog.csdn.net/article/details/105802412) |                                                              |
