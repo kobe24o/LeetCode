@@ -683,6 +683,7 @@
 | [LeetCode 1023. 驼峰式匹配（暴力匹配）](https://michael.blog.csdn.net/article/details/103517033) |                                                              |
 | [LeetCode 1025. 除数博弈（动态规划）](https://michael.blog.csdn.net/article/details/105809852) |                                                              |
 | [LeetCode 1026. 节点与其祖先之间的最大差值（二叉树DFS）](https://michael.blog.csdn.net/article/details/103357890) |                                                              |
+| [LeetCode 1027. 最长等差数列（DP）](https://michael.blog.csdn.net/article/details/106820302) |                                                              |
 | [LeetCode 1028. 从先序遍历还原二叉树（栈）](https://michael.blog.csdn.net/article/details/103002761) |                                                              |
 | [LeetCode 1029. 两地调度（贪心）](https://michael.blog.csdn.net/article/details/103003479) |                                                              |
 | [LeetCode 1030. 距离顺序排列矩阵单元格（排序&Lambda表达式&BFS）](https://michael.blog.csdn.net/article/details/103151131) |                                                              |
