@@ -536,6 +536,7 @@
 | [LeetCode 783. 二叉搜索树结点最小距离（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100784063) |                                                              |
 | [LeetCode 784. 字母大小写全排列（位运算&回溯）](https://blog.csdn.net/qq_21201267/article/details/101179369) |                                                              |
 | [LeetCode 788. 旋转数字](https://michael.blog.csdn.net/article/details/105775643) |                                                              |
+| [LeetCode 789. 逃脱阻碍者（曼哈顿距离）](https://michael.blog.csdn.net/article/details/106827480) |                                                              |
 | [LeetCode 791. 自定义字符串排序（map）](https://michael.blog.csdn.net/article/details/103219936) |                                                              |
 | [LeetCode 793. 阶乘函数后K个零（二分查找）](https://michael.blog.csdn.net/article/details/106347098) |                                                              |
 | [LeetCode 796. 旋转字符串](https://michael.blog.csdn.net/article/details/105775449) |                                                              |
