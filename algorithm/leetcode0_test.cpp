@@ -69,43 +69,25 @@ struct cmp
 };
 class Solution {
 public:
-    int minSumOfLengths(vector<int>& arr, int target) {
-        int i, n = arr.size(), sum = 0, minlen = INT_MAX;
-        unordered_map<int,int> m;//前缀和，index
-        m[0] = -1;
-        vector<int> left(n,0);
-        vector<int> right(n,0);
-        for(i = 0; i < n; ++i)
-        {
-            sum += arr[i];
-            m[sum] = i;
-            if(m.count(sum-target))
-            {
-                if(i-m[sum-target])
-                    minlen = min(minlen, i-m[sum-target]);
-                left[i] = minlen;
-            }
-        }
-        m.clear();
-        m[0] = n;
-        sum = 0;
-        minlen = INT_MAX;
-        for(i = n-1; i >= 0; --i)
-        {
-            sum += arr[i];
-            m[sum] = i;
-            if(m.count(sum-target))
-            {
-                if(m[sum-target]-i)
-                    minlen = min(minlen, m[sum-target]-i);
-                right[i] = minlen;
-            }
-        }
-        minlen = INT_MAX;
-        for(i = 0; i < n-1; ++i)
-            if(left[i] && right[i+1])//左右都存在
-                minlen = min(minlen, left[i]+right[i+1]);
-        return minlen==INT_MAX?-1:minlen;
+    int arrayNesting(vector<int>& nums) {
+    	int maxlen = 0, len = 0, idx = 0, prev;
+    	for(int i = 0; i < nums.size(); ++i)
+    	{
+    		if(nums[i] == -1)
+    			continue;
+    		idx = i;
+    		len = 0;
+    		while(nums[idx] != -1)
+    		{
+    			len++;
+    			prev = idx;
+                if(nums[idx] != -1)
+    			    idx = nums[nums[idx]];
+    			nums[prev] = -1;
+    		}
+    		maxlen = max(maxlen, len);
+    	}
+    	return maxlen;
     }
 };
 void printv(vector<int>& v)
@@ -119,7 +101,7 @@ int main() {
     vector<vector<int>> v6 ={{0,1},{1,2},{2,3},{3,4}};
     vector<vector<int>> v5 ={{0,4},{4,0},{1,3},{3,0}};
     vector<int> v1 = {197,130,1};
-    vector<int> v2 = {3,2,2,4,3};
+    vector<int> v2 = {5,4,0,3,1,6,2};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
     vector<int> v4 = {};
     string str = "eceeeefasdghjklqwertyuio";
@@ -127,7 +109,7 @@ int main() {
 
     vector<string> st1 = {"havana"};
     Solution s;
-    s.minSumOfLengths(v2,3);
+    s.arrayNesting(v2);
     printv(v4);
 
     string s1 = "1";
