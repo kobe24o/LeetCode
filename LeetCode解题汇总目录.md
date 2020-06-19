@@ -562,6 +562,7 @@
 | [LeetCode 829. 连续整数求和（数学）](https://michael.blog.csdn.net/article/details/103501644) |                                                              |
 | [LeetCode 830. 较大分组的位置](https://michael.blog.csdn.net/article/details/105775988) |                                                              |
 | [LeetCode 832. 翻转图像（异或^）](https://blog.csdn.net/qq_21201267/article/details/100585771) |                                                              |
+| [LeetCode 835. 图像重叠](https://michael.blog.csdn.net/article/details/106858356) |                                                              |
 | [LeetCode 836. 矩形重叠](https://michael.blog.csdn.net/article/details/105797392) |                                                              |
 | [LeetCode 837. 新21点（动态规划）](https://michael.blog.csdn.net/article/details/106341826) |                                                              |
 | [LeetCode 840. 矩阵中的幻方（数学）](https://michael.blog.csdn.net/article/details/103192644) |                                                              |
