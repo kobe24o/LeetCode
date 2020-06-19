@@ -69,39 +69,36 @@ struct cmp
 };
 class Solution {
 public:
-    int maxSideLength(vector<vector<int>>& mat, int threshold) {
-        int m = mat.size(), n = mat[0].size(), i, j, maxlen = 0, len = 0;
-        vector<vector<int>> sum(m,vector<int>(n,0));
-        for(j = 0; j < n; ++j)
-            sum[0][j] = j > 0 ? sum[0][j-1] : 0 + mat[0][j];
-        for(i = 1; i < m; ++i)
-            sum[i][0] = sum[i-1][0] + mat[i][0];
-        for(i = 1; i < m; ++i)
-            for(j = 1; j < n; ++j)
-                sum[i][j] = sum[i-1][j] + sum[i][j-1] - sum[i-1][j-1]+mat[i][j];
-        int ni, nj, sumofarea;
-        for(i = 0; i < m; ++i)
-            for(j = 0; j < n; ++j)
-                for(len = 1; len <= min(m,n); ++len)
-                {
-                    ni = i+len-1;
-                    nj = j+len-1;
-                    if(ni < m && nj < n)
-                    {
-                        sumofarea = sum[ni][nj]-(i>0?sum[i-1][nj]:0)-(j>0?sum[ni][j-1]:0)
-                                    +(i>0&&j>0 ? sum[i-1][j-1] : 0);
-                        if(sumofarea <= threshold)
-                        {
-                            cout << ni << nj << i << j << endl;
-                            maxlen = max(maxlen, len);
-                            if(maxlen == min(m,n))
-                                return maxlen;
-                        }
-                    }
-                    else
-                        break;
-                }
-        return maxlen;
+    int largestOverlap(vector<vector<int>>& A, vector<vector<int>>& B) {
+        int m = A.size(), i, j, maxOverlap = 0;
+        for(i = 0; i < m; i++)
+        {
+            for(j = 0; j < m; ++j)
+            {
+                maxOverlap = max(maxOverlap, cmp(A,B,i,j));
+            }
+        }
+        return maxOverlap;
+    }
+
+    int cmp(vector<vector<int>>& A, vector<vector<int>>& B, int x, int y)
+    {
+        int i, j, m = A.size(), count = 0;
+        for(i = 0; i < m; i++)
+        {
+            for(j = 0; j < m; j++)
+            {
+                if(A[i][j] && B[x][y])
+                    count++;
+                y++;
+                if(y == m)
+                    y = 0;
+            }
+            x++;
+            if(x == m)
+                x = 0;
+        }
+        return count;
     }
 };
 void printv(vector<int>& v)
@@ -111,8 +108,8 @@ void printv(vector<int>& v)
     cout << endl;
 }
 int main() {
-    vector<vector<int>> v6 ={{2,2,2,2,2},{2,2,2,2,2},{2,2,2,2,2},{2,2,2,2,2},{2,2,2,2,2}};
-    vector<vector<int>> v5 ={{0,4},{4,0},{1,3},{3,0}};
+    vector<vector<int>> v6 ={{0,1},{1,1}};
+    vector<vector<int>> v5 ={{1,1},{1,0}};
     vector<int> v1 = {197,130,1};
     vector<int> v2 = {5,4,0,3,1,6,2};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
@@ -122,7 +119,7 @@ int main() {
 
     vector<string> st1 = {"havana"};
     Solution s;
-    s.maxSideLength(v6,1);
+    s.largestOverlap(v6,v5);
     printv(v4);
 
     string s1 = "1";
