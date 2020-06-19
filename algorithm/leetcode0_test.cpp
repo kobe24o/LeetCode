@@ -69,25 +69,39 @@ struct cmp
 };
 class Solution {
 public:
-    int arrayNesting(vector<int>& nums) {
-    	int maxlen = 0, len = 0, idx = 0, prev;
-    	for(int i = 0; i < nums.size(); ++i)
-    	{
-    		if(nums[i] == -1)
-    			continue;
-    		idx = i;
-    		len = 0;
-    		while(nums[idx] != -1)
-    		{
-    			len++;
-    			prev = idx;
-                if(nums[idx] != -1)
-    			    idx = nums[nums[idx]];
-    			nums[prev] = -1;
-    		}
-    		maxlen = max(maxlen, len);
-    	}
-    	return maxlen;
+    int maxSideLength(vector<vector<int>>& mat, int threshold) {
+        int m = mat.size(), n = mat[0].size(), i, j, maxlen = 0, len = 0;
+        vector<vector<int>> sum(m,vector<int>(n,0));
+        for(j = 0; j < n; ++j)
+            sum[0][j] = j > 0 ? sum[0][j-1] : 0 + mat[0][j];
+        for(i = 1; i < m; ++i)
+            sum[i][0] = sum[i-1][0] + mat[i][0];
+        for(i = 1; i < m; ++i)
+            for(j = 1; j < n; ++j)
+                sum[i][j] = sum[i-1][j] + sum[i][j-1] - sum[i-1][j-1]+mat[i][j];
+        int ni, nj, sumofarea;
+        for(i = 0; i < m; ++i)
+            for(j = 0; j < n; ++j)
+                for(len = 1; len <= min(m,n); ++len)
+                {
+                    ni = i+len-1;
+                    nj = j+len-1;
+                    if(ni < m && nj < n)
+                    {
+                        sumofarea = sum[ni][nj]-(i>0?sum[i-1][nj]:0)-(j>0?sum[ni][j-1]:0)
+                                    +(i>0&&j>0 ? sum[i-1][j-1] : 0);
+                        if(sumofarea <= threshold)
+                        {
+                            cout << ni << nj << i << j << endl;
+                            maxlen = max(maxlen, len);
+                            if(maxlen == min(m,n))
+                                return maxlen;
+                        }
+                    }
+                    else
+                        break;
+                }
+        return maxlen;
     }
 };
 void printv(vector<int>& v)
@@ -97,8 +111,7 @@ void printv(vector<int>& v)
     cout << endl;
 }
 int main() {
-//    vector<vector<int>> v6 = {{-13260,8589},{1350,8721},{-37222,-19547},{-54293,-29302},{-10489,-13241},{-19382,574},{5561,1033},{-22508,-13241},{-1542,20695},{9277,2820},{-32081,16145},{-50902,23701},{-8636,19504},{-17042,-28765},{-27132,-24156},{-48323,-4607},{30279,29922}};
-    vector<vector<int>> v6 ={{0,1},{1,2},{2,3},{3,4}};
+    vector<vector<int>> v6 ={{2,2,2,2,2},{2,2,2,2,2},{2,2,2,2,2},{2,2,2,2,2},{2,2,2,2,2}};
     vector<vector<int>> v5 ={{0,4},{4,0},{1,3},{3,0}};
     vector<int> v1 = {197,130,1};
     vector<int> v2 = {5,4,0,3,1,6,2};
@@ -109,7 +122,7 @@ int main() {
 
     vector<string> st1 = {"havana"};
     Solution s;
-    s.arrayNesting(v2);
+    s.maxSideLength(v6,1);
     printv(v4);
 
     string s1 = "1";

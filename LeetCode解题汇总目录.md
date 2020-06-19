@@ -788,6 +788,7 @@
 | [LeetCode 1289. 下降路径最小和 II（DP）](https://michael.blog.csdn.net/article/details/104114823) |                                                              |
 | [LeetCode 1290. 二进制链表转整数](https://michael.blog.csdn.net/article/details/105594520) |                                                              |
 | [LeetCode 1291. 顺次数（模拟）](https://michael.blog.csdn.net/article/details/106578059) |                                                              |
+| [LeetCode 1292. 元素和小于等于阈值的正方形的最大边长（DP）](https://michael.blog.csdn.net/article/details/106854305) |                                                              |
 | [LeetCode 1295. 统计位数为偶数的数字](https://michael.blog.csdn.net/article/details/105801508) |                                                              |
 | [LeetCode 1296. 划分数组为连续数字的集合（map模拟）](https://michael.blog.csdn.net/article/details/106577446) |                                                              |
 | [LeetCode 1297. 子串的最大出现次数](https://michael.blog.csdn.net/article/details/106390406) |                                                              |
