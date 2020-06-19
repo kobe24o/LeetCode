@@ -550,6 +550,7 @@
 | [LeetCode 810. 黑板异或游戏（博弈推理）](https://michael.blog.csdn.net/article/details/106713569) |                                                              |
 | [LeetCode 811. 子域名访问计数](https://michael.blog.csdn.net/article/details/105758279) |                                                              |
 | [LeetCode 812. 最大三角形面积（坐标面积公式）](https://michael.blog.csdn.net/article/details/105758490) |                                                              |
+| [LeetCode 813. 最大平均值和的分组（DP）](https://michael.blog.csdn.net/article/details/106860695) |                                                              |
 | [LeetCode 814. 二叉树剪枝（递归）](https://blog.csdn.net/qq_21201267/article/details/100566646) |                                                              |
 | [LeetCode 815. 公交路线（最少换乘，BFS）](https://michael.blog.csdn.net/article/details/106428528) |                                                              |
 | [LeetCode 816. 模糊坐标](https://michael.blog.csdn.net/article/details/103942445) |                                                              |
