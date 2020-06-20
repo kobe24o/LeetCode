@@ -68,37 +68,41 @@ struct cmp
     }
 };
 class Solution {
+    int i = 0;
+    bool can = true;
+    vector<int> ans;
 public:
-    int largestOverlap(vector<vector<int>>& A, vector<vector<int>>& B) {
-        int m = A.size(), i, j, maxOverlap = 0;
-        for(i = 0; i < m; i++)
-        {
-            for(j = 0; j < m; ++j)
-            {
-                maxOverlap = max(maxOverlap, cmp(A,B,i,j));
-            }
-        }
-        return maxOverlap;
+    vector<int> flipMatchVoyage(TreeNode* root, vector<int>& voyage) {
+        dfs(root, voyage);
+        if(!can) return {-1};
+        return ans;
     }
 
-    int cmp(vector<vector<int>>& A, vector<vector<int>>& B, int x, int y)
+    void dfs(TreeNode* root, vector<int>& voyage)
     {
-        int i, j, m = A.size(), count = 0;
-        for(i = 0; i < m; i++)
+        if(!can || !root)
         {
-            for(j = 0; j < m; j++)
-            {
-                if(A[i][j] && B[x][y])
-                    count++;
-                y++;
-                if(y == m)
-                    y = 0;
-            }
-            x++;
-            if(x == m)
-                x = 0;
+            return;
         }
-        return count;
+        if(root->val == voyage[i])
+        {
+            i++;
+            if(root->left && root->left->val == voyage[i])
+            {
+                dfs(root->left, voyage);
+                dfs(root->right, voyage);
+            }
+            else if(root->left && root->right && root->right->val == voyage[i])
+            {
+                ans.push_back(root->val);
+                dfs(root->right, voyage);
+                dfs(root->left, voyage);
+            }
+            else
+                can = false;
+        }
+        else
+            can = false;
     }
 };
 void printv(vector<int>& v)
@@ -113,27 +117,27 @@ int main() {
     vector<int> v1 = {197,130,1};
     vector<int> v2 = {5,4,0,3,1,6,2};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
-    vector<int> v4 = {};
+    vector<int> v4 = {1,3,2};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
 
     vector<string> st1 = {"havana"};
     Solution s;
-    s.largestOverlap(v6,v5);
+//    s.largestOverlap(v6,v5);
     printv(v4);
 
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
-    TreeNode *t1 = new TreeNode(0);
-    TreeNode *t2 = new TreeNode(1);
-    TreeNode *t3 = new TreeNode(2);
+    TreeNode *t1 = new TreeNode(1);
+    TreeNode *t2 = new TreeNode(2);
+    TreeNode *t3 = new TreeNode(3);
     TreeNode *t4 = new TreeNode(3);
     TreeNode *t5 = new TreeNode(4);
     t1->left = t2;
     t1->right = t3;
-    t2->left = t4;
-    t2->right = t5;
-
+//    t2->left = t4;
+//    t2->right = t5;
+    s.flipMatchVoyage(t1,v4);
 
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
