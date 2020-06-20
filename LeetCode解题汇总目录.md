@@ -645,6 +645,7 @@
 | [LeetCode 961. 重复 N 次的元素](https://michael.blog.csdn.net/article/details/105800069) |                                                              |
 | [LeetCode 962. 最大宽度坡（单调栈）](https://michael.blog.csdn.net/article/details/106057212) |                                                              |
 | [LeetCode 965. 单值二叉树](https://blog.csdn.net/qq_21201267/article/details/100993432) |                                                              |
+| [LeetCode 966. 元音拼写检查器（哈希）](https://michael.blog.csdn.net/article/details/106875371) |                                                              |
 | [LeetCode 969. 煎饼排序](https://blog.csdn.net/qq_21201267/article/details/100797632) |                                                              |
 | [LeetCode 970. 强整数](https://blog.csdn.net/qq_21201267/article/details/102889287) |                                                              |
 | [LeetCode 973. 最接近原点的 K 个点（排序/优先队列/快排）](https://michael.blog.csdn.net/article/details/105969787) |                                                              |
