@@ -648,6 +648,7 @@
 | [LeetCode 966. 元音拼写检查器（哈希）](https://michael.blog.csdn.net/article/details/106875371) |                                                              |
 | [LeetCode 969. 煎饼排序](https://blog.csdn.net/qq_21201267/article/details/100797632) |                                                              |
 | [LeetCode 970. 强整数](https://blog.csdn.net/qq_21201267/article/details/102889287) |                                                              |
+| [LeetCode 971. 翻转二叉树以匹配先序遍历（DFS）](https://michael.blog.csdn.net/article/details/106876360) |                                                              |
 | [LeetCode 973. 最接近原点的 K 个点（排序/优先队列/快排）](https://michael.blog.csdn.net/article/details/105969787) |                                                              |
 | [LeetCode 974. 和可被 K 整除的子数组（哈希map）](https://michael.blog.csdn.net/article/details/106373050) |                                                              |
 | [LeetCode 976. 三角形的最大周长](https://michael.blog.csdn.net/article/details/105778251) |                                                              |
