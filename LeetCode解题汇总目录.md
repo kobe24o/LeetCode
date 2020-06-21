@@ -941,6 +941,7 @@
 | [LeetCode 1482. 制作 m 束花所需的最少天数（二分查找）](https://michael.blog.csdn.net/article/details/106749930) |                                                              |
 | [LeetCode 5440. 数组异或操作](https://michael.blog.csdn.net/article/details/106883899) |                                                              |
 | [LeetCode 5441. 保证文件名唯一（哈希map）](https://michael.blog.csdn.net/article/details/106884295) |                                                              |
+| [LeetCode 5442. 避免洪水泛滥（哈希map+deque）](https://michael.blog.csdn.net/article/details/106889436) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
