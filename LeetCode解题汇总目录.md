@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
-**已解决 1100/1685** - **简单 412** **中等 584** **困难 104**
+**已解决 1111/1689** - **简单 413** **中等 591** **困难 107**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 - 2019.11.09 - 2019.11.24，AC + 100道，共计500道（123天，4个月）
@@ -320,6 +320,7 @@
 | [LeetCode 388. 文件的最长绝对路径（不用栈，前缀和）](https://michael.blog.csdn.net/article/details/106210795) |                                                              |
 | [LeetCode 389. 找不同（位运算）](https://blog.csdn.net/qq_21201267/article/details/101165255) |                                                              |
 | [LeetCode 390. 消除游戏（类似约瑟夫环，找映射规律）](https://michael.blog.csdn.net/article/details/106376201) |                                                              |
+| [LeetCode 391. 完美矩形（set检查顶点+面积检查）](https://blog.csdn.net/qq_21201267/article/details/106922771) |                                                              |
 | [LeetCode 392. 判断子序列（双指针&二分查找）](https://michael.blog.csdn.net/article/details/103206471) |                                                              |
 | [LeetCode 393. UTF-8 编码验证（位运算）](https://blog.csdn.net/qq_21201267/article/details/106197435) |                                                              |
 | [LeetCode 394. 字符串解码（栈）](https://blog.csdn.net/qq_21201267/article/details/101607649) |                                                              |
