@@ -452,6 +452,7 @@
 | [LeetCode 599. 两个列表的最小索引总和（哈希map）](https://michael.blog.csdn.net/article/details/105719230) |                                                              |
 | [LeetCode 605. 种花问题](https://blog.csdn.net/qq_21201267/article/details/102904001) |                                                              |
 | [LeetCode 606. 根据二叉树创建字符串（递归）](https://michael.blog.csdn.net/article/details/103021068) |                                                              |
+| [LeetCode 609. 在系统中查找重复文件（哈希）](https://michael.blog.csdn.net/article/details/106932074) |                                                              |
 | [LeetCode 611. 有效三角形的个数（双指针）](https://michael.blog.csdn.net/article/details/103649865) |                                                              |
 | [LeetCode 617. 合并二叉树](https://blog.csdn.net/qq_21201267/article/details/100569367) |                                                              |
 | [LeetCode 621. 任务调度器（贪心）](https://blog.csdn.net/qq_21201267/article/details/102760180) |                                                              |
