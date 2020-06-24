@@ -68,41 +68,52 @@ struct cmp
     }
 };
 class Solution {
-    int i = 0;
-    bool can = true;
-    vector<int> ans;
 public:
-    vector<int> flipMatchVoyage(TreeNode* root, vector<int>& voyage) {
-        dfs(root, voyage);
-        if(!can) return {-1};
-        return ans;
-    }
-
-    void dfs(TreeNode* root, vector<int>& voyage)
-    {
-        if(!can || !root)
+    int calculate(string s) {
+        stack<int> stk;
+        int sign = 1;
+        long num = 0, sum = 0;
+        for(int i = 0; i < s.size(); ++i)
         {
-            return;
-        }
-        if(root->val == voyage[i])
-        {
-            i++;
-            if(root->left && root->left->val == voyage[i])
+            // if(s[i] == ' ')
+            // 	continue;
+            if(s[i] =='(')
             {
-                dfs(root->left, voyage);
-                dfs(root->right, voyage);
+                // ans += sum;
+                stk.push(sum);
+                stk.push(sign);
+                sign = 1;
+                num = 0;
             }
-            else if(root->left && root->right && root->right->val == voyage[i])
+            else if(s[i] =='+')
             {
-                ans.push_back(root->val);
-                dfs(root->right, voyage);
-                dfs(root->left, voyage);
+                sum += sign*num;
+                sign = 1;
+                num = 0;
             }
-            else
-                can = false;
+            else if(s[i] =='-')
+            {
+                sum += sign*num;
+                sign = -1;
+                num = 0;
+            }
+            else if(s[i] ==')')
+            {
+                sum += sign*num;
+                sign = stk.top();
+                stk.pop();
+                sum = sign*sum + stk.top();
+                stk.pop();
+                // sign = 1;
+                num = 0;
+            }
+            else if(isdigit(s[i]))
+            {
+                num = num*10+s[i]-'0';
+            }
         }
-        else
-            can = false;
+        sum += sign*num;
+        return sum;
     }
 };
 void printv(vector<int>& v)
@@ -137,7 +148,7 @@ int main() {
     t1->right = t3;
 //    t2->left = t4;
 //    t2->right = t5;
-    s.flipMatchVoyage(t1,v4);
+    s.calculate("(5-(1+(5)))");
 
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
