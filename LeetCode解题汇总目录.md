@@ -385,6 +385,7 @@
 | [LeetCode 476. 数字的补数（移位 异或^）](https://blog.csdn.net/qq_21201267/article/details/100938652) |                                                              |
 | [LeetCode 477. 汉明距离总和（位运算）](https://blog.csdn.net/qq_21201267/article/details/103410908) |                                                              |
 | [LeetCode 478. 在圆内随机生成点（概率）](https://michael.blog.csdn.net/article/details/103341534) |                                                              |
+| [LeetCode 480. 滑动窗口中位数（大小堆升级版+set实现）](https://michael.blog.csdn.net/article/details/106962644) |                                                              |
 | [LeetCode 481. 神奇字符串（找规律）](https://michael.blog.csdn.net/article/details/103606978) |                                                              |
 | [LeetCode 482. 密钥格式化](https://blog.csdn.net/qq_21201267/article/details/102888974) |                                                              |
 | [LeetCode 485. 最大连续1的个数](https://blog.csdn.net/qq_21201267/article/details/100855102) |                                                              |
