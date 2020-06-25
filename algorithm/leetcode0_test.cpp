@@ -68,52 +68,81 @@ struct cmp
     }
 };
 class Solution {
+    multiset<int> minheap;
+    multiset<int,greater<int>> maxheap;
 public:
-    int calculate(string s) {
-        stack<int> stk;
-        int sign = 1;
-        long num = 0, sum = 0;
-        for(int i = 0; i < s.size(); ++i)
+    vector<double> medianSlidingWindow(vector<int>& nums, int k) {
+        if(k == 1) return vector<double>(nums.begin(), nums.end());
+        int n = nums.size(), i = 0, j = 0, idx = 0;
+        long a, b;
+        vector<double> ans(n-k+1);
+        for( ; j < k; ++j)
+            maxheap_minheap_add(nums[j]);
+        a = (*maxheap.begin()), b = (*minheap.begin());
+        ans[idx++] = (k&1) ? b : (a+b)/2.0;
+        for(i = 0 ; j < n; ++i,++j)
         {
-            // if(s[i] == ' ')
-            // 	continue;
-            if(s[i] =='(')
+            maxheap_minheap_del(nums[i]);
+            maxheap_minheap_add(nums[j]);
+            a = (*maxheap.begin()), b = (*minheap.begin());
+            ans[idx++] = (k&1) ? b : (a+b)/2.0;
+        }
+        return ans;
+    }
+
+    void maxheap_minheap_add(int x)
+    {
+        if(minheap.empty())
+            minheap.insert(x);
+        else if(maxheap.size() == minheap.size())
+        {
+            if(x >= *maxheap.begin())
+                minheap.insert(x);
+            else
             {
-                // ans += sum;
-                stk.push(sum);
-                stk.push(sign);
-                sign = 1;
-                num = 0;
-            }
-            else if(s[i] =='+')
-            {
-                sum += sign*num;
-                sign = 1;
-                num = 0;
-            }
-            else if(s[i] =='-')
-            {
-                sum += sign*num;
-                sign = -1;
-                num = 0;
-            }
-            else if(s[i] ==')')
-            {
-                sum += sign*num;
-                sign = stk.top();
-                stk.pop();
-                sum = sign*sum + stk.top();
-                stk.pop();
-                // sign = 1;
-                num = 0;
-            }
-            else if(isdigit(s[i]))
-            {
-                num = num*10+s[i]-'0';
+                minheap.insert(*maxheap.begin());
+                maxheap.erase(maxheap.begin());
+                maxheap.insert(x);
             }
         }
-        sum += sign*num;
-        return sum;
+        else if(maxheap.size() < minheap.size())
+        {
+            if(x <= *maxheap.begin())
+                maxheap.insert(x);
+            else
+            {
+                maxheap.insert(*minheap.begin());
+                minheap.erase(minheap.begin());
+                minheap.insert(x);
+            }
+        }
+    }
+    void maxheap_minheap_del(int x)
+    {
+        if(maxheap.size() < minheap.size())
+        {
+            auto it = minheap.find(x);
+            if(it != minheap.end())
+                minheap.erase(it);
+            else
+            {
+                maxheap.erase(maxheap.find(x));
+                maxheap.insert(*minheap.begin());
+                minheap.erase(minheap.begin());
+            }
+        }
+        else if(maxheap.size() == minheap.size())
+        {
+            auto it = maxheap.find(x);
+            if(it != maxheap.end())
+                maxheap.erase(it);
+            else
+            {
+                minheap.erase(minheap.find(x));
+                minheap.insert(*maxheap.begin());
+                maxheap.erase(maxheap.begin());
+            }
+        }
     }
 };
 void printv(vector<int>& v)
@@ -125,7 +154,7 @@ void printv(vector<int>& v)
 int main() {
     vector<vector<int>> v6 ={{0,1},{1,1}};
     vector<vector<int>> v5 ={{1,1},{1,0}};
-    vector<int> v1 = {197,130,1};
+    vector<int> v1 = {-2147483648,-2147483648,2147483647,-2147483648,-2147483648,-2147483648,2147483647,2147483647,2147483647,2147483647,-2147483648,2147483647,-2147483648};
     vector<int> v2 = {5,4,0,3,1,6,2};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
     vector<int> v4 = {1,3,2};
@@ -148,7 +177,7 @@ int main() {
     t1->right = t3;
 //    t2->left = t4;
 //    t2->right = t5;
-    s.calculate("(5-(1+(5)))");
+    s.medianSlidingWindow(v1,2);
 
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
