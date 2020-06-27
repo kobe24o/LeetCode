@@ -68,81 +68,42 @@ struct cmp
     }
 };
 class Solution {
-    multiset<int> minheap;
-    multiset<int,greater<int>> maxheap;
 public:
-    vector<double> medianSlidingWindow(vector<int>& nums, int k) {
-        if(k == 1) return vector<double>(nums.begin(), nums.end());
-        int n = nums.size(), i = 0, j = 0, idx = 0;
-        long a, b;
-        vector<double> ans(n-k+1);
-        for( ; j < k; ++j)
-            maxheap_minheap_add(nums[j]);
-        a = (*maxheap.begin()), b = (*minheap.begin());
-        ans[idx++] = (k&1) ? b : (a+b)/2.0;
-        for(i = 0 ; j < n; ++i,++j)
+    int longestSubarray(vector<int>& nums) {
+        int maxlen = 0;
+        vector<vector<int>> lr;
+        int l = -1, r = -1;
+        for(int i = 0; i < nums.size(); i++)
         {
-            maxheap_minheap_del(nums[i]);
-            maxheap_minheap_add(nums[j]);
-            a = (*maxheap.begin()), b = (*minheap.begin());
-            ans[idx++] = (k&1) ? b : (a+b)/2.0;
-        }
-        return ans;
-    }
-
-    void maxheap_minheap_add(int x)
-    {
-        if(minheap.empty())
-            minheap.insert(x);
-        else if(maxheap.size() == minheap.size())
-        {
-            if(x >= *maxheap.begin())
-                minheap.insert(x);
-            else
+            if(nums[i]&&l==-1)
+                l = i;
+            if(l != -1 && nums[i]==0 && r==-1)
+                r = i-1;
+            if(nums[i] && i == nums.size()-1)
+                r = nums.size()-1;
+            if(l!=-1 && r!=-1)
             {
-                minheap.insert(*maxheap.begin());
-                maxheap.erase(maxheap.begin());
-                maxheap.insert(x);
+                lr.push_back({l,r});
+                l = r = -1;
             }
         }
-        else if(maxheap.size() < minheap.size())
+        if(lr.size()==1)
         {
-            if(x <= *maxheap.begin())
-                maxheap.insert(x);
+            if(lr[0][0]!=0 || lr[0][1]!=nums.size()-1)
+                return lr[0][1]-lr[0][0]+1;
             else
-            {
-                maxheap.insert(*minheap.begin());
-                minheap.erase(minheap.begin());
-                minheap.insert(x);
-            }
+                return nums.size()-1;
         }
-    }
-    void maxheap_minheap_del(int x)
-    {
-        if(maxheap.size() < minheap.size())
+        maxlen = max(maxlen, lr[0][1]-lr[0][0]+1);
+        for(int i = 0,j; i < lr.size()-1; i++)
         {
-            auto it = minheap.find(x);
-            if(it != minheap.end())
-                minheap.erase(it);
+            j = i+1;
+            if(lr[i][1]+1==lr[j][0])
+                maxlen = max(maxlen, lr[j][1]-lr[i][0]);
             else
-            {
-                maxheap.erase(maxheap.find(x));
-                maxheap.insert(*minheap.begin());
-                minheap.erase(minheap.begin());
-            }
+                maxlen = max(maxlen, lr[j][1]-lr[j][0]+1);
         }
-        else if(maxheap.size() == minheap.size())
-        {
-            auto it = maxheap.find(x);
-            if(it != maxheap.end())
-                maxheap.erase(it);
-            else
-            {
-                minheap.erase(minheap.find(x));
-                minheap.insert(*maxheap.begin());
-                maxheap.erase(maxheap.begin());
-            }
-        }
+        return maxlen;
     }
 };
 void printv(vector<int>& v)
@@ -154,7 +115,7 @@ void printv(vector<int>& v)
 int main() {
     vector<vector<int>> v6 ={{0,1},{1,1}};
     vector<vector<int>> v5 ={{1,1},{1,0}};
-    vector<int> v1 = {-2147483648,-2147483648,2147483647,-2147483648,-2147483648,-2147483648,2147483647,2147483647,2147483647,2147483647,-2147483648,2147483647,-2147483648};
+    vector<int> v1 = {1,1,0,0,1,1,1,0,1};
     vector<int> v2 = {5,4,0,3,1,6,2};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
     vector<int> v4 = {1,3,2};
@@ -177,7 +138,7 @@ int main() {
     t1->right = t3;
 //    t2->left = t4;
 //    t2->right = t5;
-    s.medianSlidingWindow(v1,2);
+    s.longestSubarray(v1);
 
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
