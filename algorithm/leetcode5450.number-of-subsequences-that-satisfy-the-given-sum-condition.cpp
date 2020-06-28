@@ -1,4 +1,5 @@
-class Solution {
+class Solution {    //C++
+    int mod = 1e9+7;
 public:
     int numSubseq(vector<int>& nums, int target) {
         sort(nums.begin(),nums.end());
@@ -6,11 +7,11 @@ public:
         unsigned long long count = 0;
         for(i = 0; i < nums.size(); ++i)
         {
-            // if(nums[i] > target/2+1)
-            //     break;
+            if(nums[i] > target/2+1)
+                break;
             j = bs(nums,target-nums[i]);
             if(j != -1 && j >= i)
-                count = (count+mypow(j-i))%int(1e9+7);
+                count = (count+mypow(j-i))%mod;
         }
         return count;
     }
@@ -38,10 +39,10 @@ public:
         long long s = 1, p = 2;
         while(n)
         {
-            if(n%2)
-                s *= p, s %= int(1e9+7);
+            if(n&1)
+                s *= p, s %= mod;
             p *= p;
-            p %= int(1e9+7);
+            p %= mod;
             n /= 2;
         }
         return s;
