@@ -69,41 +69,21 @@ struct cmp
 };
 class Solution {
 public:
-    int longestSubarray(vector<int>& nums) {
-        int maxlen = 0;
-        vector<vector<int>> lr;
-        int l = -1, r = -1;
-        for(int i = 0; i < nums.size(); i++)
+    bool canArrange(vector<int>& arr, int k) {
+        multiset<int> s;
+        for(auto a : arr)
+            s.insert(a%k);
+        while(!s.empty())
         {
-            if(nums[i]&&l==-1)
-                l = i;
-            if(l != -1 && nums[i]==0 && r==-1)
-                r = i-1;
-            if(nums[i] && i == nums.size()-1)
-                r = nums.size()-1;
-            if(l!=-1 && r!=-1)
-            {
-                lr.push_back({l,r});
-                l = r = -1;
-            }
-        }
-        if(lr.size()==1)
-        {
-            if(lr[0][0]!=0 || lr[0][1]!=nums.size()-1)
-                return lr[0][1]-lr[0][0]+1;
+            int a = *s.begin();
+            s.erase(s.begin());
+            auto it = s.find((k-a%k)%k);
+            if(it == s.end())
+                return false;
             else
-                return nums.size()-1;
+                s.erase(it);
         }
-        maxlen = max(maxlen, lr[0][1]-lr[0][0]+1);
-        for(int i = 0,j; i < lr.size()-1; i++)
-        {
-            j = i+1;
-            if(lr[i][1]+1==lr[j][0])
-                maxlen = max(maxlen, lr[j][1]-lr[i][0]);
-            else
-                maxlen = max(maxlen, lr[j][1]-lr[j][0]+1);
-        }
-        return maxlen;
+        return true;
     }
 };
 void printv(vector<int>& v)
@@ -115,7 +95,7 @@ void printv(vector<int>& v)
 int main() {
     vector<vector<int>> v6 ={{0,1},{1,1}};
     vector<vector<int>> v5 ={{1,1},{1,0}};
-    vector<int> v1 = {1,1,0,0,1,1,1,0,1};
+    vector<int> v1 = {-5,7};
     vector<int> v2 = {5,4,0,3,1,6,2};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
     vector<int> v4 = {1,3,2};
@@ -138,7 +118,8 @@ int main() {
     t1->right = t3;
 //    t2->left = t4;
 //    t2->right = t5;
-    s.longestSubarray(v1);
+    s.canArrange(v1,2);
+    cout << "mode" << -985824%5 <<endl;
 
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
