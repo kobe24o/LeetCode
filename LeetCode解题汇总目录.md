@@ -951,6 +951,9 @@
 | [LeetCode 1486. 数组异或操作](https://michael.blog.csdn.net/article/details/106883899) |                                                              |
 | [LeetCode 1487. 保证文件名唯一（哈希map）](https://michael.blog.csdn.net/article/details/106884295) |                                                              |
 | [LeetCode 1488. 避免洪水泛滥（哈希map+deque）](https://michael.blog.csdn.net/article/details/106889436) |                                                              |
+| [LeetCode 5432. 去掉最低工资和最高工资后的工资平均值](https://michael.blog.csdn.net/article/details/106990467#1_LeetCode_5432__easy_13) |                                                              |
+| [LeetCode 5433. n 的第 k 个因子](https://michael.blog.csdn.net/article/details/106990467#2_LeetCode_5433_n__k__medium_75) |                                                              |
+| [LeetCode 5434. 删掉一个元素以后全为 1 的最长子数组（滑动窗口）](https://michael.blog.csdn.net/article/details/106990467#3_LeetCode_5434__1__medium_175) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
