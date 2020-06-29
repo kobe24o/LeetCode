@@ -69,21 +69,29 @@ struct cmp
 };
 class Solution {
 public:
-    bool canArrange(vector<int>& arr, int k) {
-        multiset<int> s;
-        for(auto a : arr)
-            s.insert(a%k);
-        while(!s.empty())
+    int findKthLargest(vector<int>& nums, int k) {
+        return findk(nums,0,nums.size()-1, nums.size()-k);
+    }
+    int findk(vector<int>& nums, int l, int r, int k)
+    {
+        if(l >= r) return nums[l];
+        int p = nums[l];
+        int i = l+1, j = r;
+        while(i < j)
         {
-            int a = *s.begin();
-            s.erase(s.begin());
-            auto it = s.find((k-a%k)%k);
-            if(it == s.end())
-                return false;
-            else
-                s.erase(it);
+            while(i < j && nums[j] > p)
+                j--;
+            while(i < j && nums[i] <= p)
+                i++;
+            swap(nums[i],nums[j]);
         }
-        return true;
+        swap(nums[i], p);
+        if(i == k)
+            return nums[i];
+        if(i < k)
+            return findk(nums, i+1, r, k);
+        else
+            return findk(nums, l, i-1, k);
     }
 };
 void printv(vector<int>& v)
@@ -95,7 +103,7 @@ void printv(vector<int>& v)
 int main() {
     vector<vector<int>> v6 ={{0,1},{1,1}};
     vector<vector<int>> v5 ={{1,1},{1,0}};
-    vector<int> v1 = {-5,7};
+    vector<int> v1 = {2,1};
     vector<int> v2 = {5,4,0,3,1,6,2};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
     vector<int> v4 = {1,3,2};
@@ -118,8 +126,7 @@ int main() {
     t1->right = t3;
 //    t2->left = t4;
 //    t2->right = t5;
-    s.canArrange(v1,2);
-    cout << "mode" << -985824%5 <<endl;
+    s.findKthLargest(v1,2);
 
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
