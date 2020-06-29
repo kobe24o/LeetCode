@@ -570,6 +570,7 @@
 | [LeetCode 826. 安排工作以达到最大收益（map）](https://michael.blog.csdn.net/article/details/106320023) |                                                              |
 | [LeetCode 829. 连续整数求和（数学）](https://michael.blog.csdn.net/article/details/103501644) |                                                              |
 | [LeetCode 830. 较大分组的位置](https://michael.blog.csdn.net/article/details/105775988) |                                                              |
+| [LeetCode 831. 隐藏个人信息](https://michael.blog.csdn.net/article/details/107026868) |                                                              |
 | [LeetCode 832. 翻转图像（异或^）](https://blog.csdn.net/qq_21201267/article/details/100585771) |                                                              |
 | [LeetCode 835. 图像重叠](https://michael.blog.csdn.net/article/details/106858356) |                                                              |
 | [LeetCode 836. 矩形重叠](https://michael.blog.csdn.net/article/details/105797392) |                                                              |
@@ -951,12 +952,12 @@
 | [LeetCode 1486. 数组异或操作](https://michael.blog.csdn.net/article/details/106883899) |                                                              |
 | [LeetCode 1487. 保证文件名唯一（哈希map）](https://michael.blog.csdn.net/article/details/106884295) |                                                              |
 | [LeetCode 1488. 避免洪水泛滥（哈希map+deque）](https://michael.blog.csdn.net/article/details/106889436) |                                                              |
-| [LeetCode 5432. 去掉最低工资和最高工资后的工资平均值](https://michael.blog.csdn.net/article/details/106990467#1_LeetCode_5432__easy_13) |                                                              |
-| [LeetCode 5433. n 的第 k 个因子](https://michael.blog.csdn.net/article/details/106990467#2_LeetCode_5433_n__k__medium_75) |                                                              |
-| [LeetCode 5434. 删掉一个元素以后全为 1 的最长子数组（滑动窗口）](https://michael.blog.csdn.net/article/details/106990467#3_LeetCode_5434__1__medium_175) |                                                              |
-| [LeetCode 5448. 判断路径是否相交（set）](https://michael.blog.csdn.net/article/details/106996303) |                                                              |
-| [LeetCode 5449. 检查数组对是否可以被 k 整除（余数配对）](https://michael.blog.csdn.net/article/details/106996448) |                                                              |
-| [LeetCode 5450. 满足条件的子序列数目（排序+二分查找+快速幂）](https://michael.blog.csdn.net/article/details/106996638) |                                                              |
+| [LeetCode 1491. 去掉最低工资和最高工资后的工资平均值](https://michael.blog.csdn.net/article/details/106990467#1_LeetCode_5432__easy_13) |                                                              |
+| [LeetCode 1492. n 的第 k 个因子](https://michael.blog.csdn.net/article/details/106990467#2_LeetCode_5433_n__k__medium_75) |                                                              |
+| [LeetCode 1493. 删掉一个元素以后全为 1 的最长子数组（滑动窗口）](https://michael.blog.csdn.net/article/details/106990467#3_LeetCode_5434__1__medium_175) |                                                              |
+| [LeetCode 1496. 判断路径是否相交（set）](https://michael.blog.csdn.net/article/details/106996303) |                                                              |
+| [LeetCode 1497. 检查数组对是否可以被 k 整除（余数配对）](https://michael.blog.csdn.net/article/details/106996448) |                                                              |
+| [LeetCode 1498. 满足条件的子序列数目（排序+二分查找+快速幂）](https://michael.blog.csdn.net/article/details/106996638) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
