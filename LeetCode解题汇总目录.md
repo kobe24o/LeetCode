@@ -714,6 +714,7 @@
 | [LeetCode 1049. 最后一块石头的重量 II（DP）](https://michael.blog.csdn.net/article/details/106980126) |                                                              |
 | [LeetCode 1051. 高度检查器](https://blog.csdn.net/qq_21201267/article/details/100635273) |                                                              |
 | [LeetCode 1052. 爱生气的书店老板（滑动窗口）](https://michael.blog.csdn.net/article/details/103328664) |                                                              |
+| [LeetCode 1053. 交换一次的先前排列](https://michael.blog.csdn.net/article/details/107029805) |                                                              |
 | [LeetCode 1054. 距离相等的条形码（优先队列）](https://blog.csdn.net/qq_21201267/article/details/104317529) |                                                              |
 | [LeetCode 1071. 字符串的最大公因子（字符串的最大公约数）](https://michael.blog.csdn.net/article/details/103174953) |                                                              |
 | [LeetCode 1072. 按列翻转得到最大值等行数（查找相同的模式，哈希计数）](https://michael.blog.csdn.net/article/details/106972120) |                                                              |
