@@ -60,38 +60,65 @@ public:
         cur->isend = true;
     }
 };
-struct cmp
-{
-    bool operator()(const pair<int,int>& a, const pair<int,int>& b)const
-    {
-        return a.second-a.first < b.second-b.first;
-    }
-};
-class Solution {
+class MaxStack {
+    int maxelem = INT_MIN;
+    stack<int> s;
+    stack<int> temp;
+    int v, m;
 public:
-    int findKthLargest(vector<int>& nums, int k) {
-        return findk(nums,0,nums.size()-1, nums.size()-k);
+    /** initialize your data structure here. */
+    MaxStack() {
+
     }
-    int findk(vector<int>& nums, int l, int r, int k)
-    {
-        if(l >= r) return nums[l];
-        int p = nums[l];
-        int i = l+1, j = r;
-        while(i < j)
+
+    void push(int x) {
+        maxelem = max(maxelem, x);
+        s.push(x);
+        s.push(maxelem);
+    }
+
+    int pop() {
+        s.pop();
+        v = s.top();
+        s.pop();
+        return v;
+    }
+
+    int top() {
+        m = s.top();
+        s.pop();
+        v = s.top();
+        s.push(m);
+        return v;
+    }
+
+    int peekMax() {
+        return s.top();
+    }
+
+    int popMax() {
+        int ans = s.top();
+        maxelem = s.top();
+        bool flag = true;
+        while(flag)
         {
-            while(i < j && nums[j] > p)
-                j--;
-            while(i < j && nums[i] <= p)
-                i++;
-            swap(nums[i],nums[j]);
+            s.pop();
+            if(s.top() != maxelem)
+                temp.push(s.top());
+            else
+                flag = false;
+            s.pop();
         }
-        swap(nums[i], p);
-        if(i == k)
-            return nums[i];
-        if(i < k)
-            return findk(nums, i+1, r, k);
-        else
-            return findk(nums, l, i-1, k);
+        maxelem = s.empty() ? INT_MIN : s.top();
+        while(!temp.empty())
+        {
+            v = temp.top();
+            temp.pop();
+            s.push(v);
+            maxelem = max(maxelem, v);
+            s.push(maxelem);
+        }
+        return ans;
     }
 };
 void printv(vector<int>& v)
@@ -110,10 +137,9 @@ int main() {
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
 
-    vector<string> st1 = {"havana"};
-    Solution s;
-//    s.largestOverlap(v6,v5);
-    printv(v4);
+    vector<string> st1 = {"ab","bc"};
+//    Solution s;
+//
 
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
@@ -126,8 +152,22 @@ int main() {
     t1->right = t3;
 //    t2->left = t4;
 //    t2->right = t5;
-    s.findKthLargest(v1,2);
-
+//    s.boldWords(st1,"aabcd");
+    MaxStack s;
+    s.push(74);
+    s.popMax();
+    s.push(89);
+    s.push(67);
+    s.popMax();
+    s.pop();
+    s.push(61);
+    s.push(-77);
+    s.peekMax();
+    s.popMax();
+    s.push(81);
+    s.pop();
+    s.push(-71);
+    s.push(32);
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
     ListNode *h3 = new ListNode(8);

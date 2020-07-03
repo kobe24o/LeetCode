@@ -24,7 +24,7 @@ public:
     	for(auto& w : words)
     		t->insert(w);
     	vector<bool> bold(S.size(), false);
-    	int boldl = 0, boldr=0;//开始加粗的位置l,r
+    	int boldl = 0, boldr=-1;//开始加粗的位置l,r
     	for(int i = 0, j; i < S.size(); ++i)
     	{
     		cur = t;
