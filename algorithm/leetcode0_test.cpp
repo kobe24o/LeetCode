@@ -60,65 +60,23 @@ public:
         cur->isend = true;
     }
 };
-class MaxStack {
-    int maxelem = INT_MIN;
-    stack<int> s;
-    stack<int> temp;
-    int v, m;
+class Solution {
 public:
-    /** initialize your data structure here. */
-    MaxStack() {
-
-    }
-
-    void push(int x) {
-        maxelem = max(maxelem, x);
-        s.push(x);
-        s.push(maxelem);
-    }
-
-    int pop() {
-        s.pop();
-        v = s.top();
-        s.pop();
-        return v;
-    }
-
-    int top() {
-        m = s.top();
-        s.pop();
-        v = s.top();
-        s.push(m);
-        return v;
-    }
-
-    int peekMax() {
-        return s.top();
-    }
-
-    int popMax() {
-        int ans = s.top();
-        maxelem = s.top();
-        bool flag = true;
-        while(flag)
+    bool validWordAbbreviation(string word, string abbr) {
+        int i = 0, n = 0, j = 0;
+        while(i<word.size() && j < abbr.size())
         {
-            s.pop();
-            if(s.top() != maxelem)
-                temp.push(s.top());
-            else
-                flag = false;
-            s.pop();
+            n = 0;
+            while(j < abbr.size() && isdigit(abbr[j]))
+                n = n*10+abbr[j++]-'0';
+            i += n;
+            if(i<word.size() && j<abbr.size() && word[i] != abbr[j])
+                return false;
+            else if((i<word.size()&&j>=abbr.size())||(i>=word.size()&&j<abbr.size()))
+                return false;
+            i++,j++;
         }
-        maxelem = s.empty() ? INT_MIN : s.top();
-        while(!temp.empty())
-        {
-            v = temp.top();
-            temp.pop();
-            s.push(v);
-            maxelem = max(maxelem, v);
-            s.push(maxelem);
-        }
-        return ans;
+        return i==word.size() && j==abbr.size();
     }
 };
 void printv(vector<int>& v)
@@ -138,7 +96,7 @@ int main() {
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
 
     vector<string> st1 = {"ab","bc"};
-//    Solution s;
+    Solution s;
 //
 
     string s1 = "1";
@@ -152,22 +110,9 @@ int main() {
     t1->right = t3;
 //    t2->left = t4;
 //    t2->right = t5;
-//    s.boldWords(st1,"aabcd");
-    MaxStack s;
-    s.push(74);
-    s.popMax();
-    s.push(89);
-    s.push(67);
-    s.popMax();
-    s.pop();
-    s.push(61);
-    s.push(-77);
-    s.peekMax();
-    s.popMax();
-    s.push(81);
-    s.pop();
-    s.push(-71);
-    s.push(32);
+    s.validWordAbbreviation("internationalization"
+                            ,"i5a11o1");
+
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
     ListNode *h3 = new ListNode(8);
