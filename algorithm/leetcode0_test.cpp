@@ -62,21 +62,18 @@ public:
 };
 class Solution {
 public:
-    bool validWordAbbreviation(string word, string abbr) {
-        int i = 0, n = 0, j = 0;
-        while(i<word.size() && j < abbr.size())
-        {
-            n = 0;
-            while(j < abbr.size() && isdigit(abbr[j]))
-                n = n*10+abbr[j++]-'0';
-            i += n;
-            if(i<word.size() && j<abbr.size() && word[i] != abbr[j])
-                return false;
-            else if((i<word.size()&&j>=abbr.size())||(i>=word.size()&&j<abbr.size()))
-                return false;
-            i++,j++;
-        }
-        return i==word.size() && j==abbr.size();
+    TreeNode* upsideDownBinaryTree(TreeNode* root) {
+        return dfs(root, NULL);
+    }
+
+    TreeNode* dfs(TreeNode* root, TreeNode* father)
+    {
+        if(!root) return father;
+        TreeNode* p = dfs(root->left, root);
+        TreeNode* l = dfs(root->right, root);
+        p->left = l;
+        p->right = father;
+        return p;
     }
 };
 void printv(vector<int>& v)
@@ -104,14 +101,13 @@ int main() {
     TreeNode *t1 = new TreeNode(1);
     TreeNode *t2 = new TreeNode(2);
     TreeNode *t3 = new TreeNode(3);
-    TreeNode *t4 = new TreeNode(3);
-    TreeNode *t5 = new TreeNode(4);
+    TreeNode *t4 = new TreeNode(4);
+    TreeNode *t5 = new TreeNode(5);
     t1->left = t2;
     t1->right = t3;
-//    t2->left = t4;
-//    t2->right = t5;
-    s.validWordAbbreviation("internationalization"
-                            ,"i5a11o1");
+    t2->left = t4;
+    t2->right = t5;
+    s.upsideDownBinaryTree(t1);
 
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
