@@ -18,29 +18,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 using namespace std;
-class dsu
-{
-public:
-    vector<int> f;
 
-    dsu(int n)
-    {
-        f.resize(n+1);
-        for(int i = 0; i < n+1; ++i)
-            f[i] = i;
-    }
-    void merge(int a, int b)
-    {
-        f[a] = b;
-    }
-    int find(int a)
-    {
-        int origin = a;
-        while(a != f[a])
-            a = f[a];
-        return f[origin] = a;
-    }
-};
 class trie
 {
 public:
@@ -60,20 +38,48 @@ public:
         cur->isend = true;
     }
 };
+class dsu
+{
+public:
+    vector<int> f;
+
+    dsu(int n)
+    {
+        f.resize(n);
+        for(int i = 0; i < n; ++i)
+            f[i] = i;
+    }
+    void merge(int a, int b)
+    {
+        int fa = find(a);
+        int fb = find(b);
+        f[fa] = fb;
+    }
+    int find(int a)
+    {
+        int origin = a;
+        while(a != f[a])
+            a = f[a];
+        return f[origin] = a;
+    }
+    int countUni()
+    {
+        int count = 0;
+        for(int i = 0; i < f.size(); ++i)
+        {
+            if(i == find(i))
+                count++;
+        }
+        return count;
+    }
+};
 class Solution {
 public:
-    TreeNode* upsideDownBinaryTree(TreeNode* root) {
-        return dfs(root, NULL);
-    }
-
-    TreeNode* dfs(TreeNode* root, TreeNode* father)
-    {
-        if(!root) return father;
-        TreeNode* p = dfs(root->left, root);
-        TreeNode* l = dfs(root->right, root);
-        p->left = l;
-        p->right = father;
-        return p;
+    int countComponents(int n, vector<vector<int>>& edges) {
+        dsu u(n);
+        for(auto& e : edges)
+            u.merge(e[0],e[1]);
+        return u.countUni();
     }
 };
 void printv(vector<int>& v)
@@ -84,8 +90,8 @@ void printv(vector<int>& v)
 }
 int main() {
     vector<vector<int>> v6 ={{0,1},{1,1}};
-    vector<vector<int>> v5 ={{1,1},{1,0}};
-    vector<int> v1 = {2,1};
+    vector<vector<int>> v5 ={{0, 1}, {0, 2}, {2, 3}, {2, 4}};
+    vector<int> v1 = {113, 215, 221};
     vector<int> v2 = {5,4,0,3,1,6,2};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
     vector<int> v4 = {1,3,2};
@@ -107,7 +113,7 @@ int main() {
     t1->right = t3;
     t2->left = t4;
     t2->right = t5;
-    s.upsideDownBinaryTree(t1);
+    s.countComponents(5,v5);
 
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
