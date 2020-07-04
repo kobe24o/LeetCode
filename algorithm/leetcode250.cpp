@@ -8,16 +8,12 @@ public:
     bool dfs(TreeNode* root)
     {
     	if(!root) return true;
-    	bool l = dfs(root->left);
+    	bool l = dfs(root->left);//左子树都一样吗？
     	bool r = dfs(root->right);
-    	if((!root->left && !root->right) 
-    		||(root->left && !root->right && root->val == root->left->val)
-    		||(!root->left && root->right && root->val == root->right->val)
-    		||(root->left && root->right && root->val == root->left->val && root->val == root->right->val))
-		{
-			count++;
-			return true;
-		}    		
-		return false;
+    	if(!l || !r || (root->left && root->val != root->left->val) 
+    		||(root->right && root->val != root->right->val))		
+		    return false;
+        count++;
+		return true;
     }
 };
