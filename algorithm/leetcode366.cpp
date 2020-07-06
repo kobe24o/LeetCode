@@ -41,3 +41,23 @@ public:
     	return root;
     }
 };
+
+class Solution {
+    vector<vector<int>> ans;
+public:
+    vector<vector<int>> findLeaves(TreeNode* root) {
+        dfs(root);
+        return ans;
+    }
+    int dfs(TreeNode* root)
+    {
+        if(!root) return -1;
+        int hl = dfs(root->left);
+        int hr = dfs(root->right);
+        int hcur = max(hl, hr) + 1;
+        if(ans.size() <= hcur)
+            ans.push_back({});
+        ans[hcur].push_back(root->val);
+        return hcur;
+    }
+};
