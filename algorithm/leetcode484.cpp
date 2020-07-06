@@ -7,21 +7,26 @@ public:
     		ans[idx-1] = idx;
     	while(r < n)
     	{
+            
     		if(s[r] == 'I')
-    			l++, r++;
+    		{
+                if(l < r)
+                {
+                    reverse(ans, l, r);
+                    l = r;
+                }
+                l++, r++;
+            }
     		else//下降
     			r++;
-    		if(l < r)
-    		{
-    			reverse(ans, l, r)
-    			l = r = r+1;
-    		}
     	}
+        if(l < r)
+            reverse(ans, l, r);
     	return ans;
     }
     void reverse(vector<int>& ans, int i, int j)
     {
     	while(i < j)
-    		swap(s[i++],s[j--]);
+    		swap(ans[i++], ans[j--]);
     }
 };

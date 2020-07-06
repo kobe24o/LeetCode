@@ -75,69 +75,32 @@ public:
 };
 class Solution {
 public:
-    vector<string> wordsAbbreviation(vector<string>& dict) {
-        unordered_map<string,int> m;
-        int i, j, k, n = dict.size();
-        for(i = 0; i < n; ++i)
-            m[dict[i]] = i;
-        sort(dict.begin(), dict.end(),[&](string a, string b){
-            if(a.front() == b.front())
-                return a.back() < b.back();
-            return a.front() < b.front();
-        });
-        vector<string> ans(n);
-        string temp;
-        for(i = 0, j = 0; j < n; ++i)
+    vector<int> findPermutation(string s) {
+        int n = s.size(), idx, l = 0, r = 0;
+        vector<int> ans(n+1);
+        for(idx = 1; idx <= n+1; ++idx)
+            ans[idx-1] = idx;
+        while(r < n)
         {
-            if(dict[i].size()<=3)
+
+            if(s[r] == 'I')
             {
-                ans[m[dict[i]]] = dict[i];
-                continue;
-            }
-            j = i+1;
-            if(j==n || (j < n && ((dict[i][0]!=dict[j][0])
-                                  || dict[i].back()!=dict[j].back())))
-            {
-                temp = dict[i].front()+to_string(dict[i].size()-2)+dict[i].back();
-                ans[m[dict[i]]] = temp.size()<dict[i].size() ? temp : dict[i];
-            }
-            else
-            {
-                unordered_map<string,int> map;
-                map[dict[i]] = m[dict[i]];
-                while(j < n && dict[i][0]==dict[j][0] && dict[i].back()==dict[j].back())
+                if(l < r)
                 {
-                    map[dict[j]] = m[dict[j]];
-                    j++,i++;
+                    reverse(ans, l, r);
+                    l = r;
                 }
-                k = 0;
-                while(!good(map,k))
-                    k++;
-                for(auto it = map.begin(); it != map.end(); ++it)
-                {
-                    string str = it->first;
-                    temp = str.substr(0,1+k)+to_string(str.size()-k-2)+str.back();
-                    ans[it->second] = temp.size()<str.size() ? temp : str;
-                }
+                l++, r++;
             }
+            else//下降
+                r++;
         }
         return ans;
     }
-    bool good(unordered_map<string,int> &map, int k)
+    void reverse(vector<int>& ans, int i, int j)
     {
-        string str;
-        int id, n, frontn, size = map.size();
-        unordered_set<string> s;
-        for(auto it = map.begin(); it != map.end(); ++it)
-        {
-            id = it->second;
-            str = it->first;
-            n = str.size()-2-k;
-            frontn = 1+k;
-            str = str.substr(0,1+k)+to_string(n)+str.back();
-            s.insert(str);
-        }
-        return s.size() == size;
+        while(i < j)
+            swap(ans[i++], ans[j--]);
     }
 };
 void printv(vector<int>& v)
@@ -171,7 +134,7 @@ int main() {
     t1->right = t3;
     t2->left = t4;
     t2->right = t5;
-    s.wordsAbbreviation(st1);
+    s.findPermutation("DIDDIDDDIIIDIDD");
 
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
