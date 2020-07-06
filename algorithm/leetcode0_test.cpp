@@ -75,32 +75,40 @@ public:
 };
 class Solution {
 public:
-    vector<int> findPermutation(string s) {
-        int n = s.size(), idx, l = 0, r = 0;
-        vector<int> ans(n+1);
-        for(idx = 1; idx <= n+1; ++idx)
-            ans[idx-1] = idx;
-        while(r < n)
-        {
-
-            if(s[r] == 'I')
+    int maxA(int N) {
+        vector<set<pair<int,int>>> dp(N+1);
+        //dp[i] 表示，按了 i 次按键，得到的字符 和 缓存字符数量
+        dp[1].insert({1, 0});//按一次A,能出来一个A, 缓存里没有数据
+        int i, j;
+        for(j = 2; j <= N; ++j)
+        {	// j 是下一个要到达的状态
+            // ACV,6下按键，字符翻倍, 缓存更新
+            // V, 2下按键，粘贴前一次的数量，缓存不变
+            // A, 1下按键
+            //
+            if(j-1 >= 1 && !dp[j-1].empty())//前面状态存在，按一下按键A
             {
-                if(l < r)
+                for(auto it = dp[j-1].begin(); it != dp[j-1].end(); ++it)
                 {
-                    reverse(ans, l, r);
-                    l = r;
+                    dp[j].insert({it->first+1, it->second});
                 }
-                l++, r++;
             }
-            else//下降
-                r++;
+            if(j-2 >= 1 && !dp[j-2].empty())//前面状态存在，按2下按键,粘贴
+            {
+                for(auto it = dp[j-2].begin(); it != dp[j-2].end(); ++it)
+                {
+                    dp[j].insert({it->first+it->second, it->second});
+                }
+            }
+            if(j-6 >= 1 && !dp[j-6].empty())//前面状态存在，按6下按键,复制粘贴
+            {
+                for(auto it = dp[j-6].begin(); it != dp[j-6].end(); ++it)
+                {
+                    dp[j].insert({it->first*2, it->first});
+                }
+            }
         }
-        return ans;
-    }
-    void reverse(vector<int>& ans, int i, int j)
-    {
-        while(i < j)
-            swap(ans[i++], ans[j--]);
+        return dp[N].rbegin()->first;
     }
 };
 void printv(vector<int>& v)
@@ -134,7 +142,7 @@ int main() {
     t1->right = t3;
     t2->left = t4;
     t2->right = t5;
-    s.findPermutation("DIDDIDDDIIIDIDD");
+    s.maxA(7);
 
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
