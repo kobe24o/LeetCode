@@ -12,7 +12,11 @@ public:
     	int mindis = INT_MAX;
     	for(auto i = m[word1].begin(); i != m[word1].end(); ++i)
     	{
-    		
+    		auto j = m[word2].lower_bound(*i);
+    		if(j != m[word2].end())
+    			mindis = min(mindis, abs(*j-*i));
+    		if(j != m[word2].begin())
+    			mindis = min(mindis, abs(*(--j)-*i));
     	}
     	return mindis;
     }
