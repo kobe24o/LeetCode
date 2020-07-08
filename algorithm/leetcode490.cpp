@@ -18,14 +18,12 @@ public:
     		{
     			x = i;
 	    		y = j;
-    			while(x>=0 && x<m && y>=0 && y<n)
+    			while(x+dir[k][0]>=0 && x+dir[k][0]<m && y+dir[k][1]>=0 && y+dir[k][1]<n
+                        && maze[x+dir[k][0]][y+dir[k][1]]==0)
 	    		{
-                    if(!(x+dir[k][0]>=0 && x+dir[k][1]<m && y+dir[k][0]>=0 && y+dir[k][1]<n)
-                        || visited[x+dir[k][0]][y+dir[k][0]] || maze[x+dir[k][0]][y+dir[k][0]]==1)
-                        break;
 	    			x += dir[k][0];
 	    			y += dir[k][1];
-                    visited[x][y] = true;
+                    // visited[x][y] = true;//不能加这一句，一会下面进不了队列
 	    		}
                 if(!visited[x][y])
 	    		{

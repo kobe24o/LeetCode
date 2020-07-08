@@ -73,63 +73,41 @@ public:
         return count;
     }
 };
-class player
-{
+class Solution {
 public:
-    int id, score;
-    player(int id, int score)
-    {
-        this->id = id;
-        this->score = score;
-    }
-};
-struct cmp
-{
-    bool operator()(const player* a, const player* b) const
-    {
-        return a->score >= b->score;
-    }
-};
-class Leaderboard {
-    map<int,player*> m;
-    multiset<player*, cmp> topk;
-public:
-    Leaderboard() {
-
-    }
-
-    void addScore(int playerId, int score) {
-        if(m.find(playerId) == m.end())
+    bool hasPath(vector<vector<int>>& maze, vector<int>& start, vector<int>& destination) {
+        int m = maze.size(), n = maze[0].size(), i, j, k, x, y;
+        vector<vector<int>> dir = {{1,0},{0,1},{0,-1},{-1,0}};
+        queue<vector<int>> q;
+        vector<vector<bool>> visited(m, vector<bool>(n,false));
+        q.push(start);
+        visited[start[0]][start[1]] = true;
+        while(!q.empty())
         {
-            player* p = new player(playerId, score);
-            m[playerId] = p;
+            i = q.front()[0];
+            j = q.front()[1];
+            q.pop();
+            if(i==destination[0] && j==destination[1])
+                return true;
+            for(k = 0; k < 4; ++k)
+            {
+                x = i;
+                y = j;
+                while(x+dir[k][0]>=0 && x+dir[k][1]<m && y+dir[k][0]>=0 && y+dir[k][1]<n
+                      && maze[x+dir[k][0]][y+dir[k][0]]==0)
+                {
+                    x += dir[k][0];
+                    y += dir[k][1];
+                    // visited[x][y] = true;
+                }
+                if(!visited[x][y])
+                {
+                    q.push({x, y});
+                    visited[x][y] = true;
+                }
+            }
         }
-        else
-            m[playerId]->score += score;
-        // topk.erase(m[playerId]);
-        topk.insert(m[playerId]);
-        for(auto it = topk.begin(); it != topk.end(); ++it)
-            cout << (*it)->score << endl;
-        cout << "-----------" << endl;
-    }
-
-    int top(int K) {
-        int sum = 0;
-        for(auto it = topk.begin(); it != topk.end() && K; ++it)
-        {
-            K--;
-            sum += (*it)->score;
-        }
-        return sum;
-    }
-
-    void reset(int playerId) {
-        m[playerId]->score = 0;
-        // topk.erase(m[playerId]);
-        topk.insert(m[playerId]);
-        for(auto it = topk.begin(); it != topk.end(); ++it)
-            cout << (*it)->score << endl;
-        cout << "-----------" << endl;
+        return false;
     }
 };
 void printv(vector<int>& v)
@@ -140,26 +118,17 @@ void printv(vector<int>& v)
 }
 int main() {
     vector<vector<int>> v6 ={{0,1},{1,1}};
-    vector<vector<int>> v5 ={{0, 1}, {0, 2}, {2, 3}, {2, 4}};
-    vector<int> v1 = {113, 215, 221};
-    vector<int> v2 = {5,4,0,3,1,6,2};
+    vector<vector<int>> v5 ={{0,0,1,0,0},{0,0,0,0,0},{0,0,0,1,0},{1,1,0,1,1},{0,0,0,0,0}};
+    vector<int> v1 = {0,4};
+    vector<int> v2 = {4,4};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
     vector<int> v4 = {1,3,2};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
 
     vector<string> st1 = {"like","god","internal","me","internet","interval","intension","face","intrusion"};
-    Leaderboard s;
-    s.addScore(1,73);
-    s.addScore(2,56);
-    s.addScore(3,39);
-    s.addScore(4,51);
-    s.addScore(5,4);
-    s.top(1);
-    s.reset(1);
-    s.reset(2);
-    s.addScore(2,51);
-    s.top(3);
+    Solution s;
+    s.hasPath(v5,v1,v2);
 
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
