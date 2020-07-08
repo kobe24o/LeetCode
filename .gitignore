@@ -147,3 +147,5 @@ algorithm/Python3_version/.idea/Python3_version.iml
 algorithm/Python3_version/.idea/vcs.xml
 algorithm/.idea/workspace.xml
 algorithm/main.cpp
+algorithm/cmake-build-debug/CMakeFiles/Progress/2
+algorithm/cmake-build-debug/CMakeFiles/algorithm.dir/leetcode0_test.cpp.o

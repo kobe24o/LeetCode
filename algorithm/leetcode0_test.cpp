@@ -73,7 +73,53 @@ public:
         return count;
     }
 };
+struct cmp
+{
+    bool operator()(int a, int b) const
+    {
+        return a >= b;
+    }
+};
+class Leaderboard {
+    map<int,int> m;
+    multiset<int, cmp> topk;
+public:
+    Leaderboard() {
 
+    }
+
+    void addScore(int playerId, int score) {
+        if(m.find(playerId) == m.end())
+        {
+            m[playerId] = score;
+            topk.insert(score);
+        }
+        else
+        {
+            auto it = topk.find(m[playerId]);
+            topk.erase(it);
+            m[playerId] += score;
+            topk.insert(m[playerId]);
+        }
+    }
+
+    int top(int K) {
+        int sum = 0;
+        for(auto it = topk.begin(); it != topk.end() && K; ++it)
+        {
+            K--;
+            sum += (*it);
+        }
+        return sum;
+    }
+
+    void reset(int playerId) {
+        auto it = topk.find(m[playerId]);
+        topk.erase(it);
+        m[playerId] = 0;
+        topk.insert(0);
+    }
+};
 void printv(vector<int>& v)
 {
     for(auto& vi : v)
@@ -91,8 +137,8 @@ int main() {
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
 
     vector<string> st1 = {"like","god","internal","me","internet","interval","intension","face","intrusion"};
-    Solution s;
-//
+    Leaderboard s;
+
 
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
@@ -105,7 +151,6 @@ int main() {
     t1->right = t3;
     t2->left = t4;
     t2->right = t5;
-    s.maxA(7);
 
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
