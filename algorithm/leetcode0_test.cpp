@@ -73,16 +73,26 @@ public:
         return count;
     }
 };
+class player
+{
+public:
+    int id, score;
+    player(int id, int score)
+    {
+        this->id = id;
+        this->score = score;
+    }
+};
 struct cmp
 {
-    bool operator()(int a, int b) const
+    bool operator()(const player* a, const player* b) const
     {
-        return a >= b;
+        return a->score >= b->score;
     }
 };
 class Leaderboard {
-    map<int,int> m;
-    multiset<int, cmp> topk;
+    map<int,player*> m;
+    multiset<player*, cmp> topk;
 public:
     Leaderboard() {
 
@@ -91,16 +101,16 @@ public:
     void addScore(int playerId, int score) {
         if(m.find(playerId) == m.end())
         {
-            m[playerId] = score;
-            topk.insert(score);
+            player* p = new player(playerId, score);
+            m[playerId] = p;
         }
         else
-        {
-            auto it = topk.find(m[playerId]);
-            topk.erase(it);
-            m[playerId] += score;
-            topk.insert(m[playerId]);
-        }
+            m[playerId]->score += score;
+        // topk.erase(m[playerId]);
+        topk.insert(m[playerId]);
+        for(auto it = topk.begin(); it != topk.end(); ++it)
+            cout << (*it)->score << endl;
+        cout << "-----------" << endl;
     }
 
     int top(int K) {
@@ -108,16 +118,18 @@ public:
         for(auto it = topk.begin(); it != topk.end() && K; ++it)
         {
             K--;
-            sum += (*it);
+            sum += (*it)->score;
         }
         return sum;
     }
 
     void reset(int playerId) {
-        auto it = topk.find(m[playerId]);
-        topk.erase(it);
-        m[playerId] = 0;
-        topk.insert(0);
+        m[playerId]->score = 0;
+        // topk.erase(m[playerId]);
+        topk.insert(m[playerId]);
+        for(auto it = topk.begin(); it != topk.end(); ++it)
+            cout << (*it)->score << endl;
+        cout << "-----------" << endl;
     }
 };
 void printv(vector<int>& v)
@@ -138,7 +150,16 @@ int main() {
 
     vector<string> st1 = {"like","god","internal","me","internet","interval","intension","face","intrusion"};
     Leaderboard s;
-
+    s.addScore(1,73);
+    s.addScore(2,56);
+    s.addScore(3,39);
+    s.addScore(4,51);
+    s.addScore(5,4);
+    s.top(1);
+    s.reset(1);
+    s.reset(2);
+    s.addScore(2,51);
+    s.top(3);
 
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
