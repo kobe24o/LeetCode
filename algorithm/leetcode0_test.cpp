@@ -42,7 +42,6 @@ class dsu
 {
 public:
     vector<int> f;
-
     dsu(int n)
     {
         f.resize(n);
@@ -62,12 +61,14 @@ public:
             a = f[a];
         return f[origin] = a;
     }
-    int countUni()
+    int countUni(vector<vector<int>> &positions, int stop, vector<vector<int>> &grid, int n)
     {
-        int count = 0;
-        for(int i = 0; i < f.size(); ++i)
+        int count = 0, x, y, pos;
+        for(int i = 0; i <= stop; ++i)
         {
-            if(i == find(i))
+            x = positions[i][0], y = positions[i][1];
+            pos = x*n+y;
+            if(pos == find(pos))
                 count++;
         }
         return count;
@@ -75,39 +76,28 @@ public:
 };
 class Solution {
 public:
-    bool hasPath(vector<vector<int>>& maze, vector<int>& start, vector<int>& destination) {
-        int m = maze.size(), n = maze[0].size(), i, j, k, x, y;
-        vector<vector<int>> dir = {{1,0},{0,1},{0,-1},{-1,0}};
-        queue<vector<int>> q;
-        vector<vector<bool>> visited(m, vector<bool>(n,false));
-        q.push(start);
-        visited[start[0]][start[1]] = true;
-        while(!q.empty())
+    int minCostII(vector<vector<int>>& costs) {
+        if(costs.size()==0 || costs[0].size()==0)
+            return 0;
+        int m = costs.size(), n = costs[0].size(), i, c1, c2;
+        vector<vector<int>> dp(m,vector<int>(n,INT_MAX));
+        dp[0] = costs[0];
+        for(i = 1; i < m; ++m)
         {
-            i = q.front()[0];
-            j = q.front()[1];
-            q.pop();
-            if(i==destination[0] && j==destination[1])
-                return true;
-            for(k = 0; k < 4; ++k)
+            for(c1 = 0; c1 < n; ++c1)
             {
-                x = i;
-                y = j;
-                while(x+dir[k][0]>=0 && x+dir[k][1]<m && y+dir[k][0]>=0 && y+dir[k][1]<n
-                      && maze[x+dir[k][0]][y+dir[k][0]]==0)
+                for(c2 = 0; c2 < n; ++c2)
                 {
-                    x += dir[k][0];
-                    y += dir[k][1];
-                    // visited[x][y] = true;
-                }
-                if(!visited[x][y])
-                {
-                    q.push({x, y});
-                    visited[x][y] = true;
+                    if(c1==c2)
+                        continue;
+                    dp[i][c2] = min(dp[i][c2], dp[i-1][c1]+costs[i][c2]);
                 }
             }
         }
-        return false;
+        int mincost = INT_MAX;
+        for(i = 0; i < n; ++i)
+            mincost = min(mincost, dp[m-1][i]);
+        return mincost;
     }
 };
 void printv(vector<int>& v)
@@ -118,7 +108,7 @@ void printv(vector<int>& v)
 }
 int main() {
     vector<vector<int>> v6 ={{0,1},{1,1}};
-    vector<vector<int>> v5 ={{0,0,1,0,0},{0,0,0,0,0},{0,0,0,1,0},{1,1,0,1,1},{0,0,0,0,0}};
+    vector<vector<int>> v5 ={{1,5,3},{2,9,4}};
     vector<int> v1 = {0,4};
     vector<int> v2 = {4,4};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
@@ -128,7 +118,7 @@ int main() {
 
     vector<string> st1 = {"like","god","internal","me","internet","interval","intension","face","intrusion"};
     Solution s;
-    s.hasPath(v5,v1,v2);
+    s.minCostII(v5);
 
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
