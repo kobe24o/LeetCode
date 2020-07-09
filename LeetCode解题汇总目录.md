@@ -195,8 +195,11 @@
 | [LeetCode 155. 最小栈](https://blog.csdn.net/qq_21201267/article/details/100188954) |                                                              |
 | [LeetCode 156. 上下翻转二叉树（DFS）*](https://blog.csdn.net/qq_21201267/article/details/107112729) |                                                              |
 | [LeetCode 157. 用 Read4 读取 N 个字符](https://blog.csdn.net/qq_21201267/article/details/107097728) |                                                              |
+| [LeetCode 159. 至多包含两个不同字符的最长子串（滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/107179327) |                                                              |
 | [LeetCode 160. 相交链表](https://blog.csdn.net/qq_21201267/article/details/100168364) |                                                              |
+| [LeetCode 161. 相隔为 1 的编辑距离（DP/遍历）](https://blog.csdn.net/qq_21201267/article/details/107179471) |                                                              |
 | [LeetCode 162. 寻找峰值（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102418806) |                                                              |
+| [LeetCode 163. 缺失的区间](https://blog.csdn.net/qq_21201267/article/details/107186322) |                                                              |
 | [LeetCode 165. 比较版本号](https://michael.blog.csdn.net/article/details/103674332) |                                                              |
 | [LeetCode 166. 分数到小数（小数除法）](https://blog.csdn.net/qq_21201267/article/details/102757990) |                                                              |
 | [LeetCode 167. 两数之和 II - 输入有序数组（双指针）](https://michael.blog.csdn.net/article/details/105596937) |                                                              |
@@ -257,18 +260,30 @@
 | [LeetCode 241. 为运算表达式设计优先级（动态规划）](https://michael.blog.csdn.net/article/details/105731156) |                                                              |
 | [LeetCode 242. 有效的字母异位词](https://michael.blog.csdn.net/article/details/105597880) |                                                              |
 | [LeetCode 243. 最短单词距离](https://blog.csdn.net/qq_21201267/article/details/107096025) |                                                              |
+| [LeetCode 244. 最短单词距离 II（哈希map+set二分查找）](https://blog.csdn.net/qq_21201267/article/details/107182627) |                                                              |
+| [LeetCode 245. 最短单词距离 III](https://blog.csdn.net/qq_21201267/article/details/107158455) |                                                              |
 | [LeetCode 246. 中心对称数（哈希）](https://blog.csdn.net/qq_21201267/article/details/107100817) |                                                              |
+| [LeetCode 247. 中心对称数 II（DP）](https://blog.csdn.net/qq_21201267/article/details/107187553) |                                                              |
 | [LeetCode 249. 移位字符串分组（哈希）](https://blog.csdn.net/qq_21201267/article/details/107091606) |                                                              |
 | [LeetCode 250. 统计同值子树（递归）](https://blog.csdn.net/qq_21201267/article/details/107129161) |                                                              |
+| [LeetCode 251. 展开二维向量](https://blog.csdn.net/qq_21201267/article/details/107188646) |                                                              |
 | [LeetCode 252. 会议室（排序）](https://blog.csdn.net/qq_21201267/article/details/107097396) |                                                              |
+| [LeetCode 253. 会议室 II（贪心+优先队列）](https://blog.csdn.net/qq_21201267/article/details/107189220) |                                                              |
+| [LeetCode 254. 因子的组合（回溯）*](https://blog.csdn.net/qq_21201267/article/details/107191639) |                                                              |
+| [LeetCode 255. 验证前序遍历序列二叉搜索树（单调栈）*](https://blog.csdn.net/qq_21201267/article/details/107192282) |                                                              |
 | [LeetCode 256. 粉刷房子（DP）](https://blog.csdn.net/qq_21201267/article/details/107097331) |                                                              |
 | [LeetCode 257. 二叉树的所有路径（DFS）](https://blog.csdn.net/qq_21201267/article/details/100565918) |                                                              |
 | [LeetCode 258. 各位相加](https://michael.blog.csdn.net/article/details/105598080) |                                                              |
+| [LeetCode 259. 较小的三数之和（固定一点，内层双指针）](https://blog.csdn.net/qq_21201267/article/details/107193646) |                                                              |
 | [LeetCode 260. 只出现一次的数字 III（位运算）](https://blog.csdn.net/qq_21201267/article/details/101104783) |                                                              |
+| [LeetCode 261. 以图判树（全部连通+边数=V-1）](https://blog.csdn.net/qq_21201267/article/details/107149024) |                                                              |
 | [LeetCode 263. 丑数 && 264. 丑数 II（DP）](https://michael.blog.csdn.net/article/details/103738537) |                                                              |
+| [LeetCode 265. 粉刷房子 II（DP）](https://blog.csdn.net/qq_21201267/article/details/107230412) |                                                              |
 | [LeetCode 266. 回文排列（计数）](https://blog.csdn.net/qq_21201267/article/details/107096561) |                                                              |
+| [LeetCode 267. 回文排列 II（回溯）](https://blog.csdn.net/qq_21201267/article/details/107233716) |                                                              |
 | [LeetCode 268. 缺失数字](https://blog.csdn.net/qq_21201267/article/details/100146249) |                                                              |
 | [LeetCode 270. 最接近的二叉搜索树值](https://blog.csdn.net/qq_21201267/article/details/107090656) |                                                              |
+| [LeetCode 272. 最接近的二叉搜索树值 II（栈+优先队列）](https://blog.csdn.net/qq_21201267/article/details/107232667) |                                                              |
 | [LeetCode 273. 整数转换英文表示](https://michael.blog.csdn.net/article/details/103093410) |                                                              |
 | [LeetCode 274. H指数（排序，哈希）](https://michael.blog.csdn.net/article/details/103691047) |                                                              |
 | [LeetCode 275. H指数 II（二分查找）](https://michael.blog.csdn.net/article/details/103691399) |                                                              |
@@ -288,10 +303,12 @@
 | [LeetCode 293. 翻转游戏](https://blog.csdn.net/qq_21201267/article/details/107094697) |                                                              |
 | [LeetCode 295. 数据流的中位数（大小堆）](https://blog.csdn.net/qq_21201267/article/details/102865997) |                                                              |
 | [LeetCode 297. 二叉树的序列化与反序列化（前序遍历&层序遍历）](https://blog.csdn.net/qq_21201267/article/details/102513143) |                                                              |
+| [LeetCode 298. 二叉树最长连续序列（自顶向下）](https://blog.csdn.net/qq_21201267/article/details/107172224) |                                                              |
 | [LeetCode 299. 猜数字游戏](https://michael.blog.csdn.net/article/details/105244199) |                                                              |
 | [LeetCode 300. 最长上升子序列](https://blog.csdn.net/qq_21201267/article/details/97308533) |                                                              |
 | [LeetCode 303. 区域和检索 - 数组不可变（前缀和）](https://michael.blog.csdn.net/article/details/105629224) |                                                              |
 | [LeetCode 304. 二维区域和检索 - 矩阵不可变（DP）](https://blog.csdn.net/qq_21201267/article/details/101219854) |                                                              |
+| [LeetCode 305. 岛屿数量 II（并查集）](https://blog.csdn.net/qq_21201267/article/details/107226324) |                                                              |
 | [LeetCode 306. 累加数（暴力回溯）](https://michael.blog.csdn.net/article/details/103813396) |                                                              |
 | [LeetCode 307. 区域和检索 - 数组可修改（树状数组）](https://michael.blog.csdn.net/article/details/105632022) |                                                              |
 | [LeetCode 309. 最佳买卖股票时机含冷冻期（动态规划）](https://michael.blog.csdn.net/article/details/105858950) |                                                              |
@@ -310,6 +327,7 @@
 | [LeetCode 328. 奇偶链表（双指针）](https://blog.csdn.net/qq_21201267/article/details/101649623) |                                                              |
 | [LeetCode 331. 验证二叉树的前序序列化](https://michael.blog.csdn.net/article/details/105679759) |                                                              |
 | [LeetCode 332. 重新安排行程（欧拉路径）](https://michael.blog.csdn.net/article/details/106124337) |                                                              |
+| [LeetCode 333. 最大 BST 子树（递归）*](https://blog.csdn.net/qq_21201267/article/details/107148640) |                                                              |
 | [LeetCode 334. 递增的三元子序列](https://blog.csdn.net/qq_21201267/article/details/101275950) |                                                              |
 | [LeetCode 337. 打家劫舍 III（记忆化+递归）](https://blog.csdn.net/qq_21201267/article/details/102691125) |                                                              |
 | [LeetCode 339. 嵌套列表权重和（DFS）](https://blog.csdn.net/qq_21201267/article/details/107093614) |                                                              |
@@ -329,6 +347,7 @@
 | [LeetCode 362. 敲击计数器（map）](https://blog.csdn.net/qq_21201267/article/details/107118573) |                                                              |
 | [LeetCode 363. 矩形区域不超过 K 的最大数值和（DP+set二分查找）](https://michael.blog.csdn.net/article/details/106447907) |                                                              |
 | [LeetCode 365. 水壶问题（最大公约数）](https://michael.blog.csdn.net/article/details/102980961) |                                                              |
+| [LeetCode 366. 寻找二叉树的叶子节点（上下翻转二叉树+BFS）](https://blog.csdn.net/qq_21201267/article/details/107156510) |                                                              |
 | [LeetCode 367. 有效的完全平方数（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489562) |                                                              |
 | [LeetCode 368. 最大整除子集（DP）](https://michael.blog.csdn.net/article/details/106816075) |                                                              |
 | [LeetCode 369. 给单链表加一（递归）](https://blog.csdn.net/qq_21201267/article/details/107117484) |                                                              |
@@ -420,7 +439,10 @@
 | [LeetCode 480. 滑动窗口中位数（大小堆升级版+set实现）](https://michael.blog.csdn.net/article/details/106962644) |                                                              |
 | [LeetCode 481. 神奇字符串（找规律）](https://michael.blog.csdn.net/article/details/103606978) |                                                              |
 | [LeetCode 482. 密钥格式化](https://blog.csdn.net/qq_21201267/article/details/102888974) |                                                              |
+| [LeetCode 484. 寻找排列（找规律+贪心）](https://blog.csdn.net/qq_21201267/article/details/107168148) |                                                              |
 | [LeetCode 485. 最大连续1的个数](https://blog.csdn.net/qq_21201267/article/details/100855102) |                                                              |
+| [LeetCode 487. 最大连续1的个数 II（滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/107194857) |                                                              |
+| [LeetCode 490. 迷宫（BFS/DFS）](https://blog.csdn.net/qq_21201267/article/details/107215680) |                                                              |
 | [LeetCode 491. 递增子序列（回溯+判重剪枝）](https://michael.blog.csdn.net/article/details/106157529) |                                                              |
 | [LeetCode 492. 构造矩形](https://michael.blog.csdn.net/article/details/105689887) |                                                              |
 | [LeetCode 493. 翻转对（归并排序）](https://blog.csdn.net/qq_21201267/article/details/101236925) |                                                              |
@@ -432,6 +454,7 @@
 | [LeetCode 501. 二叉搜索树中的众数（中序遍历）](https://michael.blog.csdn.net/article/details/102997543) |                                                              |
 | [LeetCode 503. 下一个更大元素 II（栈）](https://blog.csdn.net/qq_21201267/article/details/101394230) |                                                              |
 | [LeetCode 504. 七进制数（进制转换）](https://blog.csdn.net/qq_21201267/article/details/102904814) |                                                              |
+| [LeetCode 505. 迷宫 II（BFS / Dijkstra 最短路径）](https://blog.csdn.net/qq_21201267/article/details/107222887) |                                                              |
 | [LeetCode 506. 相对名次（map）](https://michael.blog.csdn.net/article/details/105690403) |                                                              |
 | [LeetCode 507. 完美数](https://michael.blog.csdn.net/article/details/105690940) |                                                              |
 | [LeetCode 508. 出现次数最多的子树元素和（递归）](https://michael.blog.csdn.net/article/details/105715277) |                                                              |
@@ -463,6 +486,7 @@
 | [LeetCode 542. 01 矩阵（BFS && DP）](https://blog.csdn.net/qq_21201267/article/details/101618467) |                                                              |
 | [LeetCode 543. 二叉树的直径（DFS）](https://blog.csdn.net/qq_21201267/article/details/102818983) |                                                              |
 | [LeetCode 544. 输出比赛匹配对（NBA季后赛对阵图）](https://blog.csdn.net/qq_21201267/article/details/107123966) |                                                              |
+| [LeetCode 545. 二叉树的边界（前序+后序）*](https://blog.csdn.net/qq_21201267/article/details/107148491) |                                                              |
 | [LeetCode 547. 朋友圈（图的遍历BFS & DFS）](https://blog.csdn.net/qq_21201267/article/details/100813067) |                                                              |
 | [LeetCode 551. 学生出勤记录 I](https://michael.blog.csdn.net/article/details/105717322) |                                                              |
 | [LeetCode 553. 最优除法（数学）](https://michael.blog.csdn.net/article/details/103515354) |                                                              |
@@ -473,6 +497,7 @@
 | [LeetCode 559. N叉树的最大深度](https://blog.csdn.net/qq_21201267/article/details/100943751) |                                                              |
 | [LeetCode 560. 和为K的子数组（前缀和差分）](https://michael.blog.csdn.net/article/details/105657944) |                                                              |
 | [LeetCode 561. 数组拆分 I](https://blog.csdn.net/qq_21201267/article/details/100940866) |                                                              |
+| [LeetCode 562. 矩阵中最长的连续1线段（DP）](https://blog.csdn.net/qq_21201267/article/details/107205044) |                                                              |
 | [LeetCode 563. 二叉树的坡度（DFS）](https://blog.csdn.net/qq_21201267/article/details/102904432) |                                                              |
 | [LeetCode 565. 数组嵌套](https://michael.blog.csdn.net/article/details/106832333) |                                                              |
 | [LeetCode 566. 重塑矩阵](https://michael.blog.csdn.net/article/details/105717990) |                                                              |
@@ -512,6 +537,7 @@
 | [LeetCode 647. 回文子串（DP）](https://michael.blog.csdn.net/article/details/105576327) |                                                              |
 | [LeetCode 648. 单词替换（Trie树）](https://blog.csdn.net/qq_21201267/article/details/102574082) |                                                              |
 | [LeetCode 650. 只有两个键的键盘（DP）](https://michael.blog.csdn.net/article/details/103657566) |                                                              |
+| [LeetCode 651. 4键键盘（DP，Ctrl+CV）](https://blog.csdn.net/qq_21201267/article/details/107170933) |                                                              |
 | [LeetCode 652. 寻找重复的子树（DFS）](https://blog.csdn.net/qq_21201267/article/details/101284456) |                                                              |
 | [LeetCode 653. 两数之和 IV - 输入 BST（二叉搜索树迭代器&双指针）](https://michael.blog.csdn.net/article/details/103019314) |                                                              |
 | [LeetCode 654. 最大二叉树（递归）](https://blog.csdn.net/qq_21201267/article/details/100586036) |                                                              |
@@ -520,6 +546,7 @@
 | [LeetCode 658. 找到 K 个最接近的元素（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100697216) |                                                              |
 | [LeetCode 661. 图片平滑器](https://michael.blog.csdn.net/article/details/105720542) |                                                              |
 | [LeetCode 662. 二叉树最大宽度（递归）](https://michael.blog.csdn.net/article/details/106249487) |                                                              |
+| [LeetCode 663. 均匀树划分（树形DP）](https://blog.csdn.net/qq_21201267/article/details/107148685) |                                                              |
 | [LeetCode 665. 非递减数列（双指针）](https://blog.csdn.net/qq_21201267/article/details/102810529) |                                                              |
 | [LeetCode 666. 路径和 IV（树的遍历）](https://blog.csdn.net/qq_21201267/article/details/107120811) |                                                              |
 | [LeetCode 667. 优美的排列 II（找规律）](https://blog.csdn.net/qq_21201267/article/details/103411623) |                                                              |
@@ -569,11 +596,13 @@
 | [LeetCode 735. 行星碰撞（栈）](https://michael.blog.csdn.net/article/details/103794858) |                                                              |
 | [LeetCode 738. 单调递增的数字（贪心）](https://michael.blog.csdn.net/article/details/103564931) |                                                              |
 | [LeetCode 739. 每日温度（单调栈）](https://blog.csdn.net/qq_21201267/article/details/101479101) |                                                              |
+| [LeetCode 742. 二叉树最近的叶节点（建立父节点信息+BFS）](https://blog.csdn.net/qq_21201267/article/details/107212921) |                                                              |
 | [LeetCode 743. 网络延迟时间（最短路径）](https://michael.blog.csdn.net/article/details/106686629) |                                                              |
 | [LeetCode 744. 寻找比目标字母大的最小字母（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489881) |                                                              |
 | [LeetCode 746. 使用最小花费爬楼梯（DP）](https://blog.csdn.net/qq_21201267/article/details/102905456) |                                                              |
 | [LeetCode 747. 至少是其他数字两倍的最大数](https://michael.blog.csdn.net/article/details/105740878) |                                                              |
 | [LeetCode 748. 最短完整词](https://michael.blog.csdn.net/article/details/105798998) |                                                              |
+| [LeetCode 750. 角矩形的数量（DP）](https://blog.csdn.net/qq_21201267/article/details/107233886) |                                                              |
 | [LeetCode 752. 打开转盘锁（图的BFS最短路径）](https://blog.csdn.net/qq_21201267/article/details/101485240) |                                                              |
 | [LeetCode 754. 到达终点数字（数学推理）](https://blog.csdn.net/qq_21201267/article/details/102888341) |                                                              |
 | [LeetCode 758. 字符串中的加粗单词（Trie树）](https://blog.csdn.net/qq_21201267/article/details/107100343) |                                                              |
@@ -762,6 +791,7 @@
 | [LeetCode 1053. 交换一次的先前排列](https://michael.blog.csdn.net/article/details/107029805) |                                                              |
 | [LeetCode 1054. 距离相等的条形码（优先队列）](https://blog.csdn.net/qq_21201267/article/details/104317529) |                                                              |
 | [LeetCode 1056. 易混淆数（哈希）](https://blog.csdn.net/qq_21201267/article/details/107105777) |                                                              |
+| [LeetCode 1061. 按字典序排列最小的等效字符串（并查集）](https://blog.csdn.net/qq_21201267/article/details/107149147) |                                                              |
 | [LeetCode 1064. 不动点（二分查找）](https://blog.csdn.net/qq_21201267/article/details/107094877) |                                                              |
 | [LeetCode 1065. 字符串的索引对](https://blog.csdn.net/qq_21201267/article/details/107097461) |                                                              |
 | [LeetCode 1071. 字符串的最大公因子（字符串的最大公约数）](https://michael.blog.csdn.net/article/details/103174953) |                                                              |
@@ -802,6 +832,7 @@
 | [LeetCode 1144. 递减元素使数组呈锯齿状（奇偶分别遍历）](https://michael.blog.csdn.net/article/details/106599943) |                                                              |
 | [LeetCode 1145. 二叉树着色游戏（计算节点个数）](https://michael.blog.csdn.net/article/details/103115240) |                                                              |
 | [LeetCode 1150. 检查一个数是否在数组中占绝大多数（二分查找）](https://blog.csdn.net/qq_21201267/article/details/107096729) |                                                              |
+| [LeetCode 1151. 最少交换次数来组合所有的 1（滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/107210414) |                                                              |
 | [LeetCode 1154. 一年中的第几天](https://blog.csdn.net/qq_21201267/article/details/100754099) |                                                              |
 | [LeetCode 1155. 掷骰子的N种方法（DP）](https://michael.blog.csdn.net/article/details/106673138) |                                                              |
 | [LeetCode 1160. 拼写单词](https://blog.csdn.net/qq_21201267/article/details/100673250) |                                                              |
@@ -846,6 +877,7 @@
 | [LeetCode 1238. 循环码排列（格雷编码+旋转数组）](https://michael.blog.csdn.net/article/details/105895929) |                                                              |
 | [LeetCode 1239. 串联字符串的最大长度（回溯/动态规划）](https://michael.blog.csdn.net/article/details/106297584) |                                                              |
 | [LeetCode 1243. 数组变换](https://blog.csdn.net/qq_21201267/article/details/107097416) |                                                              |
+| [LeetCode 1244. 力扣排行榜（map+multiset）](https://blog.csdn.net/qq_21201267/article/details/107203159) |                                                              |
 | [LeetCode 1245. 树的直径（图的最大直径结论）](https://blog.csdn.net/qq_21201267/article/details/107147225) |                                                              |
 | [LeetCode 1246. 删除回文子数组（区间DP）](https://blog.csdn.net/qq_21201267/article/details/107142794) |                                                              |
 | [LeetCode 1247. 交换字符使得字符串相同](https://michael.blog.csdn.net/article/details/103561781) |                                                              |
@@ -987,6 +1019,7 @@
 | [LeetCode 1426. 数元素（哈希set）](https://blog.csdn.net/qq_21201267/article/details/107096367) |                                                              |
 | [LeetCode 1427. 字符串的左右移](https://blog.csdn.net/qq_21201267/article/details/107095564) |                                                              |
 | [LeetCode 1428. 至少有一个 1 的最左端列（二分查找）](https://blog.csdn.net/qq_21201267/article/details/107125054) |                                                              |
+| [LeetCode 1429. 第一个唯一数字（map+queue）](https://blog.csdn.net/qq_21201267/article/details/107197994) |                                                              |
 | [LeetCode 1430. 判断给定的序列是否是二叉树从根到叶的路径（递归）](https://blog.csdn.net/qq_21201267/article/details/107117712) |                                                              |
 | [LeetCode 1431. 拥有最多糖果的孩子](https://michael.blog.csdn.net/article/details/105897792#1_LeetCode_5384__easy_11) |                                                              |
 | [LeetCode 1432. 改变一个整数能得到的最大差值](https://michael.blog.csdn.net/article/details/105897792#2_LeetCode_5385__medium_91) |                                                              |
