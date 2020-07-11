@@ -171,6 +171,7 @@
 | [LeetCode 129. 求根到叶子节点数字之和（DFS）](https://michael.blog.csdn.net/article/details/103229606) |                                                              |
 | [LeetCode 130. 被围绕的区域（图的BFS/DFS）](https://blog.csdn.net/qq_21201267/article/details/102811035) |                                                              |
 | [LeetCode 131. 分割回文串（回溯）](https://michael.blog.csdn.net/article/details/102979356) |                                                              |
+| [LeetCode 132. 分割回文串 II（DP）](https://michael.blog.csdn.net/article/details/107290701) |                                                              |
 | [LeetCode 133. 克隆图（图的BFS/DFS）](https://blog.csdn.net/qq_21201267/article/details/101568649) |                                                              |
 | [LeetCode 134. 加油站（贪心）](https://blog.csdn.net/qq_21201267/article/details/102857089) |                                                              |
 | [LeetCode 135. 分发糖果（DP）](https://michael.blog.csdn.net/article/details/106649583) |                                                              |
