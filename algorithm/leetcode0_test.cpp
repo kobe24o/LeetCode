@@ -76,28 +76,31 @@ public:
 };
 class Solution {
 public:
-    int minCostII(vector<vector<int>>& costs) {
-        if(costs.size()==0 || costs[0].size()==0)
-            return 0;
-        int m = costs.size(), n = costs[0].size(), i, c1, c2;
-        vector<vector<int>> dp(m,vector<int>(n,INT_MAX));
-        dp[0] = costs[0];
-        for(i = 1; i < m; ++m)
+    int rangeSum(vector<int>& nums, int n, int left, int right) {
+        sort(nums.begin(),nums.end());
+        multiset<int> s;
+        int presum;
+        for(int i = 0, j; i < nums.size(); ++i)
         {
-            for(c1 = 0; c1 < n; ++c1)
+            presum = 0;
+            for(j = i; j < nums.size(); ++j)
             {
-                for(c2 = 0; c2 < n; ++c2)
-                {
-                    if(c1==c2)
-                        continue;
-                    dp[i][c2] = min(dp[i][c2], dp[i-1][c1]+costs[i][c2]);
-                }
+                presum += nums[j];
+                s.insert(presum);
             }
         }
-        int mincost = INT_MAX;
-        for(i = 0; i < n; ++i)
-            mincost = min(mincost, dp[m-1][i]);
-        return mincost;
+        auto it = s.begin();
+        int k = left-1;
+        while(k--)
+            it++;
+        k = right-left+1;
+        int sum = 0;
+        while(k--)
+        {
+            sum += *it;
+            it++;
+        }
+        return sum;
     }
 };
 void printv(vector<int>& v)
@@ -110,7 +113,7 @@ int main() {
     vector<vector<int>> v6 ={{0,1},{1,1}};
     vector<vector<int>> v5 ={{1,5,3},{2,9,4}};
     vector<int> v1 = {0,4};
-    vector<int> v2 = {4,4};
+    vector<int> v2 = {1,1,1,9,7};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
     vector<int> v4 = {1,3,2};
     string str = "eceeeefasdghjklqwertyuio";
@@ -118,7 +121,7 @@ int main() {
 
     vector<string> st1 = {"like","god","internal","me","internet","interval","intension","face","intrusion"};
     Solution s;
-    s.minCostII(v5);
+    s.rangeSum(v2,5,5,5);
 
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
