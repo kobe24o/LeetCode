@@ -74,33 +74,26 @@ public:
         return count;
     }
 };
+
 class Solution {
 public:
-    int rangeSum(vector<int>& nums, int n, int left, int right) {
-        sort(nums.begin(),nums.end());
-        multiset<int> s;
-        int presum;
-        for(int i = 0, j; i < nums.size(); ++i)
+    double getMinDistSum(vector<vector<int>>& positions) {
+        int x0,y0, i, xi,yi, n = positions.size(), dis;
+        set<int> d;
+        for(x0 = 1; x0 <= 3; ++x0)
         {
-            presum = 0;
-            for(j = i; j < nums.size(); ++j)
+            for(y0 = 1; y0 <= 3; ++y0)
             {
-                presum += nums[j];
-                s.insert(presum);
+                dis = 0;
+                for(i = 0; i < n; ++i)
+                {
+                    xi = positions[i][0];
+                    yi = positions[i][1];
+                    dis += (x0-xi)*(x0-xi)+(y0-yi)*(y0-yi);
+                }
             }
         }
-        auto it = s.begin();
-        int k = left-1;
-        while(k--)
-            it++;
-        k = right-left+1;
-        int sum = 0;
-        while(k--)
-        {
-            sum += *it;
-            it++;
-        }
-        return sum;
+        return sqrt(*d.begin());
     }
 };
 void printv(vector<int>& v)
@@ -110,9 +103,9 @@ void printv(vector<int>& v)
     cout << endl;
 }
 int main() {
-    vector<vector<int>> v6 ={{0,1},{1,1}};
-    vector<vector<int>> v5 ={{1,5,3},{2,9,4}};
-    vector<int> v1 = {0,4};
+    vector<vector<int>> v6 ={{1,1},{3,3}};
+    vector<vector<int>> v5 ={{0,1},{1,2},{0,2}};
+    vector<double> v1 = {0.5,0.5,0.2};
     vector<int> v2 = {1,1,1,9,7};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
     vector<int> v4 = {1,3,2};
@@ -121,8 +114,8 @@ int main() {
 
     vector<string> st1 = {"like","god","internal","me","internet","interval","intension","face","intrusion"};
     Solution s;
-    s.rangeSum(v2,5,5,5);
-
+//    s.maxProbability(3,v5,v1,0,2);
+    s.getMinDistSum(v6);
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
     TreeNode *t1 = new TreeNode(1);
