@@ -1080,6 +1080,13 @@
 | [LeetCode 1502. 判断能否形成等差数列](https://blog.csdn.net/qq_21201267/article/details/107137163) |                                                              |
 | [LeetCode 1503. 所有蚂蚁掉下来前的最后一刻（脑筋急转弯）](https://blog.csdn.net/qq_21201267/article/details/107141312) |                                                              |
 | [LeetCode 1504. 统计全 1 子矩形（记录左侧的连续1的个数）](https://blog.csdn.net/qq_21201267/article/details/107139936) |                                                              |
+| [LeetCode 5177. 转变日期格式](https://michael.blog.csdn.net/article/details/107293199#1_LeetCode_5177__easy_15) |                                                              |
+| [LeetCode 5445. 子数组和排序后的区间和](https://michael.blog.csdn.net/article/details/107293199#2_LeetCode_5445__medium_90) |                                                              |
+| [LeetCode 5446. 三次操作后最大值与最小值的最小差](https://michael.blog.csdn.net/article/details/107293199#3_LeetCode_5446__medium_164) |                                                              |
+| [LeetCode 5447. 石子游戏 IV（博弈DP）](https://michael.blog.csdn.net/article/details/107293199#4_LeetCode_5447__IV_hardDP_217) |                                                              |
+| [LeetCode 5460. 好数对的数目](https://michael.blog.csdn.net/article/details/107297636#1_LeetCode_5460__easy_13) |                                                              |
+| [LeetCode 5461. 仅含 1 的子串数](https://michael.blog.csdn.net/article/details/107297636#2_LeetCode_5461__1__medium_66) |                                                              |
+| [LeetCode 5211. 概率最大的路径（Dijkstra+优先队列优化）](https://michael.blog.csdn.net/article/details/107297636#3_LeetCode_5211__medium_135) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
