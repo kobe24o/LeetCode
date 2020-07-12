@@ -77,23 +77,45 @@ public:
 
 class Solution {
 public:
-    double getMinDistSum(vector<vector<int>>& positions) {
-        int x0,y0, i, xi,yi, n = positions.size(), dis;
-        set<int> d;
-        for(x0 = 1; x0 <= 3; ++x0)
+    string shortestPalindrome(string s) {
+        if(s.empty()) return "";
+        if(ispalindrom(s))
+            return s;
+        int n = s.size(), idx, maxlen = 0;
+        string t;
+        for(int i = 0; i <= n/2; ++i)
         {
-            for(y0 = 1; y0 <= 3; ++y0)
+            t = s.substr(i, i+1);
+            reverse(t.begin(), t.end());
+            if(s.substr(0,i+1) == t )
             {
-                dis = 0;
-                for(i = 0; i < n; ++i)
-                {
-                    xi = positions[i][0];
-                    yi = positions[i][1];
-                    dis += (x0-xi)*(x0-xi)+(y0-yi)*(y0-yi);
-                }
+                idx = i;
+                maxlen = i+1;
+            }
+            t = s.substr(i+1, i+1);
+            reverse(t.begin(), t.end());
+            if(s.substr(0,i+1) == t )
+            {
+                idx = i+1;
+                maxlen = i+1;
             }
         }
-        return sqrt(*d.begin());
+        if(maxlen&1)
+            t = s.substr(2*idx+1);
+        else
+            t = s.substr(2*idx);
+        reverse(t.begin(), t.end());
+        return t+s;
+    }
+    bool ispalindrom(string &s)
+    {
+        int l = 0, r = s.size()-1;
+        while(l < r)
+        {
+            if(s[l++] != s[r--])
+                return false;
+        }
+        return true;
     }
 };
 void printv(vector<int>& v)
@@ -115,7 +137,7 @@ int main() {
     vector<string> st1 = {"like","god","internal","me","internet","interval","intension","face","intrusion"};
     Solution s;
 //    s.maxProbability(3,v5,v1,0,2);
-    s.getMinDistSum(v6);
+    s.shortestPalindrome("aacecaaa");
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
     TreeNode *t1 = new TreeNode(1);
