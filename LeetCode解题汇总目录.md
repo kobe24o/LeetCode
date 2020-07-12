@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.6.18
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.7.12
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题（更新完毕）](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题（更新完毕）](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode代码能力测试CAT](https://blog.csdn.net/qq_21201267/article/details/104603021)。
 
@@ -6,7 +6,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
-**已解决 1248/1711** - **简单 461** **中等 669** **困难 118**
+**已解决 1253/1715** - **简单 462** **中等 671** **困难 120**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 - 2019.11.09 - 2019.11.24，AC + 100道，共计500道（123天，4个月）
@@ -213,6 +213,7 @@
 | [LeetCode 171. Excel表列序号（26进制转10进制）](https://blog.csdn.net/qq_21201267/article/details/100998473) |                                                              |
 | [LeetCode 172. 阶乘后的零（5的因子）](https://michael.blog.csdn.net/article/details/105127249) |                                                              |
 | [LeetCode 173. 二叉搜索树迭代器（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/100549417) |                                                              |
+| [LeetCode 174. 地下城游戏（DP）](https://michael.blog.csdn.net/article/details/107302622) |                                                              |
 | [LeetCode 179. 最大数（自定义谓词函数（Lambda表达式）排序）](https://blog.csdn.net/qq_21201267/article/details/102827816) |                                                              |
 | [LeetCode 186. 翻转字符串里的单词 II](https://blog.csdn.net/qq_21201267/article/details/107115195) |                                                              |
 | [LeetCode 187. 重复的DNA序列（哈希/位运算）](https://michael.blog.csdn.net/article/details/106093316) |                                                              |
@@ -1087,6 +1088,7 @@
 | [LeetCode 5460. 好数对的数目](https://michael.blog.csdn.net/article/details/107297636#1_LeetCode_5460__easy_13) |                                                              |
 | [LeetCode 5461. 仅含 1 的子串数](https://michael.blog.csdn.net/article/details/107297636#2_LeetCode_5461__1__medium_66) |                                                              |
 | [LeetCode 5211. 概率最大的路径（Dijkstra+优先队列优化）](https://michael.blog.csdn.net/article/details/107297636#3_LeetCode_5211__medium_135) |                                                              |
+| [LeetCode 5463. 服务中心的最佳位置（最优化退火迭代）](https://michael.blog.csdn.net/article/details/107297636#4_LeetCode_5463__hard_239) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
