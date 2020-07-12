@@ -10,6 +10,7 @@ public:
     		{
     			minlife = min(dp[i+1][j], dp[i][j+1]);//最少需要的生命值
     			dp[i][j] = max(minlife-grid[i][j], 1);
+    			//              
     		}
     	}
     	return dp[0][0];
