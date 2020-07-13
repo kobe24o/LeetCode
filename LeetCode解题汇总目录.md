@@ -694,6 +694,7 @@
 | [LeetCode 892. 三维形体的表面积（数学）](https://michael.blog.csdn.net/article/details/103153550) |                                                              |
 | [LeetCode 893. 特殊等价字符串组](https://michael.blog.csdn.net/article/details/105798555) |                                                              |
 | [LeetCode 894. 所有可能的满二叉树（递归）](https://michael.blog.csdn.net/article/details/105727867) |                                                              |
+| [LeetCode 895. 最大频率栈（哈希+按频数存储）](https://michael.blog.csdn.net/article/details/107324296) |                                                              |
 | [LeetCode 896. 单调数列](https://blog.csdn.net/qq_21201267/article/details/100782385) |                                                              |
 | [LeetCode 897. 递增顺序查找树（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/101083541) |                                                              |
 | [LeetCode 901. 股票价格跨度（单调栈）](https://michael.blog.csdn.net/article/details/105860583) |                                                              |
@@ -1081,14 +1082,14 @@
 | [LeetCode 1502. 判断能否形成等差数列](https://blog.csdn.net/qq_21201267/article/details/107137163) |                                                              |
 | [LeetCode 1503. 所有蚂蚁掉下来前的最后一刻（脑筋急转弯）](https://blog.csdn.net/qq_21201267/article/details/107141312) |                                                              |
 | [LeetCode 1504. 统计全 1 子矩形（记录左侧的连续1的个数）](https://blog.csdn.net/qq_21201267/article/details/107139936) |                                                              |
-| [LeetCode 5177. 转变日期格式](https://michael.blog.csdn.net/article/details/107293199#1_LeetCode_5177__easy_15) |                                                              |
-| [LeetCode 5445. 子数组和排序后的区间和](https://michael.blog.csdn.net/article/details/107293199#2_LeetCode_5445__medium_90) |                                                              |
-| [LeetCode 5446. 三次操作后最大值与最小值的最小差](https://michael.blog.csdn.net/article/details/107293199#3_LeetCode_5446__medium_164) |                                                              |
-| [LeetCode 5447. 石子游戏 IV（博弈DP）](https://michael.blog.csdn.net/article/details/107293199#4_LeetCode_5447__IV_hardDP_217) |                                                              |
-| [LeetCode 5460. 好数对的数目](https://michael.blog.csdn.net/article/details/107297636#1_LeetCode_5460__easy_13) |                                                              |
-| [LeetCode 5461. 仅含 1 的子串数](https://michael.blog.csdn.net/article/details/107297636#2_LeetCode_5461__1__medium_66) |                                                              |
-| [LeetCode 5211. 概率最大的路径（Dijkstra+优先队列优化）](https://michael.blog.csdn.net/article/details/107297636#3_LeetCode_5211__medium_135) |                                                              |
-| [LeetCode 5463. 服务中心的最佳位置（最优化退火迭代）](https://michael.blog.csdn.net/article/details/107297636#4_LeetCode_5463__hard_239) |                                                              |
+| [LeetCode 1507. 转变日期格式](https://michael.blog.csdn.net/article/details/107293199#1_LeetCode_5177__easy_15) |                                                              |
+| [LeetCode 1508. 子数组和排序后的区间和](https://michael.blog.csdn.net/article/details/107293199#2_LeetCode_5445__medium_90) |                                                              |
+| [LeetCode 1509. 三次操作后最大值与最小值的最小差](https://michael.blog.csdn.net/article/details/107293199#3_LeetCode_5446__medium_164) |                                                              |
+| [LeetCode 1510. 石子游戏 IV（博弈DP）](https://michael.blog.csdn.net/article/details/107293199#4_LeetCode_5447__IV_hardDP_217) |                                                              |
+| [LeetCode 1512. 好数对的数目](https://michael.blog.csdn.net/article/details/107297636#1_LeetCode_5460__easy_13) |                                                              |
+| [LeetCode 1513. 仅含 1 的子串数](https://michael.blog.csdn.net/article/details/107297636#2_LeetCode_5461__1__medium_66) |                                                              |
+| [LeetCode 1514. 概率最大的路径（Dijkstra+优先队列优化）](https://michael.blog.csdn.net/article/details/107297636#3_LeetCode_5211__medium_135) |                                                              |
+| [LeetCode 1515. 服务中心的最佳位置（最优化退火迭代）](https://michael.blog.csdn.net/article/details/107297636#4_LeetCode_5463__hard_239) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
