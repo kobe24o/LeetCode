@@ -204,6 +204,7 @@
 | [LeetCode 161. 相隔为 1 的编辑距离（DP/遍历）](https://blog.csdn.net/qq_21201267/article/details/107179471) |                                                              |
 | [LeetCode 162. 寻找峰值（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102418806) |                                                              |
 | [LeetCode 163. 缺失的区间](https://blog.csdn.net/qq_21201267/article/details/107186322) |                                                              |
+| [LeetCode 164. 最大间距（桶排序）](https://michael.blog.csdn.net/article/details/107325529) |                                                              |
 | [LeetCode 165. 比较版本号](https://michael.blog.csdn.net/article/details/103674332) |                                                              |
 | [LeetCode 166. 分数到小数（小数除法）](https://blog.csdn.net/qq_21201267/article/details/102757990) |                                                              |
 | [LeetCode 167. 两数之和 II - 输入有序数组（双指针）](https://michael.blog.csdn.net/article/details/105596937) |                                                              |
