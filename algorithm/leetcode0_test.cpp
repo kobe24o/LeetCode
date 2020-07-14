@@ -77,45 +77,63 @@ public:
 
 class Solution {
 public:
-    string shortestPalindrome(string s) {
-        if(s.empty()) return "";
-        if(ispalindrom(s))
-            return s;
-        int n = s.size(), idx, maxlen = 0;
-        string t;
-        for(int i = 0; i <= n/2; ++i)
+    string alienOrder(vector<string>& words) {
+        unordered_set<char> allchar;
+        for(string& w : words)
         {
-            t = s.substr(i, i+1);
-            reverse(t.begin(), t.end());
-            if(s.substr(0,i+1) == t )
-            {
-                idx = i;
-                maxlen = i+1;
-            }
-            t = s.substr(i+1, i+1);
-            reverse(t.begin(), t.end());
-            if(s.substr(0,i+1) == t )
-            {
-                idx = i+1;
-                maxlen = i+1;
-            }
-        }
-        if(maxlen&1)
-            t = s.substr(2*idx+1);
-        else
-            t = s.substr(2*idx);
-        reverse(t.begin(), t.end());
-        return t+s;
-    }
-    bool ispalindrom(string &s)
-    {
-        int l = 0, r = s.size()-1;
-        while(l < r)
+        	for(char ch : w)
+        		allchar.insert(ch);
+        }//记下所有的字符
+        unordered_map<char,int> indegree;
+        unordered_map<char,unordered_set<char>> graph;
+        int n1, n2, n;
+        for(int i = 1, j; i < words.size(); ++i)
         {
-            if(s[l++] != s[r--])
-                return false;
+        	if(words[i-1] == words[i])
+        		continue;
+        	n1 = words[i-1].size();
+        	n2 = words[i].size();
+        	n = min(n1, n2);
+        	for(j = 0; j < n; ++j)
+        	{
+        		if(words[i-1][j] != words[i][j])
+        		{	//不相等的第一个构成有向图的边
+        			graph[words[i-1][j]].insert(words[i][j]);
+        			indegree[words[i][j]]++;
+        			indegree[words[i-1][j]] += 0;
+        			break;
+        		}
+        	}
+        	if(j == n && n1 > n2)
+        		return "";//前面相等，前者长不行
         }
-        return true;
+        queue<char> q;
+        for(auto it = indegree.begin(); it != indegree.end(); ++it)
+        {
+        	if(it->second == 0)
+        		q.push(it->first);
+        }
+        string ans;
+        while(!q.empty())
+        {
+        	char ch = q.front();
+        	allchar.erase(ch);
+        	q.pop();
+        	ans += ch;
+        	for(auto it = graph[ch].begin(); it != graph[ch].end(); ++it)
+        	{
+        		if(--indegree[*it] == 0)
+        			q.push(*it);
+        	}
+        }
+        if(ans.size() != indegree.size())
+        	return "";
+        while(allchar.size())
+        {
+        	ans += *allchar.begin();
+        	allchar.erase(allchar.begin());
+        }
+        return ans;
     }
 };
 void printv(vector<int>& v)
@@ -133,11 +151,10 @@ int main() {
     vector<int> v4 = {1,3,2};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
-    maop<int,int> m
-    vector<string> st1 = {"like","god","internal","me","internet","interval","intension","face","intrusion"};
+    vector<string> st1 = {"za","zb","ca","cb"};
     Solution s;
 //    s.maxProbability(3,v5,v1,0,2);
-    s.shortestPalindrome("aacecaaa");
+    s.alienOrder(st1);
     string s1 = "1";
     cout << s1[1] << "s[1]" << endl;
     TreeNode *t1 = new TreeNode(1);
