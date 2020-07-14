@@ -313,6 +313,7 @@
 | [LeetCode 298. 二叉树最长连续序列（自顶向下）](https://blog.csdn.net/qq_21201267/article/details/107172224) |                                                              |
 | [LeetCode 299. 猜数字游戏](https://michael.blog.csdn.net/article/details/105244199) |                                                              |
 | [LeetCode 300. 最长上升子序列](https://blog.csdn.net/qq_21201267/article/details/97308533) |                                                              |
+| [LeetCode 301. 删除无效的括号（回溯）](https://michael.blog.csdn.net/article/details/107347465) |                                                              |
 | [LeetCode 303. 区域和检索 - 数组不可变（前缀和）](https://michael.blog.csdn.net/article/details/105629224) |                                                              |
 | [LeetCode 304. 二维区域和检索 - 矩阵不可变（DP）](https://blog.csdn.net/qq_21201267/article/details/101219854) |                                                              |
 | [LeetCode 305. 岛屿数量 II（并查集）](https://blog.csdn.net/qq_21201267/article/details/107226324) |                                                              |
