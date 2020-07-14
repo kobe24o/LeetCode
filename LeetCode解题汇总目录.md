@@ -408,6 +408,7 @@
 | [LeetCode 424. 替换后的最长重复字符（滑动窗口）](https://michael.blog.csdn.net/article/details/106213574) |                                                              |
 | [LeetCode 426. 将二叉搜索树转化为排序的双向链表（BST中序循环遍历）](https://blog.csdn.net/qq_21201267/article/details/107129959) |                                                              |
 | [LeetCode 427. 建立四叉树（递归）](https://michael.blog.csdn.net/article/details/103038783) |                                                              |
+| [LeetCode 428. 序列化和反序列化 N 叉树（DFS）](https://michael.blog.csdn.net/article/details/107349431) |                                                              |
 | [LeetCode 429. N叉树的层序遍历（queue）](https://blog.csdn.net/qq_21201267/article/details/100714179) |                                                              |
 | [LeetCode 430. 扁平化多级双向链表（DFS）](https://blog.csdn.net/qq_21201267/article/details/101723144) |                                                              |
 | [LeetCode 433. 最小基因变化（广度优先搜索）](https://michael.blog.csdn.net/article/details/106156216) |                                                              |
