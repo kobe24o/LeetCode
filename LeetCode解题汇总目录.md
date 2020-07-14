@@ -330,6 +330,7 @@
 | [LeetCode 322. 零钱兑换（DP）](https://blog.csdn.net/qq_21201267/article/details/99894804) |                                                              |
 | [LeetCode 323. 无向图中连通分量的数目（并查集）](https://blog.csdn.net/qq_21201267/article/details/107123017) |                                                              |
 | [LeetCode 324. 摆动排序 II](https://blog.csdn.net/qq_21201267/article/details/102871040) |                                                              |
+| [LeetCode 325. 和等于 k 的最长子数组长度（哈希表记录第一次出现的状态）](https://michael.blog.csdn.net/article/details/107350185) |                                                              |
 | [LeetCode 326. 3的幂](https://michael.blog.csdn.net/article/details/105644651) |                                                              |
 | [LeetCode 327. 区间和的个数（multiset二分查找/归并排序）](https://michael.blog.csdn.net/article/details/105636619) |                                                              |
 | [LeetCode 328. 奇偶链表（双指针）](https://blog.csdn.net/qq_21201267/article/details/101649623) |                                                              |
