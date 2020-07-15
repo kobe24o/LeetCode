@@ -288,6 +288,7 @@
 | [LeetCode 266. 回文排列（计数）](https://blog.csdn.net/qq_21201267/article/details/107096561) |                                                              |
 | [LeetCode 267. 回文排列 II（回溯）](https://blog.csdn.net/qq_21201267/article/details/107233716) |                                                              |
 | [LeetCode 268. 缺失数字](https://blog.csdn.net/qq_21201267/article/details/100146249) |                                                              |
+| [LeetCode 269. 火星词典（拓扑排序）](https://michael.blog.csdn.net/article/details/107346218) |                                                              |
 | [LeetCode 270. 最接近的二叉搜索树值](https://blog.csdn.net/qq_21201267/article/details/107090656) |                                                              |
 | [LeetCode 272. 最接近的二叉搜索树值 II（栈+优先队列）](https://blog.csdn.net/qq_21201267/article/details/107232667) |                                                              |
 | [LeetCode 273. 整数转换英文表示](https://michael.blog.csdn.net/article/details/103093410) |                                                              |
@@ -312,6 +313,7 @@
 | [LeetCode 298. 二叉树最长连续序列（自顶向下）](https://blog.csdn.net/qq_21201267/article/details/107172224) |                                                              |
 | [LeetCode 299. 猜数字游戏](https://michael.blog.csdn.net/article/details/105244199) |                                                              |
 | [LeetCode 300. 最长上升子序列](https://blog.csdn.net/qq_21201267/article/details/97308533) |                                                              |
+| [LeetCode 301. 删除无效的括号（回溯）](https://michael.blog.csdn.net/article/details/107347465) |                                                              |
 | [LeetCode 303. 区域和检索 - 数组不可变（前缀和）](https://michael.blog.csdn.net/article/details/105629224) |                                                              |
 | [LeetCode 304. 二维区域和检索 - 矩阵不可变（DP）](https://blog.csdn.net/qq_21201267/article/details/101219854) |                                                              |
 | [LeetCode 305. 岛屿数量 II（并查集）](https://blog.csdn.net/qq_21201267/article/details/107226324) |                                                              |
@@ -328,6 +330,7 @@
 | [LeetCode 322. 零钱兑换（DP）](https://blog.csdn.net/qq_21201267/article/details/99894804) |                                                              |
 | [LeetCode 323. 无向图中连通分量的数目（并查集）](https://blog.csdn.net/qq_21201267/article/details/107123017) |                                                              |
 | [LeetCode 324. 摆动排序 II](https://blog.csdn.net/qq_21201267/article/details/102871040) |                                                              |
+| [LeetCode 325. 和等于 k 的最长子数组长度（哈希表记录第一次出现的状态）](https://michael.blog.csdn.net/article/details/107350185) |                                                              |
 | [LeetCode 326. 3的幂](https://michael.blog.csdn.net/article/details/105644651) |                                                              |
 | [LeetCode 327. 区间和的个数（multiset二分查找/归并排序）](https://michael.blog.csdn.net/article/details/105636619) |                                                              |
 | [LeetCode 328. 奇偶链表（双指针）](https://blog.csdn.net/qq_21201267/article/details/101649623) |                                                              |
@@ -406,6 +409,7 @@
 | [LeetCode 424. 替换后的最长重复字符（滑动窗口）](https://michael.blog.csdn.net/article/details/106213574) |                                                              |
 | [LeetCode 426. 将二叉搜索树转化为排序的双向链表（BST中序循环遍历）](https://blog.csdn.net/qq_21201267/article/details/107129959) |                                                              |
 | [LeetCode 427. 建立四叉树（递归）](https://michael.blog.csdn.net/article/details/103038783) |                                                              |
+| [LeetCode 428. 序列化和反序列化 N 叉树（DFS）](https://michael.blog.csdn.net/article/details/107349431) |                                                              |
 | [LeetCode 429. N叉树的层序遍历（queue）](https://blog.csdn.net/qq_21201267/article/details/100714179) |                                                              |
 | [LeetCode 430. 扁平化多级双向链表（DFS）](https://blog.csdn.net/qq_21201267/article/details/101723144) |                                                              |
 | [LeetCode 433. 最小基因变化（广度优先搜索）](https://michael.blog.csdn.net/article/details/106156216) |                                                              |
