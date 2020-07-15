@@ -296,6 +296,7 @@
 | [LeetCode 274. H指数（排序，哈希）](https://michael.blog.csdn.net/article/details/103691047) |                                                              |
 | [LeetCode 275. H指数 II（二分查找）](https://michael.blog.csdn.net/article/details/103691399) |                                                              |
 | [LeetCode 276. 栅栏涂色（DP）](https://blog.csdn.net/qq_21201267/article/details/107103497) |                                                              |
+| [LeetCode 277. 搜寻名人（思维题）](https://michael.blog.csdn.net/article/details/107369072) |                                                              |
 | [LeetCode 278. 第一个错误的版本（二分查找）](https://michael.blog.csdn.net/article/details/105598387) |                                                              |
 | [LeetCode 279. 完全平方数（DP）](https://blog.csdn.net/qq_21201267/article/details/101487022) |                                                              |
 | [LeetCode 281. 锯齿迭代器（map+vector）](https://blog.csdn.net/qq_21201267/article/details/107115010) |                                                              |
