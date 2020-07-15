@@ -136,6 +136,100 @@ public:
         return ans;
     }
 };
+
+class node
+{
+public:
+    int val;
+    unordered_set<string> s;
+    node(int v)
+    {
+        val = v;
+    }
+};
+class AllOne {
+    unordered_map<string, list<node>::iterator> m;
+    list<node> l;
+public:
+    /** Initialize your data structure here. */
+    AllOne() {
+
+    }
+
+    /** Inserts a new key <Key> with value 1. Or increments an existing key by 1. */
+    void inc(string key) {
+        auto it = m.find(key);
+        if(it == m.end())
+        {
+            if(l.empty() || l.front().val > 1)
+                l.push_front(node(1));
+            l.begin()->s.insert(key);
+            m[key] = l.begin();
+        }
+        else
+        {
+            auto iter = it->second;
+            int num = iter->val;
+            auto olditer = iter;
+            auto newiter = iter++;
+            iter->s.erase(key);
+            num++;
+            if(newiter != l.end() && newiter->val == num)
+            {
+                newiter->s.insert(key);
+                m[key] = newiter;
+            }
+            else
+            {
+                auto temp = l.insert(newiter,node(num));
+                temp->s.insert(key);
+                m[key] = temp;
+            }
+            if(olditer->s.empty())
+                l.erase(olditer);
+        }
+    }
+
+    /** Decrements an existing key by 1. If Key's value is 1, remove it from the data structure. */
+    void dec(string key) {
+        auto it = m.find(key);
+        if(it == m.end()) return;
+        auto iter = it->second;
+        int num = iter->val;
+        iter->s.erase(key);
+        auto olditer = iter;
+        auto newiter = --iter;
+
+        num--;
+        if(num == 0)
+            m.erase(key);
+        else if(olditer != l.begin() && newiter->val == num)
+        {
+            newiter->s.insert(key);
+            m[key] = newiter;
+        }
+        else
+        {
+            auto temp = l.insert(olditer,node(num));
+            temp->s.insert(key);
+            m[key] = temp;
+        }
+        if(olditer->s.empty())
+            l.erase(olditer);
+    }
+
+    /** Returns one of the keys with maximal value. */
+    string getMaxKey() {
+        if(l.empty()) return "";
+        return *(l.back().s.begin());
+    }
+
+    /** Returns one of the keys with Minimal value. */
+    string getMinKey() {
+        if(l.empty()) return "";
+        return *(l.front().s.begin());
+    }
+};
 void printv(vector<int>& v)
 {
     for(auto& vi : v)
@@ -166,6 +260,19 @@ int main() {
     t1->right = t3;
     t2->left = t4;
     t2->right = t5;
+    AllOne a;
+    a.inc("a");
+    a.inc("b");
+    a.inc("b");
+    a.inc("b");
+    a.inc("b");
+
+    a.dec("b");
+    a.dec("b");
+
+    a.getMaxKey();
+    a.getMinKey();
+
 
     ListNode *h1 = new ListNode(3);
     ListNode *h2 = new ListNode(5);
@@ -180,11 +287,6 @@ int main() {
     h4->next = h5;
     h5->next = h6;
     h6->next = h7;
-    vector<int> a = {1,2,3};
-    cout << a.size() << endl;
-    a.resize(a.size()+5);
-    cout << a.size() << endl;
-    for(int i = 0; i < 8; ++i)
-        cout << a[i] << endl;
+
     return 0;
 }
