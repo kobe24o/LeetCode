@@ -299,6 +299,7 @@
 | [LeetCode 277. 搜寻名人（思维题）](https://michael.blog.csdn.net/article/details/107369072) |                                                              |
 | [LeetCode 278. 第一个错误的版本（二分查找）](https://michael.blog.csdn.net/article/details/105598387) |                                                              |
 | [LeetCode 279. 完全平方数（DP）](https://blog.csdn.net/qq_21201267/article/details/101487022) |                                                              |
+| [LeetCode 280. 摆动排序](https://michael.blog.csdn.net/article/details/107380850) |                                                              |
 | [LeetCode 281. 锯齿迭代器（map+vector）](https://blog.csdn.net/qq_21201267/article/details/107115010) |                                                              |
 | [LeetCode 283. 移动零](https://blog.csdn.net/qq_21201267/article/details/100832987) |                                                              |
 | [LeetCode 284. 顶端迭代器](https://michael.blog.csdn.net/article/details/105598512) |                                                              |
