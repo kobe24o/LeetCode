@@ -1091,6 +1091,7 @@
 | [LeetCode 1502. 判断能否形成等差数列](https://blog.csdn.net/qq_21201267/article/details/107137163) |                                                              |
 | [LeetCode 1503. 所有蚂蚁掉下来前的最后一刻（脑筋急转弯）](https://blog.csdn.net/qq_21201267/article/details/107141312) |                                                              |
 | [LeetCode 1504. 统计全 1 子矩形（记录左侧的连续1的个数）](https://blog.csdn.net/qq_21201267/article/details/107139936) |                                                              |
+| [LeetCode 1506. Find Root of N-Ary Tree（异或）](https://michael.blog.csdn.net/article/details/107380727) |                                                              |
 | [LeetCode 1507. 转变日期格式](https://michael.blog.csdn.net/article/details/107293199#1_LeetCode_5177__easy_15) |                                                              |
 | [LeetCode 1508. 子数组和排序后的区间和](https://michael.blog.csdn.net/article/details/107293199#2_LeetCode_5445__medium_90) |                                                              |
 | [LeetCode 1509. 三次操作后最大值与最小值的最小差](https://michael.blog.csdn.net/article/details/107293199#3_LeetCode_5446__medium_164) |                                                              |
