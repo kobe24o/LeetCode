@@ -534,6 +534,7 @@
 | [LeetCode 606. 根据二叉树创建字符串（递归）](https://michael.blog.csdn.net/article/details/103021068) |                                                              |
 | [LeetCode 609. 在系统中查找重复文件（哈希）](https://michael.blog.csdn.net/article/details/106932074) |                                                              |
 | [LeetCode 611. 有效三角形的个数（双指针）](https://michael.blog.csdn.net/article/details/103649865) |                                                              |
+| [LeetCode 616. 给字符串添加加粗标签（Trie树）](https://michael.blog.csdn.net/article/details/107399624) |                                                              |
 | [LeetCode 617. 合并二叉树](https://blog.csdn.net/qq_21201267/article/details/100569367) |                                                              |
 | [LeetCode 621. 任务调度器（贪心）](https://blog.csdn.net/qq_21201267/article/details/102760180) |                                                              |
 | [LeetCode 622. 设计循环队列](https://michael.blog.csdn.net/article/details/105719813) |                                                              |
