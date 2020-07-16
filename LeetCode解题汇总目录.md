@@ -575,6 +575,7 @@
 | [LeetCode 678. 有效的括号字符串（栈）](https://michael.blog.csdn.net/article/details/103865442) |                                                              |
 | [LeetCode 680. 验证回文字符串 Ⅱ](https://michael.blog.csdn.net/article/details/105739399) |                                                              |
 | [LeetCode 682. 棒球比赛](https://michael.blog.csdn.net/article/details/105739564) |                                                              |
+| [LeetCode 683. K 个空花盆（set/滑动窗口）](https://michael.blog.csdn.net/article/details/107390522) |                                                              |
 | [LeetCode 684. 冗余连接（并查集）](https://michael.blog.csdn.net/article/details/106396495) |                                                              |
 | [LeetCode 685. 冗余连接 II（并查集）](https://michael.blog.csdn.net/article/details/106410823) |                                                              |
 | [LeetCode 686. 重复叠加字符串匹配](https://michael.blog.csdn.net/article/details/103193202) |                                                              |
