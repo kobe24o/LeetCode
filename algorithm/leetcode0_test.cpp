@@ -77,157 +77,40 @@ public:
 
 class Solution {
 public:
-    string alienOrder(vector<string>& words) {
-        unordered_set<char> allchar;
-        for(string& w : words)
+    string nextClosestTime(string time) {
+        set<int> s;
+        s.insert(time[0]-'0');
+        s.insert(time[1]-'0');
+        s.insert(time[3]-'0');
+        s.insert(time[4]-'0');
+        if(s.size()==1) return time;//数字都一样
+        vector<int> num(s.begin(),s.end());
+        int i, j, h, m, size = num.size();
+        int hour = (time[0]-'0')*10+time[1]-'0';
+        int minute = (time[3]-'0')*10+time[4]-'0';
+        int minlargeH = 24, minlargeM = 60;
+        int minH = 24, minM = 60;
+        for(i = 0; i < size; i++)
         {
-        	for(char ch : w)
-        		allchar.insert(ch);
-        }//记下所有的字符
-        unordered_map<char,int> indegree;
-        unordered_map<char,unordered_set<char>> graph;
-        int n1, n2, n;
-        for(int i = 1, j; i < words.size(); ++i)
-        {
-        	if(words[i-1] == words[i])
-        		continue;
-        	n1 = words[i-1].size();
-        	n2 = words[i].size();
-        	n = min(n1, n2);
-        	for(j = 0; j < n; ++j)
-        	{
-        		if(words[i-1][j] != words[i][j])
-        		{	//不相等的第一个构成有向图的边
-        			graph[words[i-1][j]].insert(words[i][j]);
-        			indegree[words[i][j]]++;
-        			indegree[words[i-1][j]] += 0;
-        			break;
-        		}
-        	}
-        	if(j == n && n1 > n2)
-        		return "";//前面相等，前者长不行
-        }
-        queue<char> q;
-        for(auto it = indegree.begin(); it != indegree.end(); ++it)
-        {
-        	if(it->second == 0)
-        		q.push(it->first);
-        }
-        string ans;
-        while(!q.empty())
-        {
-        	char ch = q.front();
-        	allchar.erase(ch);
-        	q.pop();
-        	ans += ch;
-        	for(auto it = graph[ch].begin(); it != graph[ch].end(); ++it)
-        	{
-        		if(--indegree[*it] == 0)
-        			q.push(*it);
-        	}
-        }
-        if(ans.size() != indegree.size())
-        	return "";
-        while(allchar.size())
-        {
-        	ans += *allchar.begin();
-        	allchar.erase(allchar.begin());
-        }
-        return ans;
-    }
-};
-
-class node
-{
-public:
-    int val;
-    unordered_set<string> s;
-    node(int v)
-    {
-        val = v;
-    }
-};
-class AllOne {
-    unordered_map<string, list<node>::iterator> m;
-    list<node> l;
-public:
-    /** Initialize your data structure here. */
-    AllOne() {
-
-    }
-
-    /** Inserts a new key <Key> with value 1. Or increments an existing key by 1. */
-    void inc(string key) {
-        auto it = m.find(key);
-        if(it == m.end())
-        {
-            if(l.empty() || l.front().val > 1)
-                l.push_front(node(1));
-            l.begin()->s.insert(key);
-            m[key] = l.begin();
-        }
-        else
-        {
-            auto iter = it->second;
-            int num = iter->val;
-            auto olditer = iter;
-            auto newiter = iter++;
-            iter->s.erase(key);
-            num++;
-            if(newiter != l.end() && newiter->val == num)
+            h = num[i];
+            m = num[i];
+            for(j = 0; j < size; j++)
             {
-                newiter->s.insert(key);
-                m[key] = newiter;
+                h = h*10+num[j];
+                m = m*10+num[j];
+                minH = min(minH, h);
+                minM = min(minM, m);
+                if(h > hour && h < minlargeH)
+                    minlargeH = h;
+                if(m > minute && m < minlargeM)
+                    minlargeM = m;
             }
-            else
-            {
-                auto temp = l.insert(newiter,node(num));
-                temp->s.insert(key);
-                m[key] = temp;
-            }
-            if(olditer->s.empty())
-                l.erase(olditer);
         }
-    }
-
-    /** Decrements an existing key by 1. If Key's value is 1, remove it from the data structure. */
-    void dec(string key) {
-        auto it = m.find(key);
-        if(it == m.end()) return;
-        auto iter = it->second;
-        int num = iter->val;
-        iter->s.erase(key);
-        auto olditer = iter;
-        auto newiter = --iter;
-
-        num--;
-        if(num == 0)
-            m.erase(key);
-        else if(olditer != l.begin() && newiter->val == num)
-        {
-            newiter->s.insert(key);
-            m[key] = newiter;
-        }
-        else
-        {
-            auto temp = l.insert(olditer,node(num));
-            temp->s.insert(key);
-            m[key] = temp;
-        }
-        if(olditer->s.empty())
-            l.erase(olditer);
-    }
-
-    /** Returns one of the keys with maximal value. */
-    string getMaxKey() {
-        if(l.empty()) return "";
-        return *(l.back().s.begin());
-    }
-
-    /** Returns one of the keys with Minimal value. */
-    string getMinKey() {
-        if(l.empty()) return "";
-        return *(l.front().s.begin());
+        if(minlargeM != 60)
+            return time.substr(0,3)+ (minlargeM>10 ? to_string(minlargeM) : "0"+to_string(minlargeM));
+        if(minlargeH != 24)
+            return (minlargeH>10? to_string(minlargeH) : "0"+to_string(minlargeH)) + ":" + (minM>10? to_string(minM) : "0"+to_string(minM));
+        return (minH>10? to_string(minH) : "0"+to_string(minH)) + ":" + (minM>10? to_string(minM): "0"+to_string(minM));
     }
 };
 void printv(vector<int>& v)
@@ -247,31 +130,8 @@ int main() {
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
     vector<string> st1 = {"za","zb","ca","cb"};
     Solution s;
-//    s.maxProbability(3,v5,v1,0,2);
-    s.alienOrder(st1);
-    string s1 = "1";
-    cout << s1[1] << "s[1]" << endl;
-    TreeNode *t1 = new TreeNode(1);
-    TreeNode *t2 = new TreeNode(2);
-    TreeNode *t3 = new TreeNode(3);
-    TreeNode *t4 = new TreeNode(4);
-    TreeNode *t5 = new TreeNode(5);
-    t1->left = t2;
-    t1->right = t3;
-    t2->left = t4;
-    t2->right = t5;
-    AllOne a;
-    a.inc("a");
-    a.inc("b");
-    a.inc("b");
-    a.inc("b");
-    a.inc("b");
+    s.nextClosestTime("19:34");
 
-    a.dec("b");
-    a.dec("b");
-
-    a.getMaxKey();
-    a.getMinKey();
 
 
     ListNode *h1 = new ListNode(3);
