@@ -343,6 +343,7 @@
 | [LeetCode 334. 递增的三元子序列](https://blog.csdn.net/qq_21201267/article/details/101275950) |                                                              |
 | [LeetCode 337. 打家劫舍 III（记忆化+递归）](https://blog.csdn.net/qq_21201267/article/details/102691125) |                                                              |
 | [LeetCode 339. 嵌套列表权重和（DFS）](https://blog.csdn.net/qq_21201267/article/details/107093614) |                                                              |
+| [LeetCode 340. 至多包含 K 个不同字符的最长子串（滑动窗口）](https://michael.blog.csdn.net/article/details/107399576) |                                                              |
 | [LeetCode 341. 扁平化嵌套列表迭代器（双栈）](https://blog.csdn.net/qq_21201267/article/details/102869784) |                                                              |
 | [LeetCode 342. 4的幂（位运算）](https://michael.blog.csdn.net/article/details/103095417) |                                                              |
 | [LeetCode 343. 整数拆分（DP）](https://michael.blog.csdn.net/article/details/102942661) |                                                              |
