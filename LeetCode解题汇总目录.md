@@ -589,6 +589,7 @@
 | [LeetCode 690. 员工的重要性（图的DFS&BFS）](https://michael.blog.csdn.net/article/details/103153141) |                                                              |
 | [LeetCode 692. 前K个高频单词（优先队列）](https://michael.blog.csdn.net/article/details/106008947) |                                                              |
 | [LeetCode 693. 交替位二进制数（位运算）](https://blog.csdn.net/qq_21201267/article/details/101096121) |                                                              |
+| [LeetCode 694. 不同岛屿的数量（BFS/DFS+set）](https://michael.blog.csdn.net/article/details/107419494) |                                                              |
 | [LeetCode 695. 岛屿的最大面积（图的BFS/DFS）](https://michael.blog.csdn.net/article/details/103036801) |                                                              |
 | [LeetCode 696. 计数二进制子串](https://michael.blog.csdn.net/article/details/103074623) |                                                              |
 | [LeetCode 697. 数组的度](https://michael.blog.csdn.net/article/details/105739714) |                                                              |
