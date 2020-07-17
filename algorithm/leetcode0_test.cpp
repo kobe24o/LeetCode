@@ -75,42 +75,34 @@ public:
     }
 };
 
-class Solution {
+class NumMatrix {
+    vector<vector<int>> mat;
+    vector<vector<int>> rowpresum;
 public:
-    string nextClosestTime(string time) {
-        set<int> s;
-        s.insert(time[0]-'0');
-        s.insert(time[1]-'0');
-        s.insert(time[3]-'0');
-        s.insert(time[4]-'0');
-        if(s.size()==1) return time;//数字都一样
-        vector<int> num(s.begin(),s.end());
-        int i, j, h, m, size = num.size();
-        int hour = (time[0]-'0')*10+time[1]-'0';
-        int minute = (time[3]-'0')*10+time[4]-'0';
-        int minlargeH = 24, minlargeM = 60;
-        int minH = 24, minM = 60;
-        for(i = 0; i < size; i++)
+    NumMatrix(vector<vector<int>>& matrix) {
+        mat = matrix;
+        rowpresum = matrix;
+        for(int i = 0, j; i < matrix.size(); ++i)
         {
-            h = num[i];
-            m = num[i];
-            for(j = 0; j < size; j++)
-            {
-                h = h*10+num[j];
-                m = m*10+num[j];
-                minH = min(minH, h);
-                minM = min(minM, m);
-                if(h > hour && h < minlargeH)
-                    minlargeH = h;
-                if(m > minute && m < minlargeM)
-                    minlargeM = m;
-            }
+            for(j = 1; j < matrix[0].size(); ++j)
+                rowpresum[i][j] = rowpresum[i][j-1] + matrix[i][j];
         }
-        if(minlargeM != 60)
-            return time.substr(0,3)+ (minlargeM>10 ? to_string(minlargeM) : "0"+to_string(minlargeM));
-        if(minlargeH != 24)
-            return (minlargeH>10? to_string(minlargeH) : "0"+to_string(minlargeH)) + ":" + (minM>10? to_string(minM) : "0"+to_string(minM));
-        return (minH>10? to_string(minH) : "0"+to_string(minH)) + ":" + (minM>10? to_string(minM): "0"+to_string(minM));
+    }
+
+    void update(int row, int col, int val) {
+        rowpresum[row][col] = (col > 0 ? rowpresum[row][col-1] : 0) + val;
+        mat[row][col] = val;
+        for(int j = col+1; j < mat[0].size(); ++j)
+            rowpresum[row][j] += rowpresum[row][j-1] + mat[row][j];
+    }
+
+    int sumRegion(int row1, int col1, int row2, int col2) {
+        int sum = 0;
+        for(int i = row1; i <= row2; ++i)
+        {
+            sum += rowpresum[i][col2] - (col1==0 ? 0 : rowpresum[i][col1-1]);
+        }
+        return sum;
     }
 };
 void printv(vector<int>& v)
@@ -121,7 +113,10 @@ void printv(vector<int>& v)
 }
 int main() {
     vector<vector<int>> v6 ={{1,1},{3,3}};
-    vector<vector<int>> v5 ={{0,1},{1,2},{0,2}};
+    vector<vector<int>> v5 ={{3, 0, 1, 4, 2},
+                             {5, 6, 3, 2, 1},
+                             {1, 2, 0, 1, 5},{4, 1, 0, 1, 7},
+                             {1, 0, 3, 0, 5}};
     vector<double> v1 = {0.5,0.5,0.2};
     vector<int> v2 = {1,1,1,9,7};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
@@ -129,8 +124,10 @@ int main() {
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
     vector<string> st1 = {"za","zb","ca","cb"};
-    Solution s;
-    s.nextClosestTime("19:34");
+    NumMatrix s(v5);
+    s.sumRegion(2,1,4,3);
+    s.update(3,2,2);
+    s.sumRegion(2,1,4,3);
 
 
 
