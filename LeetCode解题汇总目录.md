@@ -199,6 +199,7 @@
 | [LeetCode 155. 最小栈](https://blog.csdn.net/qq_21201267/article/details/100188954) |                                                              |
 | [LeetCode 156. 上下翻转二叉树（DFS）*](https://blog.csdn.net/qq_21201267/article/details/107112729) |                                                              |
 | [LeetCode 157. 用 Read4 读取 N 个字符](https://blog.csdn.net/qq_21201267/article/details/107097728) |                                                              |
+| [LeetCode 158. 用 Read4 读取 N 个字符 II](https://michael.blog.csdn.net/article/details/107404980) |                                                              |
 | [LeetCode 159. 至多包含两个不同字符的最长子串（滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/107179327) |                                                              |
 | [LeetCode 160. 相交链表](https://blog.csdn.net/qq_21201267/article/details/100168364) |                                                              |
 | [LeetCode 161. 相隔为 1 的编辑距离（DP/遍历）](https://blog.csdn.net/qq_21201267/article/details/107179471) |                                                              |
