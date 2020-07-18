@@ -2,7 +2,7 @@
 
 
 
-**已解决 16/118** - **简单 15** **中等 1** **困难 0**
+**已解决 23/118** - **简单 22** **中等 1** **困难 0**
 
 
 
@@ -26,6 +26,7 @@
 | [LeetCode 1068. 产品销售分析 I](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1068__I_282) |
 | [LeetCode 1069. 产品销售分析 II](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1069__II_360) |
 | [LeetCode 1082. 销售分析 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1082__I_466) |
+| [LeetCode 1148. 文章浏览 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1148__I_624) |
 | [LeetCode 1173. 即时食物配送 I](https://michael.blog.csdn.net/article/details/106464299#_LeetCode_1173__I_163) |
 | [LeetCode 1251. 平均售价](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1251__681) |
 | [LeetCode 1303. 求团队人数](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1303__442) |
