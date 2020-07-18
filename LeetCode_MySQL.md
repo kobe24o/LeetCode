@@ -37,6 +37,7 @@
 | [LeetCode 1069. 产品销售分析 II](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1069__II_360) |
 | [LeetCode 1075. 项目员工 I](https://michael.blog.csdn.net/article/details/107432955) |
 | [LeetCode 1082. 销售分析 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1082__I_466) |
+| [LeetCode 1141. 查询近30天活跃用户数](https://michael.blog.csdn.net/article/details/107435709) |
 | [LeetCode 1148. 文章浏览 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1148__I_624) |
 | [LeetCode 1173. 即时食物配送 I](https://michael.blog.csdn.net/article/details/106464299#_LeetCode_1173__I_163) |
 | [LeetCode 1211. 查询结果的质量和占比](https://michael.blog.csdn.net/article/details/107434715) |
