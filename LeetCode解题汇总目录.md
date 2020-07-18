@@ -2,13 +2,13 @@
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/explore/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题（更新完毕）](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题（更新完毕）](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode代码能力测试CAT](https://blog.csdn.net/qq_21201267/article/details/104603021)。
 
-[LeetCode MySQL数据库解题目录](https://michael.blog.csdn.net/article/details/107423652)
+[LeetCode MySQL 数据库解题目录](https://michael.blog.csdn.net/article/details/107423652)
 
 [点击访问 我的 LeetCode 主页](https://leetcode-cn.com/u/kobe24o/)
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
-**已解决 1253/1715** - **简单 462** **中等 671** **困难 120**
+**已解决 1300/1716** - **简单 488** **中等 680** **困难 132**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 - 2019.11.09 - 2019.11.24，AC + 100道，共计500道（123天，4个月）
@@ -20,6 +20,7 @@
 - 2020.05.19 - 2020.05.27，AC +  24 道，共计<font color=#0035FF>**1024**</font>道（程序员的数字<font color=#0035FF> 2^10^ </font> ）
 - 2020.05.19 - 2020.06.18，AC + 100道，共计1100道（330天，11个月）
 - 2020.06.18 - 2020.07.04，AC + 100道，共计1200道（346天，50周）
+- 2020.07.04 - 2020.07.18，AC + 100道，共计1300道（360天，<font color=#FF0000>**1年**</font>）
 
 | 参赛记录                                                     |
 | :----------------------------------------------------------- |
