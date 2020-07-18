@@ -7,7 +7,7 @@
 
 
 | 已完成                                                       |
-|:------------------------------------------------------------ |
+| :----------------------------------------------------------- |
 | [LeetCode 175. 组合两个表](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_175__84) |
 | [LeetCode 176. 第二高的薪水](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_176__109) |
 | [LeetCode 177. 第N高的薪水](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode__177_N_152) |
@@ -17,6 +17,7 @@
 | [LeetCode 196. 删除重复的电子邮箱](https://blog.csdn.net/qq_21201267/article/details/106502369#_LeetCode_196__60) |
 | [LeetCode 595. 大的国家](https://blog.csdn.net/qq_21201267/article/details/106464299#_LeetCode_595__43) |
 | [LeetCode 596. 超过5名学生的课](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_596_5_352) |
+| [LeetCode 613. 直线上的最近距离](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_613__632) |
 | [LeetCode 620. 有趣的电影](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_620__240) |
 | [LeetCode 627. 交换工资](https://blog.csdn.net/qq_21201267/article/details/106502369#_LeetCode_627__113) |
 | [LeetCode 1068. 产品销售分析 I](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1068__I_282) |
