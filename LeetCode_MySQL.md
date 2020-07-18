@@ -4,7 +4,12 @@
 
 **已解决 23/118** - **简单 22** **中等 1** **困难 0**
 
+前置入门学习
 
+- [MySQL 基本查询、条件查询、投影查询](https://blog.csdn.net/qq_21201267/article/details/106464299)
+- [MySQL 排序、分页查询、聚合查询](https://blog.csdn.net/qq_21201267/article/details/106478958)
+- [MySQL 多表查询、连接查询（内连接、外连接）](https://blog.csdn.net/qq_21201267/article/details/106481752)
+- [MySQL 增加、更新、删除](https://blog.csdn.net/qq_21201267/article/details/106502369)
 
 | 已完成                                                       |
 | :----------------------------------------------------------- |
@@ -41,6 +46,7 @@
 | [LeetCode 1378. 使用唯一标识码替换员工ID](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1378_ID_192) |
 | [LeetCode 1407. 排名靠前的旅行者](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1407__808) |
 | [LeetCode 1485. 按日期分组销售产品](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1485__741) |
+| [LeetCode 1511. Customer Order Frequency](https://michael.blog.csdn.net/article/details/107432640) |
 
 
 
