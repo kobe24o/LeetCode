@@ -35,6 +35,7 @@
 | [LeetCode 1050. 合作过至少三次的演员和导演](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1050__567) |
 | [LeetCode 1068. 产品销售分析 I](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1068__I_282) |
 | [LeetCode 1069. 产品销售分析 II](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1069__II_360) |
+| [LeetCode 1075. 项目员工 I](https://michael.blog.csdn.net/article/details/107432955) |
 | [LeetCode 1082. 销售分析 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1082__I_466) |
 | [LeetCode 1148. 文章浏览 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1148__I_624) |
 | [LeetCode 1173. 即时食物配送 I](https://michael.blog.csdn.net/article/details/106464299#_LeetCode_1173__I_163) |
