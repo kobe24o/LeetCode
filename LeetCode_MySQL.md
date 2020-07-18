@@ -2,7 +2,7 @@
 
 
 
-**已解决 34/118** - **简单 33** **中等 1** **困难 0**
+**已解决 36/118** - **简单 35** **中等 1** **困难 0**
 
 前置入门学习
 
@@ -46,6 +46,7 @@
 | [LeetCode 1350. 院系无效的学生](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1350__515) |
 | [LeetCode 1378. 使用唯一标识码替换员工ID](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1378_ID_192) |
 | [LeetCode 1407. 排名靠前的旅行者](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1407__808) |
+| [LeetCode 1435. 制作会话柱状图](https://michael.blog.csdn.net/article/details/107433177) |
 | [LeetCode 1485. 按日期分组销售产品](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1485__741) |
 | [LeetCode 1511. Customer Order Frequency](https://michael.blog.csdn.net/article/details/107432640) |
 
