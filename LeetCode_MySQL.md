@@ -22,6 +22,7 @@
 | [LeetCode 613. 直线上的最近距离](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_613__632) |
 | [LeetCode 620. 有趣的电影](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_620__240) |
 | [LeetCode 627. 交换工资](https://blog.csdn.net/qq_21201267/article/details/106502369#_LeetCode_627__113) |
+| [LeetCode 1050. 合作过至少三次的演员和导演](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1050__567) |
 | [LeetCode 1068. 产品销售分析 I](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1068__I_282) |
 | [LeetCode 1069. 产品销售分析 II](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1069__II_360) |
 | [LeetCode 1082. 销售分析 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1082__I_466) |
