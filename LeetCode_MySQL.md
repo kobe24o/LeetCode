@@ -1,4 +1,4 @@
-已完成的 [LeetCode MySQL](https://leetcode-cn.com/problemset/database/) 数据库题目
+已完成的 [LeetCode MySQL](https://leetcode-cn.com/problemset/database/) 数据库题目。点击查看我的 [LeetCode 算法解题目录](https://michael.blog.csdn.net/article/details/100577842)。
 
 
 
