@@ -26,6 +26,7 @@
 | [LeetCode 586. 订单最多的客户](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_586__397) |
 | [LeetCode 595. 大的国家](https://blog.csdn.net/qq_21201267/article/details/106464299#_LeetCode_595__43) |
 | [LeetCode 596. 超过5名学生的课](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_596_5_352) |
+| [LeetCode 597. 好友申请 I ：总体通过率](https://michael.blog.csdn.net/article/details/107447433) |
 | [LeetCode 603. 连续空余座位](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_603__930) |
 | [LeetCode 607. 销售员](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_607__977) |
 | [LeetCode 610. 判断三角形](https://michael.blog.csdn.net/article/details/106464299#_LeetCode_610__234) |
