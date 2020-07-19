@@ -42,6 +42,7 @@
 | [LeetCode 1076. 项目员工II](https://michael.blog.csdn.net/article/details/107448862) |
 | [LeetCode 1082. 销售分析 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1082__I_466) |
 | [LeetCode 1083. 销售分析 II](https://michael.blog.csdn.net/article/details/107449727) |
+| [LeetCode 1084. 销售分析III](https://michael.blog.csdn.net/article/details/107450014) |
 | [LeetCode 1113. 报告的记录](https://michael.blog.csdn.net/article/details/107441663) |
 | [LeetCode 1141. 查询近30天活跃用户数](https://michael.blog.csdn.net/article/details/107435709) |
 | [LeetCode 1142. 过去30天的用户活动 II](https://michael.blog.csdn.net/article/details/107445592) |
