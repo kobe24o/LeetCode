@@ -50,7 +50,7 @@
 | [LeetCode 1148. 文章浏览 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1148__I_624) |
 | [LeetCode 1173. 即时食物配送 I](https://michael.blog.csdn.net/article/details/106464299#_LeetCode_1173__I_163) |
 | [LeetCode 1179. 重新格式化部门表](https://michael.blog.csdn.net/article/details/107450353) |
-| [LeetCode 1204. 最后一个能进入电梯的人（累加/变量）](https://michael.blog.csdn.net/article/details/107451890) |
+| [LeetCode 1204. 最后一个能进入电梯的人（累加/变量/窗口函数）](https://michael.blog.csdn.net/article/details/107451890) |
 | [LeetCode 1211. 查询结果的质量和占比](https://michael.blog.csdn.net/article/details/107434715) |
 | [LeetCode 1241. 每个帖子的评论数](https://michael.blog.csdn.net/article/details/107435051) |
 | [LeetCode 1251. 平均售价](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1251__681) |
