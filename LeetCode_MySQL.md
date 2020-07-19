@@ -37,6 +37,7 @@
 | [LeetCode 1069. 产品销售分析 II](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1069__II_360) |
 | [LeetCode 1075. 项目员工 I](https://michael.blog.csdn.net/article/details/107432955) |
 | [LeetCode 1082. 销售分析 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1082__I_466) |
+| [LeetCode 1113. 报告的记录](https://michael.blog.csdn.net/article/details/107441663) |
 | [LeetCode 1141. 查询近30天活跃用户数](https://michael.blog.csdn.net/article/details/107435709) |
 | [LeetCode 1148. 文章浏览 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1148__I_624) |
 | [LeetCode 1173. 即时食物配送 I](https://michael.blog.csdn.net/article/details/106464299#_LeetCode_1173__I_163) |
@@ -51,6 +52,7 @@
 | [LeetCode 1407. 排名靠前的旅行者](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1407__808) |
 | [LeetCode 1435. 制作会话柱状图](https://michael.blog.csdn.net/article/details/107433177) |
 | [LeetCode 1485. 按日期分组销售产品](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1485__741) |
+| [LeetCode 1495. Friendly Movies Streamed Last Month](https://michael.blog.csdn.net/article/details/107441381) |
 | [LeetCode 1511. Customer Order Frequency](https://michael.blog.csdn.net/article/details/107432640) |
 | [LeetCode 1517. Find Users With Valid E-Mails（正则表达式）](https://michael.blog.csdn.net/article/details/107440931) |
 
