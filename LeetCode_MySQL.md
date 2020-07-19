@@ -62,6 +62,7 @@
 | [LeetCode 1378. 使用唯一标识码替换员工ID](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1378_ID_192) |
 | [LeetCode 1407. 排名靠前的旅行者](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1407__808) |
 | [LeetCode 1435. 制作会话柱状图](https://michael.blog.csdn.net/article/details/107433177) |
+| [LeetCode 1445. 苹果和桔子](https://michael.blog.csdn.net/article/details/107451077) |
 | [LeetCode 1485. 按日期分组销售产品](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1485__741) |
 | [LeetCode 1495. Friendly Movies Streamed Last Month](https://michael.blog.csdn.net/article/details/107441381) |
 | [LeetCode 1511. Customer Order Frequency](https://michael.blog.csdn.net/article/details/107432640) |
