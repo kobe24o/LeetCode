@@ -46,6 +46,7 @@
 | [LeetCode 1211. 查询结果的质量和占比](https://michael.blog.csdn.net/article/details/107434715) |
 | [LeetCode 1241. 每个帖子的评论数](https://michael.blog.csdn.net/article/details/107435051) |
 | [LeetCode 1251. 平均售价](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1251__681) |
+| [LeetCode 1280. 学生们参加各科测试的次数](https://michael.blog.csdn.net/article/details/107446420) |
 | [LeetCode 1294. 不同国家的天气类型](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1294__1055) |
 | [LeetCode 1303. 求团队人数](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1303__442) |
 | [LeetCode 1327. 列出指定时间段内所有的下单产品](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1327__824) |
