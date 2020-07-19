@@ -44,6 +44,7 @@
 | [LeetCode 第 29 场双周赛（890/2259，前39.4%）](https://michael.blog.csdn.net/article/details/106990467) |
 | [LeetCode 第 30 场双周赛（477/2545，前18.7%，第2次全部通过🚀）](https://michael.blog.csdn.net/article/details/107293199) |
 | [LeetCode 第 197 场周赛（468/5273，前8.88%）](https://michael.blog.csdn.net/article/details/107297636) |
+| [LeetCode 第 198 场周赛（434/5778，前7.51%）](https://michael.blog.csdn.net/article/details/107443611) |
 
 ​          
 
@@ -1114,6 +1115,8 @@
 | [LeetCode 1514. 概率最大的路径（Dijkstra+优先队列优化）](https://michael.blog.csdn.net/article/details/107297636#3_LeetCode_5211__medium_135) |                                                              |
 | [LeetCode 1515. 服务中心的最佳位置（最优化退火迭代）](https://michael.blog.csdn.net/article/details/107297636#4_LeetCode_5463__hard_239) |                                                              |
 | [LeetCode 1516. Move Sub-Tree of N-Ary Tree（DFS）](https://michael.blog.csdn.net/article/details/107420745) |                                                              |
+| [LeetCode 5464. 换酒问题](https://michael.blog.csdn.net/article/details/107443611#1_LeetCode_5464__easy_15) |                                                              |
+| [LeetCode 5465. 子树中标签相同的节点数（DFS）](https://michael.blog.csdn.net/article/details/107443611#2_LeetCode_5465__medium_91) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
