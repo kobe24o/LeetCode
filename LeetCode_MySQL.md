@@ -21,6 +21,7 @@
 | [LeetCode 183. 从不订购的客户](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_183__289) |
 | [LeetCode 196. 删除重复的电子邮箱](https://blog.csdn.net/qq_21201267/article/details/106502369#_LeetCode_196__60) |
 | [LeetCode 511. 游戏玩法分析 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_511__I_682) |
+| [LeetCode 512. 游戏玩法分析 II](https://michael.blog.csdn.net/article/details/107448149) |
 | [LeetCode 577. 员工奖金](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_577__769) |
 | [LeetCode 584. 寻找用户推荐人](https://michael.blog.csdn.net/article/details/106464299#_LeetCode_584__106) |
 | [LeetCode 586. 订单最多的客户](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_586__397) |
