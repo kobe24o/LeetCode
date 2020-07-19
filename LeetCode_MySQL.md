@@ -54,6 +54,7 @@
 | [LeetCode 1280. 学生们参加各科测试的次数](https://michael.blog.csdn.net/article/details/107446420) |
 | [LeetCode 1294. 不同国家的天气类型](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1294__1055) |
 | [LeetCode 1303. 求团队人数](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1303__442) |
+| [LeetCode 1322. 广告效果](https://michael.blog.csdn.net/article/details/107450131) |
 | [LeetCode 1327. 列出指定时间段内所有的下单产品](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1327__824) |
 | [LeetCode 1350. 院系无效的学生](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1350__515) |
 | [LeetCode 1378. 使用唯一标识码替换员工ID](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1378_ID_192) |
