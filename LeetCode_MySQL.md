@@ -20,6 +20,7 @@
 | [LeetCode 182. 查找重复的电子邮箱](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_182__196) |
 | [LeetCode 183. 从不订购的客户](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_183__289) |
 | [LeetCode 196. 删除重复的电子邮箱](https://blog.csdn.net/qq_21201267/article/details/106502369#_LeetCode_196__60) |
+| [LeetCode 197. 上升的温度](https://michael.blog.csdn.net/article/details/107450633) |
 | [LeetCode 511. 游戏玩法分析 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_511__I_682) |
 | [LeetCode 512. 游戏玩法分析 II](https://michael.blog.csdn.net/article/details/107448149) |
 | [LeetCode 577. 员工奖金](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_577__769) |
@@ -48,6 +49,7 @@
 | [LeetCode 1142. 过去30天的用户活动 II](https://michael.blog.csdn.net/article/details/107445592) |
 | [LeetCode 1148. 文章浏览 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1148__I_624) |
 | [LeetCode 1173. 即时食物配送 I](https://michael.blog.csdn.net/article/details/106464299#_LeetCode_1173__I_163) |
+| [LeetCode 1179. 重新格式化部门表](https://michael.blog.csdn.net/article/details/107450353) |
 | [LeetCode 1211. 查询结果的质量和占比](https://michael.blog.csdn.net/article/details/107434715) |
 | [LeetCode 1241. 每个帖子的评论数](https://michael.blog.csdn.net/article/details/107435051) |
 | [LeetCode 1251. 平均售价](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1251__681) |
