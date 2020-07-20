@@ -67,6 +67,7 @@
 | [LeetCode 1435. 制作会话柱状图](https://michael.blog.csdn.net/article/details/107433177) |
 | [LeetCode 1445. 苹果和桔子](https://michael.blog.csdn.net/article/details/107451077) |
 | [LeetCode 1459. 矩形面积](https://michael.blog.csdn.net/article/details/107457555) |
+| [LeetCode 1468. 计算税后工资](https://michael.blog.csdn.net/article/details/107461840) |
 | [LeetCode 1485. 按日期分组销售产品](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1485__741) |
 | [LeetCode 1495. Friendly Movies Streamed Last Month](https://michael.blog.csdn.net/article/details/107441381) |
 | [LeetCode 1511. Customer Order Frequency](https://michael.blog.csdn.net/article/details/107432640) |
