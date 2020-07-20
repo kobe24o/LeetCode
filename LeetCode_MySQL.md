@@ -33,6 +33,7 @@
 | [LeetCode 607. 销售员](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_607__977) |
 | [LeetCode 608. 树节点](https://michael.blog.csdn.net/article/details/107467866) |
 | [LeetCode 610. 判断三角形](https://michael.blog.csdn.net/article/details/106464299#_LeetCode_610__234) |
+| [LeetCode 612. 平面上的最近距离](https://michael.blog.csdn.net/article/details/107470508) |
 | [LeetCode 613. 直线上的最近距离](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_613__632) |
 | [LeetCode 619. 只出现一次的最大数字](https://michael.blog.csdn.net/article/details/107445157) |
 | [LeetCode 620. 有趣的电影](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_620__240) |
