@@ -75,34 +75,54 @@ public:
     }
 };
 
-class NumMatrix {
-    vector<vector<int>> mat;
-    vector<vector<int>> rowpresum;
+class LogSystem {
+    vector<long long> second = {12*31*24*3600, 31*24*3600, 24*3600, 3600, 60, 1};
+    map<string, int> unit = {{"Year",0},{"Month",1},{"Day",2},{"Hour",3},{"Minute",4},{"Second",5}};
+    map<long long, int> m;
 public:
-    NumMatrix(vector<vector<int>>& matrix) {
-        mat = matrix;
-        rowpresum = matrix;
-        for(int i = 0, j; i < matrix.size(); ++i)
-        {
-            for(j = 1; j < matrix[0].size(); ++j)
-                rowpresum[i][j] = rowpresum[i][j-1] + matrix[i][j];
-        }
+    LogSystem() {
+
     }
 
-    void update(int row, int col, int val) {
-        rowpresum[row][col] = (col > 0 ? rowpresum[row][col-1] : 0) + val;
-        mat[row][col] = val;
-        for(int j = col+1; j < mat[0].size(); ++j)
-            rowpresum[row][j] += rowpresum[row][j-1] + mat[row][j];
+    void put(int id, string timestamp) {
+        m[timeToint(timestamp)] = id;
     }
 
-    int sumRegion(int row1, int col1, int row2, int col2) {
-        int sum = 0;
-        for(int i = row1; i <= row2; ++i)
+    vector<int> retrieve(string s, string e, string gra) {
+        long long start = timeToint(s, unit[gra]);
+        long long end = timeToint(e, unit[gra], true);
+        vector<int> ans;
+        for(auto it = m.lower_bound(start); it != m.end(); ++it)
         {
-            sum += rowpresum[i][col2] - (col1==0 ? 0 : rowpresum[i][col1-1]);
+            if(it->first > end)
+                break;
+            ans.push_back(it->second);
         }
-        return sum;
+        return ans;
+    }
+    long long timeToint(string& s, int g = 5, bool end = false)
+    {	// 例如 2017:01:01:23:59:59
+        long long Year = stoi(s.substr(0,4));
+        long long Month = stoi(s.substr(5,2));
+        long long Day = stoi(s.substr(8,2));
+        long long Hour = stoi(s.substr(11,2));
+        long long Minute = stoi(s.substr(14,2));
+        long long Second = stoi(s.substr(17,2));
+        long long t;
+        if(g==5)
+            t = (Year-1)*second[0]+(Month-1)*second[1]+(Day-1)*second[2]+(Hour-1)*second[3]+(Minute-1)*second[4]+(Second-1)*second[5];
+        else if(g==4)
+            t = (Year-1)*second[0]+(Month-1)*second[1]+(Day-1)*second[2]+(Hour-1)*second[3]+(Minute-1)*second[4];
+        else if(g==3)
+            t = (Year-1)*second[0]+(Month-1)*second[1]+(Day-1)*second[2]+(Hour-1)*second[3];
+        else if(g==2)
+            t = (Year-1)*second[0]+(Month-1)*second[1]+(Day-1)*second[2];
+        else if(g==1)
+            t = (Year-1)*second[0]+(Month-1)*second[1];
+        else
+            t = (Year-1)*second[0];
+        t += end ? second[g] :0;
+        return t;
     }
 };
 void printv(vector<int>& v)
@@ -124,10 +144,13 @@ int main() {
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
     vector<string> st1 = {"za","zb","ca","cb"};
-    NumMatrix s(v5);
-    s.sumRegion(2,1,4,3);
-    s.update(3,2,2);
-    s.sumRegion(2,1,4,3);
+
+    LogSystem l;
+    l.put(1, "2017:01:01:23:59:59");
+    l.put(2, "2017:01:01:22:59:59");
+    l.put(3, "2016:01:01:00:00:00");
+    l.retrieve("2016:01:01:01:01:01","2017:01:01:23:00:00","Year"); // 返回值 [1,2,3]，返回从 2016 年到 2017 年所有的日志。
+    l.retrieve("2016:01:01:01:01:01","2017:01:01:23:00:00","Hour");
 
 
 
