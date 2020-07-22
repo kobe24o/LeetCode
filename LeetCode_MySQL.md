@@ -19,6 +19,7 @@
 | [LeetCode 181. 超过经理收入的员工](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_181__139) |
 | [LeetCode 182. 查找重复的电子邮箱](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_182__196) |
 | [LeetCode 183. 从不订购的客户](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_183__289) |
+| [LeetCode 184. 部门工资最高的员工](https://michael.blog.csdn.net/article/details/107526123) |
 | [LeetCode 196. 删除重复的电子邮箱](https://blog.csdn.net/qq_21201267/article/details/106502369#_LeetCode_196__60) |
 | [LeetCode 197. 上升的温度](https://michael.blog.csdn.net/article/details/107450633) |
 | [LeetCode 511. 游戏玩法分析 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_511__I_682) |
