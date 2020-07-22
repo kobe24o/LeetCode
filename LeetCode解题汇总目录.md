@@ -826,6 +826,7 @@
 | [LeetCode 1054. 距离相等的条形码（优先队列）](https://blog.csdn.net/qq_21201267/article/details/104317529) |                                                              |
 | [LeetCode 1056. 易混淆数（哈希）](https://blog.csdn.net/qq_21201267/article/details/107105777) |                                                              |
 | [LeetCode 1061. 按字典序排列最小的等效字符串（并查集）](https://blog.csdn.net/qq_21201267/article/details/107149147) |                                                              |
+| [LeetCode 1063. 有效子数组的数目（单调栈）](https://michael.blog.csdn.net/article/details/107522174) |                                                              |
 | [LeetCode 1064. 不动点（二分查找）](https://blog.csdn.net/qq_21201267/article/details/107094877) |                                                              |
 | [LeetCode 1065. 字符串的索引对](https://blog.csdn.net/qq_21201267/article/details/107097461) |                                                              |
 | [LeetCode 1071. 字符串的最大公因子（字符串的最大公约数）](https://michael.blog.csdn.net/article/details/103174953) |                                                              |
