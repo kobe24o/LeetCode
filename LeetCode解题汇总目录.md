@@ -367,6 +367,7 @@
 | [LeetCode 357. 计算各个位数不同的数字个数（DP）](https://michael.blog.csdn.net/article/details/103844098) |                                                              |
 | [LeetCode 359. 日志速率限制器（哈希map）](https://blog.csdn.net/qq_21201267/article/details/107091236) |                                                              |
 | [LeetCode 360. 有序转化数组（抛物线对称轴）](https://michael.blog.csdn.net/article/details/107499297) |                                                              |
+| [LeetCode 361. 轰炸敌人（前缀和DP）](https://michael.blog.csdn.net/article/details/107527864) |                                                              |
 | [LeetCode 362. 敲击计数器（map）](https://blog.csdn.net/qq_21201267/article/details/107118573) |                                                              |
 | [LeetCode 363. 矩形区域不超过 K 的最大数值和（DP+set二分查找）](https://michael.blog.csdn.net/article/details/106447907) |                                                              |
 | [LeetCode 365. 水壶问题（最大公约数）](https://michael.blog.csdn.net/article/details/102980961) |                                                              |
