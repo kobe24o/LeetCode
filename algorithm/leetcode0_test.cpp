@@ -75,54 +75,31 @@ public:
     }
 };
 
-class LogSystem {
-    vector<long long> second = {12*31*24*3600, 31*24*3600, 24*3600, 3600, 60, 1};
-    map<string, int> unit = {{"Year",0},{"Month",1},{"Day",2},{"Hour",3},{"Minute",4},{"Second",5}};
-    map<long long, int> m;
+class Solution {
+	int i = 0;
 public:
-    LogSystem() {
-
+    TreeNode* str2tree(string s) {
+    	if(s == "") return NULL;
+    	return buildTree(s);
     }
-
-    void put(int id, string timestamp) {
-        m[timeToint(timestamp)] = id;
-    }
-
-    vector<int> retrieve(string s, string e, string gra) {
-        long long start = timeToint(s, unit[gra]);
-        long long end = timeToint(e, unit[gra], true);
-        vector<int> ans;
-        for(auto it = m.lower_bound(start); it != m.end(); ++it)
-        {
-            if(it->first > end)
-                break;
-            ans.push_back(it->second);
-        }
-        return ans;
-    }
-    long long timeToint(string& s, int g = 5, bool end = false)
-    {	// 例如 2017:01:01:23:59:59
-        long long Year = stoi(s.substr(0,4));
-        long long Month = stoi(s.substr(5,2));
-        long long Day = stoi(s.substr(8,2));
-        long long Hour = stoi(s.substr(11,2));
-        long long Minute = stoi(s.substr(14,2));
-        long long Second = stoi(s.substr(17,2));
-        long long t;
-        if(g==5)
-            t = (Year-1)*second[0]+(Month-1)*second[1]+(Day-1)*second[2]+(Hour-1)*second[3]+(Minute-1)*second[4]+(Second-1)*second[5];
-        else if(g==4)
-            t = (Year-1)*second[0]+(Month-1)*second[1]+(Day-1)*second[2]+(Hour-1)*second[3]+(Minute-1)*second[4];
-        else if(g==3)
-            t = (Year-1)*second[0]+(Month-1)*second[1]+(Day-1)*second[2]+(Hour-1)*second[3];
-        else if(g==2)
-            t = (Year-1)*second[0]+(Month-1)*second[1]+(Day-1)*second[2];
-        else if(g==1)
-            t = (Year-1)*second[0]+(Month-1)*second[1];
-        else
-            t = (Year-1)*second[0];
-        t += end ? second[g] :0;
-        return t;
+    TreeNode* buildTree(string &s)
+    {
+    	if(i == s.size() || s[i] == ')')
+    		return NULL;
+    	TreeNode* root = new TreeNode(s[i++]-'0');
+    	if(i < s.size() && s[i] == '(' && !root->left)
+    	{
+    		i++;
+    		root->left = buildTree(s);
+    	}
+    	else if(i < s.size() && s[i] == '(' && !root->right)
+    	{
+    		i++;
+    		root->right = buildTree(s);
+    	}
+        else if(i < s.size() && s[i] == ')')
+            return NULL;
+    	return root;
     }
 };
 void printv(vector<int>& v)
@@ -145,12 +122,8 @@ int main() {
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
     vector<string> st1 = {"za","zb","ca","cb"};
 
-    LogSystem l;
-    l.put(1, "2017:01:01:23:59:59");
-    l.put(2, "2017:01:01:22:59:59");
-    l.put(3, "2016:01:01:00:00:00");
-    l.retrieve("2016:01:01:01:01:01","2017:01:01:23:00:00","Year"); // 返回值 [1,2,3]，返回从 2016 年到 2017 年所有的日志。
-    l.retrieve("2016:01:01:01:01:01","2017:01:01:23:00:00","Hour");
+    Solution s;
+    s.str2tree("4(2(3)(1))(6(5))");
 
 
 
