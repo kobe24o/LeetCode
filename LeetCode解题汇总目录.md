@@ -364,6 +364,7 @@
 | [LeetCode 350. 两个数组的交集 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/100995174) |                                                              |
 | [LeetCode 354. 俄罗斯套娃信封问题（最长上升子序 DP/二分查找）](https://michael.blog.csdn.net/article/details/105370146) |                                                              |
 | [LeetCode 355. 设计推特（哈希map+set）](https://michael.blog.csdn.net/article/details/105480197) |                                                              |
+| [LeetCode 356. 直线镜像](https://michael.blog.csdn.net/article/details/107528027) |                                                              |
 | [LeetCode 357. 计算各个位数不同的数字个数（DP）](https://michael.blog.csdn.net/article/details/103844098) |                                                              |
 | [LeetCode 359. 日志速率限制器（哈希map）](https://blog.csdn.net/qq_21201267/article/details/107091236) |                                                              |
 | [LeetCode 360. 有序转化数组（抛物线对称轴）](https://michael.blog.csdn.net/article/details/107499297) |                                                              |
