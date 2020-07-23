@@ -573,6 +573,7 @@
 | [LeetCode 655. 输出二叉树（二叉树高度&二叉树遍历）](https://michael.blog.csdn.net/article/details/103099751) |                                                              |
 | [LeetCode 657. 机器人能否返回原点](https://blog.csdn.net/qq_21201267/article/details/100632672) |                                                              |
 | [LeetCode 658. 找到 K 个最接近的元素（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100697216) |                                                              |
+| [LeetCode 660. 移除 9（9进制）](https://michael.blog.csdn.net/article/details/107529684) |                                                              |
 | [LeetCode 661. 图片平滑器](https://michael.blog.csdn.net/article/details/105720542) |                                                              |
 | [LeetCode 662. 二叉树最大宽度（递归）](https://michael.blog.csdn.net/article/details/106249487) |                                                              |
 | [LeetCode 663. 均匀树划分（树形DP）](https://blog.csdn.net/qq_21201267/article/details/107148685) |                                                              |
@@ -910,6 +911,7 @@
 | [LeetCode 1232. 缀点成线](https://michael.blog.csdn.net/article/details/105802054) |                                                              |
 | [LeetCode 1233. 删除子文件夹](https://michael.blog.csdn.net/article/details/103916724) |                                                              |
 | [LeetCode 1234. 替换子串得到平衡字符串（滑动窗口）](https://michael.blog.csdn.net/article/details/106587538) |                                                              |
+| [LeetCode 1236. 网络爬虫（BFS/DFS）](https://michael.blog.csdn.net/article/details/107532151) |                                                              |
 | [LeetCode 1237. 找出给定方程的正整数解](https://michael.blog.csdn.net/article/details/103256534) |                                                              |
 | [LeetCode 1238. 循环码排列（格雷编码+旋转数组）](https://michael.blog.csdn.net/article/details/105895929) |                                                              |
 | [LeetCode 1239. 串联字符串的最大长度（回溯/动态规划）](https://michael.blog.csdn.net/article/details/106297584) |                                                              |
