@@ -505,6 +505,7 @@
 | [LeetCode 532. 数组中的K-diff数对](https://michael.blog.csdn.net/article/details/105717133) |                                                              |
 | [LeetCode 533. 孤独像素 II](https://blog.csdn.net/qq_21201267/article/details/107127000) |                                                              |
 | [LeetCode 535. TinyURL 的加密与解密（哈希）](https://blog.csdn.net/qq_21201267/article/details/100565409) |                                                              |
+| [LeetCode 536. 从字符串生成二叉树（递归）](https://michael.blog.csdn.net/article/details/107537043) |                                                              |
 | [LeetCode 537. 复数乘法](https://michael.blog.csdn.net/article/details/102981551) |                                                              |
 | [LeetCode 538. 把二叉搜索树转换为累加树（逆中序 根右左）](https://blog.csdn.net/qq_21201267/article/details/100826415) |                                                              |
 | [LeetCode 539. 最小时间差（哈希）](https://michael.blog.csdn.net/article/details/103498922) |                                                              |
