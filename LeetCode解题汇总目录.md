@@ -332,6 +332,7 @@
 | [LeetCode 290. 单词规律（哈希）](https://michael.blog.csdn.net/article/details/103053073) |                                                              |
 | [LeetCode 292. Nim 游戏](https://blog.csdn.net/qq_21201267/article/details/100178975) |                                                              |
 | [LeetCode 293. 翻转游戏](https://blog.csdn.net/qq_21201267/article/details/107094697) |                                                              |
+| [LeetCode 294. 翻转游戏 II（记忆化递归）](https://michael.blog.csdn.net/article/details/107571038) |                                                              |
 | [LeetCode 295. 数据流的中位数（大小堆）](https://blog.csdn.net/qq_21201267/article/details/102865997) |                                                              |
 | [LeetCode 296. 最佳的碰头地点（坐标独立+中位数的地方最近）](https://michael.blog.csdn.net/article/details/107498938) |                                                              |
 | [LeetCode 297. 二叉树的序列化与反序列化（前序遍历&层序遍历）](https://blog.csdn.net/qq_21201267/article/details/102513143) |                                                              |
