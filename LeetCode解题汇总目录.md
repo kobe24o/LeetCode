@@ -312,6 +312,7 @@
 | [LeetCode 268. 缺失数字](https://blog.csdn.net/qq_21201267/article/details/100146249) |                                                              |
 | [LeetCode 269. 火星词典（拓扑排序）](https://michael.blog.csdn.net/article/details/107346218) |                                                              |
 | [LeetCode 270. 最接近的二叉搜索树值](https://blog.csdn.net/qq_21201267/article/details/107090656) |                                                              |
+| [LeetCode 271. 字符串的编码与解码（4位16进制字符+字符串）](https://michael.blog.csdn.net/article/details/107571561) |                                                              |
 | [LeetCode 272. 最接近的二叉搜索树值 II（栈+优先队列）](https://blog.csdn.net/qq_21201267/article/details/107232667) |                                                              |
 | [LeetCode 273. 整数转换英文表示](https://michael.blog.csdn.net/article/details/103093410) |                                                              |
 | [LeetCode 274. H指数（排序，哈希）](https://michael.blog.csdn.net/article/details/103691047) |                                                              |
