@@ -25,6 +25,7 @@
 | [LeetCode 511. 游戏玩法分析 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_511__I_682) |
 | [LeetCode 512. 游戏玩法分析 II](https://michael.blog.csdn.net/article/details/107448149) |
 | [LeetCode 577. 员工奖金](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_577__769) |
+| [LeetCode 578. 查询回答率最高的问题](https://michael.blog.csdn.net/article/details/107560879) |
 | [LeetCode 580. 统计各专业学生人数](https://michael.blog.csdn.net/article/details/107546698) |
 | [LeetCode 584. 寻找用户推荐人](https://michael.blog.csdn.net/article/details/106464299#_LeetCode_584__106) |
 | [LeetCode 586. 订单最多的客户](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_586__397) |
@@ -49,6 +50,7 @@
 | [LeetCode 1082. 销售分析 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1082__I_466) |
 | [LeetCode 1083. 销售分析 II](https://michael.blog.csdn.net/article/details/107449727) |
 | [LeetCode 1084. 销售分析III](https://michael.blog.csdn.net/article/details/107450014) |
+| [LeetCode 1098. 小众书籍](https://michael.blog.csdn.net/article/details/107561821) |
 | [LeetCode 1112. 每位学生的最高成绩](https://michael.blog.csdn.net/article/details/107472443) |
 | [LeetCode 1113. 报告的记录](https://michael.blog.csdn.net/article/details/107441663) |
 | [LeetCode 1141. 查询近30天活跃用户数](https://michael.blog.csdn.net/article/details/107435709) |
