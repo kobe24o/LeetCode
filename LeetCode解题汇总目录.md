@@ -1149,6 +1149,7 @@
 | [LeetCode 1516. Move Sub-Tree of N-Ary Tree（DFS）](https://michael.blog.csdn.net/article/details/107420745) |                                                              |
 | [LeetCode 1518. 换酒问题](https://michael.blog.csdn.net/article/details/107443611#1_LeetCode_5464__easy_15) |                                                              |
 | [LeetCode 1519. 子树中标签相同的节点数（DFS）](https://michael.blog.csdn.net/article/details/107443611#2_LeetCode_5465__medium_91) |                                                              |
+| [LeetCode 1522. Diameter of N-Ary Tree（递归）](https://michael.blog.csdn.net/article/details/107552746) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
