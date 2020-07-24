@@ -8,19 +8,35 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
-**已解决 1300/1716** - **简单 488** **中等 680** **困难 132**
+**已解决 1350/1722** - **简单 506** **中等 707** **困难 137**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
+
 - 2019.11.09 - 2019.11.24，AC + 100道，共计500道（123天，4个月）
+
 - 2019.11.24 - 2019.12.31，AC +  72 道，共计572道（160天）
+
 - 2020.01.01 - 2020.01.12，AC +  32 道，共计604道（172天）
+
 - 2020.01.12 - 2020.03.25，AC + 196道，共计800道，做了些面试题（245天，8个月）
+
 - 2020.03.25 - 2020.04.19，AC + 100道，共计900道（270天，9个月）
+
 - 2020.04.19 - 2020.05.19，AC + 100道，共计<font color=#FF0000>**1000**</font>道（300天，<font color=#FF0000>**10**</font>个月）
+
 - 2020.05.19 - 2020.05.27，AC +  24 道，共计<font color=#0035FF>**1024**</font>道（程序员的数字<font color=#0035FF> 2^10^ </font> ）
+
 - 2020.05.19 - 2020.06.18，AC + 100道，共计1100道（330天，11个月）
+
 - 2020.06.18 - 2020.07.04，AC + 100道，共计1200道（346天，50周）
-- 2020.07.04 - 2020.07.18，AC + 100道，共计1300道（360天，<font color=#FF0000>**1年**</font>）
+
+- 2020.07.04 - 2020.07.18，AC + 100道，共计1300道（360天）
+
+- 2020.07.18 - 2020.07.23，AC +  50 道，共计<font color=#FF0000>**1350**</font>道（365天，<font color=#FF0000>**刷题1周年**</font>）
+
+  过去一年提交4196次，目前刷题量：全站第46名
+
+  竞赛积分1741，排名：全国1987，全球9027，竞赛最好成绩：前7.51% （记录于2020.7.23）
 
 | 参赛记录                                                     |
 | :----------------------------------------------------------- |
@@ -1131,8 +1147,8 @@
 | [LeetCode 1514. 概率最大的路径（Dijkstra+优先队列优化）](https://michael.blog.csdn.net/article/details/107297636#3_LeetCode_5211__medium_135) |                                                              |
 | [LeetCode 1515. 服务中心的最佳位置（最优化退火迭代）](https://michael.blog.csdn.net/article/details/107297636#4_LeetCode_5463__hard_239) |                                                              |
 | [LeetCode 1516. Move Sub-Tree of N-Ary Tree（DFS）](https://michael.blog.csdn.net/article/details/107420745) |                                                              |
-| [LeetCode 5464. 换酒问题](https://michael.blog.csdn.net/article/details/107443611#1_LeetCode_5464__easy_15) |                                                              |
-| [LeetCode 5465. 子树中标签相同的节点数（DFS）](https://michael.blog.csdn.net/article/details/107443611#2_LeetCode_5465__medium_91) |                                                              |
+| [LeetCode 1518. 换酒问题](https://michael.blog.csdn.net/article/details/107443611#1_LeetCode_5464__easy_15) |                                                              |
+| [LeetCode 1519. 子树中标签相同的节点数（DFS）](https://michael.blog.csdn.net/article/details/107443611#2_LeetCode_5465__medium_91) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
