@@ -934,6 +934,7 @@
 | [LeetCode 1223. 掷骰子模拟（DP）](https://michael.blog.csdn.net/article/details/106675048) |                                                              |
 | [LeetCode 1227. 飞机座位分配概率（DP+数学归纳法）](https://michael.blog.csdn.net/article/details/105805627) |                                                              |
 | [LeetCode 1228. 等差数列中缺失的数字](https://blog.csdn.net/qq_21201267/article/details/107097382) |                                                              |
+| [LeetCode 1230. 抛掷硬币（DP）](https://michael.blog.csdn.net/article/details/107577040) |                                                              |
 | [LeetCode 1231. 分享巧克力（极小极大化 二分查找）](https://michael.blog.csdn.net/article/details/107534172) |                                                              |
 | [LeetCode 1232. 缀点成线](https://michael.blog.csdn.net/article/details/105802054) |                                                              |
 | [LeetCode 1233. 删除子文件夹](https://michael.blog.csdn.net/article/details/103916724) |                                                              |
