@@ -576,6 +576,7 @@
 | [LeetCode 628. 三个数的最大乘积](https://michael.blog.csdn.net/article/details/103172263) |                                                              |
 | [LeetCode 629. K个逆序对数组（DP）](https://blog.csdn.net/qq_21201267/article/details/102886587) |                                                              |
 | [LeetCode 633. 平方数之和（双指针）](https://michael.blog.csdn.net/article/details/105720281) |                                                              |
+| [LeetCode 634. 寻找数组的错位排列（DP）](https://michael.blog.csdn.net/article/details/107577515) |                                                              |
 | [LeetCode 635. 设计日志存储系统（map）](https://michael.blog.csdn.net/article/details/107497677) |                                                              |
 | [LeetCode 637. 二叉树的层平均值（层次遍历queue）](https://blog.csdn.net/qq_21201267/article/details/100717726) |                                                              |
 | [LeetCode 638. 大礼包（无限背包DP）](https://michael.blog.csdn.net/article/details/106290676) |                                                              |
