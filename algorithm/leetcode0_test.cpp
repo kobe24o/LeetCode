@@ -76,30 +76,22 @@ public:
 };
 
 class Solution {
-	int i = 0;
 public:
-    TreeNode* str2tree(string s) {
-    	if(s == "") return NULL;
-    	return buildTree(s);
-    }
-    TreeNode* buildTree(string &s)
-    {
-    	if(i == s.size() || s[i] == ')')
-    		return NULL;
-    	TreeNode* root = new TreeNode(s[i++]-'0');
-    	if(i < s.size() && s[i] == '(' && !root->left)
-    	{
-    		i++;
-    		root->left = buildTree(s);
-    	}
-    	else if(i < s.size() && s[i] == '(' && !root->right)
-    	{
-    		i++;
-    		root->right = buildTree(s);
-    	}
-        else if(i < s.size() && s[i] == ')')
-            return NULL;
-    	return root;
+    int minNumberOperations(vector<int>& target) {
+        int s = 0, maxnum = 0;
+        stack<int> stk;
+        for(int i = 0; i < target.size(); ++i)
+        {
+            while(!stk.empty() && target[i] < stk.top())
+            {
+                s += stk.top()-target[i];
+                stk.pop();
+                maxnum = target[i];
+            }
+            stk.push(target[i]);
+            maxnum = max(maxnum, target[i]);
+        }
+        return s+maxnum;
     }
 };
 void printv(vector<int>& v)
@@ -115,7 +107,7 @@ int main() {
                              {1, 2, 0, 1, 5},{4, 1, 0, 1, 7},
                              {1, 0, 3, 0, 5}};
     vector<double> v1 = {0.5,0.5,0.2};
-    vector<int> v2 = {1,1,1,9,7};
+    vector<int> v2 = {1,2,3,2,1};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
     vector<int> v4 = {1,3,2};
     string str = "eceeeefasdghjklqwertyuio";
@@ -123,7 +115,7 @@ int main() {
     vector<string> st1 = {"za","zb","ca","cb"};
 
     Solution s;
-    s.str2tree("4(2(3)(1))(6(5))");
+    s.minNumberOperations(v2);
 
 
 
