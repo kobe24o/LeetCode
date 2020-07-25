@@ -961,6 +961,7 @@
 | [LeetCode 1267. 统计参与通信的服务器（计数）](https://michael.blog.csdn.net/article/details/106362033) |                                                              |
 | [LeetCode 1268. 搜索推荐系统（Trie树/multiset）](https://michael.blog.csdn.net/article/details/106585612) |                                                              |
 | [LeetCode 1271. 十六进制魔术数字（进制转换）](https://michael.blog.csdn.net/article/details/103346339) |                                                              |
+| [LeetCode 1272. 删除区间](https://michael.blog.csdn.net/article/details/107575663) |                                                              |
 | [LeetCode 1273. 删除树节点（拓扑排序/DFS）](https://blog.csdn.net/qq_21201267/article/details/107145802) |                                                              |
 | [LeetCode 1275. 找出井字棋的获胜者（位运算）](https://michael.blog.csdn.net/article/details/103345978) |                                                              |
 | [LeetCode 1276. 不浪费原料的汉堡制作方案（解方程）](https://michael.blog.csdn.net/article/details/106388487) |                                                              |
