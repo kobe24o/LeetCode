@@ -30,6 +30,20 @@
 class Solution {
 public:
     int depthSumInverse(vector<NestedInteger>& nestedList) {
-    	int deep = 0;
+    	int presum = 0, ans = 0, i;
+    	vector<NestedInteger> nextLevel;
+    	for(i = 0; i < nestedList.size(); ++i)
+    	{
+    		if(nestedList[i].isInteger())
+    			presum += nestedList[i].getInteger();
+    		else
+    			nextLevel.push_back(nestedList[i]);
+    		if(i == nestedList.size()-1)
+    		{
+    			ans += presum;
+    			nestedList = nextLevel;
+    		}
+    	}
+    	return ans;
     }
 };
