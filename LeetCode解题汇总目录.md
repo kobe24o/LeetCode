@@ -430,6 +430,7 @@
 | [LeetCode 406. 根据身高重建队列（排序）](https://michael.blog.csdn.net/article/details/105749075) |                                                              |
 | [LeetCode 408. 有效单词缩写](https://blog.csdn.net/qq_21201267/article/details/107108142) |                                                              |
 | [LeetCode 409. 最长回文串（计数）](https://michael.blog.csdn.net/article/details/104959667) |                                                              |
+| [LeetCode 410. 分割数组的最大值（极小极大化 二分查找 / DP）](https://michael.blog.csdn.net/article/details/107573654) |                                                              |
 | [LeetCode 412. Fizz Buzz](https://michael.blog.csdn.net/article/details/105665256) |                                                              |
 | [LeetCode 413. 等差数列划分（DP）](https://blog.csdn.net/qq_21201267/article/details/100831735) |                                                              |
 | [LeetCode 414. 第三大的数](https://blog.csdn.net/qq_21201267/article/details/102789337) |                                                              |
