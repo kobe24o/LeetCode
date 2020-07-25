@@ -881,6 +881,7 @@
 | [LeetCode 1118. 一月有多少天（闰年判断）](https://blog.csdn.net/qq_21201267/article/details/107096957) |                                                              |
 | [LeetCode 1119. 删去字符串中的元音](https://blog.csdn.net/qq_21201267/article/details/107092684) |                                                              |
 | [LeetCode 1120. 子树的最大平均值（DFS自底向上）](https://blog.csdn.net/qq_21201267/article/details/107123249) |                                                              |
+| [LeetCode 1121. 将数组分成几个递增序列](https://michael.blog.csdn.net/article/details/107575232) |                                                              |
 | [LeetCode 1122. 数组的相对排序](https://blog.csdn.net/qq_21201267/article/details/101112047) |                                                              |
 | [LeetCode 1123. 最深叶节点的最近公共祖先（递归比较子树高度）](https://michael.blog.csdn.net/article/details/105547346) |                                                              |
 | [LeetCode 1128. 等价多米诺骨牌对的数量（哈希）](https://michael.blog.csdn.net/article/details/103190477) |                                                              |
