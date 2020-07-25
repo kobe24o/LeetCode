@@ -488,6 +488,7 @@
 | [LeetCode 484. 寻找排列（找规律+贪心）](https://blog.csdn.net/qq_21201267/article/details/107168148) |                                                              |
 | [LeetCode 485. 最大连续1的个数](https://blog.csdn.net/qq_21201267/article/details/100855102) |                                                              |
 | [LeetCode 487. 最大连续1的个数 II（滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/107194857) |                                                              |
+| [LeetCode 489. 扫地机器人（DFS）](https://michael.blog.csdn.net/article/details/107581006) |                                                              |
 | [LeetCode 490. 迷宫（BFS/DFS）](https://blog.csdn.net/qq_21201267/article/details/107215680) |                                                              |
 | [LeetCode 491. 递增子序列（回溯+判重剪枝）](https://michael.blog.csdn.net/article/details/106157529) |                                                              |
 | [LeetCode 492. 构造矩形](https://michael.blog.csdn.net/article/details/105689887) |                                                              |
