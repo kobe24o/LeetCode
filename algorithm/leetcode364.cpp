@@ -37,11 +37,17 @@ public:
     		if(nestedList[i].isInteger())
     			presum += nestedList[i].getInteger();
     		else
-    			nextLevel.push_back(nestedList[i]);
+    		{
+                auto temp = nestedList[i].getList();
+                for(auto& t : temp)
+                    nextLevel.push_back(t);
+            }
     		if(i == nestedList.size()-1)
     		{
     			ans += presum;
-    			nestedList = nextLevel;
+    			swap(nestedList,nextLevel);
+                nextLevel.clear();
+                i = -1;
     		}
     	}
     	return ans;

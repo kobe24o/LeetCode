@@ -389,6 +389,7 @@
 | [LeetCode 361. 轰炸敌人（前缀和DP）](https://michael.blog.csdn.net/article/details/107527864) |                                                              |
 | [LeetCode 362. 敲击计数器（map）](https://blog.csdn.net/qq_21201267/article/details/107118573) |                                                              |
 | [LeetCode 363. 矩形区域不超过 K 的最大数值和（DP+set二分查找）](https://michael.blog.csdn.net/article/details/106447907) |                                                              |
+| [LeetCode 364. 加权嵌套序列和 II（重复叠加）](https://michael.blog.csdn.net/article/details/107586036) |                                                              |
 | [LeetCode 365. 水壶问题（最大公约数）](https://michael.blog.csdn.net/article/details/102980961) |                                                              |
 | [LeetCode 366. 寻找二叉树的叶子节点（上下翻转二叉树+BFS）](https://blog.csdn.net/qq_21201267/article/details/107156510) |                                                              |
 | [LeetCode 367. 有效的完全平方数（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489562) |                                                              |
