@@ -365,6 +365,7 @@
 | [LeetCode 326. 3的幂](https://michael.blog.csdn.net/article/details/105644651) |                                                              |
 | [LeetCode 327. 区间和的个数（multiset二分查找/归并排序）](https://michael.blog.csdn.net/article/details/105636619) |                                                              |
 | [LeetCode 328. 奇偶链表（双指针）](https://blog.csdn.net/qq_21201267/article/details/101649623) |                                                              |
+| [LeetCode 329. 矩阵中的最长递增路径（记忆化递归）](https://michael.blog.csdn.net/article/details/107592908) |                                                              |
 | [LeetCode 331. 验证二叉树的前序序列化](https://michael.blog.csdn.net/article/details/105679759) |                                                              |
 | [LeetCode 332. 重新安排行程（欧拉路径）](https://michael.blog.csdn.net/article/details/106124337) |                                                              |
 | [LeetCode 333. 最大 BST 子树（递归）*](https://blog.csdn.net/qq_21201267/article/details/107148640) |                                                              |
