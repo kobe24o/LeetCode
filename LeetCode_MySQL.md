@@ -87,6 +87,7 @@
 | [LeetCode 1495. Friendly Movies Streamed Last Month](https://michael.blog.csdn.net/article/details/107441381) |
 | [LeetCode 1511. Customer Order Frequency](https://michael.blog.csdn.net/article/details/107432640) |
 | [LeetCode 1517. Find Users With Valid E-Mails（正则表达式）](https://michael.blog.csdn.net/article/details/107440931) |
+| [LeetCode 1527. Patients With a Condition（like）](https://michael.blog.csdn.net/article/details/107593466) |
 
 
 
