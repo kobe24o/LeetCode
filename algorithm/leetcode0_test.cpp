@@ -76,22 +76,39 @@ public:
 };
 
 class Solution {
+    int m, n;
+    int longest = 1;
+    vector<vector<int>> dir = {{-1,0},{1,0},{0,1},{0,-1}};
 public:
-    int minNumberOperations(vector<int>& target) {
-        int s = 0, maxnum = 0;
-        stack<int> stk;
-        for(int i = 0; i < target.size(); ++i)
-        {
-            while(!stk.empty() && target[i] < stk.top())
+    int longestIncreasingPath(vector<vector<int>>& mat) {
+        if(mat.empty() || mat[0].empty())
+            return 0;
+        m = mat.size(), n = mat[0].size();
+        vector<vector<int>> s(m, vector<int>(n,0));
+        for(int i = 0, j; i < m; ++i)
+            for(j = 0; j < n; ++j)
             {
-                s += stk.top()-target[i];
-                stk.pop();
-                maxnum = target[i];
+                // if(s[i][j] != 0)
+                // 	continue;
+                longest = max(longest, dfs(0,0,mat,s));
             }
-            stk.push(target[i]);
-            maxnum = max(maxnum, target[i]);
+        return longest;
+    }
+    int dfs(int i, int j, vector<vector<int>>& mat, vector<vector<int>>& s)
+    {
+        if(s[i][j] != 0)
+            return s[i][j];
+        int x, y, k, longestpathofnext = 0;
+        for(k = 0; k < 4; ++k)
+        {
+            x = i + dir[k][0];
+            y = j + dir[k][1];
+            if(x>=0 && x<m && y>=0 && y<n && mat[i][j] > mat[x][y])
+            {
+                longestpathofnext = max(longestpathofnext, dfs(x,y,mat,s));
+            }
         }
-        return s+maxnum;
+        return s[i][j] = 1+longestpathofnext;
     }
 };
 void printv(vector<int>& v)
@@ -101,7 +118,7 @@ void printv(vector<int>& v)
     cout << endl;
 }
 int main() {
-    vector<vector<int>> v6 ={{1,1},{3,3}};
+    vector<vector<int>> v6 ={{3,4,5},{3,2,6},{2,2,1}};
     vector<vector<int>> v5 ={{3, 0, 1, 4, 2},
                              {5, 6, 3, 2, 1},
                              {1, 2, 0, 1, 5},{4, 1, 0, 1, 7},
@@ -115,7 +132,7 @@ int main() {
     vector<string> st1 = {"za","zb","ca","cb"};
 
     Solution s;
-    s.minNumberOperations(v2);
+    s.longestIncreasingPath(v6);
 
 
 
