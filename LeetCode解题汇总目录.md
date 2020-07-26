@@ -62,6 +62,7 @@
 | [LeetCode 第 197 场周赛（468/5273，前8.88%）](https://michael.blog.csdn.net/article/details/107297636) |
 | [LeetCode 第 198 场周赛（434/5778，前7.51%）](https://michael.blog.csdn.net/article/details/107443611) |
 | [LeetCode 第 31 场双周赛（273/2767，前9.87%，第3次全部通过🚀）](https://michael.blog.csdn.net/article/details/107587115) |
+| [LeetCode 第 199 场周赛（757/5231，前14.5%）](https://michael.blog.csdn.net/article/details/107591466) |
 
 ​          
 
@@ -1167,6 +1168,9 @@
 | [LeetCode 5457. 和为奇数的子数组数目](https://editor.csdn.net/md/?articleId=107587115#2_LeetCode_5457__medium_67) |                                                              |
 | [LeetCode 5458. 字符串的好分割数目（双指针）](https://editor.csdn.net/md/?articleId=107587115#3_LeetCode_5458__medium_137) |                                                              |
 | [LeetCode 5459. 形成目标数组的子数组最少增加次数](https://editor.csdn.net/md/?articleId=107587115#4_LeetCode_5459__hard_205) |                                                              |
+| [LeetCode 5472. 重新排列字符串](https://michael.blog.csdn.net/article/details/107591466#1_LeetCode_5472__easy_14) |                                                              |
+| [LeetCode 5473. 灯泡开关 IV](https://michael.blog.csdn.net/article/details/107591466#2_LeetCode_5473__IV_medium_88) |                                                              |
+| [LeetCode 5474. 好叶子节点对的数量（自底向上DFS）](https://michael.blog.csdn.net/article/details/107591466#3_LeetCode_5474__medium_156) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
