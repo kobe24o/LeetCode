@@ -446,6 +446,7 @@
 | [LeetCode 422. 有效的单词方块](https://blog.csdn.net/qq_21201267/article/details/107104807) |                                                              |
 | [LeetCode 423. 从英文中重建数字（找规律）](https://michael.blog.csdn.net/article/details/103517719) |                                                              |
 | [LeetCode 424. 替换后的最长重复字符（滑动窗口）](https://michael.blog.csdn.net/article/details/106213574) |                                                              |
+| [LeetCode 425. 单词方块（Trie树+DFS）](https://michael.blog.csdn.net/article/details/107623109) |                                                              |
 | [LeetCode 426. 将二叉搜索树转化为排序的双向链表（BST中序循环遍历）](https://blog.csdn.net/qq_21201267/article/details/107129959) |                                                              |
 | [LeetCode 427. 建立四叉树（递归）](https://michael.blog.csdn.net/article/details/103038783) |                                                              |
 | [LeetCode 428. 序列化和反序列化 N 叉树（DFS）](https://michael.blog.csdn.net/article/details/107349431) |                                                              |
