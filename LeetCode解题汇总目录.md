@@ -1149,6 +1149,7 @@
 | [LeetCode 1496. 判断路径是否相交（set）](https://michael.blog.csdn.net/article/details/106996303) |                                                              |
 | [LeetCode 1497. 检查数组对是否可以被 k 整除（余数配对）](https://michael.blog.csdn.net/article/details/106996448) |                                                              |
 | [LeetCode 1498. 满足条件的子序列数目（排序+二分查找+快速幂）](https://michael.blog.csdn.net/article/details/106996638) |                                                              |
+| [LeetCode 1500. Design a File Sharing System（哈希map+优先队列）](https://michael.blog.csdn.net/article/details/107620952) |                                                              |
 | [LeetCode 1502. 判断能否形成等差数列](https://blog.csdn.net/qq_21201267/article/details/107137163) |                                                              |
 | [LeetCode 1503. 所有蚂蚁掉下来前的最后一刻（脑筋急转弯）](https://blog.csdn.net/qq_21201267/article/details/107141312) |                                                              |
 | [LeetCode 1504. 统计全 1 子矩形（记录左侧的连续1的个数）](https://blog.csdn.net/qq_21201267/article/details/107139936) |                                                              |
