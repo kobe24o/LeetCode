@@ -24,6 +24,7 @@
 | [LeetCode 197. 上升的温度](https://michael.blog.csdn.net/article/details/107450633) |
 | [LeetCode 511. 游戏玩法分析 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_511__I_682) |
 | [LeetCode 512. 游戏玩法分析 II](https://michael.blog.csdn.net/article/details/107448149) |
+| [LeetCode 534. 游戏玩法分析 III](https://michael.blog.csdn.net/article/details/107614859) |
 | [LeetCode 550. 游戏玩法分析 IV](https://michael.blog.csdn.net/article/details/107605927) |
 | [LeetCode 574. 当选者](https://michael.blog.csdn.net/article/details/107608720) |
 | [LeetCode 577. 员工奖金](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_577__769) |
