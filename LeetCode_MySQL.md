@@ -48,6 +48,7 @@
 | [LeetCode 1050. 合作过至少三次的演员和导演](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1050__567) |
 | [LeetCode 1068. 产品销售分析 I](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1068__I_282) |
 | [LeetCode 1069. 产品销售分析 II](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1069__II_360) |
+| [LeetCode 1070. 产品销售分析 III（group by 陷阱）](https://michael.blog.csdn.net/article/details/107629810) |
 | [LeetCode 1075. 项目员工 I](https://michael.blog.csdn.net/article/details/107432955) |
 | [LeetCode 1076. 项目员工II](https://michael.blog.csdn.net/article/details/107448862) |
 | [LeetCode 1082. 销售分析 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1082__I_466) |
@@ -70,6 +71,7 @@
 | [LeetCode 1211. 查询结果的质量和占比](https://michael.blog.csdn.net/article/details/107434715) |
 | [LeetCode 1241. 每个帖子的评论数](https://michael.blog.csdn.net/article/details/107435051) |
 | [LeetCode 1251. 平均售价](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1251__681) |
+| [LeetCode 1264. 页面推荐（union）](https://michael.blog.csdn.net/article/details/107630738) |
 | [LeetCode 1280. 学生们参加各科测试的次数](https://michael.blog.csdn.net/article/details/107446420) |
 | [LeetCode 1294. 不同国家的天气类型](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1294__1055) |
 | [LeetCode 1303. 求团队人数](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1303__442) |
