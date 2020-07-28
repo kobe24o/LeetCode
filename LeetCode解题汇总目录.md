@@ -8,7 +8,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
-**已解决 1378/1731** - **简单 508** **中等 728** **困难 142**
+**已解决 1390/1731** - **简单 508** **中等 738** **困难 144**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 
@@ -1169,13 +1169,13 @@
 | [LeetCode 1518. 换酒问题](https://michael.blog.csdn.net/article/details/107443611#1_LeetCode_5464__easy_15) |                                                              |
 | [LeetCode 1519. 子树中标签相同的节点数（DFS）](https://michael.blog.csdn.net/article/details/107443611#2_LeetCode_5465__medium_91) |                                                              |
 | [LeetCode 1522. Diameter of N-Ary Tree（递归）](https://michael.blog.csdn.net/article/details/107552746) |                                                              |
-| [LeetCode 5456. 在区间范围内统计奇数数目](https://editor.csdn.net/md/?articleId=107587115#1_LeetCode_5456__easy_14) |                                                              |
-| [LeetCode 5457. 和为奇数的子数组数目](https://editor.csdn.net/md/?articleId=107587115#2_LeetCode_5457__medium_67) |                                                              |
-| [LeetCode 5458. 字符串的好分割数目（双指针）](https://editor.csdn.net/md/?articleId=107587115#3_LeetCode_5458__medium_137) |                                                              |
-| [LeetCode 5459. 形成目标数组的子数组最少增加次数](https://editor.csdn.net/md/?articleId=107587115#4_LeetCode_5459__hard_205) |                                                              |
-| [LeetCode 5472. 重新排列字符串](https://michael.blog.csdn.net/article/details/107591466#1_LeetCode_5472__easy_14) |                                                              |
-| [LeetCode 5473. 灯泡开关 IV](https://michael.blog.csdn.net/article/details/107591466#2_LeetCode_5473__IV_medium_88) |                                                              |
-| [LeetCode 5474. 好叶子节点对的数量（自底向上DFS）](https://michael.blog.csdn.net/article/details/107591466#3_LeetCode_5474__medium_156) |                                                              |
+| [LeetCode 1523. 在区间范围内统计奇数数目](https://editor.csdn.net/md/?articleId=107587115#1_LeetCode_5456__easy_14) |                                                              |
+| [LeetCode 1524. 和为奇数的子数组数目](https://editor.csdn.net/md/?articleId=107587115#2_LeetCode_5457__medium_67) |                                                              |
+| [LeetCode 1525. 字符串的好分割数目（双指针）](https://editor.csdn.net/md/?articleId=107587115#3_LeetCode_5458__medium_137) |                                                              |
+| [LeetCode 1526. 形成目标数组的子数组最少增加次数](https://editor.csdn.net/md/?articleId=107587115#4_LeetCode_5459__hard_205) |                                                              |
+| [LeetCode 1528. 重新排列字符串](https://michael.blog.csdn.net/article/details/107591466#1_LeetCode_5472__easy_14) |                                                              |
+| [LeetCode 1529. 灯泡开关 IV](https://michael.blog.csdn.net/article/details/107591466#2_LeetCode_5473__IV_medium_88) |                                                              |
+| [LeetCode 1530. 好叶子节点对的数量（自底向上DFS）](https://michael.blog.csdn.net/article/details/107591466#3_LeetCode_5474__medium_156) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
