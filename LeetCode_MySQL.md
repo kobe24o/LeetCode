@@ -35,6 +35,7 @@
 | [LeetCode 595. 大的国家](https://blog.csdn.net/qq_21201267/article/details/106464299#_LeetCode_595__43) |
 | [LeetCode 596. 超过5名学生的课](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_596_5_352) |
 | [LeetCode 597. 好友申请 I ：总体通过率](https://michael.blog.csdn.net/article/details/107447433) |
+| [LeetCode 602. 好友申请 II ：谁有最多的好友（union all）](https://michael.blog.csdn.net/article/details/107639071) |
 | [LeetCode 603. 连续空余座位](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_603__930) |
 | [LeetCode 607. 销售员](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_607__977) |
 | [LeetCode 608. 树节点](https://michael.blog.csdn.net/article/details/107467866) |
@@ -67,6 +68,7 @@
 | [LeetCode 1173. 即时食物配送 I](https://michael.blog.csdn.net/article/details/106464299#_LeetCode_1173__I_163) |
 | [LeetCode 1174. 即时食物配送 II](https://michael.blog.csdn.net/article/details/107545470) |
 | [LeetCode 1179. 重新格式化部门表](https://michael.blog.csdn.net/article/details/107450353) |
+| [LeetCode 1193. 每月交易 I（date_format）](https://michael.blog.csdn.net/article/details/107639778) |
 | [LeetCode 1204. 最后一个能进入电梯的人（累加/变量/窗口函数）](https://michael.blog.csdn.net/article/details/107451890) |
 | [LeetCode 1211. 查询结果的质量和占比](https://michael.blog.csdn.net/article/details/107434715) |
 | [LeetCode 1241. 每个帖子的评论数](https://michael.blog.csdn.net/article/details/107435051) |
@@ -80,6 +82,7 @@
 | [LeetCode 1327. 列出指定时间段内所有的下单产品](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1327__824) |
 | [LeetCode 1350. 院系无效的学生](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1350__515) |
 | [LeetCode 1355. 活动参与者（any函数）](https://michael.blog.csdn.net/article/details/107556068) |
+| [LeetCode 1364. 顾客的可信联系人数量](https://michael.blog.csdn.net/article/details/107635252) |
 | [LeetCode 1378. 使用唯一标识码替换员工ID](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1378_ID_192) |
 | [LeetCode 1393. 股票的资本损益](https://michael.blog.csdn.net/article/details/107451325) |
 | [LeetCode 1407. 排名靠前的旅行者](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1407__808) |
