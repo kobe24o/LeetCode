@@ -80,6 +80,7 @@
 | [LeetCode 1251. 平均售价](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1251__681) |
 | [LeetCode 1264. 页面推荐（union）](https://michael.blog.csdn.net/article/details/107630738) |
 | [LeetCode 1280. 学生们参加各科测试的次数](https://michael.blog.csdn.net/article/details/107446420) |
+| [LeetCode 1285. 找到连续区间的开始和结束数字（dense_rank连续排名）](https://michael.blog.csdn.net/article/details/107674043) |
 | [LeetCode 1294. 不同国家的天气类型](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1294__1055) |
 | [LeetCode 1303. 求团队人数](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1303__442) |
 | [LeetCode 1308. 不同性别每日分数总计（累加/变量/窗口函数）](https://michael.blog.csdn.net/article/details/107452243) |
