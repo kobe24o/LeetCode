@@ -52,6 +52,7 @@
 | [LeetCode 1070. 产品销售分析 III（group by 陷阱）](https://michael.blog.csdn.net/article/details/107629810) |
 | [LeetCode 1075. 项目员工 I](https://michael.blog.csdn.net/article/details/107432955) |
 | [LeetCode 1076. 项目员工II](https://michael.blog.csdn.net/article/details/107448862) |
+| [LeetCode 1077. 项目员工 III](https://michael.blog.csdn.net/article/details/107659680) |
 | [LeetCode 1082. 销售分析 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1082__I_466) |
 | [LeetCode 1083. 销售分析 II](https://michael.blog.csdn.net/article/details/107449727) |
 | [LeetCode 1084. 销售分析III](https://michael.blog.csdn.net/article/details/107450014) |
@@ -71,6 +72,7 @@
 | [LeetCode 1193. 每月交易 I（date_format）](https://michael.blog.csdn.net/article/details/107639778) |
 | [LeetCode 1204. 最后一个能进入电梯的人（累加/变量/窗口函数）](https://michael.blog.csdn.net/article/details/107451890) |
 | [LeetCode 1211. 查询结果的质量和占比](https://michael.blog.csdn.net/article/details/107434715) |
+| [LeetCode 1212. 查询球队积分](https://michael.blog.csdn.net/article/details/107657849) |
 | [LeetCode 1241. 每个帖子的评论数](https://michael.blog.csdn.net/article/details/107435051) |
 | [LeetCode 1251. 平均售价](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1251__681) |
 | [LeetCode 1264. 页面推荐（union）](https://michael.blog.csdn.net/article/details/107630738) |
