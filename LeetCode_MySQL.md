@@ -96,6 +96,7 @@
 | [LeetCode 1407. 排名靠前的旅行者](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1407__808) |
 | [LeetCode 1421. 净现值查询](https://michael.blog.csdn.net/article/details/107462458) |
 | [LeetCode 1435. 制作会话柱状图](https://michael.blog.csdn.net/article/details/107433177) |
+| [LeetCode 1440. 计算布尔表达式的值（case when then else end）](https://michael.blog.csdn.net/article/details/107674598) |
 | [LeetCode 1445. 苹果和桔子](https://michael.blog.csdn.net/article/details/107451077) |
 | [LeetCode 1454. 活跃用户（连续dense_rank排名函数）](https://michael.blog.csdn.net/article/details/107670499) |
 | [LeetCode 1459. 矩形面积](https://michael.blog.csdn.net/article/details/107457555) |
