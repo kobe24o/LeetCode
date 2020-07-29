@@ -31,6 +31,7 @@
 | [LeetCode 578. 查询回答率最高的问题](https://michael.blog.csdn.net/article/details/107560879) |
 | [LeetCode 580. 统计各专业学生人数](https://michael.blog.csdn.net/article/details/107546698) |
 | [LeetCode 584. 寻找用户推荐人](https://michael.blog.csdn.net/article/details/106464299#_LeetCode_584__106) |
+| [LeetCode 585. 2016年的投资（窗口函数over(partition by xx)）](https://michael.blog.csdn.net/article/details/107664953) |
 | [LeetCode 586. 订单最多的客户](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_586__397) |
 | [LeetCode 595. 大的国家](https://blog.csdn.net/qq_21201267/article/details/106464299#_LeetCode_595__43) |
 | [LeetCode 596. 超过5名学生的课](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_596_5_352) |
@@ -42,6 +43,7 @@
 | [LeetCode 610. 判断三角形](https://michael.blog.csdn.net/article/details/106464299#_LeetCode_610__234) |
 | [LeetCode 612. 平面上的最近距离](https://michael.blog.csdn.net/article/details/107470508) |
 | [LeetCode 613. 直线上的最近距离](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_613__632) |
+| [LeetCode 614. 二级关注者](https://michael.blog.csdn.net/article/details/107665877) |
 | [LeetCode 619. 只出现一次的最大数字](https://michael.blog.csdn.net/article/details/107445157) |
 | [LeetCode 620. 有趣的电影](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_620__240) |
 | [LeetCode 627. 交换工资](https://blog.csdn.net/qq_21201267/article/details/106502369#_LeetCode_627__113) |
@@ -71,6 +73,7 @@
 | [LeetCode 1179. 重新格式化部门表](https://michael.blog.csdn.net/article/details/107450353) |
 | [LeetCode 1193. 每月交易 I（date_format）](https://michael.blog.csdn.net/article/details/107639778) |
 | [LeetCode 1204. 最后一个能进入电梯的人（累加/变量/窗口函数）](https://michael.blog.csdn.net/article/details/107451890) |
+| [LeetCode 1205. 每月交易II（union all）*](https://michael.blog.csdn.net/article/details/107663011) |
 | [LeetCode 1211. 查询结果的质量和占比](https://michael.blog.csdn.net/article/details/107434715) |
 | [LeetCode 1212. 查询球队积分](https://michael.blog.csdn.net/article/details/107657849) |
 | [LeetCode 1241. 每个帖子的评论数](https://michael.blog.csdn.net/article/details/107435051) |
@@ -80,6 +83,7 @@
 | [LeetCode 1294. 不同国家的天气类型](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1294__1055) |
 | [LeetCode 1303. 求团队人数](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1303__442) |
 | [LeetCode 1308. 不同性别每日分数总计（累加/变量/窗口函数）](https://michael.blog.csdn.net/article/details/107452243) |
+| [LeetCode 1321. 餐馆营业额变化增长（over窗口函数）](https://michael.blog.csdn.net/article/details/107669318) |
 | [LeetCode 1322. 广告效果](https://michael.blog.csdn.net/article/details/107450131) |
 | [LeetCode 1327. 列出指定时间段内所有的下单产品](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1327__824) |
 | [LeetCode 1350. 院系无效的学生](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1350__515) |
@@ -91,6 +95,7 @@
 | [LeetCode 1421. 净现值查询](https://michael.blog.csdn.net/article/details/107462458) |
 | [LeetCode 1435. 制作会话柱状图](https://michael.blog.csdn.net/article/details/107433177) |
 | [LeetCode 1445. 苹果和桔子](https://michael.blog.csdn.net/article/details/107451077) |
+| [LeetCode 1454. 活跃用户（连续dense_rank排名函数）](https://michael.blog.csdn.net/article/details/107670499) |
 | [LeetCode 1459. 矩形面积](https://michael.blog.csdn.net/article/details/107457555) |
 | [LeetCode 1468. 计算税后工资](https://michael.blog.csdn.net/article/details/107461840) |
 | [LeetCode 1485. 按日期分组销售产品](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1485__741) |
