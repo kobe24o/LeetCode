@@ -106,6 +106,7 @@
 | [LeetCode 1454. 活跃用户（连续dense_rank排名函数）](https://michael.blog.csdn.net/article/details/107670499) |
 | [LeetCode 1459. 矩形面积](https://michael.blog.csdn.net/article/details/107457555) |
 | [LeetCode 1468. 计算税后工资](https://michael.blog.csdn.net/article/details/107461840) |
+| [LeetCode 1479. 周内每天的销售情况（dayname星期几）](https://michael.blog.csdn.net/article/details/107698539) |
 | [LeetCode 1485. 按日期分组销售产品](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1485__741) |
 | [LeetCode 1495. Friendly Movies Streamed Last Month](https://michael.blog.csdn.net/article/details/107441381) |
 | [LeetCode 1501. 可以放心投资的国家](https://michael.blog.csdn.net/article/details/107684378) |
