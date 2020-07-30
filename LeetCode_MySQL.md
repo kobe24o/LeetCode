@@ -63,6 +63,7 @@
 | [LeetCode 1107. 每日新用户统计](https://michael.blog.csdn.net/article/details/107568447) |
 | [LeetCode 1112. 每位学生的最高成绩](https://michael.blog.csdn.net/article/details/107472443) |
 | [LeetCode 1113. 报告的记录](https://michael.blog.csdn.net/article/details/107441663) |
+| [LeetCode 1132. 报告的记录 II](https://michael.blog.csdn.net/article/details/107695554) |
 | [LeetCode 1141. 查询近30天活跃用户数](https://michael.blog.csdn.net/article/details/107435709) |
 | [LeetCode 1142. 过去30天的用户活动 II](https://michael.blog.csdn.net/article/details/107445592) |
 | [LeetCode 1148. 文章浏览 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1148__I_624) |
