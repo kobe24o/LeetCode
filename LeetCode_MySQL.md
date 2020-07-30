@@ -79,6 +79,7 @@
 | [LeetCode 1241. 每个帖子的评论数](https://michael.blog.csdn.net/article/details/107435051) |
 | [LeetCode 1251. 平均售价](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1251__681) |
 | [LeetCode 1264. 页面推荐（union）](https://michael.blog.csdn.net/article/details/107630738) |
+| [LeetCode 1270. 向公司CEO汇报工作的所有人](https://michael.blog.csdn.net/article/details/107682606) |
 | [LeetCode 1280. 学生们参加各科测试的次数](https://michael.blog.csdn.net/article/details/107446420) |
 | [LeetCode 1285. 找到连续区间的开始和结束数字（dense_rank连续排名）](https://michael.blog.csdn.net/article/details/107674043) |
 | [LeetCode 1294. 不同国家的天气类型](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1294__1055) |
@@ -104,6 +105,7 @@
 | [LeetCode 1468. 计算税后工资](https://michael.blog.csdn.net/article/details/107461840) |
 | [LeetCode 1485. 按日期分组销售产品](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1485__741) |
 | [LeetCode 1495. Friendly Movies Streamed Last Month](https://michael.blog.csdn.net/article/details/107441381) |
+| [LeetCode 1501. 可以放心投资的国家](https://michael.blog.csdn.net/article/details/107684378) |
 | [LeetCode 1511. Customer Order Frequency](https://michael.blog.csdn.net/article/details/107432640) |
 | [LeetCode 1517. Find Users With Valid E-Mails（正则表达式）](https://michael.blog.csdn.net/article/details/107440931) |
 | [LeetCode 1527. Patients With a Condition（like）](https://michael.blog.csdn.net/article/details/107593466) |
