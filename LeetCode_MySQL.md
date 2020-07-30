@@ -99,6 +99,7 @@
 | [LeetCode 1393. 股票的资本损益](https://michael.blog.csdn.net/article/details/107451325) |
 | [LeetCode 1398. 购买了产品A和产品B却没有购买产品C的顾客](https://michael.blog.csdn.net/article/details/107673782) |
 | [LeetCode 1407. 排名靠前的旅行者](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1407__808) |
+| [LeetCode 1412. 查找成绩处于中游的学生](https://michael.blog.csdn.net/article/details/107701297) |
 | [LeetCode 1421. 净现值查询](https://michael.blog.csdn.net/article/details/107462458) |
 | [LeetCode 1435. 制作会话柱状图](https://michael.blog.csdn.net/article/details/107433177) |
 | [LeetCode 1440. 计算布尔表达式的值（case when then else end）](https://michael.blog.csdn.net/article/details/107674598) |
