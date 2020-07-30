@@ -107,6 +107,7 @@
 | [LeetCode 1511. Customer Order Frequency](https://michael.blog.csdn.net/article/details/107432640) |
 | [LeetCode 1517. Find Users With Valid E-Mails（正则表达式）](https://michael.blog.csdn.net/article/details/107440931) |
 | [LeetCode 1527. Patients With a Condition（like）](https://michael.blog.csdn.net/article/details/107593466) |
+| [LeetCode 1532. The Most Recent Three Orders（dense_rank + over窗口函数）](https://michael.blog.csdn.net/article/details/107680682) |
 
 
 
