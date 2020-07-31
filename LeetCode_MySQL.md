@@ -28,6 +28,7 @@
 | [LeetCode 550. 游戏玩法分析 IV](https://michael.blog.csdn.net/article/details/107605927) |
 | [LeetCode 569. 员工薪水中位数（over窗口函数）](https://michael.blog.csdn.net/article/details/107721361) |
 | [LeetCode 570. 至少有5名直接下属的经理](https://michael.blog.csdn.net/article/details/107688125) |
+| [LeetCode 571. 给定数字的频率查询中位数](https://michael.blog.csdn.net/article/details/107721921) |
 | [LeetCode 574. 当选者](https://michael.blog.csdn.net/article/details/107608720) |
 | [LeetCode 577. 员工奖金](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_577__769) |
 | [LeetCode 578. 查询回答率最高的问题](https://michael.blog.csdn.net/article/details/107560879) |
