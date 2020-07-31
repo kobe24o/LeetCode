@@ -80,6 +80,7 @@
 | [LeetCode 1205. 每月交易II（union all）*](https://michael.blog.csdn.net/article/details/107663011) |
 | [LeetCode 1211. 查询结果的质量和占比](https://michael.blog.csdn.net/article/details/107434715) |
 | [LeetCode 1212. 查询球队积分](https://michael.blog.csdn.net/article/details/107657849) |
+| [LeetCode 1225. 报告系统状态的连续日期（date_sub + over）](https://michael.blog.csdn.net/article/details/107719734) |
 | [LeetCode 1241. 每个帖子的评论数](https://michael.blog.csdn.net/article/details/107435051) |
 | [LeetCode 1251. 平均售价](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1251__681) |
 | [LeetCode 1264. 页面推荐（union）](https://michael.blog.csdn.net/article/details/107630738) |
