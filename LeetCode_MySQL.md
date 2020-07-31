@@ -45,6 +45,7 @@
 | [LeetCode 612. 平面上的最近距离](https://michael.blog.csdn.net/article/details/107470508) |
 | [LeetCode 613. 直线上的最近距离](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_613__632) |
 | [LeetCode 614. 二级关注者](https://michael.blog.csdn.net/article/details/107665877) |
+| [LeetCode 618. 学生地理信息报告（row_number）](https://michael.blog.csdn.net/article/details/107719437) |
 | [LeetCode 619. 只出现一次的最大数字](https://michael.blog.csdn.net/article/details/107445157) |
 | [LeetCode 620. 有趣的电影](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_620__240) |
 | [LeetCode 627. 交换工资](https://blog.csdn.net/qq_21201267/article/details/106502369#_LeetCode_627__113) |
