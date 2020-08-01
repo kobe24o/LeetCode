@@ -52,6 +52,7 @@
 | [LeetCode 618. 学生地理信息报告（row_number）](https://michael.blog.csdn.net/article/details/107719437) |
 | [LeetCode 619. 只出现一次的最大数字](https://michael.blog.csdn.net/article/details/107445157) |
 | [LeetCode 620. 有趣的电影](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_620__240) |
+| [LeetCode 626. 换座位](https://michael.blog.csdn.net/article/details/107735116) |
 | [LeetCode 627. 交换工资](https://blog.csdn.net/qq_21201267/article/details/106502369#_LeetCode_627__113) |
 | [LeetCode 1045. 买下所有产品的客户](https://michael.blog.csdn.net/article/details/107468498) |
 | [LeetCode 1050. 合作过至少三次的演员和导演](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1050__567) |
