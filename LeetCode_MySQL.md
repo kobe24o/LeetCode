@@ -32,6 +32,7 @@
 | [LeetCode 574. 当选者](https://michael.blog.csdn.net/article/details/107608720) |
 | [LeetCode 577. 员工奖金](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_577__769) |
 | [LeetCode 578. 查询回答率最高的问题](https://michael.blog.csdn.net/article/details/107560879) |
+| [LeetCode 579. 查询员工的累计薪水（over(rows n preceding)选取窗口1+前n条）](https://michael.blog.csdn.net/article/details/107729626) |
 | [LeetCode 580. 统计各专业学生人数](https://michael.blog.csdn.net/article/details/107546698) |
 | [LeetCode 584. 寻找用户推荐人](https://michael.blog.csdn.net/article/details/106464299#_LeetCode_584__106) |
 | [LeetCode 585. 2016年的投资（窗口函数over(partition by xx)）](https://michael.blog.csdn.net/article/details/107664953) |
