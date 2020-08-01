@@ -76,39 +76,39 @@ public:
 };
 
 class Solution {
-    int m, n;
-    int longest = 1;
-    vector<vector<int>> dir = {{-1,0},{1,0},{0,1},{0,-1}};
 public:
-    int longestIncreasingPath(vector<vector<int>>& mat) {
-        if(mat.empty() || mat[0].empty())
-            return 0;
-        m = mat.size(), n = mat[0].size();
-        vector<vector<int>> s(m, vector<int>(n,0));
-        for(int i = 0, j; i < m; ++i)
-            for(j = 0; j < n; ++j)
-            {
-                // if(s[i][j] != 0)
-                // 	continue;
-                longest = max(longest, dfs(0,0,mat,s));
-            }
-        return longest;
-    }
-    int dfs(int i, int j, vector<vector<int>>& mat, vector<vector<int>>& s)
-    {
-        if(s[i][j] != 0)
-            return s[i][j];
-        int x, y, k, longestpathofnext = 0;
-        for(k = 0; k < 4; ++k)
+    vector<int> smallestRange(vector<vector<int>>& nums) {
+        vector<vector<int>> v;
+        int k = nums.size();
+        for(int i = 0; i < nums.size(); ++i)
         {
-            x = i + dir[k][0];
-            y = j + dir[k][1];
-            if(x>=0 && x<m && y>=0 && y<n && mat[i][j] > mat[x][y])
-            {
-                longestpathofnext = max(longestpathofnext, dfs(x,y,mat,s));
-            }
+            for(int n : nums[i])
+                v.push_back({n,i});
         }
-        return s[i][j] = 1+longestpathofnext;
+        sort(v.begin(), v.end());
+        unordered_map<int,int> m;//区间编号，该区间有多少个数在窗口内
+        int i = 0, j = 0, n = v.size();
+        int l = -1e7, r = 1e7, minlen = INT_MAX;
+        while(j < n)
+        {
+            if(m.size() < k)
+            {
+                m[v[j][1]]++;
+            }
+            while(m.size() == k)
+            {
+                if(v[j][0]-v[i][0] < r-l)
+                {
+                    l = v[i][0];
+                    r = v[j][0];
+                }
+                if(--m[v[i][1]] == 0)
+                    m.erase(m[v[i][1]]);
+                i++;
+            }
+            j++;
+        }
+        return {l, r};
     }
 };
 void printv(vector<int>& v)
@@ -118,7 +118,7 @@ void printv(vector<int>& v)
     cout << endl;
 }
 int main() {
-    vector<vector<int>> v6 ={{3,4,5},{3,2,6},{2,2,1}};
+    vector<vector<int>> v6 ={{4,10,15,24,26}, {0,9,12,20}, {5,18,22,30}};
     vector<vector<int>> v5 ={{3, 0, 1, 4, 2},
                              {5, 6, 3, 2, 1},
                              {1, 2, 0, 1, 5},{4, 1, 0, 1, 7},
@@ -132,7 +132,7 @@ int main() {
     vector<string> st1 = {"za","zb","ca","cb"};
 
     Solution s;
-    s.longestIncreasingPath(v6);
+    s.smallestRange(v6);
 
 
 
