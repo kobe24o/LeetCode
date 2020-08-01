@@ -78,6 +78,7 @@
 | [LeetCode 1174. 即时食物配送 II](https://michael.blog.csdn.net/article/details/107545470) |
 | [LeetCode 1179. 重新格式化部门表](https://michael.blog.csdn.net/article/details/107450353) |
 | [LeetCode 1193. 每月交易 I（date_format）](https://michael.blog.csdn.net/article/details/107639778) |
+| [LeetCode 1194. 锦标赛优胜者](https://michael.blog.csdn.net/article/details/107728895) |
 | [LeetCode 1204. 最后一个能进入电梯的人（累加/变量/窗口函数）](https://michael.blog.csdn.net/article/details/107451890) |
 | [LeetCode 1205. 每月交易II（union all）*](https://michael.blog.csdn.net/article/details/107663011) |
 | [LeetCode 1211. 查询结果的质量和占比](https://michael.blog.csdn.net/article/details/107434715) |
