@@ -17,7 +17,7 @@
 | [LeetCode 176. 第二高的薪水](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_176__109) |
 | [LeetCode 177. 第N高的薪水](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode__177_N_152) |
 | [LeetCode 178. 分数排名（dense_rank连续排名）](https://michael.blog.csdn.net/article/details/107735837) |
-| [LeetCode 180. 连续出现的数字](https://michael.blog.csdn.net/article/details/107735590) |
+| [LeetCode 180. 连续出现的数字（cast）](https://michael.blog.csdn.net/article/details/107735590) |
 | [LeetCode 181. 超过经理收入的员工](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_181__139) |
 | [LeetCode 182. 查找重复的电子邮箱](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_182__196) |
 | [LeetCode 183. 从不订购的客户](https://blog.csdn.net/qq_21201267/article/details/106478958#_LeetCode_183__289) |
