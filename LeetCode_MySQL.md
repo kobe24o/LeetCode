@@ -62,6 +62,7 @@
 | [LeetCode 1082. 销售分析 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1082__I_466) |
 | [LeetCode 1083. 销售分析 II](https://michael.blog.csdn.net/article/details/107449727) |
 | [LeetCode 1084. 销售分析III](https://michael.blog.csdn.net/article/details/107450014) |
+| [LeetCode 1097. 游戏玩法分析 V](https://michael.blog.csdn.net/article/details/107729091) |
 | [LeetCode 1098. 小众书籍](https://michael.blog.csdn.net/article/details/107561821) |
 | [LeetCode 1107. 每日新用户统计](https://michael.blog.csdn.net/article/details/107568447) |
 | [LeetCode 1112. 每位学生的最高成绩](https://michael.blog.csdn.net/article/details/107472443) |
