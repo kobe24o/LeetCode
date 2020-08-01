@@ -70,6 +70,7 @@
 | [LeetCode 1112. 每位学生的最高成绩](https://michael.blog.csdn.net/article/details/107472443) |
 | [LeetCode 1113. 报告的记录](https://michael.blog.csdn.net/article/details/107441663) |
 | [LeetCode 1126. 查询活跃业务](https://michael.blog.csdn.net/article/details/107690619) |
+| [LeetCode 1127. 用户购买平台 *](https://michael.blog.csdn.net/article/details/107731633) |
 | [LeetCode 1132. 报告的记录 II](https://michael.blog.csdn.net/article/details/107695554) |
 | [LeetCode 1141. 查询近30天活跃用户数](https://michael.blog.csdn.net/article/details/107435709) |
 | [LeetCode 1142. 过去30天的用户活动 II](https://michael.blog.csdn.net/article/details/107445592) |
