@@ -77,38 +77,44 @@ public:
 
 class Solution {
 public:
-    vector<int> smallestRange(vector<vector<int>>& nums) {
-        vector<vector<int>> v;
-        int k = nums.size();
-        for(int i = 0; i < nums.size(); ++i)
+    int minSwaps(vector<vector<int>>& grid) {
+        int i, j, sum = 0, n = grid.size(), ans = 0;
+        vector<int> num;
+        for(i = 0; i < n; ++i)
         {
-            for(int n : nums[i])
-                v.push_back({n,i});
+            sum = 0;
+            for(j = n-1; j>=0 && grid[i][j]==0 ; --j)
+                sum++;
+            num.push_back(sum);
         }
-        sort(v.begin(), v.end());
-        unordered_map<int,int> m;//区间编号，该区间有多少个数在窗口内
-        int i = 0, j = 0, n = v.size();
-        int l = -1e7, r = 1e7, minlen = INT_MAX;
-        while(j < n)
+        vector<int> arr = num;
+        sort(num.begin(), num.end());
+        for(i = 0; i < n-1; ++i)
+            if(num[i] < i)
+                return -1;
+        // for(i = n-1; i >= 0; --i)
+        // {
+        //     for(j = n-2; j >= 0; --j)
+        //     {
+        //         if(arr[j+1] > arr[j])
+        //         {
+        //             swap(arr[j+1], arr[j]);
+        //             ans++;
+        //         }
+        //     }
+        // }
+        for(i = 0; i < n; ++i)
         {
-            if(m.size() < k)
+            for(j = 1; j < n-i; ++j)
             {
-                m[v[j][1]]++;
-            }
-            while(m.size() == k)
-            {
-                if(v[j][0]-v[i][0] < r-l)
+                if(arr[j-1] < n-j && arr[j-1] < arr[j])
                 {
-                    l = v[i][0];
-                    r = v[j][0];
+                    swap(arr[j-1], arr[j]);
+                    ans++;
                 }
-                if(--m[v[i][1]] == 0)
-                    m.erase(m[v[i][1]]);
-                i++;
             }
-            j++;
         }
-        return {l, r};
+        return ans;
     }
 };
 void printv(vector<int>& v)
@@ -118,7 +124,7 @@ void printv(vector<int>& v)
     cout << endl;
 }
 int main() {
-    vector<vector<int>> v6 ={{4,10,15,24,26}, {0,9,12,20}, {5,18,22,30}};
+    vector<vector<int>> v6 ={{1,0,0,0,0,0},{0,0,0,1,0,0},{0,0,0,1,0,0},{0,1,0,0,0,0},{0,0,1,0,0,0},{0,0,0,0,0,1}};
     vector<vector<int>> v5 ={{3, 0, 1, 4, 2},
                              {5, 6, 3, 2, 1},
                              {1, 2, 0, 1, 5},{4, 1, 0, 1, 7},
@@ -132,7 +138,7 @@ int main() {
     vector<string> st1 = {"za","zb","ca","cb"};
 
     Solution s;
-    s.smallestRange(v6);
+    s.minSwaps(v6);
 
 
 
