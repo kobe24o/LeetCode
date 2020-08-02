@@ -82,6 +82,7 @@
 | [LeetCode 1148. 文章浏览 I](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1148__I_624) |
 | [LeetCode 1149. 文章浏览 II](https://michael.blog.csdn.net/article/details/107568637) |
 | [LeetCode 1158. 市场分析 I](https://michael.blog.csdn.net/article/details/107546448) |
+| [LeetCode 1159. 市场分析 II（rank+over）](https://michael.blog.csdn.net/article/details/107747263) |
 | [LeetCode 1164. 指定日期的产品价格 *](https://michael.blog.csdn.net/article/details/107569576) |
 | [LeetCode 1173. 即时食物配送 I](https://michael.blog.csdn.net/article/details/106464299#_LeetCode_1173__I_163) |
 | [LeetCode 1174. 即时食物配送 II](https://michael.blog.csdn.net/article/details/107545470) |
