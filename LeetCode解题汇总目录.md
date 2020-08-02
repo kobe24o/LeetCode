@@ -1186,6 +1186,7 @@
 | [LeetCode 5475. 统计好三元组](https://michael.blog.csdn.net/article/details/107743199) |                                                              |
 | [LeetCode 5476. 找出数组游戏的赢家](https://michael.blog.csdn.net/article/details/107743252) |                                                              |
 | [LeetCode 5477. 排布二进制网格的最少交换次数](https://michael.blog.csdn.net/article/details/107743307) |                                                              |
+| [LeetCode 5478. 最大得分（切片取出局部最大值）](https://michael.blog.csdn.net/article/details/107743421) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
