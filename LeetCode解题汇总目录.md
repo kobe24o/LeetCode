@@ -900,6 +900,7 @@
 | [LeetCode 1128. 等价多米诺骨牌对的数量（哈希）](https://michael.blog.csdn.net/article/details/103190477) |                                                              |
 | [LeetCode 1133. 最大唯一数](https://blog.csdn.net/qq_21201267/article/details/107097303) |                                                              |
 | [LeetCode 1134. 阿姆斯特朗数](https://blog.csdn.net/qq_21201267/article/details/107093934) |                                                              |
+| [LeetCode 1136. 平行课程（拓扑排序）](https://michael.blog.csdn.net/article/details/107749482) |                                                              |
 | [LeetCode 1137. 第 N 个泰波那契数](https://blog.csdn.net/qq_21201267/article/details/100671814) |                                                              |
 | [LeetCode 1138. 字母板上的路径](https://michael.blog.csdn.net/article/details/103899893) |                                                              |
 | [LeetCode 1139. 最大的以 1 为边界的正方形（DP）](https://michael.blog.csdn.net/article/details/105542359) |                                                              |
