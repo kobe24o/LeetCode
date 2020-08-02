@@ -111,6 +111,7 @@
 | [LeetCode 1364. 顾客的可信联系人数量](https://michael.blog.csdn.net/article/details/107635252) |
 | [LeetCode 1369. 获取最近第二次的活动（over窗口函数）](https://michael.blog.csdn.net/article/details/107720464) |
 | [LeetCode 1378. 使用唯一标识码替换员工ID](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1378_ID_192) |
+| [LeetCode 1384. 按年度列出销售总额](https://michael.blog.csdn.net/article/details/107744420) |
 | [LeetCode 1393. 股票的资本损益](https://michael.blog.csdn.net/article/details/107451325) |
 | [LeetCode 1398. 购买了产品A和产品B却没有购买产品C的顾客](https://michael.blog.csdn.net/article/details/107673782) |
 | [LeetCode 1407. 排名靠前的旅行者](https://michael.blog.csdn.net/article/details/106478958#_LeetCode_1407__808) |
