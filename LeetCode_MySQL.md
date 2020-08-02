@@ -105,6 +105,7 @@
 | [LeetCode 1321. 餐馆营业额变化增长（over窗口函数）](https://michael.blog.csdn.net/article/details/107669318) |
 | [LeetCode 1322. 广告效果](https://michael.blog.csdn.net/article/details/107450131) |
 | [LeetCode 1327. 列出指定时间段内所有的下单产品](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1327__824) |
+| [LeetCode 1336. 每次访问的交易次数](https://michael.blog.csdn.net/article/details/107746510) |
 | [LeetCode 1341. 电影评分](https://michael.blog.csdn.net/article/details/107674983) |
 | [LeetCode 1350. 院系无效的学生](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_1350__515) |
 | [LeetCode 1355. 活动参与者（any函数）](https://michael.blog.csdn.net/article/details/107556068) |
