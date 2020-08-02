@@ -385,6 +385,7 @@
 | [LeetCode 348. 判定井字棋胜负（计数）](https://michael.blog.csdn.net/article/details/107418123) |                                                              |
 | [LeetCode 349. 两个数组的交集（哈希）](https://blog.csdn.net/qq_21201267/article/details/100945076) |                                                              |
 | [LeetCode 350. 两个数组的交集 II（哈希）](https://blog.csdn.net/qq_21201267/article/details/100995174) |                                                              |
+| [LeetCode 351. 安卓系统手势解锁（回溯）](https://michael.blog.csdn.net/article/details/107738912) |                                                              |
 | [LeetCode 354. 俄罗斯套娃信封问题（最长上升子序 DP/二分查找）](https://michael.blog.csdn.net/article/details/105370146) |                                                              |
 | [LeetCode 355. 设计推特（哈希map+set）](https://michael.blog.csdn.net/article/details/105480197) |                                                              |
 | [LeetCode 356. 直线镜像](https://michael.blog.csdn.net/article/details/107528027) |                                                              |
