@@ -76,45 +76,32 @@ public:
 };
 
 class Solution {
+    vector<string> l = {"0","1","6","8","9"};
+    vector<string> r = {"0","1","9","8","6"};
+    int ans = 0;
 public:
-    int minSwaps(vector<vector<int>>& grid) {
-        int i, j, sum = 0, n = grid.size(), ans = 0;
-        vector<int> num;
-        for(i = 0; i < n; ++i)
+    int strobogrammaticInRange(string low, string high) {
+        vector<string> number = {"", "0","1","8"};
+        for(int i = 0; i < number.size(); ++i)
         {
-            sum = 0;
-            for(j = n-1; j>=0 && grid[i][j]==0 ; --j)
-                sum++;
-            num.push_back(sum);
-        }
-        vector<int> arr = num;
-        sort(num.begin(), num.end());
-        for(i = 0; i < n-1; ++i)
-            if(num[i] < i)
-                return -1;
-        // for(i = n-1; i >= 0; --i)
-        // {
-        //     for(j = n-2; j >= 0; --j)
-        //     {
-        //         if(arr[j+1] > arr[j])
-        //         {
-        //             swap(arr[j+1], arr[j]);
-        //             ans++;
-        //         }
-        //     }
-        // }
-        for(i = 0; i < n; ++i)
-        {
-            for(j = 1; j < n-i; ++j)
-            {
-                if(arr[j-1] < n-j && arr[j-1] < arr[j])
-                {
-                    swap(arr[j-1], arr[j]);
-                    ans++;
-                }
-            }
+        	dfs(number[i], low, high);
         }
         return ans;
+    }
+    void dfs(string num, string& low, string& high)
+    {
+    	if(num.size() > 1 && num[0]=='0')
+    		return;
+    	if(num.size() > high.size())
+    		return;
+    	if((num.size()>low.size() && num.size()<high.size())
+    			|| (num.size()==low.size() && num >= low)
+                || (num.size()==high.size() && num <= high))
+    		ans++;
+    	for(int i = 0; i < 5; ++i)
+    	{
+    		dfs(l[i]+num+r[i], low, high);
+    	}
     }
 };
 void printv(vector<int>& v)
@@ -138,7 +125,7 @@ int main() {
     vector<string> st1 = {"za","zb","ca","cb"};
 
     Solution s;
-    s.minSwaps(v6);
+    s.strobogrammaticInRange("0","0");
 
 
 
