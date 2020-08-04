@@ -3,7 +3,7 @@ public:
     vector<string> beforeAndAfterPuzzles(vector<string>& phrases) {
     	unordered_map<string,vector<int>> front;//字符前缀，包含该字符的字符串的idx
     	unordered_map<string,vector<int>> back;//字符后缀，包含该字符的字符串的idx
-    	int idx1, idx2, len, i, j;
+    	size_t idx1, idx2, len, i, j;
     	for(i=0; i<phrases.size(); ++i)
     	{
     		idx1 = phrases[i].find_first_of(' ');
@@ -23,18 +23,17 @@ public:
     		if(!front.count(it1->first))
     			continue;
     		len = it1->first.size();
-    		for(auto it2 = front.begin(); it2 != front.end(); ++it2)
-    		{
-    			for(i = 0; i < it1->second.size(); i++)
-    			{
-    				for(j = 0; j < it2->second.size(); j++)
-    				{
-    					if(it1->second[i] == it2->second[j])
-    						continue;//同一个单词
-    					ans.insert(phrases[i]+phrases[j].substr(len));
-    				}
-    			}
-    		}
+			for(i = 0; i < it1->second.size(); i++)
+			{
+				idx1 = it1->second[i];
+				for(j = 0; j < front[it1->first].size(); j++)
+				{
+					idx2 = front[it1->first][j];
+					if(idx1 == idx2)
+						continue;//同一个单词
+					ans.insert(phrases[idx1]+phrases[idx2].substr(len));
+				}
+			}
     	}
     	return vector<string>(ans.begin(), ans.end());
     }
