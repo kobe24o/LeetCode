@@ -920,6 +920,7 @@
 | [LeetCode 1162. 地图分析（BFS）](https://michael.blog.csdn.net/article/details/105172033) |                                                              |
 | [LeetCode 1165. 单行键盘（哈希）](https://blog.csdn.net/qq_21201267/article/details/107093125) |                                                              |
 | [LeetCode 1166. 设计文件系统（哈希map）](https://michael.blog.csdn.net/article/details/107542532) |                                                              |
+| [LeetCode 1167. 连接棒材的最低费用（优先队列+贪心）](https://michael.blog.csdn.net/article/details/107786477) |                                                              |
 | [LeetCode 1169. 查询无效交易](https://michael.blog.csdn.net/article/details/106583761) |                                                              |
 | [LeetCode 1170. 比较字符串最小字母出现频次](https://michael.blog.csdn.net/article/details/105803059) |                                                              |
 | [LeetCode 1171. 从链表中删去总和值为零的连续节点（哈希表）](https://michael.blog.csdn.net/article/details/102925963) |                                                              |
