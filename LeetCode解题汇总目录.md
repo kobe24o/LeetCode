@@ -986,6 +986,7 @@
 | [LeetCode 1271. 十六进制魔术数字（进制转换）](https://michael.blog.csdn.net/article/details/103346339) |                                                              |
 | [LeetCode 1272. 删除区间](https://michael.blog.csdn.net/article/details/107575663) |                                                              |
 | [LeetCode 1273. 删除树节点（拓扑排序/DFS）](https://blog.csdn.net/qq_21201267/article/details/107145802) |                                                              |
+| [LeetCode 1274. 矩形内船只的数目（分治）](https://michael.blog.csdn.net/article/details/107780392) |                                                              |
 | [LeetCode 1275. 找出井字棋的获胜者（位运算）](https://michael.blog.csdn.net/article/details/103345978) |                                                              |
 | [LeetCode 1276. 不浪费原料的汉堡制作方案（解方程）](https://michael.blog.csdn.net/article/details/106388487) |                                                              |
 | [LeetCode 1277. 统计全为 1 的正方形子矩阵（DP）](https://michael.blog.csdn.net/article/details/105588317) |                                                              |
