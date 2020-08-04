@@ -929,6 +929,7 @@
 | [LeetCode 1176. 健身计划评估（滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/107104482) |                                                              |
 | [LeetCode 1177. 构建回文串检测（前缀和）](https://michael.blog.csdn.net/article/details/105498437) |                                                              |
 | [LeetCode 1180. 统计只含单一字母的子串](https://blog.csdn.net/qq_21201267/article/details/107094297) |                                                              |
+| [LeetCode 1181. 前后拼接（哈希map）](https://michael.blog.csdn.net/article/details/107790829) |                                                              |
 | [LeetCode 1182. 与目标颜色间的最短距离（二分查找/DP）](https://michael.blog.csdn.net/article/details/107644302) |                                                              |
 | [LeetCode 1184. 公交站间的距离](https://blog.csdn.net/qq_21201267/article/details/100814178) |                                                              |
 | [LeetCode 1185. 一周中的第几天](https://blog.csdn.net/qq_21201267/article/details/100808636) |                                                              |
