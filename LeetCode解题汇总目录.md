@@ -358,6 +358,7 @@
 | [LeetCode 311. 稀疏矩阵的乘法](https://blog.csdn.net/qq_21201267/article/details/107113508) |                                                              |
 | [LeetCode 312. 戳气球（DP，难）](https://blog.csdn.net/qq_21201267/article/details/100838793) |                                                              |
 | [LeetCode 313. 超级丑数（动态规划）](https://michael.blog.csdn.net/article/details/105932017) |                                                              |
+| [LeetCode 314. 二叉树的垂直遍历（BFS/DFS）](https://michael.blog.csdn.net/article/details/107825446) |                                                              |
 | [LeetCode 315. 计算右侧小于当前元素的个数（二叉查找树&二分查找&归并排序逆序数总结）](https://blog.csdn.net/qq_21201267/article/details/102876496) |                                                              |
 | [LeetCode 318. 最大单词长度乘积（位运算）](https://michael.blog.csdn.net/article/details/103231137) |                                                              |
 | [LeetCode 319. 灯泡开关（找规律）](https://michael.blog.csdn.net/article/details/103607028) |                                                              |
@@ -550,6 +551,7 @@
 | [LeetCode 551. 学生出勤记录 I](https://michael.blog.csdn.net/article/details/105717322) |                                                              |
 | [LeetCode 553. 最优除法（数学）](https://michael.blog.csdn.net/article/details/103515354) |                                                              |
 | [LeetCode 554. 砖墙（map计数）](https://michael.blog.csdn.net/article/details/106590186) |                                                              |
+| [LeetCode 555. 分割连接字符串](https://michael.blog.csdn.net/article/details/107824427) |                                                              |
 | [LeetCode 556. 下一个更大元素 III](https://michael.blog.csdn.net/article/details/103940133) |                                                              |
 | [LeetCode 557. 反转字符串中的单词 III（栈）](https://blog.csdn.net/qq_21201267/article/details/100436745) |                                                              |
 | [LeetCode 558. 四叉树交集（递归）](https://michael.blog.csdn.net/article/details/103098556) |                                                              |
