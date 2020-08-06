@@ -374,6 +374,7 @@
 | [LeetCode 332. 重新安排行程（欧拉路径）](https://michael.blog.csdn.net/article/details/106124337) |                                                              |
 | [LeetCode 333. 最大 BST 子树（递归）*](https://blog.csdn.net/qq_21201267/article/details/107148640) |                                                              |
 | [LeetCode 334. 递增的三元子序列](https://blog.csdn.net/qq_21201267/article/details/101275950) |                                                              |
+| [LeetCode 336. 回文对（哈希map）](https://michael.blog.csdn.net/article/details/107834330) |                                                              |
 | [LeetCode 337. 打家劫舍 III（记忆化+递归）](https://blog.csdn.net/qq_21201267/article/details/102691125) |                                                              |
 | [LeetCode 339. 嵌套列表权重和（DFS）](https://blog.csdn.net/qq_21201267/article/details/107093614) |                                                              |
 | [LeetCode 340. 至多包含 K 个不同字符的最长子串（滑动窗口）](https://michael.blog.csdn.net/article/details/107399576) |                                                              |
