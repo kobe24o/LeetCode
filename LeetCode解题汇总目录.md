@@ -867,6 +867,7 @@
 | [LeetCode 1054. 距离相等的条形码（优先队列）](https://blog.csdn.net/qq_21201267/article/details/104317529) |                                                              |
 | [LeetCode 1056. 易混淆数（哈希）](https://blog.csdn.net/qq_21201267/article/details/107105777) |                                                              |
 | [LeetCode 1057. 校园自行车分配（map有序+贪心）](https://michael.blog.csdn.net/article/details/107822070) |                                                              |
+| [LeetCode 1058. 最小化舍入误差以满足目标（排序+贪心）](https://michael.blog.csdn.net/article/details/107848213) |                                                              |
 | [LeetCode 1059. 从始点到终点的所有路径（回溯）](https://michael.blog.csdn.net/article/details/107847149) |                                                              |
 | [LeetCode 1060. 有序数组中的缺失元素（二分查找）](https://michael.blog.csdn.net/article/details/107538389) |                                                              |
 | [LeetCode 1061. 按字典序排列最小的等效字符串（并查集）](https://blog.csdn.net/qq_21201267/article/details/107149147) |                                                              |

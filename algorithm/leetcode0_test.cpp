@@ -76,32 +76,34 @@ public:
 };
 
 class Solution {
-    vector<string> l = {"0","1","6","8","9"};
-    vector<string> r = {"0","1","9","8","6"};
-    int ans = 0;
 public:
-    int strobogrammaticInRange(string low, string high) {
-        vector<string> number = {"", "0","1","8"};
-        for(int i = 0; i < number.size(); ++i)
+    string minimizeError(vector<string>& prices, int target) {
+        vector<int> decimal;
+        int num;
+        for(string& p : prices)
         {
-        	dfs(number[i], low, high);
+            target -= stoi(p);
+            num = stoi(p.substr(p.size()-3));
+            if(num != 0)
+                decimal.push_back(num);//有小数的
         }
-        return ans;
-    }
-    void dfs(string num, string& low, string& high)
-    {
-    	if(num.size() > 1 && num[0]=='0')
-    		return;
-    	if(num.size() > high.size())
-    		return;
-    	if((num.size()>low.size() && num.size()<high.size())
-    			|| (num.size()==low.size() && num >= low)
-                || (num.size()==high.size() && num <= high))
-    		ans++;
-    	for(int i = 0; i < 5; ++i)
-    	{
-    		dfs(l[i]+num+r[i], low, high);
-    	}
+        if(target > decimal.size())//全部向上取整都不够的
+            return "-1";
+        if(target < 0)//全部向下取整，和还超过target
+            return "-1";
+        sort(decimal.rbegin(), decimal.rend());//大的在前面（靠近1）
+        int error = 0;
+        for(int i = 0; i < decimal.size(); ++i)//所有非0的小数都要取整
+        {
+            if(target > 0)
+                error += 1000-decimal[i],//向上取整
+                        target--;
+            else if(target == 0)//不需要了，全部舍弃小数
+                error += decimal[i];
+        }
+        char ch[7];
+        sprintf("%.3f", ch, double(error)/1000);
+        return string(ch);
     }
 };
 void printv(vector<int>& v)
@@ -122,10 +124,10 @@ int main() {
     vector<int> v4 = {1,3,2};
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
-    vector<string> st1 = {"za","zb","ca","cb"};
+    vector<string> st1 = {"0.700","2.800","4.900"};
 
     Solution s;
-    s.strobogrammaticInRange("0","0");
+    s.minimizeError(st1,8);
 
 
 
