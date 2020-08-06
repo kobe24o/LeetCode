@@ -46,3 +46,71 @@ public:
 		return true;
     }
 };
+
+class trie
+{
+public:
+    unordered_map<char, trie*> next;
+    int suffix = -1;
+    void insert(string& s, int idx)
+    {
+        trie *cur = this;
+        for(int i = s.size()-1; i >= 0; --i)
+        {
+            if(!cur->next[s[i]])
+                cur->next[s[i]] = new trie();
+            cur = cur->next[s[i]];
+        }
+        cur->suffix = idx;
+    }
+};
+class Solution {
+public:
+    vector<vector<int>> palindromePairs(vector<string>& words) {
+        trie * t = new trie(), *cur;
+        vector<vector<int>> ans;
+        string revword, temp;
+        for(int i = 0; i < words.size(); ++i)
+        {
+            t->insert(words[i], i);
+        }
+        for(int i = 0; i < words.size(); ++i)
+        {
+            int n = words[i].size(), j, k;
+            cur = t;
+            for(j = 0; j < words[i].size(); ++j)
+            {
+                if(cur->suffix != -1 && cur->suffix != i
+                    && ispalind(words[i].substr(j)))
+                    ans.push_back({i, cur->suffix});
+                if(!cur->next[words[i][j]])
+                    break;
+                cur = cur->next[words[i][j]];
+            }
+            for(j = 0; j <= words[i].size(); ++j)
+            {
+                temp = words[i].substr(n-j);
+                cur = t;
+                for(k = 0; k < temp.size(); ++k)
+                {
+                    if(!cur->next[temp[k]])
+                        break;
+                    cur = cur->next[temp[k]];
+                }
+                if(k==temp.size() && cur->suffix != -1
+                    && cur->suffix != i 
+                    && ispalind(words[i].substr(0, n-j)))
+                    ans.push_back({cur->suffix, i});
+            }
+        }
+        return ans;
+    }
+    bool ispalind(string s)
+    {
+        int l = 0, r = s.size()-1;
+        while(l < r)
+            if(s[l++] != s[r--])
+                return false;
+        return true;
+    }
+};

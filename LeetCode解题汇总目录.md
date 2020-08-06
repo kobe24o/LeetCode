@@ -1198,10 +1198,10 @@
 | [LeetCode 1529. 灯泡开关 IV](https://michael.blog.csdn.net/article/details/107591466#2_LeetCode_5473__IV_medium_88) |                                                              |
 | [LeetCode 1530. 好叶子节点对的数量（自底向上DFS）](https://michael.blog.csdn.net/article/details/107591466#3_LeetCode_5474__medium_156) |                                                              |
 | [LeetCode 1533. Find the Index of the Large Integer（二分查找）](https://michael.blog.csdn.net/article/details/107691850) |                                                              |
-| [LeetCode 5475. 统计好三元组](https://michael.blog.csdn.net/article/details/107743199) |                                                              |
-| [LeetCode 5476. 找出数组游戏的赢家](https://michael.blog.csdn.net/article/details/107743252) |                                                              |
-| [LeetCode 5477. 排布二进制网格的最少交换次数](https://michael.blog.csdn.net/article/details/107743307) |                                                              |
-| [LeetCode 5478. 最大得分（切片取出局部最大值）](https://michael.blog.csdn.net/article/details/107743421) |                                                              |
+| [LeetCode 1534. 统计好三元组](https://michael.blog.csdn.net/article/details/107743199) |                                                              |
+| [LeetCode 1535. 找出数组游戏的赢家](https://michael.blog.csdn.net/article/details/107743252) |                                                              |
+| [LeetCode 1536. 排布二进制网格的最少交换次数](https://michael.blog.csdn.net/article/details/107743307) |                                                              |
+| [LeetCode 1537. 最大得分（切片取出局部最大值）](https://michael.blog.csdn.net/article/details/107743421) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
