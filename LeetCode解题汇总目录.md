@@ -865,6 +865,7 @@
 | [LeetCode 1052. 爱生气的书店老板（滑动窗口）](https://michael.blog.csdn.net/article/details/103328664) |                                                              |
 | [LeetCode 1053. 交换一次的先前排列](https://michael.blog.csdn.net/article/details/107029805) |                                                              |
 | [LeetCode 1054. 距离相等的条形码（优先队列）](https://blog.csdn.net/qq_21201267/article/details/104317529) |                                                              |
+| [LeetCode 1055. 形成字符串的最短路径（贪心）](https://michael.blog.csdn.net/article/details/107848565) |                                                              |
 | [LeetCode 1056. 易混淆数（哈希）](https://blog.csdn.net/qq_21201267/article/details/107105777) |                                                              |
 | [LeetCode 1057. 校园自行车分配（map有序+贪心）](https://michael.blog.csdn.net/article/details/107822070) |                                                              |
 | [LeetCode 1058. 最小化舍入误差以满足目标（排序+贪心）](https://michael.blog.csdn.net/article/details/107848213) |                                                              |
