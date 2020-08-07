@@ -549,6 +549,7 @@
 | [LeetCode 544. 输出比赛匹配对（NBA季后赛对阵图）](https://blog.csdn.net/qq_21201267/article/details/107123966) |                                                              |
 | [LeetCode 545. 二叉树的边界（前序+后序）*](https://blog.csdn.net/qq_21201267/article/details/107148491) |                                                              |
 | [LeetCode 547. 朋友圈（图的遍历BFS & DFS）](https://blog.csdn.net/qq_21201267/article/details/100813067) |                                                              |
+| [LeetCode 548. 将数组分割成和相等的子数组（哈希set）](https://michael.blog.csdn.net/article/details/107866197) |                                                              |
 | [LeetCode 549. 二叉树中最长的连续序列（树上DP）](https://michael.blog.csdn.net/article/details/107576568) |                                                              |
 | [LeetCode 551. 学生出勤记录 I](https://michael.blog.csdn.net/article/details/105717322) |                                                              |
 | [LeetCode 553. 最优除法（数学）](https://michael.blog.csdn.net/article/details/103515354) |                                                              |
