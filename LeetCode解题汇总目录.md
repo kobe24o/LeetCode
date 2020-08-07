@@ -898,6 +898,7 @@
 | [LeetCode 1099. 小于 K 的两数之和（二分查找）](https://blog.csdn.net/qq_21201267/article/details/107097354) |                                                              |
 | [LeetCode 1100. 长度为 K 的无重复字符子串（滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/107123609) |                                                              |
 | [LeetCode 1101. 彼此熟识的最早时间（排序+并查集）](https://blog.csdn.net/qq_21201267/article/details/107127601) |                                                              |
+| [LeetCode 1102. 得分最高的路径（优先队列BFS/极大极小化 二分查找）](https://michael.blog.csdn.net/article/details/107868938) |                                                              |
 | [LeetCode 1103. 分糖果 II](https://blog.csdn.net/qq_21201267/article/details/100802416) |                                                              |
 | [LeetCode 1104. 二叉树寻路（数学&位运算）](https://michael.blog.csdn.net/article/details/103100853) |                                                              |
 | [LeetCode 1108. IP 地址无效化](https://blog.csdn.net/qq_21201267/article/details/100585842) |                                                              |
