@@ -74,7 +74,7 @@
 | [LeetCode 2. 两数相加（单链表反转）](https://blog.csdn.net/qq_21201267/article/details/97191786) | [LeetCode 股票买卖 系列（动态规划） ](https://blog.csdn.net/qq_21201267/article/details/100026086) |
 | [LeetCode 3. 无重复字符的最长子串（滑动窗口+哈希）](https://blog.csdn.net/qq_21201267/article/details/102333616) | [LeetCode 丑数 系列（DP/二分）](https://blog.csdn.net/qq_21201267/article/details/103738537) |
 | [LeetCode 4. 寻找两个有序数组的中位数（二分查找，难）](https://blog.csdn.net/qq_21201267/article/details/102828858) | [LeetCode 跳跃游戏 系列（贪心/BFS/DP）](https://blog.csdn.net/qq_21201267/article/details/100899698) |
-| [LeetCode 5. 最长回文子串（动态规划）](https://michael.blog.csdn.net/article/details/105348936) |                                                              |
+| [LeetCode 5. 最长回文子串（动态规划）](https://michael.blog.csdn.net/article/details/105348936) | [极小极大化 就用 二分查找](https://blog.csdn.net/qq_21201267/article/details/107534172) |
 | [LeetCode 6. Z 字形变换（找规律）](https://blog.csdn.net/qq_21201267/article/details/104782401) |                                                              |
 | [LeetCode 7. 整数反转](https://blog.csdn.net/qq_21201267/article/details/100583336) |                                                              |
 | [LeetCode 8. 字符串转换整数 (atoi)](https://blog.csdn.net/qq_21201267/article/details/100583821) |                                                              |
