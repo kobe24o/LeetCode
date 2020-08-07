@@ -489,7 +489,7 @@
 | [LeetCode 466. 统计重复个数（循环节）](https://michael.blog.csdn.net/article/details/105622283) |                                                              |
 | [LeetCode 467. 环绕字符串中唯一的子字符串（思维转换）](https://michael.blog.csdn.net/article/details/106150226) |                                                              |
 | [LeetCode 468. 验证IP地址](https://michael.blog.csdn.net/article/details/103672706) |                                                              |
-| [LeetCode 469. 凸多边形（向量数量积）](https://michael.blog.csdn.net/article/details/107866949) |                                                              |
+| [LeetCode 469. 凸多边形（向量叉积）](https://michael.blog.csdn.net/article/details/107866949) |                                                              |
 | [LeetCode 470. 用 Rand7() 实现 Rand10()（随机概率）](https://michael.blog.csdn.net/article/details/103560871) |                                                              |
 | [LeetCode 474. 一和零（动态规划）](https://michael.blog.csdn.net/article/details/106256106) |                                                              |
 | [LeetCode 475. 供暖器（双指针&二分查找）](https://blog.csdn.net/qq_21201267/article/details/102989014) |                                                              |
