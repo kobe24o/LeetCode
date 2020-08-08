@@ -590,6 +590,7 @@
 | [LeetCode 622. 设计循环队列](https://michael.blog.csdn.net/article/details/105719813) |                                                              |
 | [LeetCode 623. 在二叉树中增加一行（BFS/DFS）](https://michael.blog.csdn.net/article/details/103649398) |                                                              |
 | [LeetCode 624. 数组列表中的最大距离](https://blog.csdn.net/qq_21201267/article/details/107105100) |                                                              |
+| [LeetCode 625. 最小因式分解（贪心）](https://michael.blog.csdn.net/article/details/107880373) |                                                              |
 | [LeetCode 628. 三个数的最大乘积](https://michael.blog.csdn.net/article/details/103172263) |                                                              |
 | [LeetCode 629. K个逆序对数组（DP）](https://blog.csdn.net/qq_21201267/article/details/102886587) |                                                              |
 | [LeetCode 632. 最小区间（排序+滑动窗口）](https://michael.blog.csdn.net/article/details/107727739) |                                                              |
