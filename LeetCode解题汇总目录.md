@@ -670,6 +670,7 @@
 | [LeetCode 733. 图像渲染（DFS/BFS）](https://blog.csdn.net/qq_21201267/article/details/101611121) |                                                              |
 | [LeetCode 734. 句子相似性（哈希）](https://blog.csdn.net/qq_21201267/article/details/107098723) |                                                              |
 | [LeetCode 735. 行星碰撞（栈）](https://michael.blog.csdn.net/article/details/103794858) |                                                              |
+| [LeetCode 737. 句子相似性 II（并查集）](https://michael.blog.csdn.net/article/details/107881526) |                                                              |
 | [LeetCode 738. 单调递增的数字（贪心）](https://michael.blog.csdn.net/article/details/103564931) |                                                              |
 | [LeetCode 739. 每日温度（单调栈）](https://blog.csdn.net/qq_21201267/article/details/101479101) |                                                              |
 | [LeetCode 742. 二叉树最近的叶节点（建立父节点信息+BFS）](https://blog.csdn.net/qq_21201267/article/details/107212921) |                                                              |
