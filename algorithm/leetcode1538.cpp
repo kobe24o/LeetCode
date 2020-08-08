@@ -15,57 +15,40 @@
  */
 
 class Solution {
-	unordered_map<int, vector<vector<int>>> m;
 public:
     int guessMajority(ArrayReader &reader) {
-        m[4] = {{0, 0, 0, 0},{1, 1, 1, 1}};
-		m[2] = {{0, 0, 0, 1},{0, 0, 1, 0},{0, 1, 0, 0},{1, 0, 0, 0},
-        		{0, 1, 1, 1},{1, 0, 1, 1},{1, 1, 0, 1},{1, 1, 1, 0}};
-		m[0] = {{0, 0, 1, 1},{1, 0, 0, 1},{0, 1, 0, 1},
-        		{0, 1, 1, 0},{1, 0, 1, 0},{1, 1, 0, 0}};
-        int n = reader.length(), i, j;
-        int maxcount = -1, idx, state;
-        vector<int> zero_one(2,0);
-        vector<vector<int>> count(n,vector<int>(2, 0));
-        for(i = 0; i <= n-4; ++i)
+        int n = reader.length();
+        int start = reader.query(0,1,2,3);
+        int g1 = 1, g2 = 0, idx1 = 0, idx2 = -1;
+
+        for(int i = 4; i < n; ++i)
         {
-        	state = reader.query(i,i+1,i+2,i+3);
-        	for(auto& si : m[state])
-        	{
-        		count[i][si[0]]++;
-        		zero_one[si[0]]++;
-        		count[i][si[1]]++;
-        		zero_one[si[1]]++;
-        		count[i][si[2]]++;
-        		zero_one[si[2]]++;
-        		count[i][si[3]]++;
-        		zero_one[si[3]]++;
-        	}
-        }
-        if(zero_one[0] == zero_one[1])
-        	return -1;
-        if((zero_one[0] > zero_one[1]))
-        {
-        	for(int i = 0; i < n; ++i)
-        	{
-        		if(count[i][0] > maxcount)
-        		{
-        			maxcount = count[i][0];
-        			idx = i;
-        		}
-        	}
-        }
+            if(reader.query(1,2,3,i)==start)
+                g1++;
+            else
+                g2++, idx2 = i;
+        }//0,4,5...n-1 都确定了是否是一类
+        //还要确定1,2,3
+        int q = reader.query(0,2,3,4);
+        int p = reader.query(1,2,3,4);
+        if(q == p)//0和1是一类
+            g1++;
         else
-        {
-        	for(int i = 0; i < n; ++i)
-        	{
-        		if(count[i][1] > maxcount)
-        		{
-        			maxcount = count[i][1];
-        			idx = i;
-        		}
-        	}
-        }
-        return idx;
+            g2++, idx2 = 1;
+        q = reader.query(0,1,3,4);
+        // p = reader.query(1,2,3,4);
+        if(q == p)//0和2是否是一类
+            g1++;
+        else
+            g2++,idx2 = 2;
+        q = reader.query(0,1,2,4);
+        // p = reader.query(1,2,3,4);
+        if(q == p)//0和3是否是一类
+            g1++;
+        else
+            g2++,idx2 = 3;
+        if(g1 == g2) return -1;
+        if(g1 > g2) return idx1;
+        return idx2;
     }
 };
