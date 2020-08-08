@@ -470,6 +470,7 @@
 | [LeetCode 441. 排列硬币（数学解方程）](https://michael.blog.csdn.net/article/details/105665692) |                                                              |
 | [LeetCode 442. 数组中重复的数据](https://blog.csdn.net/qq_21201267/article/details/100798552) |                                                              |
 | [LeetCode 443. 压缩字符串（双指针）](https://michael.blog.csdn.net/article/details/103051059) |                                                              |
+| [LeetCode 444. 序列重建（拓扑排序）](https://michael.blog.csdn.net/article/details/107884725) |                                                              |
 | [LeetCode 445. 两数相加 II（链表大数加法）](https://michael.blog.csdn.net/article/details/103500675) |                                                              |
 | [LeetCode 447. 回旋镖的数量（哈希map+组合数）](https://michael.blog.csdn.net/article/details/105689424) |                                                              |
 | [LeetCode 448. 找到所有数组中消失的数字](https://blog.csdn.net/qq_21201267/article/details/101475950) |                                                              |
@@ -1219,8 +1220,6 @@
 | [LeetCode 1538. Guess the Majority in a Hidden Array](https://michael.blog.csdn.net/article/details/107874237) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
-
-
 
 
 
