@@ -992,6 +992,7 @@
 | [LeetCode 1255. 得分最高的单词集合（回溯）](https://michael.blog.csdn.net/article/details/106826585) |                                                              |
 | [LeetCode 1256. 加密数字（bitset）](https://blog.csdn.net/qq_21201267/article/details/107125994) |                                                              |
 | [LeetCode 1257. 最小公共区域（最小公共祖先）](https://michael.blog.csdn.net/article/details/107642952) |                                                              |
+| [LeetCode 1258. 近义词句子（哈希+并查集+排序+回溯）](https://michael.blog.csdn.net/article/details/107874963) |                                                              |
 | [LeetCode 1260. 二维网格迁移（二维转一维）](https://michael.blog.csdn.net/article/details/103152794) |                                                              |
 | [LeetCode 1261. 在受污染的二叉树中查找元素（树&哈希）](https://michael.blog.csdn.net/article/details/103213501) |                                                              |
 | [LeetCode 1262. 可被三整除的最大和（DP）](https://michael.blog.csdn.net/article/details/103319572) |                                                              |
