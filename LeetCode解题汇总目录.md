@@ -655,6 +655,7 @@
 | [LeetCode 705. 设计哈希集合](https://michael.blog.csdn.net/article/details/105740141) |                                                              |
 | [LeetCode 706. 设计哈希映射](https://michael.blog.csdn.net/article/details/105740273) |                                                              |
 | [LeetCode 707. 设计链表（List）](https://blog.csdn.net/qq_21201267/article/details/101638997) |                                                              |
+| [LeetCode 708. 循环有序列表的插入](https://michael.blog.csdn.net/article/details/107883084) |                                                              |
 | [LeetCode 709. 转换成小写字母](https://blog.csdn.net/qq_21201267/article/details/100907747) |                                                              |
 | [LeetCode 712. 两个字符串的最小ASCII删除和（DP，类似编辑距离）](https://michael.blog.csdn.net/article/details/105757207) |                                                              |
 | [LeetCode 713. 乘积小于K的子数组（滑动窗口）](https://michael.blog.csdn.net/article/details/106733134) |                                                              |
