@@ -77,33 +77,35 @@ public:
 
 class Solution {
 public:
-    string minimizeError(vector<string>& prices, int target) {
-        vector<int> decimal;
-        int num;
-        for(string& p : prices)
+    int minInsertions(string s) {
+        int sum = 0, l = 0, r = 0;
+        char prev = '-';
+        for(int i = 0; i < s.size(); ++i)
         {
-            target -= stoi(p);
-            num = stoi(p.substr(p.size()-3));
-            if(num != 0)
-                decimal.push_back(num);//有小数的
+            if(s[i] == '(')
+            {
+                if(2*l < r)
+                {
+                    sum += (r-2*l)/2 + (((r-2*(r-2*l)/2)&1) ?  2 : 0);
+                    l = r = 0;
+                }
+                else if(r > 0)
+                {
+                    sum += 2*l-r;
+                    l = r = 0;
+                }
+                l++;
+            }
+            else
+                r++;
+
+            prev = s[i];
         }
-        if(target > decimal.size())//全部向上取整都不够的
-            return "-1";
-        if(target < 0)//全部向下取整，和还超过target
-            return "-1";
-        sort(decimal.rbegin(), decimal.rend());//大的在前面（靠近1）
-        int error = 0;
-        for(int i = 0; i < decimal.size(); ++i)//所有非0的小数都要取整
-        {
-            if(target > 0)
-                error += 1000-decimal[i],//向上取整
-                        target--;
-            else if(target == 0)//不需要了，全部舍弃小数
-                error += decimal[i];
-        }
-        char ch[7];
-        sprintf("%.3f", ch, double(error)/1000);
-        return string(ch);
+        if(2*l >= r)
+            sum += 2*l-r;
+        else
+            sum += (r-2*l)/2 + (((r-2*l)&1) ?  2 : 1);
+        return sum;
     }
 };
 void printv(vector<int>& v)
@@ -127,7 +129,7 @@ int main() {
     vector<string> st1 = {"0.700","2.800","4.900"};
 
     Solution s;
-    s.minimizeError(st1,8);
+    s.minInsertions("))))()))())");
 
 
 
