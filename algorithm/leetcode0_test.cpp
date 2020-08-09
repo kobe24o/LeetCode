@@ -76,36 +76,22 @@ public:
 };
 
 class Solution {
+    int ans = 0;
 public:
-    int minInsertions(string s) {
-        int sum = 0, l = 0, r = 0;
-        char prev = '-';
-        for(int i = 0; i < s.size(); ++i)
-        {
-            if(s[i] == '(')
-            {
-                if(2*l < r)
-                {
-                    sum += (r-2*l)/2 + (((r-2*(r-2*l)/2)&1) ?  2 : 0);
-                    l = r = 0;
-                }
-                else if(r > 0)
-                {
-                    sum += 2*l-r;
-                    l = r = 0;
-                }
-                l++;
-            }
-            else
-                r++;
-
-            prev = s[i];
-        }
-        if(2*l >= r)
-            sum += 2*l-r;
-        else
-            sum += (r-2*l)/2 + (((r-2*l)&1) ?  2 : 1);
-        return sum;
+    int minCost(int n, vector<int>& cuts) {
+        cuts.push_back(0);
+        cuts.push_back(n);
+        sort(cuts.begin(), cuts.end());
+        dfs(0, cuts.size()-1, cuts);
+        return ans;
+    }
+    void dfs(int l, int r, vector<int>& ct)
+    {
+        if(l >= r) return;
+        int mid = (l+r)/2;
+        ans += ct[mid]-ct[l] + ct[r]-ct[mid];
+        dfs(l, mid, ct);
+        dfs(mid+1, r, ct);
     }
 };
 void printv(vector<int>& v)
@@ -121,7 +107,7 @@ int main() {
                              {1, 2, 0, 1, 5},{4, 1, 0, 1, 7},
                              {1, 0, 3, 0, 5}};
     vector<double> v1 = {0.5,0.5,0.2};
-    vector<int> v2 = {1,2,3,2,1};
+    vector<int> v2 = {1,3,4,5};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
     vector<int> v4 = {1,3,2};
     string str = "eceeeefasdghjklqwertyuio";
@@ -129,7 +115,7 @@ int main() {
     vector<string> st1 = {"0.700","2.800","4.900"};
 
     Solution s;
-    s.minInsertions("))))()))())");
+    s.minCost(7,v2);
 
 
 
