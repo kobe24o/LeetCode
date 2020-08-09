@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.7.26
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.8.9
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/leetbook/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题（更新完毕）](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题（更新完毕）](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode代码能力测试CAT](https://blog.csdn.net/qq_21201267/article/details/104603021)。
 
@@ -8,7 +8,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
-**已解决 1461/1738** - **简单 508** **中等 781** **困难 172**
+**已解决 1480/1747** - **简单 511** **中等 795** **困难 174**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 
@@ -66,6 +66,7 @@
 | [LeetCode 第 31 场双周赛（273/2767，前9.87%，第3次全部通过🚀）](https://michael.blog.csdn.net/article/details/107587115) |
 | [LeetCode 第 199 场周赛（757/5231，前14.5%）](https://michael.blog.csdn.net/article/details/107591466) |
 | [LeetCode 第 32 场双周赛（983/2957，前33.2%）](https://michael.blog.csdn.net/article/details/107892779) |
+| [LeetCode 第 201 场周赛（304/5614，前5.42%）](https://michael.blog.csdn.net/article/details/107894840) |
 
 ​          
 
@@ -1224,6 +1225,10 @@
 | [LeetCode 5469. K 次操作转变字符串（计数）](https://michael.blog.csdn.net/article/details/107892779#2_LeetCode_5469_K__medium_76) |                                                              |
 | [LeetCode 5470. 平衡括号字符串的最少插入次数（栈括号匹配）](https://michael.blog.csdn.net/article/details/107892779#3_LeetCode_5470__medium_155) |                                                              |
 | [LeetCode 5485. 找出最长的超赞子字符串（状态压缩+哈希）](https://michael.blog.csdn.net/article/details/107892779#4_LeetCode_5485__hard_293) |                                                              |
+| [LeetCode 5483. 整理字符串（栈）](https://michael.blog.csdn.net/article/details/107894840#1_LeetCode_5483__easy_15) |                                                              |
+| [LeetCode 5484. 找出第 N 个二进制字符串中的第 K 位（递归）](https://michael.blog.csdn.net/article/details/107894840#2_LeetCode_5484__N__K__medium_89) |                                                              |
+| [LeetCode 5471. 和为目标值的最大数目不重叠非空子数组数目（哈希）](https://michael.blog.csdn.net/article/details/107894840#3_LeetCode_5471__medium_213) |                                                              |
+| [LeetCode 5486. 切棍子的最小成本（区间DP）](https://michael.blog.csdn.net/article/details/107894840#4_LeetCode_5486__hard_276) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
