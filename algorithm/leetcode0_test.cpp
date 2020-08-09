@@ -76,22 +76,53 @@ public:
 };
 
 class Solution {
-    int ans = 0;
 public:
-    int minCost(int n, vector<int>& cuts) {
-        cuts.push_back(0);
-        cuts.push_back(n);
-        sort(cuts.begin(), cuts.end());
-        dfs(0, cuts.size()-1, cuts);
-        return ans;
-    }
-    void dfs(int l, int r, vector<int>& ct)
-    {
-        if(l >= r) return;
-        int mid = (l+r)/2;
-        ans += ct[mid]-ct[l] + ct[r]-ct[mid];
-        dfs(l, mid, ct);
-        dfs(mid+1, r, ct);
+    vector<vector<int>> candyCrush(vector<vector<int>>& b) {
+    	bool todo = false;
+    	int m = b.size(), n = b[0].size(), i, j, up, down;
+    	for(i = 0; i < m; ++i)//横向检查
+    		for(j = 0; j < n-2; ++j)
+    		{
+    			if(abs(b[i][j])==abs(b[i][j+1]) && abs(b[i][j+1])==abs(b[i][j+2]))
+    			{
+    				b[i][j] = b[i][j+1] = b[i][j+2] = -abs(b[i][j]);//标记为负的
+    				todo = true;
+    			}
+    		}
+    	for(j = 0; j < n; ++j)//纵向检查
+    		for(i = 0; i < m-2; ++i)
+    		{
+    			if(abs(b[i][j])==abs(b[i+1][j]) && abs(b[i+1][j])==abs(b[i+2][j]))
+    			{
+    				b[i][j] = b[i+1][j] = b[i+2][j] = -abs(b[i][j]);//标记为负的
+    				todo = true;
+    			}
+    		}
+    	for(i = 0; i < m; ++i)//负的 标记为0要删除
+    		for(j = 0; j < n; ++j)
+    			if(b[i][j] < 0)
+    				b[i][j] = 0;
+    	for(j = 0; j < n; ++j)//纵向掉落
+    	{
+    		down = up = m-1;//从最底下开始往上找
+    		while(down >= 0)
+    		{	//双指针搬移数据
+    			if(b[down][j] == 0)
+    			{
+    				up = down-1;
+    				while(up >= 0 && b[up][j] == 0)
+    					up--;
+    				if(up >= 0)
+    					swap(b[down][j], b[up][j]);
+    				else
+    					break;
+    			}
+    			down--;
+    		}
+    	}
+    	if(todo)
+    		candyCrush(b);
+    	return b;
     }
 };
 void printv(vector<int>& v)
@@ -101,7 +132,7 @@ void printv(vector<int>& v)
     cout << endl;
 }
 int main() {
-    vector<vector<int>> v6 ={{1,0,0,0,0,0},{0,0,0,1,0,0},{0,0,0,1,0,0},{0,1,0,0,0,0},{0,0,1,0,0,0},{0,0,0,0,0,1}};
+    vector<vector<int>> v6 ={{110,5,112,113,114},{210,211,5,213,214},{310,311,3,313,314},{410,411,412,5,414},{5,1,512,3,3},{610,4,1,613,614},{710,1,2,713,714},{810,1,2,1,1},{1,1,2,2,2},{4,1,4,4,1014}};
     vector<vector<int>> v5 ={{3, 0, 1, 4, 2},
                              {5, 6, 3, 2, 1},
                              {1, 2, 0, 1, 5},{4, 1, 0, 1, 7},
@@ -115,7 +146,7 @@ int main() {
     vector<string> st1 = {"0.700","2.800","4.900"};
 
     Solution s;
-    s.minCost(7,v2);
+    s.candyCrush(v6);
 
 
 
