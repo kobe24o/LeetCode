@@ -1,33 +1,74 @@
 class Solution {
 public:
     int minInsertions(string s) {
-        int sum = 0, l = 0, r = 0;
-        char prev = '-';
-        for(int i = 0; i < s.size(); ++i)
+        int sum = 0;
+        stack<char> stk;
+        int n = s.size();
+        for(int i = 0; i < n; ++i)
         {
             if(s[i] == '(')
+                stk.push('(');
+            else if(s[i] == ')')
             {
-                if(2*l < r)
+                if(i+1 < n && s[i+1] == ')')
                 {
-                    sum += (r-2*l)/2 + (((r-2*l)&1) ?  2 : 0);
-                    l = r = 0;
+                    if(!stk.empty())
+                        stk.pop();// ())消除
+                    else
+                        sum++;//补一个左括号
+                    i++;//后面的 ) 已经处理了
                 }
-                else if(r > 0)
+                else//后面没有 ）
                 {
-                    sum += 2*l-r;
-                    l = r = 0;
+                    if(!stk.empty())
+                    {   //有左括号
+                        stk.pop();
+                        sum++;// 补一个右括号
+                    }
+                    else//没有左括号
+                        sum += 2;//补一个左，一个右括号
                 }
-                l++;
             }
-            else
-                r++;
-            
-            prev = s[i];
         }
-        if(2*l >= r)
-            sum += 2*l-r;
-        else
-            sum += (r-2*l)/2 + (((r-2*l)&1) ?  2 : 0);
+        while(!stk.empty())
+        {
+            stk.pop();
+            sum += 2;
+        }
         return sum;
+    }
+};
+
+class Solution {
+public:
+    int minInsertions(string s) {
+        //先预处理，把 （ 变成 （（
+        string ans;
+        int l = 0, r = 0, sum = 0;
+        for(int i = 0; i < s.size(); ++i)
+        {
+            if(i+1 < s.size() && s[i]==')' && s[i+1] == ')')
+            {
+                ans += ")";//连续的两个变成1个 ）
+                i++;
+                continue;
+            }
+            if(s[i] == ')')
+                sum++;
+            ans += s[i];
+        }
+        for(int i = 0; i < ans.size(); ++i)
+        {
+            if(ans[i] == '(') 
+                l++;
+            else
+            {
+                if(l>0) //右括号可以与之匹配
+                    l--;
+                else //右括号没有相应的左括号匹配
+                    r++;
+            }   
+        }
+        return 2*l+r+sum;
     }
 };
