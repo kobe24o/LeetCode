@@ -65,6 +65,7 @@
 | [LeetCode 第 198 场周赛（434/5778，前7.51%）](https://michael.blog.csdn.net/article/details/107443611) |
 | [LeetCode 第 31 场双周赛（273/2767，前9.87%，第3次全部通过🚀）](https://michael.blog.csdn.net/article/details/107587115) |
 | [LeetCode 第 199 场周赛（757/5231，前14.5%）](https://michael.blog.csdn.net/article/details/107591466) |
+| [LeetCode 第 32 场双周赛（983/2957，前33.2%）](https://michael.blog.csdn.net/article/details/107892779) |
 
 ​          
 
@@ -1219,6 +1220,10 @@
 | [LeetCode 1536. 排布二进制网格的最少交换次数](https://michael.blog.csdn.net/article/details/107743307) |                                                              |
 | [LeetCode 1537. 最大得分（切片取出局部最大值）](https://michael.blog.csdn.net/article/details/107743421) |                                                              |
 | [LeetCode 1538. Guess the Majority in a Hidden Array](https://michael.blog.csdn.net/article/details/107874237) |                                                              |
+| [LeetCode 5468. 第 k 个缺失的正整数](https://michael.blog.csdn.net/article/details/107892779#1_LeetCode_5468__k__easy_15) |                                                              |
+| [LeetCode 5469. K 次操作转变字符串（计数）](https://michael.blog.csdn.net/article/details/107892779#2_LeetCode_5469_K__medium_76) |                                                              |
+| [LeetCode 5470. 平衡括号字符串的最少插入次数（栈括号匹配）](https://michael.blog.csdn.net/article/details/107892779#3_LeetCode_5470__medium_155) |                                                              |
+| [LeetCode 5485. 找出最长的超赞子字符串（状态压缩+哈希）](https://michael.blog.csdn.net/article/details/107892779#4_LeetCode_5485__hard_293) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
