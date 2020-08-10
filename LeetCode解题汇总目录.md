@@ -572,6 +572,7 @@
 | [LeetCode 565. 数组嵌套](https://michael.blog.csdn.net/article/details/106832333) |                                                              |
 | [LeetCode 566. 重塑矩阵](https://michael.blog.csdn.net/article/details/105717990) |                                                              |
 | [LeetCode 567. 字符串的排列（滑动窗口）](https://michael.blog.csdn.net/article/details/106387977) |                                                              |
+| [LeetCode 568. 最大休假天数（DP）](https://michael.blog.csdn.net/article/details/107920933) |                                                              |
 | [LeetCode 572. 另一个树的子树（二叉树迭代器）](https://michael.blog.csdn.net/article/details/103094146) |                                                              |
 | [LeetCode 573. 松鼠模拟（数学）*](https://blog.csdn.net/qq_21201267/article/details/107144624) |                                                              |
 | [LeetCode 575. 分糖果（set集合去重）](https://blog.csdn.net/qq_21201267/article/details/101039768) |                                                              |

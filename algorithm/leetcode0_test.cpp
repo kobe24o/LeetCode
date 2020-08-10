@@ -77,52 +77,42 @@ public:
 
 class Solution {
 public:
-    vector<vector<int>> candyCrush(vector<vector<int>>& b) {
-    	bool todo = false;
-    	int m = b.size(), n = b[0].size(), i, j, up, down;
-    	for(i = 0; i < m; ++i)//横向检查
-    		for(j = 0; j < n-2; ++j)
-    		{
-    			if(abs(b[i][j])==abs(b[i][j+1]) && abs(b[i][j+1])==abs(b[i][j+2]))
-    			{
-    				b[i][j] = b[i][j+1] = b[i][j+2] = -abs(b[i][j]);//标记为负的
-    				todo = true;
-    			}
-    		}
-    	for(j = 0; j < n; ++j)//纵向检查
-    		for(i = 0; i < m-2; ++i)
-    		{
-    			if(abs(b[i][j])==abs(b[i+1][j]) && abs(b[i+1][j])==abs(b[i+2][j]))
-    			{
-    				b[i][j] = b[i+1][j] = b[i+2][j] = -abs(b[i][j]);//标记为负的
-    				todo = true;
-    			}
-    		}
-    	for(i = 0; i < m; ++i)//负的 标记为0要删除
-    		for(j = 0; j < n; ++j)
-    			if(b[i][j] < 0)
-    				b[i][j] = 0;
-    	for(j = 0; j < n; ++j)//纵向掉落
-    	{
-    		down = up = m-1;//从最底下开始往上找
-    		while(down >= 0)
-    		{	//双指针搬移数据
-    			if(b[down][j] == 0)
-    			{
-    				up = down-1;
-    				while(up >= 0 && b[up][j] == 0)
-    					up--;
-    				if(up >= 0)
-    					swap(b[down][j], b[up][j]);
-    				else
-    					break;
-    			}
-    			down--;
-    		}
-    	}
-    	if(todo)
-    		candyCrush(b);
-    	return b;
+    int maxVacationDays(vector<vector<int>>& flights, vector<vector<int>>& days) {
+        int dp[101][101];// 在 i 城市时， 是第 k 周， 最多休假天数
+        memset(dp, -1, sizeof(dp));
+        unordered_map<int,unordered_set<int>> g;
+        for(int i = 0; i < flights.size(); ++i)
+        {
+            g[i].insert(i);//可以待在原地不走
+            for(int j = 0; j < flights[i].size(); ++j)
+                if(flights[i][j])
+                    g[i].insert(j);
+        }//建图
+        int n = flights.size(), k = days.size(), maxdays = 0;
+        for(int i = 0; i < n; ++i)//初始化第0周
+        {
+            if(g[0].count(i))//0城市可以飞到i城市
+            {
+                dp[i][0] = days[i][0];
+                maxdays = max(maxdays, dp[i][0]);
+            }
+        }
+        for(int wk = 1; wk < k; ++wk)//遍历剩余的周
+        {
+            for(int i = 0; i < n; ++i)//遍历每个城市
+            {
+                if(dp[i][wk-1] == -1)//上周i城市的状态不存在
+                    continue;
+                for(int j = 0; j < n; ++j)//我要去 j 城市
+                {
+                    if(!g[i].count(j))//没有航班，不行
+                        continue;
+                    dp[j][wk] = max(dp[j][wk], dp[i][wk-1]+days[j][wk]);
+                    maxdays = max(maxdays, dp[j][wk]);
+                }
+            }
+        }
+        return maxdays;
     }
 };
 void printv(vector<int>& v)
@@ -132,11 +122,8 @@ void printv(vector<int>& v)
     cout << endl;
 }
 int main() {
-    vector<vector<int>> v6 ={{110,5,112,113,114},{210,211,5,213,214},{310,311,3,313,314},{410,411,412,5,414},{5,1,512,3,3},{610,4,1,613,614},{710,1,2,713,714},{810,1,2,1,1},{1,1,2,2,2},{4,1,4,4,1014}};
-    vector<vector<int>> v5 ={{3, 0, 1, 4, 2},
-                             {5, 6, 3, 2, 1},
-                             {1, 2, 0, 1, 5},{4, 1, 0, 1, 7},
-                             {1, 0, 3, 0, 5}};
+    vector<vector<int>> v6 ={{0,0,0},{0,0,0},{0,0,0}};
+    vector<vector<int>> v5 ={{1,1,1},{7,7,7},{7,7,7}};
     vector<double> v1 = {0.5,0.5,0.2};
     vector<int> v2 = {1,3,4,5};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
@@ -146,7 +133,7 @@ int main() {
     vector<string> st1 = {"0.700","2.800","4.900"};
 
     Solution s;
-    s.candyCrush(v6);
+    s.maxVacationDays(v6,v5);
 
 
 
