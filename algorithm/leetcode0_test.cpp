@@ -77,42 +77,61 @@ public:
 
 class Solution {
 public:
-    int maxVacationDays(vector<vector<int>>& flights, vector<vector<int>>& days) {
-        int dp[101][101];// 在 i 城市时， 是第 k 周， 最多休假天数
-        memset(dp, -1, sizeof(dp));
-        unordered_map<int,unordered_set<int>> g;
-        for(int i = 0; i < flights.size(); ++i)
+    int shortestDistance(vector<vector<int>>& grid) {
+        vector<vector<int>> dir = {{1,0},{0,1},{0,-1},{-1,0}};
+        vector<vector<int>> place;
+        int i, j, k, x, y, building_nums = 0, count, mindis = INT_MAX, dis, d, size;
+        int m = grid.size(), n = grid[0].size();
+        for(i = 0; i < m; i++)
+            for(j = 0; j < n; j++)
+                if(grid[i][j]==0)
+                    place.push_back({i,j});
+                else if(grid[i][j]==1)
+                    building_nums++;
+        for(auto& pos : place)
         {
-            g[i].insert(i);//可以待在原地不走
-            for(int j = 0; j < flights[i].size(); ++j)
-                if(flights[i][j])
-                    g[i].insert(j);
-        }//建图
-        int n = flights.size(), k = days.size(), maxdays = 0;
-        for(int i = 0; i < n; ++i)//初始化第0周
-        {
-            if(g[0].count(i))//0城市可以飞到i城市
+            count = 0;
+            dis = 0;
+            d = 0;
+            queue<vector<int>> q;
+            vector<vector<bool>> visited(m, vector<bool>(n,false));
+            q.push({pos[0], pos[1]});//x,y
+            visited[pos[0]][pos[1]] = true;
+            while(!q.empty())
             {
-                dp[i][0] = days[i][0];
-                maxdays = max(maxdays, dp[i][0]);
-            }
-        }
-        for(int wk = 1; wk < k; ++wk)//遍历剩余的周
-        {
-            for(int i = 0; i < n; ++i)//遍历每个城市
-            {
-                if(dp[i][wk-1] == -1)//上周i城市的状态不存在
-                    continue;
-                for(int j = 0; j < n; ++j)//我要去 j 城市
+                size = q.size();
+                d++;//层数
+                while(size--)
                 {
-                    if(!g[i].count(j))//没有航班，不行
-                        continue;
-                    dp[j][wk] = max(dp[j][wk], dp[i][wk-1]+days[j][wk]);
-                    maxdays = max(maxdays, dp[j][wk]);
+                    if(dis >= mindis)
+                        break;
+                    x = q.front()[0];
+                    y = q.front()[1];
+                    q.pop();
+                    for(k = 0; k < 4; ++k)
+                    {
+                        i = x + dir[k][0];
+                        j = y + dir[k][1];
+                        if(i>=0 && i<m && j>=0 && j<n && !visited[i][j] && grid[i][j]!=2)
+                        {
+                            visited[i][j] = true;
+                            if(grid[i][j]==1)
+                            {
+                                count++;
+                                dis += d;
+                            }
+                            else// (grid[i][j]==0)
+                                q.push({i,j});
+                        }
+                    }
                 }
             }
+            if(count == building_nums)
+            {
+                mindis = min(mindis, dis);
+            }
         }
-        return maxdays;
+        return mindis==INT_MAX ? -1 : mindis;
     }
 };
 void printv(vector<int>& v)
@@ -122,7 +141,7 @@ void printv(vector<int>& v)
     cout << endl;
 }
 int main() {
-    vector<vector<int>> v6 ={{0,0,0},{0,0,0},{0,0,0}};
+    vector<vector<int>> v6 ={{1,0,2,0,1},{0,0,0,0,0},{0,0,1,0,0}};
     vector<vector<int>> v5 ={{1,1,1},{7,7,7},{7,7,7}};
     vector<double> v1 = {0.5,0.5,0.2};
     vector<int> v2 = {1,3,4,5};
@@ -133,7 +152,7 @@ int main() {
     vector<string> st1 = {"0.700","2.800","4.900"};
 
     Solution s;
-    s.maxVacationDays(v6,v5);
+    s.shortestDistance(v6);
 
 
 
