@@ -1225,14 +1225,14 @@
 | [LeetCode 1536. 排布二进制网格的最少交换次数](https://michael.blog.csdn.net/article/details/107743307) |                                                              |
 | [LeetCode 1537. 最大得分（切片取出局部最大值）](https://michael.blog.csdn.net/article/details/107743421) |                                                              |
 | [LeetCode 1538. Guess the Majority in a Hidden Array](https://michael.blog.csdn.net/article/details/107874237) |                                                              |
-| [LeetCode 5468. 第 k 个缺失的正整数](https://michael.blog.csdn.net/article/details/107892779#1_LeetCode_5468__k__easy_15) |                                                              |
-| [LeetCode 5469. K 次操作转变字符串（计数）](https://michael.blog.csdn.net/article/details/107892779#2_LeetCode_5469_K__medium_76) |                                                              |
-| [LeetCode 5470. 平衡括号字符串的最少插入次数（栈括号匹配）](https://michael.blog.csdn.net/article/details/107892779#3_LeetCode_5470__medium_155) |                                                              |
-| [LeetCode 5485. 找出最长的超赞子字符串（状态压缩+哈希）](https://michael.blog.csdn.net/article/details/107892779#4_LeetCode_5485__hard_293) |                                                              |
-| [LeetCode 5483. 整理字符串（栈）](https://michael.blog.csdn.net/article/details/107894840#1_LeetCode_5483__easy_15) |                                                              |
-| [LeetCode 5484. 找出第 N 个二进制字符串中的第 K 位（递归）](https://michael.blog.csdn.net/article/details/107894840#2_LeetCode_5484__N__K__medium_89) |                                                              |
-| [LeetCode 5471. 和为目标值的最大数目不重叠非空子数组数目（哈希）](https://michael.blog.csdn.net/article/details/107894840#3_LeetCode_5471__medium_213) |                                                              |
-| [LeetCode 5486. 切棍子的最小成本（区间DP）](https://michael.blog.csdn.net/article/details/107894840#4_LeetCode_5486__hard_276) |                                                              |
+| [LeetCode 1539. 第 k 个缺失的正整数](https://michael.blog.csdn.net/article/details/107892779#1_LeetCode_5468__k__easy_15) |                                                              |
+| [LeetCode 1540. K 次操作转变字符串（计数）](https://michael.blog.csdn.net/article/details/107892779#2_LeetCode_5469_K__medium_76) |                                                              |
+| [LeetCode 1541. 平衡括号字符串的最少插入次数（栈括号匹配）](https://michael.blog.csdn.net/article/details/107892779#3_LeetCode_5470__medium_155) |                                                              |
+| [LeetCode 1542. 找出最长的超赞子字符串（状态压缩+哈希）](https://michael.blog.csdn.net/article/details/107892779#4_LeetCode_5485__hard_293) |                                                              |
+| [LeetCode 1544. 整理字符串（栈）](https://michael.blog.csdn.net/article/details/107894840#1_LeetCode_5483__easy_15) |                                                              |
+| [LeetCode 1545. 找出第 N 个二进制字符串中的第 K 位（递归）](https://michael.blog.csdn.net/article/details/107894840#2_LeetCode_5484__N__K__medium_89) |                                                              |
+| [LeetCode 1546. 和为目标值的最大数目不重叠非空子数组数目（哈希）](https://michael.blog.csdn.net/article/details/107894840#3_LeetCode_5471__medium_213) |                                                              |
+| [LeetCode 1547. 切棍子的最小成本（区间DP）](https://michael.blog.csdn.net/article/details/107894840#4_LeetCode_5486__hard_276) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
