@@ -362,6 +362,7 @@
 | [LeetCode 313. 超级丑数（动态规划）](https://michael.blog.csdn.net/article/details/105932017) |                                                              |
 | [LeetCode 314. 二叉树的垂直遍历（BFS/DFS）](https://michael.blog.csdn.net/article/details/107825446) |                                                              |
 | [LeetCode 315. 计算右侧小于当前元素的个数（二叉查找树&二分查找&归并排序逆序数总结）](https://blog.csdn.net/qq_21201267/article/details/102876496) |                                                              |
+| [LeetCode 317. 离建筑物最近的距离（逆向BFS）*](https://michael.blog.csdn.net/article/details/107923146) |                                                              |
 | [LeetCode 318. 最大单词长度乘积（位运算）](https://michael.blog.csdn.net/article/details/103231137) |                                                              |
 | [LeetCode 319. 灯泡开关（找规律）](https://michael.blog.csdn.net/article/details/103607028) |                                                              |
 | [LeetCode 320. 列举单词的全部缩写（回溯/位运算）](https://michael.blog.csdn.net/article/details/107859696) |                                                              |
