@@ -32,6 +32,17 @@ public:
 class Solution {
 public:
     int minBuildTime(vector<int>& blocks, int split) {
-    	
+    	priority_queue<int, vector<int>, greater<int>> q;//小顶堆
+    	for(int b : blocks) 
+    		q.push(b);
+    	while(q.size() > 1)
+    	{
+    		int a = q.top();
+    		q.pop();
+    		int b = q.top();
+    		q.pop();
+    		q.push(max(a,b)+split);
+    	}
+    	return q.top();
     }
 };
