@@ -1,76 +1,60 @@
+class trie
+{
+public:
+    trie* next[26] = {NULL};
+    int freq = 0;
+    void insert(string& s)
+    {
+        trie* cur = this;
+        for(int i = 0; i < s.size(); i++)
+        {
+            if(!cur->next[s[i]-'a'])
+                cur->next[s[i]-'a'] = new trie();
+            cur = cur->next[s[i]-'a'];
+            cur->freq++;
+        }
+    }
+};
 class Solution {
-    vector<string> ans;
-    unordered_map<string,int> m;
 public:
     vector<string> wordsAbbreviation(vector<string>& dict) {
-    	int i, j, k, n = dict.size();
-    	for(i = 0; i < n; ++i)
-    		m[dict[i]] = i;
-    	sort(dict.begin(), dict.end(),[&](auto a, auto b){
-    		if(a.front() == b.front())
-    			return a.back() < b.back();
-    		return a.front() < b.front();
-    	});
-    	ans.resize(n);
-    	string temp;
-    	for(i = 0, j = 0; i < n; ++i)
-    	{
-    		if(dict[i].size()<=3)
-    		{
-    			ans[m[dict[i]]] = dict[i];
-    			continue;
-    		}
-    		j = i+1;
-    		if(j==n || (j < n && ((dict[i][0]!=dict[j][0]) 
-    					|| dict[i].back()!=dict[j].back())))
-    		{
-    			temp = dict[i].front()+to_string(dict[i].size()-2)+dict[i].back();
-    			ans[m[dict[i]]] = temp.size()<dict[i].size() ? temp : dict[i];
-    		}
-    		else
-    		{
-    			unordered_map<string,int> map;
-    			map[dict[i]] = m[dict[i]];
-    			while(j < n && dict[i][0]==dict[j][0] && dict[i].back()==dict[j].back())
-    			{
-    				map[dict[j]] = m[dict[j]];
-    				j++,i++;
-    			}
-    			k = 0;
-    			while(!good(map,k))
-    				k++;
-    			for(auto it = map.begin(); it != map.end(); ++it)
-    			{
-    				string str = it->first;
-    				temp = str.substr(0,1+k)+to_string(str.size()-k-2)+str.back();
-    				ans[it->second] = temp.size()<str.size() ? temp : str;
-    			}
-    		}
-    	}
-        return ans;
-    }
-    bool good(unordered_map<string,int> &map, int k)
-    {
-    	string str;
-    	int id, n, frontn;
-    	unordered_set<string> s;
-    	for(auto it = map.begin(); it != map.end(); ++it)
-    	{
-    		id = it->second;
-    		str = it->first;
-    		n = str.size()-2-k;
-    		frontn = 1+k;
-            if(n)
-    		{
-                str = str.substr(0,1+k)+to_string(n)+str.back();
-    		    s.insert(str);
-            }
-            else
+        unordered_map<string, vector<string>> group;
+        unordered_map<string, int> w_id;
+        for(int i = 0; i < dict.size(); ++i)
+        {
+            string g = dict[i][0]+to_string(dict[i].size())+dict[i].back();
+            group[g].push_back(dict[i]);
+            //按首尾字符+长度信息给字符串分组
+            w_id[dict[i]] = i;
+        }
+        vector<string> ans(dict.size());
+        for(auto& strs : group)
+        {
+            trie* t = new trie(), *cur = t;
+            for(auto& s : strs.second)
+                t->insert(s);
+            for(auto& s : strs.second)
             {
-                map.erase(str);
-                ans[id] = str;
-            }
-    	}
-    	return s.size() == map.size();
+                cur = t;
+                string temp;//缩写
+                for(int i = 0; i < s.size(); i++)
+                {
+                    if(cur->next[s[i]-'a']->freq == 1)//自己独有的字符
+                    {
+                        int count = s.size()-i-2;
+                        if(count >= 2)
+                            temp += s[i]+to_string(count)+s.back();
+                        else
+                            temp = s;
+                        break;
+                    }
+                    else
+                        temp += s[i];
+                    cur = cur->next[s[i]-'a'];
+                }
+                ans[w_id[s]] = temp;
+            }   
+        }
+        return ans;
     }
 };
