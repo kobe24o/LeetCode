@@ -907,6 +907,7 @@
 | [LeetCode 1085. 最小元素各数位之和](https://blog.csdn.net/qq_21201267/article/details/107093866) |                                                              |
 | [LeetCode 1086. 前五科的均分（map + 优先队列）](https://blog.csdn.net/qq_21201267/article/details/107094524) |                                                              |
 | [LeetCode 1087. 字母切换（回溯）](https://michael.blog.csdn.net/article/details/107541722) |                                                              |
+| [LeetCode 1088. 易混淆数 II（回溯/BFS）](https://michael.blog.csdn.net/article/details/107966008) |                                                              |
 | [LeetCode 1089. 复写零](https://blog.csdn.net/qq_21201267/article/details/100809393) |                                                              |
 | [LeetCode 1090. 受标签影响的最大值（优先队列）](https://michael.blog.csdn.net/article/details/106679683) |                                                              |
 | [LeetCode 1091. 二进制矩阵中的最短路径（BFS）](https://michael.blog.csdn.net/article/details/106029651) |                                                              |
