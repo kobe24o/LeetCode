@@ -540,6 +540,7 @@
 | [LeetCode 524. 通过删除字母匹配到字典里最长单词（双指针）](https://michael.blog.csdn.net/article/details/106685806) |                                                              |
 | [LeetCode 525. 连续数组（前缀和+哈希）](https://michael.blog.csdn.net/article/details/106157791) |                                                              |
 | [LeetCode 526. 优美的排列（回溯）](https://michael.blog.csdn.net/article/details/103383968) |                                                              |
+| [LeetCode 527. 单词缩写（Trie树）](https://michael.blog.csdn.net/article/details/107951276) |                                                              |
 | [LeetCode 529. 扫雷游戏（广度优先搜索BFS/深度优先搜索DFS）](https://michael.blog.csdn.net/article/details/105960312) |                                                              |
 | [LeetCode 530. 二叉搜索树的最小绝对差（中序遍历）](https://michael.blog.csdn.net/article/details/102964835) |                                                              |
 | [LeetCode 531. 孤独像素 I](https://blog.csdn.net/qq_21201267/article/details/107126367) |                                                              |
