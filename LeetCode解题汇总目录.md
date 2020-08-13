@@ -399,6 +399,7 @@
 | [LeetCode 355. 设计推特（哈希map+set）](https://michael.blog.csdn.net/article/details/105480197) |                                                              |
 | [LeetCode 356. 直线镜像](https://michael.blog.csdn.net/article/details/107528027) |                                                              |
 | [LeetCode 357. 计算各个位数不同的数字个数（DP）](https://michael.blog.csdn.net/article/details/103844098) |                                                              |
+| [LeetCode 358. K 距离间隔重排字符串（贪心+优先队列）](https://michael.blog.csdn.net/article/details/107987014) |                                                              |
 | [LeetCode 359. 日志速率限制器（哈希map）](https://blog.csdn.net/qq_21201267/article/details/107091236) |                                                              |
 | [LeetCode 360. 有序转化数组（抛物线对称轴）](https://michael.blog.csdn.net/article/details/107499297) |                                                              |
 | [LeetCode 361. 轰炸敌人（前缀和DP）](https://michael.blog.csdn.net/article/details/107527864) |                                                              |
