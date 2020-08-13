@@ -338,6 +338,7 @@
 | [LeetCode 288. 单词的唯一缩写（哈希）](https://blog.csdn.net/qq_21201267/article/details/107092387) |                                                              |
 | [LeetCode 289. 生命游戏（位运算）](https://blog.csdn.net/qq_21201267/article/details/102787583) |                                                              |
 | [LeetCode 290. 单词规律（哈希）](https://michael.blog.csdn.net/article/details/103053073) |                                                              |
+| [LeetCode 291. 单词规律 II（回溯）](https://michael.blog.csdn.net/article/details/107973244) |                                                              |
 | [LeetCode 292. Nim 游戏](https://blog.csdn.net/qq_21201267/article/details/100178975) |                                                              |
 | [LeetCode 293. 翻转游戏](https://blog.csdn.net/qq_21201267/article/details/107094697) |                                                              |
 | [LeetCode 294. 翻转游戏 II（记忆化递归）](https://michael.blog.csdn.net/article/details/107571038) |                                                              |
