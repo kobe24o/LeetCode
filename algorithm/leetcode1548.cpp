@@ -1,93 +1,48 @@
-typedef pair<vector<int>, int> p_score;
-struct cmp
-{
-    bool operator()(const p_score& a, const p_score& b) const
-    {
-        return a.second > b.second;//得分小的路径优先
-    }
-};
-class Solution {//超时
-public:
-    vector<int> mostSimilar(int n, vector<vector<int>>& roads, vector<string>& names, vector<string>& targetPath) {
-        vector<vector<int>> g(n);
-        unordered_map<int, string> id_name;
-        for(int i = 0; i < n; ++i)
-            id_name[i] = names[i];
-        for(auto& r : roads)
-        {
-            g[r[0]].push_back(r[1]);
-            g[r[1]].push_back(r[0]);
-        }
-        int len = targetPath.size();
-        priority_queue<p_score, vector<p_score>, cmp> q;
-        for(int i = 0; i < n; ++i)
-        {
-            if(id_name[i] == targetPath[0])
-                q.push({{i}, 0});
-            else
-                q.push({{i}, 1});
-        }
-        vector<int> p;
-        while(!q.empty())
-        {
-            auto t = q.top();
-            q.pop();
-            p = t.first;
-            int scores = t.second;
-            int cur = p.back();
-            if(p.size()==len)
-                break;
-            for(int next : g[cur])
-            {
-                auto newp = p;
-                newp.push_back(next);
-                auto newscore = scores + (id_name[next]==targetPath[p.size()] ? 0 : 1);
-                q.push({newp, newscore});
-            }
-        }
-        return p;
-    }
-};
-
 class Solution {
 public:
     vector<int> mostSimilar(int n, vector<vector<int>>& roads, vector<string>& names, vector<string>& targetPath) {
         vector<vector<int>> g(n);
-        unordered_map<int, string> id_name;
-        for(int i = 0; i < n; ++i)
-            id_name[i] = names[i];
         for(auto& r : roads)
         {
             g[r[0]].push_back(r[1]);
             g[r[1]].push_back(r[0]);
         }
         int len = targetPath.size();
-        priority_queue<p_score, vector<p_score>, cmp> q;
-        for(int i = 0; i < n; ++i)
+        vector<vector<int>> dp(len, vector<int>(n, INT_MAX));
+        vector<vector<int>> path1(n);//n个城市作为起点的路线
+        vector<vector<int>> path2(n);//存储下一个状态的路径
+        for(int i = 0; i < n; ++i)//初始化
         {
-            if(id_name[i] == targetPath[0])
-                q.push({{i}, 0});
-            else
-                q.push({{i}, 1});
+            dp[0][i] = (names[i] != targetPath[0]);
+            path1[i].push_back(i);
         }
-        vector<int> p;
-        while(!q.empty())
+        int mindis = INT_MAX, minidx = -1;
+        for(int k = 1;  k < len; ++k)
         {
-            auto t = q.top();
-            q.pop();
-            p = t.first;
-            int scores = t.second;
-            int cur = p.back();
-            if(p.size()==len)
-                break;
-            for(int next : g[cur])
+            for(int i = 0; i < n; ++i)
             {
-                auto newp = p;
-                newp.push_back(next);
-                auto newscore = scores + (id_name[next]==targetPath[p.size()] ? 0 : 1);
-                q.push({newp, newscore});
+                if(dp[k-1][i] == INT_MAX)
+                    continue;
+                for(int j : g[i])
+                {
+                    if(dp[k][j] > dp[k-1][i]+(names[j]!=targetPath[k]))
+                    {
+                        dp[k][j] = dp[k-1][i]+(names[j]!=targetPath[k]);
+                        path2[j] = path1[i];
+                        path2[j].push_back(j);
+                    }
+                }
+            }
+            swap(path1, path2);
+        }
+        for(int i = 0; i < n; i++) 
+        {
+            if(mindis > dp[len-1][i])
+            {
+                mindis = dp[len-1][i];
+                minidx = i;
             }
         }
-        return p;
+        return path1[minidx];
     }
 };
