@@ -681,6 +681,7 @@
 | [LeetCode 723. 粉碎糖果（模拟）](https://michael.blog.csdn.net/article/details/107899231) |                                                              |
 | [LeetCode 724. 寻找数组的中心索引](https://michael.blog.csdn.net/article/details/105740610) |                                                              |
 | [LeetCode 725. 分隔链表](https://michael.blog.csdn.net/article/details/103883892) |                                                              |
+| [LeetCode 727. 最小窗口子序列（滑动窗口）](https://michael.blog.csdn.net/article/details/107994370) |                                                              |
 | [LeetCode 728. 自除数](https://blog.csdn.net/qq_21201267/article/details/100907175) |                                                              |
 | [LeetCode 733. 图像渲染（DFS/BFS）](https://blog.csdn.net/qq_21201267/article/details/101611121) |                                                              |
 | [LeetCode 734. 句子相似性（哈希）](https://blog.csdn.net/qq_21201267/article/details/107098723) |                                                              |
