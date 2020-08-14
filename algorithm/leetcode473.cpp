@@ -1,9 +1,9 @@
 class Solution {
 	bool found = false;
-	int part, sum, count = 0;
+	int part, count = 0;
 public:
     bool makesquare(vector<int>& nums) {
-    	sum = accumulate(nums.begin(), nums.end(), 0);
+    	int sum = accumulate(nums.begin(), nums.end(), 0);
     	if(sum%4) return false;
     	part = sum/4;
     	vector<bool> visited(nums.size(), false);
@@ -33,5 +33,10 @@ public:
     		s -= nums[i];
     		visited[i] = false;
     	}
+        if(s == 0)
+    	{
+            count--;
+            s = part;
+        }
     }
 };
