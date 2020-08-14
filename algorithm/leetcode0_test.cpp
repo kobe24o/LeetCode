@@ -76,62 +76,44 @@ public:
 };
 
 class Solution {
+    int found = -1;
+    int s1_4;
+    vector<int> parts;
 public:
-    int shortestDistance(vector<vector<int>>& grid) {
-        vector<vector<int>> dir = {{1,0},{0,1},{0,-1},{-1,0}};
-        vector<vector<int>> place;
-        int i, j, k, x, y, building_nums = 0, count, mindis = INT_MAX, dis, d, size;
-        int m = grid.size(), n = grid[0].size();
-        for(i = 0; i < m; i++)
-            for(j = 0; j < n; j++)
-                if(grid[i][j]==0)
-                    place.push_back({i,j});
-                else if(grid[i][j]==1)
-                    building_nums++;
-        for(auto& pos : place)
+    bool makesquare(vector<int>& nums) {
+        int sum = accumulate(nums.begin(), nums.end(), 0);
+        if(sum%4 || nums.size() < 4) return false;
+        s1_4 = sum/4;
+        parts = vector<int> (4,0);
+        // sort(nums.rbegin(), nums.rend());
+        if(nums[0] < s1_4 && nums[0]+nums.back() > s1_4)
+            return false;
+        bt(nums, 0);
+        return found==1;
+    }
+    void bt(vector<int>& nums, int idx)
+    {
+        if(found==0 || found ==1) return;
+        if(parts[0] > s1_4 || parts[1] > s1_4
+           || parts[2] > s1_4 || parts[3] > s1_4)
+            return;
+        if(idx==nums.size())
         {
-            count = 0;
-            dis = 0;
-            d = 0;
-            queue<vector<int>> q;
-            vector<vector<bool>> visited(m, vector<bool>(n,false));
-            q.push({pos[0], pos[1]});//x,y
-            visited[pos[0]][pos[1]] = true;
-            while(!q.empty())
-            {
-                size = q.size();
-                d++;//层数
-                while(size--)
-                {
-                    if(dis >= mindis)
-                        break;
-                    x = q.front()[0];
-                    y = q.front()[1];
-                    q.pop();
-                    for(k = 0; k < 4; ++k)
-                    {
-                        i = x + dir[k][0];
-                        j = y + dir[k][1];
-                        if(i>=0 && i<m && j>=0 && j<n && !visited[i][j] && grid[i][j]!=2)
-                        {
-                            visited[i][j] = true;
-                            if(grid[i][j]==1)
-                            {
-                                count++;
-                                dis += d;
-                            }
-                            else// (grid[i][j]==0)
-                                q.push({i,j});
-                        }
-                    }
-                }
-            }
-            if(count == building_nums)
-            {
-                mindis = min(mindis, dis);
-            }
+            if(parts[0]==parts[1] && parts[0]==parts[2] && parts[0]==parts[3])
+                found = 1;
+            return;
         }
-        return mindis==INT_MAX ? -1 : mindis;
+        if(nums[idx] > s1_4)
+        {
+            found = 0;
+            return;
+        }
+        for(int i = 0; i < 4; ++i)
+        {
+            parts[i] += nums[idx];
+            bt(nums, idx+1);
+            parts[i] -= nums[idx];
+        }
     }
 };
 void printv(vector<int>& v)
@@ -144,7 +126,7 @@ int main() {
     vector<vector<int>> v6 ={{1,0,2,0,1},{0,0,0,0,0},{0,0,1,0,0}};
     vector<vector<int>> v5 ={{1,1,1},{7,7,7},{7,7,7}};
     vector<double> v1 = {0.5,0.5,0.2};
-    vector<int> v2 = {1,3,4,5};
+    vector<int> v2 = {1,1,2,2,2};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
     vector<int> v4 = {1,3,2};
     string str = "eceeeefasdghjklqwertyuio";
@@ -152,7 +134,7 @@ int main() {
     vector<string> st1 = {"0.700","2.800","4.900"};
 
     Solution s;
-    s.shortestDistance(v6);
+    s.makesquare(v2);
 
 
 
