@@ -418,6 +418,7 @@
 | [LeetCode 372. 超级次方（快速幂）](https://michael.blog.csdn.net/article/details/106189267) |                                                              |
 | [LeetCode 373. 查找和最小的K对数字（自定义优先队列BFS）](https://blog.csdn.net/qq_21201267/article/details/106199628) |                                                              |
 | [LeetCode 374. 猜数字大小（二分查找）](https://michael.blog.csdn.net/article/details/105647930) |                                                              |
+| [LeetCode 375. 猜数字大小 II（DP）](https://michael.blog.csdn.net/article/details/108015839) |                                                              |
 | [LeetCode 376. 摆动序列（贪心 & 动态规划）](https://michael.blog.csdn.net/article/details/103848407) |                                                              |
 | [LeetCode 377. 组合总和 Ⅳ（DP）](https://blog.csdn.net/qq_21201267/article/details/101388583) |                                                              |
 | [LeetCode 378. 有序矩阵中第K小的元素（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102866438) |                                                              |
