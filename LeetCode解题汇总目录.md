@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.8.9
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2020.8.14
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/leetbook/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题（更新完毕）](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题（更新完毕）](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode代码能力测试CAT](https://blog.csdn.net/qq_21201267/article/details/104603021)。
 
@@ -8,7 +8,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
-**已解决 1480/1747** - **简单 511** **中等 795** **困难 174**
+**已解决 1500/1749** - **简单 511** **中等 800** **困难 189**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 
@@ -39,6 +39,8 @@
   竞赛积分1741，排名：全国1987，全球9027，竞赛最好成绩：前7.51% （记录于2020.7.23）
 
 - 2020.07.23 - 2020.07.29，AC +  50 道，共计1400道（371天）
+
+- 2020.07.29 - 2020.08.14，AC + 100道，共计1500道（387天）
 
 | 参赛记录                                                     |
 | :----------------------------------------------------------- |
@@ -500,6 +502,7 @@
 | [LeetCode 468. 验证IP地址](https://michael.blog.csdn.net/article/details/103672706) |                                                              |
 | [LeetCode 469. 凸多边形（向量叉积）](https://michael.blog.csdn.net/article/details/107866949) |                                                              |
 | [LeetCode 470. 用 Rand7() 实现 Rand10()（随机概率）](https://michael.blog.csdn.net/article/details/103560871) |                                                              |
+| [LeetCode 473. 火柴拼正方形（回溯）](https://michael.blog.csdn.net/article/details/108000169) |                                                              |
 | [LeetCode 474. 一和零（动态规划）](https://michael.blog.csdn.net/article/details/106256106) |                                                              |
 | [LeetCode 475. 供暖器（双指针&二分查找）](https://blog.csdn.net/qq_21201267/article/details/102989014) |                                                              |
 | [LeetCode 476. 数字的补数（移位 异或^）](https://blog.csdn.net/qq_21201267/article/details/100938652) |                                                              |
