@@ -949,6 +949,7 @@
 | [LeetCode 1137. 第 N 个泰波那契数](https://blog.csdn.net/qq_21201267/article/details/100671814) |                                                              |
 | [LeetCode 1138. 字母板上的路径](https://michael.blog.csdn.net/article/details/103899893) |                                                              |
 | [LeetCode 1139. 最大的以 1 为边界的正方形（DP）](https://michael.blog.csdn.net/article/details/105542359) |                                                              |
+| [LeetCode 1140. 石子游戏 II（DP）*](https://michael.blog.csdn.net/article/details/108034600) |                                                              |
 | [LeetCode 1143. 最长公共子序列（动态规划）](https://michael.blog.csdn.net/article/details/105789592) |                                                              |
 | [LeetCode 1144. 递减元素使数组呈锯齿状（奇偶分别遍历）](https://michael.blog.csdn.net/article/details/106599943) |                                                              |
 | [LeetCode 1145. 二叉树着色游戏（计算节点个数）](https://michael.blog.csdn.net/article/details/103115240) |                                                              |
