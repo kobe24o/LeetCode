@@ -1253,6 +1253,9 @@
 | [LeetCode 1546. 和为目标值的最大数目不重叠非空子数组数目（哈希）](https://michael.blog.csdn.net/article/details/107894840#3_LeetCode_5471__medium_213) |                                                              |
 | [LeetCode 1547. 切棍子的最小成本（区间DP）](https://michael.blog.csdn.net/article/details/107894840#4_LeetCode_5486__hard_276) |                                                              |
 | [LeetCode 1548. The Most Similar Path in a Graph（动态规划）](https://michael.blog.csdn.net/article/details/107983113) |                                                              |
+| [LeetCode 5185. 存在连续三个奇数的数组](https://michael.blog.csdn.net/article/details/108034781) |                                                              |
+| [LeetCode 5488. 使数组中所有元素相等的最小操作数（等差数列）](https://michael.blog.csdn.net/article/details/108034903) |                                                              |
+| [LeetCode 5489. 两球之间的磁力（极小极大化 二分查找）](https://michael.blog.csdn.net/article/details/108035117) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
