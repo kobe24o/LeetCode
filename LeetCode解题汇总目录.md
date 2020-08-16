@@ -1256,6 +1256,7 @@
 | [LeetCode 5185. 存在连续三个奇数的数组](https://michael.blog.csdn.net/article/details/108034781) |                                                              |
 | [LeetCode 5488. 使数组中所有元素相等的最小操作数（等差数列）](https://michael.blog.csdn.net/article/details/108034903) |                                                              |
 | [LeetCode 5489. 两球之间的磁力（极小极大化 二分查找）](https://michael.blog.csdn.net/article/details/108035117) |                                                              |
+| [LeetCode 5490. 吃掉 N 个橘子的最少天数（BFS）](https://michael.blog.csdn.net/article/details/108035625) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
