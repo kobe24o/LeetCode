@@ -1,31 +1,31 @@
 class Solution {
 public:
     int stoneGameII(vector<int>& piles) {
-    	int i, j, k, n = piles.size(), l, r, M;
-    	vector<int> presum(piles);
-    	for(i = 1; i < n; ++i)
-    		presum[i] = presum[i-1]+piles[i];
-    	if(piles.size() <= 2)
-    		return piles[n-1];
-    	vector<<vector<int>>> dp(n+1,vector<int>(n+1,0));
-    	//dp[i][j] 表示 剩余i堆石头，M为j时能得到的最多石头
-    	for(i = 1; i <= n; ++i)
-    	{
-    		for(j = i; j <= n; ++j)
-    		{
-    			dp[i][j] = presum[n-1]-presum[n-j-1];//可以全部拿走
-    		}
-    	}
-    	for(i = 1; i <= n; ++i)
-    	{
-    		for(j = 1; j <= i; ++j)
-    		{
-    			for(k = 1; k <= min(2*j, i); ++k)
-    			{
-    				dp[i][j] = max(dp[i][j], presum[n-1]-presum[n-k-1])
-    			}
-    		}
-    	}
-    	return 
+        int i, m, x, n = piles.size();
+        vector<int> presum(piles.size()+1, 0);
+        for(i = 1; i <= n; ++i)
+            presum[i] = presum[i-1]+piles[i-1];
+        if(piles.size() <= 2)
+            return piles[n-1];
+        vector<vector<int>> dp(n+1,vector<int>(n+1,0));
+        //dp[i][m] 表示 剩余i堆石头，M为m时能得到的最多石头
+        for(i = 0; i <= n; ++i)
+        {
+            for(m = i; m <= n; ++m)
+            {
+                dp[i][m] = presum[n]-presum[n-i];//可以全部拿走
+            }
+        }
+        for(i = 1; i <= n; ++i)
+        {
+            for(m = 1; m <= n; ++m)
+            {
+                for(x = 1; x <= min(2*m, i); ++x)
+                {
+                    dp[i][m] = max(dp[i][m], presum[n]-presum[n-i]-dp[i-x][min(n,max(x, m))]);
+                }
+            }
+        }
+        return dp[n][1];
     }
 };
