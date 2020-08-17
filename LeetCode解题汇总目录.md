@@ -817,6 +817,7 @@
 | [LeetCode 934. 最短的桥（2次BFS）](https://michael.blog.csdn.net/article/details/103938366) |                                                              |
 | [LeetCode 937. 重新排列日志文件（自定义排序）](https://blog.csdn.net/qq_21201267/article/details/103171169) |                                                              |
 | [LeetCode 938. 二叉搜索树的范围和（二叉树遍历+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100609270) |                                                              |
+| [LeetCode 939. 最小面积矩形（哈希）](https://michael.blog.csdn.net/article/details/108053430) |                                                              |
 | [LeetCode 941. 有效的山脉数组](https://michael.blog.csdn.net/article/details/105804816) |                                                              |
 | [LeetCode 942. 增减字符串匹配](https://blog.csdn.net/qq_21201267/article/details/100907468) |                                                              |
 | [LeetCode 944. 删列造序](https://blog.csdn.net/qq_21201267/article/details/100675384) |                                                              |
@@ -1253,10 +1254,10 @@
 | [LeetCode 1546. 和为目标值的最大数目不重叠非空子数组数目（哈希）](https://michael.blog.csdn.net/article/details/107894840#3_LeetCode_5471__medium_213) |                                                              |
 | [LeetCode 1547. 切棍子的最小成本（区间DP）](https://michael.blog.csdn.net/article/details/107894840#4_LeetCode_5486__hard_276) |                                                              |
 | [LeetCode 1548. The Most Similar Path in a Graph（动态规划）](https://michael.blog.csdn.net/article/details/107983113) |                                                              |
-| [LeetCode 5185. 存在连续三个奇数的数组](https://michael.blog.csdn.net/article/details/108034781) |                                                              |
-| [LeetCode 5488. 使数组中所有元素相等的最小操作数（等差数列）](https://michael.blog.csdn.net/article/details/108034903) |                                                              |
-| [LeetCode 5489. 两球之间的磁力（极小极大化 二分查找）](https://michael.blog.csdn.net/article/details/108035117) |                                                              |
-| [LeetCode 5490. 吃掉 N 个橘子的最少天数（BFS）](https://michael.blog.csdn.net/article/details/108035625) |                                                              |
+| [LeetCode 1550. 存在连续三个奇数的数组](https://michael.blog.csdn.net/article/details/108034781) |                                                              |
+| [LeetCode 1551. 使数组中所有元素相等的最小操作数（等差数列）](https://michael.blog.csdn.net/article/details/108034903) |                                                              |
+| [LeetCode 1552. 两球之间的磁力（极小极大化 二分查找）](https://michael.blog.csdn.net/article/details/108035117) |                                                              |
+| [LeetCode 1553. 吃掉 N 个橘子的最少天数（BFS）](https://michael.blog.csdn.net/article/details/108035625) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
