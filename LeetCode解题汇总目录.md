@@ -634,6 +634,7 @@
 | [LeetCode 656. 金币路径（DP）](https://michael.blog.csdn.net/article/details/107968343) |                                                              |
 | [LeetCode 657. 机器人能否返回原点](https://blog.csdn.net/qq_21201267/article/details/100632672) |                                                              |
 | [LeetCode 658. 找到 K 个最接近的元素（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100697216) |                                                              |
+| [LeetCode 659. 分割数组为连续子序列（哈希）](https://michael.blog.csdn.net/article/details/108059351) |                                                              |
 | [LeetCode 660. 移除 9（9进制）](https://michael.blog.csdn.net/article/details/107529684) |                                                              |
 | [LeetCode 661. 图片平滑器](https://michael.blog.csdn.net/article/details/105720542) |                                                              |
 | [LeetCode 662. 二叉树最大宽度（递归）](https://michael.blog.csdn.net/article/details/106249487) |                                                              |
