@@ -1233,6 +1233,7 @@
 | [LeetCode 1516. Move Sub-Tree of N-Ary Tree（DFS）](https://michael.blog.csdn.net/article/details/107420745) |                                                              |
 | [LeetCode 1518. 换酒问题](https://michael.blog.csdn.net/article/details/107443611#1_LeetCode_5464__easy_15) |                                                              |
 | [LeetCode 1519. 子树中标签相同的节点数（DFS）](https://michael.blog.csdn.net/article/details/107443611#2_LeetCode_5465__medium_91) |                                                              |
+| [LeetCode 1520. 最多的不重叠子字符串（贪心）](https://michael.blog.csdn.net/article/details/108152559) |                                                              |
 | [LeetCode 1522. Diameter of N-Ary Tree（递归）](https://michael.blog.csdn.net/article/details/107552746) |                                                              |
 | [LeetCode 1523. 在区间范围内统计奇数数目](https://editor.csdn.net/md/?articleId=107587115#1_LeetCode_5456__easy_14) |                                                              |
 | [LeetCode 1524. 和为奇数的子数组数目](https://editor.csdn.net/md/?articleId=107587115#2_LeetCode_5457__medium_67) |                                                              |
