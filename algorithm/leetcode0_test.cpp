@@ -76,43 +76,57 @@ public:
 };
 
 class Solution {
-    int found = -1;
-    int s1_4;
-    vector<int> parts;
+    vector<vector<int>> dir = {{1,0},{0,1},{-1,0},{0,-1}};
+    bool found = false;
+    int m, n;
 public:
-    bool makesquare(vector<int>& nums) {
-        int sum = accumulate(nums.begin(), nums.end(), 0);
-        if(sum%4 || nums.size() < 4) return false;
-        s1_4 = sum/4;
-        parts = vector<int> (4,0);
-        // sort(nums.rbegin(), nums.rend());
-        if(nums[0] < s1_4 && nums[0]+nums.back() > s1_4)
-            return false;
-        bt(nums, 0);
-        return found==1;
+    bool containsCycle(vector<vector<char>>& grid) {
+        m = grid.size(), n = grid[0].size();
+        int i, j, k, x, y;
+        vector<vector<bool>> visited(m, vector<bool>(n, false));
+        for(i = 0; i < m; ++i)
+        {
+            for(j = 0; j < n; ++j)
+            {
+                if(found) return found;
+                if(visited[i][j])
+                    continue;
+                vector<vector<int>> step(m, vector<int>(n, 0));
+                visited[i][j] = true;
+                step[i][j] = 1;
+                dfs(i,j,i,j,step,visited,grid);
+            }
+        }
+        return found;
     }
-    void bt(vector<int>& nums, int idx)
+    void dfs(int sx, int sy, int i, int j,vector<vector<int>> &step, vector<vector<bool>> &visited, vector<vector<char>>& grid)
     {
-        if(found==0 || found ==1) return;
-        if(parts[0] > s1_4 || parts[1] > s1_4
-           || parts[2] > s1_4 || parts[3] > s1_4)
-            return;
-        if(idx==nums.size())
+        int x,y,k;
+        for(k = 0; k < 4; k++)
         {
-            if(parts[0]==parts[1] && parts[0]==parts[2] && parts[0]==parts[3])
-                found = 1;
-            return;
-        }
-        if(nums[idx] > s1_4)
-        {
-            found = 0;
-            return;
-        }
-        for(int i = 0; i < 4; ++i)
-        {
-            parts[i] += nums[idx];
-            bt(nums, idx+1);
-            parts[i] -= nums[idx];
+            x = i + dir[k][0];
+            y = j + dir[k][1];
+            if(x >= 0 && x < m && y >= 0 && y < n)
+            {
+                if(grid[x][y] != grid[i][j])
+                    continue;
+                if(!visited[x][y])
+                {
+                    visited[x][y] = true;
+                    step[x][y] = step[i][j]+1;
+                    dfs(sx, sy, x, y, step, visited, grid);
+                    visited[x][y] = false;
+                    step[x][y] = step[i][j]-1;
+                }
+                else
+                {
+                    if(step[i][j]-step[x][y]+1 >= 4)
+                    {
+                        found = true;
+                        return;
+                    }
+                }
+            }
         }
     }
 };
@@ -123,7 +137,7 @@ void printv(vector<int>& v)
     cout << endl;
 }
 int main() {
-    vector<vector<int>> v6 ={{1,0,2,0,1},{0,0,0,0,0},{0,0,1,0,0}};
+    vector<vector<char>> v6 ={{'d','b','b'},{'c','a','a'},{'b','a','c'},{'c','c','c'},{'d','d','a'}};
     vector<vector<int>> v5 ={{1,1,1},{7,7,7},{7,7,7}};
     vector<double> v1 = {0.5,0.5,0.2};
     vector<int> v2 = {1,1,2,2,2};
@@ -134,7 +148,7 @@ int main() {
     vector<string> st1 = {"0.700","2.800","4.900"};
 
     Solution s;
-    s.makesquare(v2);
+    s.containsCycle(v6);
 
 
 
