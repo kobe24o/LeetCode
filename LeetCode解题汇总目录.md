@@ -8,7 +8,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
-**已解决 1500/1749** - **简单 511** **中等 800** **困难 189**
+**已解决 1520/1763** - **简单 514** **中等 812** **困难 194**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 
@@ -1270,6 +1270,7 @@
 | [LeetCode 5495. 圆形赛道上经过次数最多的扇区](https://michael.blog.csdn.net/article/details/108181426) |                                                              |
 | [LeetCode 5496. 你可以获得的最大硬币数目](https://michael.blog.csdn.net/article/details/108183189) |                                                              |
 | [LeetCode 5497. 查找大小为 M 的最新分组](https://michael.blog.csdn.net/article/details/108183460) |                                                              |
+| [LeetCode 5498. 石子游戏 V（DP）](https://michael.blog.csdn.net/article/details/108185564) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
