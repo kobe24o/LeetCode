@@ -1268,6 +1268,8 @@
 | [LeetCode 5481. 得到目标数组的最少函数调用次数](https://michael.blog.csdn.net/article/details/108177289#3_LeetCode_5481__medium_146) |                                                              |
 | [LeetCode 5482. 二维网格图中探测环（DFS）](https://michael.blog.csdn.net/article/details/108177289#4_LeetCode_5482__hard_234) |                                                              |
 | [LeetCode 5495. 圆形赛道上经过次数最多的扇区](https://michael.blog.csdn.net/article/details/108181426) |                                                              |
+| [LeetCode 5496. 你可以获得的最大硬币数目](https://michael.blog.csdn.net/article/details/108183189) |                                                              |
+| [LeetCode 5497. 查找大小为 M 的最新分组](https://michael.blog.csdn.net/article/details/108183460) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
