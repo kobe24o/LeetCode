@@ -69,6 +69,7 @@
 | [LeetCode 第 199 场周赛（757/5231，前14.5%）](https://michael.blog.csdn.net/article/details/107591466) |
 | [LeetCode 第 32 场双周赛（983/2957，前33.2%）](https://michael.blog.csdn.net/article/details/107892779) |
 | [LeetCode 第 201 场周赛（304/5614，前5.42%）](https://michael.blog.csdn.net/article/details/107894840) |
+| [LeetCode 第 33 场双周赛（511/3304，前15.5%，第4次全部通过🚀）](https://michael.blog.csdn.net/article/details/108177289) |
 
 ​          
 
@@ -1262,6 +1263,10 @@
 | [LeetCode 1551. 使数组中所有元素相等的最小操作数（等差数列）](https://michael.blog.csdn.net/article/details/108034903) |                                                              |
 | [LeetCode 1552. 两球之间的磁力（极小极大化 二分查找）](https://michael.blog.csdn.net/article/details/108035117) |                                                              |
 | [LeetCode 1553. 吃掉 N 个橘子的最少天数（BFS）](https://michael.blog.csdn.net/article/details/108035625) |                                                              |
+| [LeetCode 5479. 千位分隔数](https://michael.blog.csdn.net/article/details/108177289#1_LeetCode_5479__easy_15) |                                                              |
+| [LeetCode 5480. 可以到达所有点的最少点数目（图的入度）](https://michael.blog.csdn.net/article/details/108177289#2_LeetCode_5480__medium_76) |                                                              |
+| [LeetCode 5481. 得到目标数组的最少函数调用次数](https://michael.blog.csdn.net/article/details/108177289#3_LeetCode_5481__medium_146) |                                                              |
+| [LeetCode 5482. 二维网格图中探测环（DFS）](https://michael.blog.csdn.net/article/details/108177289#4_LeetCode_5482__hard_234) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
