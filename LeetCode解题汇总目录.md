@@ -268,6 +268,7 @@
 | [LeetCode 211. 添加与搜索单词 - 数据结构设计（Trie树）](https://blog.csdn.net/qq_21201267/article/details/102576715) |                                                              |
 | [LeetCode 212. 单词搜索 II（Trie树+DFS）](https://blog.csdn.net/qq_21201267/article/details/102596672) |                                                              |
 | [LeetCode 213. 打家劫舍 II（DP）](https://blog.csdn.net/qq_21201267/article/details/102690431) |                                                              |
+| [LeetCode 214. 最短回文串（字符串哈希）](https://michael.blog.csdn.net/article/details/108301067) |                                                              |
 | [LeetCode 215. 数组中的第K个最大元素（快速排序）](https://blog.csdn.net/qq_21201267/article/details/102558253) |                                                              |
 | [LeetCode 216. 组合总和 III（排列组合 回溯）](https://blog.csdn.net/qq_21201267/article/details/101369537) |                                                              |
 | [LeetCode 217. 存在重复元素（哈希）](https://blog.csdn.net/qq_21201267/article/details/100587491) |                                                              |
