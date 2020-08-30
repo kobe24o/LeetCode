@@ -1274,6 +1274,7 @@
 | [LeetCode 1563. 石子游戏 V（DP）](https://michael.blog.csdn.net/article/details/108185564) |                                                              |
 | [LeetCode 5499. 重复至少 K 次且长度为 M 的模式](https://michael.blog.csdn.net/article/details/108306022) |                                                              |
 | [LeetCode 5500. 乘积为正数的最长子数组长度](https://michael.blog.csdn.net/article/details/108306529) |                                                              |
+| [LeetCode 5501. 使陆地分离的最少天数（DFS）](https://michael.blog.csdn.net/article/details/108307844) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
