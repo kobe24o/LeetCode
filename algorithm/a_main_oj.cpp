@@ -15,48 +15,41 @@ using namespace std;
 
 class Solution {
 public:
-    /**
-     * @param heights: the heights of buildings.
-     * @param k: the vision.
-     * @param x: the energy to spend of the first action.
-     * @param y: the energy to spend of the second action.
-     * @return: the minimal energy to spend.
-     */
-    long long shuttleInBuildings(vector<int> &heights, int k, int x, int y) {
-        // write your code here.
-        int n = heights.size(), i, j, K;
-        stack<int> s;
-        vector<int> rightTall(n, -1);
-        for(int i = n-1; i >= 0; i--)
-        {
-            while(!s.empty() && heights[s.top()] <= heights[i])
-                s.pop();
-            if(!s.empty() && s.top()-i <= k)
-                rightTall[i] = s.top();
-            s.push(i);
-        }
-        vector<long long> dp(n, LONG_LONG_MAX);
-        dp[0] = 0;
-        for(int i = 0; i < n; i++)
-        {
-            if(dp[i] == LONG_LONG_MAX)
-                continue;
-            if(i+1 < n)
-                dp[i+1] = min(dp[i+1], dp[i]+y);
-            if(i+2 < n)
-                dp[i+2] = min(dp[i+2], dp[i]+y);
-            if(rightTall[i] != -1)
-                dp[rightTall[i]] = min(dp[rightTall[i]], dp[i]+x);
-        }
-        return dp[n-1];
+    int getMaxLen(vector<int>& nums) {
+    	int maxlen = 0, i, n = nums.size(), p = 1;
+    	int posneg[2] = {-1, -1};//记录第一次正或者负出现的位置
+    	for(int i = 0; i < n; ++i)
+    	{
+    		if(nums[i] > 0)
+    		{
+    			if(posneg[0] == -1)//第一次正数
+    				posneg[0] = i;
+    		}
+    		else if(nums[i] < 0)
+    		{
+    			p *= -1;//乘积变号
+    			if(posneg[1] == -1)//第一次负数
+    				posneg[1] = i;
+    		}
+    		else//乘积为0
+    		{
+    			posneg[0] = posneg[1] = -1;
+                p = 1;
+    		}
+			if(p > 0)
+				maxlen = max(maxlen, i-posneg[0]+1);
+			else if(p < 0)
+				maxlen = max(maxlen, i-posneg[1]);
+    	}
+    	return maxlen;
     }
 };
 int main()
 {
-    vector<int> l = {1,5,4,3,3,5};
+    vector<int> l = {-1,-2,-3,0,1};
     Solution s;
     string str = "bacbdab";
-    cout << s.shuttleInBuildings(l, 3,10, 6)<<endl;
+    cout << s.getMaxLen(l) <<endl;
     //读出二进制文件中的内容并输出到显示器6
     system("pause");
     return 0;
