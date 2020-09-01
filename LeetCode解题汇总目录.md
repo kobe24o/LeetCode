@@ -8,7 +8,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
-**已解决 1520/1763** - **简单 514** **中等 812** **困难 194**
+**已解决 1526/1769** - **简单 513** **中等 818** **困难 195**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 
@@ -80,7 +80,7 @@
 | [LeetCode 3. 无重复字符的最长子串（滑动窗口+哈希）](https://blog.csdn.net/qq_21201267/article/details/102333616) | [LeetCode 丑数 系列（DP/二分）](https://blog.csdn.net/qq_21201267/article/details/103738537) |
 | [LeetCode 4. 寻找两个有序数组的中位数（二分查找，难）](https://blog.csdn.net/qq_21201267/article/details/102828858) | [LeetCode 跳跃游戏 系列（贪心/BFS/DP）](https://blog.csdn.net/qq_21201267/article/details/100899698) |
 | [LeetCode 5. 最长回文子串（动态规划）](https://michael.blog.csdn.net/article/details/105348936) | [极小极大化 就用 二分查找](https://blog.csdn.net/qq_21201267/article/details/107534172) |
-| [LeetCode 6. Z 字形变换（找规律）](https://blog.csdn.net/qq_21201267/article/details/104782401) |                                                              |
+| [LeetCode 6. Z 字形变换（找规律）](https://blog.csdn.net/qq_21201267/article/details/104782401) | [博弈DP、石子游戏等](https://michael.blog.csdn.net/article/details/108337865) |
 | [LeetCode 7. 整数反转](https://blog.csdn.net/qq_21201267/article/details/100583336) |                                                              |
 | [LeetCode 8. 字符串转换整数 (atoi)](https://blog.csdn.net/qq_21201267/article/details/100583821) |                                                              |
 | [LeetCode 9. 回文数](https://blog.csdn.net/qq_21201267/article/details/100168231) |                                                              |
@@ -516,6 +516,7 @@
 | [LeetCode 482. 密钥格式化](https://blog.csdn.net/qq_21201267/article/details/102888974) |                                                              |
 | [LeetCode 484. 寻找排列（找规律+贪心）](https://blog.csdn.net/qq_21201267/article/details/107168148) |                                                              |
 | [LeetCode 485. 最大连续1的个数](https://blog.csdn.net/qq_21201267/article/details/100855102) |                                                              |
+| [LeetCode 486. 预测赢家（博弈DP）](https://michael.blog.csdn.net/article/details/108337865) |                                                              |
 | [LeetCode 487. 最大连续1的个数 II（滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/107194857) |                                                              |
 | [LeetCode 489. 扫地机器人（DFS）](https://michael.blog.csdn.net/article/details/107581006) |                                                              |
 | [LeetCode 490. 迷宫（BFS/DFS）](https://blog.csdn.net/qq_21201267/article/details/107215680) |                                                              |
