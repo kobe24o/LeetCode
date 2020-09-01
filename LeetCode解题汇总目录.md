@@ -1272,10 +1272,10 @@
 | [LeetCode 1561. 你可以获得的最大硬币数目](https://michael.blog.csdn.net/article/details/108183189) |                                                              |
 | [LeetCode 1562. 查找大小为 M 的最新分组](https://michael.blog.csdn.net/article/details/108183460) |                                                              |
 | [LeetCode 1563. 石子游戏 V（DP）](https://michael.blog.csdn.net/article/details/108185564) |                                                              |
-| [LeetCode 5499. 重复至少 K 次且长度为 M 的模式](https://michael.blog.csdn.net/article/details/108306022) |                                                              |
-| [LeetCode 5500. 乘积为正数的最长子数组长度](https://michael.blog.csdn.net/article/details/108306529) |                                                              |
-| [LeetCode 5501. 使陆地分离的最少天数（DFS）](https://michael.blog.csdn.net/article/details/108307844) |                                                              |
-| [LeetCode 5502. 将子数组重新排序得到同一个二叉查找树的方案数（DP）](https://michael.blog.csdn.net/article/details/108309600) |                                                              |
+| [LeetCode 1566. 重复至少 K 次且长度为 M 的模式](https://michael.blog.csdn.net/article/details/108306022) |                                                              |
+| [LeetCode 1567. 乘积为正数的最长子数组长度](https://michael.blog.csdn.net/article/details/108306529) |                                                              |
+| [LeetCode 1568. 使陆地分离的最少天数（DFS）](https://michael.blog.csdn.net/article/details/108307844) |                                                              |
+| [LeetCode 1569. 将子数组重新排序得到同一个二叉查找树的方案数（DP）](https://michael.blog.csdn.net/article/details/108309600) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
