@@ -893,6 +893,7 @@
 | [LeetCode 1035. 不相交的线（最长公共子序列DP）](https://michael.blog.csdn.net/article/details/107995224) |                                                              |
 | [LeetCode 1037. 有效的回旋镖](https://michael.blog.csdn.net/article/details/105805499) |                                                              |
 | [LeetCode 1038. 从二叉搜索树到更大和树（逆中序-右根左-降序）](https://blog.csdn.net/qq_21201267/article/details/100798009) |                                                              |
+| [LeetCode 1039. 多边形三角剖分的最低得分（区间DP）](https://michael.blog.csdn.net/article/details/108408580) |                                                              |
 | [LeetCode 1041. 困于环中的机器人](https://michael.blog.csdn.net/article/details/108401029) |                                                              |
 | [LeetCode 1042. 不邻接植花（图的数据结构）](https://michael.blog.csdn.net/article/details/103076199) |                                                              |
 | [LeetCode 1043. 分隔数组以得到最大和（DP）](https://michael.blog.csdn.net/article/details/103285753) |                                                              |
