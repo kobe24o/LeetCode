@@ -70,6 +70,7 @@
 | [LeetCode 第 32 场双周赛（983/2957，前33.2%）](https://michael.blog.csdn.net/article/details/107892779) |
 | [LeetCode 第 201 场周赛（304/5614，前5.42%）](https://michael.blog.csdn.net/article/details/107894840) |
 | [LeetCode 第 33 场双周赛（511/3304，前15.5%，第4次全部通过🚀）](https://michael.blog.csdn.net/article/details/108177289) |
+| [LeetCode 第 34 场双周赛（385/2842，前13.5%）](https://michael.blog.csdn.net/article/details/108426333) |
 
 ​          
 
@@ -1280,6 +1281,9 @@
 | [LeetCode 1567. 乘积为正数的最长子数组长度](https://michael.blog.csdn.net/article/details/108306529) |                                                              |
 | [LeetCode 1568. 使陆地分离的最少天数（DFS）](https://michael.blog.csdn.net/article/details/108307844) |                                                              |
 | [LeetCode 1569. 将子数组重新排序得到同一个二叉查找树的方案数（DP）](https://michael.blog.csdn.net/article/details/108309600) |                                                              |
+| [LeetCode 5491. 矩阵对角线元素的和 easy](https://michael.blog.csdn.net/article/details/108426333#1_LeetCode_5491__easy_14) |                                                              |
+| [LeetCode 5492. 分割字符串的方案数 medium](https://michael.blog.csdn.net/article/details/108426333#2_LeetCode_5492__medium_76) |                                                              |
+| [LeetCode 5493. 删除最短的子数组使剩余数组有序 medium](https://michael.blog.csdn.net/article/details/108426333#3_LeetCode_5493__medium_164) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
