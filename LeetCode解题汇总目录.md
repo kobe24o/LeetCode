@@ -1288,6 +1288,7 @@
 | [LeetCode 5507. 替换所有的问号](https://michael.blog.csdn.net/article/details/108430295) |                                                              |
 | [LeetCode 5508. 数的平方等于两数乘积的方法数（双指针）](https://michael.blog.csdn.net/article/details/108430344) |                                                              |
 | [LeetCode 5509. 避免重复字母的最小删除成本](https://michael.blog.csdn.net/article/details/108430423) |                                                              |
+| [LeetCode 5510. 保证图可完全遍历（并查集）](https://michael.blog.csdn.net/article/details/108438962) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
