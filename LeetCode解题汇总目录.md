@@ -1281,9 +1281,10 @@
 | [LeetCode 1567. 乘积为正数的最长子数组长度](https://michael.blog.csdn.net/article/details/108306529) |                                                              |
 | [LeetCode 1568. 使陆地分离的最少天数（DFS）](https://michael.blog.csdn.net/article/details/108307844) |                                                              |
 | [LeetCode 1569. 将子数组重新排序得到同一个二叉查找树的方案数（DP）](https://michael.blog.csdn.net/article/details/108309600) |                                                              |
-| [LeetCode 5491. 矩阵对角线元素的和 easy](https://michael.blog.csdn.net/article/details/108426333#1_LeetCode_5491__easy_14) |                                                              |
-| [LeetCode 5492. 分割字符串的方案数 medium](https://michael.blog.csdn.net/article/details/108426333#2_LeetCode_5492__medium_76) |                                                              |
-| [LeetCode 5493. 删除最短的子数组使剩余数组有序 medium](https://michael.blog.csdn.net/article/details/108426333#3_LeetCode_5493__medium_164) |                                                              |
+| [LeetCode 5491. 矩阵对角线元素的和](https://michael.blog.csdn.net/article/details/108426333#1_LeetCode_5491__easy_14) |                                                              |
+| [LeetCode 5492. 分割字符串的方案数](https://michael.blog.csdn.net/article/details/108426333#2_LeetCode_5492__medium_76) |                                                              |
+| [LeetCode 5493. 删除最短的子数组使剩余数组有序](https://michael.blog.csdn.net/article/details/108426333#3_LeetCode_5493__medium_164) |                                                              |
+| [LeetCode 5494. 统计所有可行路径（DP）](https://michael.blog.csdn.net/article/details/108426333#4_LeetCode_5494__hard_254) |                                                              |
 | [LeetCode 5507. 替换所有的问号](https://michael.blog.csdn.net/article/details/108430295) |                                                              |
 | [LeetCode 5508. 数的平方等于两数乘积的方法数（双指针）](https://michael.blog.csdn.net/article/details/108430344) |                                                              |
 | [LeetCode 5509. 避免重复字母的最小删除成本](https://michael.blog.csdn.net/article/details/108430423) |                                                              |

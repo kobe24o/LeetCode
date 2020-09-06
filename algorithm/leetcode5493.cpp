@@ -1,8 +1,7 @@
 class Solution {
 public:
     int findLengthOfShortestSubarray(vector<int>& arr) {
-        int n = arr.size(), i, l = -1, r = -1;
-        if(n == 1) return 0;
+        int n = arr.size(), i, j, l = -1, r = -1;
         for(i = 1; i < n; ++i) 
         {
             if(arr[i-1] > arr[i])
@@ -21,23 +20,18 @@ public:
                 break;
             }
         }
-        int L = l, R = r;
-        while(l>=0 && r < n)
+        int ans = min(n-l-1, r);//删除右侧的、或者删除左侧的
+        i = 0, j = r;
+        while(i <= l && j < n)
         {
-            if(arr[l] > arr[r])
-                l--;
+            if(arr[i] <= arr[j])
+            {
+                ans = min(ans, j-i-1);
+                i++;
+            }
             else
-                break;
+                j++;
         }
-        int ans = r-l-1;
-        l = L, r = R;
-        while(l>=0 && r < n)
-        {
-            if(arr[l] > arr[r])
-                r++;
-            else
-                break;
-        }
-        return min(ans, r-l-1);
+        return ans;
     }
 };
