@@ -1284,6 +1284,9 @@
 | [LeetCode 5491. 矩阵对角线元素的和 easy](https://michael.blog.csdn.net/article/details/108426333#1_LeetCode_5491__easy_14) |                                                              |
 | [LeetCode 5492. 分割字符串的方案数 medium](https://michael.blog.csdn.net/article/details/108426333#2_LeetCode_5492__medium_76) |                                                              |
 | [LeetCode 5493. 删除最短的子数组使剩余数组有序 medium](https://michael.blog.csdn.net/article/details/108426333#3_LeetCode_5493__medium_164) |                                                              |
+| [LeetCode 5507. 替换所有的问号](https://michael.blog.csdn.net/article/details/108430295) |                                                              |
+| [LeetCode 5508. 数的平方等于两数乘积的方法数（双指针）](https://michael.blog.csdn.net/article/details/108430344) |                                                              |
+| [LeetCode 5509. 避免重复字母的最小删除成本](https://michael.blog.csdn.net/article/details/108430423) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 
