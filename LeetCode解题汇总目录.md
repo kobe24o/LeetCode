@@ -901,6 +901,7 @@
 | [LeetCode 1043. 分隔数组以得到最大和（DP）](https://michael.blog.csdn.net/article/details/103285753) |                                                              |
 | [LeetCode 1046. 最后一块石头的重量（priority_queue 堆）](https://blog.csdn.net/qq_21201267/article/details/101215370) |                                                              |
 | [LeetCode 1047. 删除字符串中的所有相邻重复项（栈）](https://blog.csdn.net/qq_21201267/article/details/101083067) |                                                              |
+| [LeetCode 1048. 最长字符串链（哈希+DP）](https://michael.blog.csdn.net/article/details/108518244) |                                                              |
 | [LeetCode 1049. 最后一块石头的重量 II（DP）](https://michael.blog.csdn.net/article/details/106980126) |                                                              |
 | [LeetCode 1051. 高度检查器](https://blog.csdn.net/qq_21201267/article/details/100635273) |                                                              |
 | [LeetCode 1052. 爱生气的书店老板（滑动窗口）](https://michael.blog.csdn.net/article/details/103328664) |                                                              |
