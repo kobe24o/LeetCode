@@ -71,6 +71,7 @@
 | [LeetCode 第 201 场周赛（304/5614，前5.42%）](https://michael.blog.csdn.net/article/details/107894840) |
 | [LeetCode 第 33 场双周赛（511/3304，前15.5%，第4次全部通过🚀）](https://michael.blog.csdn.net/article/details/108177289) |
 | [LeetCode 第 34 场双周赛（385/2842，前13.5%）](https://michael.blog.csdn.net/article/details/108426333) |
+| [LeetCode 2020 力扣杯全国秋季编程大赛（656/3244，前20.2%）](https://michael.blog.csdn.net/article/details/108553304) |
 
 ​          
 
@@ -1295,6 +1296,9 @@
 | [LeetCode 1579. 保证图可完全遍历（并查集）](https://michael.blog.csdn.net/article/details/108438962) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
+| [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
+| [LeetCode LCP 18. 早餐组合（排序+二分）](https://michael.blog.csdn.net/article/details/108553304#2_LeetCode_LCP_18__easy_70) |                                                              |
+| [LeetCode LCP 19. 秋叶收藏集（DP）](https://michael.blog.csdn.net/article/details/108553304#3_LeetCode_LCP_19__medium_189) |                                                              |
 
 
 
