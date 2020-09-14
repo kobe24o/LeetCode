@@ -1296,10 +1296,10 @@
 | [LeetCode 1577. 数的平方等于两数乘积的方法数（双指针）](https://michael.blog.csdn.net/article/details/108430344) |                                                              |
 | [LeetCode 1578. 避免重复字母的最小删除成本](https://michael.blog.csdn.net/article/details/108430423) |                                                              |
 | [LeetCode 1579. 保证图可完全遍历（并查集）](https://michael.blog.csdn.net/article/details/108438962) |                                                              |
-| [LeetCode 5511. 二进制矩阵中的特殊位置](https://michael.blog.csdn.net/article/details/108561122#1_LeetCode_5511__easy_14) |                                                              |
-| [LeetCode 5512. 统计不开心的朋友](https://michael.blog.csdn.net/article/details/108561122#2_LeetCode_5512__medium_114) |                                                              |
-| [LeetCode 5513. 连接所有点的最小费用（最小生成树）](https://michael.blog.csdn.net/article/details/108561122#3_LeetCode_5513__medium_225) |                                                              |
-| [LeetCode 5514. 检查字符串是否可以通过排序子字符串得到另一个字符串（队列）](https://michael.blog.csdn.net/article/details/108561122#4_LeetCode_5514__hard_404) |                                                              |
+| [LeetCode 1582. 二进制矩阵中的特殊位置](https://michael.blog.csdn.net/article/details/108561122#1_LeetCode_5511__easy_14) |                                                              |
+| [LeetCode 1583. 统计不开心的朋友](https://michael.blog.csdn.net/article/details/108561122#2_LeetCode_5512__medium_114) |                                                              |
+| [LeetCode 1584. 连接所有点的最小费用（最小生成树）](https://michael.blog.csdn.net/article/details/108561122#3_LeetCode_5513__medium_225) |                                                              |
+| [LeetCode 1585. 检查字符串是否可以通过排序子字符串得到另一个字符串（队列）](https://michael.blog.csdn.net/article/details/108561122#4_LeetCode_5514__hard_404) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
