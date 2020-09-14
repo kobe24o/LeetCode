@@ -29,3 +29,29 @@ public:
         return dp[0][n-1].first;
     }
 };
+
+class Solution {
+public:
+    int mctFromLeafValues(vector<int>& arr) {
+        int n = arr.size(), tp, ans = 0;
+        stack<int> stk;
+        stk.push(INT_MAX);
+        for(int a : arr)
+        {
+            while(a >= stk.top())
+            {
+                tp = stk.top();
+                stk.pop();
+                ans += tp*min(a, stk.top());
+            }
+            stk.push(a);
+        }
+        while(stk.size() > 2)
+        {
+            tp = stk.top();
+            stk.pop();
+            ans += tp*stk.top();
+        }
+        return ans;
+    }
+};
