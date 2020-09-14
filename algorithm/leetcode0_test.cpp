@@ -77,28 +77,30 @@ public:
 
 class Solution {
 public:
-    vector<int> mostVisited(int n, vector<int>& rounds) {
-        vector<int> count(n, 0);
-        for(int i = 0; i < rounds.size()-1; ++i)
-        {
-            int s = rounds[i]-1, e = rounds[i+1]-1;
-            while(s != e)
-            {
-                count[s]++;
-                s++;
-                if(s == n)
-                    s = 0;
-            }
-            count[s]++;
-        }
-        int maxcount = *max_element(count.begin(), count.end());
-        vector<int> ans;
+    int mctFromLeafValues(vector<int>& arr) {
+        int n = arr.size();
+        vector<vector<pair<int, int>>> dp(n, vector<pair<int, int>>(n, {INT_MAX, 0}));
         for(int i = 0; i < n; i++)
         {
-            if(count[i] == maxcount)
-                ans.push_back(i+1);
+            dp[i][i].first = 0;//sum
+            dp[i][i].second = arr[i];//maxval
         }
-        return ans;
+        for(int len = 1; len < n; ++len)
+        {
+            for(int i = 0, j; i+len < n; ++i)
+            {
+                j = i+len;
+                for(int k = i; k <= j; ++k)
+                {
+                    if(dp[i][j].first > dp[i][k].first+dp[k][j].first+dp[i][k].second*dp[k][j].second)
+                    {
+                        dp[i][j].first = dp[i][k].first+dp[k][j].first+dp[i][k].second*dp[k][j].second;
+                        dp[i][j].second = dp[i][k].second*dp[k][j].second;
+                    }
+                }
+            }
+        }
+        return dp[0][n-1].first;
     }
 };
 void printv(vector<int>& v)
@@ -111,7 +113,7 @@ int main() {
     vector<vector<char>> v6 ={{'d','b','b'},{'c','a','a'},{'b','a','c'},{'c','c','c'},{'d','d','a'}};
     vector<vector<int>> v5 ={{1,1,1},{7,7,7},{7,7,7}};
     vector<double> v1 = {0.5,0.5,0.2};
-    vector<int> v2 = {1,3,1,2};
+    vector<int> v2 = {6,2,4};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
     vector<int> v4 = {1,3,2};
     string str = "eceeeefasdghjklqwertyuio";
@@ -119,7 +121,7 @@ int main() {
     vector<string> st1 = {"0.700","2.800","4.900"};
 
     Solution s;
-    s.mostVisited(4, v2);
+    s.mctFromLeafValues(v2);
 
 
 
