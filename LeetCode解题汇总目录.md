@@ -84,7 +84,7 @@
 | [LeetCode 4. 寻找两个有序数组的中位数（二分查找，难）](https://blog.csdn.net/qq_21201267/article/details/102828858) | [LeetCode 跳跃游戏 系列（贪心/BFS/DP）](https://blog.csdn.net/qq_21201267/article/details/100899698) |
 | [LeetCode 5. 最长回文子串（动态规划）](https://michael.blog.csdn.net/article/details/105348936) | [极小极大化 就用 二分查找](https://blog.csdn.net/qq_21201267/article/details/107534172) |
 | [LeetCode 6. Z 字形变换（找规律）](https://blog.csdn.net/qq_21201267/article/details/104782401) | [博弈DP、石子游戏等](https://michael.blog.csdn.net/article/details/108337865) |
-| [LeetCode 7. 整数反转](https://blog.csdn.net/qq_21201267/article/details/100583336) |                                                              |
+| [LeetCode 7. 整数反转](https://blog.csdn.net/qq_21201267/article/details/100583336) | [哈希记录前缀和状态，做差求中间段](https://michael.blog.csdn.net/article/details/108593514) |
 | [LeetCode 8. 字符串转换整数 (atoi)](https://blog.csdn.net/qq_21201267/article/details/100583821) |                                                              |
 | [LeetCode 9. 回文数](https://blog.csdn.net/qq_21201267/article/details/100168231) |                                                              |
 | [LeetCode 10. 正则表达式匹配（递归）*](https://blog.csdn.net/qq_21201267/article/details/104951143) |                                                              |
@@ -819,6 +819,7 @@
 | [LeetCode 923. 三数之和的多种可能（双指针）](https://michael.blog.csdn.net/article/details/106034888) |                                                              |
 | [LeetCode 925. 长按键入（双指针）](https://michael.blog.csdn.net/article/details/105800254) |                                                              |
 | [LeetCode 929. 独特的电子邮件地址](https://michael.blog.csdn.net/article/details/105804981) |                                                              |
+| [LeetCode 930. 和相同的二元子数组（哈希+前缀和）](https://michael.blog.csdn.net/article/details/108593514) |                                                              |
 | [LeetCode 931. 下降路径最小和（动态规划）](https://michael.blog.csdn.net/article/details/105804834) |                                                              |
 | [LeetCode 932. 漂亮数组（分治递归/循环）](https://michael.blog.csdn.net/article/details/106279389) |                                                              |
 | [LeetCode 933. 最近的请求次数（queue）](https://blog.csdn.net/qq_21201267/article/details/100746524) |                                                              |
