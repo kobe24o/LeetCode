@@ -741,6 +741,7 @@
 | [LeetCode 804. 唯一摩尔斯密码词（哈希+set）](https://blog.csdn.net/qq_21201267/article/details/100630347) |                                                              |
 | [LeetCode 806. 写字符串需要的行数](https://michael.blog.csdn.net/article/details/105776513) |                                                              |
 | [LeetCode 807. 保持城市天际线](https://blog.csdn.net/qq_21201267/article/details/100585707) |                                                              |
+| [LeetCode 808. 分汤（动态规划）](https://michael.blog.csdn.net/article/details/108636952) |                                                              |
 | [LeetCode 810. 黑板异或游戏（博弈推理）](https://michael.blog.csdn.net/article/details/106713569) |                                                              |
 | [LeetCode 811. 子域名访问计数](https://michael.blog.csdn.net/article/details/105758279) |                                                              |
 | [LeetCode 812. 最大三角形面积（坐标面积公式）](https://michael.blog.csdn.net/article/details/105758490) |                                                              |
