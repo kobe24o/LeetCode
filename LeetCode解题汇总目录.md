@@ -702,6 +702,7 @@
 | [LeetCode 737. 句子相似性 II（并查集）](https://michael.blog.csdn.net/article/details/107881526) |                                                              |
 | [LeetCode 738. 单调递增的数字（贪心）](https://michael.blog.csdn.net/article/details/103564931) |                                                              |
 | [LeetCode 739. 每日温度（单调栈）](https://blog.csdn.net/qq_21201267/article/details/101479101) |                                                              |
+| [LeetCode 740. 删除与获得点数（排序+动态规划）](https://michael.blog.csdn.net/article/details/108662137) |                                                              |
 | [LeetCode 742. 二叉树最近的叶节点（建立父节点信息+BFS）](https://blog.csdn.net/qq_21201267/article/details/107212921) |                                                              |
 | [LeetCode 743. 网络延迟时间（最短路径）](https://michael.blog.csdn.net/article/details/106686629) |                                                              |
 | [LeetCode 744. 寻找比目标字母大的最小字母（二分查找）](https://blog.csdn.net/qq_21201267/article/details/102489881) |                                                              |
