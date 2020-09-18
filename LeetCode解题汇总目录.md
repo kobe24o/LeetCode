@@ -764,6 +764,7 @@
 | [LeetCode 835. 图像重叠](https://michael.blog.csdn.net/article/details/106858356) |                                                              |
 | [LeetCode 836. 矩形重叠](https://michael.blog.csdn.net/article/details/105797392) |                                                              |
 | [LeetCode 837. 新21点（动态规划）](https://michael.blog.csdn.net/article/details/106341826) |                                                              |
+| [LeetCode 838. 推多米诺（模拟）](https://michael.blog.csdn.net/article/details/108663849) |                                                              |
 | [LeetCode 840. 矩阵中的幻方（数学）](https://michael.blog.csdn.net/article/details/103192644) |                                                              |
 | [LeetCode 841. 钥匙和房间（DFS/BFS）](https://blog.csdn.net/qq_21201267/article/details/101628381) |                                                              |
 | [LeetCode 842. 将数组拆分成斐波那契序列（暴力查找）](https://michael.blog.csdn.net/article/details/103828495) |                                                              |
