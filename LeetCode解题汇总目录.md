@@ -774,6 +774,7 @@
 | [LeetCode 852. 山脉数组的峰顶索引（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100743518) |                                                              |
 | [LeetCode 853. 车队（排序）](https://michael.blog.csdn.net/article/details/106425350) |                                                              |
 | [LeetCode 856. 括号的分数](https://michael.blog.csdn.net/article/details/103527028) |                                                              |
+| [LeetCode 858. 镜面反射（最小公倍数/最大公约数）](https://michael.blog.csdn.net/article/details/108645455) |                                                              |
 | [LeetCode 859. 亲密字符串](https://michael.blog.csdn.net/article/details/105796587) |                                                              |
 | [LeetCode 860. 柠檬水找零（贪心）](https://michael.blog.csdn.net/article/details/103153887) |                                                              |
 | [LeetCode 861. 翻转矩阵后的得分（贪心）](https://michael.blog.csdn.net/article/details/103209591) |                                                              |
