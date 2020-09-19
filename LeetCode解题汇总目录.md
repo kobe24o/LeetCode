@@ -754,6 +754,7 @@
 | [LeetCode 819. 最常见的单词](https://michael.blog.csdn.net/article/details/105762230) |                                                              |
 | [LeetCode 820. 单词的压缩编码（后缀树）](https://michael.blog.csdn.net/article/details/105158592) |                                                              |
 | [LeetCode 821. 字符的最短距离](https://blog.csdn.net/qq_21201267/article/details/101001770) |                                                              |
+| [LeetCode 823. 带因子的二叉树（动态规划）](https://michael.blog.csdn.net/article/details/108680229) |                                                              |
 | [LeetCode 824. 山羊拉丁文](https://michael.blog.csdn.net/article/details/105762430) |                                                              |
 | [LeetCode 826. 安排工作以达到最大收益（map）](https://michael.blog.csdn.net/article/details/106320023) |                                                              |
 | [LeetCode 828. 统计子串中的唯一字符（中心扩展）](https://michael.blog.csdn.net/article/details/107027774) |                                                              |
