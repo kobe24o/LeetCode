@@ -14,36 +14,41 @@ using namespace std;
 #include<string>
 using namespace std;
 
+typedef long long ll;
 class Solution {
 public:
-    int minSubarray(vector<int>& nums, int p) {
-        int sum = 0, i;
-        long long all = 0;
-        for(i = 0; i < nums.size(); i++)
+    int connectTwoGroups(vector<vector<int>>& cost) {
+        int s1 = cost.size(), s2 = cost[0].size();
+        vector<vector<int>> dp(s1+1, vector<int>(s2+1, INT_MAX));
+        for(int i = 0; i <= s1; i++)
         {
-            sum = (sum + nums[i])%p;
-            all += nums[i];
+            dp[i][0] = 0;
         }
-        if(sum == 0)
-            return 0;
-        if(all < p)
-            return -1;
-        int s = 0, prev = -1, minlen = INT_MAX;
-        unordered_map<int, int> m;
-        for(int i = 0; i < nums.size(); i++)
+        for(int i = 0; i <= s2; i++)
         {
-            s = (s + nums[i])%p;
-            if(m.find((s+sum)%p) != m.end())
-            {
-                minlen = min(minlen, i-m[(s+sum)%p]);
-            }
-            if(m.find((s-sum+p)%p) != m.end())
-            {
-                minlen = min(minlen, i-m[(s-sum+p)%p]);
-            }
-            m[s] = i;
+            dp[0][i] = 0;
         }
-        return minlen;
+        for(int i = 1; i <= s1; i++)
+        {
+            for(int j = 1; j <= s2; j++)
+            {
+                for(int k = 1; k <= i; ++k)
+                {
+                    dp[i][j] = min(dp[i][j], dp[i][j-1]+cost[k-1][j-1]);
+                }
+                for(int k = 1; k <= j; ++k)
+                {
+                    dp[i][j] = min(dp[i][j], dp[i][j-1]+cost[i-1][k-1]);
+                }
+            }
+        }
+        for(int i = 1; i <= s1; i++) {
+            for (int j = 1; j <= s2; j++) {
+                cout << dp[i][j] << " ";
+            }
+            cout << endl;
+        }
+        return dp[s1][s2];
     }
 };
 
@@ -52,10 +57,10 @@ int main()
 {
     vector<int> l = {6,3,5,2};
     vector<vector<int>> t = {{1,2},{2,3},{3,4},{4,1},{2,5},{5,6}};
-    vector<vector<int>> t1 = {{14,7,11},{11,14,5},{14,3,10}};
+    vector<vector<int>> t1 = {{1,3,5},{4,1,1},{1,5,3}};
     Solution s;
     string str = "bacbdab";
-    cout << s.minSubarray(l, 9) <<endl;
+    cout << s.connectTwoGroups(t1) <<endl;
     //读出二进制文件中的内容并输出到显示器6
 
     return 0;
