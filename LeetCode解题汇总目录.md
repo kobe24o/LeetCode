@@ -74,6 +74,7 @@
 | [LeetCode 2020 力扣杯全国秋季编程大赛（656/3244，前20.2%）](https://michael.blog.csdn.net/article/details/108553304) |
 | [LeetCode 第 206 场周赛（733/4491，前16.3%）](https://michael.blog.csdn.net/article/details/108561122) |
 | [LeetCode 第 35 场双周赛（216/2839，前7.61%）](https://michael.blog.csdn.net/article/details/108688898) |
+| [LeetCode 第 207 场周赛（245/4115，前5.95%）](https://michael.blog.csdn.net/article/details/108691909) |
 
 ​          
 
