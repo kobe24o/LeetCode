@@ -73,6 +73,7 @@
 | [LeetCode 第 34 场双周赛（385/2842，前13.5%）](https://michael.blog.csdn.net/article/details/108426333) |
 | [LeetCode 2020 力扣杯全国秋季编程大赛（656/3244，前20.2%）](https://michael.blog.csdn.net/article/details/108553304) |
 | [LeetCode 第 206 场周赛（733/4491，前16.3%）](https://michael.blog.csdn.net/article/details/108561122) |
+| [LeetCode 第 35 场双周赛（216/2839，前7.61%）](https://michael.blog.csdn.net/article/details/108688898) |
 
 ​          
 
@@ -1310,6 +1311,9 @@
 | [LeetCode 1583. 统计不开心的朋友](https://michael.blog.csdn.net/article/details/108561122#2_LeetCode_5512__medium_114) |                                                              |
 | [LeetCode 1584. 连接所有点的最小费用（最小生成树）](https://michael.blog.csdn.net/article/details/108561122#3_LeetCode_5513__medium_225) |                                                              |
 | [LeetCode 1585. 检查字符串是否可以通过排序子字符串得到另一个字符串（队列）](https://michael.blog.csdn.net/article/details/108561122#4_LeetCode_5514__hard_404) |                                                              |
+| [LeetCode 5503. 所有奇数长度子数组的和](https://michael.blog.csdn.net/article/details/108688898#1_LeetCode_5503__easy_15) |                                                              |
+| [LeetCode 5505. 所有排列中的最大和（差分+前缀和）](https://michael.blog.csdn.net/article/details/108688898#2_LeetCode_5505__medium_117) |                                                              |
+| [LeetCode 5504. 使数组和能被 P 整除（哈希+前缀和）](https://michael.blog.csdn.net/article/details/108688898#3_LeetCode_5504__P__medium_199) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
