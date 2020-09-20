@@ -1315,6 +1315,9 @@
 | [LeetCode 5503. 所有奇数长度子数组的和](https://michael.blog.csdn.net/article/details/108688898#1_LeetCode_5503__easy_15) |                                                              |
 | [LeetCode 5505. 所有排列中的最大和（差分+前缀和）](https://michael.blog.csdn.net/article/details/108688898#2_LeetCode_5505__medium_117) |                                                              |
 | [LeetCode 5504. 使数组和能被 P 整除（哈希+前缀和）](https://michael.blog.csdn.net/article/details/108688898#3_LeetCode_5504__P__medium_199) |                                                              |
+| [LeetCode 5519. 重新排列单词间的空格](https://michael.blog.csdn.net/article/details/108691909#1_LeetCode_5519__easy_15) |                                                              |
+| [LeetCode 5520. 拆分字符串使唯一子字符串的数目最大（回溯）](https://michael.blog.csdn.net/article/details/108691909#2_LeetCode_5520__medium_108) |                                                              |
+| [LeetCode 5521. 矩阵的最大非负积（DP）](https://michael.blog.csdn.net/article/details/108691909#3_LeetCode_5521__medium_223) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
