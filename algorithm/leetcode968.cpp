@@ -9,10 +9,16 @@
  */
 class Solution {
 	unordered_map<TreeNode*, int> camera0, camera1;
-	int s = 1;
+	int mins = 1;
 public:
     int minCameraCover(TreeNode* root) {
-    	if(!root) return 0;
+    	int s = 0;
+    	dfs(root, s, 1);
+    	dfs(root, s, 0);
+    	return mins;
+    }
+    int dfs(TreeNode* root, int s, bool watch)
+    {
     	
     }
 };
