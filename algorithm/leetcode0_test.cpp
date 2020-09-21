@@ -38,11 +38,11 @@ public:
         cur->isend = true;
     }
 };
-class dsu
+class dsu1
 {
 public:
     vector<int> f;
-    dsu(int n)
+    dsu1(int n)
     {
         f.resize(n);
         for(int i = 0; i < n; ++i)
@@ -75,44 +75,63 @@ public:
     }
 };
 
-class Solution {
+class dsu
+{
 public:
-    double soupServings(int N) {
-        unordered_map<int,unordered_map<int,double>> dp, temp;
-        dp[N][N] = 1.0;
-        double prob = 0.0, p, pp;
-        vector<vector<int>> delta = {{100,0},{75,25},{50,50},{25,75}};
-        int A, B, nA, nB, i, idx;
-        for(auto& item1 : dp)
+    unordered_map<string,string> f;
+    dsu(vector<vector<string>>& accounts)
+    {
+        for(int i = 0; i < accounts.size(); ++i)
         {
-            A = item1.first;
-            for(auto& item2 : item1.second)
+            for(int j = 1; j < accounts[i].size(); ++j)
             {
-                B = item2.first;
-                p = item2.second;
-                if(A == 0)
-                {
-                    if(B == 0)
-                        prob += p/2.0;
-                    else if(B > 0)
-                        prob += p;
-                }
+                if(!f.count(accounts[i][j]))
+                    f[accounts[i][j]] = accounts[i][1];
+                    //以第一个邮件作为代表
                 else
-                {
-                    if(B == 0)
-                        continue;
-                    for(i = 0; i < 4; i++)
-                    {
-                        nA = max(0, A-delta[i][0]);
-                        nB = max(0, B-delta[i][1]);
-                        temp[nA][nB] += p*0.25;
-                    }
-                    dp.swap(temp);
-                    temp.clear();
-                }
+                    f[f[accounts[i][j]]] = accounts[i][1];
             }
         }
-        return prob;
+    }
+    void merge(string& a, string& b)
+    {
+        string fa = find(a), fb = find(b);
+        f[fa] = fb;
+    }
+    string find(string &a)
+    {
+        if(f[a] == a)
+            return a;
+        return f[a] = find(f[a]);
+    }
+};
+class Solution {
+public:
+    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
+        unordered_map<string, string> m;
+        for(int i = 0; i < accounts.size(); ++i)
+        {
+            m[accounts[i][1]] = accounts[i][0];
+            //邮件代表，归属的人名
+        }
+        dsu u(accounts);
+        unordered_map<string, vector<string>> ans;
+        string mail, name, tpmail;
+        for(auto it = u.f.begin(); it != u.f.end(); ++it)
+        {
+            mail = it->first;
+            tpmail = u.find(mail);
+            ans[tpmail].push_back(mail);
+        }
+        vector<vector<string>> res(ans.size());
+        int i = 0;
+        for(auto it = ans.begin(); it != ans.end(); ++it, i++)
+        {
+            res[i] = it->second;//邮件列表
+            sort(res[i].begin(), res[i].end());
+            res[i].insert(res[i].begin(), m[it->first]);//插入名称
+        }
+        return res;
     }
 };
 void printv(vector<int>& v)
@@ -123,7 +142,7 @@ void printv(vector<int>& v)
 }
 int main() {
     vector<vector<char>> v6 ={{'d','b','b'},{'c','a','a'},{'b','a','c'},{'c','c','c'},{'d','d','a'}};
-    vector<vector<int>> v5 ={{1,1,1},{7,7,7},{7,7,7}};
+    vector<vector<string>> v5 = {{"Alex","Alex5@m.co","Alex4@m.co","Alex0@m.co"},{"Ethan","Ethan3@m.co","Ethan3@m.co","Ethan0@m.co"},{"Kevin","Kevin4@m.co","Kevin2@m.co","Kevin2@m.co"},{"Gabe","Gabe0@m.co","Gabe3@m.co","Gabe2@m.co"},{"Gabe","Gabe3@m.co","Gabe4@m.co","Gabe2@m.co"}};
     vector<double> v1 = {0.5,0.5,0.2};
     vector<int> v2 = {6,2,4};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
@@ -133,7 +152,7 @@ int main() {
     vector<string> st1 = {"0.700","2.800","4.900"};
 
     Solution s;
-    s.soupServings(1);
+    s.accountsMerge(v5);
 
 
 
