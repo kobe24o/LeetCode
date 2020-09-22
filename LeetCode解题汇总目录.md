@@ -856,6 +856,7 @@
 | [LeetCode 965. 单值二叉树](https://blog.csdn.net/qq_21201267/article/details/100993432) |                                                              |
 | [LeetCode 966. 元音拼写检查器（哈希）](https://michael.blog.csdn.net/article/details/106875371) |                                                              |
 | [LeetCode 967. 连续差相同的数字（BFS/DFS）](https://michael.blog.csdn.net/article/details/108473159) |                                                              |
+| [LeetCode 968. 监控二叉树（DFS）](https://michael.blog.csdn.net/article/details/108725155) |                                                              |
 | [LeetCode 969. 煎饼排序](https://blog.csdn.net/qq_21201267/article/details/100797632) |                                                              |
 | [LeetCode 970. 强整数](https://blog.csdn.net/qq_21201267/article/details/102889287) |                                                              |
 | [LeetCode 971. 翻转二叉树以匹配先序遍历（DFS）](https://michael.blog.csdn.net/article/details/106876360) |                                                              |
