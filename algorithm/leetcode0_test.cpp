@@ -106,32 +106,28 @@ public:
     }
 };
 class Solution {
+    int mins = 0;
 public:
-    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
-        unordered_map<string, string> m;
-        for(int i = 0; i < accounts.size(); ++i)
+    int minCameraCover(TreeNode* root) {
+        if(!root) return 0;
+        dfs(root);
+        return mins;
+    }
+
+    int dfs(TreeNode* root)
+    {
+        if(!root)
+            return 1;//没有节点了相当于监控了
+        int l = minCameraCover(root->left);
+        int r = minCameraCover(root->right);
+        cout << mins << endl;
+        if(l==1 && r==1)
+            return 0;
+        else
         {
-            m[accounts[i][1]] = accounts[i][0];
-            //邮件代表，归属的人名
+            mins++;
+            return 1;
         }
-        dsu u(accounts);
-        unordered_map<string, vector<string>> ans;
-        string mail, name, tpmail;
-        for(auto it = u.f.begin(); it != u.f.end(); ++it)
-        {
-            mail = it->first;
-            tpmail = u.find(mail);
-            ans[tpmail].push_back(mail);
-        }
-        vector<vector<string>> res(ans.size());
-        int i = 0;
-        for(auto it = ans.begin(); it != ans.end(); ++it, i++)
-        {
-            res[i] = it->second;//邮件列表
-            sort(res[i].begin(), res[i].end());
-            res[i].insert(res[i].begin(), m[it->first]);//插入名称
-        }
-        return res;
     }
 };
 void printv(vector<int>& v)
@@ -150,9 +146,15 @@ int main() {
     string str = "eceeeefasdghjklqwertyuio";
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
     vector<string> st1 = {"0.700","2.800","4.900"};
-
+    TreeNode* r1 = new TreeNode(0);
+    TreeNode* r2 = new TreeNode(0);
+    TreeNode* r3 = new TreeNode(0);
+    TreeNode* r4 = new TreeNode(0);
+    r1->left = r2;
+    r2->left = r3;
+    r2->right = r4;
     Solution s;
-    s.accountsMerge(v5);
+    s.minCameraCover(r1);
 
 
 
