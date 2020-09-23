@@ -873,6 +873,7 @@
 | [LeetCode 985. 查询后的偶数和](https://michael.blog.csdn.net/article/details/105758689) |                                                              |
 | [LeetCode 986. 区间列表的交集](https://blog.csdn.net/qq_21201267/article/details/100058783) |                                                              |
 | [LeetCode 987. 二叉树的垂序遍历（递归/循环）](https://michael.blog.csdn.net/article/details/105681731) |                                                              |
+| [LeetCode 988. 从叶结点开始的最小字符串（DFS）](https://michael.blog.csdn.net/article/details/108757864) |                                                              |
 | [LeetCode 989. 数组形式的整数加法](https://michael.blog.csdn.net/article/details/103020342) |                                                              |
 | [LeetCode 990. 等式方程的可满足性（并查集）](https://michael.blog.csdn.net/article/details/106354260) |                                                              |
 | [LeetCode 991. 坏了的计算器（逆向思考）](https://michael.blog.csdn.net/article/details/103498206) |                                                              |
