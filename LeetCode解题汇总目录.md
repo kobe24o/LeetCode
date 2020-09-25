@@ -730,6 +730,7 @@
 | [LeetCode 771. 宝石与石头（哈希）](https://blog.csdn.net/qq_21201267/article/details/100563578) |                                                              |
 | [LeetCode 773. 滑动谜题（BFS 地图状态转换的最短距离）](https://michael.blog.csdn.net/article/details/104118648) |                                                              |
 | [LeetCode 774. 最小化去加油站的最大距离（极小极大化 二分查找）](https://michael.blog.csdn.net/article/details/107947144) |                                                              |
+| [LeetCode 775. 全局倒置与局部倒置（归并排序/二分查找/一次遍历）](https://michael.blog.csdn.net/article/details/108779463) |                                                              |
 | [LeetCode 776. 拆分二叉搜索树（DFS）*](https://michael.blog.csdn.net/article/details/107520331) |                                                              |
 | [LeetCode 777. 在LR字符串中交换相邻字符（双指针）](https://michael.blog.csdn.net/article/details/103866042) |                                                              |
 | [LeetCode 779. 第K个语法符号（找规律）](https://michael.blog.csdn.net/article/details/105762582) |                                                              |
