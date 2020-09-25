@@ -780,6 +780,7 @@
 | [LeetCode 846. 一手顺子（map）](https://michael.blog.csdn.net/article/details/106055016) |                                                              |
 | [LeetCode 848. 字母移位（前缀和+取模）](https://michael.blog.csdn.net/article/details/108639423) |                                                              |
 | [LeetCode 849. 到最近的人的最大距离](https://blog.csdn.net/qq_21201267/article/details/102903358) |                                                              |
+| [LeetCode 851. 喧闹和富有（拓扑排序）](https://michael.blog.csdn.net/article/details/108791026) |                                                              |
 | [LeetCode 852. 山脉数组的峰顶索引（二分查找）](https://blog.csdn.net/qq_21201267/article/details/100743518) |                                                              |
 | [LeetCode 853. 车队（排序）](https://michael.blog.csdn.net/article/details/106425350) |                                                              |
 | [LeetCode 856. 括号的分数](https://michael.blog.csdn.net/article/details/103527028) |                                                              |
