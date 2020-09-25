@@ -832,6 +832,7 @@
 | [LeetCode 922. 按奇偶排序数组 II（双指针）](https://blog.csdn.net/qq_21201267/article/details/100998177) |                                                              |
 | [LeetCode 923. 三数之和的多种可能（双指针）](https://michael.blog.csdn.net/article/details/106034888) |                                                              |
 | [LeetCode 925. 长按键入（双指针）](https://michael.blog.csdn.net/article/details/105800254) |                                                              |
+| [LeetCode 926. 将字符串翻转到单调递增（动态规划）](https://michael.blog.csdn.net/article/details/108789082) |                                                              |
 | [LeetCode 929. 独特的电子邮件地址](https://michael.blog.csdn.net/article/details/105804981) |                                                              |
 | [LeetCode 930. 和相同的二元子数组（哈希+前缀和）](https://michael.blog.csdn.net/article/details/108593514) |                                                              |
 | [LeetCode 931. 下降路径最小和（动态规划）](https://michael.blog.csdn.net/article/details/105804834) |                                                              |
