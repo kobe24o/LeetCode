@@ -106,28 +106,36 @@ public:
     }
 };
 class Solution {
-    int mins = 0;
 public:
-    int minCameraCover(TreeNode* root) {
-        if(!root) return 0;
-        dfs(root);
-        return mins;
-    }
-
-    int dfs(TreeNode* root)
-    {
-        if(!root)
-            return 1;//没有节点了相当于监控了
-        int l = minCameraCover(root->left);
-        int r = minCameraCover(root->right);
-        cout << mins << endl;
-        if(l==1 && r==1)
-            return 0;
-        else
+    string decodeAtIndex(string S, int K) {
+        int encode_len = 0, i;
+        string encstr, temp;
+        K--;
+        for(i = 0; i < S.size(); i++)
         {
-            mins++;
-            return 1;
+            if(isalpha(S[i]))
+            {
+                encstr += S[i];
+                encode_len++;
+                if(encode_len == K+1)
+                    return string(1,encstr[K]);
+            }
+            else
+            {
+                if(encode_len*(S[i]-'0') >= K)
+                    return string(1,encstr[K%encode_len]);
+                else
+                {
+                    encode_len *= (S[i]-'0');
+                    int n = (S[i]-'0')-1;
+                    temp = encstr;
+                    while(n--)
+                        temp += encstr;
+                    encstr = temp;
+                }
+            }
         }
+        return "";
     }
 };
 void printv(vector<int>& v)
@@ -143,7 +151,7 @@ int main() {
     vector<int> v2 = {6,2,4};
     vector<int> v3 = {332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184};
     vector<int> v4 = {1,3,2};
-    string str = "eceeeefasdghjklqwertyuio";
+    string str = "a2b3c4d5e6f7g8h9";
     vector<vector<string>> st  = {{"A","B"},{"C"},{"B","C"},{"D"}};
     vector<string> st1 = {"0.700","2.800","4.900"};
     TreeNode* r1 = new TreeNode(0);
@@ -154,7 +162,7 @@ int main() {
     r2->left = r3;
     r2->right = r4;
     Solution s;
-    s.minCameraCover(r1);
+    s.decodeAtIndex(str,3);
 
 
 
