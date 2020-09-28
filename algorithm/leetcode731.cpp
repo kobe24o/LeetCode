@@ -3,8 +3,6 @@ class MyCalendarTwo {
     set<pair<int, int>> intersection;//区间交集
 public:
     MyCalendarTwo() {
-        s.insert({INT_MAX, INT_MAX});
-        s.insert({INT_MIN, INT_MIN});//加入边界，简化代码
         intersection.insert({INT_MAX, INT_MAX});
         intersection.insert({INT_MIN, INT_MIN});//加入边界，简化代码
     }
@@ -15,20 +13,37 @@ public:
             return false;
         if((--it)->second > start)//前面跟交集是否相交
             return false;
-        auto it1 = s.lower_bound({start,end});
-        auto it2 = it1;
-        while(it2 != s.end() && it2->first < end)//当前跟区间是否相交
+        for(auto it1 = s.begin(); it1 != s.end(); it1++)//当前跟区间是否相交
         {
-            intersection.insert({it2->first, min(it2->second, end)});
-            it2++;
-        }
-        it2 = it1;
-        while(it2 != s.begin() && (--it2)->second > start)//前面跟区间是否相交
-        {
-            intersection.insert({max(it2->first, start), it2->second});
-            it2--;
+            if(it1->first < end && it1->second > start)
+                intersection.insert({max(it1->first, start), min(it1->second, end)});
         }
         s.insert({start, end});
         return true;    
+    }
+};
+
+class MyCalendarTwo {
+    map<int,int> m;
+public:
+    MyCalendarTwo() {
+
+    }
+    
+    bool book(int start, int end) {
+        m[start]++;
+        m[end]--;
+        int count = 0;
+        for(auto it = m.begin(); it != m.end(); ++it)
+        {
+            count += it->second;
+            if(count >= 3)
+            {
+                m[start]--;
+                m[end]++;
+                return false;
+            }
+        }
+        return true;
     }
 };
