@@ -701,6 +701,7 @@
 | [LeetCode 725. 分隔链表](https://michael.blog.csdn.net/article/details/103883892) |                                                              |
 | [LeetCode 727. 最小窗口子序列（滑动窗口）](https://michael.blog.csdn.net/article/details/107994370) |                                                              |
 | [LeetCode 728. 自除数](https://blog.csdn.net/qq_21201267/article/details/100907175) |                                                              |
+| [LeetCode 729. 我的日程安排表 I（set 二分查找）](https://michael.blog.csdn.net/article/details/108843058) |                                                              |
 | [LeetCode 733. 图像渲染（DFS/BFS）](https://blog.csdn.net/qq_21201267/article/details/101611121) |                                                              |
 | [LeetCode 734. 句子相似性（哈希）](https://blog.csdn.net/qq_21201267/article/details/107098723) |                                                              |
 | [LeetCode 735. 行星碰撞（栈）](https://michael.blog.csdn.net/article/details/103794858) |                                                              |
