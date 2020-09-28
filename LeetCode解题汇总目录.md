@@ -1330,10 +1330,10 @@
 | [LeetCode 1592. 重新排列单词间的空格](https://michael.blog.csdn.net/article/details/108691909#1_LeetCode_5519__easy_15) |                                                              |
 | [LeetCode 1593. 拆分字符串使唯一子字符串的数目最大（回溯）](https://michael.blog.csdn.net/article/details/108691909#2_LeetCode_5520__medium_108) |                                                              |
 | [LeetCode 1594. 矩阵的最大非负积（DP）](https://michael.blog.csdn.net/article/details/108691909#3_LeetCode_5521__medium_223) |                                                              |
-| [LeetCode 5523. 文件夹操作日志搜集器](https://michael.blog.csdn.net/article/details/108826605) |                                                              |
-| [LeetCode 5524. 经营摩天轮的最大利润（模拟）](https://michael.blog.csdn.net/article/details/108827543) |                                                              |
-| [LeetCode 5525. 皇位继承顺序（图的深度优先遍历）](https://michael.blog.csdn.net/article/details/108829683) |                                                              |
-| [LeetCode 5526. 最多可达成的换楼请求数目（回溯+剪枝）](https://michael.blog.csdn.net/article/details/108835238) |                                                              |
+| [LeetCode 1598. 文件夹操作日志搜集器](https://michael.blog.csdn.net/article/details/108826605) |                                                              |
+| [LeetCode 1599. 经营摩天轮的最大利润（模拟）](https://michael.blog.csdn.net/article/details/108827543) |                                                              |
+| [LeetCode 1600. 皇位继承顺序（图的深度优先遍历）](https://michael.blog.csdn.net/article/details/108829683) |                                                              |
+| [LeetCode 1601. 最多可达成的换楼请求数目（回溯+剪枝）](https://michael.blog.csdn.net/article/details/108835238) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
