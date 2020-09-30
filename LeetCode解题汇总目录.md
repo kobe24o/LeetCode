@@ -766,6 +766,7 @@
 | [LeetCode 821. 字符的最短距离](https://blog.csdn.net/qq_21201267/article/details/101001770) |                                                              |
 | [LeetCode 823. 带因子的二叉树（动态规划）](https://michael.blog.csdn.net/article/details/108680229) |                                                              |
 | [LeetCode 824. 山羊拉丁文](https://michael.blog.csdn.net/article/details/105762430) |                                                              |
+| [LeetCode 825. 适龄的朋友（计数排序+前缀和）](https://michael.blog.csdn.net/article/details/108881492) |                                                              |
 | [LeetCode 826. 安排工作以达到最大收益（map）](https://michael.blog.csdn.net/article/details/106320023) |                                                              |
 | [LeetCode 828. 统计子串中的唯一字符（中心扩展）](https://michael.blog.csdn.net/article/details/107027774) |                                                              |
 | [LeetCode 829. 连续整数求和（数学）](https://michael.blog.csdn.net/article/details/103501644) |                                                              |
