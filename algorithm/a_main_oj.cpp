@@ -18,27 +18,21 @@ typedef long long ll;
 
 class Solution {
 public:
-    bool canReorderDoubled(vector<int>& A) {
-    	unordered_map<int,int> m;
-    	for(int a : A)
-    		m[a]++;
-    	int count = 0, a, a2, num, num2, c;
-    	for(auto it = m.begin(); it != m.end(); ++it)
-    	{
-    		a = it->first;
-    		num = it->second;
-    		if(m.count(2*a) && m[2*a] > 0)
-    		{
-                if(a != 0)
-                    c = min(m[2*a], num);
-                else
-                    c = num/2;
-                count += 2*c;
-                m[a] -= c;
-                m[2*a] -= c;
-    		}
-    	}
-    	return count == A.size();
+    double champagneTower(int poured, int query_row, int query_glass) {
+        vector<vector<double>> dp(101, vector<double>(101, 0.0));
+        int layer = 0, full = 0, up_l, up_r;
+        dp[0][0] = poured;
+        for(int i = 1; i <= query_row; ++i)
+        {
+            for(int j = 0; j <= i; ++j)
+            {
+                up_l = j > 0 ? dp[i-1][j-1] : 0;
+                up_r = dp[i-1][j];
+                dp[i][j] += up_l > 1 ? (up_l-1)/2.0 : 0;
+                dp[i][j] += up_r > 1 ? (up_r-1)/2.0 : 0;
+            }
+        }
+        return min(1.0, dp[query_row][query_glass]);
     }
 };
 //"0010 0110 0100 111"
@@ -52,7 +46,7 @@ int main()
      Solution s;
     string str = "abb";
 
-    cout << s.canReorderDoubled(l) <<endl;
+    cout << s.champagneTower(4,2,0) <<endl;
 
 
 
