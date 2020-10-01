@@ -747,6 +747,7 @@
 | [LeetCode 793. 阶乘函数后K个零（二分查找）](https://michael.blog.csdn.net/article/details/106347098) |                                                              |
 | [LeetCode 796. 旋转字符串](https://michael.blog.csdn.net/article/details/105775449) |                                                              |
 | [LeetCode 797. 所有可能的路径（DFS）](https://blog.csdn.net/qq_21201267/article/details/101574194) |                                                              |
+| [LeetCode 799. 香槟塔（DP动态规划）](https://michael.blog.csdn.net/article/details/108893062) |                                                              |
 | [LeetCode 800. 相似 RGB 颜色](https://blog.csdn.net/qq_21201267/article/details/107095932) |                                                              |
 | [LeetCode 801. 使序列递增的最小交换次数（动态规划）](https://michael.blog.csdn.net/article/details/105841553) |                                                              |
 | [LeetCode 802. 找到最终的安全状态（逆向图+拓扑排序）](https://michael.blog.csdn.net/article/details/108864377) |                                                              |
