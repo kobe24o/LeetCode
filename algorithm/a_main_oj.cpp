@@ -18,21 +18,43 @@ typedef long long ll;
 
 class Solution {
 public:
-    double champagneTower(int poured, int query_row, int query_glass) {
-        vector<vector<double>> dp(101, vector<double>(101, 0.0));
-        int layer = 0, full = 0, up_l, up_r;
-        dp[0][0] = poured;
-        for(int i = 1; i <= query_row; ++i)
+    /**
+     * @param num: sequence
+     * @return: The longest valley sequence
+     */
+    int valley(vector<int> &num) {
+        // write your code here
+        int n = num.size();
+        if(n <= 1) return 0;
+        vector<int> up(n, 1), down(n, 1);//最长递增数组
+        for(int i = 0, j; i < n; i++)
         {
-            for(int j = 0; j <= i; ++j)
+            for(j = i+1; j < n; j++)
             {
-                up_l = j > 0 ? dp[i-1][j-1] : 0;
-                up_r = dp[i-1][j];
-                dp[i][j] += up_l > 1 ? (up_l-1)/2.0 : 0;
-                dp[i][j] += up_r > 1 ? (up_r-1)/2.0 : 0;
+                if(num[j] < num[i])
+                    down[j] = max(down[j], down[i] + 1);
             }
         }
-        return min(1.0, dp[query_row][query_glass]);
+        for(int i = n-1, j; i >= 0; i--)
+        {
+            for(j = i-1; j >= 0; j--)
+            {
+                if(num[j] < num[i])
+                    up[j] = max(up[j], up[i] + 1);
+            }
+        }
+        int maxlen = 0;
+        for(int i = 0, j; i < n; i++)
+        {
+            for(j = i+1; j < n; j++)
+            {
+                if(num[i] == num[j])
+                {
+                    maxlen = max(maxlen, down[i]+up[j]);
+                }
+            }
+        }
+        return maxlen;
     }
 };
 //"0010 0110 0100 111"
@@ -40,13 +62,13 @@ public:
 //001001100100111
 int main()
 {
-    vector<int> l = {-8,-4,-2,-1,0,0,1,2,4,8};
+    vector<int> l = {2,1,0,1,2,3,4,5};
     vector<vector<int>> t = {{1,2},{2,3},{3,4},{4,1},{2,5},{5,6}};
     vector<vector<int>> t1 = {{15,96},{36,2}};
      Solution s;
     string str = "abb";
 
-    cout << s.champagneTower(4,2,0) <<endl;
+    cout << s.valley(l) <<endl;
 
 
 
