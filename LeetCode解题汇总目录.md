@@ -856,6 +856,7 @@
 | [LeetCode 945. 使数组唯一的最小增量（贪心）](https://blog.csdn.net/qq_21201267/article/details/105032960) |                                                              |
 | [LeetCode 946. 验证栈序列（栈）](https://michael.blog.csdn.net/article/details/103566492) |                                                              |
 | [LeetCode 947. 移除最多的同行或同列石头（并查集）](https://michael.blog.csdn.net/article/details/106795331) |                                                              |
+| [LeetCode 948. 令牌放置（贪心）](https://michael.blog.csdn.net/article/details/108899901) |                                                              |
 | [LeetCode 949. 给定数字能组成的最大时间（暴力）](https://michael.blog.csdn.net/article/details/105804878) |                                                              |
 | [LeetCode 950. 按递增顺序显示卡牌（deque）](https://blog.csdn.net/qq_21201267/article/details/100608442) |                                                              |
 | [LeetCode 951. 翻转等价二叉树（递归）](https://michael.blog.csdn.net/article/details/102998305) |                                                              |
