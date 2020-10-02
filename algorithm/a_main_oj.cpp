@@ -18,29 +18,43 @@ typedef long long ll;
 
 class Solution {
 public:
-    int bagOfTokensScore(vector<int>& tokens, int P) {
-    	int points = 0, maxPoints = 0, n = tokens.size();
-    	sort(tokens.begin(), tokens.end());
-    	if(n==0 || P < tokens[0])
-    		return 0;
-    	int l = 0, r = n-1;
-    	while(l <= r)
-    	{
-    		if(P > tokens[l])//能量够，去拿分
-    		{
-    			points++;
-    			P -= tokens[l];
-    			l++;
-    		}
-    		else
-    		{
-                points--;
-                P += tokens[r];
-                r--;
+    int minDeletionSize(vector<string>& A) {
+        int n = A.size();
+        set<int> s, temp;//记录顺序未确定的
+        for(int i = 0; i < n; ++i)
+            s.insert(i);
+        int del = 0;
+        for(int j = 0; j < n; ++j)
+        {
+            bool order = true, equal = false;
+            char prev = 'a'-1;
+            int previd = -1;
+            for(auto i : s)
+            {
+                if(prev == A[i][j])
+                {
+                    equal = true;
+                    temp.insert(previd);
+                    temp.insert(i);
+                }
+                else if(prev > A[i][j])
+                {
+                    del++;
+                    order = false;
+                    break;
+                }
+                prev = A[i][j];
+                previd = i;
             }
-    		maxPoints = max(points, maxPoints);
-    	}
-    	return maxPoints;
+            if(order && !equal)
+                break;
+            if(order && equal)
+            {
+                s = temp;
+                temp.clear();
+            }
+        }
+        return del;
     }
 };
 //"0010 0110 0100 111"
@@ -49,12 +63,12 @@ public:
 int main()
 {
     vector<int> l = {100,200,300,400};
+    vector<string> str = {"abx","agz","bgc","bfc"};
     vector<vector<int>> t = {{1,2},{2,3},{3,4},{4,1},{2,5},{5,6}};
     vector<vector<int>> t1 = {{15,96},{36,2}};
-     Solution s;
-    string str = "abb";
+    Solution s;
 
-    cout << s.bagOfTokensScore(l,200) <<endl;
+    cout << s.minDeletionSize(str) <<endl;
 
 
 
