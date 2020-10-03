@@ -670,6 +670,7 @@
 | [LeetCode 685. 冗余连接 II（并查集）](https://michael.blog.csdn.net/article/details/106410823) |                                                              |
 | [LeetCode 686. 重复叠加字符串匹配](https://michael.blog.csdn.net/article/details/103193202) |                                                              |
 | [LeetCode 687. 最长同值路径（二叉树，递归）](https://michael.blog.csdn.net/article/details/103191442) |                                                              |
+| [LeetCode 688. “马”在棋盘上的概率（DP）](https://michael.blog.csdn.net/article/details/108913560) |                                                              |
 | [LeetCode 690. 员工的重要性（图的DFS&BFS）](https://michael.blog.csdn.net/article/details/103153141) |                                                              |
 | [LeetCode 692. 前K个高频单词（优先队列）](https://michael.blog.csdn.net/article/details/106008947) |                                                              |
 | [LeetCode 693. 交替位二进制数（位运算）](https://blog.csdn.net/qq_21201267/article/details/101096121) |                                                              |
