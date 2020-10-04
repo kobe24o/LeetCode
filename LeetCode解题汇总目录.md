@@ -849,6 +849,7 @@
 | [LeetCode 932. 漂亮数组（分治递归/循环）](https://michael.blog.csdn.net/article/details/106279389) |                                                              |
 | [LeetCode 933. 最近的请求次数（queue）](https://blog.csdn.net/qq_21201267/article/details/100746524) |                                                              |
 | [LeetCode 934. 最短的桥（2次BFS）](https://michael.blog.csdn.net/article/details/103938366) |                                                              |
+| [LeetCode 935. 骑士拨号器（动态规划）](https://michael.blog.csdn.net/article/details/108922475) |                                                              |
 | [LeetCode 937. 重新排列日志文件（自定义排序）](https://blog.csdn.net/qq_21201267/article/details/103171169) |                                                              |
 | [LeetCode 938. 二叉搜索树的范围和（二叉树遍历+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100609270) |                                                              |
 | [LeetCode 939. 最小面积矩形（哈希）](https://michael.blog.csdn.net/article/details/108053430) |                                                              |
