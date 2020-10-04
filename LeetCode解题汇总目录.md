@@ -1344,6 +1344,10 @@
 | [LeetCode 1599. 经营摩天轮的最大利润（模拟）](https://michael.blog.csdn.net/article/details/108827543) |                                                              |
 | [LeetCode 1600. 皇位继承顺序（图的深度优先遍历）](https://michael.blog.csdn.net/article/details/108829683) |                                                              |
 | [LeetCode 1601. 最多可达成的换楼请求数目（回溯+剪枝）](https://michael.blog.csdn.net/article/details/108835238) |                                                              |
+| [LeetCode 5515. 设计停车系统](https://michael.blog.csdn.net/article/details/108914842#1_LeetCode_5515__easy_15) |                                                              |
+| [LeetCode 5516. 警告一小时内使用相同员工卡大于等于三次的人（map+set）](https://michael.blog.csdn.net/article/details/108914842#2_LeetCode_5516__medium_89) |                                                              |
+| [LeetCode 5518. 给定行和列的和求可行矩阵（贪心）](https://michael.blog.csdn.net/article/details/108914842#3_LeetCode_5518__medium_179) |                                                              |
+| [LeetCode 5517. 找到处理最多请求的服务器（优先队列+set）](https://michael.blog.csdn.net/article/details/108914842#4_LeetCode_5517__hard_258) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
