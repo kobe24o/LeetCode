@@ -1348,6 +1348,8 @@
 | [LeetCode 5516. 警告一小时内使用相同员工卡大于等于三次的人（map+set）](https://michael.blog.csdn.net/article/details/108914842#2_LeetCode_5516__medium_89) |                                                              |
 | [LeetCode 5518. 给定行和列的和求可行矩阵（贪心）](https://michael.blog.csdn.net/article/details/108914842#3_LeetCode_5518__medium_179) |                                                              |
 | [LeetCode 5517. 找到处理最多请求的服务器（优先队列+set）](https://michael.blog.csdn.net/article/details/108914842#4_LeetCode_5517__hard_258) |                                                              |
+| [LeetCode 5531. 特殊数组的特征值](https://michael.blog.csdn.net/article/details/108921246) |                                                              |
+| [LeetCode 5532. 奇偶树（层序遍历）](https://michael.blog.csdn.net/article/details/108921586) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
