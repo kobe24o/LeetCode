@@ -899,6 +899,7 @@
 | [LeetCode 991. 坏了的计算器（逆向思考）](https://michael.blog.csdn.net/article/details/103498206) |                                                              |
 | [LeetCode 993. 二叉树的堂兄弟节点（层序遍历）](https://michael.blog.csdn.net/article/details/103113397) |                                                              |
 | [LeetCode 994. 腐烂的橘子（图的BFS）](https://blog.csdn.net/qq_21201267/article/details/102906778) |                                                              |
+| [LeetCode 996. 正方形数组的数目（回溯+剪枝）](https://michael.blog.csdn.net/article/details/108927702) |                                                              |
 | [LeetCode 997. 找到小镇的法官（图的出度和入度）](https://michael.blog.csdn.net/article/details/103174525) |                                                              |
 | [LeetCode 998. 最大二叉树 II](https://blog.csdn.net/qq_21201267/article/details/100785910) |                                                              |
 | [LeetCode 999. 车的可用捕获量](https://michael.blog.csdn.net/article/details/105108754) |                                                              |
