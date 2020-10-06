@@ -4,64 +4,63 @@ using namespace std;
 
 
 class Solution {
+    vector<int> ans, son, dp;
+    vector<vector<int>> g;
 public:
-    int minimumOneBitOperations(int n) {
-        if(n == 0)
-            return 0;
-        queue<int> q;
-        unordered_set<int> vis;
-        vis.insert(n);
-        int step = 0, size;
-        q.push(n);
-        while(!q.empty())
+    vector<int> sumOfDistancesInTree(int N, vector<vector<int>>& edges) {
+        ans.resize(N);
+        son.resize(N);
+        dp.resize(N);
+        g.resize(N);
+        for(auto& e : edges)
         {
-            size = q.size();
-            while(size--)
-            {
-                int cur = q.front();
-                if(cur == 0)
-                    return step;
-                q.pop();
-                int nt = ((cur>>1)<<1)|(~(cur&1));
-                if(!vis.count(nt))
-                {
-                    q.push(nt);
-                    vis.insert(nt);
-                }
-                bool foundone = false;
-                int i;
-                for(i = 0; i < 31; i++)
-                {
-                    if(((cur>>i)&1)){
-                        foundone = true;
-                        break;
-                    }
-                }
-                if(foundone &&  i+1 < 32)
-                {
-                    nt = (cur&(~(1<<(i+1))))|((~((cur>>(i+1))&1))<<(i+1));
-                    if(!vis.count(nt))
-                    {
-                        q.push(nt);
-                        vis.insert(nt);
-                    }
-                }
-            }
-            step++;
+            g[e[0]].push_back(e[1]);
+            g[e[1]].push_back(e[0]);
         }
-        return step;
+        dfs1(0, -1);
+        dfs2(0, -1);
+        return ans;
+    }
+    void dfs1(int u, int f)
+    {
+        son[u] = 1;
+        dp[u] = 0;
+        for(auto v : g[u])
+        {
+            if(v == f)
+                continue;
+            dfs1(v, u);
+            dp[u] += dp[v]+son[v];
+            son[u] += son[v];
+        }
+    }
+    void dfs2(int u, int f)
+    {
+        ans[u] = dp[u];
+        for(auto v : g[u])
+        {
+            if(v == f)
+                continue;
+            int dpu = dp[u], dpv = dp[v];
+            int sonu = son[u], sonv = son[v];
+            dp[u] -= dp[v]+son[v];
+            son[u] -= son[v];
+            dp[v] += dp[u]+son[u];
+            son[v] += son[u];
+            dfs2(v, u);
+            dp[u] = dpu, dp[v] = dpv;
+            son[u] = sonu, son[v] = sonv;
+        }
     }
 };
 int main()
 {
-    // Solution s;
+     Solution s;
     vector<int> r = {3,8}, c = {4,7};
     vector<string> n = {"a","a","a","a","a","b","b","b","b","b","b"};
     vector<string> t = {"23:20","11:09","23:30","23:02","15:28","22:57","23:40","03:43","21:55","20:38","00:19"};
-    // s.minimumOneBitOperations(3);
-    int cur = 3;
-    cout << (~(cur&1)) << endl;
-    cout << ((cur>>1)<<1) << endl;
-    cout << (((cur>>1)<<1)|(~(cur&1))) << endl;
+
+    vector<vector<int>> g = {{0,1},{0,2},{2,3},{2,4},{2,5}};
+    s.sumOfDistancesInTree(6,g);
     return 0;
 }
