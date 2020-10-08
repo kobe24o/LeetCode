@@ -1049,6 +1049,7 @@
 | [LeetCode 1207. 独一无二的出现次数](https://michael.blog.csdn.net/article/details/105802661) |                                                              |
 | [LeetCode 1208. 尽可能使字符串相等（滑动窗口）](https://michael.blog.csdn.net/article/details/103324980) |                                                              |
 | [LeetCode 1209. 删除字符串中的所有相邻重复项 II（栈）](https://michael.blog.csdn.net/article/details/103325673) |                                                              |
+| [LeetCode 1210. 穿过迷宫的最少移动次数（状态压缩BFS）](https://michael.blog.csdn.net/article/details/108962523) |                                                              |
 | [LeetCode 1213. 三个有序数组的交集（哈希set）](https://blog.csdn.net/qq_21201267/article/details/107093759) |                                                              |
 | [LeetCode 1214. 查找两棵二叉搜索树之和（二叉树迭代器+双指针）](https://blog.csdn.net/qq_21201267/article/details/107121498) |                                                              |
 | [LeetCode 1215. 步进数（BFS/DFS）](https://michael.blog.csdn.net/article/details/107581522) |                                                              |
