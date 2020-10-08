@@ -1079,6 +1079,7 @@
 | [LeetCode 1247. 交换字符使得字符串相同](https://michael.blog.csdn.net/article/details/103561781) |                                                              |
 | [LeetCode 1248. 统计「优美子数组」（要复习）](https://michael.blog.csdn.net/article/details/105648303) |                                                              |
 | [LeetCode 1249. 移除无效的括号（栈+set / deque）](https://michael.blog.csdn.net/article/details/105793246) |                                                              |
+| [LeetCode 1250. 检查「好数组」(set / 最大公约数)](https://michael.blog.csdn.net/article/details/108960785) |                                                              |
 | [LeetCode 1252. 奇数值单元格的数目](https://michael.blog.csdn.net/article/details/103133482) |                                                              |
 | [LeetCode 1253. 重构 2 行二进制矩阵（贪心）](https://michael.blog.csdn.net/article/details/103319764) |                                                              |
 | [LeetCode 1254. 统计封闭岛屿的数目（图的BFS & DFS）](https://michael.blog.csdn.net/article/details/103231347) |                                                              |
