@@ -1056,6 +1056,7 @@
 | [LeetCode 1217. 玩筹码（脑筋急转弯）](https://michael.blog.csdn.net/article/details/105802562) |                                                              |
 | [LeetCode 1218. 最长定差子序列（哈希map）](https://michael.blog.csdn.net/article/details/106817938) |                                                              |
 | [LeetCode 1219. 黄金矿工（回溯）](https://michael.blog.csdn.net/article/details/102999022) |                                                              |
+| [LeetCode 1220. 统计元音字母序列的数目（DP）](https://michael.blog.csdn.net/article/details/108960182) |                                                              |
 | [LeetCode 1221. 分割平衡字符串](https://michael.blog.csdn.net/article/details/105802345) |                                                              |
 | [LeetCode 1222. 可以攻击国王的皇后（set）](https://michael.blog.csdn.net/article/details/105802412) |                                                              |
 | [LeetCode 1223. 掷骰子模拟（DP）](https://michael.blog.csdn.net/article/details/106675048) |                                                              |
