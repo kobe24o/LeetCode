@@ -776,6 +776,7 @@
 | [LeetCode 824. 山羊拉丁文](https://michael.blog.csdn.net/article/details/105762430) |                                                              |
 | [LeetCode 825. 适龄的朋友（计数排序+前缀和）](https://michael.blog.csdn.net/article/details/108881492) |                                                              |
 | [LeetCode 826. 安排工作以达到最大收益（map）](https://michael.blog.csdn.net/article/details/106320023) |                                                              |
+| [LeetCode 827. 最大人工岛（BFS+哈希）](https://michael.blog.csdn.net/article/details/108896433) |                                                              |
 | [LeetCode 828. 统计子串中的唯一字符（中心扩展）](https://michael.blog.csdn.net/article/details/107027774) |                                                              |
 | [LeetCode 829. 连续整数求和（数学）](https://michael.blog.csdn.net/article/details/103501644) |                                                              |
 | [LeetCode 830. 较大分组的位置](https://michael.blog.csdn.net/article/details/105775988) |                                                              |
