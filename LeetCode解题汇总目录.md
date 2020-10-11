@@ -1367,6 +1367,7 @@
 | [LeetCode 1610. 可见点的最大数目（atan2函数求夹角）](https://michael.blog.csdn.net/article/details/108921772) |                                                              |
 | [LeetCode 5535. 括号的最大嵌套深度](https://michael.blog.csdn.net/article/details/109011780) |                                                              |
 | [LeetCode 5536. 最大网络秩（出入度）](https://michael.blog.csdn.net/article/details/109012095) |                                                              |
+| [LeetCode 1616. 分割两个字符串得到回文串](https://michael.blog.csdn.net/article/details/109012491) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
