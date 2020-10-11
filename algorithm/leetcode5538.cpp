@@ -10,8 +10,8 @@ public:
         g.resize(n);
         for(auto& e : edges)
         {
-            g[e[0]].push_back(e[1]);
-            g[e[1]].push_back(e[0]);
+            g[e[0]-1].push_back(e[1]-1);
+            g[e[1]-1].push_back(e[0]-1);
         }
         dfs(0);
         return ans;
@@ -24,7 +24,7 @@ public:
                 return;//题意至少需要两个点
             int d = calculateD();
             if(d != -1)
-                ans[d]++;
+                ans[d-1]++;
             return;
         }
         dfs(i+1);//当前点不选
@@ -73,7 +73,7 @@ public:
         }
         else
         {
-            return step;
+            return step-1;
         }
     }
 };
