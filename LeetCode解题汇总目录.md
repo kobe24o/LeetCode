@@ -1119,6 +1119,7 @@
 | [LeetCode 1295. 统计位数为偶数的数字](https://michael.blog.csdn.net/article/details/105801508) |                                                              |
 | [LeetCode 1296. 划分数组为连续数字的集合（map模拟）](https://michael.blog.csdn.net/article/details/106577446) |                                                              |
 | [LeetCode 1297. 子串的最大出现次数](https://michael.blog.csdn.net/article/details/106390406) |                                                              |
+| [LeetCode 1298. 你能从盒子里获得的最大糖果数（BFS）](https://michael.blog.csdn.net/article/details/109007617) |                                                              |
 | [LeetCode 1299. 将每个元素替换为右侧最大元素](https://michael.blog.csdn.net/article/details/103757611#LeetCode_1299__easy_7) |                                                              |
 | [LeetCode 1300. 转变数组后最接近目标值的数组和（二分查找）](https://michael.blog.csdn.net/article/details/105868275) |                                                              |
 | [LeetCode 1301. 最大得分的路径数目](https://michael.blog.csdn.net/article/details/103757611#LeetCode_1301__hard_76) |                                                              |
