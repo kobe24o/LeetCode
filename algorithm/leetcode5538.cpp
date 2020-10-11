@@ -1,11 +1,12 @@
 class Solution {
     vector<int> ans;
     vector<vector<int>> g;//图
-    unordered_set<int> sub;//子节点集
+    vector<int> sub;//子节点集
     int N;
 public:
     vector<int> countSubgraphsForEachDiameter(int n, vector<vector<int>>& edges) {
         N = n;
+        sub = vector<int> (n, 0);
         ans = vector<int> (n-1, 0);
         g.resize(n);
         for(auto& e : edges)
@@ -20,32 +21,37 @@ public:
     {
         if(i == N)
         {
-            if(sub.size() <= 1)
-                return;//题意至少需要两个点
             int d = calculateD();
             if(d != -1)
                 ans[d-1]++;
             return;
         }
         dfs(i+1);//当前点不选
-        sub.insert(i);
+        sub[i] = 1;//标记节点选中了
         dfs(i+1);//当前点选
-        sub.erase(i);
+        sub[i] = 0;//回溯
     }
     int calculateD()//判断联通，以及最大直径
     {
-        int last = bfs(*sub.begin(), true);//以任意一点开始bfs
+        int start = -1;
+        for(int i = 0; i < N && start == -1; ++i)
+            if(sub[i] == 1)
+                start = i;
+        int last = bfs(start, true);//以任意一点开始bfs
         if(last == -1)//图不连通，返回
             return -1;
         return bfs(last, false);//以last点开始bfs求最大直径
     }
     int bfs(int id, bool option)
     {
-        int count = 0, total = sub.size(), last, size, step = 0;
-        unordered_set<int> unvis(sub);
+        int count = 0, total = accumulate(sub.begin(),sub.end(),0);
+        if(total <= 1)
+            return -1;// 少于2个点，不满足题意
+        int last, size, step = 0;
+        vector<int> unvis(sub);
         queue<int> q;
         q.push(id);
-        unvis.erase(id);
+        unvis[id] = 0;
         while(!q.empty())
         {
             size = q.size();
@@ -56,9 +62,9 @@ public:
                 count++;
                 for(int nt : g[id])
                 {
-                    if(unvis.count(nt))
+                    if(unvis[nt])
                     {
-                        unvis.erase(nt);
+                        unvis[nt] = 0;
                         q.push(nt);
                     }
                 }
