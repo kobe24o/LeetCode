@@ -92,5 +92,7 @@ int main()
 
     vector<vector<int>> g = {{1,2},{2,3},{2,4}};
     s.countSubgraphsForEachDiameter(4, g);
+    cout << "test!!!" << endl;
+    system("pause");
     return 0;
 }
