@@ -1138,6 +1138,7 @@
 | [LeetCode 1317. 将整数转换为两个无零整数的和](https://michael.blog.csdn.net/article/details/103949611) |                                                              |
 | [LeetCode 1318. 或运算的最小翻转次数（位运算）](https://michael.blog.csdn.net/article/details/105888872) |                                                              |
 | [LeetCode 1319. 连通网络的操作次数（BFS/DFS/并查集）](https://michael.blog.csdn.net/article/details/106087256) |                                                              |
+| [LeetCode 1320. 二指输入的的最小距离（动态规划）](https://michael.blog.csdn.net/article/details/109068475) |                                                              |
 | [LeetCode 1323. 6 和 9 组成的最大数字](https://michael.blog.csdn.net/article/details/104057397) |                                                              |
 | [LeetCode 1324. 竖直打印单词](https://michael.blog.csdn.net/article/details/106007087) |                                                              |
 | [LeetCode 1325. 删除给定值的叶子节点（递归）](https://michael.blog.csdn.net/article/details/105546735) |                                                              |
