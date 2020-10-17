@@ -929,6 +929,7 @@
 | [LeetCode 1021. 删除最外层的括号（栈）](https://blog.csdn.net/qq_21201267/article/details/100611450) |                                                              |
 | [LeetCode 1022. 从根到叶的二进制数之和（递归）](https://michael.blog.csdn.net/article/details/103058521) |                                                              |
 | [LeetCode 1023. 驼峰式匹配（暴力匹配）](https://michael.blog.csdn.net/article/details/103517033) |                                                              |
+| [LeetCode 1024. 视频拼接（动态规划/贪心）](https://michael.blog.csdn.net/article/details/109129842) |                                                              |
 | [LeetCode 1025. 除数博弈（动态规划）](https://michael.blog.csdn.net/article/details/105809852) |                                                              |
 | [LeetCode 1026. 节点与其祖先之间的最大差值（二叉树DFS）](https://michael.blog.csdn.net/article/details/103357890) |                                                              |
 | [LeetCode 1027. 最长等差数列（DP）](https://michael.blog.csdn.net/article/details/106820302) |                                                              |
