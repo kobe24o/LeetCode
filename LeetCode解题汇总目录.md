@@ -1378,6 +1378,7 @@
 | [LeetCode 5528. 网络信号最好的坐标](https://michael.blog.csdn.net/article/details/109143371) |                                                              |
 | [LeetCode 5543. 两个相同字符之间的最长子字符串](https://michael.blog.csdn.net/article/details/109143817) |                                                              |
 | [LeetCode 5544. 执行操作后字典序最小的字符串（BFS）](https://michael.blog.csdn.net/article/details/109144840) |                                                              |
+| [LeetCode 5545. 无矛盾的最佳球队（最大上升子序DP）](https://michael.blog.csdn.net/article/details/109147451) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
