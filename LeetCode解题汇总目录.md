@@ -1374,17 +1374,19 @@
 | [LeetCode 1615. 最大网络秩（出入度）](https://michael.blog.csdn.net/article/details/109012095) |                                                              |
 | [LeetCode 1616. 分割两个字符串得到回文串](https://michael.blog.csdn.net/article/details/109012491) |                                                              |
 | [LeetCode 1617. 统计子树中城市之间最大距离（枚举所有可能+图的最大直径）](https://michael.blog.csdn.net/article/details/109014936) |                                                              |
-| [LeetCode 5122. 删除某些元素后的数组均值](https://michael.blog.csdn.net/article/details/109143348) |                                                              |
-| [LeetCode 5528. 网络信号最好的坐标](https://michael.blog.csdn.net/article/details/109143371) |                                                              |
-| [LeetCode 5543. 两个相同字符之间的最长子字符串](https://michael.blog.csdn.net/article/details/109143817) |                                                              |
-| [LeetCode 5544. 执行操作后字典序最小的字符串（BFS）](https://michael.blog.csdn.net/article/details/109144840) |                                                              |
-| [LeetCode 5545. 无矛盾的最佳球队（最大上升子序DP）](https://michael.blog.csdn.net/article/details/109147451) |                                                              |
+| [LeetCode 1619. 删除某些元素后的数组均值](https://michael.blog.csdn.net/article/details/109143348) |                                                              |
+| [LeetCode 1620. 网络信号最好的坐标](https://michael.blog.csdn.net/article/details/109143371) |                                                              |
+| [LeetCode 1624. 两个相同字符之间的最长子字符串](https://michael.blog.csdn.net/article/details/109143817) |                                                              |
+| [LeetCode 1625. 执行操作后字典序最小的字符串（BFS）](https://michael.blog.csdn.net/article/details/109144840) |                                                              |
+| [LeetCode 1626. 无矛盾的最佳球队（最大上升子序DP）](https://michael.blog.csdn.net/article/details/109147451) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
 | [LeetCode LCP 18. 早餐组合（排序+二分）](https://michael.blog.csdn.net/article/details/108553304#2_LeetCode_LCP_18__easy_70) |                                                              |
 | [LeetCode LCP 19. 秋叶收藏集（DP）](https://michael.blog.csdn.net/article/details/108553304#3_LeetCode_LCP_19__medium_189) |                                                              |
 | [LeetCode LCP 22. 黑白方格画](https://michael.blog.csdn.net/article/details/108684240) |                                                              |
+| [LeetCode 网易-1. 分割环（前缀和 + 哈希）](https://michael.blog.csdn.net/article/details/109208128) |                                                              |
+| [LeetCode 网易-2. 古老的游戏机](https://michael.blog.csdn.net/article/details/109207550) |                                                              |
 
 
 
