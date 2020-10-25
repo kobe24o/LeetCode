@@ -1379,6 +1379,7 @@
 | [LeetCode 1624. 两个相同字符之间的最长子字符串](https://michael.blog.csdn.net/article/details/109143817) |                                                              |
 | [LeetCode 1625. 执行操作后字典序最小的字符串（BFS）](https://michael.blog.csdn.net/article/details/109144840) |                                                              |
 | [LeetCode 1626. 无矛盾的最佳球队（最大上升子序DP）](https://michael.blog.csdn.net/article/details/109147451) |                                                              |
+| [LeetCode 5546. 按键持续时间最长的键](https://michael.blog.csdn.net/article/details/109273024) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
