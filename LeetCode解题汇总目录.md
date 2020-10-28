@@ -731,6 +731,7 @@
 | [LeetCode 760. 找出变位映射（哈希）](https://blog.csdn.net/qq_21201267/article/details/107092979) |                                                              |
 | [LeetCode 762. 二进制表示中质数个计算置位](https://blog.csdn.net/qq_21201267/article/details/101039460) |                                                              |
 | [LeetCode 763. 划分字母区间](https://blog.csdn.net/qq_21201267/article/details/100677335) |                                                              |
+| [LeetCode 764. 最大加号标志（DP）](https://michael.blog.csdn.net/article/details/109341035) |                                                              |
 | [LeetCode 765. 情侣牵手（贪心）](https://blog.csdn.net/qq_21201267/article/details/100839491) |                                                              |
 | [LeetCode 766. 托普利茨矩阵](https://michael.blog.csdn.net/article/details/105798793) |                                                              |
 | [LeetCode 767. 重构字符串（堆）](https://michael.blog.csdn.net/article/details/108841568) |                                                              |
@@ -1379,9 +1380,9 @@
 | [LeetCode 1624. 两个相同字符之间的最长子字符串](https://michael.blog.csdn.net/article/details/109143817) |                                                              |
 | [LeetCode 1625. 执行操作后字典序最小的字符串（BFS）](https://michael.blog.csdn.net/article/details/109144840) |                                                              |
 | [LeetCode 1626. 无矛盾的最佳球队（最大上升子序DP）](https://michael.blog.csdn.net/article/details/109147451) |                                                              |
-| [LeetCode 5546. 按键持续时间最长的键](https://michael.blog.csdn.net/article/details/109273024) |                                                              |
-| [LeetCode 5547. 等差子数组](https://michael.blog.csdn.net/article/details/109273589) |                                                              |
-| [LeetCode 5548. 最小体力消耗路径（DFS + 二分查找）](https://michael.blog.csdn.net/article/details/109274216) |                                                              |
+| [LeetCode 1629. 按键持续时间最长的键](https://michael.blog.csdn.net/article/details/109273024) |                                                              |
+| [LeetCode 1630. 等差子数组](https://michael.blog.csdn.net/article/details/109273589) |                                                              |
+| [LeetCode 1631. 最小体力消耗路径（DFS + 二分查找）](https://michael.blog.csdn.net/article/details/109274216) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
