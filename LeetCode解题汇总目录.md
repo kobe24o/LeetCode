@@ -1388,6 +1388,7 @@
 | [LeetCode 5540. 两点之间不包含任何点的最宽垂直面积](https://michael.blog.csdn.net/article/details/109432554) |                                                              |
 | [LeetCode 5541. 统计只差一个字符的子串数目（DP）](https://michael.blog.csdn.net/article/details/109433008) |                                                              |
 | [LeetCode 5554. 能否连接形成数组（哈希）](https://michael.blog.csdn.net/article/details/109435340) |                                                              |
+| [LeetCode 5555. 统计字典序元音字符串的数目（DP）](https://michael.blog.csdn.net/article/details/109435849) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
