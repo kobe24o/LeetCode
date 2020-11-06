@@ -375,6 +375,7 @@
 | [LeetCode 313. 超级丑数（动态规划）](https://michael.blog.csdn.net/article/details/105932017) |                                                              |
 | [LeetCode 314. 二叉树的垂直遍历（BFS/DFS）](https://michael.blog.csdn.net/article/details/107825446) |                                                              |
 | [LeetCode 315. 计算右侧小于当前元素的个数（二叉查找树&二分查找&归并排序逆序数总结）](https://blog.csdn.net/qq_21201267/article/details/102876496) |                                                              |
+| [LeetCode 316. 去除重复字母（单调栈）](https://michael.blog.csdn.net/article/details/109538681) |                                                              |
 | [LeetCode 317. 离建筑物最近的距离（逆向BFS）*](https://michael.blog.csdn.net/article/details/107923146) |                                                              |
 | [LeetCode 318. 最大单词长度乘积（位运算）](https://michael.blog.csdn.net/article/details/103231137) |                                                              |
 | [LeetCode 319. 灯泡开关（找规律）](https://michael.blog.csdn.net/article/details/103607028) |                                                              |
@@ -978,6 +979,7 @@
 | [LeetCode 1078. Bigram 分词](https://blog.csdn.net/qq_21201267/article/details/101173096) |                                                              |
 | [LeetCode 1079. 活字印刷（全排列回溯）](https://blog.csdn.net/qq_21201267/article/details/100644009) |                                                              |
 | [LeetCode 1080. 根到叶路径上的不足节点（递归）](https://michael.blog.csdn.net/article/details/103690245) |                                                              |
+| [LeetCode 1081. 不同字符的最小子序列（单调栈）](https://michael.blog.csdn.net/article/details/109538681) |                                                              |
 | [LeetCode 1085. 最小元素各数位之和](https://blog.csdn.net/qq_21201267/article/details/107093866) |                                                              |
 | [LeetCode 1086. 前五科的均分（map + 优先队列）](https://blog.csdn.net/qq_21201267/article/details/107094524) |                                                              |
 | [LeetCode 1087. 字母切换（回溯）](https://michael.blog.csdn.net/article/details/107541722) |                                                              |
