@@ -727,6 +727,7 @@
 | [LeetCode 752. 打开转盘锁（图的BFS最短路径）](https://blog.csdn.net/qq_21201267/article/details/101485240) |                                                              |
 | [LeetCode 754. 到达终点数字（数学推理）](https://blog.csdn.net/qq_21201267/article/details/102888341) |                                                              |
 | [LeetCode 755. 倒水（模拟）](https://michael.blog.csdn.net/article/details/107883940) |                                                              |
+| [LeetCode 756. 金字塔转换矩阵（回溯）](https://michael.blog.csdn.net/article/details/109537003) |                                                              |
 | [LeetCode 758. 字符串中的加粗单词（Trie树）](https://blog.csdn.net/qq_21201267/article/details/107100343) |                                                              |
 | [LeetCode 759. 员工空闲时间（排序）](https://michael.blog.csdn.net/article/details/107967098) |                                                              |
 | [LeetCode 760. 找出变位映射（哈希）](https://blog.csdn.net/qq_21201267/article/details/107092979) |                                                              |
@@ -1384,12 +1385,12 @@
 | [LeetCode 1629. 按键持续时间最长的键](https://michael.blog.csdn.net/article/details/109273024) |                                                              |
 | [LeetCode 1630. 等差子数组](https://michael.blog.csdn.net/article/details/109273589) |                                                              |
 | [LeetCode 1631. 最小体力消耗路径（DFS + 二分查找）](https://michael.blog.csdn.net/article/details/109274216) |                                                              |
-| [LeetCode 5539. 按照频率将数组升序排序（哈希+排序）](https://michael.blog.csdn.net/article/details/109432416) |                                                              |
-| [LeetCode 5540. 两点之间不包含任何点的最宽垂直面积](https://michael.blog.csdn.net/article/details/109432554) |                                                              |
-| [LeetCode 5541. 统计只差一个字符的子串数目（DP）](https://michael.blog.csdn.net/article/details/109433008) |                                                              |
-| [LeetCode 5554. 能否连接形成数组（哈希）](https://michael.blog.csdn.net/article/details/109435340) |                                                              |
-| [LeetCode 5555. 统计字典序元音字符串的数目（DP）](https://michael.blog.csdn.net/article/details/109435849) |                                                              |
-| [LeetCode 5556. 可以到达的最远建筑（二分查找 / 优先队列贪心）](https://michael.blog.csdn.net/article/details/109439718) |                                                              |
+| [LeetCode 1636. 按照频率将数组升序排序（哈希+排序）](https://michael.blog.csdn.net/article/details/109432416) |                                                              |
+| [LeetCode 1637. 两点之间不包含任何点的最宽垂直面积](https://michael.blog.csdn.net/article/details/109432554) |                                                              |
+| [LeetCode 1638. 统计只差一个字符的子串数目（DP）](https://michael.blog.csdn.net/article/details/109433008) |                                                              |
+| [LeetCode 1640. 能否连接形成数组（哈希）](https://michael.blog.csdn.net/article/details/109435340) |                                                              |
+| [LeetCode 1641. 统计字典序元音字符串的数目（DP）](https://michael.blog.csdn.net/article/details/109435849) |                                                              |
+| [LeetCode 1642. 可以到达的最远建筑（二分查找 / 优先队列贪心）](https://michael.blog.csdn.net/article/details/109439718) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
