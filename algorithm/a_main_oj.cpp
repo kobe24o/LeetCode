@@ -9,70 +9,30 @@ struct cmp{
         return a > b;
     }
 };
-#include<vector>
-#include<math.h>
-#include<string.h>
-#include<iostream>
-using namespace std;
-
 class Solution {
 public:
-    int expressiveWords(string S, vector<string>& words) {
-        if(S == "") return 0;
-        int ans = 0, num = 0;
-        vector<char> S_char;
-        vector<int> count;
-        char prev = S[0];
-        for(int i = 0; i < S.size(); i++)
-        {
-            if(S[i] != prev)
-            {
-                S_char.push_back(prev);
-                count.push_back(num);
-                num = 1;
-                prev = S[i];
-            }
-            else
-            {
-                num++;
-            }
-        }
-        S_char.push_back(prev);
-        count.push_back(num);
-        for(auto& w : words)
-        {
-            if(w == "")
-                continue;
-            bool flag = true;
-            int i = 0;
-            num = 0;
-            prev = w[0];
-            for(int j = 0; j < w.size(); j++)
-            {
-                if(w[j] != prev)
-                {
-                    if(i == S_char.size() || prev != S_char[i]
-                       || (count[i] != num && count[i]-num < 2))
-                    {
-                        flag = false;
-                        break;
-                    }
-                    i++;
-                    num = 1;
-                    prev = w[j];
-                }
-                else
-                {
-                    num++;
-                }
-            }
-            if(i == S_char.size() || prev != S_char[i]
-               || (count[i] != num && count[i]-num < 2))
-                flag = false;
-            if(flag && i == S_char.size()-1)
-                ans++;
-        }
-        return ans;
+    /**
+     * @param s: a String
+     * @return: if valid return "YES" else return "NO"
+     */
+    string isValid(string &s) {
+        // write your code here
+        unordered_map<char, int> m;
+        for(char c : s)
+            m[c]++;
+        map<int, int> count;
+        for(auto &mi : m)
+            count[mi.second]++;
+        if(count.size() > 2)
+            return "NO";
+        if(count.size() == 1)
+            return "YES";
+        int diff = 0;
+        int a = count.begin()->first, b = count.rbegin()->first;
+        int n2 = count.rbegin()->second;
+        if(b-a==1 && n2 == 1)
+            return "YES";
+        return "NO";
     }
 };
 int main()
@@ -104,7 +64,8 @@ int main()
     //     cout << maxprice << endl;
     // }
     Solution s;
-    vector<string> w = {"dinnssoo","ddinso","ddiinnso","ddiinnssoo","ddiinso","dinsoo","ddiinsso","dinssoo","dinso"};
-    cout << s.expressiveWords("dddiiiinnssssssoooo", w) << endl;
+    vector<int> a = {1,3,4,1,5};
+    string s1 = "aabbcd";
+    cout << s.isValid(s1) << endl;
     return 0;
 }
