@@ -9,116 +9,102 @@ struct cmp{
         return a > b;
     }
 };
+#include<vector>
+#include<math.h>
+#include<string.h>
+#include<iostream>
+using namespace std;
+
 class Solution {
 public:
-    /**
-     * @param words: a list of words
-     * @return: a string which is correct order
-     */
-    string alienOrder(vector<string> &words) {
-        // Write your code here
-        if(words.size() == 1)
+    int expressiveWords(string S, vector<string>& words) {
+        if(S == "") return 0;
+        int ans = 0, num = 0;
+        vector<char> S_char;
+        vector<int> count;
+        char prev = S[0];
+        for(int i = 0; i < S.size(); i++)
         {
-            sort(words[0].begin(), words[0].end());
-            words[0].erase(unique(words[0].begin(), words[0].end()),words[0].end());
-            return words[0];
-        }
-        unordered_map<char,set<char>> g;
-        unordered_map<char, int> indegree;
-        int n1, n2, n;
-        for(int i = 1, j; i < words.size(); ++i)
-        {
-            if(words[i-1] == words[i])
-                continue;
-            n1 = words[i-1].size();
-            n2 = words[i].size();
-            n = min(n1, n2);
-            for(j = 0; j < n; ++j)
+            if(S[i] != prev)
             {
-                if(words[i-1][j] != words[i][j])
-                {	//不相等的第一个构成有向图的边
-                    if(!g.count(words[i-1][j]) || !g[words[i-1][j]].count(words[i][j]))
-                    {   //防止重复添加同一条边 "za","zb","ca","cb"
-                        g[words[i-1][j]].insert(words[i][j]);
-                        indegree[words[i][j]]++;
-                        indegree[words[i-1][j]] += 0;
-                    }
-                    break;
-                }
-            }
-            if(j == n && n1 > n2)
-                return "";//前面相等，前者长不行
-        }
-        priority_queue<char,vector<char>, cmp> q;
-        for(auto it = indegree.begin(); it != indegree.end(); it++)
-        {
-            if(it->second == 0)
-                q.push(it->first);
-        }
-        set<char> set;
-        for(auto& w : words)
-            for(auto c : w)
-                set.insert(c);
-        string ans;
-        while(!q.empty())
-        {
-//            int size = q.size();
-//            while(size--) {
-            char c = q.top();
-            q.pop();
-            ans += c;
-            set.erase(c);
-            for (auto it = g[c].begin(); it != g[c].end(); it++) {
-                if (--indegree[*it] == 0)
-                    q.push(*it);
-            }
-//            }
-        }
-
-        if(!q.empty())
-            return "";
-        string res;
-        auto it = set.begin();
-        int i = 0;
-        for(; it != set.end() && i < ans.size(); )
-        {
-            if(ans[i] < *it)
-            {
-                res += ans[i];
-                i++;
+                S_char.push_back(prev);
+                count.push_back(num);
+                num = 1;
+                prev = S[i];
             }
             else
             {
-                res += *it;
-                it++;
+                num++;
             }
-
         }
-        while(i < ans.size())
+        S_char.push_back(prev);
+        count.push_back(num);
+        for(auto& w : words)
         {
-            res += ans[i];
-            i++;
+            if(w == "")
+                continue;
+            bool flag = true;
+            int i = 0;
+            num = 0;
+            prev = w[0];
+            for(int j = 0; j < w.size(); j++)
+            {
+                if(w[j] != prev)
+                {
+                    if(i == S_char.size() || prev != S_char[i]
+                       || (count[i] != num && count[i]-num < 2))
+                    {
+                        flag = false;
+                        break;
+                    }
+                    i++;
+                    num = 1;
+                    prev = w[j];
+                }
+                else
+                {
+                    num++;
+                }
+            }
+            if(i == S_char.size() || prev != S_char[i]
+               || (count[i] != num && count[i]-num < 2))
+                flag = false;
+            if(flag && i == S_char.size()-1)
+                ans++;
         }
-        while(it != set.end())
-        {
-            res += *it;
-            it++;
-        }
-        return res;
+        return ans;
     }
 };
-
 int main()
 {
-     Solution s;
-    vector<int> r = {1,2,3,4,5,6}, c = {4,7};
-    vector<string> n = {"wrt","wrf","er","ett","rftt"};
-//    vector<string> n = {"yy","x"};
-    vector<string> t = {"23:20","11:09","23:30","23:02","15:28","22:57","23:40","03:43","21:55","20:38","00:19"};
-
-    vector<vector<int>> g = {{1,2},{2,3},{2,4}};
-    cout << s.alienOrder(n) << endl;
-    cout << "test!!!" << endl;
-    system("pause");
+    // int N, V, vi, si;
+    // while(cin >> V >> N)
+    // {
+    //     int maxprice = 0;
+    //     vector<int> dp(V+1, -1);
+    //     dp[0] = 0;// dp[v] 表示体积为 v 时装的最大价值
+    //     for(int i = 0; i < N; ++i)
+    //     {
+    //         cin >> si >> vi;
+    //         vector<int> temp(V+1, -1);
+    //         for(int j = 0; j <= V; ++j)
+    //         {
+    //             if(dp[j] == -1)//状态不存在
+    //                 continue;
+    //             for(int s = 0; s <= si; ++s)
+    //             {   //当前的物品可以拿 s 次
+    //                 if(j+s*vi > V)//体积超了，不行
+    //                     break;
+    //                 temp[j+s*vi] = max(temp[j+s*vi], dp[j]+s*vi);
+    //                 maxprice = max(maxprice, temp[j+s*vi]);
+    //             }
+    //         }
+    //         swap(dp, temp);
+    //     }
+    //     cout << maxprice << endl;
+    // }
+    Solution s;
+    vector<string> w = {"dinnssoo","ddinso","ddiinnso","ddiinnssoo","ddiinso","dinsoo","ddiinsso","dinssoo","dinso"};
+    cout << s.expressiveWords("dddiiiinnssssssoooo", w) << endl;
     return 0;
 }
