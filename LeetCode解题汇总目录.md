@@ -548,6 +548,7 @@
 | [LeetCode 509. 斐波那契数](https://michael.blog.csdn.net/article/details/104272616) |                                                              |
 | [LeetCode 510. 二叉搜索树中的中序后继 II（查找右子树或者祖父节点）](https://blog.csdn.net/qq_21201267/article/details/107132442) |                                                              |
 | [LeetCode 513. 找树左下角的值（按层遍历 queue）](https://blog.csdn.net/qq_21201267/article/details/100677982) |                                                              |
+| [LeetCode 514. 自由之路（记忆化递归 / DP）](https://michael.blog.csdn.net/article/details/109633004) |                                                              |
 | [LeetCode 515. 在每个树行中找最大值（层序遍历）](https://michael.blog.csdn.net/article/details/103341623) |                                                              |
 | [LeetCode 516. 最长回文子序列（动态规划）](https://michael.blog.csdn.net/article/details/106161439) |                                                              |
 | [LeetCode 518. 零钱兑换 II（动态规划）](https://michael.blog.csdn.net/article/details/106049588) |                                                              |
