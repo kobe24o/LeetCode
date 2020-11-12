@@ -758,6 +758,7 @@
 | [LeetCode 791. 自定义字符串排序（map）](https://michael.blog.csdn.net/article/details/103219936) |                                                              |
 | [LeetCode 793. 阶乘函数后K个零（二分查找）](https://michael.blog.csdn.net/article/details/106347098) |                                                              |
 | [LeetCode 794. 有效的井字游戏（分类讨论）](https://michael.blog.csdn.net/article/details/109136501) |                                                              |
+| [LeetCode 795. 区间子数组个数](https://michael.blog.csdn.net/article/details/109657808) |                                                              |
 | [LeetCode 796. 旋转字符串](https://michael.blog.csdn.net/article/details/105775449) |                                                              |
 | [LeetCode 797. 所有可能的路径（DFS）](https://blog.csdn.net/qq_21201267/article/details/101574194) |                                                              |
 | [LeetCode 799. 香槟塔（DP动态规划）](https://michael.blog.csdn.net/article/details/108893062) |                                                              |
