@@ -1406,6 +1406,7 @@
 | [LeetCode 5552. 到家的最少跳跃次数（BFS）](https://michael.blog.csdn.net/article/details/109702158) |                                                              |
 | [LeetCode 5553. 分配重复整数（回溯）](https://michael.blog.csdn.net/article/details/109703438) |                                                              |
 | [LeetCode 5601. 设计有序流（数组）](https://michael.blog.csdn.net/article/details/109703784) |                                                              |
+| [LeetCode 5603. 确定两个字符串是否接近](https://michael.blog.csdn.net/article/details/109704021) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
