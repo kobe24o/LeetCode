@@ -1404,6 +1404,7 @@
 | [LeetCode 5550. 拆炸弹（前缀和）](https://michael.blog.csdn.net/article/details/109700038) |                                                              |
 | [LeetCode 5551. 使字符串平衡的最少删除次数（DP）](https://michael.blog.csdn.net/article/details/109700345) |                                                              |
 | [LeetCode 5552. 到家的最少跳跃次数（BFS）](https://michael.blog.csdn.net/article/details/109702158) |                                                              |
+| [LeetCode 5553. 分配重复整数（回溯）](https://michael.blog.csdn.net/article/details/109703438) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
