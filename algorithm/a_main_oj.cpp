@@ -12,60 +12,79 @@ struct cmp{
 class Solution {
 public:
     /**
-     * @param s: a String
-     * @return: if valid return "YES" else return "NO"
+     * @param currency: a string represents a valid or invalid currency amount
+     * @return: return whether the given string is a valid currency
      */
-    string isValid(string &s) {
+    bool validCurrencyAmount(string &m) {
         // write your code here
-        unordered_map<char, int> m;
-        for(char c : s)
-            m[c]++;
-        map<int, int> count;
-        for(auto &mi : m)
-            count[mi.second]++;
-        if(count.size() > 2)
-            return "NO";
-        if(count.size() == 1)
-            return "YES";
-        int diff = 0;
-        int a = count.begin()->first, b = count.rbegin()->first;
-        int n2 = count.rbegin()->second;
-        if(b-a==1 && n2 == 1)
-            return "YES";
-        return "NO";
+        if(m == "" || m[0] == ' ' || m.back() == ' ')
+            return false;
+        if(m[0] == '-')
+            m = m.substr(1);
+        if(m.size()>=2 && ((m[0]=='(' && m.back()!=')')
+                           || (m[0] !='(' && m.back() == ')')))
+            return false;
+        if(m[0] == '(' && m.back() == ')')
+            m = m.substr(1, m.size()-2);
+        if(m[0] != 'D' && m[0] != 'E' && m[0] != 'Y')
+            return false;
+        if(m[0] == 'D' || m[0] == 'E')
+            return check1(m.substr(1));
+        else
+            return check2(m.substr(1));
+    }
+    bool check1(string m)
+    {
+        int len = m.length();
+        if(len >= 3 && m[len-3]=='.')
+        {
+            if(isdigit(m[len-1]) && isdigit(m[len-2]))
+                m = m.substr(0, len-3);
+            else
+                return false;
+        }
+        int c = 0;
+        for(int i = int(m.size())-1; i >= 0; --i)
+        {
+            if(!isdigit(m[i]) && m[i] != ',')
+                return false;
+            if(c != 3 && isdigit(m[i]))
+                c++;
+            else if(c != 3 && !isdigit(m[i]))
+                return false;
+            else if(c == 3 && m[i] == ',')
+                c = 0;
+            else if(c == 3 && m[i] != ',')
+                return false;
+        }
+        return len > 0 && m[0] != '0';
+    }
+    bool check2(string m)
+    {
+        int len = m.length();
+        int c = 0;
+        for(int i = int(m.size())-1; i >= 0; --i)
+        {
+            if(!isdigit(m[i]) && m[i] != ',')
+                return false;
+            if(c != 3 && isdigit(m[i]))
+                c++;
+            else if(c != 3 && !isdigit(m[i]))
+                return false;
+            else if(c == 3 && m[i] == ',')
+                c = 0;
+            else if(c == 3 && m[i] != ',')
+                return false;
+        }
+        return len > 0 && m[0] != '0';
     }
 };
 int main()
 {
-    // int N, V, vi, si;
-    // while(cin >> V >> N)
-    // {
-    //     int maxprice = 0;
-    //     vector<int> dp(V+1, -1);
-    //     dp[0] = 0;// dp[v] 表示体积为 v 时装的最大价值
-    //     for(int i = 0; i < N; ++i)
-    //     {
-    //         cin >> si >> vi;
-    //         vector<int> temp(V+1, -1);
-    //         for(int j = 0; j <= V; ++j)
-    //         {
-    //             if(dp[j] == -1)//状态不存在
-    //                 continue;
-    //             for(int s = 0; s <= si; ++s)
-    //             {   //当前的物品可以拿 s 次
-    //                 if(j+s*vi > V)//体积超了，不行
-    //                     break;
-    //                 temp[j+s*vi] = max(temp[j+s*vi], dp[j]+s*vi);
-    //                 maxprice = max(maxprice, temp[j+s*vi]);
-    //             }
-    //         }
-    //         swap(dp, temp);
-    //     }
-    //     cout << maxprice << endl;
-    // }
+
     Solution s;
     vector<int> a = {1,3,4,1,5};
-    string s1 = "aabbcd";
-    cout << s.isValid(s1) << endl;
+    string s1 = "D450";
+    cout << s.validCurrencyAmount(s1) << endl;
     return 0;
 }

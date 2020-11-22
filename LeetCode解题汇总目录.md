@@ -1401,13 +1401,17 @@
 | [LeetCode 1642. 可以到达的最远建筑（二分查找 / 优先队列贪心）](https://michael.blog.csdn.net/article/details/109439718) |                                                              |
 | [LeetCode 1646. 获取生成数组中的最大值](https://michael.blog.csdn.net/article/details/109560410) |                                                              |
 | [LeetCode 1647. 字符频次唯一的最小删除次数（贪心）](https://michael.blog.csdn.net/article/details/109561232) |                                                              |
-| [LeetCode 5550. 拆炸弹（前缀和）](https://michael.blog.csdn.net/article/details/109700038) |                                                              |
-| [LeetCode 5551. 使字符串平衡的最少删除次数（DP）](https://michael.blog.csdn.net/article/details/109700345) |                                                              |
-| [LeetCode 5552. 到家的最少跳跃次数（BFS）](https://michael.blog.csdn.net/article/details/109702158) |                                                              |
-| [LeetCode 5553. 分配重复整数（回溯）](https://michael.blog.csdn.net/article/details/109703438) |                                                              |
-| [LeetCode 5601. 设计有序流（数组）](https://michael.blog.csdn.net/article/details/109703784) |                                                              |
-| [LeetCode 5603. 确定两个字符串是否接近](https://michael.blog.csdn.net/article/details/109704021) |                                                              |
-| [LeetCode 5602. 将 x 减到 0 的最小操作数（哈希）](https://michael.blog.csdn.net/article/details/109713477) |                                                              |
+| [LeetCode 1652. 拆炸弹（前缀和）](https://michael.blog.csdn.net/article/details/109700038) |                                                              |
+| [LeetCode 1653. 使字符串平衡的最少删除次数（DP）](https://michael.blog.csdn.net/article/details/109700345) |                                                              |
+| [LeetCode 1654. 到家的最少跳跃次数（BFS）](https://michael.blog.csdn.net/article/details/109702158) |                                                              |
+| [LeetCode 1655. 分配重复整数（回溯）](https://michael.blog.csdn.net/article/details/109703438) |                                                              |
+| [LeetCode 1656. 设计有序流（数组）](https://michael.blog.csdn.net/article/details/109703784) |                                                              |
+| [LeetCode 1657. 确定两个字符串是否接近](https://michael.blog.csdn.net/article/details/109704021) |                                                              |
+| [LeetCode 1658. 将 x 减到 0 的最小操作数（哈希）](https://michael.blog.csdn.net/article/details/109713477) |                                                              |
+| [LeetCode 5605. 检查两个字符串数组是否相等](https://michael.blog.csdn.net/article/details/109943501) |                                                              |
+| [LeetCode 5606. 具有给定数值的最小字符串（贪心）](https://michael.blog.csdn.net/article/details/109945744) |                                                              |
+| [LeetCode 5607. 生成平衡数组的方案数（前缀和+后缀和）](https://michael.blog.csdn.net/article/details/109947860) |                                                              |
+| [LeetCode 5608. 完成所有任务的最少初始能量（贪心）](https://michael.blog.csdn.net/article/details/109951983) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
