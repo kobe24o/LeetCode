@@ -1417,6 +1417,8 @@
 | [LeetCode 5558. 合并两个链表](https://michael.blog.csdn.net/article/details/110313087) |                                                              |
 | [LeetCode 5560. 设计前中后队列（deque）](https://michael.blog.csdn.net/article/details/110313377) |                                                              |
 | [LeetCode 5559. 得到山形数组的最少删除次数（最长上升子序DP nlogn）](https://michael.blog.csdn.net/article/details/110322462) |                                                              |
+| [LeetCode 5613. 最富有客户的资产总量](https://michael.blog.csdn.net/article/details/110342814) |                                                              |
+| [LeetCode 5614. 找出最具竞争力的子序列（单调栈）](https://michael.blog.csdn.net/article/details/110346793) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
