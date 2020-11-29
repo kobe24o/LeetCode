@@ -78,6 +78,7 @@
 | [LeetCode 第 35 场双周赛（216/2839，前7.61%）](https://michael.blog.csdn.net/article/details/108688898) |
 | [LeetCode 第 207 场周赛（245/4115，前5.95%）](https://michael.blog.csdn.net/article/details/108691909) |
 | [LeetCode 第 36 场双周赛（304/2204，前13.8%）](https://michael.blog.csdn.net/article/details/108914842) |
+| [LeetCode 第 40 场双周赛（197/1891，前10.4%，第5次全部通过🚀）](https://michael.blog.csdn.net/article/details/110322462) |
 
 ​          
 
@@ -1408,10 +1409,14 @@
 | [LeetCode 1656. 设计有序流（数组）](https://michael.blog.csdn.net/article/details/109703784) |                                                              |
 | [LeetCode 1657. 确定两个字符串是否接近](https://michael.blog.csdn.net/article/details/109704021) |                                                              |
 | [LeetCode 1658. 将 x 减到 0 的最小操作数（哈希）](https://michael.blog.csdn.net/article/details/109713477) |                                                              |
-| [LeetCode 5605. 检查两个字符串数组是否相等](https://michael.blog.csdn.net/article/details/109943501) |                                                              |
-| [LeetCode 5606. 具有给定数值的最小字符串（贪心）](https://michael.blog.csdn.net/article/details/109945744) |                                                              |
-| [LeetCode 5607. 生成平衡数组的方案数（前缀和+后缀和）](https://michael.blog.csdn.net/article/details/109947860) |                                                              |
-| [LeetCode 5608. 完成所有任务的最少初始能量（贪心）](https://michael.blog.csdn.net/article/details/109951983) |                                                              |
+| [LeetCode 1662. 检查两个字符串数组是否相等](https://michael.blog.csdn.net/article/details/109943501) |                                                              |
+| [LeetCode 1663. 具有给定数值的最小字符串（贪心）](https://michael.blog.csdn.net/article/details/109945744) |                                                              |
+| [LeetCode 1664. 生成平衡数组的方案数（前缀和+后缀和）](https://michael.blog.csdn.net/article/details/109947860) |                                                              |
+| [LeetCode 1665. 完成所有任务的最少初始能量（贪心）](https://michael.blog.csdn.net/article/details/109951983) |                                                              |
+| [LeetCode 5557. 最大重复子字符串](https://michael.blog.csdn.net/article/details/110312850) |                                                              |
+| [LeetCode 5558. 合并两个链表](https://michael.blog.csdn.net/article/details/110313087) |                                                              |
+| [LeetCode 5560. 设计前中后队列（deque）](https://michael.blog.csdn.net/article/details/110313377) |                                                              |
+| [LeetCode 5559. 得到山形数组的最少删除次数（最长上升子序DP nlogn）](https://michael.blog.csdn.net/article/details/110322462) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
