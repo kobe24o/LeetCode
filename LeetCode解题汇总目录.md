@@ -1422,6 +1422,7 @@
 | [LeetCode 1673. 找出最具竞争力的子序列（单调栈）](https://michael.blog.csdn.net/article/details/110346793) |                                                              |
 | [LeetCode 5617. 设计 Goal 解析器](http://michael.blog.csdn.net/article/details/110733358) |                                                              |
 | [LeetCode 5618. K 和数对的最大数目（哈希）](http://michael.blog.csdn.net/article/details/110733875) |                                                              |
+| [LeetCode 5620. 连接连续二进制数字（位运算）](http://michael.blog.csdn.net/article/details/110734186) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
