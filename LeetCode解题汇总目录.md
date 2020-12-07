@@ -1421,10 +1421,10 @@
 | [LeetCode 1671. 得到山形数组的最少删除次数（最长上升子序DP nlogn）](https://michael.blog.csdn.net/article/details/110322462) |                                                              |
 | [LeetCode 1672. 最富有客户的资产总量](https://michael.blog.csdn.net/article/details/110342814) |                                                              |
 | [LeetCode 1673. 找出最具竞争力的子序列（单调栈）](https://michael.blog.csdn.net/article/details/110346793) |                                                              |
-| [LeetCode 5617. 设计 Goal 解析器](http://michael.blog.csdn.net/article/details/110733358) |                                                              |
-| [LeetCode 5618. K 和数对的最大数目（哈希）](http://michael.blog.csdn.net/article/details/110733875) |                                                              |
-| [LeetCode 5620. 连接连续二进制数字（位运算）](http://michael.blog.csdn.net/article/details/110734186) |                                                              |
-| [LeetCode 5619. 最小不兼容性（回溯+剪枝）](http://michael.blog.csdn.net/article/details/110739766) |                                                              |
+| [LeetCode 1678. 设计 Goal 解析器](http://michael.blog.csdn.net/article/details/110733358) |                                                              |
+| [LeetCode 1679. K 和数对的最大数目（哈希）](http://michael.blog.csdn.net/article/details/110733875) |                                                              |
+| [LeetCode 1680. 连接连续二进制数字（位运算）](http://michael.blog.csdn.net/article/details/110734186) |                                                              |
+| [LeetCode 1681. 最小不兼容性（回溯+剪枝）](http://michael.blog.csdn.net/article/details/110739766) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
