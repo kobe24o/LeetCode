@@ -3,25 +3,22 @@ public:
     int mergeStones(vector<int>& stones, int K) {
     	int n = stones.size();
     	if((n-1)%(K-1) != 0) return -1;
-    	vector<vector<int>> dp(n+1, vector<int>(n+1, INT_MAX));
+    	vector<vector<int>> dp(n+1, vector<int>(n+1, 0));
     	vector<int> sum(n+1, 0);
     	for(int i = 1; i <= n; i++)
     		sum[i] = stones[i-1] + sum[i-1];//前缀和
-    	for(int i = 1; i+K-1 <= n; ++i)
-    		dp[i][i+K-1] = sum[i+K-1]-sum[i-1];
-    	int c = (n-1)/(K-1);//合并的次数
-    	for(int t = 2; t <= c; t++)
-    	{	//第几次合并
-    		for(int i = 1; i+t*(K-1) <= n; i++)
-    		{	//要获得区间[i, i+t*K-1]的最优值
-    			int r = i+t*(K-1);
-    			for(int j = 0; j < K+1; j++)//在上一次的结果里，遍历 K+1 种情况
-    			{
-    				dp[i][r] = min(dp[i][r], 
-			    					dp[i+j][r-(K-j)]
-			    					+(-sum[i-1])
-			    					+(sum[r]));
+    	for(int len = 1; len <= n; len++)
+    	{	//区间长度
+    		for(int i = 1; i+len <= n; i++)
+    		{	//左端点
+    			int j = i+len;
+                dp[i][j] = INT_MAX;
+    			for(int mid = i; mid < j; mid += K-1)//枚举中间分割点
+    			{   //注意mid不能++, 而是 + K-1 然后区间不能合并，dp初始为0，得出的结果小
+    				dp[i][j] = min(dp[i][j], dp[i][mid]+dp[mid+1][j]);
     			}
+    			if(len%(K-1) == 0)//如果区间能够合并，加上区间重量
+    				dp[i][j] += sum[j]-sum[i-1];
     		}
     	}
     	return dp[1][n];
