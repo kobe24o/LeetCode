@@ -12,9 +12,9 @@ public:
     	int c = (n-1)/(K-1);//合并的次数
     	for(int t = 2; t <= c; t++)
     	{	//第几次合并
-    		for(int i = 1; i+t*K-1 <= n; i++)
+    		for(int i = 1; i+t*(K-1) <= n; i++)
     		{	//要获得区间[i, i+t*K-1]的最优值
-    			int r = i+t*K-1;
+    			int r = i+t*(K-1);
     			for(int j = 0; j < K+1; j++)//在上一次的结果里，遍历 K+1 种情况
     			{
     				dp[i][r] = min(dp[i][r], 
