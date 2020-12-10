@@ -91,7 +91,7 @@
 | [LeetCode 5. 最长回文子串（动态规划）](https://michael.blog.csdn.net/article/details/105348936) | [极小极大化 就用 二分查找](https://blog.csdn.net/qq_21201267/article/details/107534172) |
 | [LeetCode 6. Z 字形变换（找规律）](https://blog.csdn.net/qq_21201267/article/details/104782401) | [博弈DP、石子游戏等](https://michael.blog.csdn.net/article/details/108337865) |
 | [LeetCode 7. 整数反转](https://blog.csdn.net/qq_21201267/article/details/100583336) | [哈希记录前缀和状态，做差求中间段](https://michael.blog.csdn.net/article/details/108593514) |
-| [LeetCode 8. 字符串转换整数 (atoi)](https://blog.csdn.net/qq_21201267/article/details/100583821) |                                                              |
+| [LeetCode 8. 字符串转换整数 (atoi)](https://blog.csdn.net/qq_21201267/article/details/100583821) | [差分思想](https://michael.blog.csdn.net/article/details/106423509) |
 | [LeetCode 9. 回文数](https://blog.csdn.net/qq_21201267/article/details/100168231) |                                                              |
 | [LeetCode 10. 正则表达式匹配（递归）*](https://blog.csdn.net/qq_21201267/article/details/104951143) |                                                              |
 | [LeetCode 11. 盛最多水的容器（双指针）](https://blog.csdn.net/qq_21201267/article/details/100545403) |                                                              |
@@ -1422,6 +1422,7 @@
 | [LeetCode 1671. 得到山形数组的最少删除次数（最长上升子序DP nlogn）](https://michael.blog.csdn.net/article/details/110322462) |                                                              |
 | [LeetCode 1672. 最富有客户的资产总量](https://michael.blog.csdn.net/article/details/110342814) |                                                              |
 | [LeetCode 1673. 找出最具竞争力的子序列（单调栈）](https://michael.blog.csdn.net/article/details/110346793) |                                                              |
+| [LeetCode 1674. 使数组互补的最少操作次数（差分思想）](https://michael.blog.csdn.net/article/details/110963941) |                                                              |
 | [LeetCode 1678. 设计 Goal 解析器](http://michael.blog.csdn.net/article/details/110733358) |                                                              |
 | [LeetCode 1679. K 和数对的最大数目（哈希）](http://michael.blog.csdn.net/article/details/110733875) |                                                              |
 | [LeetCode 1680. 连接连续二进制数字（位运算）](http://michael.blog.csdn.net/article/details/110734186) |                                                              |
