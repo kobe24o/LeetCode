@@ -1430,6 +1430,7 @@
 | [LeetCode 1681. 最小不兼容性（回溯+剪枝）](http://michael.blog.csdn.net/article/details/110739766) |                                                              |
 | [LeetCode 5609. 统计一致字符串的数目（哈希）](https://michael.blog.csdn.net/article/details/111087320) |                                                              |
 | [LeetCode 5610. 有序数组中差绝对值之和（前缀和）](https://michael.blog.csdn.net/article/details/111087367) |                                                              |
+| [LeetCode 5611. 石子游戏 VI（贪心）](https://michael.blog.csdn.net/article/details/111087463) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
