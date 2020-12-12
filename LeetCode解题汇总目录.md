@@ -643,6 +643,7 @@
 | [LeetCode 646. 最长数对链（区间 贪心）](https://blog.csdn.net/qq_21201267/article/details/101239559) |                                                              |
 | [LeetCode 647. 回文子串（DP）](https://michael.blog.csdn.net/article/details/105576327) |                                                              |
 | [LeetCode 648. 单词替换（Trie树）](https://blog.csdn.net/qq_21201267/article/details/102574082) |                                                              |
+| [LeetCode 649. Dota2 参议院（循环队列）](https://michael.blog.csdn.net/article/details/111055016) |                                                              |
 | [LeetCode 650. 只有两个键的键盘（DP）](https://michael.blog.csdn.net/article/details/103657566) |                                                              |
 | [LeetCode 651. 4键键盘（DP，Ctrl+CV）](https://blog.csdn.net/qq_21201267/article/details/107170933) |                                                              |
 | [LeetCode 652. 寻找重复的子树（DFS）](https://blog.csdn.net/qq_21201267/article/details/101284456) |                                                              |
