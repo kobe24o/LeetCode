@@ -20,40 +20,43 @@ struct cmp{
 };
 class Solution {
 public:
-    int mergeStones(vector<int>& stones, int K) {
-        int n = stones.size();
-        if((n-1)%(K-1) != 0) return -1;
-        vector<vector<int>> dp(n+1, vector<int>(n+1, INT_MAX));
-        vector<int> sum(n+1, 0);
-        for(int i = 1; i <= n; i++)
+    int stoneGameVI(vector<int>& aliceValues, vector<int>& bobValues) {
+        int n = aliceValues.size();
+        vector<pair<int, int>> diff(n);
+        for(int i = 0; i < n; i++)
         {
-            sum[i] = stones[i-1] + sum[i-1];//前缀和
-            dp[i][i] = 0;
+            diff[i].first = aliceValues[i]-bobValues[i];
+            diff[i].second = i;
         }
-        for(int i = 1; i+K-1 <= n; ++i)
-            dp[i][i+K-1] = sum[i+K-1]-sum[i-1];
-        int c = (n-1)/(K-1);//合并的次数
-        for(int t = 2; t <= c; t++)
-        {	//第几次合并
-            for(int i = 1; i+t*(K-1) <= n; i++)
-            {	//要获得区间[i, i+t*K-1]的最优值
-                int r = i+t*(K-1);
-                for(int j = 0; j < K; j++)//在上一次的结果里，遍历 K+1 种情况
-                {
-                    dp[i][r] = min(dp[i][r], dp[i+j][r-(K-1-j)]-sum[i-1]+sum[r]);
-                }
+        sort(diff.begin(), diff.end());
+        int a = 0, b = 0, i = 0, j = n-1;
+        bool alice = true;
+        while(i <= j)
+        {
+            if(alice)
+            {
+                a += aliceValues[diff[j].second];
+                j--;
+                alice = false;
+            }
+            else
+            {
+                b += bobValues[diff[i].second];
+                i++;
+                alice = true;
             }
         }
-        print2Dvector(dp);
-        return dp[1][n];
+        if(a > b) return 1;
+        else if(a < b) return -1;
+        return 0;
     }
 };
 int main()
 {
 
     Solution s;
-    vector<int> a = {3,2,4,1};
+    vector<int> a = {1,2}, b = {3, 1};
     string s1 = "D450";
-    cout << s.mergeStones(a,2) << endl;
+    cout << s.stoneGameVI(a, b) << endl;
     return 0;
 }
