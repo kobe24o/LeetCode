@@ -1431,6 +1431,9 @@
 | [LeetCode 5609. 统计一致字符串的数目（哈希）](https://michael.blog.csdn.net/article/details/111087320) |                                                              |
 | [LeetCode 5610. 有序数组中差绝对值之和（前缀和）](https://michael.blog.csdn.net/article/details/111087367) |                                                              |
 | [LeetCode 5611. 石子游戏 VI（贪心）](https://michael.blog.csdn.net/article/details/111087463) |                                                              |
+| [LeetCode 5625. 比赛中的配对次数（模拟）](https://michael.blog.csdn.net/article/details/111099423) |                                                              |
+| [LeetCode 5626. 十-二进制数的最少数目（脑筋急转弯）](https://michael.blog.csdn.net/article/details/111105268) |                                                              |
+| [LeetCode 5627. 石子游戏 VII（博弈DP）](https://michael.blog.csdn.net/article/details/111106376) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
