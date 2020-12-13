@@ -79,6 +79,8 @@
 | [LeetCode 第 207 场周赛（245/4115，前5.95%）](https://michael.blog.csdn.net/article/details/108691909) |
 | [LeetCode 第 36 场双周赛（304/2204，前13.8%）](https://michael.blog.csdn.net/article/details/108914842) |
 | [LeetCode 第 40 场双周赛（197/1891，前10.4%，第5次全部通过🚀）](https://michael.blog.csdn.net/article/details/110322462) |
+| [LeetCode 第 41 场双周赛（283/1660，前17.1%）](https://michael.blog.csdn.net/article/details/111087463) |
+| [LeetCode 第 219 场周赛（463/3709，前12.5%）](https://michael.blog.csdn.net/article/details/111139125) |
 
 ​          
 
