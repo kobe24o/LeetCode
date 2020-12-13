@@ -92,7 +92,7 @@
 | [LeetCode 6. Z 字形变换（找规律）](https://blog.csdn.net/qq_21201267/article/details/104782401) | [博弈DP、石子游戏等](https://michael.blog.csdn.net/article/details/108337865) |
 | [LeetCode 7. 整数反转](https://blog.csdn.net/qq_21201267/article/details/100583336) | [哈希记录前缀和状态，做差求中间段](https://michael.blog.csdn.net/article/details/108593514) |
 | [LeetCode 8. 字符串转换整数 (atoi)](https://blog.csdn.net/qq_21201267/article/details/100583821) | [差分思想](https://michael.blog.csdn.net/article/details/106423509) |
-| [LeetCode 9. 回文数](https://blog.csdn.net/qq_21201267/article/details/100168231) |                                                              |
+| [LeetCode 9. 回文数](https://blog.csdn.net/qq_21201267/article/details/100168231) | [最长上升子序 DP](https://michael.blog.csdn.net/article/details/97308533) |
 | [LeetCode 10. 正则表达式匹配（递归）*](https://blog.csdn.net/qq_21201267/article/details/104951143) |                                                              |
 | [LeetCode 11. 盛最多水的容器（双指针）](https://blog.csdn.net/qq_21201267/article/details/100545403) |                                                              |
 | [LeetCode 12/13 罗马数字与整型互转（哈希，贪心）](https://michael.blog.csdn.net/article/details/103507056) |                                                              |
@@ -1434,6 +1434,7 @@
 | [LeetCode 5625. 比赛中的配对次数（模拟）](https://michael.blog.csdn.net/article/details/111099423) |                                                              |
 | [LeetCode 5626. 十-二进制数的最少数目（脑筋急转弯）](https://michael.blog.csdn.net/article/details/111105268) |                                                              |
 | [LeetCode 5627. 石子游戏 VII（博弈DP）](https://michael.blog.csdn.net/article/details/111106376) |                                                              |
+| [LeetCode 5245. 堆叠长方体的最大高度（排序+最大上升子序DP）](https://michael.blog.csdn.net/article/details/111139125) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
