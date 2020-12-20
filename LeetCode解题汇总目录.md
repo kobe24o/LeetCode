@@ -1439,6 +1439,7 @@
 | [LeetCode 5245. 堆叠长方体的最大高度（排序+最大上升子序DP）](https://michael.blog.csdn.net/article/details/111139125) |                                                              |
 | [LeetCode 5629. 重新格式化电话号码（模拟）](https://michael.blog.csdn.net/article/details/111415649) |                                                              |
 | [LeetCode 5630. 删除子数组的最大得分（前缀和+哈希+双指针）](https://michael.blog.csdn.net/article/details/111415907) |                                                              |
+| [LeetCode 5631. 跳跃游戏 VI（优先队列 / 单调队列）](https://michael.blog.csdn.net/article/details/111424091) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
