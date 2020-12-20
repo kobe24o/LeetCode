@@ -1430,13 +1430,13 @@
 | [LeetCode 1679. K 和数对的最大数目（哈希）](http://michael.blog.csdn.net/article/details/110733875) |                                                              |
 | [LeetCode 1680. 连接连续二进制数字（位运算）](http://michael.blog.csdn.net/article/details/110734186) |                                                              |
 | [LeetCode 1681. 最小不兼容性（回溯+剪枝）](http://michael.blog.csdn.net/article/details/110739766) |                                                              |
-| [LeetCode 5609. 统计一致字符串的数目（哈希）](https://michael.blog.csdn.net/article/details/111087320) |                                                              |
-| [LeetCode 5610. 有序数组中差绝对值之和（前缀和）](https://michael.blog.csdn.net/article/details/111087367) |                                                              |
-| [LeetCode 5611. 石子游戏 VI（贪心）](https://michael.blog.csdn.net/article/details/111087463) |                                                              |
-| [LeetCode 5625. 比赛中的配对次数（模拟）](https://michael.blog.csdn.net/article/details/111099423) |                                                              |
-| [LeetCode 5626. 十-二进制数的最少数目（脑筋急转弯）](https://michael.blog.csdn.net/article/details/111105268) |                                                              |
-| [LeetCode 5627. 石子游戏 VII（博弈DP）](https://michael.blog.csdn.net/article/details/111106376) |                                                              |
-| [LeetCode 5245. 堆叠长方体的最大高度（排序+最大上升子序DP）](https://michael.blog.csdn.net/article/details/111139125) |                                                              |
+| [LeetCode 1684. 统计一致字符串的数目（哈希）](https://michael.blog.csdn.net/article/details/111087320) |                                                              |
+| [LeetCode 1685. 有序数组中差绝对值之和（前缀和）](https://michael.blog.csdn.net/article/details/111087367) |                                                              |
+| [LeetCode 1686. 石子游戏 VI（贪心）](https://michael.blog.csdn.net/article/details/111087463) |                                                              |
+| [LeetCode 1688. 比赛中的配对次数（模拟）](https://michael.blog.csdn.net/article/details/111099423) |                                                              |
+| [LeetCode 1689. 十-二进制数的最少数目（脑筋急转弯）](https://michael.blog.csdn.net/article/details/111105268) |                                                              |
+| [LeetCode 1690. 石子游戏 VII（博弈DP）](https://michael.blog.csdn.net/article/details/111106376) |                                                              |
+| [LeetCode 1691. 堆叠长方体的最大高度（排序+最大上升子序DP）](https://michael.blog.csdn.net/article/details/111139125) |                                                              |
 | [LeetCode 5629. 重新格式化电话号码（模拟）](https://michael.blog.csdn.net/article/details/111415649) |                                                              |
 | [LeetCode 5630. 删除子数组的最大得分（前缀和+哈希+双指针）](https://michael.blog.csdn.net/article/details/111415907) |                                                              |
 | [LeetCode 5631. 跳跃游戏 VI（优先队列 / 单调队列）](https://michael.blog.csdn.net/article/details/111424091) |                                                              |
