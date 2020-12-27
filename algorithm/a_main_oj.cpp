@@ -18,58 +18,48 @@ struct cmp{
         return a > b;
     }
 };
+// Solution
 class Solution {
 public:
-    int maxResult(vector<int>& nums, int k) {
-    	int n = nums.size(), ans = nums[0], maxNegative = INT_MIN, idx = -1;
-    	for(int i = 1; i < n; ++i)
+    /**
+     * @param L: Given n pieces of wood with length L[i]
+     * @param k: An integer
+     * @return: The maximum length of the small pieces
+     */
+    int woodCut(vector<int> &L, int k) {
+        // write your code here
+        int l = 1, r = *max_element(L.begin(),L.end())+1, mid, maxlen = 0;
+        while(l <= r)
+        {
+        	mid = l+((r-l)/2);
+        	if(ok(L, mid, k))
+        	{
+        		maxlen = mid;
+        		l = mid+1;
+        	}
+        	else
+        		r = mid-1;
+        }
+        return maxlen;
+    }
+    bool ok(vector<int> &L, int len, int k)
+    {
+    	int count = 0;
+    	for(int i = 0; i < L.size(); i++)
     	{
-    		int step = k;
-    		bool inNegativePos = true;
-    		bool reachEnd = false;
-    		for( ; i < n && step--; i++)
-    		{
-    			if(nums[i] >= 0)
-    			{
-    				ans += nums[i];
-    				inNegativePos = false;
-    				break;
-    			}
-    			else
-    			{
-    				if(i == n-1)
-    					reachEnd = true;
-    				if(nums[i] > maxNegative)
-    				{
-    					maxNegative = nums[i];
-    					idx = i;
-    				}
-    			}
-    		}
-    		if(inNegativePos)
-    		{
-    			if(reachEnd)
-    			{
-    				ans += nums[n-1];
-    				break;
-    			}
-    			else
-    			{
-	    			ans += nums[idx];
-	    			i = idx;
-	    		}
-    		}
+    		count += L[i]/len;
     	}
-    	return ans;
+    	return count >= k;
     }
 };
+
 int main()
 {
 
     Solution s;
-    vector<int> a = {100,-1,-100,-1,100}, b = {2,2,3, 4};
+    vector<int> a = {1,2,3}, b = {2,2,3, 4};
     string s1 = "D450";
-    cout << s.maxResult(a,2) << endl;
+    cout << s.woodCut(a,7) << endl;
 
 
     return 0;
