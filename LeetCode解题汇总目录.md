@@ -1443,6 +1443,7 @@
 | [LeetCode 1697. 检查边长度限制的路径是否存在（排序+并查集）](https://michael.blog.csdn.net/article/details/111462665) |                                                              |
 | [LeetCode 5621. 无法吃午餐的学生数量（队列模拟 / 不模拟）](https://michael.blog.csdn.net/article/details/111772815) |                                                              |
 | [LeetCode 5622. 平均等待时间（模拟）](https://michael.blog.csdn.net/article/details/111773003) |                                                              |
+| [LeetCode 5623. 修改后的最大二进制字符串（贪心）](https://michael.blog.csdn.net/article/details/111773088) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
