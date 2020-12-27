@@ -1446,6 +1446,7 @@
 | [LeetCode 5623. 修改后的最大二进制字符串（贪心）](https://michael.blog.csdn.net/article/details/111773088) |                                                              |
 | [LeetCode 5637. 判断字符串的两半是否相似](https://michael.blog.csdn.net/article/details/111824889) |                                                              |
 | [LeetCode 5210. 球会落何处（模拟）](https://michael.blog.csdn.net/article/details/111824942) |                                                              |
+| [LeetCode 5638. 吃苹果的最大数目（优先队列）](https://michael.blog.csdn.net/article/details/111826767) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
