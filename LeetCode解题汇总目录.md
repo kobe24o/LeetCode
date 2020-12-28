@@ -1093,6 +1093,7 @@
 | [LeetCode 1232. 缀点成线](https://michael.blog.csdn.net/article/details/105802054) |                                                              |
 | [LeetCode 1233. 删除子文件夹](https://michael.blog.csdn.net/article/details/103916724) |                                                              |
 | [LeetCode 1234. 替换子串得到平衡字符串（滑动窗口）](https://michael.blog.csdn.net/article/details/106587538) |                                                              |
+| [LeetCode 1235. 规划兼职工作（动态规划+二分查找）](https://michael.blog.csdn.net/article/details/111873879) |                                                              |
 | [LeetCode 1236. 网络爬虫（BFS/DFS）](https://michael.blog.csdn.net/article/details/107532151) |                                                              |
 | [LeetCode 1237. 找出给定方程的正整数解](https://michael.blog.csdn.net/article/details/103256534) |                                                              |
 | [LeetCode 1238. 循环码排列（格雷编码+旋转数组）](https://michael.blog.csdn.net/article/details/105895929) |                                                              |
@@ -1441,12 +1442,12 @@
 | [LeetCode 1695. 删除子数组的最大得分（前缀和+哈希+双指针）](https://michael.blog.csdn.net/article/details/111415907) |                                                              |
 | [LeetCode 1696. 跳跃游戏 VI（优先队列 / 单调队列）](https://michael.blog.csdn.net/article/details/111424091) |                                                              |
 | [LeetCode 1697. 检查边长度限制的路径是否存在（排序+并查集）](https://michael.blog.csdn.net/article/details/111462665) |                                                              |
-| [LeetCode 5621. 无法吃午餐的学生数量（队列模拟 / 不模拟）](https://michael.blog.csdn.net/article/details/111772815) |                                                              |
-| [LeetCode 5622. 平均等待时间（模拟）](https://michael.blog.csdn.net/article/details/111773003) |                                                              |
-| [LeetCode 5623. 修改后的最大二进制字符串（贪心）](https://michael.blog.csdn.net/article/details/111773088) |                                                              |
-| [LeetCode 5637. 判断字符串的两半是否相似](https://michael.blog.csdn.net/article/details/111824889) |                                                              |
-| [LeetCode 5210. 球会落何处（模拟）](https://michael.blog.csdn.net/article/details/111824942) |                                                              |
-| [LeetCode 5638. 吃苹果的最大数目（优先队列）](https://michael.blog.csdn.net/article/details/111826767) |                                                              |
+| [LeetCode 1700. 无法吃午餐的学生数量（队列模拟 / 不模拟）](https://michael.blog.csdn.net/article/details/111772815) |                                                              |
+| [LeetCode 1701. 平均等待时间（模拟）](https://michael.blog.csdn.net/article/details/111773003) |                                                              |
+| [LeetCode 1702. 修改后的最大二进制字符串（贪心）](https://michael.blog.csdn.net/article/details/111773088) |                                                              |
+| [LeetCode 1704. 判断字符串的两半是否相似](https://michael.blog.csdn.net/article/details/111824889) |                                                              |
+| [LeetCode 1705. 吃苹果的最大数目（优先队列）](https://michael.blog.csdn.net/article/details/111826767) |                                                              |
+| [LeetCode 1706. 球会落何处（模拟）](https://michael.blog.csdn.net/article/details/111824942) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
