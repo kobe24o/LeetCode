@@ -21,35 +21,27 @@ struct cmp{
 // Solution
 class Solution {
 public:
-    /**
-     * @param L: Given n pieces of wood with length L[i]
-     * @param k: An integer
-     * @return: The maximum length of the small pieces
-     */
-    int woodCut(vector<int> &L, int k) {
-        // write your code here
-        int l = 1, r = *max_element(L.begin(),L.end())+1, mid, maxlen = 0;
-        while(l <= r)
+    int jobScheduling(vector<int>& startTime, vector<int>& endTime, vector<int>& profit) {
+        int n = startTime.size();
+        vector<int> id(n);
+        iota(id.begin(), id.end(), 0);
+        sort(id.begin(), id.end(),[&](auto a, auto b){
+            return endTime[a] < endTime[b];
+        });
+        map<int,int> dp;
+        dp[0] = 0;
+        dp[endTime[id[0]]] = profit[id[0]];
+        int ans = profit[id[0]];
+        for(int i = 1; i < n; i++)
         {
-        	mid = l+((r-l)/2);
-        	if(ok(L, mid, k))
-        	{
-        		maxlen = mid;
-        		l = mid+1;
-        	}
-        	else
-        		r = mid-1;
+            int idx = id[i];
+            auto it = dp.upper_bound(startTime[idx]);
+            int dp_prev = (--it)->second;
+            dp[endTime[idx]] = max(dp[endTime[idx]], dp_prev+profit[idx]);
+            ans = max(ans, dp[endTime[idx]]);
         }
-        return maxlen;
-    }
-    bool ok(vector<int> &L, int len, int k)
-    {
-    	int count = 0;
-    	for(int i = 0; i < L.size(); i++)
-    	{
-    		count += L[i]/len;
-    	}
-    	return count >= k;
+
+        return ans;
     }
 };
 
@@ -57,9 +49,9 @@ int main()
 {
 
     Solution s;
-    vector<int> a = {1,2,3}, b = {2,2,3, 4};
+    vector<int> a = {4,2,4,8,2}, b = {5,5,5,10,8}, c={1,2,8,10,4};
     string s1 = "D450";
-    cout << s.woodCut(a,7) << endl;
+    cout << s.jobScheduling(a,b,c) << endl;
 
 
     return 0;
