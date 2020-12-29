@@ -1129,6 +1129,7 @@
 | [LeetCode 1275. 找出井字棋的获胜者（位运算）](https://michael.blog.csdn.net/article/details/103345978) |                                                              |
 | [LeetCode 1276. 不浪费原料的汉堡制作方案（解方程）](https://michael.blog.csdn.net/article/details/106388487) |                                                              |
 | [LeetCode 1277. 统计全为 1 的正方形子矩阵（DP）](https://michael.blog.csdn.net/article/details/105588317) |                                                              |
+| [LeetCode 1278. 分割回文串 III（区间DP）](https://michael.blog.csdn.net/article/details/111935195) |                                                              |
 | [LeetCode 1281. 整数的各位积和之差](https://michael.blog.csdn.net/article/details/105594317) |                                                              |
 | [LeetCode 1282. 用户分组（桶排序思想）](https://michael.blog.csdn.net/article/details/103483462) |                                                              |
 | [LeetCode 1283. 使结果不超过阈值的最小除数（二分查找）](https://michael.blog.csdn.net/article/details/106591523) |                                                              |
