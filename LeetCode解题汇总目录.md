@@ -1086,6 +1086,7 @@
 | [LeetCode 1221. 分割平衡字符串](https://michael.blog.csdn.net/article/details/105802345) |                                                              |
 | [LeetCode 1222. 可以攻击国王的皇后（set）](https://michael.blog.csdn.net/article/details/105802412) |                                                              |
 | [LeetCode 1223. 掷骰子模拟（DP）](https://michael.blog.csdn.net/article/details/106675048) |                                                              |
+| [LeetCode 1224. 最大相等频率（哈希）](https://michael.blog.csdn.net/article/details/111896985) |                                                              |
 | [LeetCode 1227. 飞机座位分配概率（DP+数学归纳法）](https://michael.blog.csdn.net/article/details/105805627) |                                                              |
 | [LeetCode 1228. 等差数列中缺失的数字](https://blog.csdn.net/qq_21201267/article/details/107097382) |                                                              |
 | [LeetCode 1229. 安排会议日程（双指针）](https://michael.blog.csdn.net/article/details/107643939) |                                                              |
