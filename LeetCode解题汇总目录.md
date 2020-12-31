@@ -1119,6 +1119,7 @@
 | [LeetCode 1260. 二维网格迁移（二维转一维）](https://michael.blog.csdn.net/article/details/103152794) |                                                              |
 | [LeetCode 1261. 在受污染的二叉树中查找元素（树&哈希）](https://michael.blog.csdn.net/article/details/103213501) |                                                              |
 | [LeetCode 1262. 可被三整除的最大和（DP）](https://michael.blog.csdn.net/article/details/103319572) |                                                              |
+| [LeetCode 1263. 推箱子（BFS+DFS / 自定义哈希set）](https://michael.blog.csdn.net/article/details/112055150) |                                                              |
 | [LeetCode 1265. 逆序打印不可变链表（递归）](https://blog.csdn.net/qq_21201267/article/details/107109928) |                                                              |
 | [LeetCode 1266. 访问所有点的最小时间（数学）](https://michael.blog.csdn.net/article/details/103280533) |                                                              |
 | [LeetCode 1267. 统计参与通信的服务器（计数）](https://michael.blog.csdn.net/article/details/106362033) |                                                              |
