@@ -1040,6 +1040,7 @@
 | [LeetCode 1144. 递减元素使数组呈锯齿状（奇偶分别遍历）](https://michael.blog.csdn.net/article/details/106599943) |                                                              |
 | [LeetCode 1145. 二叉树着色游戏（计算节点个数）](https://michael.blog.csdn.net/article/details/103115240) |                                                              |
 | [LeetCode 1146. 快照数组（哈希map + 有序map）](https://michael.blog.csdn.net/article/details/108879748) |                                                              |
+| [LeetCode 1147. 段式回文（贪心）](https://michael.blog.csdn.net/article/details/112095161) |                                                              |
 | [LeetCode 1150. 检查一个数是否在数组中占绝大多数（二分查找）](https://blog.csdn.net/qq_21201267/article/details/107096729) |                                                              |
 | [LeetCode 1151. 最少交换次数来组合所有的 1（滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/107210414) |                                                              |
 | [LeetCode 1152. 用户网站访问行为分析](https://michael.blog.csdn.net/article/details/107784313) |                                                              |
