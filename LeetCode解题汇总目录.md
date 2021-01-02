@@ -912,6 +912,7 @@
 | [LeetCode 979. 在二叉树中分配硬币（DFS）](https://michael.blog.csdn.net/article/details/103219540) |                                                              |
 | [LeetCode 980. 不同路径 III（DFS+回溯）](https://michael.blog.csdn.net/article/details/102961910) |                                                              |
 | [LeetCode 981. 基于时间的键值存储（哈希+二分查找）](https://michael.blog.csdn.net/article/details/108792600) |                                                              |
+| [LeetCode 982. 按位与为零的三元组（位运算+计数）](https://michael.blog.csdn.net/article/details/112094671) |                                                              |
 | [LeetCode 983. 最低票价（动态规划）](https://michael.blog.csdn.net/article/details/105948343) |                                                              |
 | [LeetCode 984. 不含 AAA 或 BBB 的字符串（贪心）](https://michael.blog.csdn.net/article/details/103883367) |                                                              |
 | [LeetCode 985. 查询后的偶数和](https://michael.blog.csdn.net/article/details/105758689) |                                                              |
