@@ -991,6 +991,7 @@
 | [LeetCode 1071. 字符串的最大公因子（字符串的最大公约数）](https://michael.blog.csdn.net/article/details/103174953) |                                                              |
 | [LeetCode 1072. 按列翻转得到最大值等行数（查找相同的模式，哈希计数）](https://michael.blog.csdn.net/article/details/106972120) |                                                              |
 | [LeetCode 1073. 负二进制数相加（负数进制）](https://michael.blog.csdn.net/article/details/103899481) |                                                              |
+| [LeetCode 1074. 元素和为目标值的子矩阵数量（2d前缀和+哈希）](https://michael.blog.csdn.net/article/details/112093880) |                                                              |
 | [LeetCode 1078. Bigram 分词](https://blog.csdn.net/qq_21201267/article/details/101173096) |                                                              |
 | [LeetCode 1079. 活字印刷（全排列回溯）](https://blog.csdn.net/qq_21201267/article/details/100644009) |                                                              |
 | [LeetCode 1080. 根到叶路径上的不足节点（递归）](https://michael.blog.csdn.net/article/details/103690245) |                                                              |
