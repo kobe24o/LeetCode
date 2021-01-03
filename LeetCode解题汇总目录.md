@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2021.1.2
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2021.1.3
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/leetbook/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题（更新完毕）](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题（更新完毕）](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode代码能力测试CAT](https://blog.csdn.net/qq_21201267/article/details/104603021)。
 
@@ -8,7 +8,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
-**已解决 1700/1919** - **简单 523** **中等 936** **困难 241**
+**已解决 1705/1923** - **简单 524** **中等 939** **困难 242**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 
@@ -1463,6 +1463,7 @@
 | [LeetCode 5641. 卡车上的最大单元数（排序，模拟）](https://michael.blog.csdn.net/article/details/112133070) |                                                              |
 | [LeetCode 5642. 大餐计数（map计数 + 二分查找）](https://michael.blog.csdn.net/article/details/112133089) |                                                              |
 | [LeetCode 5643. 将数组分成三个子数组的方案数（前缀和 + 二分查找）](https://michael.blog.csdn.net/article/details/112133125) |                                                              |
+| [LeetCode 5644. 得到子序列的最少操作次数（最长上升子序DP nlogn）](https://michael.blog.csdn.net/article/details/112135082) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
