@@ -1459,6 +1459,9 @@
 | [LeetCode 1704. 判断字符串的两半是否相似](https://michael.blog.csdn.net/article/details/111824889) |                                                              |
 | [LeetCode 1705. 吃苹果的最大数目（优先队列）](https://michael.blog.csdn.net/article/details/111826767) |                                                              |
 | [LeetCode 1706. 球会落何处（模拟）](https://michael.blog.csdn.net/article/details/111824942) |                                                              |
+| [LeetCode 5641. 卡车上的最大单元数（排序，模拟）](https://michael.blog.csdn.net/article/details/112133070) |                                                              |
+| [LeetCode 5642. 大餐计数（map计数 + 二分查找）](https://michael.blog.csdn.net/article/details/112133089) |                                                              |
+| [LeetCode 5643. 将数组分成三个子数组的方案数（前缀和 + 二分查找）](https://michael.blog.csdn.net/article/details/112133125) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
