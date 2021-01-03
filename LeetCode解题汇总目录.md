@@ -836,6 +836,7 @@
 | [LeetCode 875. 爱吃香蕉的珂珂（二分查找）](https://blog.csdn.net/qq_21201267/article/details/106313297) |                                                              |
 | [LeetCode 876. 链表的中间结点（快慢指针）](https://blog.csdn.net/qq_21201267/article/details/101082616) |                                                              |
 | [LeetCode 877. 石子游戏（DP）](https://michael.blog.csdn.net/article/details/105334918) |                                                              |
+| [LeetCode 880. 索引处的解码字符串（找规律）](https://michael.blog.csdn.net/article/details/112131756) |                                                              |
 | [LeetCode 881. 救生艇（贪心，双指针）](https://michael.blog.csdn.net/article/details/103520322) |                                                              |
 | [LeetCode 883. 三维形体投影面积](https://michael.blog.csdn.net/article/details/105797764) |                                                              |
 | [LeetCode 884. 两句话中的不常见单词](https://michael.blog.csdn.net/article/details/105798465) |                                                              |
