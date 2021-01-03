@@ -1,32 +1,25 @@
 class Solution {
 public:
     string decodeAtIndex(string S, int K) {
-        int encode_len = 0, i;
-        string encstr, temp;
-        K--;
-        for(i = 0; i < S.size(); i++) 
+        long long count = 0, n = S.size(), i = 0;
+        for( ; i < n; ++i)
         {
             if(isalpha(S[i]))
-            {
-                encstr += S[i];
-                encode_len++;
-                if(encode_len == K+1)
-                    return string(1,encstr[K]);
-            }
+                count++;
             else
-            {
-                if(encode_len*(S[i]-'0') >= K+1)
-                    return string(1,encstr[K%encode_len]);
-                else
-                {
-                    encode_len *= (S[i]-'0');
-                    int n = (S[i]-'0')-1;
-                    temp = encstr;
-                    while(n--)
-                        temp += encstr;
-                    encstr = temp;
-                }
-            }
+                count *= S[i]-'0';
+            if(count >= K)
+                break;
+        }
+        for( ; i >= 0; --i)
+        {
+            K = K%count;
+            if(K==0 && isalpha(S[i]))
+                return string(1, S[i]);
+            if(isalpha(S[i]))
+                count--;
+            else
+                count /= S[i]-'0';
         }
         return "";
     }
