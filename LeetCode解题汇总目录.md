@@ -589,6 +589,7 @@
 | [LeetCode 548. 将数组分割成和相等的子数组（哈希set）](https://michael.blog.csdn.net/article/details/107866197) |                                                              |
 | [LeetCode 549. 二叉树中最长的连续序列（树上DP）](https://michael.blog.csdn.net/article/details/107576568) |                                                              |
 | [LeetCode 551. 学生出勤记录 I](https://michael.blog.csdn.net/article/details/105717322) |                                                              |
+| [LeetCode 552. 学生出勤记录 II（动态规划）](https://michael.blog.csdn.net/article/details/112250211) |                                                              |
 | [LeetCode 553. 最优除法（数学）](https://michael.blog.csdn.net/article/details/103515354) |                                                              |
 | [LeetCode 554. 砖墙（map计数）](https://michael.blog.csdn.net/article/details/106590186) |                                                              |
 | [LeetCode 555. 分割连接字符串](https://michael.blog.csdn.net/article/details/107824427) |                                                              |
