@@ -883,6 +883,7 @@
 | [LeetCode 937. 重新排列日志文件（自定义排序）](https://blog.csdn.net/qq_21201267/article/details/103171169) |                                                              |
 | [LeetCode 938. 二叉搜索树的范围和（二叉树遍历+搜索剪枝）](https://blog.csdn.net/qq_21201267/article/details/100609270) |                                                              |
 | [LeetCode 939. 最小面积矩形（哈希）](https://michael.blog.csdn.net/article/details/108053430) |                                                              |
+| [LeetCode 940. 不同的子序列 II（动态规划）](https://michael.blog.csdn.net/article/details/112290401) |                                                              |
 | [LeetCode 941. 有效的山脉数组](https://michael.blog.csdn.net/article/details/105804816) |                                                              |
 | [LeetCode 942. 增减字符串匹配](https://blog.csdn.net/qq_21201267/article/details/100907468) |                                                              |
 | [LeetCode 944. 删列造序](https://blog.csdn.net/qq_21201267/article/details/100675384) |                                                              |
