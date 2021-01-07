@@ -858,6 +858,7 @@
 | [LeetCode 901. 股票价格跨度（单调栈）](https://michael.blog.csdn.net/article/details/105860583) |                                                              |
 | [LeetCode 904. 水果成篮（滑动窗口）](https://michael.blog.csdn.net/article/details/106556066) |                                                              |
 | [LeetCode 905. 按奇偶排序数组](https://blog.csdn.net/qq_21201267/article/details/100940305) |                                                              |
+| [LeetCode 907. 子数组的最小值之和（单调栈）](https://michael.blog.csdn.net/article/details/112326435) |                                                              |
 | [LeetCode 908. 最小差值 I](https://blog.csdn.net/qq_21201267/article/details/100944337) |                                                              |
 | [LeetCode 909. 蛇梯棋（BFS）](https://michael.blog.csdn.net/article/details/109138207) |                                                              |
 | [LeetCode 910. 最小差值 II（贪心）](https://michael.blog.csdn.net/article/details/106576338) |                                                              |
