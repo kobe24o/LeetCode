@@ -765,6 +765,7 @@
 | [LeetCode 787. K 站中转内最便宜的航班（Dijkstra最短路径 + 优先队列）](https://michael.blog.csdn.net/article/details/109094212) |                                                              |
 | [LeetCode 788. 旋转数字](https://michael.blog.csdn.net/article/details/105775643) |                                                              |
 | [LeetCode 789. 逃脱阻碍者（曼哈顿距离）](https://michael.blog.csdn.net/article/details/106827480) |                                                              |
+| [LeetCode 790. 多米诺和托米诺平铺（动态规划）](https://michael.blog.csdn.net/article/details/112343026) |                                                              |
 | [LeetCode 791. 自定义字符串排序（map）](https://michael.blog.csdn.net/article/details/103219936) |                                                              |
 | [LeetCode 792. 匹配子序列的单词数（二分查找）](https://michael.blog.csdn.net/article/details/112331864) |                                                              |
 | [LeetCode 793. 阶乘函数后K个零（二分查找）](https://michael.blog.csdn.net/article/details/106347098) |                                                              |
