@@ -856,6 +856,7 @@
 | [LeetCode 895. 最大频率栈（哈希+按频数存储）](https://michael.blog.csdn.net/article/details/107324296) |                                                              |
 | [LeetCode 896. 单调数列](https://blog.csdn.net/qq_21201267/article/details/100782385) |                                                              |
 | [LeetCode 897. 递增顺序查找树（中序遍历）](https://blog.csdn.net/qq_21201267/article/details/101083541) |                                                              |
+| [LeetCode 898. 子数组按位或操作（前缀和思想）](https://michael.blog.csdn.net/article/details/112366460) |                                                              |
 | [LeetCode 900. RLE 迭代器（模拟/二分查找）](https://michael.blog.csdn.net/article/details/108658180) |                                                              |
 | [LeetCode 901. 股票价格跨度（单调栈）](https://michael.blog.csdn.net/article/details/105860583) |                                                              |
 | [LeetCode 904. 水果成篮（滑动窗口）](https://michael.blog.csdn.net/article/details/106556066) |                                                              |
