@@ -1471,6 +1471,7 @@
 | [LeetCode 1712. 将数组分成三个子数组的方案数（前缀和 + 二分查找）](https://michael.blog.csdn.net/article/details/112133125) |                                                              |
 | [LeetCode 1713. 得到子序列的最少操作次数（最长上升子序DP nlogn）](https://michael.blog.csdn.net/article/details/112135082) |                                                              |
 | [LeetCode 5633. 计算力扣银行的钱（等差数列）](https://michael.blog.csdn.net/article/details/112417389) |                                                              |
+| [LeetCode 5634. 删除子字符串的最大得分](https://michael.blog.csdn.net/article/details/112417953) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
