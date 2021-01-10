@@ -82,6 +82,8 @@
 | [LeetCode 第 41 场双周赛（283/1660，前17.1%）](https://michael.blog.csdn.net/article/details/111087463) |
 | [LeetCode 第 219 场周赛（463/3709，前12.5%）](https://michael.blog.csdn.net/article/details/111139125) |
 | [LeetCode 第 222 场周赛（221/3117，前7.09%）](https://michael.blog.csdn.net/article/details/112133125) |
+| [LeetCode 第 43 场双周赛（374/1631，前22.9%）](https://michael.blog.csdn.net/article/details/112417953) |
+| [LeetCode 第 223 场周赛（71/3870， 前1.83%）](https://michael.blog.csdn.net/article/details/112426296) |
 
 ​          
 
@@ -1472,6 +1474,10 @@
 | [LeetCode 1713. 得到子序列的最少操作次数（最长上升子序DP nlogn）](https://michael.blog.csdn.net/article/details/112135082) |                                                              |
 | [LeetCode 5633. 计算力扣银行的钱（等差数列）](https://michael.blog.csdn.net/article/details/112417389) |                                                              |
 | [LeetCode 5634. 删除子字符串的最大得分](https://michael.blog.csdn.net/article/details/112417953) |                                                              |
+| [LeetCode 5649. 解码异或后的数组（位运算）](https://michael.blog.csdn.net/article/details/112426120) |                                                              |
+| [LeetCode 5652. 交换链表中的节点（快慢指针）](https://michael.blog.csdn.net/article/details/112426182) |                                                              |
+| [LeetCode 5650. 执行交换操作后的最小汉明距离（并查集）](https://michael.blog.csdn.net/article/details/112426211) |                                                              |
+| [LeetCode 5639. 完成所有工作的最短时间（DFS+剪枝）](https://michael.blog.csdn.net/article/details/112426296) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
