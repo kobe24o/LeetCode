@@ -37,30 +37,32 @@ class Solution {
 public:
     int minimumTimeRequired(vector<int>& jobs, int k) {
         int n = jobs.size();
-        vector<int> tot(1 << n, 0);
-        for (int i = 1; i < (1 << n); i++) {
-            for (int j = 0; j < n; j++) {
-                if ((i & (1 << j)) == 0) continue;
-                int left = (i - (1 << j));
-                tot[i] = tot[left] + jobs[j];
-                break;
+        // 使用 12 位二进制数的 0,1 表示某个工作分配了没
+        vector<int> time(1<<n, 0);
+        for(int i = 1; i < (1<<n); ++i)
+        {
+            for(int j = 0; j < n; ++j)
+            {
+                if((i & (1<<j)) == 0)
+                    continue;
+                int left = i - (1<<j);//除去 j 工作外的工作
+                time[i] = time[left]+jobs[j];
             }
         }
-        
-        vector<vector<int>> dp(k, vector<int>(1 << n, -1));
-        for (int i = 0; i < (1 << n); i++) {
-            dp[0][i] = tot[i];
-        }
-        
-        for (int j = 1; j < k; j++) {
-            for (int i = 0; i < (1 << n); i++) {
-                int minv = INT_MAX;
-                for (int s = i; s; s = (s - 1) & i) { // 枚举 i 的全部子集
+        vector<vector<int>> dp(k, vector<int>(1<<n, INT_MAX));
+        // dp[k][sub] 表示 前 k 个人，处理 sub 任务子集 的最优分配时间
+        for(int i = 0; i < (1<<n); ++i)
+            dp[0][i] = time[i];
+        for(int ki = 1; ki < k; ++ki)
+        {
+            for(int i = 0; i < (1<<n); ++i)
+            {
+                for(int s = i; s; s = i&(s-1))//枚举 i 的全部子集
+                {
                     int left = i - s;
-                    int val = max(dp[j-1][left], tot[s]);
-                    minv = min(minv, val);
+                    int t = max(dp[ki-1][left], time[s]);
+                    dp[ki][i] = min(dp[ki][i], t);
                 }
-                dp[j][i] = minv;
             }
         }
         return dp[k-1][(1<<n)-1];
