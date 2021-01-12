@@ -1087,6 +1087,7 @@
 | [LeetCode 1200. 最小绝对差](https://michael.blog.csdn.net/article/details/105802282) |                                                              |
 | [LeetCode 1201. 丑数 III（最小公倍数+二分查找）](https://michael.blog.csdn.net/article/details/105920352) |                                                              |
 | [LeetCode 1202. 交换字符串中的元素（并查集）](https://michael.blog.csdn.net/article/details/106042356) |                                                              |
+| [LeetCode 1203. 项目管理（两次拓扑排序）](https://michael.blog.csdn.net/article/details/112546098) |                                                              |
 | [LeetCode 1207. 独一无二的出现次数](https://michael.blog.csdn.net/article/details/105802661) |                                                              |
 | [LeetCode 1208. 尽可能使字符串相等（滑动窗口）](https://michael.blog.csdn.net/article/details/103324980) |                                                              |
 | [LeetCode 1209. 删除字符串中的所有相邻重复项 II（栈）](https://michael.blog.csdn.net/article/details/103325673) |                                                              |
@@ -1472,12 +1473,12 @@
 | [LeetCode 1711. 大餐计数（map计数 + 二分查找）](https://michael.blog.csdn.net/article/details/112133089) |                                                              |
 | [LeetCode 1712. 将数组分成三个子数组的方案数（前缀和 + 二分查找）](https://michael.blog.csdn.net/article/details/112133125) |                                                              |
 | [LeetCode 1713. 得到子序列的最少操作次数（最长上升子序DP nlogn）](https://michael.blog.csdn.net/article/details/112135082) |                                                              |
-| [LeetCode 5633. 计算力扣银行的钱（等差数列）](https://michael.blog.csdn.net/article/details/112417389) |                                                              |
-| [LeetCode 5634. 删除子字符串的最大得分](https://michael.blog.csdn.net/article/details/112417953) |                                                              |
-| [LeetCode 5649. 解码异或后的数组（位运算）](https://michael.blog.csdn.net/article/details/112426120) |                                                              |
-| [LeetCode 5652. 交换链表中的节点（快慢指针）](https://michael.blog.csdn.net/article/details/112426182) |                                                              |
-| [LeetCode 5650. 执行交换操作后的最小汉明距离（并查集）](https://michael.blog.csdn.net/article/details/112426211) |                                                              |
-| [LeetCode 5639. 完成所有工作的最短时间（DFS+剪枝）](https://michael.blog.csdn.net/article/details/112426296) |                                                              |
+| [LeetCode 1716. 计算力扣银行的钱（等差数列）](https://michael.blog.csdn.net/article/details/112417389) |                                                              |
+| [LeetCode 1717. 删除子字符串的最大得分](https://michael.blog.csdn.net/article/details/112417953) |                                                              |
+| [LeetCode 1720. 解码异或后的数组（位运算）](https://michael.blog.csdn.net/article/details/112426120) |                                                              |
+| [LeetCode 1721. 交换链表中的节点（快慢指针）](https://michael.blog.csdn.net/article/details/112426182) |                                                              |
+| [LeetCode 1722. 执行交换操作后的最小汉明距离（并查集）](https://michael.blog.csdn.net/article/details/112426211) |                                                              |
+| [LeetCode 1723. 完成所有工作的最短时间（DFS+剪枝）](https://michael.blog.csdn.net/article/details/112426296) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
