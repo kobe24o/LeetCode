@@ -1,24 +1,10 @@
-#include <bits/stdc++.h>
-
-using namespace std;
-void print2Dvector(vector<vector<int>>& a)
-{
-    int m = a.size(), n = a[0].size();
-    for(int i = 0; i < m; ++i)
-    {
-        for(int j = 0; j < n; ++j)
-            cout << a[i][j] << " ";
-        cout << endl;
-    }
-}
-
 class Solution {
 public:
     vector<int> sortItems(int n, int m, vector<int>& group, vector<vector<int>>& beforeItems) {
         for(int i = 0; i < n; i++)
         {
             if(group[i] == -1)
-                group[i] = m++;
+                group[i] = m++;//无人接管的分配一个虚拟团队号
         }
         vector<vector<int>> itemgraph(n);
         vector<vector<int>> groupgraph(m);
@@ -28,13 +14,17 @@ public:
         {
             for(auto j : beforeItems[i])
             {
-                itemgraph[j].push_back(i);
-                itemIndegree[i]++;
-                groupgraph[group[j]].push_back(group[i]);
-                groupIndegree[group[i]]++;
+                itemgraph[j].push_back(i);//建图
+                itemIndegree[i]++;//记录出入度
+                if(group[i] != group[j]) // 注意条件
+                {	// 团队也建图，记录出入度
+                    groupgraph[group[j]].push_back(group[i]);
+                    groupIndegree[group[i]]++;
+                }
             }
         }
         vector<vector<int>> g_items(m);
+        // item 拓扑排序
         queue<int> q;
         for(int i = 0; i < n; i++)
             if(itemIndegree[i] == 0)
@@ -46,6 +36,7 @@ public:
             q.pop();
             countItem++;
             g_items[group[i]].push_back(i);
+            //每个item顺序存入自己的团队
             for(auto j : itemgraph[i])
             {
                 if(--itemIndegree[j]==0)
@@ -54,14 +45,17 @@ public:
         }
         if(countItem != n)
             return {};
+        // 团队拓扑排序
         vector<int> g_order;
         for(int i = 0; i < m; i++)
             if(groupIndegree[i] == 0)
                 q.push(i);
+        int countgroup = 0;
         while(!q.empty())
         {
             int g = q.front();
             q.pop();
+            countgroup++;
             g_order.push_back(g);
             for(auto j : groupgraph[g])
             {
@@ -69,8 +63,9 @@ public:
                     q.push(j);
             }
         }
-        if(!q.empty())
+        if(countgroup != m)
             return {};
+        // 写入答案
         vector<int> ans(n);
         int idx = 0;
         for(auto g : g_order)
@@ -81,18 +76,3 @@ public:
         return ans;
     }
 };
-
-
-int main()
-{
-
-    Solution s;
-    vector<vector<int>> g = {{},{6},{5},{6},{3,6},{},{},{}};
-    vector<int> a = {-1,-1,1,0,0,1,0,-1}, b = {15,15,15,15,15}, c={1,2,8,10,4};
-    string str = "cdbcbbaaabab";
-    s.sortItems(8,2,a,g);
-//    cout << s.sortItems(8,2,a,g) << endl;
-
-
-    return 0;
-}
