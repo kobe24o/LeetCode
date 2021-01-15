@@ -740,6 +740,7 @@
 | [LeetCode 750. 角矩形的数量（DP）](https://blog.csdn.net/qq_21201267/article/details/107233886) |                                                              |
 | [LeetCode 751. IP 到 CIDR（贪心）](https://michael.blog.csdn.net/article/details/107416095) |                                                              |
 | [LeetCode 752. 打开转盘锁（图的BFS最短路径）](https://blog.csdn.net/qq_21201267/article/details/101485240) |                                                              |
+| [LeetCode 753. 破解保险箱（DFS）](https://michael.blog.csdn.net/article/details/112689705) |                                                              |
 | [LeetCode 754. 到达终点数字（数学推理）](https://blog.csdn.net/qq_21201267/article/details/102888341) |                                                              |
 | [LeetCode 755. 倒水（模拟）](https://michael.blog.csdn.net/article/details/107883940) |                                                              |
 | [LeetCode 756. 金字塔转换矩阵（回溯）](https://michael.blog.csdn.net/article/details/109537003) |                                                              |
@@ -1487,6 +1488,7 @@
 | [LeetCode LCP 22. 黑白方格画](https://michael.blog.csdn.net/article/details/108684240) |                                                              |
 | [LeetCode 网易-1. 分割环（前缀和 + 哈希）](https://michael.blog.csdn.net/article/details/109208128) |                                                              |
 | [LeetCode 网易-2. 古老的游戏机](https://michael.blog.csdn.net/article/details/109207550) |                                                              |
+| [LeetCode DD-2020006. 简单游戏（前缀和）](https://michael.blog.csdn.net/article/details/112688247) |                                                              |
 
 
 
