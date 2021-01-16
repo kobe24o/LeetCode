@@ -780,6 +780,7 @@
 | [LeetCode 800. 相似 RGB 颜色](https://blog.csdn.net/qq_21201267/article/details/107095932) |                                                              |
 | [LeetCode 801. 使序列递增的最小交换次数（动态规划）](https://michael.blog.csdn.net/article/details/105841553) |                                                              |
 | [LeetCode 802. 找到最终的安全状态（逆向图+拓扑排序）](https://michael.blog.csdn.net/article/details/108864377) |                                                              |
+| [LeetCode 803. 打砖块（并查集）](https://michael.blog.csdn.net/article/details/112723175) |                                                              |
 | [LeetCode 804. 唯一摩尔斯密码词（哈希+set）](https://blog.csdn.net/qq_21201267/article/details/100630347) |                                                              |
 | [LeetCode 806. 写字符串需要的行数](https://michael.blog.csdn.net/article/details/105776513) |                                                              |
 | [LeetCode 807. 保持城市天际线](https://blog.csdn.net/qq_21201267/article/details/100585707) |                                                              |
