@@ -1481,7 +1481,8 @@
 | [LeetCode 1720. 解码异或后的数组（位运算）](https://michael.blog.csdn.net/article/details/112426120) |                                                              |
 | [LeetCode 1721. 交换链表中的节点（快慢指针）](https://michael.blog.csdn.net/article/details/112426182) |                                                              |
 | [LeetCode 1722. 执行交换操作后的最小汉明距离（并查集）](https://michael.blog.csdn.net/article/details/112426211) |                                                              |
-| [LeetCode 1723. 完成所有工作的最短时间（DFS+剪枝）](https://michael.blog.csdn.net/article/details/112426296) |                                                              |
+| [LeetCode 1723. 完成所有工作的最短时间（DFS+剪枝 / 状态压缩DP）](https://michael.blog.csdn.net/article/details/112426296) |                                                              |
+| [LeetCode 5653. 可以形成最大正方形的矩形数目](https://michael.blog.csdn.net/article/details/112737339) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
