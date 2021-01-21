@@ -1321,6 +1321,7 @@
 | [LeetCode 1486. 数组异或操作](https://michael.blog.csdn.net/article/details/106883899) |                                                              |
 | [LeetCode 1487. 保证文件名唯一（哈希map）](https://michael.blog.csdn.net/article/details/106884295) |                                                              |
 | [LeetCode 1488. 避免洪水泛滥（哈希map+deque）](https://michael.blog.csdn.net/article/details/106889436) |                                                              |
+| [LeetCode 1489. 找到最小生成树里的关键边和伪关键边（并查集+kruskal最小生成树）](https://michael.blog.csdn.net/article/details/112919914) |                                                              |
 | [LeetCode 1490. 克隆 N 叉树（DFS/BFS）](https://blog.csdn.net/qq_21201267/article/details/107110691) |                                                              |
 | [LeetCode 1491. 去掉最低工资和最高工资后的工资平均值](https://michael.blog.csdn.net/article/details/106990467#1_LeetCode_5432__easy_13) |                                                              |
 | [LeetCode 1492. n 的第 k 个因子](https://michael.blog.csdn.net/article/details/106990467#2_LeetCode_5433_n__k__medium_75) |                                                              |
