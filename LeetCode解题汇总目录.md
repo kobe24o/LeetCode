@@ -911,6 +911,7 @@
 | [LeetCode 959. 由斜杠划分区域（并查集）](https://michael.blog.csdn.net/article/details/105739007) |                                                              |
 | [LeetCode 961. 重复 N 次的元素](https://michael.blog.csdn.net/article/details/105800069) |                                                              |
 | [LeetCode 962. 最大宽度坡（单调栈）](https://michael.blog.csdn.net/article/details/106057212) |                                                              |
+| [LeetCode 963. 最小面积矩形 II](https://michael.blog.csdn.net/article/details/112982307) |                                                              |
 | [LeetCode 965. 单值二叉树](https://blog.csdn.net/qq_21201267/article/details/100993432) |                                                              |
 | [LeetCode 966. 元音拼写检查器（哈希）](https://michael.blog.csdn.net/article/details/106875371) |                                                              |
 | [LeetCode 967. 连续差相同的数字（BFS/DFS）](https://michael.blog.csdn.net/article/details/108473159) |                                                              |
