@@ -1064,6 +1064,7 @@
 | [LeetCode 1153. 字符串转化（哈希）](https://michael.blog.csdn.net/article/details/107991371) |                                                              |
 | [LeetCode 1154. 一年中的第几天](https://blog.csdn.net/qq_21201267/article/details/100754099) |                                                              |
 | [LeetCode 1155. 掷骰子的N种方法（DP）](https://michael.blog.csdn.net/article/details/106673138) |                                                              |
+| [LeetCode 1156. 单字符重复子串的最大长度](https://michael.blog.csdn.net/article/details/112993340) |                                                              |
 | [LeetCode 1160. 拼写单词](https://blog.csdn.net/qq_21201267/article/details/100673250) |                                                              |
 | [LeetCode 1161. 最大层内元素和（层序遍历）](https://michael.blog.csdn.net/article/details/103216744) |                                                              |
 | [LeetCode 1162. 地图分析（BFS）](https://michael.blog.csdn.net/article/details/105172033) |                                                              |
