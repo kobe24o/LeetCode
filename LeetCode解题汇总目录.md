@@ -172,6 +172,7 @@
 | [LeetCode 84. 柱状图中最大的矩形（单调递增栈）](https://michael.blog.csdn.net/article/details/106438479) |                                                              |
 | [LeetCode 85. 最大矩形（DP，难）](https://michael.blog.csdn.net/article/details/104217829) |                                                              |
 | [LeetCode 86. 分隔链表](https://michael.blog.csdn.net/article/details/103227124) |                                                              |
+| [LeetCode 87. 扰乱字符串（记忆化递归 / DP）](https://michael.blog.csdn.net/article/details/113053927) |                                                              |
 | [LeetCode 88. 合并两个有序数组](https://blog.csdn.net/qq_21201267/article/details/100056086) |                                                              |
 | [LeetCode 89. 格雷编码](https://blog.csdn.net/qq_21201267/article/details/100170042) |                                                              |
 | [LeetCode 90. 子集 II（回溯+剪枝）](https://blog.csdn.net/qq_21201267/article/details/100167394) |                                                              |
