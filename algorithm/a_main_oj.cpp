@@ -13,36 +13,23 @@ void print2Dvector(vector<vector<int>>& a)
 }
 
 class Solution {
+    unordered_map<string,unordered_map<string,bool>> m;
 public:
-    /**
-     * @param version1: the first given number
-     * @param version2: the second given number
-     * @return: the result of comparing
-     */
-    int compareVersion(string &version1, string &version2) {
-        // Write your code here
-        int m = version1.size(), n = version2.size();
-        int i = 0, j = 0;
-        while(i < m && j < n) {
-            int v1 = 0, v2 = 0;
-            while(i < m && version1[i] != '.')
-            {
-                v1 = v1*10+version1[i++]-'0';
-            }
-            i++;
-            while(j < m && version2[j] != '.')
-            {
-                v2 = v2*10+version2[j++]-'0';
-            }
-            j++;
-            if(v1 < v2)
-                return -1;
-            else if(v1 > v2)
-                return 1;
+    bool isScramble(string s1, string s2) {
+        if(m.count(s1) && m[s1].count(s2))
+            return m[s1][s2];
+        if(s1 == s2) return true;
+        for(int len = 0; len <= s1.size(); ++len)
+        {
+            string s1a = s1.substr(0,len), s1b = s1.substr(len);
+            string s2a = s2.substr(0,len), s2b = s2.substr(len);
+            string s2a_ = s2.substr(0,s2.size()-len), s2b_ = s2.substr(s2.size()-len);
+            if(isScramble(s1a, s2a) && isScramble(s1b, s2b))
+                return m[s1][s2] = true;
+            if(isScramble(s1a, s2b_) && isScramble(s1b, s2a_))
+                return m[s1][s2] = true;
         }
-        if(i < m) return 1;
-        else if(j < n) return -1;
-        return 0;
+        return m[s1][s2] = false;
     }
 };
 
@@ -54,8 +41,8 @@ int main()
     vector<vector<int>> g = {{},{6},{5},{6},{3,6},{},{},{}};
     vector<int> a = {-1,-1,1,0,0,1,0,-1}, b = {15,15,15,15,15}, c={1,2,8,10,4};
     string str = "cdbcbbaaabab";
-    string s1 = "01", s2 = "1";
-    cout << s.compareVersion(s1,s2) << endl;
+    string s1 = "rgeat", s2 = "great";
+    cout << s.isScramble(s1,s2) << endl;
 
 
     return 0;

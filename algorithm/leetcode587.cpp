@@ -1,30 +1,20 @@
 class Solution {
+    unordered_map<string,unordered_map<string,bool>> m;
 public:
-    vector<vector<int>> outerTrees(vector<vector<int>>& points) {
-        sort(points.begin(), points.end());
-        vector<vector<int>> ans;
-        for(int i = 0; i < points.size(); ++i)
+    bool isScramble(string s1, string s2) {
+        if(m.count(s1) && m[s1].count(s2))
+            return m[s1][s2];
+        if(s1 == s2) return m[s1][s2]=true;
+        for(int len = 1; len < s1.size(); ++len)
         {
-            while(ans.size()>=2 && dot(ans[ans.size()-2], ans[ans.size()-1],points[i]) < 0)
-                ans.pop_back();
-            ans.push_back(points[i]);
+            string s1a = s1.substr(0,len), s1b = s1.substr(len);
+            string s2a = s2.substr(0,len), s2b = s2.substr(len);
+            string s2a_ = s2.substr(0,s2.size()-len), s2b_ = s2.substr(s2.size()-len);
+            if(isScramble(s1a, s2a) && isScramble(s1b, s2b))
+                return m[s1][s2] = true;
+            if(isScramble(s1a, s2b_) && isScramble(s1b, s2a_))
+                return m[s1][s2] = true;
         }
-        for(int i = points.size()-1; i >= 0; --i)
-        {
-            while(ans.size()>=2 && dot(ans[ans.size()-2], ans[ans.size()-1],points[i]) < 0)
-                ans.pop_back();
-            ans.push_back(points[i]);
-        }
-        set<vector<int>> set(ans.begin(), ans.end());
-        vector<vector<int>> res(set.begin(), set.end());
-        return res;
-    }
-    int dot(vector<int>& a, vector<int>& b, vector<int>& c)
-    {
-        int x1 = b[0]-a[0];
-        int y1 = b[1]-a[1];
-        int x2 = c[0]-b[0];
-        int y2 = c[1]-b[1];
-        return x1*y2-x2*y1;
+        return m[s1][s2] = false;
     }
 };
