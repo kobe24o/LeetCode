@@ -616,6 +616,7 @@
 | [LeetCode 581. 最短无序连续子数组（排序&单调栈）](https://michael.blog.csdn.net/article/details/103208650) |                                                              |
 | [LeetCode 582. 杀死进程（图的遍历）](https://michael.blog.csdn.net/article/details/107880885) |                                                              |
 | [LeetCode 583. 两个字符串的删除操作（动态规划）](https://michael.blog.csdn.net/article/details/106009461) |                                                              |
+| [LeetCode 587. 安装栅栏 / LintCode 1152. 安装栅栏（凸包检测：排序+叉积正负判断+正反扫描+去重）](https://michael.blog.csdn.net/article/details/113039017) |                                                              |
 | [LeetCode 589. N叉树的前序遍历（前序遍历）](https://blog.csdn.net/qq_21201267/article/details/100747568) |                                                              |
 | [LeetCode 590. N叉树的后序遍历（后序遍历）](https://blog.csdn.net/qq_21201267/article/details/100749955) |                                                              |
 | [LeetCode 592. 分数加减运算（字符串+最大公约数）](https://michael.blog.csdn.net/article/details/106730621) |                                                              |
