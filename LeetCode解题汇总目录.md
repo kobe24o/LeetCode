@@ -1498,6 +1498,7 @@
 | [LeetCode 1726. 同积元组（排列组合）](https://michael.blog.csdn.net/article/details/112738288) |                                                              |
 | [LeetCode 1727. 重新排列后的最大子矩阵（前缀和+排序）](https://michael.blog.csdn.net/article/details/112753593) |                                                              |
 | [LeetCode 5645. 找到最高海拔](https://michael.blog.csdn.net/article/details/113068007) |                                                              |
+| [LeetCode 5646. 需要教语言的最少人数（哈希+枚举）](https://michael.blog.csdn.net/article/details/113071632) |                                                              |
 | [LeetCode 5647. 解码异或后的排列（位运算）](https://michael.blog.csdn.net/article/details/113068427) |                                                              |
 | [LeetCode 5661. 替换隐藏数字得到的最晚时间](https://michael.blog.csdn.net/article/details/113082734) |                                                              |
 | [LeetCode 5662. 满足三条件之一需改变的最少字符数（计数）](https://michael.blog.csdn.net/article/details/113083679) |                                                              |
