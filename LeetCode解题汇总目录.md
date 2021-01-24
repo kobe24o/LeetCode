@@ -1500,6 +1500,7 @@
 | [LeetCode 5647. 解码异或后的排列（位运算）](https://michael.blog.csdn.net/article/details/113068427) |                                                              |
 | [LeetCode 5661. 替换隐藏数字得到的最晚时间](https://michael.blog.csdn.net/article/details/113082734) |                                                              |
 | [LeetCode 5662. 满足三条件之一需改变的最少字符数（计数）](https://michael.blog.csdn.net/article/details/113083679) |                                                              |
+| [LeetCode 5663. 找出第 K 大的异或坐标值（DP）](https://michael.blog.csdn.net/article/details/113086195) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
