@@ -1498,6 +1498,7 @@
 | [LeetCode 1727. 重新排列后的最大子矩阵（前缀和+排序）](https://michael.blog.csdn.net/article/details/112753593) |                                                              |
 | [LeetCode 5645. 找到最高海拔](https://michael.blog.csdn.net/article/details/113068007) |                                                              |
 | [LeetCode 5647. 解码异或后的排列（位运算）](https://michael.blog.csdn.net/article/details/113068427) |                                                              |
+| [LeetCode 5661. 替换隐藏数字得到的最晚时间](https://michael.blog.csdn.net/article/details/113082734) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
