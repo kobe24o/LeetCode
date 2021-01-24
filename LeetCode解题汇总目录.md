@@ -84,6 +84,7 @@
 | [LeetCode 第 222 场周赛（221/3117，前7.09%）](https://michael.blog.csdn.net/article/details/112133125) |
 | [LeetCode 第 43 场双周赛（374/1631，前22.9%）](https://michael.blog.csdn.net/article/details/112417953) |
 | [LeetCode 第 223 场周赛（265/3871， 前6.85%）](https://michael.blog.csdn.net/article/details/112426296) |
+| [LeetCode 第 44 场双周赛（260/1826，前14.2%）](https://michael.blog.csdn.net/article/details/113068427) |
 
 ​          
 
@@ -1495,6 +1496,8 @@
 | [LeetCode 1725. 可以形成最大正方形的矩形数目](https://michael.blog.csdn.net/article/details/112737339) |                                                              |
 | [LeetCode 1726. 同积元组（排列组合）](https://michael.blog.csdn.net/article/details/112738288) |                                                              |
 | [LeetCode 1727. 重新排列后的最大子矩阵（前缀和+排序）](https://michael.blog.csdn.net/article/details/112753593) |                                                              |
+| [LeetCode 5645. 找到最高海拔](https://michael.blog.csdn.net/article/details/113068007) |                                                              |
+| [LeetCode 5647. 解码异或后的排列（位运算）](https://michael.blog.csdn.net/article/details/113068427) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
