@@ -11,6 +11,12 @@
 - [MySQL 多表查询、连接查询（内连接、外连接）](https://blog.csdn.net/qq_21201267/article/details/106481752)
 - [MySQL 增加、更新、删除](https://blog.csdn.net/qq_21201267/article/details/106502369)
 
+
+
+[TOC]
+
+## 1. LeetCode SQL
+
 | 已完成                                                       |
 | :----------------------------------------------------------- |
 | [LeetCode 175. 组合两个表](https://michael.blog.csdn.net/article/details/106481752#_LeetCode_175__84) |
@@ -136,6 +142,13 @@
 | [LeetCode 1532. The Most Recent Three Orders（dense_rank + over窗口函数）](https://michael.blog.csdn.net/article/details/107680682) |
 | [LeetCode 1543. Fix Product Name Format（trim去空格+upper/lower大小写）](https://michael.blog.csdn.net/article/details/107890180) |
 | [LeetCode 1549. The Most Recent Orders for Each Product](https://michael.blog.csdn.net/article/details/107996931) |
+
+## 2. LintCode SQL
+
+| 已完成                                                       |
+| :----------------------------------------------------------- |
+| [LintCode MySQL 1921. 从不充值的玩家（where not in）](https://michael.blog.csdn.net/article/details/113405105) |
+| [LintCode MySQL 1928. 网课上课情况分析 I](https://michael.blog.csdn.net/article/details/113404724) |
 
 
 
