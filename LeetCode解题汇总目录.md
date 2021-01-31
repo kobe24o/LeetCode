@@ -1507,6 +1507,7 @@
 | [LeetCode 5654. 盒子中小球的最大数量](https://michael.blog.csdn.net/article/details/113465352) |                                                              |
 | [LeetCode 5665. 从相邻元素对还原数组（拓扑排序）](https://michael.blog.csdn.net/article/details/113465643) |                                                              |
 | [LeetCode 5667. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？（前缀和）](https://michael.blog.csdn.net/article/details/113466143) |                                                              |
+| [LeetCode 5666. 回文串分割 IV（区间DP）](https://michael.blog.csdn.net/article/details/113468128) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
