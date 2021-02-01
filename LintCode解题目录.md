@@ -44,6 +44,7 @@
 | [LintCode 1690. 朋友推荐（二分插入）](https://michael.blog.csdn.net/article/details/104838218) |
 | [LintCode 1692. 组队打怪（田忌赛马，二分查找）](https://michael.blog.csdn.net/article/details/104837096) |
 | [LintCode 1753. 写作业（二分查找）](https://michael.blog.csdn.net/article/details/104678269) |
+| [LintCode 1816. 使结果不超过阈值的最小除数（二分查找）](https://michael.blog.csdn.net/article/details/113527590) |
 | [LintCode 1859. 最小振幅（排序）](https://michael.blog.csdn.net/article/details/105008584) |
 | [LintCode 1862. 给树浇水的时间（图的遍历）](https://michael.blog.csdn.net/article/details/105007528) |
 
