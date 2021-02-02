@@ -26,6 +26,7 @@
 | [LintCode 125. 背包问题 II（DP）](https://blog.csdn.net/qq_21201267/article/details/104720589) |
 | [LintCode 183. 木材加工（二分查找）](https://michael.blog.csdn.net/article/details/104828329) |
 | [LintCode 207. 区间求和 II（线段树）](https://michael.blog.csdn.net/article/details/104832791) |
+| [LintCode 378. 将二叉树转换成双链表（非递归遍历）](https://michael.blog.csdn.net/article/details/113573054) |
 | [LintCode 386. 最多有k个不同字符的最长子字符串（双指针）](https://michael.blog.csdn.net/article/details/104705588) |
 | [LintCode 390. 找峰值 II](https://blog.csdn.net/qq_21201267/article/details/104800024) |
 | [LintCode 550. 最常使用的K个单词II（自定义set（可修改数据的优先队列） + map）](https://michael.blog.csdn.net/article/details/104707698) |
