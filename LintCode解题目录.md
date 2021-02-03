@@ -49,5 +49,6 @@
 | [LintCode 1816. 使结果不超过阈值的最小除数（二分查找）](https://michael.blog.csdn.net/article/details/113527590) |
 | [LintCode 1859. 最小振幅（排序）](https://michael.blog.csdn.net/article/details/105008584) |
 | [LintCode 1862. 给树浇水的时间（图的遍历）](https://michael.blog.csdn.net/article/details/105007528) |
+| [LintCode 1915. 举重（01背包）](https://michael.blog.csdn.net/article/details/113597574) |
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200303225215256.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIxMjAxMjY3,size_16,color_FFFFFF,t_70)
