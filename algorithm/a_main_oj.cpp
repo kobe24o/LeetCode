@@ -13,23 +13,44 @@ void print2Dvector(vector<vector<int>>& a)
 }
 
 class Solution {
-    unordered_map<string,unordered_map<string,bool>> m;
 public:
-    bool isScramble(string s1, string s2) {
-        if(m.count(s1) && m[s1].count(s2))
-            return m[s1][s2];
-        if(s1 == s2) return true;
-        for(int len = 0; len <= s1.size(); ++len)
+    int maxValue(vector<vector<int>>& events, int k) {
+        sort(events.begin(), events.end(),[&](auto a, auto b){
+            if(a[1] == b[1])
+                return a[0] < b[0];
+            return a[1] < b[1];
+        });
+        int n = events.size();
+        typedef pair<int, int> pii;
+        vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(k+1, vector<int>(2,-1)));
+        dp[0][0] = {0, 0};
+        for(int i = 1; i <= n; i++)
+            dp[i][1] = {events[i-1][1], events[i-1][2]};
+        for(int i = 1; i <= n; i++)
         {
-            string s1a = s1.substr(0,len), s1b = s1.substr(len);
-            string s2a = s2.substr(0,len), s2b = s2.substr(len);
-            string s2a_ = s2.substr(0,s2.size()-len), s2b_ = s2.substr(s2.size()-len);
-            if(isScramble(s1a, s2a) && isScramble(s1b, s2b))
-                return m[s1][s2] = true;
-            if(isScramble(s1a, s2b_) && isScramble(s1b, s2a_))
-                return m[s1][s2] = true;
+            for(int K = 0; K <= k; K++)
+            {
+                int lastend = dp[i-1][K][0];
+                int lastV = dp[i-1][K][1];
+                if(lastend == -1)
+                    continue;
+                if(lastV > dp[i][K][1])
+                    dp[i][K] = {lastend, lastV};
+                else if(lastV == dp[i][K][1] && lastend < dp[i][K][0])
+                    dp[i][K][0] = lastend;
+                if(K+1 <= k && lastend < events[i-1][0])
+                {
+                    if(dp[i][K+1][1] < lastV+events[i-1][2])
+                        dp[i][K+1] = {events[i-1][1], lastV+events[i-1][2]};
+                    else if(dp[i][K+1][1] == lastV+events[i-1][2] && lastend < dp[i][K+1][0])
+                        dp[i][K+1][0] = lastend;
+                }
+            }
         }
-        return m[s1][s2] = false;
+        int ans = 0;
+        for(int K = 0; K <= k; K++)
+            ans = max(ans, dp[n][K][1]);
+        return ans;
     }
 };
 
@@ -38,12 +59,12 @@ int main()
 {
 
     Solution s;
-    vector<vector<int>> g = {{},{6},{5},{6},{3,6},{},{},{}};
-    vector<int> a = {-1,-1,1,0,0,1,0,-1}, b = {15,15,15,15,15}, c={1,2,8,10,4};
-    string str = "cdbcbbaaabab";
+    vector<vector<int>> g = {{1,2,4},{3,4,3},{2,3,10}};
+    vector<int> a = {-3,-5,-3,-2,-6,3,10,-10,-8,-3,0,10,3,-5,8,7,-9,-9,5,-8};
+    string str = "A man, a plan, a canal: Panama";
     string s1 = "rgeat", s2 = "great";
-    cout << s.isScramble(s1,s2) << endl;
+    cout << s.maxValue(g,2) << endl;
 
-
+//    cout << bool(true^false) << endl;
     return 0;
 }
