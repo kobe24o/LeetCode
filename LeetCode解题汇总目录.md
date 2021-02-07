@@ -8,7 +8,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
-**已解决 1740/1950** - **简单 528** **中等 960** **困难 252**
+**已解决 1750/1966** - **简单 529** **中等 967** **困难 254**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 
@@ -1511,6 +1511,8 @@
 | [LeetCode 5657. 唯一元素的和](https://michael.blog.csdn.net/article/details/113732986) |                                                              |
 | [LeetCode 5658. 任意子数组和的绝对值的最大值（前缀和）](https://michael.blog.csdn.net/article/details/113733076) |                                                              |
 | [LeetCode 5659. 删除字符串两端相同字符后的最短长度（双指针）](https://michael.blog.csdn.net/article/details/113733199) |                                                              |
+| [LeetCode 5672. 检查数组是否经排序和轮转得到](https://michael.blog.csdn.net/article/details/113740068) |                                                              |
+| [LeetCode 5673. 移除石子的最大得分（优先队列）](https://michael.blog.csdn.net/article/details/113741201) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
