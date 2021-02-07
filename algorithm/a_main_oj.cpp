@@ -14,42 +14,51 @@ void print2Dvector(vector<vector<int>>& a)
 
 class Solution {
 public:
-    int maxValue(vector<vector<int>>& events, int k) {
-        sort(events.begin(), events.end(),[&](auto a, auto b){
-            if(a[1] == b[1])
-                return a[0] < b[0];
-            return a[1] < b[1];
-        });
-        int n = events.size();
-        typedef pair<int, int> pii;
-        vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(k+1, vector<int>(2,-1)));
-        dp[0][0] = {0, 0};
-        for(int i = 1; i <= n; i++)
-            dp[i][1] = {events[i-1][1], events[i-1][2]};
-        for(int i = 1; i <= n; i++)
+    string largestMerge(string word1, string word2) {
+        int n1 = word1.size(), n2 = word2.size(), i = 0, j = 0;
+        string ans;
+        ans.reserve(n1+n2);
+        while(i < n1 || j < n2)
         {
-            for(int K = 0; K <= k; K++)
+            if(i < n1 && j < n2 && word1[i] > word2[j])
+                ans.push_back(word1[i++]);
+            else if(i < n1 && j < n2 && word1[i] < word2[j])
+                ans.push_back(word2[j++]);
+            else if(i < n1 && j < n2 && word1[i] == word2[j])
             {
-                int lastend = dp[i-1][K][0];
-                int lastV = dp[i-1][K][1];
-                if(lastend == -1)
-                    continue;
-                if(lastV > dp[i][K][1])
-                    dp[i][K] = {lastend, lastV};
-                else if(lastV == dp[i][K][1] && lastend < dp[i][K][0])
-                    dp[i][K][0] = lastend;
-                if(K+1 <= k && lastend < events[i-1][0])
+                int k1 = i, k2 = j;
+                while(k1 < n1 && k2 < n2 && word1[k1] == word2[k2])
                 {
-                    if(dp[i][K+1][1] < lastV+events[i-1][2])
-                        dp[i][K+1] = {events[i-1][1], lastV+events[i-1][2]};
-                    else if(dp[i][K+1][1] == lastV+events[i-1][2] && lastend < dp[i][K+1][0])
-                        dp[i][K+1][0] = lastend;
+                    k1++, k2++;
+                }
+                if((k1 < n1 && k2 < n2 && word1[k1] > word2[k2]) || (k2==n2 && k1<n1 && word1[k1] > word1[i])
+                   || (k1==n1 && k2<n2 && word2[k2] < word1[i]) || (k1==n1 && k2==n2))
+                {
+                    for( ; i < k1; ++i)
+                        ans.push_back(word1[i]);
+                    if(k1 != n1)
+                        ans.push_back(word1[i++]);
+                }
+                else if((k1 < n1 && k2 < n2 && word2[k2] > word1[k1]) || (k1==n1 && k2<n2 && word2[k2] > word1[i])
+                        || (k2==n2 && k1<n1 && word1[k1] < word1[i]))
+                {
+                    for( ; j < k2; ++j)
+                        ans.push_back(word2[j]);
+                    if(k2 != n2)
+                        ans.push_back(word2[j++]);
+                }
+                else
+                {
+                    for( ; i < k1; ++i)
+                        ans.push_back(word1[i]);
                 }
             }
+            else if(i < n1 && j == n2)
+                ans.push_back(word1[i++]);
+            else
+                ans.push_back(word2[j++]);
+            // cout << i << " " << j << endl;
         }
-        int ans = 0;
-        for(int K = 0; K <= k; K++)
-            ans = max(ans, dp[n][K][1]);
         return ans;
     }
 };
@@ -62,8 +71,9 @@ int main()
     vector<vector<int>> g = {{1,2,4},{3,4,3},{2,3,10}};
     vector<int> a = {-3,-5,-3,-2,-6,3,10,-10,-8,-3,0,10,3,-5,8,7,-9,-9,5,-8};
     string str = "A man, a plan, a canal: Panama";
-    string s1 = "rgeat", s2 = "great";
-    cout << s.maxValue(g,2) << endl;
+    string s1 = "guguuuuuuuuuuuuuuguguuuuguug",
+           s2=     "gguggggggguuggguugggggg";
+    cout << s.largestMerge(s1,s2) << endl;
 
 //    cout << bool(true^false) << endl;
     return 0;

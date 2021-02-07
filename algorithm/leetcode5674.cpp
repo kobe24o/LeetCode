@@ -11,33 +11,14 @@ public:
             else if(i < n1 && j < n2 && word1[i] < word2[j])
                 ans.push_back(word2[j++]);
             else if(i < n1 && j < n2 && word1[i] == word2[j])
-            {
+            {   //相等的情况下，往后找到不相等的
                 int k1 = i, k2 = j;
                 while(k1 < n1 && k2 < n2 && word1[k1] == word2[k2])
-                {
                     k1++, k2++;
-                }
-                if((k1 < n1 && k2 < n2 && word1[k1] > word2[k2]) || (k2==n2 && k1<n1 && word1[k1] > word1[i])
-                || (k1==n1 && k2<n2 && word2[k2] < word1[i]) || (k1==n1 && k2==n2))
-                {
-                    for( ; i < k1; ++i)
-                        ans.push_back(word1[i]);
-                    if(k1 != n1)
-                        ans.push_back(word1[i++]);
-                }
-                else if((k1 < n1 && k2 < n2 && word2[k2] > word1[k1]) || (k1==n1 && k2<n2 && word2[k2] > word1[i])
-                || (k2==n2 && k1<n1 && word1[k1] < word1[i]))
-                {
-                    for( ; j < k2; ++j)
-                        ans.push_back(word2[j]);
-                    if(k2 != n2)
-                        ans.push_back(word2[j++]);
-                }
-                else
-                {
-                    for( ; i < k1; ++i)
-                        ans.push_back(word1[i]);
-                }
+                if((k1 < n1 && k2 < n2 && word1[k1] > word2[k2]) || k2==n2)
+                    ans.push_back(word1[i++]);
+                else //if((k1 < n1 && k2 < n2 && word2[k2] > word1[k1]) || k1==n1)
+                    ans.push_back(word2[j++]);
             }
             else if(i < n1 && j == n2)
                 ans.push_back(word1[i++]);
