@@ -12,7 +12,7 @@ public:
         for(int i = 1; i < n; i++)//转移到i会议，查找之前可以转移过来的j
         {	
         	// 二分查找时间不冲突的，最晚的结束的会议 j
-        	int l = 0, r = n-1, mid, j = n;
+        	int l = 0, r = i-1, mid, j = n;
         	while(l <= r)
         	{
         		mid = l+((r-l)>>1);
@@ -40,8 +40,9 @@ public:
         	}
         }
         int ans = 0;
-        for(int t = 0; t < k; ++t)
-            ans = max(ans, dp[n-1][t]);
+        // for(int i = 0; i < n; i++)
+	        for(int t = 0; t <= k; ++t)
+	            ans = max(ans, dp[n-1][t]);
         return ans;
     }
 };
