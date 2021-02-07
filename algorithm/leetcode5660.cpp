@@ -13,20 +13,20 @@ public:
         {	
         	// 二分查找时间不冲突的，最晚的结束的会议 j
         	int l = 0, r = n-1, mid, j = n;
-        	while(i <= r)
+        	while(l <= r)
         	{
         		mid = l+((r-l)>>1);
         		if(events[mid][1] >= events[i][0])//时间冲突
-        			l = mid-1;
+        			r = mid-1;
         		else
         		{
-        			if(mid==n-1 || events[mid+1][0] >= events[i][1])
+        			if(mid==n-1 || events[mid+1][1] >= events[i][0])
         			{
         				j = mid;
         				break;
         			}
         			else
-        				r = mid+1;
+        				l = mid+1;
         		}
         	}
         	// i 会议不开
