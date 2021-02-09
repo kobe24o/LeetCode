@@ -147,6 +147,7 @@
 
 | 已完成                                                       |
 | :----------------------------------------------------------- |
+| [LintCode MySQL 1918. 第二高的球员的身高](https://michael.blog.csdn.net/article/details/113776341) |
 | [LintCode MySQL 1921. 从不充值的玩家（where not in）](https://michael.blog.csdn.net/article/details/113405105) |
 | [LintCode MySQL 1928. 网课上课情况分析 I](https://michael.blog.csdn.net/article/details/113404724) |
 
