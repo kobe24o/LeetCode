@@ -73,8 +73,11 @@ int main()
     string str = "A man, a plan, a canal: Panama";
     string s1 = "guguuuuuuuuuuuuuuguguuuuguug",
            s2=     "gguggggggguuggguugggggg";
-    cout << s.largestMerge(s1,s2) << endl;
-
+//    cout << s.largestMerge(s1,s2) << endl;
+    vector<int> arr = {1,2,3,4,5,6};
+    arr.reserve(4);
+    for(auto a : arr)
+        cout << a << endl;
 //    cout << bool(true^false) << endl;
     return 0;
 }
