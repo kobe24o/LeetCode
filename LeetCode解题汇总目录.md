@@ -947,6 +947,7 @@
 | [LeetCode 989. 数组形式的整数加法](https://michael.blog.csdn.net/article/details/103020342) |                                                              |
 | [LeetCode 990. 等式方程的可满足性（并查集）](https://michael.blog.csdn.net/article/details/106354260) |                                                              |
 | [LeetCode 991. 坏了的计算器（逆向思考）](https://michael.blog.csdn.net/article/details/103498206) |                                                              |
+| [LeetCode 992. K 个不同整数的子数组（双指针）](https://michael.blog.csdn.net/article/details/113773415) |                                                              |
 | [LeetCode 993. 二叉树的堂兄弟节点（层序遍历）](https://michael.blog.csdn.net/article/details/103113397) |                                                              |
 | [LeetCode 994. 腐烂的橘子（图的BFS）](https://blog.csdn.net/qq_21201267/article/details/102906778) |                                                              |
 | [LeetCode 995. K 连续位的最小翻转次数（差分思想）](https://michael.blog.csdn.net/article/details/110858906) |                                                              |
