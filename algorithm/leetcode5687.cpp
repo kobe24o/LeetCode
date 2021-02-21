@@ -9,7 +9,7 @@ public:
         {
             for(int i = 1; i <= len; i++)//剩余数字区间的左端点
             {
-                int j = n+i-len-1;
+                int j = n+i-len-1;//左端是 i 时，乘以len次，右端要乘的下标
                 dp[len][i+1] = max(dp[len][i+1], dp[len-1][i]+1LL*multipliers[len-1]*nums[i-1]);
                 dp[len][i] = max(dp[len][i], dp[len-1][i]+1LL*multipliers[len-1]*nums[j]);
             }
