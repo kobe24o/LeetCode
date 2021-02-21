@@ -1521,6 +1521,9 @@
 | [LeetCode 1758. 生成交替二进制字符串的最少操作数（DP）](https://blog.csdn.net/qq_21201267/article/details/113814567) |                                                              |
 | [LeetCode 1759. 统计同构子字符串的数目](https://blog.csdn.net/qq_21201267/article/details/113814628) |                                                              |
 | [LeetCode 1760. 袋子里最少数目的球（二分查找）](https://blog.csdn.net/qq_21201267/article/details/113814817) |                                                              |
+| [LeetCode 5668. 最长的美好子字符串](https://blog.csdn.net/qq_21201267/article/details/113917388) |                                                              |
+| [LeetCode 5669. 通过连接另一个数组的子数组得到一个数组](https://blog.csdn.net/qq_21201267/article/details/113919507) |                                                              |
+| [LeetCode 5671. 地图中的最高点（BFS）](https://blog.csdn.net/qq_21201267/article/details/113919848) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
