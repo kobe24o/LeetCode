@@ -1518,6 +1518,9 @@
 | [LeetCode 1753. 移除石子的最大得分（优先队列）](https://michael.blog.csdn.net/article/details/113741201) |                                                              |
 | [LeetCode 1754. 构造字典序最大的合并字符串](https://michael.blog.csdn.net/article/details/113746916) |                                                              |
 | [LeetCode 1755. 最接近目标值的子序列和（状态枚举 + 双指针）](https://michael.blog.csdn.net/article/details/113774587) |                                                              |
+| [LeetCode 1758. 生成交替二进制字符串的最少操作数（DP）](https://blog.csdn.net/qq_21201267/article/details/113814567) |                                                              |
+| [LeetCode 1759. 统计同构子字符串的数目](https://blog.csdn.net/qq_21201267/article/details/113814628) |                                                              |
+| [LeetCode 1760. 袋子里最少数目的球（二分查找）](https://blog.csdn.net/qq_21201267/article/details/113814817) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |

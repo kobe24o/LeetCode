@@ -150,6 +150,8 @@
 | [LintCode MySQL 1918. 第二高的球员的身高](https://michael.blog.csdn.net/article/details/113776341) |
 | [LintCode MySQL 1921. 从不充值的玩家（where not in）](https://michael.blog.csdn.net/article/details/113405105) |
 | [LintCode MySQL 1928. 网课上课情况分析 I](https://michael.blog.csdn.net/article/details/113404724) |
+| [LintCode MySQL 1932/1933. 挂科最多的同学 I / II](https://blog.csdn.net/qq_21201267/article/details/113790490) |
+| [LintCode MySQL 1936. 张三的故事 III](https://blog.csdn.net/qq_21201267/article/details/113784187) |
 
 
 
