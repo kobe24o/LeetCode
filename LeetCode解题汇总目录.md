@@ -1525,6 +1525,7 @@
 | [LeetCode 5669. 通过连接另一个数组的子数组得到一个数组](https://blog.csdn.net/qq_21201267/article/details/113919507) |                                                              |
 | [LeetCode 5671. 地图中的最高点（BFS）](https://blog.csdn.net/qq_21201267/article/details/113919848) |                                                              |
 | [LeetCode 5685. 交替合并字符串](https://blog.csdn.net/qq_21201267/article/details/113921203) |                                                              |
+| [LeetCode 5686. 移动所有球到每个盒子所需的最小操作数（前缀和）](https://blog.csdn.net/qq_21201267/article/details/113922455) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
