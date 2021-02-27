@@ -864,6 +864,7 @@
 | [LeetCode 888. 公平的糖果交换（哈希set）](https://michael.blog.csdn.net/article/details/103168073) |                                                              |
 | [LeetCode 889. 已知前序&后序 求二叉树（不唯一）](https://blog.csdn.net/qq_21201267/article/details/100802843) |                                                              |
 | [LeetCode 890. 查找和替换模式（哈希表）](https://michael.blog.csdn.net/article/details/103214178) |                                                              |
+| [LeetCode 891. 子序列宽度之和（数学）](https://michael.blog.csdn.net/article/details/114190097) |                                                              |
 | [LeetCode 892. 三维形体的表面积（数学）](https://michael.blog.csdn.net/article/details/103153550) |                                                              |
 | [LeetCode 893. 特殊等价字符串组](https://michael.blog.csdn.net/article/details/105798555) |                                                              |
 | [LeetCode 894. 所有可能的满二叉树（递归）](https://michael.blog.csdn.net/article/details/105727867) |                                                              |
