@@ -1523,13 +1523,13 @@
 | [LeetCode 1758. 生成交替二进制字符串的最少操作数（DP）](https://blog.csdn.net/qq_21201267/article/details/113814567) |                                                              |
 | [LeetCode 1759. 统计同构子字符串的数目](https://blog.csdn.net/qq_21201267/article/details/113814628) |                                                              |
 | [LeetCode 1760. 袋子里最少数目的球（二分查找）](https://blog.csdn.net/qq_21201267/article/details/113814817) |                                                              |
-| [LeetCode 5668. 最长的美好子字符串](https://blog.csdn.net/qq_21201267/article/details/113917388) |                                                              |
-| [LeetCode 5669. 通过连接另一个数组的子数组得到一个数组](https://blog.csdn.net/qq_21201267/article/details/113919507) |                                                              |
-| [LeetCode 5671. 地图中的最高点（BFS）](https://blog.csdn.net/qq_21201267/article/details/113919848) |                                                              |
-| [LeetCode 5685. 交替合并字符串](https://blog.csdn.net/qq_21201267/article/details/113921203) |                                                              |
-| [LeetCode 5686. 移动所有球到每个盒子所需的最小操作数（前缀和）](https://blog.csdn.net/qq_21201267/article/details/113922455) |                                                              |
-| [LeetCode 5687. 执行乘法运算的最大分数（DP）](https://blog.csdn.net/qq_21201267/article/details/113923552) |                                                              |
-| [LeetCode 5688. 由子序列构造的最长回文串的长度（最长回文子序）](https://michael.blog.csdn.net/article/details/113925129) |                                                              |
+| [LeetCode 1763. 最长的美好子字符串](https://blog.csdn.net/qq_21201267/article/details/113917388) |                                                              |
+| [LeetCode 1764. 通过连接另一个数组的子数组得到一个数组](https://blog.csdn.net/qq_21201267/article/details/113919507) |                                                              |
+| [LeetCode 1765. 地图中的最高点（BFS）](https://blog.csdn.net/qq_21201267/article/details/113919848) |                                                              |
+| [LeetCode 1768. 交替合并字符串](https://blog.csdn.net/qq_21201267/article/details/113921203) |                                                              |
+| [LeetCode 1769. 移动所有球到每个盒子所需的最小操作数（前缀和）](https://blog.csdn.net/qq_21201267/article/details/113922455) |                                                              |
+| [LeetCode 1770. 执行乘法运算的最大分数（DP）](https://blog.csdn.net/qq_21201267/article/details/113923552) |                                                              |
+| [LeetCode 1771. 由子序列构造的最长回文串的长度（最长回文子序）](https://michael.blog.csdn.net/article/details/113925129) |                                                              |
 | [LeetCode 5689. 统计匹配检索规则的物品数量](https://michael.blog.csdn.net/article/details/114227831) |                                                              |
 | [LeetCode 5690. 最接近目标价格的甜点成本（DFS / 01背包）](https://michael.blog.csdn.net/article/details/114227995) |                                                              |
 | [LeetCode 5691. 通过最少操作次数使数组的和相等（贪心+双指针）](https://michael.blog.csdn.net/article/details/114228384) |                                                              |
