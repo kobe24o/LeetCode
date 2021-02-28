@@ -1530,6 +1530,10 @@
 | [LeetCode 5686. 移动所有球到每个盒子所需的最小操作数（前缀和）](https://blog.csdn.net/qq_21201267/article/details/113922455) |                                                              |
 | [LeetCode 5687. 执行乘法运算的最大分数（DP）](https://blog.csdn.net/qq_21201267/article/details/113923552) |                                                              |
 | [LeetCode 5688. 由子序列构造的最长回文串的长度（最长回文子序）](https://michael.blog.csdn.net/article/details/113925129) |                                                              |
+| [LeetCode 5689. 统计匹配检索规则的物品数量](https://michael.blog.csdn.net/article/details/114227831) |                                                              |
+| [LeetCode 5690. 最接近目标价格的甜点成本（DFS / 01背包）](https://michael.blog.csdn.net/article/details/114227995) |                                                              |
+| [LeetCode 5691. 通过最少操作次数使数组的和相等（贪心+双指针）](https://michael.blog.csdn.net/article/details/114228384) |                                                              |
+| [LeetCode 5692. 车队 II（单调栈）](https://michael.blog.csdn.net/article/details/114228647) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
