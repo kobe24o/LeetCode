@@ -1041,6 +1041,7 @@
 | [LeetCode 1102. 得分最高的路径（优先队列BFS/极大极小化 二分查找）](https://michael.blog.csdn.net/article/details/107868938) |                                                              |
 | [LeetCode 1103. 分糖果 II](https://blog.csdn.net/qq_21201267/article/details/100802416) |                                                              |
 | [LeetCode 1104. 二叉树寻路（数学&位运算）](https://michael.blog.csdn.net/article/details/103100853) |                                                              |
+| [LeetCode 1105. 填充书架（DP）](https://michael.blog.csdn.net/article/details/114410707) |                                                              |
 | [LeetCode 1108. IP 地址无效化](https://blog.csdn.net/qq_21201267/article/details/100585842) |                                                              |
 | [LeetCode 1109. 航班预订统计（差分思想）](https://michael.blog.csdn.net/article/details/106423509) |                                                              |
 | [LeetCode 1110. 删点成林（二叉树递归）](https://michael.blog.csdn.net/article/details/105968905) |                                                              |
@@ -1530,10 +1531,10 @@
 | [LeetCode 1769. 移动所有球到每个盒子所需的最小操作数（前缀和）](https://blog.csdn.net/qq_21201267/article/details/113922455) |                                                              |
 | [LeetCode 1770. 执行乘法运算的最大分数（DP）](https://blog.csdn.net/qq_21201267/article/details/113923552) |                                                              |
 | [LeetCode 1771. 由子序列构造的最长回文串的长度（最长回文子序）](https://michael.blog.csdn.net/article/details/113925129) |                                                              |
-| [LeetCode 5689. 统计匹配检索规则的物品数量](https://michael.blog.csdn.net/article/details/114227831) |                                                              |
-| [LeetCode 5690. 最接近目标价格的甜点成本（DFS / 01背包）](https://michael.blog.csdn.net/article/details/114227995) |                                                              |
-| [LeetCode 5691. 通过最少操作次数使数组的和相等（贪心+双指针）](https://michael.blog.csdn.net/article/details/114228384) |                                                              |
-| [LeetCode 5692. 车队 II（单调栈）](https://michael.blog.csdn.net/article/details/114228647) |                                                              |
+| [LeetCode 1773. 统计匹配检索规则的物品数量](https://michael.blog.csdn.net/article/details/114227831) |                                                              |
+| [LeetCode 1774. 最接近目标价格的甜点成本（DFS / 01背包）](https://michael.blog.csdn.net/article/details/114227995) |                                                              |
+| [LeetCode 1775. 通过最少操作次数使数组的和相等（贪心+双指针）](https://michael.blog.csdn.net/article/details/114228384) |                                                              |
+| [LeetCode 1776. 车队 II（单调栈）](https://michael.blog.csdn.net/article/details/114228647) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
