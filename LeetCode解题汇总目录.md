@@ -1535,12 +1535,12 @@
 | [LeetCode 1774. 最接近目标价格的甜点成本（DFS / 01背包）](https://michael.blog.csdn.net/article/details/114227995) |                                                              |
 | [LeetCode 1775. 通过最少操作次数使数组的和相等（贪心+双指针）](https://michael.blog.csdn.net/article/details/114228384) |                                                              |
 | [LeetCode 1776. 车队 II（单调栈）](https://michael.blog.csdn.net/article/details/114228647) |                                                              |
-| [LeetCode 5680. 找到最近的有相同 X 或 Y 坐标的点](https://michael.blog.csdn.net/article/details/114478215) |                                                              |
-| [LeetCode 5681. 判断一个数字是否可以表示成三的幂的和（位运算）](https://michael.blog.csdn.net/article/details/114478416) |                                                              |
-| [LeetCode 5682. 所有子字符串美丽值之和](https://michael.blog.csdn.net/article/details/114478772) |                                                              |
-| [LeetCode 5697. 检查二进制字符串字段](https://michael.blog.csdn.net/article/details/114481711) |                                                              |
-| [LeetCode 5698. 构成特定和需要添加的最少元素（贪心）](https://michael.blog.csdn.net/article/details/114481755) |                                                              |
-| [LeetCode 5699. 从第一个节点出发到最后一个节点的受限路径数（迪杰斯特拉 + 拓扑排序）](https://michael.blog.csdn.net/article/details/114481911) |                                                              |
+| [LeetCode 1779. 找到最近的有相同 X 或 Y 坐标的点](https://michael.blog.csdn.net/article/details/114478215) |                                                              |
+| [LeetCode 1780. 判断一个数字是否可以表示成三的幂的和（位运算）](https://michael.blog.csdn.net/article/details/114478416) |                                                              |
+| [LeetCode 1781. 所有子字符串美丽值之和](https://michael.blog.csdn.net/article/details/114478772) |                                                              |
+| [LeetCode 1784. 检查二进制字符串字段](https://michael.blog.csdn.net/article/details/114481711) |                                                              |
+| [LeetCode 1785. 构成特定和需要添加的最少元素（贪心）](https://michael.blog.csdn.net/article/details/114481755) |                                                              |
+| [LeetCode 1786. 从第一个节点出发到最后一个节点的受限路径数（迪杰斯特拉 + 拓扑排序）](https://michael.blog.csdn.net/article/details/114481911) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
