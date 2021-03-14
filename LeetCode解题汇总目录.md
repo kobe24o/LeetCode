@@ -1542,6 +1542,10 @@
 | [LeetCode 1784. 检查二进制字符串字段](https://michael.blog.csdn.net/article/details/114481711) |                                                              |
 | [LeetCode 1785. 构成特定和需要添加的最少元素（贪心）](https://michael.blog.csdn.net/article/details/114481755) |                                                              |
 | [LeetCode 1786. 从第一个节点出发到最后一个节点的受限路径数（迪杰斯特拉 + 拓扑排序）](https://michael.blog.csdn.net/article/details/114481911) |                                                              |
+| [LeetCode 5701. 仅执行一次字符串交换能否使两个字符串相等](https://michael.blog.csdn.net/article/details/114807929) |                                                              |
+| [LeetCode 5702. 找出星型图的中心节点（图出入度）](https://michael.blog.csdn.net/article/details/114808435) |                                                              |
+| [LeetCode 5703. 最大平均通过率（优先队列）](https://michael.blog.csdn.net/article/details/114810133) |                                                              |
+| [LeetCode 5704. 好子数组的最大分数（单调栈）](https://michael.blog.csdn.net/article/details/114810826) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
