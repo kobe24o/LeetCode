@@ -152,6 +152,7 @@
 | [LintCode MySQL 1928. 网课上课情况分析 I](https://michael.blog.csdn.net/article/details/113404724) |
 | [LintCode MySQL 1932/1933. 挂科最多的同学 I / II](https://blog.csdn.net/qq_21201267/article/details/113790490) |
 | [LintCode MySQL 1936. 张三的故事 III](https://blog.csdn.net/qq_21201267/article/details/113784187) |
+| [LintCode MySQL 1968. 查询首两个字母在 ‘Db‘ 和 ‘Dy‘ 之间的课程名称（REGEXP正则）](https://michael.blog.csdn.net/article/details/115000642) |
 
 
 
