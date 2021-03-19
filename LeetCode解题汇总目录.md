@@ -452,6 +452,7 @@
 | [LeetCode 382. 链表随机节点（概率）](https://michael.blog.csdn.net/article/details/103228024) |                                                              |
 | [LeetCode 383. 赎金信](https://michael.blog.csdn.net/article/details/105664299) |                                                              |
 | [LeetCode 384. 打乱数组（rand）](https://blog.csdn.net/qq_21201267/article/details/102692973) |                                                              |
+| [LeetCode 385. 迷你语法分析器（栈）](https://michael.blog.csdn.net/article/details/115016272) |                                                              |
 | [LeetCode 386. 字典序排数（DFS&循环）](https://michael.blog.csdn.net/article/details/103218150) |                                                              |
 | [LeetCode 387. 字符串中的第一个唯一字符](https://michael.blog.csdn.net/article/details/105664799) |                                                              |
 | [LeetCode 388. 文件的最长绝对路径（不用栈，前缀和）](https://michael.blog.csdn.net/article/details/106210795) |                                                              |
@@ -1101,6 +1102,7 @@
 | [LeetCode 1187. 使数组严格递增（DP）*](https://michael.blog.csdn.net/article/details/111991901) |                                                              |
 | [LeetCode 1189. “气球” 的最大数量](https://michael.blog.csdn.net/article/details/105803005) |                                                              |
 | [LeetCode 1190. 反转每对括号间的子串（栈）](https://michael.blog.csdn.net/article/details/103796323) |                                                              |
+| [LeetCode 1191. K 次串联后最大子数组之和（前缀和+分类讨论）](https://michael.blog.csdn.net/article/details/115017417) |                                                              |
 | [LeetCode 1196. 最多可以买到的苹果数量（贪心）](https://blog.csdn.net/qq_21201267/article/details/107094727) |                                                              |
 | [LeetCode 1197. 进击的骑士（BFS）](https://michael.blog.csdn.net/article/details/107785390) |                                                              |
 | [LeetCode 1198. 找出所有行中最小公共元素（二分/合并有序链表）](https://blog.csdn.net/qq_21201267/article/details/107116021) |                                                              |
