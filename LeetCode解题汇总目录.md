@@ -1548,15 +1548,15 @@
 | [LeetCode 1791. 找出星型图的中心节点（图出入度）](https://michael.blog.csdn.net/article/details/114808435) |                                                              |
 | [LeetCode 1792. 最大平均通过率（优先队列）](https://michael.blog.csdn.net/article/details/114810133) |                                                              |
 | [LeetCode 1793. 好子数组的最大分数（单调栈）](https://michael.blog.csdn.net/article/details/114810826) |                                                              |
-| [LeetCode 5693. 字符串中第二大的数字](https://michael.blog.csdn.net/article/details/115037618) |                                                              |
-| [LeetCode 5694. 设计一个验证系统（map）](https://michael.blog.csdn.net/article/details/115037663) |                                                              |
-| [LeetCode 5712. 你能构造出连续值的最大数目](https://michael.blog.csdn.net/article/details/115037838) |                                                              |
-| [LeetCode 5695. N 次操作后的最大分数和（回溯 / 状态压缩DP）](https://michael.blog.csdn.net/article/details/115038679) |                                                              |
-| [LeetCode 5709. 最大升序子数组和](https://michael.blog.csdn.net/article/details/115047160) |                                                              |
-| [LeetCode 5710. 积压订单中的订单总数（map）](https://michael.blog.csdn.net/article/details/115047195) |                                                              |
-| [LeetCode 5711. 有界数组中指定下标处的最大值（思维题）](https://michael.blog.csdn.net/article/details/115055483) |                                                              |
+| [LeetCode 1796. 字符串中第二大的数字](https://michael.blog.csdn.net/article/details/115037618) |                                                              |
+| [LeetCode 1797. 设计一个验证系统（map）](https://michael.blog.csdn.net/article/details/115037663) |                                                              |
+| [LeetCode 1798. 你能构造出连续值的最大数目](https://michael.blog.csdn.net/article/details/115037838) |                                                              |
+| [LeetCode 1799. N 次操作后的最大分数和（回溯 / 状态压缩DP）](https://michael.blog.csdn.net/article/details/115038679) |                                                              |
+| [LeetCode 1800. 最大升序子数组和](https://michael.blog.csdn.net/article/details/115047160) |                                                              |
+| [LeetCode 1801. 积压订单中的订单总数（map）](https://michael.blog.csdn.net/article/details/115047195) |                                                              |
+| [LeetCode 1802. 有界数组中指定下标处的最大值（思维题）](https://michael.blog.csdn.net/article/details/115055483) |                                                              |
 | [LeetCode 5713. 字符串中不同整数的数目（哈希set）](https://michael.blog.csdn.net/article/details/115279427) |                                                              |
-| [LeetCode 5715. 还原排列的最少操作步数（模拟）](https://michael.blog.csdn.net/article/details/115280157) |                                                              |
+| [LeetCode 1806. 还原排列的最少操作步数（模拟）](https://michael.blog.csdn.net/article/details/115280157) |                                                              |
 | [LeetCode 5714. 替换字符串中的括号内容（哈希map）](https://michael.blog.csdn.net/article/details/115280558) |                                                              |
 | [LeetCode 5716. 好因子的最大数目（整数拆分，乘积最大）](https://michael.blog.csdn.net/article/details/115283145) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
