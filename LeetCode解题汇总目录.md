@@ -1555,6 +1555,10 @@
 | [LeetCode 5709. 最大升序子数组和](https://michael.blog.csdn.net/article/details/115047160) |                                                              |
 | [LeetCode 5710. 积压订单中的订单总数（map）](https://michael.blog.csdn.net/article/details/115047195) |                                                              |
 | [LeetCode 5711. 有界数组中指定下标处的最大值（思维题）](https://michael.blog.csdn.net/article/details/115055483) |                                                              |
+| [LeetCode 5713. 字符串中不同整数的数目（哈希set）](https://michael.blog.csdn.net/article/details/115279427) |                                                              |
+| [LeetCode 5715. 还原排列的最少操作步数（模拟）](https://michael.blog.csdn.net/article/details/115280157) |                                                              |
+| [LeetCode 5714. 替换字符串中的括号内容（哈希map）](https://michael.blog.csdn.net/article/details/115280558) |                                                              |
+| [LeetCode 5716. 好因子的最大数目（整数拆分，乘积最大）](https://michael.blog.csdn.net/article/details/115283145) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
