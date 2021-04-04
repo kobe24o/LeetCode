@@ -8,7 +8,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
-**已解决 1796/2019** - **简单 536** **中等 997** **困难 263**
+**已解决 1802/2030** - **简单 537** **中等 1001** **困难 264**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 
@@ -87,6 +87,7 @@
 | [LeetCode 第 44 场双周赛（260/1826，前14.2%）](https://michael.blog.csdn.net/article/details/113068427) |
 | [LeetCode 第 225 场周赛（947/3851，前24.6%）](https://michael.blog.csdn.net/article/details/113086195) |
 | [LeetCode 第 45 场双周赛（322/1676，前19.2%）](https://michael.blog.csdn.net/article/details/113733199) |
+| [LeetCode 第 235 场周赛（322/4493，前7.17%）](https://michael.blog.csdn.net/article/details/115427000) |
 
 ​          
 
@@ -1562,6 +1563,9 @@
 | [LeetCode 5705. 判断国际象棋棋盘中一个格子的颜色](https://michael.blog.csdn.net/article/details/115423192) |                                                              |
 | [LeetCode 5706. 句子相似性 III](https://michael.blog.csdn.net/article/details/115423380) |                                                              |
 | [LeetCode 5708. 统计一个数组中好对子的数目（哈希）](https://michael.blog.csdn.net/article/details/115423517) |                                                              |
+| [LeetCode 5722. 截断句子](https://michael.blog.csdn.net/article/details/115426933) |                                                              |
+| [LeetCode 5723. 查找用户活跃分钟数（哈希）](https://michael.blog.csdn.net/article/details/115426967) |                                                              |
+| [LeetCode 5724. 绝对差值和（二分查找）](https://michael.blog.csdn.net/article/details/115427000) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
