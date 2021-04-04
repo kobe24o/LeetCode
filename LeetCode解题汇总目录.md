@@ -1566,6 +1566,7 @@
 | [LeetCode 5722. 截断句子](https://michael.blog.csdn.net/article/details/115426933) |                                                              |
 | [LeetCode 5723. 查找用户活跃分钟数（哈希）](https://michael.blog.csdn.net/article/details/115426967) |                                                              |
 | [LeetCode 5724. 绝对差值和（二分查找）](https://michael.blog.csdn.net/article/details/115427000) |                                                              |
+| [LeetCode 5725. 序列中不同最大公约数的数目](https://michael.blog.csdn.net/article/details/115428785) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
