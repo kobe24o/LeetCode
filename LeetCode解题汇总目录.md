@@ -1573,6 +1573,9 @@
 | [LeetCode LCP 18. 早餐组合（排序+二分）](https://michael.blog.csdn.net/article/details/108553304#2_LeetCode_LCP_18__easy_70) |                                                              |
 | [LeetCode LCP 19. 秋叶收藏集（DP）](https://michael.blog.csdn.net/article/details/108553304#3_LeetCode_LCP_19__medium_189) |                                                              |
 | [LeetCode LCP 22. 黑白方格画](https://michael.blog.csdn.net/article/details/108684240) |                                                              |
+| [LeetCode LCP 28. 采购方案（排序 + 二分查找）](https://blog.csdn.net/qq_21201267/article/details/115446534) |                                                              |
+| [LeetCode LCP 29. 乐团站位（数学 等差数列）](https://blog.csdn.net/qq_21201267/article/details/115447506) |                                                              |
+| [LeetCode LCP 30. 魔塔游戏（优先队列）](https://blog.csdn.net/qq_21201267/article/details/115446727) |                                                              |
 | [LeetCode 网易-1. 分割环（前缀和 + 哈希）](https://michael.blog.csdn.net/article/details/109208128) |                                                              |
 | [LeetCode 网易-2. 古老的游戏机](https://michael.blog.csdn.net/article/details/109207550) |                                                              |
 | [LeetCode DD-2020006. 简单游戏（前缀和）](https://michael.blog.csdn.net/article/details/112688247) |                                                              |
