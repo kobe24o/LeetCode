@@ -1569,6 +1569,7 @@
 | [LeetCode 1819. 序列中不同最大公约数的数目](https://michael.blog.csdn.net/article/details/115428785) |                                                              |
 | [LeetCode 5726. 数组元素积的符号](https://michael.blog.csdn.net/article/details/115598847) |                                                              |
 | [LeetCode 5728. 最少侧跳次数（DP）](https://michael.blog.csdn.net/article/details/115599996) |                                                              |
+| [LeetCode 5729. 求出 MK 平均值（set + queue）](https://michael.blog.csdn.net/article/details/115603169) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
