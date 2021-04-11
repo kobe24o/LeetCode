@@ -1560,13 +1560,15 @@
 | [LeetCode 1806. 还原排列的最少操作步数（模拟）](https://michael.blog.csdn.net/article/details/115280157) |                                                              |
 | [LeetCode 1807. 替换字符串中的括号内容（哈希map）](https://michael.blog.csdn.net/article/details/115280558) |                                                              |
 | [LeetCode 1808. 好因子的最大数目（整数拆分，乘积最大）](https://michael.blog.csdn.net/article/details/115283145) |                                                              |
-| [LeetCode 5705. 判断国际象棋棋盘中一个格子的颜色](https://michael.blog.csdn.net/article/details/115423192) |                                                              |
-| [LeetCode 5706. 句子相似性 III](https://michael.blog.csdn.net/article/details/115423380) |                                                              |
-| [LeetCode 5708. 统计一个数组中好对子的数目（哈希）](https://michael.blog.csdn.net/article/details/115423517) |                                                              |
-| [LeetCode 5722. 截断句子](https://michael.blog.csdn.net/article/details/115426933) |                                                              |
-| [LeetCode 5723. 查找用户活跃分钟数（哈希）](https://michael.blog.csdn.net/article/details/115426967) |                                                              |
-| [LeetCode 5724. 绝对差值和（二分查找）](https://michael.blog.csdn.net/article/details/115427000) |                                                              |
-| [LeetCode 5725. 序列中不同最大公约数的数目](https://michael.blog.csdn.net/article/details/115428785) |                                                              |
+| [LeetCode 1812. 判断国际象棋棋盘中一个格子的颜色](https://michael.blog.csdn.net/article/details/115423192) |                                                              |
+| [LeetCode 1813. 句子相似性 III](https://michael.blog.csdn.net/article/details/115423380) |                                                              |
+| [LeetCode 1814. 统计一个数组中好对子的数目（哈希）](https://michael.blog.csdn.net/article/details/115423517) |                                                              |
+| [LeetCode 1816. 截断句子](https://michael.blog.csdn.net/article/details/115426933) |                                                              |
+| [LeetCode 1817. 查找用户活跃分钟数（哈希）](https://michael.blog.csdn.net/article/details/115426967) |                                                              |
+| [LeetCode 1818. 绝对差值和（二分查找）](https://michael.blog.csdn.net/article/details/115427000) |                                                              |
+| [LeetCode 1819. 序列中不同最大公约数的数目](https://michael.blog.csdn.net/article/details/115428785) |                                                              |
+| [LeetCode 5726. 数组元素积的符号](https://michael.blog.csdn.net/article/details/115598847) |                                                              |
+| [LeetCode 5728. 最少侧跳次数（DP）](https://michael.blog.csdn.net/article/details/115599996) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
@@ -1576,6 +1578,8 @@
 | [LeetCode LCP 28. 采购方案（排序 + 二分查找）](https://blog.csdn.net/qq_21201267/article/details/115446534) |                                                              |
 | [LeetCode LCP 29. 乐团站位（数学 等差数列）](https://blog.csdn.net/qq_21201267/article/details/115447506) |                                                              |
 | [LeetCode LCP 30. 魔塔游戏（优先队列）](https://blog.csdn.net/qq_21201267/article/details/115446727) |                                                              |
+| [LeetCode LCP 33. 蓄水（暴力枚举）](https://michael.blog.csdn.net/article/details/115581556) |                                                              |
+| [LeetCode LCP 34. 二叉树染色（树上DP）](https://michael.blog.csdn.net/article/details/115582515) |                                                              |
 | [LeetCode 网易-1. 分割环（前缀和 + 哈希）](https://michael.blog.csdn.net/article/details/109208128) |                                                              |
 | [LeetCode 网易-2. 古老的游戏机](https://michael.blog.csdn.net/article/details/109207550) |                                                              |
 | [LeetCode DD-2020006. 简单游戏（前缀和）](https://michael.blog.csdn.net/article/details/112688247) |                                                              |
