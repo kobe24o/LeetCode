@@ -1568,9 +1568,12 @@
 | [LeetCode 1817. 查找用户活跃分钟数（哈希）](https://michael.blog.csdn.net/article/details/115426967) |                                                              |
 | [LeetCode 1818. 绝对差值和（二分查找）](https://michael.blog.csdn.net/article/details/115427000) |                                                              |
 | [LeetCode 1819. 序列中不同最大公约数的数目](https://michael.blog.csdn.net/article/details/115428785) |                                                              |
-| [LeetCode 5726. 数组元素积的符号](https://michael.blog.csdn.net/article/details/115598847) |                                                              |
-| [LeetCode 5728. 最少侧跳次数（DP）](https://michael.blog.csdn.net/article/details/115599996) |                                                              |
-| [LeetCode 5729. 求出 MK 平均值（set + queue）](https://michael.blog.csdn.net/article/details/115603169) |                                                              |
+| [LeetCode 1822. 数组元素积的符号](https://michael.blog.csdn.net/article/details/115598847) |                                                              |
+| [LeetCode 1824. 最少侧跳次数（DP）](https://michael.blog.csdn.net/article/details/115599996) |                                                              |
+| [LeetCode 1825. 求出 MK 平均值（set + queue）](https://michael.blog.csdn.net/article/details/115603169) |                                                              |
+| [LeetCode 5717. 最少操作使数组递增](https://michael.blog.csdn.net/article/details/115804095) |                                                              |
+| [LeetCode 5718. 统计一个圆中点的数目](https://michael.blog.csdn.net/article/details/115804135) |                                                              |
+| [LeetCode 5719. 每个查询的最大异或值（前缀异或 + 位运算）](https://michael.blog.csdn.net/article/details/115804172) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
