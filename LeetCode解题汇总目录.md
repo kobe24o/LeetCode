@@ -1500,6 +1500,7 @@
 | [LeetCode 1713. 得到子序列的最少操作次数（最长上升子序DP nlogn）](https://michael.blog.csdn.net/article/details/112135082) |                                                              |
 | [LeetCode 1716. 计算力扣银行的钱（等差数列）](https://michael.blog.csdn.net/article/details/112417389) |                                                              |
 | [LeetCode 1717. 删除子字符串的最大得分](https://michael.blog.csdn.net/article/details/112417953) |                                                              |
+| [LeetCode 1718. 构建字典序最大的可行序列（贪心+回溯）](https://michael.blog.csdn.net/article/details/115799828) |                                                              |
 | [LeetCode 1720. 解码异或后的数组（位运算）](https://michael.blog.csdn.net/article/details/112426120) |                                                              |
 | [LeetCode 1721. 交换链表中的节点（快慢指针）](https://michael.blog.csdn.net/article/details/112426182) |                                                              |
 | [LeetCode 1722. 执行交换操作后的最小汉明距离（并查集）](https://michael.blog.csdn.net/article/details/112426211) |                                                              |
