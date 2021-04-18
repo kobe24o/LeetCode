@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2021.4.4
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2021.4.18
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/leetbook/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题（更新完毕）](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题（更新完毕）](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode代码能力测试CAT](https://blog.csdn.net/qq_21201267/article/details/104603021)。
 
@@ -8,7 +8,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
-**已解决 1802/2030** - **简单 537** **中等 1001** **困难 264**
+**已解决 1820/2057** - **简单 542** **中等 1011** **困难 267**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 
@@ -88,6 +88,7 @@
 | [LeetCode 第 225 场周赛（947/3851，前24.6%）](https://michael.blog.csdn.net/article/details/113086195) |
 | [LeetCode 第 45 场双周赛（322/1676，前19.2%）](https://michael.blog.csdn.net/article/details/113733199) |
 | [LeetCode 第 235 场周赛（322/4493，前7.17%）](https://michael.blog.csdn.net/article/details/115427000) |
+| [LeetCode 第 237 场周赛（490/4576，前10.7%，第6次全部通过🚀）](https://michael.blog.csdn.net/article/details/115831551) |
 
 ​          
 
@@ -1574,6 +1575,10 @@
 | [LeetCode 5717. 最少操作使数组递增](https://michael.blog.csdn.net/article/details/115804095) |                                                              |
 | [LeetCode 5718. 统计一个圆中点的数目](https://michael.blog.csdn.net/article/details/115804135) |                                                              |
 | [LeetCode 5719. 每个查询的最大异或值（前缀异或 + 位运算）](https://michael.blog.csdn.net/article/details/115804172) |                                                              |
+| [LeetCode 5734. 判断句子是否为全字母句](https://michael.blog.csdn.net/article/details/115823557) |                                                              |
+| [LeetCode 5735. 雪糕的最大数量（贪心）](https://michael.blog.csdn.net/article/details/115823614) |                                                              |
+| [LeetCode 5736. 单线程 CPU（排序 + 优先队列）](https://michael.blog.csdn.net/article/details/115823770) |                                                              |
+| [LeetCode 5737. 所有数对按位与结果的异或和（位运算 (a&b)^(a&c) = a&(b^c) ）](https://michael.blog.csdn.net/article/details/115831551) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
