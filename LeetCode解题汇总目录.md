@@ -1579,9 +1579,9 @@
 | [LeetCode 1833. 雪糕的最大数量（贪心）](https://michael.blog.csdn.net/article/details/115823614) |                                                              |
 | [LeetCode 1834. 单线程 CPU（排序 + 优先队列）](https://michael.blog.csdn.net/article/details/115823770) |                                                              |
 | [LeetCode 1835. 所有数对按位与结果的异或和（位运算 (a&b)^(a&c) = a&(b^c) ）](https://michael.blog.csdn.net/article/details/115831551) |                                                              |
-| [LeetCode 5738. K 进制表示下的各位数字总和](https://michael.blog.csdn.net/article/details/116122961) |                                                              |
-| [LeetCode 5739. 最高频元素的频数（二分查找）](https://michael.blog.csdn.net/article/details/116130754) |                                                              |
-| [LeetCode 5740. 所有元音按顺序排布的最长子字符串（滑动窗口）](https://michael.blog.csdn.net/article/details/116132461) |                                                              |
+| [LeetCode 1837. K 进制表示下的各位数字总和](https://michael.blog.csdn.net/article/details/116122961) |                                                              |
+| [LeetCode 1838. 最高频元素的频数（二分查找）](https://michael.blog.csdn.net/article/details/116130754) |                                                              |
+| [LeetCode 1839. 所有元音按顺序排布的最长子字符串（滑动窗口）](https://michael.blog.csdn.net/article/details/116132461) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
