@@ -1582,6 +1582,12 @@
 | [LeetCode 1837. K 进制表示下的各位数字总和](https://michael.blog.csdn.net/article/details/116122961) |                                                              |
 | [LeetCode 1838. 最高频元素的频数（二分查找）](https://michael.blog.csdn.net/article/details/116130754) |                                                              |
 | [LeetCode 1839. 所有元音按顺序排布的最长子字符串（滑动窗口）](https://michael.blog.csdn.net/article/details/116132461) |                                                              |
+| [LeetCode 1844. 将所有数字用字符替换](https://michael.blog.csdn.net/article/details/116355919) |                                                              |
+| [LeetCode 1845. 座位预约管理系统（set）](https://michael.blog.csdn.net/article/details/116357409) |                                                              |
+| [LeetCode 1846. 减小和重新排列数组后的最大元素](https://michael.blog.csdn.net/article/details/116396336) |                                                              |
+| [LeetCode 1847. 最近的房间（排序离线计算 + 二分查找）](https://michael.blog.csdn.net/article/details/116398943) |                                                              |
+| [LeetCode 1848. 到目标元素的最小距离](https://michael.blog.csdn.net/article/details/116357592) |                                                              |
+| [LeetCode 1849. 将字符串拆分为递减的连续值（回溯）](https://michael.blog.csdn.net/article/details/116403000) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
