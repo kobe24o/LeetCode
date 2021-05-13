@@ -1165,6 +1165,7 @@
 | [LeetCode 1266. 访问所有点的最小时间（数学）](https://michael.blog.csdn.net/article/details/103280533) |                                                              |
 | [LeetCode 1267. 统计参与通信的服务器（计数）](https://michael.blog.csdn.net/article/details/106362033) |                                                              |
 | [LeetCode 1268. 搜索推荐系统（Trie树/multiset）](https://michael.blog.csdn.net/article/details/106585612) |                                                              |
+| [LeetCode 1269. 停在原地的方案数（DP）](https://michael.blog.csdn.net/article/details/116735477) |                                                              |
 | [LeetCode 1271. 十六进制魔术数字（进制转换）](https://michael.blog.csdn.net/article/details/103346339) |                                                              |
 | [LeetCode 1272. 删除区间](https://michael.blog.csdn.net/article/details/107575663) |                                                              |
 | [LeetCode 1273. 删除树节点（拓扑排序/DFS）](https://blog.csdn.net/qq_21201267/article/details/107145802) |                                                              |
