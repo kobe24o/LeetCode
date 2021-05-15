@@ -1590,6 +1590,9 @@
 | [LeetCode 1848. 到目标元素的最小距离](https://michael.blog.csdn.net/article/details/116357592) |                                                              |
 | [LeetCode 1849. 将字符串拆分为递减的连续值（回溯）](https://michael.blog.csdn.net/article/details/116403000) |                                                              |
 | [LeetCode 1851. 包含每个查询的最小区间（排序 + 离线查询 + 优先队列）](https://michael.blog.csdn.net/article/details/116405318) |                                                              |
+| [LeetCode 1854. 人口最多的年份（差分）](https://michael.blog.csdn.net/article/details/116810082) |                                                              |
+| [LeetCode 1855. 下标对中的最大距离（双指针）](https://michael.blog.csdn.net/article/details/116859334) |                                                              |
+| [LeetCode 1856. 子数组最小乘积的最大值（前缀和 + 单调栈）](https://michael.blog.csdn.net/article/details/116862645) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
