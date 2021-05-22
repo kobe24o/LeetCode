@@ -1593,10 +1593,10 @@
 | [LeetCode 1854. 人口最多的年份（差分）](https://michael.blog.csdn.net/article/details/116810082) |                                                              |
 | [LeetCode 1855. 下标对中的最大距离（双指针）](https://michael.blog.csdn.net/article/details/116859334) |                                                              |
 | [LeetCode 1856. 子数组最小乘积的最大值（前缀和 + 单调栈）](https://michael.blog.csdn.net/article/details/116862645) |                                                              |
-| [LeetCode 5742. 将句子排序](https://michael.blog.csdn.net/article/details/116885278) |                                                              |
-| [LeetCode 5743. 增长的内存泄露（等差数列）](https://michael.blog.csdn.net/article/details/116886633) |                                                              |
-| [LeetCode 5744. 旋转盒子（前缀和）](https://michael.blog.csdn.net/article/details/116888406) |                                                              |
-| [LeetCode 5759. 找出所有子集的异或总和再求和（DFS）](https://michael.blog.csdn.net/article/details/116905069) |                                                              |
+| [LeetCode 1859. 将句子排序](https://michael.blog.csdn.net/article/details/116885278) |                                                              |
+| [LeetCode 1860. 增长的内存泄露（等差数列）](https://michael.blog.csdn.net/article/details/116886633) |                                                              |
+| [LeetCode 1861. 旋转盒子（前缀和）](https://michael.blog.csdn.net/article/details/116888406) |                                                              |
+| [LeetCode 1863. 找出所有子集的异或总和再求和（DFS）](https://michael.blog.csdn.net/article/details/116905069) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
