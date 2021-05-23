@@ -1496,6 +1496,7 @@
 | [LeetCode 1704. 判断字符串的两半是否相似](https://michael.blog.csdn.net/article/details/111824889) |                                                              |
 | [LeetCode 1705. 吃苹果的最大数目（优先队列）](https://michael.blog.csdn.net/article/details/111826767) |                                                              |
 | [LeetCode 1706. 球会落何处（模拟）](https://michael.blog.csdn.net/article/details/111824942) |                                                              |
+| [LeetCode 1707. 与数组中元素的最大异或值（Trie树）](https://michael.blog.csdn.net/article/details/117202202) |                                                              |
 | [LeetCode 1710. 卡车上的最大单元数（排序，模拟）](https://michael.blog.csdn.net/article/details/112133070) |                                                              |
 | [LeetCode 1711. 大餐计数（map计数 + 二分查找）](https://michael.blog.csdn.net/article/details/112133089) |                                                              |
 | [LeetCode 1712. 将数组分成三个子数组的方案数（前缀和 + 二分查找）](https://michael.blog.csdn.net/article/details/112133125) |                                                              |
