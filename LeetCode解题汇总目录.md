@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2021.5.23
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2021.5.30
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/leetbook/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题（更新完毕）](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题（更新完毕）](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode代码能力测试CAT](https://blog.csdn.net/qq_21201267/article/details/104603021)。
 
@@ -8,7 +8,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
-**已解决 1842/2094** - **简单 551** **中等 1020** **困难 271**
+**已解决 1849/2101** - **简单 552** **中等 1025** **困难 272**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 
@@ -89,6 +89,7 @@
 | [LeetCode 第 45 场双周赛（322/1676，前19.2%）](https://michael.blog.csdn.net/article/details/113733199) |
 | [LeetCode 第 235 场周赛（322/4493，前7.17%）](https://michael.blog.csdn.net/article/details/115427000) |
 | [LeetCode 第 237 场周赛（490/4576，前10.7%，第6次全部通过🚀）](https://michael.blog.csdn.net/article/details/115831551) |
+| [LeetCode 第 53 场双周赛（139/3069，前4.53%，第7次全部通过🚀）](https://michael.blog.csdn.net/article/details/117393227) |
 
 ​          
 
@@ -1603,6 +1604,10 @@
 | [LeetCode 1869. 哪种连续子字符串更长](https://michael.blog.csdn.net/article/details/117196756) |                                                              |
 | [LeetCode 1870. 准时到达的列车最小时速（二分查找）](https://michael.blog.csdn.net/article/details/117197407) |                                                              |
 | [LeetCode 1871. 跳跃游戏 VII（贪心）](https://michael.blog.csdn.net/article/details/117198626) |                                                              |
+| [LeetCode 5754. 长度为三且各字符不同的子字符串](https://michael.blog.csdn.net/article/details/117393042) |                                                              |
+| [LeetCode 5755. 数组中最大数对和的最小值（贪心）](https://michael.blog.csdn.net/article/details/117393058) |                                                              |
+| [LeetCode 5757. 矩阵中最大的三个菱形和（模拟）](https://michael.blog.csdn.net/article/details/117393155) |                                                              |
+| [LeetCode 5756. 两个数组最小的异或值之和（状态压缩DP）](https://michael.blog.csdn.net/article/details/117393227) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
