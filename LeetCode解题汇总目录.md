@@ -1598,9 +1598,9 @@
 | [LeetCode 1860. 增长的内存泄露（等差数列）](https://michael.blog.csdn.net/article/details/116886633) |                                                              |
 | [LeetCode 1861. 旋转盒子（前缀和）](https://michael.blog.csdn.net/article/details/116888406) |                                                              |
 | [LeetCode 1863. 找出所有子集的异或总和再求和（DFS）](https://michael.blog.csdn.net/article/details/116905069) |                                                              |
-| [LeetCode 5763. 哪种连续子字符串更长](https://michael.blog.csdn.net/article/details/117196756) |                                                              |
-| [LeetCode 5764. 准时到达的列车最小时速（二分查找）](https://michael.blog.csdn.net/article/details/117197407) |                                                              |
-| [LeetCode 5765. 跳跃游戏 VII（贪心）](https://michael.blog.csdn.net/article/details/117198626) |                                                              |
+| [LeetCode 1869. 哪种连续子字符串更长](https://michael.blog.csdn.net/article/details/117196756) |                                                              |
+| [LeetCode 1870. 准时到达的列车最小时速（二分查找）](https://michael.blog.csdn.net/article/details/117197407) |                                                              |
+| [LeetCode 1871. 跳跃游戏 VII（贪心）](https://michael.blog.csdn.net/article/details/117198626) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
