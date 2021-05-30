@@ -678,6 +678,7 @@
 | [LeetCode 661. 图片平滑器](https://michael.blog.csdn.net/article/details/105720542) |                                                              |
 | [LeetCode 662. 二叉树最大宽度（递归）](https://michael.blog.csdn.net/article/details/106249487) |                                                              |
 | [LeetCode 663. 均匀树划分（树形DP）](https://blog.csdn.net/qq_21201267/article/details/107148685) |                                                              |
+| [LeetCode 664. 奇怪的打印机（区间DP）](https://michael.blog.csdn.net/article/details/117266977) |                                                              |
 | [LeetCode 665. 非递减数列（双指针）](https://blog.csdn.net/qq_21201267/article/details/102810529) |                                                              |
 | [LeetCode 666. 路径和 IV（树的遍历）](https://blog.csdn.net/qq_21201267/article/details/107120811) |                                                              |
 | [LeetCode 667. 优美的排列 II（找规律）](https://blog.csdn.net/qq_21201267/article/details/103411623) |                                                              |
@@ -1608,6 +1609,7 @@
 | [LeetCode 5755. 数组中最大数对和的最小值（贪心）](https://michael.blog.csdn.net/article/details/117393058) |                                                              |
 | [LeetCode 5757. 矩阵中最大的三个菱形和（模拟）](https://michael.blog.csdn.net/article/details/117393155) |                                                              |
 | [LeetCode 5756. 两个数组最小的异或值之和（状态压缩DP）](https://michael.blog.csdn.net/article/details/117393227) |                                                              |
+| [LeetCode 5772. 检查某单词是否等于两单词之和](https://michael.blog.csdn.net/article/details/117400792) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
