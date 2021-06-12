@@ -860,6 +860,7 @@
 | [LeetCode 876. 链表的中间结点（快慢指针）](https://blog.csdn.net/qq_21201267/article/details/101082616) |                                                              |
 | [LeetCode 877. 石子游戏（DP）](https://michael.blog.csdn.net/article/details/105334918) |                                                              |
 | [LeetCode 878. 第 N 个神奇数字（二分查找）](https://michael.blog.csdn.net/article/details/114757251) |                                                              |
+| [LeetCode 879. 盈利计划（动态规划）](https://michael.blog.csdn.net/article/details/117756671) |                                                              |
 | [LeetCode 880. 索引处的解码字符串（找规律）](https://michael.blog.csdn.net/article/details/112131756) |                                                              |
 | [LeetCode 881. 救生艇（贪心，双指针）](https://michael.blog.csdn.net/article/details/103520322) |                                                              |
 | [LeetCode 883. 三维形体投影面积](https://michael.blog.csdn.net/article/details/105797764) |                                                              |
@@ -1605,11 +1606,13 @@
 | [LeetCode 1869. 哪种连续子字符串更长](https://michael.blog.csdn.net/article/details/117196756) |                                                              |
 | [LeetCode 1870. 准时到达的列车最小时速（二分查找）](https://michael.blog.csdn.net/article/details/117197407) |                                                              |
 | [LeetCode 1871. 跳跃游戏 VII（贪心）](https://michael.blog.csdn.net/article/details/117198626) |                                                              |
-| [LeetCode 5754. 长度为三且各字符不同的子字符串](https://michael.blog.csdn.net/article/details/117393042) |                                                              |
-| [LeetCode 5755. 数组中最大数对和的最小值（贪心）](https://michael.blog.csdn.net/article/details/117393058) |                                                              |
-| [LeetCode 5757. 矩阵中最大的三个菱形和（模拟）](https://michael.blog.csdn.net/article/details/117393155) |                                                              |
-| [LeetCode 5756. 两个数组最小的异或值之和（状态压缩DP）](https://michael.blog.csdn.net/article/details/117393227) |                                                              |
-| [LeetCode 5772. 检查某单词是否等于两单词之和](https://michael.blog.csdn.net/article/details/117400792) |                                                              |
+| [LeetCode 1876. 长度为三且各字符不同的子字符串](https://michael.blog.csdn.net/article/details/117393042) |                                                              |
+| [LeetCode 1877. 数组中最大数对和的最小值（贪心）](https://michael.blog.csdn.net/article/details/117393058) |                                                              |
+| [LeetCode 1878. 矩阵中最大的三个菱形和（模拟）](https://michael.blog.csdn.net/article/details/117393155) |                                                              |
+| [LeetCode 1879. 两个数组最小的异或值之和（状态压缩DP）](https://michael.blog.csdn.net/article/details/117393227) |                                                              |
+| [LeetCode 1880. 检查某单词是否等于两单词之和](https://michael.blog.csdn.net/article/details/117400792) |                                                              |
+| [LeetCode 1886. 判断矩阵经轮转后是否一致](https://michael.blog.csdn.net/article/details/117636386) |                                                              |
+| [LeetCode 1887. 使数组元素相等的减少操作次数（map）](https://michael.blog.csdn.net/article/details/117827834) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
