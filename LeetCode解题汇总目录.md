@@ -1316,6 +1316,7 @@
 | [LeetCode 1446. 连续字符](https://michael.blog.csdn.net/article/details/106167968#1_LeetCode_5396__easy_11) |                                                              |
 | [LeetCode 1447. 最简分数（公约数为1）](https://michael.blog.csdn.net/article/details/106167968#2_LeetCode_5397__medium_69) |                                                              |
 | [LeetCode 1448. 统计二叉树中好节点的数目（递归）](https://michael.blog.csdn.net/article/details/106167968#3_LeetCode_5398__medium_137) |                                                              |
+| [LeetCode 1449. 数位成本和为目标值的最大数字（DP）](https://michael.blog.csdn.net/article/details/117850581) |                                                              |
 | [LeetCode 1450. 在既定时间做作业的学生人数](https://michael.blog.csdn.net/article/details/106172689) |                                                              |
 | [LeetCode 1451. 重新排列句子中的单词（桶排序）](https://michael.blog.csdn.net/article/details/106172985) |                                                              |
 | [LeetCode 1452. 收藏清单（std::includes判断子集）](https://michael.blog.csdn.net/article/details/106174067) |                                                              |
