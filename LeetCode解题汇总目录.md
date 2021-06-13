@@ -1614,6 +1614,10 @@
 | [LeetCode 1880. 检查某单词是否等于两单词之和](https://michael.blog.csdn.net/article/details/117400792) |                                                              |
 | [LeetCode 1886. 判断矩阵经轮转后是否一致](https://michael.blog.csdn.net/article/details/117636386) |                                                              |
 | [LeetCode 1887. 使数组元素相等的减少操作次数（map）](https://michael.blog.csdn.net/article/details/117827834) |                                                              |
+| [LeetCode 5767. 检查是否区域内所有整数都被覆盖（差分）](https://michael.blog.csdn.net/article/details/117884374) |                                                              |
+| [LeetCode 5768. 找到需要补充粉笔的学生编号](https://michael.blog.csdn.net/article/details/117886348) |                                                              |
+| [LeetCode 5784. 重新分配字符使所有字符串都相等](https://michael.blog.csdn.net/article/details/117886470) |                                                              |
+| [LeetCode 5785. 合并若干三元组以形成目标三元组](https://michael.blog.csdn.net/article/details/117886808) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
