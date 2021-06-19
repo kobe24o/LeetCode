@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2021.5.30
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2021.6.19
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/leetbook/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题（更新完毕）](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题（更新完毕）](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode代码能力测试CAT](https://blog.csdn.net/qq_21201267/article/details/104603021)。
 
@@ -8,7 +8,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
-**已解决 1850/2105** - **简单 554** **中等 1024** **困难 272**
+**已解决 1862/2127** - **简单 557** **中等 1030** **困难 275**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 
@@ -542,6 +542,7 @@
 | [LeetCode 480. 滑动窗口中位数（大小堆升级版+set实现）](https://michael.blog.csdn.net/article/details/106962644) |                                                              |
 | [LeetCode 481. 神奇字符串（找规律）](https://michael.blog.csdn.net/article/details/103606978) |                                                              |
 | [LeetCode 482. 密钥格式化](https://blog.csdn.net/qq_21201267/article/details/102888974) |                                                              |
+| [LeetCode 483. 最小好进制（二分查找）](https://michael.blog.csdn.net/article/details/118036047) |                                                              |
 | [LeetCode 484. 寻找排列（找规律+贪心）](https://blog.csdn.net/qq_21201267/article/details/107168148) |                                                              |
 | [LeetCode 485. 最大连续1的个数](https://blog.csdn.net/qq_21201267/article/details/100855102) |                                                              |
 | [LeetCode 486. 预测赢家（博弈DP）](https://michael.blog.csdn.net/article/details/108337865) |                                                              |
@@ -1614,10 +1615,10 @@
 | [LeetCode 1880. 检查某单词是否等于两单词之和](https://michael.blog.csdn.net/article/details/117400792) |                                                              |
 | [LeetCode 1886. 判断矩阵经轮转后是否一致](https://michael.blog.csdn.net/article/details/117636386) |                                                              |
 | [LeetCode 1887. 使数组元素相等的减少操作次数（map）](https://michael.blog.csdn.net/article/details/117827834) |                                                              |
-| [LeetCode 5767. 检查是否区域内所有整数都被覆盖（差分）](https://michael.blog.csdn.net/article/details/117884374) |                                                              |
-| [LeetCode 5768. 找到需要补充粉笔的学生编号](https://michael.blog.csdn.net/article/details/117886348) |                                                              |
-| [LeetCode 5784. 重新分配字符使所有字符串都相等](https://michael.blog.csdn.net/article/details/117886470) |                                                              |
-| [LeetCode 5785. 合并若干三元组以形成目标三元组](https://michael.blog.csdn.net/article/details/117886808) |                                                              |
+| [LeetCode 1893. 检查是否区域内所有整数都被覆盖（差分）](https://michael.blog.csdn.net/article/details/117884374) |                                                              |
+| [LeetCode 1894. 找到需要补充粉笔的学生编号](https://michael.blog.csdn.net/article/details/117886348) |                                                              |
+| [LeetCode 1897. 重新分配字符使所有字符串都相等](https://michael.blog.csdn.net/article/details/117886470) |                                                              |
+| [LeetCode 1899. 合并若干三元组以形成目标三元组](https://michael.blog.csdn.net/article/details/117886808) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
@@ -1632,6 +1633,9 @@
 | [LeetCode 网易-1. 分割环（前缀和 + 哈希）](https://michael.blog.csdn.net/article/details/109208128) |                                                              |
 | [LeetCode 网易-2. 古老的游戏机](https://michael.blog.csdn.net/article/details/109207550) |                                                              |
 | [LeetCode DD-2020006. 简单游戏（前缀和）](https://michael.blog.csdn.net/article/details/112688247) |                                                              |
+| [LeetCode LCS 01. 下载插件](https://michael.blog.csdn.net/article/details/118055279) |                                                              |
+| [LeetCode LCS 02. 完成一半题目（计数+排序）](https://michael.blog.csdn.net/article/details/118055667) |                                                              |
+| [LeetCode LCS 03. 主题空间（广度优先搜索BFS）](https://michael.blog.csdn.net/article/details/118056312) |                                                              |
 
 
 
