@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2021.6.19
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2021.6.20
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/leetbook/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题（更新完毕）](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题（更新完毕）](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode代码能力测试CAT](https://blog.csdn.net/qq_21201267/article/details/104603021)。
 
@@ -8,7 +8,7 @@
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
-**已解决 1862/2127** - **简单 557** **中等 1030** **困难 275**
+**已解决 1865/2131** - **简单 558** **中等 1032** **困难 275**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 
@@ -1619,6 +1619,9 @@
 | [LeetCode 1894. 找到需要补充粉笔的学生编号](https://michael.blog.csdn.net/article/details/117886348) |                                                              |
 | [LeetCode 1897. 重新分配字符使所有字符串都相等](https://michael.blog.csdn.net/article/details/117886470) |                                                              |
 | [LeetCode 1899. 合并若干三元组以形成目标三元组](https://michael.blog.csdn.net/article/details/117886808) |                                                              |
+| [LeetCode 5788. 字符串中的最大奇数](https://michael.blog.csdn.net/article/details/118068540) |                                                              |
+| [LeetCode 5789. 你完成的完整对局数](https://michael.blog.csdn.net/article/details/118068750) |                                                              |
+| [LeetCode 5791. 统计子岛屿（BFS）](https://michael.blog.csdn.net/article/details/118069372) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
