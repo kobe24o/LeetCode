@@ -1619,12 +1619,12 @@
 | [LeetCode 1894. 找到需要补充粉笔的学生编号](https://michael.blog.csdn.net/article/details/117886348) |                                                              |
 | [LeetCode 1897. 重新分配字符使所有字符串都相等](https://michael.blog.csdn.net/article/details/117886470) |                                                              |
 | [LeetCode 1899. 合并若干三元组以形成目标三元组](https://michael.blog.csdn.net/article/details/117886808) |                                                              |
-| [LeetCode 5788. 字符串中的最大奇数](https://michael.blog.csdn.net/article/details/118068540) |                                                              |
-| [LeetCode 5789. 你完成的完整对局数](https://michael.blog.csdn.net/article/details/118068750) |                                                              |
-| [LeetCode 5791. 统计子岛屿（BFS）](https://michael.blog.csdn.net/article/details/118069372) |                                                              |
-| [LeetCode 5781. 删除一个字符串中所有出现的给定子字符串](https://michael.blog.csdn.net/article/details/118273714) |                                                              |
-| [LeetCode 5782. 最大子序列交替和（动态规划）](https://michael.blog.csdn.net/article/details/118274111) |                                                              |
-| [LeetCode 5783. 设计电影租借系统（map+set）](https://michael.blog.csdn.net/article/details/118281962) |                                                              |
+| [LeetCode 1903. 字符串中的最大奇数](https://michael.blog.csdn.net/article/details/118068540) |                                                              |
+| [LeetCode 1904. 你完成的完整对局数](https://michael.blog.csdn.net/article/details/118068750) |                                                              |
+| [LeetCode 1905. 统计子岛屿（BFS）](https://michael.blog.csdn.net/article/details/118069372) |                                                              |
+| [LeetCode 1910. 删除一个字符串中所有出现的给定子字符串](https://michael.blog.csdn.net/article/details/118273714) |                                                              |
+| [LeetCode 1911. 最大子序列交替和（动态规划）](https://michael.blog.csdn.net/article/details/118274111) |                                                              |
+| [LeetCode 1912. 设计电影租借系统（map+set）](https://michael.blog.csdn.net/article/details/118281962) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
