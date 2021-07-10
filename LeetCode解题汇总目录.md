@@ -1625,6 +1625,11 @@
 | [LeetCode 1910. 删除一个字符串中所有出现的给定子字符串](https://michael.blog.csdn.net/article/details/118273714) |                                                              |
 | [LeetCode 1911. 最大子序列交替和（动态规划）](https://michael.blog.csdn.net/article/details/118274111) |                                                              |
 | [LeetCode 1912. 设计电影租借系统（map+set）](https://michael.blog.csdn.net/article/details/118281962) |                                                              |
+| [LeetCode 1913. 两个数对之间的最大乘积差](https://michael.blog.csdn.net/article/details/118627688) |                                                              |
+| [LeetCode 1920. 基于排列构建数组](https://michael.blog.csdn.net/article/details/118627914) |                                                              |
+| [LeetCode 1921. 消灭怪物的最大数量（排序）](https://michael.blog.csdn.net/article/details/118629696) |                                                              |
+| [LeetCode 1922. 统计好数字的数目（快速幂）](https://michael.blog.csdn.net/article/details/118628416) |                                                              |
+| [LeetCode 5817. 判断字符串是否可分解为值均等的子串](https://michael.blog.csdn.net/article/details/118629253) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
