@@ -1629,9 +1629,10 @@
 | [LeetCode 1920. 基于排列构建数组](https://michael.blog.csdn.net/article/details/118627914) |                                                              |
 | [LeetCode 1921. 消灭怪物的最大数量（排序）](https://michael.blog.csdn.net/article/details/118629696) |                                                              |
 | [LeetCode 1922. 统计好数字的数目（快速幂）](https://michael.blog.csdn.net/article/details/118628416) |                                                              |
-| [LeetCode 5817. 判断字符串是否可分解为值均等的子串](https://michael.blog.csdn.net/article/details/118629253) |                                                              |
-| [LeetCode 5792. 统计平方和三元组的数目](https://michael.blog.csdn.net/article/details/118652812) |                                                              |
-| [LeetCode 5793. 迷宫中离入口最近的出口（BFS）](https://michael.blog.csdn.net/article/details/118652950) |                                                              |
+| [LeetCode 1925. 统计平方和三元组的数目](https://michael.blog.csdn.net/article/details/118652812) |                                                              |
+| [LeetCode 1926. 迷宫中离入口最近的出口（BFS）](https://michael.blog.csdn.net/article/details/118652950) |                                                              |
+| [LeetCode 1930. 长度为 3 的不同回文子序列（计数）](https://michael.blog.csdn.net/article/details/118771767) |                                                              |
+| [LeetCode 1933. 判断字符串是否可分解为值均等的子串](https://michael.blog.csdn.net/article/details/118629253) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
