@@ -1640,6 +1640,7 @@
 | [LeetCode 5805. 最小未被占据椅子的编号（set）](https://michael.blog.csdn.net/article/details/119087079) |                                                              |
 | [LeetCode 5806. 描述绘画结果（差分思想）](https://michael.blog.csdn.net/article/details/119087554) |                                                              |
 | [LeetCode 5196. 队列中可以看到的人数（单调栈）](https://michael.blog.csdn.net/article/details/119088210) |                                                              |
+| [LeetCode 5823. 字符串转化后的各位数字之和](https://michael.blog.csdn.net/article/details/119099700) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
