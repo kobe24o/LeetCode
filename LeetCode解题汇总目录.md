@@ -1636,11 +1636,15 @@
 | [LeetCode 1935. 可以输入的最大单词数](https://michael.blog.csdn.net/article/details/118879051) |                                                              |
 | [LeetCode 1936. 新增的最少台阶数](https://michael.blog.csdn.net/article/details/118880382) |                                                              |
 | [LeetCode 1937. 扣分后的最大得分（动态规划）](https://michael.blog.csdn.net/article/details/118882023) |                                                              |
-| [LeetCode 5804. 检查是否所有字符出现次数相同](https://michael.blog.csdn.net/article/details/119086471) |                                                              |
-| [LeetCode 5805. 最小未被占据椅子的编号（set）](https://michael.blog.csdn.net/article/details/119087079) |                                                              |
-| [LeetCode 5806. 描述绘画结果（差分思想）](https://michael.blog.csdn.net/article/details/119087554) |                                                              |
-| [LeetCode 5196. 队列中可以看到的人数（单调栈）](https://michael.blog.csdn.net/article/details/119088210) |                                                              |
-| [LeetCode 5823. 字符串转化后的各位数字之和](https://michael.blog.csdn.net/article/details/119099700) |                                                              |
+| [LeetCode 1941. 检查是否所有字符出现次数相同](https://michael.blog.csdn.net/article/details/119086471) |                                                              |
+| [LeetCode 1942. 最小未被占据椅子的编号（set）](https://michael.blog.csdn.net/article/details/119087079) |                                                              |
+| [LeetCode 1943. 描述绘画结果（差分思想）](https://michael.blog.csdn.net/article/details/119087554) |                                                              |
+| [LeetCode 1944. 队列中可以看到的人数（单调栈）](https://michael.blog.csdn.net/article/details/119088210) |                                                              |
+| [LeetCode 1945. 字符串转化后的各位数字之和](https://michael.blog.csdn.net/article/details/119099700) |                                                              |
+| [LeetCode 5830. 三除数](https://michael.blog.csdn.net/article/details/119302708) |                                                              |
+| [LeetCode 5831. 你可以工作的最大周数](https://michael.blog.csdn.net/article/details/119303507) |                                                              |
+| [LeetCode 5187. 收集足够苹果的最小花园周长（数学）](https://michael.blog.csdn.net/article/details/119303971) |                                                              |
+| [LeetCode 5833. 统计特殊子序列的数目](https://michael.blog.csdn.net/article/details/119305188) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
