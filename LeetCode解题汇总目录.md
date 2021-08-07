@@ -1641,10 +1641,10 @@
 | [LeetCode 1943. 描述绘画结果（差分思想）](https://michael.blog.csdn.net/article/details/119087554) |                                                              |
 | [LeetCode 1944. 队列中可以看到的人数（单调栈）](https://michael.blog.csdn.net/article/details/119088210) |                                                              |
 | [LeetCode 1945. 字符串转化后的各位数字之和](https://michael.blog.csdn.net/article/details/119099700) |                                                              |
-| [LeetCode 5830. 三除数](https://michael.blog.csdn.net/article/details/119302708) |                                                              |
-| [LeetCode 5831. 你可以工作的最大周数](https://michael.blog.csdn.net/article/details/119303507) |                                                              |
-| [LeetCode 5187. 收集足够苹果的最小花园周长（数学）](https://michael.blog.csdn.net/article/details/119303971) |                                                              |
-| [LeetCode 5833. 统计特殊子序列的数目](https://michael.blog.csdn.net/article/details/119305188) |                                                              |
+| [LeetCode 1952. 三除数](https://michael.blog.csdn.net/article/details/119302708) |                                                              |
+| [LeetCode 1953. 你可以工作的最大周数](https://michael.blog.csdn.net/article/details/119303507) |                                                              |
+| [LeetCode 1954. 收集足够苹果的最小花园周长（数学）](https://michael.blog.csdn.net/article/details/119303971) |                                                              |
+| [LeetCode 1955. 统计特殊子序列的数目](https://michael.blog.csdn.net/article/details/119305188) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
