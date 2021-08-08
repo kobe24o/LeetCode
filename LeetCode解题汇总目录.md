@@ -1645,6 +1645,8 @@
 | [LeetCode 1953. 你可以工作的最大周数](https://michael.blog.csdn.net/article/details/119303507) |                                                              |
 | [LeetCode 1954. 收集足够苹果的最小花园周长（数学）](https://michael.blog.csdn.net/article/details/119303971) |                                                              |
 | [LeetCode 1955. 统计特殊子序列的数目](https://michael.blog.csdn.net/article/details/119305188) |                                                              |
+| [LeetCode 5193. 删除字符使字符串变好](https://michael.blog.csdn.net/article/details/119512703) |                                                              |
+| [LeetCode 5827. 检查操作是否合法（模拟）](https://michael.blog.csdn.net/article/details/119513540) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
