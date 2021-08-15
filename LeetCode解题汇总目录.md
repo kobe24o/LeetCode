@@ -1622,6 +1622,7 @@
 | [LeetCode 1869. 哪种连续子字符串更长](https://michael.blog.csdn.net/article/details/117196756) |                                                              |
 | [LeetCode 1870. 准时到达的列车最小时速（二分查找）](https://michael.blog.csdn.net/article/details/117197407) |                                                              |
 | [LeetCode 1871. 跳跃游戏 VII（贪心）](https://michael.blog.csdn.net/article/details/117198626) |                                                              |
+| [LeetCode 1874. 两个数组的最小乘积和](https://michael.blog.csdn.net/article/details/119712494) |                                                              |
 | [LeetCode 1876. 长度为三且各字符不同的子字符串](https://michael.blog.csdn.net/article/details/117393042) |                                                              |
 | [LeetCode 1877. 数组中最大数对和的最小值（贪心）](https://michael.blog.csdn.net/article/details/117393058) |                                                              |
 | [LeetCode 1878. 矩阵中最大的三个菱形和（模拟）](https://michael.blog.csdn.net/article/details/117393155) |                                                              |
