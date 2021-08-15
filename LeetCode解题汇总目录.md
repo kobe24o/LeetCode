@@ -1459,6 +1459,7 @@
 | [LeetCode 1629. 按键持续时间最长的键](https://michael.blog.csdn.net/article/details/109273024) |                                                              |
 | [LeetCode 1630. 等差子数组](https://michael.blog.csdn.net/article/details/109273589) |                                                              |
 | [LeetCode 1631. 最小体力消耗路径（DFS + 二分查找）](https://michael.blog.csdn.net/article/details/109274216) |                                                              |
+| [LeetCode 1634. 求两个多项式链表的和](https://michael.blog.csdn.net/article/details/119709934) |                                                              |
 | [LeetCode 1636. 按照频率将数组升序排序（哈希+排序）](https://michael.blog.csdn.net/article/details/109432416) |                                                              |
 | [LeetCode 1637. 两点之间不包含任何点的最宽垂直面积](https://michael.blog.csdn.net/article/details/109432554) |                                                              |
 | [LeetCode 1638. 统计只差一个字符的子串数目（DP）](https://michael.blog.csdn.net/article/details/109433008) |                                                              |
