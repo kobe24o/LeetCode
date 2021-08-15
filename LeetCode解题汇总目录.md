@@ -1527,6 +1527,7 @@
 | [LeetCode 1725. 可以形成最大正方形的矩形数目](https://michael.blog.csdn.net/article/details/112737339) |                                                              |
 | [LeetCode 1726. 同积元组（排列组合）](https://michael.blog.csdn.net/article/details/112738288) |                                                              |
 | [LeetCode 1727. 重新排列后的最大子矩阵（前缀和+排序）](https://michael.blog.csdn.net/article/details/112753593) |                                                              |
+| [LeetCode 1730. 获取食物的最短路径（BFS）](https://michael.blog.csdn.net/article/details/119711223) |                                                              |
 | [LeetCode 1732. 找到最高海拔](https://michael.blog.csdn.net/article/details/113068007) |                                                              |
 | [LeetCode 1733. 需要教语言的最少人数（哈希+枚举）](https://michael.blog.csdn.net/article/details/113071632) |                                                              |
 | [LeetCode 1734. 解码异或后的排列（位运算）](https://michael.blog.csdn.net/article/details/113068427) |                                                              |
