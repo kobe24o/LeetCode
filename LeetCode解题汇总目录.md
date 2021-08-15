@@ -1477,6 +1477,7 @@
 | [LeetCode 1656. 设计有序流（数组）](https://michael.blog.csdn.net/article/details/109703784) |                                                              |
 | [LeetCode 1657. 确定两个字符串是否接近](https://michael.blog.csdn.net/article/details/109704021) |                                                              |
 | [LeetCode 1658. 将 x 减到 0 的最小操作数（哈希）](https://michael.blog.csdn.net/article/details/109713477) |                                                              |
+| [LeetCode 1660. 纠正二叉树（BFS）](https://michael.blog.csdn.net/article/details/119710581) |                                                              |
 | [LeetCode 1662. 检查两个字符串数组是否相等](https://michael.blog.csdn.net/article/details/109943501) |                                                              |
 | [LeetCode 1663. 具有给定数值的最小字符串（贪心）](https://michael.blog.csdn.net/article/details/109945744) |                                                              |
 | [LeetCode 1664. 生成平衡数组的方案数（前缀和+后缀和）](https://michael.blog.csdn.net/article/details/109947860) |                                                              |
