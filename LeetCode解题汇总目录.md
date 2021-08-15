@@ -1425,6 +1425,7 @@
 | [LeetCode 1577. 数的平方等于两数乘积的方法数（双指针）](https://michael.blog.csdn.net/article/details/108430344) |                                                              |
 | [LeetCode 1578. 避免重复字母的最小删除成本](https://michael.blog.csdn.net/article/details/108430423) |                                                              |
 | [LeetCode 1579. 保证图可完全遍历（并查集）](https://michael.blog.csdn.net/article/details/108438962) |                                                              |
+| [LeetCode 1580. 把箱子放进仓库里 II（排序）](https://michael.blog.csdn.net/article/details/119714016) |                                                              |
 | [LeetCode 1582. 二进制矩阵中的特殊位置](https://michael.blog.csdn.net/article/details/108561122#1_LeetCode_5511__easy_14) |                                                              |
 | [LeetCode 1583. 统计不开心的朋友](https://michael.blog.csdn.net/article/details/108561122#2_LeetCode_5512__medium_114) |                                                              |
 | [LeetCode 1584. 连接所有点的最小费用（最小生成树）](https://michael.blog.csdn.net/article/details/108561122#3_LeetCode_5513__medium_225) |                                                              |
@@ -1440,6 +1441,7 @@
 | [LeetCode 1599. 经营摩天轮的最大利润（模拟）](https://michael.blog.csdn.net/article/details/108827543) |                                                              |
 | [LeetCode 1600. 皇位继承顺序（图的深度优先遍历）](https://michael.blog.csdn.net/article/details/108829683) |                                                              |
 | [LeetCode 1601. 最多可达成的换楼请求数目（回溯+剪枝）](https://michael.blog.csdn.net/article/details/108835238) |                                                              |
+| [LeetCode 1602. 找到二叉树中最近的右侧节点（BFS）](https://michael.blog.csdn.net/article/details/119714378) |                                                              |
 | [LeetCode 1603. 设计停车系统](https://michael.blog.csdn.net/article/details/108914842#1_LeetCode_5515__easy_15) |                                                              |
 | [LeetCode 1604. 警告一小时内使用相同员工卡大于等于三次的人（map+set）](https://michael.blog.csdn.net/article/details/108914842#2_LeetCode_5516__medium_89) |                                                              |
 | [LeetCode 1605. 给定行和列的和求可行矩阵（贪心）](https://michael.blog.csdn.net/article/details/108914842#3_LeetCode_5518__medium_179) |                                                              |
