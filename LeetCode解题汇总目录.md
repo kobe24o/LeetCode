@@ -1450,6 +1450,7 @@
 | [LeetCode 1615. 最大网络秩（出入度）](https://michael.blog.csdn.net/article/details/109012095) |                                                              |
 | [LeetCode 1616. 分割两个字符串得到回文串](https://michael.blog.csdn.net/article/details/109012491) |                                                              |
 | [LeetCode 1617. 统计子树中城市之间最大距离（枚举所有可能+图的最大直径）](https://michael.blog.csdn.net/article/details/109014936) |                                                              |
+| [LeetCode 1618. 找出适应屏幕的最大字号（二分查找）](https://michael.blog.csdn.net/article/details/119709520) |                                                              |
 | [LeetCode 1619. 删除某些元素后的数组均值](https://michael.blog.csdn.net/article/details/109143348) |                                                              |
 | [LeetCode 1620. 网络信号最好的坐标](https://michael.blog.csdn.net/article/details/109143371) |                                                              |
 | [LeetCode 1624. 两个相同字符之间的最长子字符串](https://michael.blog.csdn.net/article/details/109143817) |                                                              |
