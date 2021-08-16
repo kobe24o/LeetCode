@@ -1669,6 +1669,8 @@
 | [LeetCode 1958. 检查操作是否合法（模拟）](https://michael.blog.csdn.net/article/details/119513540) |                                                              |
 | [LeetCode 1961. 检查字符串是否为数组前缀](https://michael.blog.csdn.net/article/details/119532748) |                                                              |
 | [LeetCode 1962. 移除石子使总数最小（优先队列）](https://michael.blog.csdn.net/article/details/119533053) |                                                              |
+| [LeetCode 5843. 作为子字符串出现在单词中的字符串数目](https://michael.blog.csdn.net/article/details/119719041) |                                                              |
+| [LeetCode 5832. 构造元素不等于两相邻元素平均值的数组](https://michael.blog.csdn.net/article/details/119719376) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
@@ -1682,6 +1684,7 @@
 | [LeetCode LCP 34. 二叉树染色（树上DP）](https://michael.blog.csdn.net/article/details/115582515) |                                                              |
 | [LeetCode 网易-1. 分割环（前缀和 + 哈希）](https://michael.blog.csdn.net/article/details/109208128) |                                                              |
 | [LeetCode 网易-2. 古老的游戏机](https://michael.blog.csdn.net/article/details/109207550) |                                                              |
+| [LeetCode meituan-001. 小美的用户名](https://michael.blog.csdn.net/article/details/119720078) |                                                              |
 | [LeetCode DD-2020006. 简单游戏（前缀和）](https://michael.blog.csdn.net/article/details/112688247) |                                                              |
 | [LeetCode LCS 01. 下载插件](https://michael.blog.csdn.net/article/details/118055279) |                                                              |
 | [LeetCode LCS 02. 完成一半题目（计数+排序）](https://michael.blog.csdn.net/article/details/118055667) |                                                              |
