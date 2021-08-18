@@ -1687,6 +1687,7 @@
 | [LeetCode meituan-001. 小美的用户名](https://michael.blog.csdn.net/article/details/119720078) |                                                              |
 | [LeetCode meituan-003. 小美的跑腿代购（排序）](https://michael.blog.csdn.net/article/details/119747085) |                                                              |
 | [LeetCode meituan-006. 小团的神秘暗号](https://michael.blog.csdn.net/article/details/119747176) |                                                              |
+| [LeetCode meituan-007. 小团的选调计划（模拟）](https://michael.blog.csdn.net/article/details/119793259) |                                                              |
 | [LeetCode DD-2020006. 简单游戏（前缀和）](https://michael.blog.csdn.net/article/details/112688247) |                                                              |
 | [LeetCode LCS 01. 下载插件](https://michael.blog.csdn.net/article/details/118055279) |                                                              |
 | [LeetCode LCS 02. 完成一半题目（计数+排序）](https://michael.blog.csdn.net/article/details/118055667) |                                                              |
