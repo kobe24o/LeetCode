@@ -142,6 +142,17 @@
 | [LeetCode 1532. The Most Recent Three Orders（dense_rank + over窗口函数）](https://michael.blog.csdn.net/article/details/107680682) |
 | [LeetCode 1543. Fix Product Name Format（trim去空格+upper/lower大小写）](https://michael.blog.csdn.net/article/details/107890180) |
 | [LeetCode 1549. The Most Recent Orders for Each Product](https://michael.blog.csdn.net/article/details/107996931) |
+| [LeetCode MySQL 1571. 仓库经理](https://michael.blog.csdn.net/article/details/119846133) |
+| [LeetCode MySQL 1581. 进店却未进行过交易的顾客](https://michael.blog.csdn.net/article/details/119846351) |
+| [LeetCode MySQL 1607. 没有卖出的卖家](https://michael.blog.csdn.net/article/details/119848197) |
+| [LeetCode MySQL 1623. 三人国家代表队](https://michael.blog.csdn.net/article/details/119848243) |
+| [LeetCode MySQL 1633. 各赛事的用户注册率](https://michael.blog.csdn.net/article/details/119848365) |
+| [LeetCode MySQL 1661. 每台机器的进程平均运行时间](https://michael.blog.csdn.net/article/details/119849256) |
+| [LeetCode MySQL 1741. 查找每个员工花费的总时间](https://michael.blog.csdn.net/article/details/119849381) |
+| [LeetCode MySQL 1747. 应该被禁止的Leetflex账户](https://michael.blog.csdn.net/article/details/119848572) |
+| [LeetCode MySQL 1777. 每家商店的产品价格（行列转换）](https://michael.blog.csdn.net/article/details/119855947) |
+| [LeetCode MySQL 1873. 计算特殊奖金（case when then else end）](https://michael.blog.csdn.net/article/details/119857707) |
+| [LeetCode MySQL 1890. 2020年最后一次登录（year）](https://michael.blog.csdn.net/article/details/119857625) |
 
 ## 2. LintCode SQL
 
