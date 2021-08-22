@@ -1622,6 +1622,7 @@
 | [LeetCode 1863. 找出所有子集的异或总和再求和（DFS）](https://michael.blog.csdn.net/article/details/116905069) |                                                              |
 | [LeetCode 1864. 构成交替字符串需要的最小交换次数](https://michael.blog.csdn.net/article/details/117391716) |                                                              |
 | [LeetCode 1865. 找出和为指定值的下标对（哈希）](https://michael.blog.csdn.net/article/details/117392116) |                                                              |
+| [LeetCode 1868. 两个行程编码数组的积（双指针）](https://michael.blog.csdn.net/article/details/119858130) |                                                              |
 | [LeetCode 1869. 哪种连续子字符串更长](https://michael.blog.csdn.net/article/details/117196756) |                                                              |
 | [LeetCode 1870. 准时到达的列车最小时速（二分查找）](https://michael.blog.csdn.net/article/details/117197407) |                                                              |
 | [LeetCode 1871. 跳跃游戏 VII（贪心）](https://michael.blog.csdn.net/article/details/117198626) |                                                              |
