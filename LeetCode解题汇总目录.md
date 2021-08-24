@@ -1674,7 +1674,10 @@
 | [LeetCode 1966. Binary Searchable Numbers in an Unsorted Array](https://michael.blog.csdn.net/article/details/119845600) |                                                              |
 | [LeetCode 1967. 作为子字符串出现在单词中的字符串数目](https://michael.blog.csdn.net/article/details/119719041) |                                                              |
 | [LeetCode 1968. 构造元素不等于两相邻元素平均值的数组](https://michael.blog.csdn.net/article/details/119719376) |                                                              |
+| [LeetCode 1971. Find if Path Exists in Graph（图的遍历）](https://michael.blog.csdn.net/article/details/119881694) |                                                              |
 | [LeetCode 1973. Count Nodes Equal to Sum of Descendants（DFS）](https://michael.blog.csdn.net/article/details/119845296) |                                                              |
+| [LeetCode 1974. 使用特殊打字机键入单词的最少时间](https://michael.blog.csdn.net/article/details/119881731) |                                                              |
+| [LeetCode 1979. 找出数组的最大公约数](https://michael.blog.csdn.net/article/details/119881745) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
