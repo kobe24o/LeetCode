@@ -1678,6 +1678,8 @@
 | [LeetCode 1973. Count Nodes Equal to Sum of Descendants（DFS）](https://michael.blog.csdn.net/article/details/119845296) |                                                              |
 | [LeetCode 1974. 使用特殊打字机键入单词的最少时间](https://michael.blog.csdn.net/article/details/119881731) |                                                              |
 | [LeetCode 1979. 找出数组的最大公约数](https://michael.blog.csdn.net/article/details/119881745) |                                                              |
+| [LeetCode 1980. 找出不同的二进制字符串](https://michael.blog.csdn.net/article/details/119902679) |                                                              |
+| [LeetCode 1981. 最小化目标值与所选元素的差（DP）](https://michael.blog.csdn.net/article/details/119902747) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
