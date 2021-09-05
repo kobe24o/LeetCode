@@ -1681,8 +1681,10 @@
 | [LeetCode 1979. 找出数组的最大公约数](https://michael.blog.csdn.net/article/details/119881745) |                                                              |
 | [LeetCode 1980. 找出不同的二进制字符串](https://michael.blog.csdn.net/article/details/119902679) |                                                              |
 | [LeetCode 1981. 最小化目标值与所选元素的差（DP）](https://michael.blog.csdn.net/article/details/119902747) |                                                              |
-| [LeetCode 5854. 学生分数的最小差值](https://michael.blog.csdn.net/article/details/119978992) |                                                              |
-| [LeetCode 5855. 找出数组中的第 K 大整数（排序）](https://michael.blog.csdn.net/article/details/119979083) |                                                              |
+| [LeetCode 1984. 学生分数的最小差值](https://michael.blog.csdn.net/article/details/119978992) |                                                              |
+| [LeetCode 1985. 找出数组中的第 K 大整数（排序）](https://michael.blog.csdn.net/article/details/119979083) |                                                              |
+| [LeetCode 5846. 找到数组的中间位置（前缀和）](https://michael.blog.csdn.net/article/details/120113495) |                                                              |
+| [LeetCode 5847. 找到所有的农场组（BFS）](https://michael.blog.csdn.net/article/details/120113636) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
