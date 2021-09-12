@@ -9,7 +9,7 @@
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
 
-**通过1900, 简单571/621, 中等1049/1221, 困难280/467**
+**通过2002, 简单615/632, 中等1105/1242, 困难282/477**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 
@@ -91,6 +91,7 @@
 | [LeetCode 第 235 场周赛（322/4493，前7.17%）](https://michael.blog.csdn.net/article/details/115427000) |
 | [LeetCode 第 237 场周赛（490/4576，前10.7%，第6次全部通过🚀）](https://michael.blog.csdn.net/article/details/115831551) |
 | [LeetCode 第 53 场双周赛（139/3069，前4.53%，第7次全部通过🚀）](https://michael.blog.csdn.net/article/details/117393227) |
+| [LeetCode 2021 力扣杯全国秋季编程大赛（第384名）](https://michael.blog.csdn.net/article/details/120240901) |
 
 ​          
 
@@ -1684,8 +1685,11 @@
 | [LeetCode 1981. 最小化目标值与所选元素的差（DP）](https://michael.blog.csdn.net/article/details/119902747) |                                                              |
 | [LeetCode 1984. 学生分数的最小差值](https://michael.blog.csdn.net/article/details/119978992) |                                                              |
 | [LeetCode 1985. 找出数组中的第 K 大整数（排序）](https://michael.blog.csdn.net/article/details/119979083) |                                                              |
-| [LeetCode 5846. 找到数组的中间位置（前缀和）](https://michael.blog.csdn.net/article/details/120113495) |                                                              |
-| [LeetCode 5847. 找到所有的农场组（BFS）](https://michael.blog.csdn.net/article/details/120113636) |                                                              |
+| [LeetCode 1991. 找到数组的中间位置（前缀和）](https://michael.blog.csdn.net/article/details/120113495) |                                                              |
+| [LeetCode 1992. 找到所有的农场组（BFS）](https://michael.blog.csdn.net/article/details/120113636) |                                                              |
+| [LeetCode 5867. 反转单词前缀](https://michael.blog.csdn.net/article/details/120250026) |                                                              |
+| [LeetCode 5868. 可互换矩形的组数](https://michael.blog.csdn.net/article/details/120250152) |                                                              |
+| [LeetCode 5869. 两个回文子序列长度的最大乘积（状态压缩+枚举状态子集+预处理）](https://michael.blog.csdn.net/article/details/120251282) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
