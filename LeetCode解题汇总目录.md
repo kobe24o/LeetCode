@@ -1690,8 +1690,11 @@
 | [LeetCode 2000. 反转单词前缀](https://michael.blog.csdn.net/article/details/120250026) |                                                              |
 | [LeetCode 2001. 可互换矩形的组数](https://michael.blog.csdn.net/article/details/120250152) |                                                              |
 | [LeetCode 2002. 两个回文子序列长度的最大乘积（状态压缩+枚举状态子集+预处理）](https://michael.blog.csdn.net/article/details/120251282) |                                                              |
-| [LeetCode 5860. 从双倍数组中还原原数组（map）](https://michael.blog.csdn.net/article/details/120378599) |                                                              |
-| [LeetCode 5861. 出租车的最大盈利（DP）](https://michael.blog.csdn.net/article/details/120380729) |                                                              |
+| [LeetCode 2007. 从双倍数组中还原原数组（map）](https://michael.blog.csdn.net/article/details/120378599) |                                                              |
+| [LeetCode 2008. 出租车的最大盈利（DP）](https://michael.blog.csdn.net/article/details/120380729) |                                                              |
+| [LeetCode 2011. 执行操作后的变量值](https://michael.blog.csdn.net/article/details/120394205) |                                                              |
+| [LeetCode 2012. 数组美丽值求和](https://michael.blog.csdn.net/article/details/120394393) |                                                              |
+| [LeetCode 2013. 检测正方形（字典）](https://michael.blog.csdn.net/article/details/120394720) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
