@@ -1697,6 +1697,9 @@
 | [LeetCode 2013. 检测正方形（字典）](https://michael.blog.csdn.net/article/details/120394720) |                                                              |
 | [LeetCode 2016. 增量元素之间的最大差值](https://michael.blog.csdn.net/article/details/120618669) |                                                              |
 | [LeetCode 2017. 网格游戏（前缀和）](https://michael.blog.csdn.net/article/details/120619456) |                                                              |
+| [LeetCode 2018. 判断单词是否能放入填字游戏内（模拟）](https://michael.blog.csdn.net/article/details/120642356) |                                                              |
+| [LeetCode 2022. 将一维数组转变成二维数组](https://michael.blog.csdn.net/article/details/120642711) |                                                              |
+| [LeetCode 2023. 连接后等于目标字符串的字符串对](https://michael.blog.csdn.net/article/details/120642823) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
