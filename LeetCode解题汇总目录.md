@@ -1700,6 +1700,12 @@
 | [LeetCode 2018. 判断单词是否能放入填字游戏内（模拟）](https://michael.blog.csdn.net/article/details/120642356) |                                                              |
 | [LeetCode 2022. 将一维数组转变成二维数组](https://michael.blog.csdn.net/article/details/120642711) |                                                              |
 | [LeetCode 2023. 连接后等于目标字符串的字符串对](https://michael.blog.csdn.net/article/details/120642823) |                                                              |
+| [LeetCode 2027. 转换字符串的最少操作次数](https://michael.blog.csdn.net/article/details/120650036) |                                                              |
+| [LeetCode 2028. 找出缺失的观测数据](https://michael.blog.csdn.net/article/details/120650485) |                                                              |
+| [LeetCode 5894. 至少在两个数组中出现的值（哈希/位运算）](https://michael.blog.csdn.net/article/details/120686430) |                                                              |
+| [LeetCode 5895. 获取单值网格的最小操作数（贪心）](https://michael.blog.csdn.net/article/details/120686846) |                                                              |
+| [LeetCode 5896. 股票价格波动（set + map）](https://michael.blog.csdn.net/article/details/120687673) |                                                              |
+| [LeetCode 5897. 将数组分成两个数组并最小化数组和的差（状态压缩DP）](https://michael.blog.csdn.net/article/details/120690250) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
