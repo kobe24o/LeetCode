@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2021.6.20
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2021.10.10
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/leetbook/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题（更新完毕）](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题（更新完毕）](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode代码能力测试CAT](https://blog.csdn.net/qq_21201267/article/details/104603021)。
 
@@ -7,6 +7,9 @@
 [点击访问 我的 LeetCode 主页](https://leetcode-cn.com/u/kobe24o/)
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
+
+注：本文超过字数限制，完整版MD文件见[Github](https://github.com/kobe24o/LeetCode/blob/master/LeetCode%E8%A7%A3%E9%A2%98%E6%B1%87%E6%80%BB%E7%9B%AE%E5%BD%95.md)
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
 
 **通过2021, 简单618/636, 中等1120/1266, 困难283/488**
