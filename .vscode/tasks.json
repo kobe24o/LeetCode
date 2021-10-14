@@ -1,26 +1,38 @@
 {
-  "version": "2.0.0",
-  "command": "g++",
-  "type": "shell",
-  "presentation": {
-    "echo": true,
-    "reveal": "always",
-    "focus": false,
-    "panel": "shared",
-    "showReuseMessage": true,
-    "clear": false
-  },
-  "args": ["-m32","-g", "${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}.exe"],
-  "problemMatcher": {
-    "owner": "cpp",
-    "fileLocation": ["relative", "${workspaceRoot}"],
-    "pattern": {
-      "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
-      "file": 1,
-      "line": 2,
-      "column": 3,
-      "severity": 4,
-      "message": 5
-    }
-  }
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    // tasks.json这个文件是定义调试开始前要执行的任务，即（或者绝大多数是）编译程序， 定义了用于编译程序的编译器，所输出的文件格式，使用的语言标准等
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "g++",
+            "command": "C:/mingw/bin/g++.exe",
+            "args": [
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe",
+                "-g",
+                "-static-libgcc",
+                "-std=c++14"
+            ],
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared"
+            },
+            "options": {
+                "cwd": "C:/mingw/bin/"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+        },
+        
+    ]
 }
