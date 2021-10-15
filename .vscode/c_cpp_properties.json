@@ -4,16 +4,16 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/mingw/include/*"
+                "C:/mingw/include/*" // 根据自己的需要添加多个
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:/mingw/bin/gcc.exe",
+            "compilerPath": "C:/mingw/bin/gcc.exe", // 修改为自己的路径
             "cStandard": "c11",
-            "cppStandard": "c++14",
+            "cppStandard": "c++14", // 如果c++17报错，可能编译器不支持，尝试降低版本
             "intelliSenseMode": "gcc-x64"
         }
     ],

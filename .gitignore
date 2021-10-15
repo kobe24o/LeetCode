@@ -236,3 +236,5 @@ cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/a.exe
 cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 a_main_oj.exe
 test.cpp
+cmake-build-debug/LeetCode.pdb
+cmake-build-debug/LeetCode.ilk

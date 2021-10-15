@@ -1,19 +1,22 @@
 {
     // See https://go.microsoft.com/fwlink/?LinkId=733558
     // for the documentation about the tasks.json format
-    // tasks.json这个文件是定义调试开始前要执行的任务，即（或者绝大多数是）编译程序， 定义了用于编译程序的编译器，所输出的文件格式，使用的语言标准等
+    // tasks.json这个文件是定义调试开始前要执行的任务，即（或者绝大多数是）编译程序， 
+    // 定义了用于编译程序的编译器，所输出的文件格式，使用的语言标准等
+    // 下载mingw-w64 https://www.mingw-w64.org/downloads/
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "g++",
-            "command": "C:/mingw/bin/g++.exe",
+            "label": "g++编译",
+            "command": "C:/mingw/bin/g++.exe", // 根据自己的路径修改，记得添加bin路径到path环境变量
             "args": [
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}.exe",
                 "-g",
                 "-static-libgcc",
-                "-std=c++14"
+                "-fdiagnostics-color=always",
+                "-std=c++14" // 如果c++17报错，可能编译器不支持，尝试降低版本
             ],
             "type": "shell",
             "group": {
@@ -27,7 +30,7 @@
                 "panel": "shared"
             },
             "options": {
-                "cwd": "C:/mingw/bin/"
+                "cwd": "${fileDirname}"
             },
             "problemMatcher": [
                 "$gcc"
