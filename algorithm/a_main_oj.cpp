@@ -5,73 +5,88 @@
 using namespace std;
 
 
-// using namespace std;
-// class Solution {
-//     vector<vector<int>> ans;
-//     vector<vector<int>> dir = {{1,0},{0,1},{-1,0},{0,-1}};
-//     int t;
-// public:
-//     vector<vector<int>> bicycleYard(vector<int>& position, vector<vector<int>>& terrain, vector<vector<int>>& obstacle) {
-//         int m = terrain.size(), n = terrain[0].size();
-//         // vector<vector<bool>> vis = vector<vector<bool>> (m, vector<bool>(n, false));
-//         for(int i = 0; i < m; ++i)
-//         {
-//             for(int j = 0; j < n; ++j)
-//             {
-//                 if(i != position[0] && j != position[1])
-//                 {
-//                     t = terrain[position[0]][position[1]]-terrain[i][j];
-//                     if (t < 0)
-//                         continue;
-//                     vector<vector<bool>> vis = vector<vector<bool>> (m, vector<bool>(n, false));
-//                     // vis[position[0]][position[1]]=true;
-//                     if(dfs(position[0], position[1], terrain, obstacle, vis, 0, m, n, i, j))
-//                         ans.push_back({i, j});
-//                     // vis[position[0]][position[1]]=false;
-//                 }
-//             }
-//         }
-        
-//         // vector<vector<int>> res;
-//         // for(auto& x : ans)
-//         //     res.push_back(x);
-//         // sort(res.begin(), res.end());
-//         return ans;    
-//     }
-//     bool dfs(int x, int y, vector<vector<int>>& h, vector<vector<int>>& o, vector<vector<bool>>& vis, int val, int m, int n, int i, int j)
-//     {
-//         if(val > t) return false;
-//         for(int k = 0;k < 4; ++k)
-//         {
-//             int nx = x+dir[k][0];
-//             int ny = y+dir[k][1];
-//             if(nx>=0&&nx<m && ny>=0&&ny<n)
-//             {
-//                 int o2 = o[nx][ny];
-//                 int v = val+o2;
-//                 if (v <= t)
-//                 {
-//                     // vis[nx][ny] = true;
-//                     if((v==t && nx==i && ny==j) || dfs(nx, ny, h, o, vis, v, m, n, i,j))
-//                         return true;
-//                     // 
-//                     // vis[nx][ny] = false;
-//                 }
-//             }
-//         }
-//         return false;
-//     }
-// };
+class Solution {
+    vector<int> neg, zero, pos;
+public:
+    long long kthSmallestProduct(vector<int>& nums1, vector<int>& nums2, long long k) {
+        long long l = -1e10, r = 1e10, mid, ans, p1 = 0, p2 = 0;
+        for(int i = 0; i < nums2.size(); ++i)
+        {
+            if(nums2[i] < 0)
+                neg.push_back(nums2[i]);
+            else if(nums2[i] > 0)
+            {
+                pos.push_back(nums2[i]);
+            }
+            else
+                zero.push_back(nums2[i]);
+        }
+        while(l <= r)
+        {
+            mid = l+((r-l)>>1);
+            long long ct = check(nums1, nums2, mid);
+            if(ct >= k)
+            {
+                ans = mid;
+                r = mid-1;
+            }
+            else
+                l = mid+1;
+        }
+        return ans;
+    }
+    long long check(vector<int>& nums1, vector<int>& nums2, long long num)
+    {
+        long long ct = 0; // 计算有多少数是小于等于 num 的
+        for(auto a : nums1)
+        {
+            if(a == 0)
+            {
+                if(num >= 0)
+                    ct += nums2.size();
+            }
+            else if(a > 0)
+            {
+                if(num == 0)
+                    ct += neg.size()+zero.size();
+                else if(num > 0)
+                {
+                    auto x = upper_bound(pos.begin(), pos.end(), num/a);
+                    ct += x-pos.begin()+neg.size()+zero.size();
+                }
+                else
+                {
+                    auto x = upper_bound(neg.begin(), neg.end(), floor(num/a));
+                    ct += x-neg.begin();
+                }
+            }
+            else // a < 0
+            {
+                if(num == 0)
+                    ct += pos.size()+zero.size();
+                else if(num > 0)
+                {
+                    auto x = lower_bound(neg.begin(), neg.end(), floor(num/a));
+                    ct += neg.end()-x+pos.size()+zero.size();
+                }
+                else
+                {
+                    auto x = lower_bound(pos.begin(), pos.end(), num/a+1);
+                    ct += pos.end()-x;
+                }
+            }
+        }
+        return ct;
+    }
+};
 
 int main()
 {
 
-    // Solution s;
-    // vector<int> position = {0,0};
-    // vector<vector<int>>  terrain = {{0,0},{0,0}}, obstacle = {{0,0},{0,0}};
-    // s.bicycleYard(position, terrain, obstacle);
-    string s = "hello";
-    cout << s << endl; 
-    system("pause");
+    Solution s;
+    vector<int> nums1 = {-2,-1,0,1,2}, nums2 = {-3,-1,2,4,5};
+    cout << s.kthSmallestProduct(nums1, nums2, 3) << endl;
+    cout << floor(-5/2);
+    cout << ceil(-5/2);
     return 0;
 }
