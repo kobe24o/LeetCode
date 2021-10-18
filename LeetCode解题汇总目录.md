@@ -1713,6 +1713,7 @@
 | [LeetCode 5886. 如果相邻两个颜色均相同则删除当前颜色](https://michael.blog.csdn.net/article/details/120807581) |                                                              |
 | [LeetCode 5888. 网络空闲的时刻（BFS）](https://michael.blog.csdn.net/article/details/120808236) |                                                              |
 | [LeetCode 5887. 两个有序数组的第 K 小乘积（嵌套二分查找）](https://michael.blog.csdn.net/article/details/120813594) |                                                              |
+| [LeetCode 5902. 检查句子中的数字是否递增](https://michael.blog.csdn.net/article/details/120819583) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
