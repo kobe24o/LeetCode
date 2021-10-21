@@ -1648,6 +1648,7 @@
 | [LeetCode 1903. 字符串中的最大奇数](https://michael.blog.csdn.net/article/details/118068540) |                                                              |
 | [LeetCode 1904. 你完成的完整对局数](https://michael.blog.csdn.net/article/details/118068750) |                                                              |
 | [LeetCode 1905. 统计子岛屿（BFS）](https://michael.blog.csdn.net/article/details/118069372) |                                                              |
+| [LeetCode 1909. 删除一个元素使数组严格递增](https://michael.blog.csdn.net/article/details/120885034) |                                                              |
 | [LeetCode 1910. 删除一个字符串中所有出现的给定子字符串](https://michael.blog.csdn.net/article/details/118273714) |                                                              |
 | [LeetCode 1911. 最大子序列交替和（动态规划）](https://michael.blog.csdn.net/article/details/118274111) |                                                              |
 | [LeetCode 1912. 设计电影租借系统（map+set）](https://michael.blog.csdn.net/article/details/118281962) |                                                              |
@@ -1714,6 +1715,8 @@
 | [LeetCode 5888. 网络空闲的时刻（BFS）](https://michael.blog.csdn.net/article/details/120808236) |                                                              |
 | [LeetCode 5887. 两个有序数组的第 K 小乘积（嵌套二分查找）](https://michael.blog.csdn.net/article/details/120813594) |                                                              |
 | [LeetCode 5902. 检查句子中的数字是否递增](https://michael.blog.csdn.net/article/details/120819583) |                                                              |
+| [LeetCode 5903. 简易银行系统](https://michael.blog.csdn.net/article/details/120824805) |                                                              |
+| [LeetCode 5904. 统计按位或能得到最大值的子集数目（状态压缩DP）](https://michael.blog.csdn.net/article/details/120831782) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
