@@ -1718,6 +1718,8 @@
 | [LeetCode 2043. 简易银行系统](https://michael.blog.csdn.net/article/details/120824805) |                                                              |
 | [LeetCode 2044. 统计按位或能得到最大值的子集数目（状态压缩DP）](https://michael.blog.csdn.net/article/details/120831782) |                                                              |
 | [LeetCode 5906. 句子中的有效单词数](https://michael.blog.csdn.net/article/details/120932086) |                                                              |
+| [LeetCode 5907. 下一个更大的数值平衡数（枚举）](https://michael.blog.csdn.net/article/details/120940024) |                                                              |
+| [LeetCode 5908. 统计最高分的节点数目（DFS）](https://michael.blog.csdn.net/article/details/120941597) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
