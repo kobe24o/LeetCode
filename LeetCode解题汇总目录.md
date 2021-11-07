@@ -1729,6 +1729,8 @@
 | [LeetCode 2059. 转化数字的最小运算数（BFS）](https://michael.blog.csdn.net/article/details/121190700) |                                                              |
 | [LeetCode 5918. 统计字符串中的元音子字符串](https://michael.blog.csdn.net/article/details/121191511) |                                                              |
 | [LeetCode 5919. 所有子字符串中的元音（数学）](https://michael.blog.csdn.net/article/details/121191739) |                                                              |
+| [LeetCode 5920. 分配给商店的最多商品的最小值（二分查找）](https://michael.blog.csdn.net/article/details/121195388) |                                                              |
+| [LeetCode 5921. 最大化一张图中的路径价值（DFS）](https://michael.blog.csdn.net/article/details/121195948) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
