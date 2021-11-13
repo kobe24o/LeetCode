@@ -1543,6 +1543,7 @@
 | [LeetCode 1736. 替换隐藏数字得到的最晚时间](https://michael.blog.csdn.net/article/details/113082734) |                                                              |
 | [LeetCode 1737. 满足三条件之一需改变的最少字符数（计数）](https://michael.blog.csdn.net/article/details/113083679) |                                                              |
 | [LeetCode 1738. 找出第 K 大的异或坐标值（DP）](https://michael.blog.csdn.net/article/details/113086195) |                                                              |
+| [LeetCode 1739. 放置盒子（数学）](https://michael.blog.csdn.net/article/details/121310831) |                                                              |
 | [LeetCode 1742. 盒子中小球的最大数量](https://michael.blog.csdn.net/article/details/113465352) |                                                              |
 | [LeetCode 1743. 从相邻元素对还原数组（拓扑排序）](https://michael.blog.csdn.net/article/details/113465643) |                                                              |
 | [LeetCode 1744. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？（前缀和）](https://michael.blog.csdn.net/article/details/113466143) |                                                              |
