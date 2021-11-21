@@ -1732,13 +1732,17 @@
 | [LeetCode 2063. 所有子字符串中的元音（数学）](https://michael.blog.csdn.net/article/details/121191739) |                                                              |
 | [LeetCode 2064. 分配给商店的最多商品的最小值（二分查找）](https://michael.blog.csdn.net/article/details/121195388) |                                                              |
 | [LeetCode 2065. 最大化一张图中的路径价值（DFS）](https://michael.blog.csdn.net/article/details/121195948) |                                                              |
-| [LeetCode 5910. 检查两个字符串是否几乎相等](https://michael.blog.csdn.net/article/details/121315678) |                                                              |
-| [LeetCode 5911. 模拟行走机器人 II（模拟）](https://michael.blog.csdn.net/article/details/121317313) |                                                              |
-| [LeetCode 5912. 每一个查询的最大美丽值（离线查询+排序+优先队列）](https://michael.blog.csdn.net/article/details/121318384) |                                                              |
-| [LeetCode 5913. 你可以安排的最多任务数目（二分查找）](https://michael.blog.csdn.net/article/details/121321694) |                                                              |
-| [LeetCode 5926. 买票需要的时间](https://michael.blog.csdn.net/article/details/121323245) |                                                              |
-| [LeetCode 5927. 反转偶数长度组的节点（链表）](https://michael.blog.csdn.net/article/details/121324834) |                                                              |
-| [LeetCode 5928. 解码斜向换位密码（模拟）](https://michael.blog.csdn.net/article/details/121325243) |                                                              |
+| [LeetCode 2068. 检查两个字符串是否几乎相等](https://michael.blog.csdn.net/article/details/121315678) |                                                              |
+| [LeetCode 2069. 模拟行走机器人 II（模拟）](https://michael.blog.csdn.net/article/details/121317313) |                                                              |
+| [LeetCode 2070. 每一个查询的最大美丽值（离线查询+排序+优先队列）](https://michael.blog.csdn.net/article/details/121318384) |                                                              |
+| [LeetCode 2071. 你可以安排的最多任务数目（二分查找）](https://michael.blog.csdn.net/article/details/121321694) |                                                              |
+| [LeetCode 2073. 买票需要的时间](https://michael.blog.csdn.net/article/details/121323245) |                                                              |
+| [LeetCode 2074. 反转偶数长度组的节点（链表）](https://michael.blog.csdn.net/article/details/121324834) |                                                              |
+| [LeetCode 2075. 解码斜向换位密码（模拟）](https://michael.blog.csdn.net/article/details/121325243) |                                                              |
+| [LeetCode 2076. 处理含限制条件的好友请求（并查集）](https://michael.blog.csdn.net/article/details/121350640) |                                                              |
+| [LeetCode 5930. 两栋颜色不同且距离最远的房子](https://michael.blog.csdn.net/article/details/121452542) |                                                              |
+| [LeetCode 5201. 给植物浇水（前缀和）](https://michael.blog.csdn.net/article/details/121452891) |                                                              |
+| [LeetCode 5186. 区间内查询数字的频率（哈希+二分查找）](https://michael.blog.csdn.net/article/details/121453903) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
