@@ -1647,6 +1647,7 @@
 | [LeetCode 1894. 找到需要补充粉笔的学生编号](https://michael.blog.csdn.net/article/details/117886348) |                                                              |
 | [LeetCode 1897. 重新分配字符使所有字符串都相等](https://michael.blog.csdn.net/article/details/117886470) |                                                              |
 | [LeetCode 1899. 合并若干三元组以形成目标三元组](https://michael.blog.csdn.net/article/details/117886808) |                                                              |
+| [LeetCode 1901. 找出顶峰元素 II（二分查找）](https://michael.blog.csdn.net/article/details/121459061) |                                                              |
 | [LeetCode 1903. 字符串中的最大奇数](https://michael.blog.csdn.net/article/details/118068540) |                                                              |
 | [LeetCode 1904. 你完成的完整对局数](https://michael.blog.csdn.net/article/details/118068750) |                                                              |
 | [LeetCode 1905. 统计子岛屿（BFS）](https://michael.blog.csdn.net/article/details/118069372) |                                                              |
