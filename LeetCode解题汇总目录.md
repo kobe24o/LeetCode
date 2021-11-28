@@ -1744,6 +1744,7 @@
 | [LeetCode 5930. 两栋颜色不同且距离最远的房子](https://michael.blog.csdn.net/article/details/121452542) |                                                              |
 | [LeetCode 5201. 给植物浇水（前缀和）](https://michael.blog.csdn.net/article/details/121452891) |                                                              |
 | [LeetCode 5186. 区间内查询数字的频率（哈希+二分查找）](https://michael.blog.csdn.net/article/details/121453903) |                                                              |
+| [LeetCode 5922. 统计出现过一次的公共字符串（哈希）](https://michael.blog.csdn.net/article/details/121587963) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
