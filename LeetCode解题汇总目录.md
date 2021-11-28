@@ -1741,10 +1741,16 @@
 | [LeetCode 2074. 反转偶数长度组的节点（链表）](https://michael.blog.csdn.net/article/details/121324834) |                                                              |
 | [LeetCode 2075. 解码斜向换位密码（模拟）](https://michael.blog.csdn.net/article/details/121325243) |                                                              |
 | [LeetCode 2076. 处理含限制条件的好友请求（并查集）](https://michael.blog.csdn.net/article/details/121350640) |                                                              |
-| [LeetCode 5930. 两栋颜色不同且距离最远的房子](https://michael.blog.csdn.net/article/details/121452542) |                                                              |
-| [LeetCode 5201. 给植物浇水（前缀和）](https://michael.blog.csdn.net/article/details/121452891) |                                                              |
-| [LeetCode 5186. 区间内查询数字的频率（哈希+二分查找）](https://michael.blog.csdn.net/article/details/121453903) |                                                              |
+| [LeetCode 2078. 两栋颜色不同且距离最远的房子](https://michael.blog.csdn.net/article/details/121452542) |                                                              |
+| [LeetCode 2079. 给植物浇水（前缀和）](https://michael.blog.csdn.net/article/details/121452891) |                                                              |
+| [LeetCode 2080. 区间内查询数字的频率（哈希+二分查找）](https://michael.blog.csdn.net/article/details/121453903) |                                                              |
 | [LeetCode 5922. 统计出现过一次的公共字符串（哈希）](https://michael.blog.csdn.net/article/details/121587963) |                                                              |
+| [LeetCode 5923. 从房屋收集雨水需要的最少水桶数（贪心）](https://michael.blog.csdn.net/article/details/121592327) |                                                              |
+| [LeetCode 5924. 网格图中机器人回家的最小代价（脑筋急转弯）](https://michael.blog.csdn.net/article/details/121593262) |                                                              |
+| [LeetCode 5938. 找出数组排序后的目标下标](https://michael.blog.csdn.net/article/details/121593708) |                                                              |
+| [LeetCode 5939. 半径为 k 的子数组平均值（滑窗）](https://michael.blog.csdn.net/article/details/121594157) |                                                              |
+| [LeetCode 5940. 从数组中移除最大值和最小值（一次遍历）](https://michael.blog.csdn.net/article/details/121594444) |                                                              |
+| [LeetCode 5941. 找出知晓秘密的所有专家（并查集）](https://michael.blog.csdn.net/article/details/121596465) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
