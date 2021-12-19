@@ -1761,6 +1761,9 @@
 | [LeetCode 2103. 环和杆（位运算）](https://michael.blog.csdn.net/article/details/121885968) |                                                              |
 | [LeetCode 2104. 子数组范围和（单调栈）](https://michael.blog.csdn.net/article/details/121894600) |                                                              |
 | [LeetCode 2105. 给植物浇水 II（双指针）](https://michael.blog.csdn.net/article/details/122015184) |                                                              |
+| [LeetCode 5956. 找出数组中的第一个回文字符串](https://michael.blog.csdn.net/article/details/122022315) |                                                              |
+| [LeetCode 5957. 向字符串添加空格](https://michael.blog.csdn.net/article/details/122022409) |                                                              |
+| [LeetCode 5958. 股票平滑下跌阶段的数目（滑动窗口）](https://michael.blog.csdn.net/article/details/122022673) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
