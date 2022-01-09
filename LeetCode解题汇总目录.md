@@ -1773,6 +1773,14 @@
 | [LeetCode 5967. 检查是否所有 A 都在 B 之前](https://blog.csdn.net/qq_21201267/article/details/122279653) |                                                              |
 | [LeetCode 5968. 银行中的激光束数量](https://blog.csdn.net/qq_21201267/article/details/122279860) |                                                              |
 | [LeetCode 5969. 摧毁小行星（贪心）](https://blog.csdn.net/qq_21201267/article/details/122280033) |                                                              |
+| [LeetCode 5960. 将标题首字母大写](https://blog.csdn.net/qq_21201267/article/details/122394761) |                                                              |
+| [LeetCode 5961. 链表最大孪生和（链表快慢指针+反转链表+双指针）](https://blog.csdn.net/qq_21201267/article/details/122394983) |                                                              |
+| [LeetCode 5962. 连接两字母单词得到的最长回文串](https://blog.csdn.net/qq_21201267/article/details/122395504) |                                                              |
+| [LeetCode 5931. 用邮票贴满网格图（DP/二维差分）](https://blog.csdn.net/qq_21201267/article/details/122398242) |                                                              |
+| [LeetCode 5976. 检查是否每一行每一列都包含全部整数](https://blog.csdn.net/qq_21201267/article/details/122398730) |                                                              |
+| [LeetCode 5977. 最少交换次数来组合所有的 1 II（数组*2 + 滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/122399026) |                                                              |
+| [LeetCode 5978. 统计追加字母可以获得的单词数（位运算+哈希）](https://blog.csdn.net/qq_21201267/article/details/122400089) |                                                              |
+| [LeetCode 5979. 全部开花的最早一天（贪心）](https://blog.csdn.net/qq_21201267/article/details/122400643) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
