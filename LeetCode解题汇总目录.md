@@ -1781,6 +1781,10 @@
 | [LeetCode 5977. 最少交换次数来组合所有的 1 II（数组*2 + 滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/122399026) |                                                              |
 | [LeetCode 5978. 统计追加字母可以获得的单词数（位运算+哈希）](https://blog.csdn.net/qq_21201267/article/details/122400089) |                                                              |
 | [LeetCode 5979. 全部开花的最早一天（贪心）](https://blog.csdn.net/qq_21201267/article/details/122400643) |                                                              |
+| [LeetCode 5980. 将字符串拆分为若干长度为 k 的组](https://blog.csdn.net/qq_21201267/article/details/122521582) |                                                              |
+| [LeetCode 5194. 得到目标值的最少行动次数（贪心）](https://blog.csdn.net/qq_21201267/article/details/122522259) |                                                              |
+| [LeetCode 5982. 解决智力问题（动态规划）](https://blog.csdn.net/qq_21201267/article/details/122526427) |                                                              |
+| [LeetCode 5983. 同时运行 N 台电脑的最长时间（二分查找）](https://michael.blog.csdn.net/article/details/122527701) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
