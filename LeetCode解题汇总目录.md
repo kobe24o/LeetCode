@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2021.10.10
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2022.1.25
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/leetbook/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题（更新完毕）](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题（更新完毕）](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode代码能力测试CAT](https://blog.csdn.net/qq_21201267/article/details/104603021)。
 
@@ -12,7 +12,7 @@
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
 
-**通过2021, 简单618/636, 中等1120/1266, 困难283/488**
+**通过2105, 简单641/660, 中等1166/1331, 困难298/515**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 
@@ -1770,21 +1770,29 @@
 | [LeetCode 2119. 反转两次的数字](https://blog.csdn.net/qq_21201267/article/details/122268581) |                                                              |
 | [LeetCode 2120. 执行所有后缀指令（模拟）](https://blog.csdn.net/qq_21201267/article/details/122269874) |                                                              |
 | [LeetCode 2121. 相同元素的间隔之和（前缀和）](https://blog.csdn.net/qq_21201267/article/details/122271240) |                                                              |
-| [LeetCode 5967. 检查是否所有 A 都在 B 之前](https://blog.csdn.net/qq_21201267/article/details/122279653) |                                                              |
-| [LeetCode 5968. 银行中的激光束数量](https://blog.csdn.net/qq_21201267/article/details/122279860) |                                                              |
-| [LeetCode 5969. 摧毁小行星（贪心）](https://blog.csdn.net/qq_21201267/article/details/122280033) |                                                              |
-| [LeetCode 5960. 将标题首字母大写](https://blog.csdn.net/qq_21201267/article/details/122394761) |                                                              |
-| [LeetCode 5961. 链表最大孪生和（链表快慢指针+反转链表+双指针）](https://blog.csdn.net/qq_21201267/article/details/122394983) |                                                              |
-| [LeetCode 5962. 连接两字母单词得到的最长回文串](https://blog.csdn.net/qq_21201267/article/details/122395504) |                                                              |
-| [LeetCode 5931. 用邮票贴满网格图（DP/二维差分）](https://blog.csdn.net/qq_21201267/article/details/122398242) |                                                              |
-| [LeetCode 5976. 检查是否每一行每一列都包含全部整数](https://blog.csdn.net/qq_21201267/article/details/122398730) |                                                              |
-| [LeetCode 5977. 最少交换次数来组合所有的 1 II（数组*2 + 滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/122399026) |                                                              |
-| [LeetCode 5978. 统计追加字母可以获得的单词数（位运算+哈希）](https://blog.csdn.net/qq_21201267/article/details/122400089) |                                                              |
-| [LeetCode 5979. 全部开花的最早一天（贪心）](https://blog.csdn.net/qq_21201267/article/details/122400643) |                                                              |
-| [LeetCode 5980. 将字符串拆分为若干长度为 k 的组](https://blog.csdn.net/qq_21201267/article/details/122521582) |                                                              |
-| [LeetCode 5194. 得到目标值的最少行动次数（贪心）](https://blog.csdn.net/qq_21201267/article/details/122522259) |                                                              |
-| [LeetCode 5982. 解决智力问题（动态规划）](https://blog.csdn.net/qq_21201267/article/details/122526427) |                                                              |
-| [LeetCode 5983. 同时运行 N 台电脑的最长时间（二分查找）](https://michael.blog.csdn.net/article/details/122527701) |                                                              |
+| [LeetCode 2124. 检查是否所有 A 都在 B 之前](https://blog.csdn.net/qq_21201267/article/details/122279653) |                                                              |
+| [LeetCode 2125. 银行中的激光束数量](https://blog.csdn.net/qq_21201267/article/details/122279860) |                                                              |
+| [LeetCode 2126. 摧毁小行星（贪心）](https://blog.csdn.net/qq_21201267/article/details/122280033) |                                                              |
+| [LeetCode 2129. 将标题首字母大写](https://blog.csdn.net/qq_21201267/article/details/122394761) |                                                              |
+| [LeetCode 2130. 链表最大孪生和（链表快慢指针+反转链表+双指针）](https://blog.csdn.net/qq_21201267/article/details/122394983) |                                                              |
+| [LeetCode 2131. 连接两字母单词得到的最长回文串](https://blog.csdn.net/qq_21201267/article/details/122395504) |                                                              |
+| [LeetCode 2132. 用邮票贴满网格图（DP/二维差分）](https://blog.csdn.net/qq_21201267/article/details/122398242) |                                                              |
+| [LeetCode 2133. 检查是否每一行每一列都包含全部整数](https://blog.csdn.net/qq_21201267/article/details/122398730) |                                                              |
+| [LeetCode 2134. 最少交换次数来组合所有的 1 II（数组*2 + 滑动窗口）](https://blog.csdn.net/qq_21201267/article/details/122399026) |                                                              |
+| [LeetCode 2135. 统计追加字母可以获得的单词数（位运算+哈希）](https://blog.csdn.net/qq_21201267/article/details/122400089) |                                                              |
+| [LeetCode 2136. 全部开花的最早一天（贪心）](https://blog.csdn.net/qq_21201267/article/details/122400643) |                                                              |
+| [LeetCode 2138. 将字符串拆分为若干长度为 k 的组](https://blog.csdn.net/qq_21201267/article/details/122521582) |                                                              |
+| [LeetCode 2139. 得到目标值的最少行动次数（贪心）](https://blog.csdn.net/qq_21201267/article/details/122522259) |                                                              |
+| [LeetCode 2140. 解决智力问题（动态规划）](https://blog.csdn.net/qq_21201267/article/details/122526427) |                                                              |
+| [LeetCode 2141. 同时运行 N 台电脑的最长时间（二分查找）](https://michael.blog.csdn.net/article/details/122527701) |                                                              |
+| [LeetCode 2144. 打折购买糖果的最小开销（贪心）](https://michael.blog.csdn.net/article/details/122653081) |                                                              |
+| [LeetCode 2145. 统计隐藏数组数目（前缀和）](https://michael.blog.csdn.net/article/details/122653480) |                                                              |
+| [LeetCode 2146. 价格范围内最高排名的 K 样物品（BFS）](https://michael.blog.csdn.net/article/details/122653939) |                                                              |
+| [LeetCode 2147. 分隔长廊的方案数](https://michael.blog.csdn.net/article/details/122654981) |                                                              |
+| [LeetCode 2148. 元素计数](https://michael.blog.csdn.net/article/details/122655093) |                                                              |
+| [LeetCode 2149. 按符号重排数组（双指针）](https://michael.blog.csdn.net/article/details/122655254) |                                                              |
+| [LeetCode 2150. 找出数组中的所有孤独数字（哈希）](https://michael.blog.csdn.net/article/details/122655347) |                                                              |
+| [LeetCode 2151. 基于陈述统计最多好人数（状态压缩）](https://michael.blog.csdn.net/article/details/122693286) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
