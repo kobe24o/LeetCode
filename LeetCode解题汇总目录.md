@@ -1793,6 +1793,10 @@
 | [LeetCode 2149. 按符号重排数组（双指针）](https://michael.blog.csdn.net/article/details/122655254) |                                                              |
 | [LeetCode 2150. 找出数组中的所有孤独数字（哈希）](https://michael.blog.csdn.net/article/details/122655347) |                                                              |
 | [LeetCode 2151. 基于陈述统计最多好人数（状态压缩）](https://michael.blog.csdn.net/article/details/122693286) |                                                              |
+| [LeetCode 5993. 将找到的值乘以 2](https://michael.blog.csdn.net/article/details/122752080) |                                                              |
+| [LeetCode 5981. 分组得分最高的所有下标（前缀和）](https://michael.blog.csdn.net/article/details/122752142) |                                                              |
+| [LeetCode 5994. 查找给定哈希值的子串（字符串哈希）](https://michael.blog.csdn.net/article/details/122752956) |                                                              |
+| [LeetCode 5995. 字符串分组（状态压缩+位运算+图的遍历）](https://michael.blog.csdn.net/article/details/122754457) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
