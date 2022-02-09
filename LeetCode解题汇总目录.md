@@ -1800,6 +1800,9 @@
 | [LeetCode 5984. 拆分数位后四位数字的最小和](https://michael.blog.csdn.net/article/details/122801178) |                                                              |
 | [LeetCode 5985. 根据给定数字划分数组](https://michael.blog.csdn.net/article/details/122801390) |                                                              |
 | [LeetCode 5986. 设置时间的最少代价（枚举）](https://michael.blog.csdn.net/article/details/122802170) |                                                              |
+| [LeetCode 2164. 对奇偶下标分别排序](https://michael.blog.csdn.net/article/details/122834650) |                                                              |
+| [LeetCode 2165. 重排数字的最小值（计数）](https://michael.blog.csdn.net/article/details/122834677) |                                                              |
+|                                                              |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
