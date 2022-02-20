@@ -1802,7 +1802,12 @@
 | [LeetCode 5986. 设置时间的最少代价（枚举）](https://michael.blog.csdn.net/article/details/122802170) |                                                              |
 | [LeetCode 2164. 对奇偶下标分别排序](https://michael.blog.csdn.net/article/details/122834650) |                                                              |
 | [LeetCode 2165. 重排数字的最小值（计数）](https://michael.blog.csdn.net/article/details/122834677) |                                                              |
-|                                                              |                                                              |
+| [LeetCode 2166. 设计位集（Bitset）](https://michael.blog.csdn.net/article/details/122853231) |                                                              |
+| [LeetCode 2169. 得到 0 的操作数](https://michael.blog.csdn.net/article/details/122935651) |                                                              |
+| [LeetCode 2171. 拿出最少数目的魔法豆（排序）](https://michael.blog.csdn.net/article/details/122935658) |                                                              |
+| [LeetCode 5996. 统计数组中相等且可以被整除的数对](https://michael.blog.csdn.net/article/details/123033678) |                                                              |
+| [LeetCode 5997. 找到和为给定整数的三个连续整数](https://michael.blog.csdn.net/article/details/123033725) |                                                              |
+| [LeetCode 5998. 拆分成最多数目的偶整数之和（等差数列求和）](https://michael.blog.csdn.net/article/details/123034279) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
