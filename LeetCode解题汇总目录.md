@@ -1811,6 +1811,9 @@
 | [LeetCode 2180. 统计各位数字之和为偶数的整数个数](https://michael.blog.csdn.net/article/details/123145028) |                                                              |
 | [LeetCode 2181. 合并零之间的节点（链表）](https://michael.blog.csdn.net/article/details/123145117) |                                                              |
 | [LeetCode 2182. 构造限制重复的字符串（贪心、map）](https://michael.blog.csdn.net/article/details/123160764) |                                                              |
+| [LeetCode 6008. 统计包含给定前缀的字符串](https://blog.csdn.net/qq_21201267/article/details/123163056) |                                                              |
+| [LeetCode 6009. 使两字符串互为字母异位词的最少步骤数](https://blog.csdn.net/qq_21201267/article/details/123163247) |                                                              |
+| [LeetCode 6010. 完成旅途的最少时间（二分查找）](https://blog.csdn.net/qq_21201267/article/details/123163469) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
