@@ -1818,6 +1818,8 @@
 | [LeetCode 5217. 将杂乱无章的数字排序（自定义排序）](https://michael.blog.csdn.net/article/details/123307183) |                                                              |
 | [LeetCode 5300. 有向无环图中一个节点的所有祖先（拓扑排序）](https://michael.blog.csdn.net/article/details/123308198) |                                                              |
 | [LeetCode 6016. Excel 表中某个范围内的单元格](https://michael.blog.csdn.net/article/details/123317776) |                                                              |
+| [LeetCode 2196. 根据描述创建二叉树（哈希）](https://michael.blog.csdn.net/article/details/123339314) |                                                              |
+| [LeetCode 2197. 替换数组中的非互质数（栈）](https://michael.blog.csdn.net/article/details/123455181) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
