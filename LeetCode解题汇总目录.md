@@ -1793,33 +1793,36 @@
 | [LeetCode 2149. 按符号重排数组（双指针）](https://michael.blog.csdn.net/article/details/122655254) |                                                              |
 | [LeetCode 2150. 找出数组中的所有孤独数字（哈希）](https://michael.blog.csdn.net/article/details/122655347) |                                                              |
 | [LeetCode 2151. 基于陈述统计最多好人数（状态压缩）](https://michael.blog.csdn.net/article/details/122693286) |                                                              |
-| [LeetCode 5993. 将找到的值乘以 2](https://michael.blog.csdn.net/article/details/122752080) |                                                              |
-| [LeetCode 5981. 分组得分最高的所有下标（前缀和）](https://michael.blog.csdn.net/article/details/122752142) |                                                              |
-| [LeetCode 5994. 查找给定哈希值的子串（字符串哈希）](https://michael.blog.csdn.net/article/details/122752956) |                                                              |
-| [LeetCode 5995. 字符串分组（状态压缩+位运算+图的遍历）](https://michael.blog.csdn.net/article/details/122754457) |                                                              |
-| [LeetCode 5984. 拆分数位后四位数字的最小和](https://michael.blog.csdn.net/article/details/122801178) |                                                              |
-| [LeetCode 5985. 根据给定数字划分数组](https://michael.blog.csdn.net/article/details/122801390) |                                                              |
-| [LeetCode 5986. 设置时间的最少代价（枚举）](https://michael.blog.csdn.net/article/details/122802170) |                                                              |
+| [LeetCode 2154. 将找到的值乘以 2](https://michael.blog.csdn.net/article/details/122752080) |                                                              |
+| [LeetCode 2155. 分组得分最高的所有下标（前缀和）](https://michael.blog.csdn.net/article/details/122752142) |                                                              |
+| [LeetCode 2156. 查找给定哈希值的子串（字符串哈希）](https://michael.blog.csdn.net/article/details/122752956) |                                                              |
+| [LeetCode 2157. 字符串分组（状态压缩+位运算+图的遍历）](https://michael.blog.csdn.net/article/details/122754457) |                                                              |
+| [LeetCode 2160. 拆分数位后四位数字的最小和](https://michael.blog.csdn.net/article/details/122801178) |                                                              |
+| [LeetCode 2161. 根据给定数字划分数组](https://michael.blog.csdn.net/article/details/122801390) |                                                              |
+| [LeetCode 2162. 设置时间的最少代价（枚举）](https://michael.blog.csdn.net/article/details/122802170) |                                                              |
 | [LeetCode 2164. 对奇偶下标分别排序](https://michael.blog.csdn.net/article/details/122834650) |                                                              |
 | [LeetCode 2165. 重排数字的最小值（计数）](https://michael.blog.csdn.net/article/details/122834677) |                                                              |
 | [LeetCode 2166. 设计位集（Bitset）](https://michael.blog.csdn.net/article/details/122853231) |                                                              |
 | [LeetCode 2169. 得到 0 的操作数](https://michael.blog.csdn.net/article/details/122935651) |                                                              |
 | [LeetCode 2171. 拿出最少数目的魔法豆（排序）](https://michael.blog.csdn.net/article/details/122935658) |                                                              |
-| [LeetCode 5996. 统计数组中相等且可以被整除的数对](https://michael.blog.csdn.net/article/details/123033678) |                                                              |
-| [LeetCode 5997. 找到和为给定整数的三个连续整数](https://michael.blog.csdn.net/article/details/123033725) |                                                              |
-| [LeetCode 5998. 拆分成最多数目的偶整数之和（等差数列求和）](https://michael.blog.csdn.net/article/details/123034279) |                                                              |
+| [LeetCode 2176. 统计数组中相等且可以被整除的数对](https://michael.blog.csdn.net/article/details/123033678) |                                                              |
+| [LeetCode 2177. 找到和为给定整数的三个连续整数](https://michael.blog.csdn.net/article/details/123033725) |                                                              |
+| [LeetCode 2178. 拆分成最多数目的偶整数之和（等差数列求和）](https://michael.blog.csdn.net/article/details/123034279) |                                                              |
 | [LeetCode 2180. 统计各位数字之和为偶数的整数个数](https://michael.blog.csdn.net/article/details/123145028) |                                                              |
 | [LeetCode 2181. 合并零之间的节点（链表）](https://michael.blog.csdn.net/article/details/123145117) |                                                              |
 | [LeetCode 2182. 构造限制重复的字符串（贪心、map）](https://michael.blog.csdn.net/article/details/123160764) |                                                              |
-| [LeetCode 6008. 统计包含给定前缀的字符串](https://blog.csdn.net/qq_21201267/article/details/123163056) |                                                              |
-| [LeetCode 6009. 使两字符串互为字母异位词的最少步骤数](https://blog.csdn.net/qq_21201267/article/details/123163247) |                                                              |
-| [LeetCode 6010. 完成旅途的最少时间（二分查找）](https://blog.csdn.net/qq_21201267/article/details/123163469) |                                                              |
-| [LeetCode 6024. 数组中紧跟 key 之后出现最频繁的数字](https://michael.blog.csdn.net/article/details/123306036) |                                                              |
-| [LeetCode 5217. 将杂乱无章的数字排序（自定义排序）](https://michael.blog.csdn.net/article/details/123307183) |                                                              |
-| [LeetCode 5300. 有向无环图中一个节点的所有祖先（拓扑排序）](https://michael.blog.csdn.net/article/details/123308198) |                                                              |
-| [LeetCode 6016. Excel 表中某个范围内的单元格](https://michael.blog.csdn.net/article/details/123317776) |                                                              |
+| [LeetCode 2185. 统计包含给定前缀的字符串](https://blog.csdn.net/qq_21201267/article/details/123163056) |                                                              |
+| [LeetCode 2186. 使两字符串互为字母异位词的最少步骤数](https://blog.csdn.net/qq_21201267/article/details/123163247) |                                                              |
+| [LeetCode 2187. 完成旅途的最少时间（二分查找）](https://blog.csdn.net/qq_21201267/article/details/123163469) |                                                              |
+| [LeetCode 2190. 数组中紧跟 key 之后出现最频繁的数字](https://michael.blog.csdn.net/article/details/123306036) |                                                              |
+| [LeetCode 2191. 将杂乱无章的数字排序（自定义排序）](https://michael.blog.csdn.net/article/details/123307183) |                                                              |
+| [LeetCode 2192. 有向无环图中一个节点的所有祖先（拓扑排序）](https://michael.blog.csdn.net/article/details/123308198) |                                                              |
+| [LeetCode 2194. Excel 表中某个范围内的单元格](https://michael.blog.csdn.net/article/details/123317776) |                                                              |
+| [LeetCode 2195. 向数组中追加 K 个整数（贪心）](https://michael.blog.csdn.net/article/details/123456667) |                                                              |
 | [LeetCode 2196. 根据描述创建二叉树（哈希）](https://michael.blog.csdn.net/article/details/123339314) |                                                              |
 | [LeetCode 2197. 替换数组中的非互质数（栈）](https://michael.blog.csdn.net/article/details/123455181) |                                                              |
+| [LeetCode 6031. 找出数组中的所有 K 近邻下标](https://michael.blog.csdn.net/article/details/123458705) |                                                              |
+| [LeetCode 5203. 统计可以提取的工件（哈希）](https://michael.blog.csdn.net/article/details/123459027) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
