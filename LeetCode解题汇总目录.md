@@ -1824,6 +1824,9 @@
 | [LeetCode 2200. 找出数组中的所有 K 近邻下标](https://michael.blog.csdn.net/article/details/123458705) |                                                              |
 | [LeetCode 2201. 统计可以提取的工件（哈希）](https://michael.blog.csdn.net/article/details/123459027) |                                                              |
 | [LeetCode 2202. K 次操作后最大化顶端元素](https://michael.blog.csdn.net/article/details/123466101) |                                                              |
+| [LeetCode 6020. 将数组划分成相等数对](https://michael.blog.csdn.net/article/details/123617407) |                                                              |
+| [LeetCode 6021. 字符串中最多数目的子字符串（前缀和）](https://michael.blog.csdn.net/article/details/123618224) |                                                              |
+| [LeetCode 6022. 将数组和减半的最少操作次数（优先队列）](https://michael.blog.csdn.net/article/details/123619257) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
