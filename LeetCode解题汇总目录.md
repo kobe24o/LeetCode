@@ -1830,6 +1830,13 @@
 | [LeetCode 2210. 统计数组中峰和谷的数量](https://michael.blog.csdn.net/article/details/123747098) |                                                              |
 | [LeetCode 2211. 统计道路上的碰撞次数](https://michael.blog.csdn.net/article/details/123747485) |                                                              |
 | [LeetCode 2212. 射箭比赛中的最大得分（状态枚举）](https://michael.blog.csdn.net/article/details/123763436) |                                                              |
+| [LeetCode 5268. 找出两数组的不同（set）](https://blog.csdn.net/qq_21201267/article/details/123773638) |                                                              |
+| [LeetCode 6033. 转换数字的最少位翻转次数（位运算）](https://blog.csdn.net/qq_21201267/article/details/123943202) |                                                              |
+| [LeetCode 6034. 数组的三角和](https://blog.csdn.net/qq_21201267/article/details/123945641) |                                                              |
+| [LeetCode 6035. 选择建筑的方案数](https://blog.csdn.net/qq_21201267/article/details/123945934) |                                                              |
+| [LeetCode 6055. 转化时间需要的最少操作数（贪心）](https://blog.csdn.net/qq_21201267/article/details/123946279) |                                                              |
+| [LeetCode 5235. 找出输掉零场或一场比赛的玩家（计数）](https://blog.csdn.net/qq_21201267/article/details/123946469) |                                                              |
+| [LeetCode 5219. 每个小孩最多能分到多少糖果（二分查找）](https://blog.csdn.net/qq_21201267/article/details/123946676) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
