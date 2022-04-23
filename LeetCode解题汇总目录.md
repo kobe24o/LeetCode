@@ -1837,6 +1837,14 @@
 | [LeetCode 6055. 转化时间需要的最少操作数（贪心）](https://blog.csdn.net/qq_21201267/article/details/123946279) |                                                              |
 | [LeetCode 5235. 找出输掉零场或一场比赛的玩家（计数）](https://blog.csdn.net/qq_21201267/article/details/123946469) |                                                              |
 | [LeetCode 5219. 每个小孩最多能分到多少糖果（二分查找）](https://blog.csdn.net/qq_21201267/article/details/123946676) |                                                              |
+| [LeetCode 6037. 按奇偶性交换后的最大数字](https://blog.csdn.net/qq_21201267/article/details/124077249) |                                                              |
+| [LeetCode 6038. 向表达式添加括号后的最小结果](https://blog.csdn.net/qq_21201267/article/details/124077622) |                                                              |
+| [LeetCode 6039. K 次增加后的最大乘积（优先队列）](https://michael.blog.csdn.net/article/details/124078681) |                                                              |
+| [LeetCode 6060. 找到最接近 0 的数字](https://michael.blog.csdn.net/article/details/124225300) |                                                              |
+| [LeetCode 6061. 买钢笔和铅笔的方案数](https://michael.blog.csdn.net/article/details/124225496) |                                                              |
+| [LeetCode 6062. 设计一个 ATM 机器](https://michael.blog.csdn.net/article/details/124227023) |                                                              |
+| [LeetCode 6070. 计算字符串的数字和](https://michael.blog.csdn.net/article/details/124228946) |                                                              |
+| [LeetCode 6071. 完成所有任务需要的最少轮数](https://michael.blog.csdn.net/article/details/124229380) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
@@ -1848,6 +1856,10 @@
 | [LeetCode LCP 30. 魔塔游戏（优先队列）](https://blog.csdn.net/qq_21201267/article/details/115446727) |                                                              |
 | [LeetCode LCP 33. 蓄水（暴力枚举）](https://michael.blog.csdn.net/article/details/115581556) |                                                              |
 | [LeetCode LCP 34. 二叉树染色（树上DP）](https://michael.blog.csdn.net/article/details/115582515) |                                                              |
+| [LeetCode 2022春季赛 1. 宝石补给](https://michael.blog.csdn.net/article/details/124219727) |                                                              |
+| [LeetCode 2022春季赛 2. 烹饪料理（状态枚举）](https://michael.blog.csdn.net/article/details/124220061) |                                                              |
+| [LeetCode 2022春季赛 1. 采集果实](https://blog.csdn.net/qq_21201267/article/details/124369785) |                                                              |
+| [LeetCode 2022春季赛 2. 信物传送（迪杰斯特拉-最短路径）](https://blog.csdn.net/qq_21201267/article/details/124369898) |                                                              |
 | [LeetCode 网易-1. 分割环（前缀和 + 哈希）](https://michael.blog.csdn.net/article/details/109208128) |                                                              |
 | [LeetCode 网易-2. 古老的游戏机](https://michael.blog.csdn.net/article/details/109207550) |                                                              |
 | [LeetCode meituan-001. 小美的用户名](https://michael.blog.csdn.net/article/details/119720078) |                                                              |
