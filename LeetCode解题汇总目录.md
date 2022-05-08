@@ -1,10 +1,10 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2022.4.3
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode-cn.com/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2022.5.8
 
 刷题可以按照[不同的专题](https://leetcode-cn.com/leetbook/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题（更新完毕）](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题（更新完毕）](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode代码能力测试CAT](https://blog.csdn.net/qq_21201267/article/details/104603021)。
 
 [LeetCode MySQL 数据库解题目录](https://michael.blog.csdn.net/article/details/107423652)
 
-[点击访问 我的 LeetCode 主页](https://leetcode-cn.com/u/kobe24o/)
+[点击访问 我的 LeetCode 主页](https://leetcode.cn/u/kobe24o/)
 
 [我的 GitHub 主页](https://github.com/kobe24o/LeetCode)
 
@@ -12,7 +12,7 @@
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
 
-**通过2105, 简单641/660, 中等1166/1331, 困难298/515**
+**通过2177, 简单669/688, 中等1207/1392, 困难301/553**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 
@@ -1852,6 +1852,10 @@
 | [LeetCode 2259. 移除指定数字得到的最大结果](https://blog.csdn.net/qq_21201267/article/details/124537851) |                                                              |
 | [LeetCode 2260. 必须拿起的最小连续卡牌数（哈希）](https://blog.csdn.net/qq_21201267/article/details/124540803) |                                                              |
 | [LeetCode 2261. 含最多 K 个可整除元素的子数组](https://blog.csdn.net/qq_21201267/article/details/124541762) |                                                              |
+| [LeetCode 6056. 字符串中最大的 3 位相同数字](https://michael.blog.csdn.net/article/details/124646567) |                                                              |
+| [LeetCode 6057. 统计值等于子树平均值的节点数(DFS)](https://michael.blog.csdn.net/article/details/124646692) |                                                              |
+| [LeetCode 6059. 检查是否有合法括号字符串路径（BFS）](https://michael.blog.csdn.net/article/details/124649374) |                                                              |
+| [LeetCode 6058. 统计打字方案数（动态规划）](https://michael.blog.csdn.net/article/details/124650352) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
