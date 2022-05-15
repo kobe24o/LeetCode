@@ -1852,10 +1852,16 @@
 | [LeetCode 2259. 移除指定数字得到的最大结果](https://blog.csdn.net/qq_21201267/article/details/124537851) |                                                              |
 | [LeetCode 2260. 必须拿起的最小连续卡牌数（哈希）](https://blog.csdn.net/qq_21201267/article/details/124540803) |                                                              |
 | [LeetCode 2261. 含最多 K 个可整除元素的子数组](https://blog.csdn.net/qq_21201267/article/details/124541762) |                                                              |
-| [LeetCode 6056. 字符串中最大的 3 位相同数字](https://michael.blog.csdn.net/article/details/124646567) |                                                              |
-| [LeetCode 6057. 统计值等于子树平均值的节点数(DFS)](https://michael.blog.csdn.net/article/details/124646692) |                                                              |
-| [LeetCode 6059. 检查是否有合法括号字符串路径（BFS）](https://michael.blog.csdn.net/article/details/124649374) |                                                              |
-| [LeetCode 6058. 统计打字方案数（动态规划）](https://michael.blog.csdn.net/article/details/124650352) |                                                              |
+| [LeetCode 2264. 字符串中最大的 3 位相同数字](https://michael.blog.csdn.net/article/details/124646567) |                                                              |
+| [LeetCode 2265. 统计值等于子树平均值的节点数(DFS)](https://michael.blog.csdn.net/article/details/124646692) |                                                              |
+| [LeetCode 2266. 统计打字方案数（动态规划）](https://michael.blog.csdn.net/article/details/124650352) |                                                              |
+| [LeetCode 2267. 检查是否有合法括号字符串路径（BFS）](https://michael.blog.csdn.net/article/details/124649374) |                                                              |
+| [LeetCode 5299. 找到一个数字的 K 美丽值](https://blog.csdn.net/qq_21201267/article/details/124778995) |                                                              |
+| [LeetCode 6067. 分割数组的方案数（前缀和）](https://blog.csdn.net/qq_21201267/article/details/124779111) |                                                              |
+| [LeetCode 6068. 毯子覆盖的最多白色砖块数（前缀和+二分查找）](https://blog.csdn.net/qq_21201267/article/details/124781128) |                                                              |
+| [LeetCode 5234. 移除字母异位词后的结果数组](https://blog.csdn.net/qq_21201267/article/details/124781757) |                                                              |
+| [LeetCode 6064. 不含特殊楼层的最大连续楼层数](https://blog.csdn.net/qq_21201267/article/details/124781943) |                                                              |
+| [LeetCode 6065. 按位与结果大于零的最长组合（位运算）](https://blog.csdn.net/qq_21201267/article/details/124782227) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
