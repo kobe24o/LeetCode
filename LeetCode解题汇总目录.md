@@ -1856,12 +1856,15 @@
 | [LeetCode 2265. 统计值等于子树平均值的节点数(DFS)](https://michael.blog.csdn.net/article/details/124646692) |                                                              |
 | [LeetCode 2266. 统计打字方案数（动态规划）](https://michael.blog.csdn.net/article/details/124650352) |                                                              |
 | [LeetCode 2267. 检查是否有合法括号字符串路径（BFS）](https://michael.blog.csdn.net/article/details/124649374) |                                                              |
-| [LeetCode 5299. 找到一个数字的 K 美丽值](https://blog.csdn.net/qq_21201267/article/details/124778995) |                                                              |
-| [LeetCode 6067. 分割数组的方案数（前缀和）](https://blog.csdn.net/qq_21201267/article/details/124779111) |                                                              |
-| [LeetCode 6068. 毯子覆盖的最多白色砖块数（前缀和+二分查找）](https://blog.csdn.net/qq_21201267/article/details/124781128) |                                                              |
-| [LeetCode 5234. 移除字母异位词后的结果数组](https://blog.csdn.net/qq_21201267/article/details/124781757) |                                                              |
-| [LeetCode 6064. 不含特殊楼层的最大连续楼层数](https://blog.csdn.net/qq_21201267/article/details/124781943) |                                                              |
-| [LeetCode 6065. 按位与结果大于零的最长组合（位运算）](https://blog.csdn.net/qq_21201267/article/details/124782227) |                                                              |
+| [LeetCode 2269. 找到一个数字的 K 美丽值](https://blog.csdn.net/qq_21201267/article/details/124778995) |                                                              |
+| [LeetCode 2270. 分割数组的方案数（前缀和）](https://blog.csdn.net/qq_21201267/article/details/124779111) |                                                              |
+| [LeetCode 2271. 毯子覆盖的最多白色砖块数（前缀和+二分查找）](https://blog.csdn.net/qq_21201267/article/details/124781128) |                                                              |
+| [LeetCode 2273. 移除字母异位词后的结果数组](https://blog.csdn.net/qq_21201267/article/details/124781757) |                                                              |
+| [LeetCode 2274. 不含特殊楼层的最大连续楼层数](https://blog.csdn.net/qq_21201267/article/details/124781943) |                                                              |
+| [LeetCode 2275. 按位与结果大于零的最长组合（位运算）](https://blog.csdn.net/qq_21201267/article/details/124782227) |                                                              |
+| [LeetCode 6074. 字母在字符串中的百分比](https://blog.csdn.net/qq_21201267/article/details/124909367) |                                                              |
+| [LeetCode 6075. 装满石头的背包的最大数量（贪心）](https://blog.csdn.net/qq_21201267/article/details/124909699) |                                                              |
+| [LeetCode 6076. 表示一个折线图的最少线段数（几何）](https://blog.csdn.net/qq_21201267/article/details/124910196) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
