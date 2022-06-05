@@ -1862,9 +1862,18 @@
 | [LeetCode 2273. 移除字母异位词后的结果数组](https://blog.csdn.net/qq_21201267/article/details/124781757) |                                                              |
 | [LeetCode 2274. 不含特殊楼层的最大连续楼层数](https://blog.csdn.net/qq_21201267/article/details/124781943) |                                                              |
 | [LeetCode 2275. 按位与结果大于零的最长组合（位运算）](https://blog.csdn.net/qq_21201267/article/details/124782227) |                                                              |
-| [LeetCode 6074. 字母在字符串中的百分比](https://blog.csdn.net/qq_21201267/article/details/124909367) |                                                              |
-| [LeetCode 6075. 装满石头的背包的最大数量（贪心）](https://blog.csdn.net/qq_21201267/article/details/124909699) |                                                              |
-| [LeetCode 6076. 表示一个折线图的最少线段数（几何）](https://blog.csdn.net/qq_21201267/article/details/124910196) |                                                              |
+| [LeetCode 2278. 字母在字符串中的百分比](https://blog.csdn.net/qq_21201267/article/details/124909367) |                                                              |
+| [LeetCode 2279. 装满石头的背包的最大数量（贪心）](https://blog.csdn.net/qq_21201267/article/details/124909699) |                                                              |
+| [LeetCode 2280. 表示一个折线图的最少线段数（几何）](https://blog.csdn.net/qq_21201267/article/details/124910196) |                                                              |
+| [LeetCode 2283. 判断一个数的数字计数是否等于数位的值](https://blog.csdn.net/qq_21201267/article/details/125027670) |                                                              |
+| [LeetCode 2284. 最多单词数的发件人](https://blog.csdn.net/qq_21201267/article/details/125027922) |                                                              |
+| [LeetCode 2285. 道路的最大总重要性](https://blog.csdn.net/qq_21201267/article/details/125028327) |                                                              |
+| [LeetCode 2287. 重排字符形成目标字符串](https://blog.csdn.net/qq_21201267/article/details/125029343) |                                                              |
+| [LeetCode 2288. 价格减免](https://blog.csdn.net/qq_21201267/article/details/125029777) |                                                              |
+| [LeetCode 6090. 极大极小游戏](https://michael.blog.csdn.net/article/details/125132526) |                                                              |
+| [LeetCode 6091. 划分数组使最大差为 K](https://michael.blog.csdn.net/article/details/125132653) |                                                              |
+| [LeetCode 6092. 替换数组中的元素](https://michael.blog.csdn.net/article/details/125132909) |                                                              |
+| [LeetCode 6093. 设计一个文本编辑器（双栈）](https://michael.blog.csdn.net/article/details/125133217) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
