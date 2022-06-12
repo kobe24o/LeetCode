@@ -1,4 +1,4 @@
-此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode.cn/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2022.5.8
+此篇为学习完[《数据结构与算法之美》](https://michael.blog.csdn.net/article/details/89459835)后，在[LeetCode](https://leetcode.cn/problemset/all/)刷题的汇总目录，方便大家查找（Ctrl+F~ind~），一起刷题，一起PK交流！如果本文对你有帮助，可以给我点赞加油！  Updated on 2022.6.12
 
 刷题可以按照[不同的专题](https://leetcode.cn/leetbook/)进行，便于加强某个知识点的理解。另有[《剑指Offer》面试题（更新完毕）](https://michael.blog.csdn.net/article/details/104271963)、[《程序员面试金典》面试题（更新完毕）](https://blog.csdn.net/qq_21201267/article/details/104306869)、[LintCode代码能力测试CAT](https://blog.csdn.net/qq_21201267/article/details/104603021)。
 
@@ -12,7 +12,7 @@
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
 
-**通过2177, 简单669/688, 中等1207/1392, 困难301/553**
+**通过2204, 简单677/696, 中等1223/1413, 困难304/563**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 
@@ -1870,10 +1870,17 @@
 | [LeetCode 2285. 道路的最大总重要性](https://blog.csdn.net/qq_21201267/article/details/125028327) |                                                              |
 | [LeetCode 2287. 重排字符形成目标字符串](https://blog.csdn.net/qq_21201267/article/details/125029343) |                                                              |
 | [LeetCode 2288. 价格减免](https://blog.csdn.net/qq_21201267/article/details/125029777) |                                                              |
-| [LeetCode 6090. 极大极小游戏](https://michael.blog.csdn.net/article/details/125132526) |                                                              |
-| [LeetCode 6091. 划分数组使最大差为 K](https://michael.blog.csdn.net/article/details/125132653) |                                                              |
-| [LeetCode 6092. 替换数组中的元素](https://michael.blog.csdn.net/article/details/125132909) |                                                              |
-| [LeetCode 6093. 设计一个文本编辑器（双栈）](https://michael.blog.csdn.net/article/details/125133217) |                                                              |
+| [LeetCode 2293. 极大极小游戏](https://michael.blog.csdn.net/article/details/125132526) |                                                              |
+| [LeetCode 2294. 划分数组使最大差为 K](https://michael.blog.csdn.net/article/details/125132653) |                                                              |
+| [LeetCode 2295. 替换数组中的元素](https://michael.blog.csdn.net/article/details/125132909) |                                                              |
+| [LeetCode 2296. 设计一个文本编辑器（双栈）](https://michael.blog.csdn.net/article/details/125133217) |                                                              |
+| [LeetCode 6095. 强密码检验器 II](https://blog.csdn.net/qq_21201267/article/details/125241564) |                                                              |
+| [LeetCode 6096. 咒语和药水的成功对数（二分查找）](https://blog.csdn.net/qq_21201267/article/details/125241605) |                                                              |
+| [LeetCode 6097. 替换字符后匹配（字典）](https://blog.csdn.net/qq_21201267/article/details/125241723) |                                                              |
+| [LeetCode 6098. 统计得分小于 K 的子数组数目（前缀和+二分查找）](https://blog.csdn.net/qq_21201267/article/details/125244571) |                                                              |
+| [LeetCode 5259. 计算应缴税款总额](https://blog.csdn.net/qq_21201267/article/details/125244794) |                                                              |
+| [LeetCode 5270. 网格中的最小路径代价（动态规划）](https://blog.csdn.net/qq_21201267/article/details/125245488) |                                                              |
+| [LeetCode 5289. 公平分发饼干（DFS）](https://blog.csdn.net/qq_21201267/article/details/125245923) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
