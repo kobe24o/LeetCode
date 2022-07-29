@@ -1890,6 +1890,7 @@
 | [LeetCode 2335. 装满杯子需要的最短总时长](https://blog.csdn.net/qq_21201267/article/details/125826157) |                                                              |
 | [LeetCode 2249. 统计圆内格点数目](https://blog.csdn.net/qq_21201267/article/details/125826782) |                                                              |
 | [LeetCode 2341. 数组能形成多少数对](https://michael.blog.csdn.net/article/details/126006700) |                                                              |
+| [LeetCode 2342. 数位和相等数对的最大和](https://michael.blog.csdn.net/article/details/126065592) |                                                              |
 | [LeetCode 2347. 最好的扑克手牌](https://michael.blog.csdn.net/article/details/126006724) |                                                              |
 | [LeetCode 2351. 第一个出现两次的字母](https://michael.blog.csdn.net/article/details/126006736) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
