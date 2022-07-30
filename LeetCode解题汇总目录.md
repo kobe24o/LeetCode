@@ -12,7 +12,7 @@
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200613203541502.gif)
 
-**通过2204, 简单677/696, 中等1223/1413, 困难304/563**
+**通过2224, 简单679/701, 中等1240/1445, 困难305/576**
 
 - 2019.07.24 - 2019.11.09，AC + 400道（108天）
 
@@ -1672,6 +1672,7 @@
 | [LeetCode 1943. 描述绘画结果（差分思想）](https://michael.blog.csdn.net/article/details/119087554) |                                                              |
 | [LeetCode 1944. 队列中可以看到的人数（单调栈）](https://michael.blog.csdn.net/article/details/119088210) |                                                              |
 | [LeetCode 1945. 字符串转化后的各位数字之和](https://michael.blog.csdn.net/article/details/119099700) |                                                              |
+| [LeetCode 1947. 最大兼容性评分和（状态枚举DP）](https://michael.blog.csdn.net/article/details/126071744) |                                                              |
 | [LeetCode 1952. 三除数](https://michael.blog.csdn.net/article/details/119302708) |                                                              |
 | [LeetCode 1953. 你可以工作的最大周数](https://michael.blog.csdn.net/article/details/119303507) |                                                              |
 | [LeetCode 1954. 收集足够苹果的最小花园周长（数学）](https://michael.blog.csdn.net/article/details/119303971) |                                                              |
@@ -1893,6 +1894,7 @@
 | [LeetCode 2336. 无限集中的最小数字（SortedSet）](https://michael.blog.csdn.net/article/details/126069612) |                                                              |
 | [LeetCode 2341. 数组能形成多少数对](https://michael.blog.csdn.net/article/details/126006700) |                                                              |
 | [LeetCode 2342. 数位和相等数对的最大和](https://michael.blog.csdn.net/article/details/126065592) |                                                              |
+| [LeetCode 2343. 裁剪数字后查询第 K 小的数字](https://michael.blog.csdn.net/article/details/126071169) |                                                              |
 | [LeetCode 2347. 最好的扑克手牌](https://michael.blog.csdn.net/article/details/126006724) |                                                              |
 | [LeetCode 2348. 全 0 子数组的数目](https://michael.blog.csdn.net/article/details/126065763) |                                                              |
 | [LeetCode 2349. 设计数字容器系统（SortedSet）](https://michael.blog.csdn.net/article/details/126070776) |                                                              |
