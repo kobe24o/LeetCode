@@ -1846,6 +1846,7 @@
 | [LeetCode 2243. 计算字符串的数字和](https://michael.blog.csdn.net/article/details/124228946) |                                                              |
 | [LeetCode 2244. 完成所有任务需要的最少轮数](https://michael.blog.csdn.net/article/details/124229380) |                                                              |
 | [LeetCode 2248. 多个数组求交集（set）](https://blog.csdn.net/qq_21201267/article/details/124494209) |                                                              |
+| [LeetCode 2249. 统计圆内格点数目](https://blog.csdn.net/qq_21201267/article/details/125826782) |                                                              |
 | [LeetCode 2255. 统计是给定字符串前缀的字符串数目](https://blog.csdn.net/qq_21201267/article/details/124522564) |                                                              |
 | [LeetCode 2256. 最小平均差（前缀和）](https://blog.csdn.net/qq_21201267/article/details/124523789) |                                                              |
 | [LeetCode 2257. 统计网格图中没有被保卫的格子数](https://blog.csdn.net/qq_21201267/article/details/124528094) |                                                              |
@@ -1887,14 +1888,17 @@
 | [LeetCode 2319. 判断矩阵是否是一个 X 矩阵](https://blog.csdn.net/qq_21201267/article/details/125825798) |                                                              |
 | [LeetCode 2325. 解密消息（map）](https://blog.csdn.net/qq_21201267/article/details/125825948) |                                                              |
 | [LeetCode 2331. 计算布尔二叉树的值（树的遍历）](https://blog.csdn.net/qq_21201267/article/details/125826073) |                                                              |
+| [LeetCode 2333. 最小差值平方和（贪心）](https://michael.blog.csdn.net/article/details/126070356) |                                                              |
 | [LeetCode 2335. 装满杯子需要的最短总时长](https://blog.csdn.net/qq_21201267/article/details/125826157) |                                                              |
-| [LeetCode 2249. 统计圆内格点数目](https://blog.csdn.net/qq_21201267/article/details/125826782) |                                                              |
+| [LeetCode 2336. 无限集中的最小数字（SortedSet）](https://michael.blog.csdn.net/article/details/126069612) |                                                              |
 | [LeetCode 2341. 数组能形成多少数对](https://michael.blog.csdn.net/article/details/126006700) |                                                              |
 | [LeetCode 2342. 数位和相等数对的最大和](https://michael.blog.csdn.net/article/details/126065592) |                                                              |
 | [LeetCode 2347. 最好的扑克手牌](https://michael.blog.csdn.net/article/details/126006724) |                                                              |
 | [LeetCode 2348. 全 0 子数组的数目](https://michael.blog.csdn.net/article/details/126065763) |                                                              |
+| [LeetCode 2349. 设计数字容器系统（SortedSet）](https://michael.blog.csdn.net/article/details/126070776) |                                                              |
 | [LeetCode 2351. 第一个出现两次的字母](https://michael.blog.csdn.net/article/details/126006736) |                                                              |
 | [LeetCode 2352. 相等行列对](https://michael.blog.csdn.net/article/details/126065925) |                                                              |
+| [LeetCode 2353. 设计食物评分系统（sortedcontainers）](https://michael.blog.csdn.net/article/details/126069358) |                                                              |
 | [LeetCode LCP 11. 期望个数统计](https://michael.blog.csdn.net/article/details/105755974) |                                                              |
 | [LeetCode LCP 12. 小张刷题计划（二分查找）](https://michael.blog.csdn.net/article/details/105921940) |                                                              |
 | [LeetCode LCP 17. 速算机器人](https://michael.blog.csdn.net/article/details/108553304#1_LeetCode_LCP_17__easy_18) |                                                              |
